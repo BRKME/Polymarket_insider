@@ -24315,5 +24315,116 @@
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
     }
+  },
+  {
+    "market": "US strikes Iran by March 2, 2026?",
+    "market_slug": "us-strikes-iran-by-march-2-2026",
+    "wallet": "0x45fb8b9fcbdb768d33e9e7301dc626e38625aad0",
+    "analysis": {
+      "score": 80,
+      "flags": [
+        "New wallet (3d old)",
+        "Large bet ($1,012)",
+        "Pre-event latency: 8910m"
+      ],
+      "amount": 1011.9753000000001,
+      "odds": 0.2711282371411884,
+      "raw_price": 0.2711282371411884,
+      "outcome": "Yes",
+      "potential_pnl": 2720.4847,
+      "pnl_multiplier": 2.6882916015835563,
+      "wallet_age_days": 3,
+      "total_activities": 12
+    },
+    "timestamp": "2026-02-23T19:31:27.296473",
+    "trade_hash": "0x64450d3b4721b9009d7f21ec60979773fefc32abe1eabd4126dccc1ab6839732",
+    "trade_timestamp": 1771874974,
+    "latency": {
+      "latency_seconds": 534626.0,
+      "latency_minutes": 8910.433333333332,
+      "is_pre_event": true,
+      "severity": "CRITICAL",
+      "trade_time": "2026-02-23T19:29:34+00:00",
+      "event_time": "2026-03-02T00:00:00+00:00"
+    },
+    "wallet_stats": null,
+    "trade_data": {
+      "outcome": "Yes",
+      "side": "SELL",
+      "price": 0.2711282371411884,
+      "effective_price": 0.2711282371411884,
+      "size": 3732.46,
+      "amount": 1011.9753000000001,
+      "potential_pnl": 2720.4847,
+      "pnl_multiplier": 2.6882916015835563,
+      "is_no": false
+    },
+    "irrationality": {
+      "irrationality_score": 75,
+      "flags": [
+        "Longshot (27%) in high bias category (geopolitics)",
+        "Category structurally prone to longshot bias",
+        "Crisis keyword detected ('strike')",
+        "Large mispricing edge (+19.3%)"
+      ],
+      "category": "geopolitics",
+      "category_info": {
+        "strength": "high",
+        "typical_overpricing": 0.05,
+        "min_edge": 0.05
+      },
+      "is_irrational": true
+    },
+    "mispricing": {
+      "rational_estimate": 0.07822564742823768,
+      "market_price": 0.2711282371411884,
+      "edge": 0.1929025897129507,
+      "edge_percent": 19.29025897129507,
+      "min_edge_required": 0.05,
+      "is_mispriced": true,
+      "edge_quality": "STRONG",
+      "base_rate_class": "rare",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "rare",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "Escalation of tensions between the US and Iran",
+          "Support from key allies for military action",
+          "Domestic political climate favoring military intervention"
+        ],
+        "weakest_link": "Domestic political climate favoring military intervention"
+      },
+      "category": "geopolitics",
+      "narrative_drivers": [
+        "Rising regional conflicts involving Iran",
+        "Influence of military-industrial complex on US foreign policy"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "CONFLICT",
+      "signal_emoji": "\u26a0\ufe0f",
+      "signal_strength": 80,
+      "interpretation": "Insider buying YES despite statistical overpricing",
+      "action_suggestion": "Requires manual analysis: insider may have real info OR is part of irrational crowd",
+      "insider_score": 80,
+      "insider_position": "YES",
+      "irrationality_score": 75,
+      "is_irrational": true,
+      "is_mispriced": true,
+      "edge": 0.1929025897129507,
+      "edge_percent": 19.29025897129507
+    },
+    "financial_analyst": {
+      "signal_quality": 56.0,
+      "stance": "SELECTIVE",
+      "edge_percent": 19.29,
+      "signal_strength": 80.0,
+      "insider_score": 80.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    }
   }
 ]
