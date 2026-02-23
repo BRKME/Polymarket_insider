@@ -24113,5 +24113,207 @@
       "insider_score": 90.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
     }
+  },
+  {
+    "market": "Will the Colorado Avalanche win the 2026 NHL Stanley Cup?",
+    "market_slug": "will-the-colorado-avalanche-win-the-2026-nhl-stanley-cup",
+    "wallet": "0x55972446c7db764b26ceb96f3a9cd1888449ef37",
+    "analysis": {
+      "score": 70,
+      "flags": [
+        "New wallet (0d old)",
+        "Large bet ($3,802)",
+        "Low activity (1 txns)"
+      ],
+      "amount": 3802.48,
+      "odds": 0.22,
+      "raw_price": 0.22,
+      "outcome": "Yes",
+      "potential_pnl": 13481.52,
+      "pnl_multiplier": 3.5454545454545454,
+      "wallet_age_days": 0,
+      "total_activities": 1
+    },
+    "timestamp": "2026-02-23T04:28:41.568819",
+    "trade_hash": "0xe718bab06080853fb5b6e5a1411e90d27c89968e76dc8e4399fa5ef77487ae28",
+    "trade_timestamp": 1771820782,
+    "latency": null,
+    "wallet_stats": null,
+    "trade_data": {
+      "outcome": "Yes",
+      "side": "BUY",
+      "price": 0.22,
+      "effective_price": 0.22,
+      "size": 17284.0,
+      "amount": 3802.48,
+      "potential_pnl": 13481.52,
+      "pnl_multiplier": 3.5454545454545454,
+      "is_no": false
+    },
+    "irrationality": {
+      "irrationality_score": 25,
+      "flags": [
+        "Significant mispricing edge (+11.6%)"
+      ],
+      "category": "politics_near",
+      "category_info": {
+        "strength": "medium",
+        "typical_overpricing": 0.02,
+        "min_edge": 0.03
+      },
+      "is_irrational": false
+    },
+    "mispricing": {
+      "rational_estimate": 0.10400000000000001,
+      "market_price": 0.22,
+      "edge": 0.11599999999999999,
+      "edge_percent": 11.6,
+      "min_edge_required": 0.05,
+      "is_mispriced": true,
+      "edge_quality": "STRONG",
+      "base_rate_class": "occasional",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "occasional",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "The team maintains a competitive roster with key players performing at a high level.",
+          "The coaching staff implements effective strategies and adapts to opponents.",
+          "The team avoids significant injuries to star players throughout the season."
+        ],
+        "weakest_link": "The team avoids significant injuries to star players throughout the season."
+      },
+      "category": "sports",
+      "narrative_drivers": [
+        "Recent performance trends and playoff success of the team.",
+        "Strength of competition in the NHL during the 2025-2026 season."
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "CONFLICT",
+      "signal_emoji": "\u26a0\ufe0f",
+      "signal_strength": 70,
+      "interpretation": "Insider buying YES despite statistical overpricing",
+      "action_suggestion": "Requires manual analysis: insider may have real info OR is part of irrational crowd",
+      "insider_score": 70,
+      "insider_position": "YES",
+      "irrationality_score": 25,
+      "is_irrational": false,
+      "is_mispriced": true,
+      "edge": 0.11599999999999999,
+      "edge_percent": 11.6
+    },
+    "financial_analyst": {
+      "signal_quality": 36.4,
+      "stance": "WATCH_ONLY",
+      "edge_percent": 11.6,
+      "signal_strength": 70.0,
+      "insider_score": 70.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    }
+  },
+  {
+    "market": "Will the Colorado Avalanche win the 2026 NHL Stanley Cup?",
+    "market_slug": "will-the-colorado-avalanche-win-the-2026-nhl-stanley-cup",
+    "wallet": "0x7290b236fbf5a33a2236f888f9b5166c495734b8",
+    "analysis": {
+      "score": 70,
+      "flags": [
+        "New wallet (0d old)",
+        "Large bet ($1,010)",
+        "Low activity (1 txns)"
+      ],
+      "amount": 1009.58,
+      "odds": 0.22,
+      "raw_price": 0.22,
+      "outcome": "Yes",
+      "potential_pnl": 3579.42,
+      "pnl_multiplier": 3.5454545454545454,
+      "wallet_age_days": 0,
+      "total_activities": 1
+    },
+    "timestamp": "2026-02-23T04:28:47.722957",
+    "trade_hash": "0x487dc5535bc70a95ee43f1495ce1cf979e767d22e428a2da69fe29924a91c2b4",
+    "trade_timestamp": 1771820780,
+    "latency": null,
+    "wallet_stats": null,
+    "trade_data": {
+      "outcome": "Yes",
+      "side": "BUY",
+      "price": 0.22,
+      "effective_price": 0.22,
+      "size": 4589.0,
+      "amount": 1009.58,
+      "potential_pnl": 3579.42,
+      "pnl_multiplier": 3.5454545454545454,
+      "is_no": false
+    },
+    "irrationality": {
+      "irrationality_score": 25,
+      "flags": [
+        "Significant mispricing edge (+11.6%)"
+      ],
+      "category": "politics_near",
+      "category_info": {
+        "strength": "medium",
+        "typical_overpricing": 0.02,
+        "min_edge": 0.03
+      },
+      "is_irrational": false
+    },
+    "mispricing": {
+      "rational_estimate": 0.10400000000000001,
+      "market_price": 0.22,
+      "edge": 0.11599999999999999,
+      "edge_percent": 11.6,
+      "min_edge_required": 0.05,
+      "is_mispriced": true,
+      "edge_quality": "STRONG",
+      "base_rate_class": "occasional",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "occasional",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "The team maintains a strong roster with minimal injuries.",
+          "The coaching staff effectively develops player potential and strategies.",
+          "The team performs well in the regular season to secure a favorable playoff position."
+        ],
+        "weakest_link": "The team performs well in the regular season to secure a favorable playoff position."
+      },
+      "category": "sports",
+      "narrative_drivers": [
+        "Recent performance trends of the team and key players.",
+        "Changes in team management or player acquisitions leading up to the season."
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "CONFLICT",
+      "signal_emoji": "\u26a0\ufe0f",
+      "signal_strength": 70,
+      "interpretation": "Insider buying YES despite statistical overpricing",
+      "action_suggestion": "Requires manual analysis: insider may have real info OR is part of irrational crowd",
+      "insider_score": 70,
+      "insider_position": "YES",
+      "irrationality_score": 25,
+      "is_irrational": false,
+      "is_mispriced": true,
+      "edge": 0.11599999999999999,
+      "edge_percent": 11.6
+    },
+    "financial_analyst": {
+      "signal_quality": 36.4,
+      "stance": "WATCH_ONLY",
+      "edge_percent": 11.6,
+      "signal_strength": 70.0,
+      "insider_score": 70.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    }
   }
 ]
