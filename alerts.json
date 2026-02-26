@@ -24749,5 +24749,106 @@
       "insider_score": 85.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
     }
+  },
+  {
+    "market": "Will Axiom be accused of insider trading?",
+    "market_slug": "will-axiom-be-accused-of-insider-trading",
+    "wallet": "0xfd33347a3f0f6f1af318a3242a1a6ea3541ccbbb",
+    "analysis": {
+      "score": 70,
+      "flags": [
+        "New wallet (0d old)",
+        "Large bet ($1,200)",
+        "Low activity (1 txns)"
+      ],
+      "amount": 1199.9999990000001,
+      "odds": 0.39542106381700026,
+      "raw_price": 0.39542106381700026,
+      "outcome": "Yes",
+      "potential_pnl": 1834.7396970000002,
+      "pnl_multiplier": 1.5289497487741248,
+      "wallet_age_days": 0,
+      "total_activities": 1
+    },
+    "timestamp": "2026-02-26T06:12:24.429038",
+    "trade_hash": "0x43b8e09c1ed1401c5a7c82cb983dcc58dc56f3dcbb46e7b45597fd6b0daf66b4",
+    "trade_timestamp": 1772086234,
+    "latency": null,
+    "wallet_stats": null,
+    "trade_data": {
+      "outcome": "Yes",
+      "side": "BUY",
+      "price": 0.39542106381700026,
+      "effective_price": 0.39542106381700026,
+      "size": 3034.739696,
+      "amount": 1199.9999990000001,
+      "potential_pnl": 1834.7396970000002,
+      "pnl_multiplier": 1.5289497487741248,
+      "is_no": false
+    },
+    "irrationality": {
+      "irrationality_score": 35,
+      "flags": [
+        "Large mispricing edge (+29.6%)"
+      ],
+      "category": "other",
+      "category_info": {
+        "strength": "medium",
+        "typical_overpricing": 0.03,
+        "min_edge": 0.05
+      },
+      "is_irrational": true
+    },
+    "mispricing": {
+      "rational_estimate": 0.09908421276340006,
+      "market_price": 0.39542106381700026,
+      "edge": 0.2963368510536002,
+      "edge_percent": 29.63368510536002,
+      "min_edge_required": 0.05,
+      "is_mispriced": true,
+      "edge_quality": "STRONG",
+      "base_rate_class": "rare",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "rare",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "Evidence of non-public information being used by Axiom executives",
+          "Regulatory scrutiny or investigation initiated by authorities",
+          "Whistleblower or insider testimony supporting the accusation"
+        ],
+        "weakest_link": "Regulatory scrutiny or investigation initiated by authorities"
+      },
+      "category": "other",
+      "narrative_drivers": [
+        "Increased media attention on corporate governance and insider trading",
+        "Recent high-profile cases influencing public perception and regulatory action"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "CONFLICT",
+      "signal_emoji": "\u26a0\ufe0f",
+      "signal_strength": 70,
+      "interpretation": "Insider buying YES despite statistical overpricing",
+      "action_suggestion": "Requires manual analysis: insider may have real info OR is part of irrational crowd",
+      "insider_score": 70,
+      "insider_position": "YES",
+      "irrationality_score": 35,
+      "is_irrational": true,
+      "is_mispriced": true,
+      "edge": 0.2963368510536002,
+      "edge_percent": 29.63368510536002
+    },
+    "financial_analyst": {
+      "signal_quality": 46.0,
+      "stance": "WATCH_ONLY",
+      "edge_percent": 29.63,
+      "signal_strength": 70.0,
+      "insider_score": 70.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    }
   }
 ]
