@@ -242,36 +242,45 @@ See [POLICY.md](POLICY.md) for complete methodology.
 
 **Critical:** This system is a hypothesis until empirically validated.
 
+### Methodology
+
+The backtest engine implements scientific rigor:
+
+| Requirement | Implementation |
+|-------------|----------------|
+| No lookahead bias | Features use only data before trade timestamp |
+| Transaction costs | 2% commission + 0.5% slippage |
+| Train/test split | 70/30 time-based (not random) |
+| Baseline comparison | Random, Always-NO, Follow-odds strategies |
+| Statistical significance | t-stat > 2.0, min 30 trades |
+
 ### Run Backtest
 
 ```bash
 # Step 1: Collect resolved markets (last 90 days)
 python backtest.py collect 90
 
-# Step 2: Run signal reconstruction
+# Step 2: Run walk-forward backtest with baselines
 python backtest.py run
 
-# Step 3: View metrics
-python backtest.py report
+# Step 3: Verify no lookahead bias
+python backtest.py audit
 ```
-
-### Metrics Calculated
-
-| Metric | Purpose |
-|--------|---------|
-| ROI per signal type | Which signals actually generate alpha |
-| Feature importance | Which factors drive returns (wallet_age, pre_event, etc.) |
-| Win rate | Hit rate by signal type |
-| Max drawdown | Worst cumulative loss |
-| ROI distribution | Fat tail check |
 
 ### Interpreting Results
 
 ```
-✅ ROI > 10%  → Proceed to probabilistic modeling
-⚠️ ROI 0-10% → Tighten filters, review feature weights
-❌ ROI < 0%   → Hypothesis falsified, revise methodology
+✅ t-stat > 2.0 AND beats baselines → Potential edge, proceed cautiously
+⚠️ t-stat < 2.0                     → Results are noise, not signal
+❌ ROI < baselines                   → System has no value
 ```
+
+### What Defines Success
+
+1. **Statistical significance** — t-stat > 2.0 (95% confidence)
+2. **Beats baselines** — ROI > Random AND ROI > Always-NO
+3. **Survives costs** — Positive ROI after commission + slippage
+4. **Stable across time** — Works on test set (not just train)
 
 ### Expected Outcome
 

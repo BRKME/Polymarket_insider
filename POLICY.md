@@ -315,6 +315,16 @@ Track which signal type generates returns:
 | Overconfidence | Threshold-based scoring feels precise but isn't |
 | False precision | Point values imply accuracy we don't have |
 
+### Validation Requirements
+
+Before this system can be considered validated, it must:
+
+1. **Pass lookahead audit** — `python backtest.py audit` all checks green
+2. **Achieve t-stat > 2.0** — 95% statistical confidence
+3. **Beat all baselines** — ROI > Random, Always-NO, Follow-odds
+4. **Survive transaction costs** — Positive ROI after 2% commission + 0.5% slippage
+5. **Stable on test set** — Works on 30% holdout data (not seen during development)
+
 ### Validation Status
 
 **Current status: UNVALIDATED HYPOTHESIS**
@@ -324,7 +334,7 @@ This system requires empirical backtest to determine:
 - Which features actually predict outcomes
 - What the real variance and drawdown look like
 
-Until backtest is complete, treat all signals as exploratory, not actionable.
+Until backtest passes ALL validation requirements, treat all signals as exploratory.
 
 ---
 
@@ -332,6 +342,7 @@ Until backtest is complete, treat all signals as exploratory, not actionable.
 
 | Version | Date | Changes |
 |---------|------|---------|
+| 2.2 | 2026-02 | Scientifically rigorous backtest: lookahead prevention, t-stat, baselines |
 | 2.1 | 2026-02 | Added Limitations section, backtest engine, validation framework |
 | 2.0 | 2026-02 | Added Top Trader copy, revised UI, action framework |
 | 1.0 | 2026-01 | Initial insider + irrationality system |
