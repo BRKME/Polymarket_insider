@@ -241,6 +241,7 @@ def format_institutional_alert(alert):
     trade_info = format_trade_info(alert)
     wallet_stats = alert.get('wallet_stats')
     latency = alert.get('latency')
+    top_trader = alert.get('top_trader')
     
     combined_signal = alert.get('combined_signal', {})
     irrationality = alert.get('irrationality', {})
@@ -250,14 +251,18 @@ def format_institutional_alert(alert):
     signal_emoji = combined_signal.get('signal_emoji', '👁️')
     
     # === HEADER ===
-    header_map = {
-        "ALPHA": f"{signal_emoji} ALPHA — Insider + Statistics Aligned",
-        "CONFLICT": f"{signal_emoji} CONFLICT — Insider vs Statistics",
-        "INSIDER_CONFIRMED": f"{signal_emoji} INSIDER CONFIRMED",
-        "CONTRARIAN_INSIDER": f"{signal_emoji} CONTRARIAN INSIDER",
-        "INSIDER_ONLY": f"{signal_emoji} INSIDER ACTIVITY"
-    }
-    header = header_map.get(signal_type, f"{signal_emoji} SIGNAL")
+    # Override header if top trader
+    if top_trader:
+        header = f"👑 TOP TRADER #{top_trader['rank']} + {signal_type}"
+    else:
+        header_map = {
+            "ALPHA": f"{signal_emoji} ALPHA — Insider + Statistics Aligned",
+            "CONFLICT": f"{signal_emoji} CONFLICT — Insider vs Statistics",
+            "INSIDER_CONFIRMED": f"{signal_emoji} INSIDER CONFIRMED",
+            "CONTRARIAN_INSIDER": f"{signal_emoji} CONTRARIAN INSIDER",
+            "INSIDER_ONLY": f"{signal_emoji} INSIDER ACTIVITY"
+        }
+        header = header_map.get(signal_type, f"{signal_emoji} SIGNAL")
     
     # === MARKET STATE (Primary focus) ===
     yes_price = alert.get('trade_data', {}).get('price', 0)
@@ -294,7 +299,9 @@ Mispricing: {edge:+.1f}% ({overpriced_side} overpriced)
     amount = float(analysis.get('amount', 0))
     
     # Wallet age description
-    if wallet_stats:
+    if top_trader:
+        wallet_desc = f"Top #{top_trader['rank']} (${top_trader['profit']:,.0f} profit, {top_trader['win_rate']*100:.0f}% win)"
+    elif wallet_stats:
         classification = wallet_stats.get('classification', 'Unknown')
         total_trades = wallet_stats.get('total_trades', 0)
         wallet_desc = f"{classification} ({total_trades} trades)"
@@ -313,9 +320,12 @@ Mispricing: {edge:+.1f}% ({overpriced_side} overpriced)
     else:
         lead_time = None
     
+    # Section header depends on top_trader
+    section_header = "👑 TOP TRADER" if top_trader else "👤 INSIDER"
+    
     message += f"""
 
-👤 INSIDER
+{section_header}
 Wallet: {wallet}
 Bet: ${amount:,.0f} {trade_info['position']}
 Profile: {wallet_desc}"""
@@ -326,9 +336,14 @@ Profile: {wallet_desc}"""
     # === RISK ASSESSMENT ===
     risks = []
     
-    # Wallet risks
-    if not wallet_stats or wallet_stats.get('total_trades', 0) < 3:
-        risks.append("New wallet (low credibility)")
+    # Top trader = lower risk
+    if top_trader:
+        if top_trader['win_rate'] >= 0.65:
+            risks.append(f"High win rate ({top_trader['win_rate']*100:.0f}%) — strong track record")
+    else:
+        # Wallet risks
+        if not wallet_stats or wallet_stats.get('total_trades', 0) < 3:
+            risks.append("New wallet (low credibility)")
     
     # Size risks
     if amount < 5000:

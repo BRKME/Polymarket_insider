@@ -40,8 +40,8 @@ SCORES = {
 # */2 and */3 are unreliable and cause ~30 min actual intervals
 TRADES_LIMIT = 500          # Real API limit (not 10000!)
 MAX_PAGES = 20              # Up to 10,000 trades (20 × 500)
-MINUTES_BACK = 10           # Look back 10 minutes for */5 frequency
-                            # Provides 2× overlap for reliability
+MINUTES_BACK = 20           # Look back 20 minutes for */5 frequency
+                            # Increased from 10 for reliability (cron drift)
 PAGE_DELAY = 1.0            # Delay between paginated requests
 REQUEST_DELAY = 0.5         # Base delay for API requests
 

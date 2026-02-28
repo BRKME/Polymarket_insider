@@ -213,7 +213,21 @@ def detect_insider_trades():
                 
                 analysis['score'] += history_score
                 
-                print(f"  📊 Score: {analysis['score']}/150 (base: {analysis['score'] - latency_score - history_score}, latency: +{latency_score}, history: +{history_score})")
+                # Check if wallet is a top trader (leaderboard)
+                top_trader_score = 0
+                top_trader_info = None
+                try:
+                    from top_traders import is_top_trader
+                    top_trader_info = is_top_trader(wallet_address)
+                    if top_trader_info:
+                        top_trader_score = 30  # Significant bonus for top trader
+                        analysis['score'] += top_trader_score
+                        analysis['flags'].append(f"Top trader #{top_trader_info['rank']} (${top_trader_info['profit']:,.0f} profit)")
+                        print(f"  👑 TOP TRADER: Rank #{top_trader_info['rank']}, profit ${top_trader_info['profit']:,.0f}")
+                except Exception as e:
+                    print(f"  ⚠️  Top trader check skipped: {e}")
+                
+                print(f"  📊 Score: {analysis['score']}/180 (base: {analysis['score'] - latency_score - history_score - top_trader_score}, latency: +{latency_score}, history: +{history_score}, top_trader: +{top_trader_score})")
                 print(f"     Flags: {', '.join(analysis['flags']) if analysis['flags'] else 'None'}")
                 print(f"     Wallet age: {analysis['wallet_age_days']} days")
                 print(f"     Activities: {analysis['total_activities']}")
@@ -305,6 +319,8 @@ def detect_insider_trades():
                             "latency": latency_data,
                             # Wallet stats
                             "wallet_stats": wallet_stats,
+                            # Top trader info (if applicable)
+                            "top_trader": top_trader_info,
                             # ══════════════════════════════════════════
                             # FIX: Trade data with correct NO handling
                             # ══════════════════════════════════════════
