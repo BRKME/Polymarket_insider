@@ -40,6 +40,9 @@ jobs:
           echo "═══════════════════════════════════════════════════════════════"
           python backtest.py audit
       
+      - name: Clear old data
+        run: rm -f backtest.db config_hash.json
+      
       - name: Collect data
         run: |
           DAYS="${{ inputs.days_back }}"

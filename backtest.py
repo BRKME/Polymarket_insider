@@ -235,18 +235,38 @@ def fetch_resolved_markets(days_back: int = 90, limit: int = 500) -> List[Dict]:
         if markets:
             sample = markets[0]
             print(f"[DEBUG] Sample market raw data:")
-            print(f"   outcomes: {sample.get('outcomes')}")
-            print(f"   outcomePrices: {sample.get('outcomePrices')}")
+            print(f"   outcomes (raw): {sample.get('outcomes')} (type: {type(sample.get('outcomes')).__name__})")
+            print(f"   outcomePrices (raw): {sample.get('outcomePrices')} (type: {type(sample.get('outcomePrices')).__name__})")
+            
+            # Try to parse
+            outcomes_parsed = sample.get('outcomes', [])
+            if isinstance(outcomes_parsed, str):
+                try:
+                    outcomes_parsed = json.loads(outcomes_parsed)
+                except:
+                    pass
+            print(f"   outcomes (parsed): {outcomes_parsed}")
             print(f"   resolutionSource: {sample.get('resolutionSource')}")
-            print(f"   closed: {sample.get('closed')}")
         
         for m in markets:
             if not m.get('resolutionSource'):
                 skipped_no_resolution += 1
                 continue
             
+            # Parse outcomes - may be JSON string or list
             outcomes = m.get('outcomes', [])
+            if isinstance(outcomes, str):
+                try:
+                    outcomes = json.loads(outcomes)
+                except:
+                    outcomes = []
+            
             outcome_prices = m.get('outcomePrices', [])
+            if isinstance(outcome_prices, str):
+                try:
+                    outcome_prices = json.loads(outcome_prices)
+                except:
+                    outcome_prices = []
             
             # Method 1: Check for price = 1.0 (fully resolved)
             winning = None
