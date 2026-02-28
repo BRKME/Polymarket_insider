@@ -231,6 +231,15 @@ def fetch_resolved_markets(days_back: int = 90, limit: int = 500) -> List[Dict]:
         skipped_no_resolution = 0
         skipped_no_outcome = 0
         
+        # DEBUG: Show sample raw market data
+        if markets:
+            sample = markets[0]
+            print(f"[DEBUG] Sample market raw data:")
+            print(f"   outcomes: {sample.get('outcomes')}")
+            print(f"   outcomePrices: {sample.get('outcomePrices')}")
+            print(f"   resolutionSource: {sample.get('resolutionSource')}")
+            print(f"   closed: {sample.get('closed')}")
+        
         for m in markets:
             if not m.get('resolutionSource'):
                 skipped_no_resolution += 1
@@ -239,12 +248,32 @@ def fetch_resolved_markets(days_back: int = 90, limit: int = 500) -> List[Dict]:
             outcomes = m.get('outcomes', [])
             outcome_prices = m.get('outcomePrices', [])
             
+            # Method 1: Check for price = 1.0 (fully resolved)
             winning = None
             for i, p in enumerate(outcome_prices):
                 try:
-                    if float(p) > 0.95 and i < len(outcomes):
+                    price = float(p)
+                    # Resolved markets have one outcome at 1.0 and others at 0.0
+                    if price >= 0.99 and i < len(outcomes):
                         winning = outcomes[i]
                         break
+                except:
+                    pass
+            
+            # Method 2: If no 1.0 price, check 'resolved' field
+            if not winning and m.get('resolved'):
+                # Some APIs return resolved outcome directly
+                resolved_outcome = m.get('resolvedOutcome') or m.get('winner')
+                if resolved_outcome:
+                    winning = resolved_outcome
+            
+            # Method 3: Use highest price if market is closed
+            if not winning and m.get('closed') and outcome_prices:
+                try:
+                    prices = [float(p) for p in outcome_prices]
+                    max_idx = prices.index(max(prices))
+                    if max(prices) > 0.9 and max_idx < len(outcomes):
+                        winning = outcomes[max_idx]
                 except:
                     pass
             
@@ -304,12 +333,18 @@ def fetch_trades_for_market(condition_id: str, min_amount: float = 1000) -> List
                 outcome = t.get('outcome', 'Yes')
                 amount = size * (1 - price) if outcome.lower() == 'no' else size * price
                 
+                # Get timestamp - might be in milliseconds
+                ts = t.get('timestamp', 0)
+                # If timestamp is in milliseconds (13 digits), convert to seconds
+                if ts > 10000000000:
+                    ts = ts // 1000
+                
                 if amount >= min_amount:
                     trades.append({
                         'trade_hash': t.get('transactionHash', ''),
                         'wallet': t.get('proxyWallet', ''),
                         'condition_id': condition_id,
-                        'timestamp': t.get('timestamp', 0),
+                        'timestamp': ts,
                         'outcome': outcome,
                         'price': price,
                         'size': size,
@@ -887,6 +922,33 @@ def run_backtest():
     
     print(f"\n📊 Data: {len(trades)} trades, {len(markets)} markets")
     print(f"   Range: {datetime.fromtimestamp(trades[0].timestamp).date()} → {datetime.fromtimestamp(trades[-1].timestamp).date()}")
+    
+    # DEBUG: Check sample trades and outcomes
+    print(f"\n🔍 DEBUG: Sample data check")
+    sample_trades = trades[:5]
+    win_count = 0
+    for t in sample_trades:
+        m = markets.get(t.condition_id)
+        if m:
+            is_win = t.outcome.lower() == m.outcome.lower()
+            if is_win:
+                win_count += 1
+            print(f"   Trade: {t.outcome}, Market resolved: {m.outcome}, Match: {is_win}")
+    
+    # Check overall win distribution
+    total_wins = sum(1 for t in trades if markets.get(t.condition_id) and t.outcome.lower() == markets[t.condition_id].outcome.lower())
+    print(f"   Overall: {total_wins}/{len(trades)} trades match market outcome ({total_wins/len(trades)*100:.1f}%)")
+    
+    # Check timestamps
+    print(f"\n🔍 DEBUG: Timestamp check")
+    print(f"   First trade timestamp: {trades[0].timestamp} → {datetime.fromtimestamp(trades[0].timestamp)}")
+    print(f"   Last trade timestamp: {trades[-1].timestamp} → {datetime.fromtimestamp(trades[-1].timestamp)}")
+    
+    # Check market outcomes distribution
+    outcome_dist = {}
+    for m in markets.values():
+        outcome_dist[m.outcome] = outcome_dist.get(m.outcome, 0) + 1
+    print(f"   Market outcomes: {outcome_dist}")
     
     # ═══════════════════════════════════════════════════════════════
     # EXPANDING WALK-FORWARD
