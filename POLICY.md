@@ -315,42 +315,63 @@ Track which signal type generates returns:
 | Overconfidence | Threshold-based scoring feels precise but isn't |
 | False precision | Point values imply accuracy we don't have |
 
-### Validation Requirements
+### Validation Requirements v4
 
-Before this system can be considered validated, it must pass ALL criteria:
+| # | Criterion | Threshold | Type |
+|---|-----------|-----------|------|
+| 1 | Trade count | ≥ 100 | Hard |
+| 2 | t-stat (robust) | > 2.0 | Hard |
+| 3 | ROI after costs | > 0 | Hard |
+| 4 | vs Baselines | > best | Hard |
+| 5 | Max drawdown | < 30% | Hard |
+| 6 | Profit factor | > 1.2 | Hard |
+| 7 | Survives top-10% removal | ROI > 0 | Stress |
+| 8 | Cost sensitivity | 6/8 scenarios | Stress |
+| 9 | Folds profitable | ≥ 60% | Stability |
+| 10 | Tail dependence | Not dominated | Distribution |
 
-| # | Criterion | Threshold | Rationale |
-|---|-----------|-----------|-----------|
-| 1 | Trade count | ≥ 100 | Statistical power |
-| 2 | t-stat (Newey-West) | > 2.0 | Autocorrelation-adjusted significance |
-| 3 | ROI after costs | > 0 | Survives transaction costs |
-| 4 | vs Baselines | > best | Alpha over random/always-NO/follow-odds |
-| 5 | Max drawdown | < 30% | Risk management |
-| 6 | Profit factor | > 1.2 | Gross profit / gross loss |
-| 7 | Concentration | < 80% | Top 10% trades < 80% of profits |
-| 8 | Fold consistency | > 50% | Majority of walk-forward folds profitable |
+### t-stat Robustness
+
+Three SE estimators are computed, most conservative used:
+- **Simple:** Standard √(var/n)
+- **Newey-West:** Autocorrelation correction (lag 5)
+- **Cluster-robust:** Grouped by market ID
+
+If significance disappears under clustering → edge likely spurious.
 
 ### Walk-Forward Methodology
 
-The backtest uses expanding-window walk-forward:
+**Expanding:** Train [0→T], Test [T→T+k], expand T
+**Rolling:** Fixed window (150 train, 50 test), slide forward
 
+Both must show consistent performance across folds.
+
+### Stress Tests
+
+Remove top N% most profitable trades and recalculate:
+- If ROI turns negative → system is tail-dependent
+- This is a red flag, not automatic disqualification
+
+Cost sensitivity across 8 scenarios:
+- Must survive at least 6/8 with positive ROI
+- Includes worst-case (+2% fee, 90% taker, 2x slippage)
+
+### Parameter Freeze
+
+All parameters are hashed (SHA256) before first backtest:
 ```
-Fold 1: Train [0-T1] → Test [T1-T2]
-Fold 2: Train [0-T2] → Test [T2-T3]
-Fold 3: Train [0-T3] → Test [T3-T4]
-...
+SCORE_WEIGHTS, SIGNAL_THRESHOLDS, T_STAT_THRESHOLD, etc.
 ```
 
-This prevents:
-- Lookahead bias (only past data used)
-- Regime overfitting (tested across multiple periods)
-- Single-period luck (averaged across folds)
+Changing any parameter after seeing results → new version required.
+Config hash is stored in `config_hash.json`.
 
 ### Validation Status
 
 **Current status: UNVALIDATED HYPOTHESIS**
 
-Run `python backtest.py run` to validate. System must pass 8/8 criteria to be considered validated for live testing.
+Run `python backtest.py run` to validate. 
+System must pass 10/10 criteria to be considered validated.
 
 ---
 
@@ -358,6 +379,7 @@ Run `python backtest.py run` to validate. System must pass 8/8 criteria to be co
 
 | Version | Date | Changes |
 |---------|------|---------|
+| 2.4 | 2026-02 | Hardened backtest: cluster-robust SE, stress tests, rolling WF, config hash |
 | 2.3 | 2026-02 | Walk-forward CV, Newey-West t-stat, stability tests, hard filters |
 | 2.2 | 2026-02 | Scientifically rigorous backtest: lookahead prevention, t-stat, baselines |
 | 2.1 | 2026-02 | Added Limitations section, backtest engine, validation framework |

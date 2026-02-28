@@ -242,18 +242,20 @@ See [POLICY.md](POLICY.md) for complete methodology.
 
 **Critical:** This system is a hypothesis until empirically validated.
 
-### Methodology v3
+### Methodology v4 — Hardened
 
 | Requirement | Implementation |
 |-------------|----------------|
 | No lookahead | Features use only data before trade timestamp |
-| Walk-forward | 5-fold expanding window (not single split) |
-| Autocorrelation | Newey-West adjusted t-stat |
-| Transaction costs | Maker/taker fees + volume-dependent slippage |
-| Baselines | Same signals, same moments (strictly comparable) |
-| Stability | By quarter, by category, concentration check |
-| Hard filters | >100 trades, DD <30%, profit factor >1.2 |
-| Fixed params | Scoring weights locked before testing |
+| Walk-forward | Expanding + Rolling (by trade count) |
+| Autocorrelation | Newey-West + Cluster-robust SE (by market) |
+| t-stat | Most conservative of simple/NW/cluster |
+| Transaction costs | Maker/taker + volume-dependent slippage |
+| Baselines | Same signals, same moments |
+| Stress: removal | Survives top 10% removal |
+| Stress: costs | Survives +1-2% fee, 1.5-2x slippage |
+| Distribution | Tail dependence check |
+| Config freeze | SHA256 hash of all parameters |
 
 ### Run Backtest
 
@@ -261,32 +263,48 @@ See [POLICY.md](POLICY.md) for complete methodology.
 # Step 1: Collect resolved markets
 python backtest.py collect 90
 
-# Step 2: Methodology audit
+# Step 2: Verify methodology
 python backtest.py audit
 
-# Step 3: Walk-forward backtest
+# Step 3: Run hardened backtest
 python backtest.py run
 ```
 
-### Validation Criteria (ALL must pass)
+### Validation Criteria (ALL 10 must pass)
 
 ```
-✅ Sufficient trades (>=100)
-✅ t-stat Newey-West > 2.0
-✅ Positive ROI after costs
-✅ Beats all baselines (random, always-NO, follow-odds)
+✅ Trades >= 100
+✅ t-stat (robust) > 2.0
+✅ ROI > 0 after costs
+✅ Beats all baselines
 ✅ Max drawdown < 30%
 ✅ Profit factor > 1.2
-✅ Not concentrated (top 10% trades < 80% profit)
-✅ Majority of folds profitable
+✅ Survives top-10% removal
+✅ Cost sensitivity OK (6/8+ scenarios)
+✅ Folds profitable >= 60%
+✅ Not tail-dominated
 ```
+
+### Stress Tests
+
+| Test | What it checks |
+|------|----------------|
+| Remove top 5% | Not dependent on outliers |
+| Remove top 10% | Edge survives without tail |
+| +1% fee | Robust to higher commission |
+| +2% fee | Extreme cost scenario |
+| 80% taker | More aggressive fills |
+| 90% taker | Worst-case fills |
+| 1.5x slippage | Higher market impact |
+| 2x slippage | Extreme illiquidity |
+| Worst case | All costs elevated |
 
 ### Interpreting Results
 
 ```
-8/8 passed → VALIDATED — live test with small capital
-6-7/8 passed → MARGINAL — review failing criteria
-<6/8 passed → FALSIFIED — no robust edge
+10/10 → ✅ VALIDATED — proceed to paper trading
+8-9/10 → ⚠️ MARGINAL — review failing criteria
+<8/10  → ❌ FALSIFIED — no robust edge
 ```
 
 ---
