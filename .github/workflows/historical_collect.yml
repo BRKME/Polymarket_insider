@@ -1,0 +1,156 @@
+name: Historical Data Collection
+
+on:
+  # Run every 10 minutes
+  schedule:
+    - cron: '*/10 * * * *'
+  
+  # Manual trigger
+  workflow_dispatch:
+    inputs:
+      command:
+        description: 'Command to run'
+        required: false
+        default: 'collect'
+        type: choice
+        options:
+          - collect
+          - stats
+          - export
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      CI: true
+    
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: Install dependencies
+        run: pip install requests
+      
+      - name: Download existing database
+        uses: dawidd6/action-download-artifact@v3
+        with:
+          name: historical-data
+          path: .
+          search_artifacts: true
+          if_no_artifact_found: warn
+        continue-on-error: true
+      
+      - name: Run collection
+        run: |
+          CMD="${{ inputs.command }}"
+          CMD="${CMD:-collect}"
+          echo "Running: python historical_collector.py ${CMD}"
+          python historical_collector.py ${CMD}
+      
+      - name: Show stats
+        if: always()
+        run: python historical_collector.py stats
+      
+      - name: Upload database
+        uses: actions/upload-artifact@v4
+        with:
+          name: historical-data
+          path: historical_data.db
+          retention-days: 90
+          if-no-files-found: warn
+      
+      - name: Post summary
+        if: always()
+        run: |
+          echo "## Historical Data Collection" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "Run at: $(date -u)" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          if [ -f historical_data.db ]; then
+            echo "Database size: $(du -h historical_data.db | cut -f1)" >> $GITHUB_STEP_SUMMARY
+            python historical_collector.py stats >> $GITHUB_STEP_SUMMARY 2>&1 || true
+          else
+            echo "No database yet" >> $GITHUB_STEP_SUMMARY
+          fi
+
+  # Weekly: Export and run backtest if enough data
+  weekly_backtest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    if: github.event.schedule == '0 6 * * 1'  # Only on Monday 6AM run
+    needs: collect
+    
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: Install dependencies
+        run: pip install requests
+      
+      - name: Download historical database
+        uses: dawidd6/action-download-artifact@v3
+        with:
+          name: historical-data
+          path: .
+          search_artifacts: true
+      
+      - name: Check data sufficiency
+        id: check
+        run: |
+          python -c "
+          import sqlite3
+          from pathlib import Path
+          
+          if not Path('historical_data.db').exists():
+              print('skip=true')
+              exit(0)
+          
+          conn = sqlite3.connect('historical_data.db')
+          c = conn.cursor()
+          c.execute('''
+              SELECT COUNT(*) FROM trades t
+              JOIN markets m ON t.condition_id = m.condition_id
+              WHERE m.is_resolved = 1
+          ''')
+          count = c.fetchone()[0]
+          conn.close()
+          
+          if count >= 100:
+              print(f'Ready: {count} resolved trades')
+              print('skip=false')
+          else:
+              print(f'Not ready: {count}/100 resolved trades')
+              print('skip=true')
+          " | tee /dev/stderr | grep -q "skip=false" && echo "skip=false" >> $GITHUB_OUTPUT || echo "skip=true" >> $GITHUB_OUTPUT
+      
+      - name: Export for backtest
+        if: steps.check.outputs.skip != 'true'
+        run: python historical_collector.py export
+      
+      - name: Run backtest
+        if: steps.check.outputs.skip != 'true'
+        run: |
+          rm -f config_hash.json
+          python backtest.py audit
+          python backtest.py run 2>&1 | tee backtest_output.txt
+      
+      - name: Upload backtest results
+        if: steps.check.outputs.skip != 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: backtest-results-${{ github.run_number }}
+          path: |
+            backtest_output.txt
+            backtest.db
+          retention-days: 30

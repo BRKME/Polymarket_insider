@@ -238,6 +238,40 @@ See [POLICY.md](POLICY.md) for complete methodology.
 
 ---
 
+## 📊 Data Collection
+
+### Problem
+Polymarket API doesn't return historical trades for resolved markets — only live/recent trades.
+
+### Solution
+**Historical Data Collector** runs every 10 minutes to build a dataset over time.
+
+```bash
+# Manual collection
+python historical_collector.py collect
+
+# Check progress  
+python historical_collector.py stats
+
+# Export for backtest (when >= 100 resolved trades)
+python historical_collector.py export
+```
+
+### Automated Collection (GitHub Actions)
+
+The `historical_collect.yml` workflow:
+- Runs every 10 minutes
+- Saves `historical_data.db` as artifact
+- Weekly: auto-exports and runs backtest if data sufficient
+
+**Timeline:**
+- Day 1-7: Collecting trades on active markets
+- Day 7-14: First resolutions start appearing  
+- Day 14-30: Should have 100+ resolved trades
+- Day 30+: Full backtest possible
+
+---
+
 ## 🧪 Backtest & Validation
 
 **Critical:** This system is a hypothesis until empirically validated.
