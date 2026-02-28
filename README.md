@@ -242,49 +242,52 @@ See [POLICY.md](POLICY.md) for complete methodology.
 
 **Critical:** This system is a hypothesis until empirically validated.
 
-### Methodology
-
-The backtest engine implements scientific rigor:
+### Methodology v3
 
 | Requirement | Implementation |
 |-------------|----------------|
-| No lookahead bias | Features use only data before trade timestamp |
-| Transaction costs | 2% commission + 0.5% slippage |
-| Train/test split | 70/30 time-based (not random) |
-| Baseline comparison | Random, Always-NO, Follow-odds strategies |
-| Statistical significance | t-stat > 2.0, min 30 trades |
+| No lookahead | Features use only data before trade timestamp |
+| Walk-forward | 5-fold expanding window (not single split) |
+| Autocorrelation | Newey-West adjusted t-stat |
+| Transaction costs | Maker/taker fees + volume-dependent slippage |
+| Baselines | Same signals, same moments (strictly comparable) |
+| Stability | By quarter, by category, concentration check |
+| Hard filters | >100 trades, DD <30%, profit factor >1.2 |
+| Fixed params | Scoring weights locked before testing |
 
 ### Run Backtest
 
 ```bash
-# Step 1: Collect resolved markets (last 90 days)
+# Step 1: Collect resolved markets
 python backtest.py collect 90
 
-# Step 2: Run walk-forward backtest with baselines
-python backtest.py run
-
-# Step 3: Verify no lookahead bias
+# Step 2: Methodology audit
 python backtest.py audit
+
+# Step 3: Walk-forward backtest
+python backtest.py run
+```
+
+### Validation Criteria (ALL must pass)
+
+```
+✅ Sufficient trades (>=100)
+✅ t-stat Newey-West > 2.0
+✅ Positive ROI after costs
+✅ Beats all baselines (random, always-NO, follow-odds)
+✅ Max drawdown < 30%
+✅ Profit factor > 1.2
+✅ Not concentrated (top 10% trades < 80% profit)
+✅ Majority of folds profitable
 ```
 
 ### Interpreting Results
 
 ```
-✅ t-stat > 2.0 AND beats baselines → Potential edge, proceed cautiously
-⚠️ t-stat < 2.0                     → Results are noise, not signal
-❌ ROI < baselines                   → System has no value
+8/8 passed → VALIDATED — live test with small capital
+6-7/8 passed → MARGINAL — review failing criteria
+<6/8 passed → FALSIFIED — no robust edge
 ```
-
-### What Defines Success
-
-1. **Statistical significance** — t-stat > 2.0 (95% confidence)
-2. **Beats baselines** — ROI > Random AND ROI > Always-NO
-3. **Survives costs** — Positive ROI after commission + slippage
-4. **Stable across time** — Works on test set (not just train)
-
-### Expected Outcome
-
-60-70% of current factors will prove to be noise. The backtest identifies the 2-3 features that actually correlate with profitable outcomes.
 
 ---
 

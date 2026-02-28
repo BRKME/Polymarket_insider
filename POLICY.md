@@ -317,24 +317,40 @@ Track which signal type generates returns:
 
 ### Validation Requirements
 
-Before this system can be considered validated, it must:
+Before this system can be considered validated, it must pass ALL criteria:
 
-1. **Pass lookahead audit** — `python backtest.py audit` all checks green
-2. **Achieve t-stat > 2.0** — 95% statistical confidence
-3. **Beat all baselines** — ROI > Random, Always-NO, Follow-odds
-4. **Survive transaction costs** — Positive ROI after 2% commission + 0.5% slippage
-5. **Stable on test set** — Works on 30% holdout data (not seen during development)
+| # | Criterion | Threshold | Rationale |
+|---|-----------|-----------|-----------|
+| 1 | Trade count | ≥ 100 | Statistical power |
+| 2 | t-stat (Newey-West) | > 2.0 | Autocorrelation-adjusted significance |
+| 3 | ROI after costs | > 0 | Survives transaction costs |
+| 4 | vs Baselines | > best | Alpha over random/always-NO/follow-odds |
+| 5 | Max drawdown | < 30% | Risk management |
+| 6 | Profit factor | > 1.2 | Gross profit / gross loss |
+| 7 | Concentration | < 80% | Top 10% trades < 80% of profits |
+| 8 | Fold consistency | > 50% | Majority of walk-forward folds profitable |
+
+### Walk-Forward Methodology
+
+The backtest uses expanding-window walk-forward:
+
+```
+Fold 1: Train [0-T1] → Test [T1-T2]
+Fold 2: Train [0-T2] → Test [T2-T3]
+Fold 3: Train [0-T3] → Test [T3-T4]
+...
+```
+
+This prevents:
+- Lookahead bias (only past data used)
+- Regime overfitting (tested across multiple periods)
+- Single-period luck (averaged across folds)
 
 ### Validation Status
 
 **Current status: UNVALIDATED HYPOTHESIS**
 
-This system requires empirical backtest to determine:
-- Whether any edge exists
-- Which features actually predict outcomes
-- What the real variance and drawdown look like
-
-Until backtest passes ALL validation requirements, treat all signals as exploratory.
+Run `python backtest.py run` to validate. System must pass 8/8 criteria to be considered validated for live testing.
 
 ---
 
@@ -342,6 +358,7 @@ Until backtest passes ALL validation requirements, treat all signals as explorat
 
 | Version | Date | Changes |
 |---------|------|---------|
+| 2.3 | 2026-02 | Walk-forward CV, Newey-West t-stat, stability tests, hard filters |
 | 2.2 | 2026-02 | Scientifically rigorous backtest: lookahead prevention, t-stat, baselines |
 | 2.1 | 2026-02 | Added Limitations section, backtest engine, validation framework |
 | 2.0 | 2026-02 | Added Top Trader copy, revised UI, action framework |
