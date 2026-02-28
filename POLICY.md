@@ -268,9 +268,70 @@ Track which signal type generates returns:
 
 ---
 
+## Known Limitations & Caveats
+
+### Insider Detection Limitations
+
+1. **Rational insiders behave differently** — Real insiders likely:
+   - Use aged wallets, not new ones
+   - Enter gradually over 1-3 days, not minutes before
+   - Split positions across multiple wallets
+   - Avoid extreme odds that attract attention
+
+2. **Pre-event timing ≠ insider access** — Could be:
+   - Fast Twitter/news reactor
+   - Lucky speculation
+   - Coordinated pump group
+
+3. **Scoring is heuristic, not probabilistic** — Fixed point values (40, 25, 15) create false precision without calibration data.
+
+### Irrational Mispricing Limitations
+
+1. **Base rates are subjective** — "Historically near zero" without empirical frequency data is opinion, not model.
+
+2. **Category min_edge not calibrated** — 3-6% thresholds are arbitrary without backtest validation.
+
+3. **Information lag ignored** — Market at 12% vs base rate 5% may reflect early information update, not irrationality.
+
+4. **Polymarket may be semi-efficient** — Especially in politics and macro where sophisticated traders participate.
+
+### Top Trader Copy Limitations
+
+1. **Leaderboard may be manipulated** — Wash trading, sybil attacks.
+
+2. **Hidden exposures** — Top trader may have hedges on Binance, OTC, or correlated markets. Copying visible position = copying risk without protection.
+
+3. **Win rate ≠ EV** — 70% win rate with negative R-multiple = net loss.
+
+4. **Survivorship bias** — Leaderboard shows current winners, not long-term consistency.
+
+### Cognitive Risks
+
+| Risk | Description |
+|------|-------------|
+| Illusion of insider detection | System detects anomalies, not confirmed insiders |
+| Confirmation bias | Scoring validates preconceptions |
+| Authority bias | Copying top traders assumes their edge transfers |
+| Overconfidence | Threshold-based scoring feels precise but isn't |
+| False precision | Point values imply accuracy we don't have |
+
+### Validation Status
+
+**Current status: UNVALIDATED HYPOTHESIS**
+
+This system requires empirical backtest to determine:
+- Whether any edge exists
+- Which features actually predict outcomes
+- What the real variance and drawdown look like
+
+Until backtest is complete, treat all signals as exploratory, not actionable.
+
+---
+
 ## Version History
 
 | Version | Date | Changes |
 |---------|------|---------|
+| 2.1 | 2026-02 | Added Limitations section, backtest engine, validation framework |
 | 2.0 | 2026-02 | Added Top Trader copy, revised UI, action framework |
 | 1.0 | 2026-01 | Initial insider + irrationality system |

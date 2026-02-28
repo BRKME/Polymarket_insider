@@ -238,6 +238,47 @@ See [POLICY.md](POLICY.md) for complete methodology.
 
 ---
 
+## 🧪 Backtest & Validation
+
+**Critical:** This system is a hypothesis until empirically validated.
+
+### Run Backtest
+
+```bash
+# Step 1: Collect resolved markets (last 90 days)
+python backtest.py collect 90
+
+# Step 2: Run signal reconstruction
+python backtest.py run
+
+# Step 3: View metrics
+python backtest.py report
+```
+
+### Metrics Calculated
+
+| Metric | Purpose |
+|--------|---------|
+| ROI per signal type | Which signals actually generate alpha |
+| Feature importance | Which factors drive returns (wallet_age, pre_event, etc.) |
+| Win rate | Hit rate by signal type |
+| Max drawdown | Worst cumulative loss |
+| ROI distribution | Fat tail check |
+
+### Interpreting Results
+
+```
+✅ ROI > 10%  → Proceed to probabilistic modeling
+⚠️ ROI 0-10% → Tighten filters, review feature weights
+❌ ROI < 0%   → Hypothesis falsified, revise methodology
+```
+
+### Expected Outcome
+
+60-70% of current factors will prove to be noise. The backtest identifies the 2-3 features that actually correlate with profitable outcomes.
+
+---
+
 ## 🤝 Contributing
 
 1. Fork the repository
