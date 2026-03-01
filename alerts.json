@@ -25163,5 +25163,107 @@
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
     }
+  },
+  {
+    "market": "Trail Blazers vs. Hawks",
+    "market_slug": "nba-por-atl-2026",
+    "wallet": "0xeaee24e02b7ceea5b1848683e9cb92958b1b6b4d",
+    "analysis": {
+      "score": 70,
+      "flags": [
+        "New wallet (2d old)",
+        "Large bet ($1,039)",
+        "Low activity (3 txns)"
+      ],
+      "amount": 1038.999999,
+      "odds": 0.6599999998856593,
+      "raw_price": 0.6599999998856593,
+      "outcome": "Hawks",
+      "potential_pnl": 535.242424,
+      "pnl_multiplier": 0.5151515154140054,
+      "wallet_age_days": 2,
+      "total_activities": 3
+    },
+    "timestamp": "2026-03-01T20:40:24.908902",
+    "trade_hash": "0xc155fd7899a000ebb461a206ea73ba4b28a137115949b95e45091173c22b1cc8",
+    "trade_timestamp": 1772397573,
+    "latency": null,
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "Hawks",
+      "side": "BUY",
+      "price": 0.6599999998856593,
+      "effective_price": 0.6599999998856593,
+      "size": 1574.242423,
+      "amount": 1038.999999,
+      "potential_pnl": 535.242424,
+      "pnl_multiplier": 0.5151515154140054,
+      "is_no": false
+    },
+    "irrationality": {
+      "irrationality_score": 35,
+      "flags": [
+        "Large mispricing edge (+38.8%)"
+      ],
+      "category": "sports",
+      "category_info": {
+        "strength": "medium",
+        "typical_overpricing": 0.03,
+        "min_edge": 0.05
+      },
+      "is_irrational": true
+    },
+    "mispricing": {
+      "rational_estimate": 0.27199999997713187,
+      "market_price": 0.6599999998856593,
+      "edge": 0.3879999999085274,
+      "edge_percent": 38.79999999085274,
+      "min_edge_required": 0.05,
+      "is_mispriced": true,
+      "edge_quality": "STRONG",
+      "base_rate_class": "common",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "common",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "Trail Blazers perform exceptionally well",
+          "Hawks underperform significantly",
+          "Key players are injured or unavailable"
+        ],
+        "weakest_link": "Hawks underperform significantly"
+      },
+      "category": "sports",
+      "narrative_drivers": [
+        "team performance trends",
+        "injury reports"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "INSIDER_ONLY",
+      "signal_emoji": "\ud83d\udc41\ufe0f",
+      "signal_strength": 70,
+      "interpretation": "Insider activity detected, no clear mispricing",
+      "action_suggestion": "Monitor: insider signal only, no statistical edge",
+      "insider_score": 70,
+      "insider_position": "HAWKS",
+      "irrationality_score": 35,
+      "is_irrational": true,
+      "is_mispriced": true,
+      "edge": 0.3879999999085274,
+      "edge_percent": 38.79999999085274
+    },
+    "financial_analyst": {
+      "signal_quality": 51.0,
+      "stance": "WATCH_ONLY",
+      "edge_percent": 38.8,
+      "signal_strength": 70.0,
+      "insider_score": 70.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    }
   }
 ]
