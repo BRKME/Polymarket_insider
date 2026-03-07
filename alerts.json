@@ -26522,5 +26522,107 @@
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
     }
+  },
+  {
+    "market": "Will VfL Wolfsburg vs. Hamburger SV end in a draw?",
+    "market_slug": "bun-wol-hsv-2026-03-07-draw",
+    "wallet": "0x1cc4f3587dbf3482dc216181455148baba95803d",
+    "analysis": {
+      "score": 70,
+      "flags": [
+        "New wallet (1d old)",
+        "Large bet ($1,519)",
+        "Low activity (4 txns)"
+      ],
+      "amount": 1519.0000000000002,
+      "odds": 0.28,
+      "raw_price": 0.28,
+      "outcome": "Yes",
+      "potential_pnl": 3906.0,
+      "pnl_multiplier": 2.571428571428571,
+      "wallet_age_days": 1,
+      "total_activities": 4
+    },
+    "timestamp": "2026-03-07T11:46:19.663858",
+    "trade_hash": "0x4458b700e0afc179dd66dfd3eaf768ebe0fcf3015b8a519af6343f5d9c1cc4f6",
+    "trade_timestamp": 1772883771,
+    "latency": null,
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "Yes",
+      "side": "BUY",
+      "price": 0.28,
+      "effective_price": 0.28,
+      "size": 5425.0,
+      "amount": 1519.0000000000002,
+      "potential_pnl": 3906.0,
+      "pnl_multiplier": 2.571428571428571,
+      "is_no": false
+    },
+    "irrationality": {
+      "irrationality_score": 35,
+      "flags": [
+        "Large mispricing edge (+16.4%)"
+      ],
+      "category": "sports",
+      "category_info": {
+        "strength": "medium",
+        "typical_overpricing": 0.03,
+        "min_edge": 0.05
+      },
+      "is_irrational": true
+    },
+    "mispricing": {
+      "rational_estimate": 0.116,
+      "market_price": 0.28,
+      "edge": 0.16400000000000003,
+      "edge_percent": 16.400000000000002,
+      "min_edge_required": 0.05,
+      "is_mispriced": true,
+      "edge_quality": "STRONG",
+      "base_rate_class": "occasional",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "occasional",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "Both teams have similar form leading into the match",
+          "Defensive strategies are prioritized by both coaches",
+          "Key players are absent or underperforming"
+        ],
+        "weakest_link": "Key players are absent or underperforming"
+      },
+      "category": "sports",
+      "narrative_drivers": [
+        "Recent matches between the teams have ended in draws",
+        "Current league standings create pressure for both teams to secure at least a point"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "CONFLICT",
+      "signal_emoji": "\u26a0\ufe0f",
+      "signal_strength": 70,
+      "interpretation": "Insider buying YES despite statistical overpricing",
+      "action_suggestion": "Requires manual analysis: insider may have real info OR is part of irrational crowd",
+      "insider_score": 70,
+      "insider_position": "YES",
+      "irrationality_score": 35,
+      "is_irrational": true,
+      "is_mispriced": true,
+      "edge": 0.16400000000000003,
+      "edge_percent": 16.400000000000002
+    },
+    "financial_analyst": {
+      "signal_quality": 45.6,
+      "stance": "WATCH_ONLY",
+      "edge_percent": 16.4,
+      "signal_strength": 70.0,
+      "insider_score": 70.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    }
   }
 ]
