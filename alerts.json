@@ -27032,5 +27032,107 @@
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
     }
+  },
+  {
+    "market": "Will MrBeast's next video get 90 million or more views on week 1?",
+    "market_slug": "will-mrbeasts-next-video-get-90-million-or-more-views-on-week-1",
+    "wallet": "0x94fc0c95d002ed35c6b415d1afb8fc71ef5f26ac",
+    "analysis": {
+      "score": 70,
+      "flags": [
+        "New wallet (0d old)",
+        "Large bet ($2,419)",
+        "Low activity (1 txns)"
+      ],
+      "amount": 2419.099997,
+      "odds": 0.12139967438345003,
+      "raw_price": 0.12139967438345003,
+      "outcome": "Yes",
+      "potential_pnl": 17507.642057999998,
+      "pnl_multiplier": 7.237254383742616,
+      "wallet_age_days": 0,
+      "total_activities": 1
+    },
+    "timestamp": "2026-03-07T21:40:10.970599",
+    "trade_hash": "0x1ee3141fdb242dba6db515fe8f2e9e79fa6cf74665d59f68dfaa72ac17ed1fc6",
+    "trade_timestamp": 1772919475,
+    "latency": null,
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "Yes",
+      "side": "BUY",
+      "price": 0.12139967438345003,
+      "effective_price": 0.12139967438345003,
+      "size": 19926.742055,
+      "amount": 2419.099997,
+      "potential_pnl": 17507.642057999998,
+      "pnl_multiplier": 7.237254383742616,
+      "is_no": false
+    },
+    "irrationality": {
+      "irrationality_score": 25,
+      "flags": [
+        "Longshot (12%) in medium bias category (other)"
+      ],
+      "category": "other",
+      "category_info": {
+        "strength": "medium",
+        "typical_overpricing": 0.03,
+        "min_edge": 0.05
+      },
+      "is_irrational": false
+    },
+    "mispricing": {
+      "rational_estimate": 0.08427993487669,
+      "market_price": 0.12139967438345003,
+      "edge": 0.037119739506760036,
+      "edge_percent": 3.7119739506760037,
+      "min_edge_required": 0.05,
+      "is_mispriced": false,
+      "edge_quality": "WEAK",
+      "base_rate_class": "occasional",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "occasional",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "MrBeast's current subscriber count and engagement levels",
+          "The video's content and its appeal to the audience",
+          "Timing of the release relative to competing content"
+        ],
+        "weakest_link": "The video's content and its appeal to the audience"
+      },
+      "category": "other",
+      "narrative_drivers": [
+        "Previous videos have reached high view counts quickly",
+        "Social media promotion and trends affecting viewership"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "INSIDER_ONLY",
+      "signal_emoji": "\ud83d\udc41\ufe0f",
+      "signal_strength": 70,
+      "interpretation": "Insider activity detected, no clear mispricing",
+      "action_suggestion": "Monitor: insider signal only, no statistical edge",
+      "insider_score": 70,
+      "insider_position": "YES",
+      "irrationality_score": 25,
+      "is_irrational": false,
+      "is_mispriced": false,
+      "edge": 0.037119739506760036,
+      "edge_percent": 3.7119739506760037
+    },
+    "financial_analyst": {
+      "signal_quality": 29.6,
+      "stance": "WATCH_ONLY",
+      "edge_percent": 3.71,
+      "signal_strength": 70.0,
+      "insider_score": 70.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    }
   }
 ]
