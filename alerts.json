@@ -28063,5 +28063,209 @@
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
     }
+  },
+  {
+    "market": "Spread: Grizzlies (-1.5)",
+    "market_slug": "nba-mem-bkn-2026-03-09-spread-away-1pt5",
+    "wallet": "0xa09c050cc7f03437ae64cfce1a9fc780e5c24a3b",
+    "analysis": {
+      "score": 70,
+      "flags": [
+        "New wallet (0d old)",
+        "Large bet ($9,946)",
+        "Low activity (1 txns)"
+      ],
+      "amount": 9945.82,
+      "odds": 0.5,
+      "raw_price": 0.5,
+      "outcome": "Nets",
+      "potential_pnl": 9945.82,
+      "pnl_multiplier": 1.0,
+      "wallet_age_days": 0,
+      "total_activities": 1
+    },
+    "timestamp": "2026-03-09T10:12:24.181324",
+    "trade_hash": "0x04d527b82765b637daeb9628baadba7b68a8391c6d515d06571e32ab2a1a9cac",
+    "trade_timestamp": 1773050995,
+    "latency": null,
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "Nets",
+      "side": "BUY",
+      "price": 0.5,
+      "effective_price": 0.5,
+      "size": 19891.64,
+      "amount": 9945.82,
+      "potential_pnl": 9945.82,
+      "pnl_multiplier": 1.0,
+      "is_no": false
+    },
+    "irrationality": {
+      "irrationality_score": 35,
+      "flags": [
+        "Large mispricing edge (+26.0%)"
+      ],
+      "category": "other",
+      "category_info": {
+        "strength": "medium",
+        "typical_overpricing": 0.03,
+        "min_edge": 0.05
+      },
+      "is_irrational": true
+    },
+    "mispricing": {
+      "rational_estimate": 0.24,
+      "market_price": 0.5,
+      "edge": 0.26,
+      "edge_percent": 26.0,
+      "min_edge_required": 0.05,
+      "is_mispriced": true,
+      "edge_quality": "STRONG",
+      "base_rate_class": "common",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "common",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "Grizzlies maintain player health",
+          "Grizzlies' home court advantage",
+          "Opponent's performance variability"
+        ],
+        "weakest_link": "Opponent's performance variability"
+      },
+      "category": "sports",
+      "narrative_drivers": [
+        "Grizzlies' recent performance trends",
+        "Injury reports of key players"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "INSIDER_ONLY",
+      "signal_emoji": "\ud83d\udc41\ufe0f",
+      "signal_strength": 70,
+      "interpretation": "Insider activity detected, no clear mispricing",
+      "action_suggestion": "Monitor: insider signal only, no statistical edge",
+      "insider_score": 70,
+      "insider_position": "NETS",
+      "irrationality_score": 35,
+      "is_irrational": true,
+      "is_mispriced": true,
+      "edge": 0.26,
+      "edge_percent": 26.0
+    },
+    "financial_analyst": {
+      "signal_quality": 51.0,
+      "stance": "WATCH_ONLY",
+      "edge_percent": 26.0,
+      "signal_strength": 70.0,
+      "insider_score": 70.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    }
+  },
+  {
+    "market": "76ers vs. Cavaliers: O/U 226.5",
+    "market_slug": "nba-phi-cle-2026-03-09-total-226pt5",
+    "wallet": "0x474e0c60fd6c590ef157b99cfd932a125fdd6d16",
+    "analysis": {
+      "score": 70,
+      "flags": [
+        "New wallet (0d old)",
+        "Large bet ($1,298)",
+        "Low activity (2 txns)"
+      ],
+      "amount": 1298.0,
+      "odds": 0.5,
+      "raw_price": 0.5,
+      "outcome": "Under",
+      "potential_pnl": 1298.0,
+      "pnl_multiplier": 1.0,
+      "wallet_age_days": 0,
+      "total_activities": 2
+    },
+    "timestamp": "2026-03-09T10:12:39.718494",
+    "trade_hash": "0x2c180f723c65a40f1877eaa8f7fb287b4dc9c41271121de6a703c89c285013ba",
+    "trade_timestamp": 1773051021,
+    "latency": null,
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "Under",
+      "side": "BUY",
+      "price": 0.5,
+      "effective_price": 0.5,
+      "size": 2596.0,
+      "amount": 1298.0,
+      "potential_pnl": 1298.0,
+      "pnl_multiplier": 1.0,
+      "is_no": false
+    },
+    "irrationality": {
+      "irrationality_score": 35,
+      "flags": [
+        "Large mispricing edge (+26.0%)"
+      ],
+      "category": "sports",
+      "category_info": {
+        "strength": "medium",
+        "typical_overpricing": 0.03,
+        "min_edge": 0.05
+      },
+      "is_irrational": true
+    },
+    "mispricing": {
+      "rational_estimate": 0.24,
+      "market_price": 0.5,
+      "edge": 0.26,
+      "edge_percent": 26.0,
+      "min_edge_required": 0.05,
+      "is_mispriced": true,
+      "edge_quality": "STRONG",
+      "base_rate_class": "common",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "common",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "Both teams have high-scoring offenses",
+          "Defensive strategies are ineffective",
+          "Game pace is fast"
+        ],
+        "weakest_link": "Defensive strategies are ineffective"
+      },
+      "category": "sports",
+      "narrative_drivers": [
+        "Recent offensive performances",
+        "Injury reports affecting key players"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "INSIDER_ONLY",
+      "signal_emoji": "\ud83d\udc41\ufe0f",
+      "signal_strength": 70,
+      "interpretation": "Insider activity detected, no clear mispricing",
+      "action_suggestion": "Monitor: insider signal only, no statistical edge",
+      "insider_score": 70,
+      "insider_position": "UNDER",
+      "irrationality_score": 35,
+      "is_irrational": true,
+      "is_mispriced": true,
+      "edge": 0.26,
+      "edge_percent": 26.0
+    },
+    "financial_analyst": {
+      "signal_quality": 51.0,
+      "stance": "WATCH_ONLY",
+      "edge_percent": 26.0,
+      "signal_strength": 70.0,
+      "insider_score": 70.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    }
   }
 ]
