@@ -28981,5 +28981,114 @@
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
     }
+  },
+  {
+    "market": "Will Bayer 04 Leverkusen win on 2026-03-17?",
+    "market_slug": "ucl-ars-lev-2026-03-17-lev",
+    "wallet": "0x790e8a6d067a0dab20de637b38add04f75080e43",
+    "analysis": {
+      "score": 80,
+      "flags": [
+        "New wallet (3d old)",
+        "Large bet ($1,500)",
+        "Pre-event latency: 7492m"
+      ],
+      "amount": 1500.0000000000002,
+      "odds": 0.11254943030292117,
+      "raw_price": 0.11254943030292117,
+      "outcome": "Yes",
+      "potential_pnl": 11827.4775,
+      "pnl_multiplier": 7.8849849999999995,
+      "wallet_age_days": 3,
+      "total_activities": 47
+    },
+    "timestamp": "2026-03-11T19:09:21.086562",
+    "trade_hash": "0x33a1617566772efb286140397605a52460d4661680929dd0876c9dd3b148e3a5",
+    "trade_timestamp": 1773256073,
+    "latency": {
+      "latency_seconds": 449527.0,
+      "latency_minutes": 7492.116666666667,
+      "is_pre_event": true,
+      "severity": "CRITICAL",
+      "trade_time": "2026-03-11T19:07:53+00:00",
+      "event_time": "2026-03-17T00:00:00+00:00"
+    },
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "Yes",
+      "side": "BUY",
+      "price": 0.11254943030292117,
+      "effective_price": 0.11254943030292117,
+      "size": 13327.4775,
+      "amount": 1500.0000000000002,
+      "potential_pnl": 11827.4775,
+      "pnl_multiplier": 7.8849849999999995,
+      "is_no": false
+    },
+    "irrationality": {
+      "irrationality_score": 25,
+      "flags": [
+        "Longshot (11%) in medium bias category (politics_near)"
+      ],
+      "category": "politics_near",
+      "category_info": {
+        "strength": "medium",
+        "typical_overpricing": 0.02,
+        "min_edge": 0.03
+      },
+      "is_irrational": false
+    },
+    "mispricing": {
+      "rational_estimate": 0.08250988606058424,
+      "market_price": 0.11254943030292117,
+      "edge": 0.03003954424233693,
+      "edge_percent": 3.003954424233693,
+      "min_edge_required": 0.05,
+      "is_mispriced": false,
+      "edge_quality": "WEAK",
+      "base_rate_class": "occasional",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "occasional",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "team form leading up to the match",
+          "injury status of key players",
+          "performance against similar opponents"
+        ],
+        "weakest_link": "injury status of key players"
+      },
+      "category": "sports",
+      "narrative_drivers": [
+        "team's current league standing",
+        "historical performance in similar matches"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "INSIDER_ONLY",
+      "signal_emoji": "\ud83d\udc41\ufe0f",
+      "signal_strength": 80,
+      "interpretation": "Insider activity detected, no clear mispricing",
+      "action_suggestion": "Monitor: insider signal only, no statistical edge",
+      "insider_score": 80,
+      "insider_position": "YES",
+      "irrationality_score": 25,
+      "is_irrational": false,
+      "is_mispriced": false,
+      "edge": 0.03003954424233693,
+      "edge_percent": 3.003954424233693
+    },
+    "financial_analyst": {
+      "signal_quality": 30.5,
+      "stance": "WATCH_ONLY",
+      "edge_percent": 3.0,
+      "signal_strength": 80.0,
+      "insider_score": 80.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    }
   }
 ]
