@@ -148,83 +148,96 @@ def fetch_active_markets(limit: int = 200) -> List[Dict]:
 
 def fetch_recently_resolved(limit: int = 200) -> List[Dict]:
     """Fetch recently resolved markets to capture outcomes."""
-    url = f"{GAMMA_API_URL}/markets"
-    params = {
-        "limit": limit,
-        "closed": "true",
-        "order": "endDate",
-        "_sort": "endDate:desc"
-    }
     
-    try:
-        time.sleep(REQUEST_DELAY)
-        response = requests.get(url, params=params, timeout=30)
-        response.raise_for_status()
-        markets = response.json()
-        
-        print(f"      [DEBUG] API returned {len(markets)} closed markets")
-        
-        result = []
-        skipped_no_resolution = 0
-        skipped_no_winner = 0
-        
-        for m in markets:
-            if not m.get('resolutionSource'):
-                skipped_no_resolution += 1
-                continue
-            
-            # Parse outcomes
-            outcomes = m.get('outcomes', [])
-            if isinstance(outcomes, str):
-                try:
-                    outcomes = json.loads(outcomes)
-                except:
-                    outcomes = []
-            
-            outcome_prices = m.get('outcomePrices', [])
-            if isinstance(outcome_prices, str):
-                try:
-                    outcome_prices = json.loads(outcome_prices)
-                except:
-                    outcome_prices = []
-            
-            # Find winning outcome - RELAXED threshold from 0.99 to 0.95
-            winning = None
-            for i, p in enumerate(outcome_prices):
-                try:
-                    price = float(p)
-                    if price >= 0.95 and i < len(outcomes):
-                        winning = outcomes[i]
-                        break
-                except:
-                    pass
-            
-            # Fallback: if no clear winner, use highest price
-            if not winning and outcome_prices and outcomes:
-                try:
-                    prices = [float(p) for p in outcome_prices]
-                    max_idx = max(range(len(prices)), key=lambda i: prices[i])
-                    if prices[max_idx] > 0.9:
-                        winning = outcomes[max_idx]
-                except:
-                    pass
-            
-            if not winning:
-                skipped_no_winner += 1
-                continue
-            
-            result.append({
-                'condition_id': m.get('conditionId', ''),
-                'resolved_outcome': winning,
-                'volume': float(m.get('volume', 0) or 0)
-            })
-        
-        print(f"      [DEBUG] Found {len(result)} resolved, skipped: {skipped_no_resolution} no resolution, {skipped_no_winner} no winner")
-        return result
+    all_resolved = {}
     
-    except Exception as e:
-        print(f"[ERROR] Fetching resolved markets: {e}")
-        return []
+    # Try multiple sort orders to catch recent resolutions
+    sort_options = [
+        {"order": "endDate", "_sort": "endDate:desc"},      # By end date
+        {"order": "volume", "_sort": "volume:desc"},        # By volume (catches big markets)
+    ]
+    
+    for sort_params in sort_options:
+        url = f"{GAMMA_API_URL}/markets"
+        params = {
+            "limit": limit,
+            "closed": "true",
+            **sort_params
+        }
+        
+        try:
+            time.sleep(REQUEST_DELAY)
+            response = requests.get(url, params=params, timeout=30)
+            response.raise_for_status()
+            markets = response.json()
+            
+            for m in markets:
+                cid = m.get('conditionId', '')
+                if cid and cid not in all_resolved:
+                    all_resolved[cid] = m
+                    
+        except Exception as e:
+            print(f"[ERROR] Fetching resolved markets: {e}")
+    
+    print(f"      [DEBUG] Fetched {len(all_resolved)} unique closed markets from API")
+    
+    result = []
+    skipped_no_resolution = 0
+    skipped_no_winner = 0
+    
+    for cid, m in all_resolved.items():
+        if not m.get('resolutionSource'):
+            skipped_no_resolution += 1
+            continue
+        
+        # Parse outcomes
+        outcomes = m.get('outcomes', [])
+        if isinstance(outcomes, str):
+            try:
+                outcomes = json.loads(outcomes)
+            except:
+                outcomes = []
+        
+        outcome_prices = m.get('outcomePrices', [])
+        if isinstance(outcome_prices, str):
+            try:
+                outcome_prices = json.loads(outcome_prices)
+            except:
+                outcome_prices = []
+        
+        # Find winning outcome - RELAXED threshold
+        winning = None
+        for i, p in enumerate(outcome_prices):
+            try:
+                price = float(p)
+                if price >= 0.95 and i < len(outcomes):
+                    winning = outcomes[i]
+                    break
+            except:
+                pass
+        
+        # Fallback: use highest price if > 0.9
+        if not winning and outcome_prices and outcomes:
+            try:
+                prices = [float(p) for p in outcome_prices]
+                max_idx = max(range(len(prices)), key=lambda i: prices[i])
+                if prices[max_idx] > 0.9:
+                    winning = outcomes[max_idx]
+            except:
+                pass
+        
+        if not winning:
+            skipped_no_winner += 1
+            continue
+        
+        result.append({
+            'condition_id': cid,
+            'resolved_outcome': winning,
+            'volume': float(m.get('volume', 0) or 0)
+        })
+    
+    print(f"      [DEBUG] Found {len(result)} resolved, skipped: {skipped_no_resolution} no resolution, {skipped_no_winner} no winner")
+    return result
 
 
 def fetch_recent_trades(condition_id: str, minutes_back: int = COLLECTION_WINDOW_MINUTES) -> List[Dict]:
@@ -399,6 +412,13 @@ def run_collection():
     # 3. Check for resolutions
     print("\n[3/3] Checking for resolutions...")
     resolved = fetch_recently_resolved()
+    
+    # DEBUG: Check overlap
+    c.execute('SELECT condition_id FROM markets WHERE is_resolved = 0')
+    tracked_ids = set(row[0] for row in c.fetchall())
+    resolved_ids = set(r['condition_id'] for r in resolved)
+    overlap = tracked_ids & resolved_ids
+    print(f"      [DEBUG] Tracked (unresolved): {len(tracked_ids)}, API resolved: {len(resolved_ids)}, Overlap: {len(overlap)}")
     
     matched = 0
     for r in resolved:
