@@ -30118,5 +30118,311 @@
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
     }
+  },
+  {
+    "market": "Spread: Cavaliers (-11.5)",
+    "market_slug": "nba-cle-dal-2026-03-13-spread-away-11pt5",
+    "wallet": "0xa7fb2b87b7d3301c3b7dd91317dac5c8a5a5ea35",
+    "analysis": {
+      "score": 70,
+      "flags": [
+        "New wallet (0d old)",
+        "Large bet ($1,068)",
+        "Low activity (2 txns)"
+      ],
+      "amount": 1067.78,
+      "odds": 0.58,
+      "raw_price": 0.58,
+      "outcome": "Cavaliers",
+      "potential_pnl": 773.2200000000001,
+      "pnl_multiplier": 0.7241379310344829,
+      "wallet_age_days": 0,
+      "total_activities": 2
+    },
+    "timestamp": "2026-03-13T12:27:03.614046",
+    "trade_hash": "0x41861c0689e48ea3cdbc4a139d5ae2db72c0dd03530ec9811d3bda0d8b4d3ff3",
+    "trade_timestamp": 1773404705,
+    "latency": null,
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "Cavaliers",
+      "side": "BUY",
+      "price": 0.58,
+      "effective_price": 0.58,
+      "size": 1841.0,
+      "amount": 1067.78,
+      "potential_pnl": 773.2200000000001,
+      "pnl_multiplier": 0.7241379310344829,
+      "is_no": false
+    },
+    "irrationality": {
+      "irrationality_score": 35,
+      "flags": [
+        "Large mispricing edge (+32.4%)"
+      ],
+      "category": "other",
+      "category_info": {
+        "strength": "medium",
+        "typical_overpricing": 0.03,
+        "min_edge": 0.05
+      },
+      "is_irrational": true
+    },
+    "mispricing": {
+      "rational_estimate": 0.256,
+      "market_price": 0.58,
+      "edge": 0.32399999999999995,
+      "edge_percent": 32.4,
+      "min_edge_required": 0.05,
+      "is_mispriced": true,
+      "edge_quality": "STRONG",
+      "base_rate_class": "common",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "common",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "Cavaliers maintain a strong home court advantage",
+          "Cavaliers' key players perform at or above expectations",
+          "Opponent struggles with injuries or poor performance"
+        ],
+        "weakest_link": "Opponent struggles with injuries or poor performance"
+      },
+      "category": "sports",
+      "narrative_drivers": [
+        "Cavaliers' recent performance trends",
+        "Public perception of Cavaliers as a dominant team"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "INSIDER_ONLY",
+      "signal_emoji": "\ud83d\udc41\ufe0f",
+      "signal_strength": 70,
+      "interpretation": "Insider activity detected, no clear mispricing",
+      "action_suggestion": "Monitor: insider signal only, no statistical edge",
+      "insider_score": 70,
+      "insider_position": "CAVALIERS",
+      "irrationality_score": 35,
+      "is_irrational": true,
+      "is_mispriced": true,
+      "edge": 0.32399999999999995,
+      "edge_percent": 32.4
+    },
+    "financial_analyst": {
+      "signal_quality": 51.0,
+      "stance": "WATCH_ONLY",
+      "edge_percent": 32.4,
+      "signal_strength": 70.0,
+      "insider_score": 70.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    }
+  },
+  {
+    "market": "Spread: Cavaliers (-11.5)",
+    "market_slug": "nba-cle-dal-2026-03-13-spread-away-11pt5",
+    "wallet": "0x1f2d8ddcec9a560b121b16bfac2fba3a50779cdf",
+    "analysis": {
+      "score": 70,
+      "flags": [
+        "New wallet (0d old)",
+        "Large bet ($1,420)",
+        "Low activity (1 txns)"
+      ],
+      "amount": 1420.4199999999998,
+      "odds": 0.58,
+      "raw_price": 0.58,
+      "outcome": "Cavaliers",
+      "potential_pnl": 1028.5800000000002,
+      "pnl_multiplier": 0.7241379310344829,
+      "wallet_age_days": 0,
+      "total_activities": 1
+    },
+    "timestamp": "2026-03-13T12:27:09.067896",
+    "trade_hash": "0x6ad77d30ce817d6859258199e5b9fc0c17b2fb1769a508a89372afbb2beb8bce",
+    "trade_timestamp": 1773404705,
+    "latency": null,
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "Cavaliers",
+      "side": "BUY",
+      "price": 0.58,
+      "effective_price": 0.58,
+      "size": 2449.0,
+      "amount": 1420.4199999999998,
+      "potential_pnl": 1028.5800000000002,
+      "pnl_multiplier": 0.7241379310344829,
+      "is_no": false
+    },
+    "irrationality": {
+      "irrationality_score": 35,
+      "flags": [
+        "Large mispricing edge (+32.4%)"
+      ],
+      "category": "other",
+      "category_info": {
+        "strength": "medium",
+        "typical_overpricing": 0.03,
+        "min_edge": 0.05
+      },
+      "is_irrational": true
+    },
+    "mispricing": {
+      "rational_estimate": 0.256,
+      "market_price": 0.58,
+      "edge": 0.32399999999999995,
+      "edge_percent": 32.4,
+      "min_edge_required": 0.05,
+      "is_mispriced": true,
+      "edge_quality": "STRONG",
+      "base_rate_class": "common",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "common",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "Cavaliers perform exceptionally well",
+          "Opposing team underperforms",
+          "Injuries or absences impact key players"
+        ],
+        "weakest_link": "Opposing team underperforms"
+      },
+      "category": "sports",
+      "narrative_drivers": [
+        "Cavaliers' recent performance trends",
+        "Public perception of the opposing team's weaknesses"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "INSIDER_ONLY",
+      "signal_emoji": "\ud83d\udc41\ufe0f",
+      "signal_strength": 70,
+      "interpretation": "Insider activity detected, no clear mispricing",
+      "action_suggestion": "Monitor: insider signal only, no statistical edge",
+      "insider_score": 70,
+      "insider_position": "CAVALIERS",
+      "irrationality_score": 35,
+      "is_irrational": true,
+      "is_mispriced": true,
+      "edge": 0.32399999999999995,
+      "edge_percent": 32.4
+    },
+    "financial_analyst": {
+      "signal_quality": 51.0,
+      "stance": "WATCH_ONLY",
+      "edge_percent": 32.4,
+      "signal_strength": 70.0,
+      "insider_score": 70.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    }
+  },
+  {
+    "market": "Spread: Cavaliers (-11.5)",
+    "market_slug": "nba-cle-dal-2026-03-13-spread-away-11pt5",
+    "wallet": "0xaa960bcd319e40352d2245a114018c8a764bacbf",
+    "analysis": {
+      "score": 70,
+      "flags": [
+        "New wallet (0d old)",
+        "Large bet ($1,321)",
+        "Low activity (2 txns)"
+      ],
+      "amount": 1321.24,
+      "odds": 0.58,
+      "raw_price": 0.58,
+      "outcome": "Cavaliers",
+      "potential_pnl": 956.7600000000001,
+      "pnl_multiplier": 0.7241379310344829,
+      "wallet_age_days": 0,
+      "total_activities": 2
+    },
+    "timestamp": "2026-03-13T12:27:12.658269",
+    "trade_hash": "0xaa297aafedf4726cb393f7331287a7e1e19b791da9765280ec92207b5c65d4bc",
+    "trade_timestamp": 1773404705,
+    "latency": null,
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "Cavaliers",
+      "side": "BUY",
+      "price": 0.58,
+      "effective_price": 0.58,
+      "size": 2278.0,
+      "amount": 1321.24,
+      "potential_pnl": 956.7600000000001,
+      "pnl_multiplier": 0.7241379310344829,
+      "is_no": false
+    },
+    "irrationality": {
+      "irrationality_score": 35,
+      "flags": [
+        "Large mispricing edge (+32.4%)"
+      ],
+      "category": "other",
+      "category_info": {
+        "strength": "medium",
+        "typical_overpricing": 0.03,
+        "min_edge": 0.05
+      },
+      "is_irrational": true
+    },
+    "mispricing": {
+      "rational_estimate": 0.256,
+      "market_price": 0.58,
+      "edge": 0.32399999999999995,
+      "edge_percent": 32.4,
+      "min_edge_required": 0.05,
+      "is_mispriced": true,
+      "edge_quality": "STRONG",
+      "base_rate_class": "common",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "common",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "Cavaliers maintain strong home court advantage",
+          "Key players perform at or above average",
+          "Opponent struggles with defense"
+        ],
+        "weakest_link": "Opponent struggles with defense"
+      },
+      "category": "sports",
+      "narrative_drivers": [
+        "Cavaliers' recent performance trends",
+        "Injury status of key players"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "INSIDER_ONLY",
+      "signal_emoji": "\ud83d\udc41\ufe0f",
+      "signal_strength": 70,
+      "interpretation": "Insider activity detected, no clear mispricing",
+      "action_suggestion": "Monitor: insider signal only, no statistical edge",
+      "insider_score": 70,
+      "insider_position": "CAVALIERS",
+      "irrationality_score": 35,
+      "is_irrational": true,
+      "is_mispriced": true,
+      "edge": 0.32399999999999995,
+      "edge_percent": 32.4
+    },
+    "financial_analyst": {
+      "signal_quality": 51.0,
+      "stance": "WATCH_ONLY",
+      "edge_percent": 32.4,
+      "signal_strength": 70.0,
+      "insider_score": 70.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    }
   }
 ]
