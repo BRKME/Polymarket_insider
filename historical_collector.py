@@ -146,6 +146,67 @@ def fetch_active_markets(limit: int = 200) -> List[Dict]:
         return []
 
 
+def fetch_markets_closing_soon(hours: int = 72, limit: int = 100) -> List[Dict]:
+    """
+    Fetch markets that will close in the next N hours.
+    This catches sports/short-term markets before they resolve.
+    """
+    url = f"{GAMMA_API_URL}/markets"
+    
+    # Get markets sorted by end date
+    params = {
+        "limit": limit,
+        "active": "true",
+        "closed": "false",
+        "order": "endDate",
+        "_sort": "endDate:asc"  # Soonest first
+    }
+    
+    try:
+        time.sleep(REQUEST_DELAY)
+        response = requests.get(url, params=params, timeout=30)
+        response.raise_for_status()
+        markets = response.json()
+        
+        cutoff = datetime.now(timezone.utc) + timedelta(hours=hours)
+        result = []
+        
+        for m in markets:
+            end_date_str = m.get('endDate', '')
+            if not end_date_str:
+                continue
+            
+            try:
+                end_date = datetime.fromisoformat(end_date_str.replace('Z', '+00:00'))
+                if end_date <= cutoff:
+                    outcomes = m.get('outcomes', [])
+                    if isinstance(outcomes, str):
+                        try:
+                            outcomes = json.loads(outcomes)
+                        except:
+                            outcomes = []
+                    
+                    volume = float(m.get('volume', 0) or 0)
+                    if volume >= 1000:  # Lower threshold for short-term markets
+                        result.append({
+                            'condition_id': m.get('conditionId', ''),
+                            'question': m.get('question', ''),
+                            'outcomes': outcomes,
+                            'end_date': end_date_str,
+                            'volume': volume,
+                            'category': classify_category(m.get('question', ''))
+                        })
+            except:
+                continue
+        
+        print(f"      [DEBUG] Found {len(result)} markets closing within {hours}h")
+        return result
+    
+    except Exception as e:
+        print(f"[ERROR] Fetching markets closing soon: {e}")
+        return []
+
+
 def fetch_recently_resolved(limit: int = 200) -> List[Dict]:
     """Fetch recently resolved markets to capture outcomes."""
     
@@ -355,14 +416,25 @@ def run_collection():
     print(f"HISTORICAL DATA COLLECTION — {now[:19]}")
     print('═'*60)
     
-    # 1. Fetch active markets
-    print("\n[1/3] Fetching active markets...")
+    # 1. Fetch active markets + markets closing soon
+    print("\n[1/3] Fetching markets...")
     active_markets = fetch_active_markets()
     print(f"      Found {len(active_markets)} active markets (volume >= $5K)")
     
+    closing_soon = fetch_markets_closing_soon(hours=72)
+    
+    # Merge and deduplicate by condition_id
+    all_markets = {m['condition_id']: m for m in active_markets}
+    for m in closing_soon:
+        if m['condition_id'] not in all_markets:
+            all_markets[m['condition_id']] = m
+    
+    markets_list = list(all_markets.values())
+    print(f"      Total unique markets to track: {len(markets_list)}")
+    
     # 2. Update markets table and collect trades
     print("\n[2/3] Collecting trades...")
-    for m in active_markets:
+    for m in markets_list:
         stats['markets_checked'] += 1
         
         # Check if market exists
@@ -418,7 +490,7 @@ def run_collection():
         
         # Progress
         if stats['markets_checked'] % 20 == 0:
-            print(f"      {stats['markets_checked']}/{len(active_markets)} markets, {stats['new_trades']} new trades")
+            print(f"      {stats['markets_checked']}/{len(markets_list)} markets, {stats['new_trades']} new trades")
     
     conn.commit()
     
