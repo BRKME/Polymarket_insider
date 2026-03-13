@@ -55,9 +55,16 @@ def init_db():
             is_resolved INTEGER DEFAULT 0,
             resolved_outcome TEXT,
             resolved_at TEXT,
-            final_volume REAL
+            final_volume REAL,
+            slug TEXT
         )
     ''')
+    
+    # Add slug column if it doesn't exist (migration)
+    try:
+        c.execute('ALTER TABLE markets ADD COLUMN slug TEXT')
+    except sqlite3.OperationalError:
+        pass  # Column already exists
     
     # Trades table - all significant trades
     c.execute('''
@@ -132,6 +139,7 @@ def fetch_active_markets(limit: int = 200) -> List[Dict]:
             if volume >= 5000:
                 result.append({
                     'condition_id': m.get('conditionId', ''),
+                    'slug': m.get('slug', ''),
                     'question': m.get('question', ''),
                     'outcomes': outcomes,
                     'end_date': m.get('endDate', ''),
@@ -446,8 +454,8 @@ def run_collection():
             # New market
             c.execute('''
                 INSERT INTO markets (condition_id, question, outcomes, end_date, 
-                                    category, first_seen, last_updated)
-                VALUES (?, ?, ?, ?, ?, ?, ?)
+                                    category, first_seen, last_updated, slug)
+                VALUES (?, ?, ?, ?, ?, ?, ?, ?)
             ''', (
                 m['condition_id'],
                 m['question'],
@@ -455,13 +463,14 @@ def run_collection():
                 m['end_date'],
                 m['category'],
                 now,
-                now
+                now,
+                m.get('slug', '')
             ))
             stats['new_markets'] += 1
         else:
-            # Update last_updated
-            c.execute('UPDATE markets SET last_updated = ? WHERE condition_id = ?',
-                     (now, m['condition_id']))
+            # Update last_updated and slug
+            c.execute('UPDATE markets SET last_updated = ?, slug = ? WHERE condition_id = ?',
+                     (now, m.get('slug', ''), m['condition_id']))
         
         # Fetch trades for this market
         trades = fetch_recent_trades(m['condition_id'])
@@ -498,27 +507,26 @@ def run_collection():
     print("\n[3/3] Checking for resolutions...")
     
     # Get all unresolved tracked markets
-    c.execute('SELECT condition_id, question, end_date FROM markets WHERE is_resolved = 0')
+    c.execute('SELECT condition_id, question, end_date, slug FROM markets WHERE is_resolved = 0')
     unresolved = c.fetchall()
     
     # Only check markets that might have resolved (past end_date or sports)
     today = datetime.now(timezone.utc).strftime('%Y-%m-%dT%H:%M:%S')
     to_check = []
-    for cid, question, end_date in unresolved:
+    for cid, question, end_date, slug in unresolved:
         # Check if end_date is in the past
         if end_date and end_date < today:
-            to_check.append((cid, question))
+            to_check.append((cid, question, slug))
         # Also check sports markets regardless (they resolve quickly)
         elif question and any(w in question.lower() for w in ['nba', 'nfl', 'mlb', 'nhl', ' vs ', 'game', 'win the']):
-            to_check.append((cid, question))
+            to_check.append((cid, question, slug))
     
     print(f"      Total unresolved: {len(unresolved)}, checking: {len(to_check)} (past end_date or sports)")
     
-    # Debug: show sample condition_id format
+    # Debug: show sample
     if to_check:
-        sample_cid, sample_q = to_check[0]
-        print(f"      [DEBUG] Sample condition_id: {sample_cid}")
-        print(f"      [DEBUG] Sample question: {sample_q[:60]}...")
+        sample_cid, sample_q, sample_slug = to_check[0]
+        print(f"      [DEBUG] Sample: cid={sample_cid[:30]}..., slug={sample_slug or 'None'}")
     
     checked = 0
     not_closed = 0
@@ -526,45 +534,43 @@ def run_collection():
     no_winner = 0
     api_errors = 0
     
-    for condition_id, question in to_check:
+    for condition_id, question, slug in to_check:
         checked += 1
         if checked % 20 == 0:
             print(f"      Checked {checked}/{len(to_check)}... (closed:{stats['resolutions_found']}, not_closed:{not_closed}, no_source:{no_resolution_source})")
         
-        # Query this specific market - try different endpoint formats
+        # Query this specific market
         try:
             time.sleep(REQUEST_DELAY * 0.3)
+            market = None
             
-            # Try 1: Query param format (most likely)
-            url = f"{GAMMA_API_URL}/markets"
-            response = requests.get(url, params={"id": condition_id}, timeout=15)
+            # Try 1: Use slug if available
+            if slug:
+                url = f"{GAMMA_API_URL}/markets"
+                response = requests.get(url, params={"slug": slug}, timeout=15)
+                if response.status_code == 200:
+                    data = response.json()
+                    if data:
+                        market = data[0] if isinstance(data, list) else data
             
-            # Try 2: If that fails, try conditionId param
-            if response.status_code != 200 or not response.json():
+            # Try 2: Use condition_id
+            if not market:
+                url = f"{GAMMA_API_URL}/markets"
                 response = requests.get(url, params={"conditionId": condition_id}, timeout=15)
+                if response.status_code == 200:
+                    data = response.json()
+                    if data:
+                        market = data[0] if isinstance(data, list) else data
             
-            if response.status_code != 200:
+            if not market:
                 api_errors += 1
                 if api_errors <= 3:
-                    print(f"      [API ERROR] Status {response.status_code} for {condition_id[:30]}...")
+                    print(f"      [API ERROR] No data for slug={slug}, cid={condition_id[:20]}...")
                 continue
             
-            data = response.json()
-            
-            # Response might be a list
-            if isinstance(data, list):
-                if not data:
-                    api_errors += 1
-                    if api_errors <= 3:
-                        print(f"      [API ERROR] Empty response for {condition_id[:30]}...")
-                    continue
-                market = data[0]
-            else:
-                market = data
-            
-            # Debug: show first successful market lookup
-            if checked == 1 or stats['resolutions_found'] == 1:
-                print(f"      [DEBUG] Market lookup success: closed={market.get('closed')}, q={market.get('question', '')[:40]}...")
+            # Debug: show first successful lookup
+            if checked == 1:
+                print(f"      [DEBUG] First lookup success: closed={market.get('closed')}, resolutionSource={bool(market.get('resolutionSource'))}")
             
             # Debug: show first few markets
             if checked <= 3:
