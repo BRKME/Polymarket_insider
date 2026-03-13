@@ -494,135 +494,101 @@ def run_collection():
     
     conn.commit()
     
-    # 3. Check for resolutions
+    # 3. Check for resolutions - query each tracked market directly
     print("\n[3/3] Checking for resolutions...")
-    resolved = fetch_recently_resolved()
     
-    # Build lookup by question (normalized)
-    c.execute('SELECT condition_id, question, is_resolved FROM markets WHERE is_resolved = 0')
-    tracked_markets = {}
-    for row in c.fetchall():
-        cid, question, _ = row
-        # Normalize question for matching
-        q_normalized = question.lower().strip() if question else ''
-        tracked_markets[q_normalized] = cid
+    # Get all unresolved tracked markets
+    c.execute('SELECT condition_id, question, end_date FROM markets WHERE is_resolved = 0')
+    unresolved = c.fetchall()
     
-    # Also try matching by condition_id directly
-    c.execute('SELECT condition_id FROM markets WHERE is_resolved = 0')
-    tracked_ids = set(row[0] for row in c.fetchall())
+    # Only check markets that might have resolved (past end_date or sports)
+    today = datetime.now(timezone.utc).strftime('%Y-%m-%dT%H:%M:%S')
+    to_check = []
+    for cid, question, end_date in unresolved:
+        # Check if end_date is in the past
+        if end_date and end_date < today:
+            to_check.append((cid, question))
+        # Also check sports markets regardless (they resolve quickly)
+        elif question and any(w in question.lower() for w in ['nba', 'nfl', 'mlb', 'nhl', ' vs ', 'game', 'win the']):
+            to_check.append((cid, question))
     
-    resolved_ids = set(r['condition_id'] for r in resolved)
-    overlap_by_id = tracked_ids & resolved_ids
+    print(f"      Total unresolved: {len(unresolved)}, checking: {len(to_check)} (past end_date or sports)")
     
-    # Check how many tracked markets should have already resolved
-    from datetime import datetime
-    today = datetime.now().strftime('%Y-%m-%d')
-    
-    c.execute('SELECT condition_id, question, end_date, category FROM markets WHERE is_resolved = 0')
-    past_end = 0
-    future_end = 0
-    no_end = 0
-    past_sports = []
-    
-    for row in c.fetchall():
-        cid, question, end_date, category = row
-        if not end_date:
-            no_end += 1
-        elif end_date < today:
-            past_end += 1
-            if category == 'sports':
-                past_sports.append((cid, question[:50], end_date))
-        else:
-            future_end += 1
-    
-    print(f"      [DEBUG] Tracked markets end_date analysis:")
-    print(f"        Past (should be resolved): {past_end}")
-    print(f"        Future (still active): {future_end}")
-    print(f"        No end_date: {no_end}")
-    
-    if past_sports:
-        print(f"      [DEBUG] Sports markets that should have resolved ({len(past_sports)}):")
-        for cid, q, ed in past_sports[:5]:
-            print(f"        - {ed}: {q}... (id: {cid[:16]}...)")
-    print(f"      [DEBUG] API resolved: {len(resolved)}")
-    print(f"      [DEBUG] Overlap by condition_id: {len(overlap_by_id)}")
-    print(f"      [DEBUG] Tracked questions available for matching: {len(tracked_markets)}")
-    
-    # Show sample for debugging - include sports
-    if tracked_markets:
-        print(f"      [DEBUG] Sample tracked questions (by category):")
+    checked = 0
+    for condition_id, question in to_check:
+        checked += 1
+        if checked % 20 == 0:
+            print(f"      Checked {checked}/{len(to_check)}...")
         
-        # Group by finding sports keywords
-        sports_samples = []
-        politics_samples = []
-        other_samples = []
-        
-        for q in tracked_markets.keys():
-            if any(w in q for w in ['nba', 'nfl', 'mlb', 'nhl', 'vs', 'game', 'win the', 'beat']):
-                sports_samples.append(q)
-            elif any(w in q for w in ['trump', 'biden', 'election', 'president']):
-                politics_samples.append(q)
-            else:
-                other_samples.append(q)
-        
-        print(f"        Sports ({len(sports_samples)}):")
-        for q in sports_samples[:3]:
-            print(f"          - {q[:70]}...")
-        print(f"        Politics ({len(politics_samples)}):")
-        for q in politics_samples[:2]:
-            print(f"          - {q[:70]}...")
-    
-    if resolved:
-        sample_r = resolved[0]
-        print(f"      [DEBUG] Sample resolved: id={sample_r['condition_id'][:20]}..., q={sample_r.get('question', '')[:50]}...")
-        # Show a few more
-        print(f"      [DEBUG] Sample resolved questions:")
-        for i, r in enumerate(resolved[:3]):
-            print(f"        {i+1}. {r.get('question', '')[:70]}...")
-    
-    matched = 0
-    matched_by_question = 0
-    matched_by_partial = 0
-    
-    for r in resolved:
-        matched_cid = None
-        
-        # Try 1: Direct condition_id match
-        if r['condition_id'] in tracked_ids:
-            matched_cid = r['condition_id']
-        
-        # Try 2: Exact match by question
-        if not matched_cid:
-            r_question = r.get('question', '').lower().strip()
-            if r_question and r_question in tracked_markets:
-                matched_cid = tracked_markets[r_question]
-                matched_by_question += 1
-        
-        # Try 3: Partial match (question contains)
-        if not matched_cid:
-            r_question = r.get('question', '').lower().strip()
-            if r_question:
-                # Check if resolved question is contained in any tracked question or vice versa
-                for tracked_q, tracked_cid in tracked_markets.items():
-                    if len(r_question) > 20 and len(tracked_q) > 20:
-                        # Use first 50 chars for matching
-                        if r_question[:50] == tracked_q[:50]:
-                            matched_cid = tracked_cid
-                            matched_by_partial += 1
-                            break
-        
-        if matched_cid:
+        # Query this specific market
+        try:
+            time.sleep(REQUEST_DELAY * 0.3)
+            url = f"{GAMMA_API_URL}/markets/{condition_id}"
+            response = requests.get(url, timeout=15)
+            
+            if response.status_code != 200:
+                continue
+            
+            market = response.json()
+            
+            # Check if resolved
+            if not market.get('closed'):
+                continue
+            if not market.get('resolutionSource'):
+                continue
+            
+            # Parse outcomes
+            outcomes = market.get('outcomes', [])
+            if isinstance(outcomes, str):
+                try:
+                    outcomes = json.loads(outcomes)
+                except:
+                    continue
+            
+            outcome_prices = market.get('outcomePrices', [])
+            if isinstance(outcome_prices, str):
+                try:
+                    outcome_prices = json.loads(outcome_prices)
+                except:
+                    continue
+            
+            # Find winner
+            winning = None
+            for i, p in enumerate(outcome_prices):
+                try:
+                    if float(p) >= 0.95 and i < len(outcomes):
+                        winning = outcomes[i]
+                        break
+                except:
+                    pass
+            
+            # Fallback: highest price > 0.9
+            if not winning and outcome_prices and outcomes:
+                try:
+                    prices = [float(p) for p in outcome_prices]
+                    max_idx = max(range(len(prices)), key=lambda i: prices[i])
+                    if prices[max_idx] > 0.9:
+                        winning = outcomes[max_idx]
+                except:
+                    pass
+            
+            if not winning:
+                continue
+            
+            # Mark as resolved!
+            volume = float(market.get('volume', 0) or 0)
             c.execute('''
                 UPDATE markets 
                 SET is_resolved = 1, resolved_outcome = ?, resolved_at = ?, final_volume = ?
                 WHERE condition_id = ?
-            ''', (r['resolved_outcome'], now, r['volume'], matched_cid))
+            ''', (winning, now, volume, condition_id))
             stats['resolutions_found'] += 1
-            matched += 1
-            if matched <= 5:  # Only print first 5
-                print(f"      ✓ Resolved: {matched_cid[:12]}... → {r['resolved_outcome']}")
+            print(f"      ✓ Resolved: {question[:50]}... → {winning}")
+            
+        except Exception as e:
+            continue
     
-    print(f"      [DEBUG] Matched: {matched} (exact_q: {matched_by_question}, partial: {matched_by_partial})")
+    print(f"      [RESULT] Found {stats['resolutions_found']} newly resolved markets")
     
     conn.commit()
     
