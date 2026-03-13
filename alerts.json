@@ -30730,5 +30730,107 @@
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
     }
+  },
+  {
+    "market": "Knicks vs. Pacers: O/U 227.5",
+    "market_slug": "nba-nyk-ind-2026-03-13-total-227pt5",
+    "wallet": "0x55f3a72a6d35b730ba9602cc1a8d6d6227c7d5aa",
+    "analysis": {
+      "score": 70,
+      "flags": [
+        "New wallet (0d old)",
+        "Large bet ($1,197)",
+        "Low activity (2 txns)"
+      ],
+      "amount": 1196.6399999999999,
+      "odds": 0.48,
+      "raw_price": 0.48,
+      "outcome": "Under",
+      "potential_pnl": 1296.3600000000001,
+      "pnl_multiplier": 1.0833333333333335,
+      "wallet_age_days": 0,
+      "total_activities": 2
+    },
+    "timestamp": "2026-03-13T14:25:22.617388",
+    "trade_hash": "0x7a55c7e91832838402e24b15eb6d415cd8c5a6303bbad272a944f2011d9658fa",
+    "trade_timestamp": 1773411701,
+    "latency": null,
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "Under",
+      "side": "BUY",
+      "price": 0.48,
+      "effective_price": 0.48,
+      "size": 2493.0,
+      "amount": 1196.6399999999999,
+      "potential_pnl": 1296.3600000000001,
+      "pnl_multiplier": 1.0833333333333335,
+      "is_no": false
+    },
+    "irrationality": {
+      "irrationality_score": 35,
+      "flags": [
+        "Large mispricing edge (+24.4%)"
+      ],
+      "category": "sports",
+      "category_info": {
+        "strength": "medium",
+        "typical_overpricing": 0.03,
+        "min_edge": 0.05
+      },
+      "is_irrational": true
+    },
+    "mispricing": {
+      "rational_estimate": 0.236,
+      "market_price": 0.48,
+      "edge": 0.244,
+      "edge_percent": 24.4,
+      "min_edge_required": 0.05,
+      "is_mispriced": true,
+      "edge_quality": "STRONG",
+      "base_rate_class": "common",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "common",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "Both teams score efficiently",
+          "Defensive lapses by both teams",
+          "Game pace is fast"
+        ],
+        "weakest_link": "Defensive lapses by both teams"
+      },
+      "category": "sports",
+      "narrative_drivers": [
+        "Recent scoring trends of both teams",
+        "Injury status of key offensive players"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "INSIDER_ONLY",
+      "signal_emoji": "\ud83d\udc41\ufe0f",
+      "signal_strength": 70,
+      "interpretation": "Insider activity detected, no clear mispricing",
+      "action_suggestion": "Monitor: insider signal only, no statistical edge",
+      "insider_score": 70,
+      "insider_position": "UNDER",
+      "irrationality_score": 35,
+      "is_irrational": true,
+      "is_mispriced": true,
+      "edge": 0.244,
+      "edge_percent": 24.4
+    },
+    "financial_analyst": {
+      "signal_quality": 51.0,
+      "stance": "WATCH_ONLY",
+      "edge_percent": 24.4,
+      "signal_strength": 70.0,
+      "insider_score": 70.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    }
   }
 ]
