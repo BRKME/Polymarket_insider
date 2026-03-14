@@ -19,12 +19,14 @@ def get_db_connection():
     """
     Get thread-local database connection.
     FIX ISSUE #15: Thread-safe database access.
+    FIX: Set isolation_level=None for manual transaction control.
     """
     if not hasattr(local, 'conn') or local.conn is None:
         local.conn = sqlite3.connect(
             str(DB_PATH), 
             timeout=30,
-            check_same_thread=False
+            check_same_thread=False,
+            isolation_level=None  # Autocommit mode - we manage transactions manually
         )
         # Enable WAL mode for concurrent access
         local.conn.execute("PRAGMA journal_mode=WAL")
