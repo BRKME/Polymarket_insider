@@ -151,7 +151,7 @@ def fetch_trader_recent_positions(address: str, hours: int = 24) -> List[Dict]:
         return []
 
 
-def fetch_trader_recent_trades(address: str, minutes_back: int = 30) -> List[Dict]:
+def fetch_trader_recent_trades(address: str, minutes_back: int = 60) -> List[Dict]:
     """
     Fetch recent trades for a specific trader.
     Returns list of trades with market info.
@@ -182,6 +182,14 @@ def fetch_trader_recent_trades(address: str, minutes_back: int = 30) -> List[Dic
             return []
         
         trades = response.json()
+        
+        # Debug: show raw response for first trader
+        if not hasattr(fetch_trader_recent_trades, '_debug_shown'):
+            fetch_trader_recent_trades._debug_shown = True
+            print(f"[DEBUG] API returned {len(trades)} trades for first trader")
+            if trades:
+                print(f"[DEBUG] First trade keys: {list(trades[0].keys())[:10]}")
+        
         cutoff = datetime.now(timezone.utc) - timedelta(minutes=minutes_back)
         cutoff_ts = cutoff.timestamp()
         

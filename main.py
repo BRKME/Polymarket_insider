@@ -179,8 +179,15 @@ def scan_top_traders(tracked_hashes: set) -> List[Dict]:
         print(f"[{datetime.now()}] Tracking {len(top_wallets)} top traders")
         
         alerts = []
+        total_trades_found = 0
+        traders_with_trades = 0
+        
         for address, trader_info in list(top_wallets.items())[:20]:  # Limit to top 20 to avoid rate limits
-            trades = fetch_trader_recent_trades(address, minutes_back=30)
+            trades = fetch_trader_recent_trades(address, minutes_back=60)  # Increased to 60 min
+            
+            if trades:
+                traders_with_trades += 1
+                total_trades_found += len(trades)
             
             for trade in trades:
                 trade_hash = trade.get('transactionHash', '')
@@ -207,11 +214,13 @@ def scan_top_traders(tracked_hashes: set) -> List[Dict]:
                 alerts.append(alert)
                 print(f"[{datetime.now()}] 👑 Top trader #{trader_info['rank']} trade: ${amount:,.0f}")
         
-        print(f"[{datetime.now()}] 🎯 Goal #3 (top traders): {len(alerts)} new trades")
+        print(f"[{datetime.now()}] 🎯 Goal #3: {traders_with_trades}/20 traders had trades, {total_trades_found} total trades, {len(alerts)} alerts")
         return alerts
         
     except Exception as e:
         print(f"[{datetime.now()}] ❌ Error scanning top traders: {e}")
+        import traceback
+        traceback.print_exc()
         return []
 
 
