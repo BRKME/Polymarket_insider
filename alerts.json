@@ -31213,5 +31213,291 @@
     "market": "Unknown market",
     "market_slug": "",
     "amount": 999.9999989999999
+  },
+  {
+    "market": "Will Anthropic have the best AI model at the end of March 2026?",
+    "market_slug": "will-anthropic-have-the-best-ai-model-at-the-end-of-march-2026-437",
+    "wallet": "0x4c4ed674fde7dc998036b3ae92445d00fcdb297b",
+    "analysis": {
+      "score": 80,
+      "flags": [
+        "New wallet (3d old)",
+        "Large bet ($1,292)",
+        "Pre-event latency: 7685m"
+      ],
+      "amount": 1291.6989600000002,
+      "odds": 0.8976427633270558,
+      "raw_price": 0.8976427633270558,
+      "outcome": "Yes",
+      "potential_pnl": 147.29103999999995,
+      "pnl_multiplier": 0.11402892203304082,
+      "wallet_age_days": 3,
+      "total_activities": 79
+    },
+    "timestamp": "2026-03-14T16:00:20.501101",
+    "trade_hash": "0xc9cb8d2e6a8d7486a157fd1bf5df4ee5962e1ded64ea81f620b3ee1ba8ab7f9b",
+    "trade_timestamp": 1773503699,
+    "latency": {
+      "latency_seconds": 461101.0,
+      "latency_minutes": 7685.016666666666,
+      "is_pre_event": true,
+      "severity": "CRITICAL",
+      "trade_time": "2026-03-14T15:54:59+00:00",
+      "event_time": "2026-03-20T00:00:00+00:00"
+    },
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "Yes",
+      "side": "BUY",
+      "price": 0.8976427633270558,
+      "effective_price": 0.8976427633270558,
+      "size": 1438.99,
+      "amount": 1291.6989600000002,
+      "potential_pnl": 147.29103999999995,
+      "pnl_multiplier": 0.11402892203304082,
+      "is_no": false
+    },
+    "irrationality": {
+      "irrationality_score": 35,
+      "flags": [
+        "Large mispricing edge (+57.8%)"
+      ],
+      "category": "politics_near",
+      "category_info": {
+        "strength": "medium",
+        "typical_overpricing": 0.02,
+        "min_edge": 0.03
+      },
+      "is_irrational": true
+    },
+    "mispricing": {
+      "rational_estimate": 0.31952855266541114,
+      "market_price": 0.8976427633270558,
+      "edge": 0.5781142106616447,
+      "edge_percent": 57.81142106616447,
+      "min_edge_required": 0.05,
+      "is_mispriced": true,
+      "edge_quality": "STRONG",
+      "base_rate_class": "common",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "common",
+      "structural_feasibility": {
+        "independent_conditions_required": 4,
+        "conditions": [
+          "Anthropic successfully develops a superior AI model compared to competitors",
+          "Sustained funding and resources for research and development",
+          "Attraction and retention of top AI talent",
+          "Positive regulatory environment for AI development"
+        ],
+        "weakest_link": "Sustained funding and resources for research and development"
+      },
+      "category": "other",
+      "narrative_drivers": [
+        "Advancements in AI technology and research",
+        "Competitive landscape among AI companies"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "CONFLICT",
+      "signal_emoji": "\u26a0\ufe0f",
+      "signal_strength": 80,
+      "interpretation": "Insider buying YES despite statistical overpricing",
+      "action_suggestion": "Requires manual analysis: insider may have real info OR is part of irrational crowd",
+      "insider_score": 80,
+      "insider_position": "YES",
+      "irrationality_score": 35,
+      "is_irrational": true,
+      "is_mispriced": true,
+      "edge": 0.5781142106616447,
+      "edge_percent": 57.81142106616447
+    },
+    "financial_analyst": {
+      "signal_quality": 48.0,
+      "stance": "WATCH_ONLY",
+      "edge_percent": 57.81,
+      "signal_strength": 80.0,
+      "insider_score": 80.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    }
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x028ba0dab0668c0675e28956bdcf3b92d3205fa17eb05a1ab75570b1bb0f43f0",
+    "wallet": "0xd235973291b2b75ff4070e9c0b01728c520b0f29",
+    "trader": {
+      "rank": 5,
+      "address": "0xd235973291b2b75ff4070e9c0b01728c520b0f29",
+      "username": "zxgngl",
+      "profit": 7807265.5892408835,
+      "volume": 40551790.621846996,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xf828161eee129d0247f6a495865b351e13b68333",
+      "side": "SELL",
+      "asset": "57817609187638877082051374086608861977598876793124526827718549020543647406808",
+      "conditionId": "0xa7a9755e95e3809cd57814a2e32bcae9c752f5403a5eef12c6cc509ea10b1c9e",
+      "size": 640,
+      "price": 0.997,
+      "timestamp": 1773504139,
+      "title": "Will Ethereum reach $4,000 in March?",
+      "slug": "will-ethereum-reach-4000-in-march-2026",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/ETH+fullsize.jpg",
+      "eventSlug": "what-price-will-ethereum-hit-in-march-2026",
+      "outcome": "No",
+      "outcomeIndex": 1,
+      "name": "",
+      "pseudonym": "",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x028ba0dab0668c0675e28956bdcf3b92d3205fa17eb05a1ab75570b1bb0f43f0",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Unknown market",
+    "market_slug": "",
+    "amount": 638.08
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xf71ce50cd41e6dee70484ae17e97354a642817a55a63e96d26be604084e4fee5",
+    "wallet": "0xd235973291b2b75ff4070e9c0b01728c520b0f29",
+    "trader": {
+      "rank": 5,
+      "address": "0xd235973291b2b75ff4070e9c0b01728c520b0f29",
+      "username": "zxgngl",
+      "profit": 7807265.5892408835,
+      "volume": 40551790.621846996,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xa1f39b9b21a7bfb0f540cf106b92e240c7b7d99c",
+      "side": "BUY",
+      "asset": "64715255265350276455528904166659085905931463485895976894214990203363945196710",
+      "conditionId": "0x9cb958783f93bd62c5beb7c82909e498069d20cf1e5b9034c6f675aa4f37aba8",
+      "size": 2040.816325,
+      "price": 0.4899999998775,
+      "timestamp": 1773504139,
+      "title": "Spread: 76ers (-8.5)",
+      "slug": "nba-bkn-phi-2026-03-14-spread-home-8pt5",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
+      "eventSlug": "nba-bkn-phi-2026-03-14",
+      "outcome": "Nets",
+      "outcomeIndex": 1,
+      "name": "facai86868",
+      "pseudonym": "Sunny-Survival",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xf71ce50cd41e6dee70484ae17e97354a642817a55a63e96d26be604084e4fee5",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Unknown market",
+    "market_slug": "",
+    "amount": 999.999999
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xa457a2010d2388bcdd7780a47b9ad90e7c7835fc7297e33e32c2aea6f4f43f67",
+    "wallet": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+    "trader": {
+      "rank": 12,
+      "address": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+      "username": "RN1",
+      "profit": 5508349.537842194,
+      "volume": 256087173.314408,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x7a46461485f11d87e052478f289107d06920ab25",
+      "side": "BUY",
+      "asset": "109687659091032593005758651408024211875079361601128910605877731084341190532149",
+      "conditionId": "0x202f8a3b6c091248dd95762e115fb5d13e2e74e08a837ad06040ba171be17f74",
+      "size": 1800,
+      "price": 0.68,
+      "timestamp": 1773504441,
+      "title": "LoL: Frites Esports Club vs S2G Esports - Game 1 Winner",
+      "slug": "lol-fec-s2g-2026-03-14-game1",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/league-of-legends-61a4f083a6.png",
+      "eventSlug": "lol-fec-s2g-2026-03-14",
+      "outcome": "S2G Esports",
+      "outcomeIndex": 1,
+      "name": "Mario7979",
+      "pseudonym": "Beloved-Plea",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xa457a2010d2388bcdd7780a47b9ad90e7c7835fc7297e33e32c2aea6f4f43f67",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Unknown market",
+    "market_slug": "",
+    "amount": 1224.0
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x2dc5d0e1d8ab7d262a457a601e667e1e226a1031a972c621e00b2a2502b948d3",
+    "wallet": "0x16f91db2592924cfed6e03b7e5cb5bb1e32299e3",
+    "trader": {
+      "rank": 20,
+      "address": "0x16f91db2592924cfed6e03b7e5cb5bb1e32299e3",
+      "username": "Jenzigo",
+      "profit": 4049827.0941029997,
+      "volume": 9457725.034338009,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x2df9846123020b713df044c2de80658ad2eceffb",
+      "side": "BUY",
+      "asset": "77380687248235165829626529947585403336717643793859834077265401852756749653222",
+      "conditionId": "0x9bb4aa05c25fab72f939e1ef11c167366fea872a3400f9efdcbed0c5139ecb4c",
+      "size": 700,
+      "price": 0.992,
+      "timestamp": 1773504739,
+      "title": "Will Crude Oil (CL) hit (LOW) $45 by end of March?",
+      "slug": "will-crude-oil-cl-hit-low-45-by-end-of-march-524-288-596-421-318-497-667",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/crude-oil-9a850ce2a2.png",
+      "eventSlug": "will-crude-oil-cl-hit-by-end-of-march",
+      "outcome": "No",
+      "outcomeIndex": 1,
+      "name": "0x2df9846123020B713DF044C2de80658ad2ecEffb-1764940894320",
+      "pseudonym": "Swift-Stuff",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x2dc5d0e1d8ab7d262a457a601e667e1e226a1031a972c621e00b2a2502b948d3",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Unknown market",
+    "market_slug": "",
+    "amount": 694.4
   }
 ]
