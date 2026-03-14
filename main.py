@@ -198,7 +198,7 @@ def scan_top_traders(tracked_hashes: set) -> List[Dict]:
                 
                 # Build alert
                 amount = float(trade.get('size', 0)) * float(trade.get('price', 0))
-                if amount < 500:  # Skip small trades
+                if amount < 1500:  # Skip small trades (filter noise from top traders)
                     continue
                 
                 # Get market name from trade data
