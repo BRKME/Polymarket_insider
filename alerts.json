@@ -33585,5 +33585,49 @@
     "market": "UFC Fight Night: SuYoung You vs. Elijah Smith (Bantamweight, Prelims)",
     "market_slug": "ufc-suy-eli9-2026-03-14",
     "amount": 2703.012
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xfd6977f34f4bf0a8f36231be3623230368a40f19892c11afb61c053cd8d7a0c7",
+    "wallet": "0xdc876e6873772d38716fda7f2452a78d426d7ab6",
+    "trader": {
+      "rank": 18,
+      "address": "0xdc876e6873772d38716fda7f2452a78d426d7ab6",
+      "username": "432614799197",
+      "profit": 4543549.165836023,
+      "volume": 185485956.86208287,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x706ccabb8023add7fe4e773aaaab812eb2d6a94b",
+      "side": "SELL",
+      "asset": "43844893274652694909493529099004269415454316401232185138819429254111040362035",
+      "conditionId": "0xc49142a0a94b68377bbc3f2e7f7f53a400274e2dcd4536cfa343be55a3c1fdf8",
+      "size": 9301.23,
+      "price": 0.7506351633063584,
+      "timestamp": 1773529051,
+      "title": "Will another country strike Iran by March 31?",
+      "slug": "will-another-country-strike-iran-by-march-31-833",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-another-country-strike-iran-by-march-31-zJNlYmZd_b7P.jpg",
+      "eventSlug": "will-another-country-strike-iran-by-march-31",
+      "outcome": "No",
+      "outcomeIndex": 1,
+      "name": "Amrosein",
+      "pseudonym": "Untidy-Sensor",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xfd6977f34f4bf0a8f36231be3623230368a40f19892c11afb61c053cd8d7a0c7",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Will another country strike Iran by March 31?",
+    "market_slug": "will-another-country-strike-iran-by-march-31",
+    "amount": 6981.8303
   }
 ]
