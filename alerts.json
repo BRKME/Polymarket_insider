@@ -31081,5 +31081,93 @@
     "market": "Unknown market",
     "market_slug": "",
     "amount": 1949.9999979999998
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xaa368e04ae2014a78fc85b480d232e4081f08d407ecd95fd7c4c74a376c6d0dd",
+    "wallet": "0xdb27bf2ac5d428a9c63dbc914611036855a6c56e",
+    "trader": {
+      "rank": 9,
+      "address": "0xdb27bf2ac5d428a9c63dbc914611036855a6c56e",
+      "username": "DrPufferfish",
+      "profit": 5929636.811514213,
+      "volume": 207381131.84704196,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xc7b9cabba03195c07d007304198fb39f285b30b5",
+      "side": "BUY",
+      "asset": "24880818617132598688829402716541764724600685149042631991938921403533284241164",
+      "conditionId": "0xc094fd60c0a09ba0df48a086ef91e12390fa8777fcd9cb63c154e9622cb1d497",
+      "size": 1782.202,
+      "price": 0.999,
+      "timestamp": 1773502039,
+      "title": "Will the Memphis Grizzlies win the 2026 NBA Finals?",
+      "slug": "will-the-memphis-grizzlies-win-the-2026-nba-finals",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nba-finals-points-leader-7g2ZEZvMXxLb.jpg",
+      "eventSlug": "2026-nba-champion",
+      "outcome": "No",
+      "outcomeIndex": 1,
+      "name": "fhbnbmn",
+      "pseudonym": "Rowdy-Video",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xaa368e04ae2014a78fc85b480d232e4081f08d407ecd95fd7c4c74a376c6d0dd",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Unknown market",
+    "market_slug": "",
+    "amount": 1780.419798
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x6441ea6e6509371eee9e82ce594ec6cfa909277a074d081b0e8078b238530d00",
+    "wallet": "0xdb27bf2ac5d428a9c63dbc914611036855a6c56e",
+    "trader": {
+      "rank": 9,
+      "address": "0xdb27bf2ac5d428a9c63dbc914611036855a6c56e",
+      "username": "DrPufferfish",
+      "profit": 5929636.811514213,
+      "volume": 207381131.84704196,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+      "side": "BUY",
+      "asset": "21481513434957951470354179752999472975927720761536541086327227757236107211668",
+      "conditionId": "0xc69700750371973efc10a74f50e831958a4d07456a86ecd670d7bfc59db9c6a5",
+      "size": 2075,
+      "price": 0.51,
+      "timestamp": 1773502039,
+      "title": "Will Eintracht Frankfurt win on 2026-03-14?",
+      "slug": "bun-ein-hei-2026-03-14-ein",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/league-bun.jpg",
+      "eventSlug": "bun-ein-hei-2026-03-14",
+      "outcome": "Yes",
+      "outcomeIndex": 0,
+      "name": "swisstony",
+      "pseudonym": "Frail-Possible",
+      "bio": "loincloth chic",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x6441ea6e6509371eee9e82ce594ec6cfa909277a074d081b0e8078b238530d00",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Unknown market",
+    "market_slug": "",
+    "amount": 1058.25
   }
 ]
