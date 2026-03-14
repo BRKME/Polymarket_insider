@@ -31169,5 +31169,49 @@
     "market": "Unknown market",
     "market_slug": "",
     "amount": 1058.25
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x079e3f270e69ada764840f6f7fe5c05634fd9460e5024aee95fa98b99632ce24",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.515682004,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x66fbe4344c1a9f6029a4e40ffd5ca7848e189f72",
+      "side": "BUY",
+      "asset": "31986650000416570392848394072350508621537097683008229139707876246259885743284",
+      "conditionId": "0x026952b400f7d3553bfba75f48e968162f2960817ca83ebefa47a75177db7ff8",
+      "size": 1960.784312,
+      "price": 0.5099999999388,
+      "timestamp": 1773502941,
+      "title": "Dota 2: BetBoom Team vs Team Yandex - Game 2 Winner",
+      "slug": "dota2-bb4-ty-2026-03-14-game2",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/dota2-7ffacddb21.jpg",
+      "eventSlug": "dota2-bb4-ty-2026-03-14",
+      "outcome": "BetBoom Team",
+      "outcomeIndex": 0,
+      "name": "bobbythedestroyer",
+      "pseudonym": "Incredible-Integer",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x079e3f270e69ada764840f6f7fe5c05634fd9460e5024aee95fa98b99632ce24",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Unknown market",
+    "market_slug": "",
+    "amount": 999.9999989999999
   }
 ]
