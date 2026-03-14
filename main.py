@@ -201,18 +201,23 @@ def scan_top_traders(tracked_hashes: set) -> List[Dict]:
                 if amount < 500:  # Skip small trades
                     continue
                 
+                # Get market name from trade data
+                # API returns 'title' and 'slug' directly on trade, not nested in 'market'
+                market_name = trade.get('title', '') or trade.get('market', {}).get('question', 'Unknown market')
+                market_slug = trade.get('eventSlug', '') or trade.get('slug', '') or trade.get('market', {}).get('slug', '')
+                
                 alert = {
                     'type': 'TOP_TRADER',
                     'trade_hash': trade_hash,
                     'wallet': address,
                     'trader': trader_info,
                     'trade': trade,
-                    'market': trade.get('market', {}).get('question', 'Unknown market'),
-                    'market_slug': trade.get('market', {}).get('slug', ''),
+                    'market': market_name,
+                    'market_slug': market_slug,
                     'amount': amount,
                 }
                 alerts.append(alert)
-                print(f"[{datetime.now()}] 👑 Top trader #{trader_info['rank']} trade: ${amount:,.0f}")
+                print(f"[{datetime.now()}] 👑 Top trader #{trader_info['rank']} trade: ${amount:,.0f} on {market_name[:50]}")
         
         print(f"[{datetime.now()}] 🎯 Goal #3: {traders_with_trades}/20 traders had trades, {total_trades_found} total trades, {len(alerts)} alerts")
         return alerts

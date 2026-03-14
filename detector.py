@@ -310,6 +310,7 @@ def detect_insider_trades():
                         alert = {
                             "market": market.get("question"),
                             "market_slug": market.get("slug"),
+                            "event_slug": market.get("eventSlug") or market.get("slug"),
                             "wallet": wallet_address,
                             "analysis": analysis,
                             "timestamp": datetime.now().isoformat(),
@@ -333,7 +334,9 @@ def detect_insider_trades():
                                 "amount": amount,                            # correct cost (YES or NO)
                                 "potential_pnl": analysis.get("potential_pnl", 0),
                                 "pnl_multiplier": analysis.get("pnl_multiplier", 0),
-                                "is_no": is_no
+                                "is_no": is_no,
+                                "slug": market.get("slug"),
+                                "eventSlug": market.get("eventSlug") or trade.get("eventSlug")
                             },
                             # ══════════════════════════════════════════
                             # NEW: Irrationality analysis data

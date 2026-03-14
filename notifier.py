@@ -227,180 +227,6 @@ def generate_ai_summary(alert):
         latency_info
     )
 
-def format_institutional_alert(alert):
-    """
-    Format alert with clear visual hierarchy:
-    1. Market state + Edge (key decision number)
-    2. Insider context
-    3. Risk interpretation
-    4. Action recommendation
-    """
-    from datetime import datetime, timezone
-    
-    analysis = alert["analysis"]
-    trade_info = format_trade_info(alert)
-    wallet_stats = alert.get('wallet_stats')
-    latency = alert.get('latency')
-    top_trader = alert.get('top_trader')
-    
-    combined_signal = alert.get('combined_signal', {})
-    irrationality = alert.get('irrationality', {})
-    mispricing = alert.get('mispricing', {})
-    
-    signal_type = combined_signal.get('signal_type', 'INSIDER_ONLY')
-    signal_emoji = combined_signal.get('signal_emoji', '👁️')
-    
-    # === HEADER ===
-    # Override header if top trader
-    if top_trader:
-        header = f"👑 TOP TRADER #{top_trader['rank']} + {signal_type}"
-    else:
-        header_map = {
-            "ALPHA": f"{signal_emoji} ALPHA — Insider + Statistics Aligned",
-            "CONFLICT": f"{signal_emoji} CONFLICT — Insider vs Statistics",
-            "INSIDER_CONFIRMED": f"{signal_emoji} INSIDER CONFIRMED",
-            "CONTRARIAN_INSIDER": f"{signal_emoji} CONTRARIAN INSIDER",
-            "INSIDER_ONLY": f"{signal_emoji} INSIDER ACTIVITY"
-        }
-        header = header_map.get(signal_type, f"{signal_emoji} SIGNAL")
-    
-    # === MARKET STATE (Primary focus) ===
-    yes_price = alert.get('trade_data', {}).get('price', 0)
-    no_price = 1 - yes_price
-    edge = mispricing.get('edge_percent', 0)
-    rational_est = mispricing.get('rational_estimate', 0)
-    edge_quality = mispricing.get('edge_quality', 'NONE')
-    
-    # Determine EV direction
-    if edge > 0:
-        ev_direction = "NO" if yes_price > rational_est else "YES"
-        overpriced_side = "YES" if yes_price > rational_est else "NO"
-    else:
-        ev_direction = None
-        overpriced_side = None
-    
-    message = f"""{header}
-
-📊 MARKET
-{alert['market']}
-YES {yes_price*100:.0f}% | NO {no_price*100:.0f}%"""
-    
-    # === EDGE (Key decision number) ===
-    if edge > 0 and overpriced_side:
-        message += f"""
-
-📈 EDGE
-Rational estimate: {rational_est*100:.0f}%
-Mispricing: {edge:+.1f}% ({overpriced_side} overpriced)
-→ EV favors {ev_direction}"""
-    
-    # === INSIDER ACTIVITY ===
-    wallet = alert['wallet']
-    amount = float(analysis.get('amount', 0))
-    
-    # Wallet age description
-    if top_trader:
-        wallet_desc = f"Top #{top_trader['rank']} (${top_trader['profit']:,.0f} profit, {top_trader['win_rate']*100:.0f}% win)"
-    elif wallet_stats:
-        classification = wallet_stats.get('classification', 'Unknown')
-        total_trades = wallet_stats.get('total_trades', 0)
-        wallet_desc = f"{classification} ({total_trades} trades)"
-    else:
-        wallet_desc = "New wallet"
-    
-    # Lead time
-    if latency and latency.get('is_pre_event'):
-        lead_min = int(latency['latency_minutes'])
-        if lead_min < 60:
-            lead_time = f"{lead_min}m before event"
-        elif lead_min < 1440:
-            lead_time = f"{lead_min/60:.1f}h before event"
-        else:
-            lead_time = f"{lead_min/1440:.1f}d before event"
-    else:
-        lead_time = None
-    
-    # Section header depends on top_trader
-    section_header = "👑 TOP TRADER" if top_trader else "👤 INSIDER"
-    
-    message += f"""
-
-{section_header}
-Wallet: {wallet}
-Bet: ${amount:,.0f} {trade_info['position']}
-Profile: {wallet_desc}"""
-    
-    if lead_time:
-        message += f"\n⏰ {lead_time}"
-    
-    # === RISK ASSESSMENT ===
-    risks = []
-    
-    # Top trader = lower risk
-    if top_trader:
-        if top_trader['win_rate'] >= 0.65:
-            risks.append(f"High win rate ({top_trader['win_rate']*100:.0f}%) — strong track record")
-    else:
-        # Wallet risks
-        if not wallet_stats or wallet_stats.get('total_trades', 0) < 3:
-            risks.append("New wallet (low credibility)")
-    
-    # Size risks
-    if amount < 5000:
-        risks.append("Small notional (not structural)")
-    elif amount > 50000:
-        risks.append("Large notional (whale activity)")
-    
-    # Signal conflict
-    if signal_type == "CONFLICT":
-        risks.append("Insider opposes statistical model")
-    
-    # Irrationality flags
-    irr_flags = irrationality.get('flags', [])
-    for flag in irr_flags[:2]:
-        if len(flag) < 50:
-            risks.append(flag)
-    
-    if risks:
-        message += f"\n\n⚠️ RISK"
-        for risk in risks[:4]:
-            message += f"\n• {risk}"
-    
-    # === ACTION RECOMMENDATION ===
-    fa = alert.get('financial_analyst', {})
-    stance = fa.get('stance', 'WATCH_ONLY')
-    quality = fa.get('signal_quality', 0)
-    
-    action_map = {
-        "HIGH_CONVICTION": f"✅ ACTION: Consider {ev_direction} position (3-5% sizing)" if ev_direction else "✅ ACTION: Follow insider direction",
-        "SELECTIVE": f"🔶 SELECTIVE: Small {ev_direction} position (1-2% sizing)" if ev_direction else "🔶 SELECTIVE: Monitor closely",
-        "WATCH_ONLY": "👁️ WATCH: No immediate action, monitor for confirmation"
-    }
-    
-    action_text = action_map.get(stance, "👁️ WATCH: Evaluate manually")
-    
-    # Override for CONFLICT
-    if signal_type == "CONFLICT":
-        action_text = f"⚠️ MANUAL REVIEW: Insider betting {trade_info['position'].split()[0]} but statistics favor opposite"
-    
-    message += f"\n\n{action_text}"
-    message += f"\nSignal quality: {quality:.0f}/100"
-    
-    # === FOOTER ===
-    market_slug = alert.get('market_slug', '')
-    timestamp = datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M')
-    
-    message += f"\n\n🔗 https://polymarket.com/event/{market_slug}"
-    message += f"\n📍 Radar | {timestamp} UTC"
-    
-    if trade_info.get('is_estimated'):
-        message += f"\n⚠️ Position estimated from odds"
-    
-    if len(message) > 4000:
-        message = message[:4000] + "\n[...]"
-    
-    return message
-
 def send_telegram_alert(alert):
     """
     Send institutional-grade alert to Telegram.
@@ -447,10 +273,49 @@ def send_telegram_alert(alert):
         return False
 
 
+def build_polymarket_url(trade_data: Dict, alert: Dict = None) -> str:
+    """
+    Build correct Polymarket URL based on market type.
+    Sports: /sports/{league}/{slug}
+    Events: /event/{eventSlug}
+    """
+    # Try to get slug from multiple sources
+    slug = ''
+    event_slug = ''
+    
+    if trade_data:
+        slug = trade_data.get('slug', '') or trade_data.get('eventSlug', '')
+        event_slug = trade_data.get('eventSlug', '') or slug
+    
+    if alert:
+        slug = slug or alert.get('market_slug', '') or alert.get('event_slug', '')
+        event_slug = event_slug or alert.get('event_slug', '') or alert.get('market_slug', '') or slug
+    
+    if not event_slug:
+        return "https://polymarket.com"
+    
+    # Detect sport leagues from slug pattern
+    sport_prefixes = {
+        'nba-': 'nba', 'nfl-': 'nfl', 'mlb-': 'mlb', 'nhl-': 'nhl',
+        'epl-': 'epl', 'mls-': 'mls', 'ncaa-': 'ncaa', 'wnba-': 'wnba',
+        'cs2-': 'esports', 'dota-': 'esports', 'lol-': 'esports',
+        'elc-': 'efl-championship', 'ufc-': 'mma', 'f1-': 'f1',
+        'tennis-': 'tennis', 'golf-': 'golf'
+    }
+    
+    for prefix, league in sport_prefixes.items():
+        if slug.startswith(prefix) or event_slug.startswith(prefix):
+            # Sports URL format
+            return f"https://polymarket.com/sports/{league}/{event_slug}"
+    
+    # Default event URL format
+    return f"https://polymarket.com/event/{event_slug}"
+
+
 def format_top_trader_alert(alert: Dict) -> str:
     """
     Format alert for top trader activity.
-    Clean, actionable format focused on copy-trading decision.
+    New compact format for better UX.
     """
     from datetime import datetime, timezone
     
@@ -475,43 +340,179 @@ def format_top_trader_alert(alert: Dict) -> str:
         amount = size * price
         position = f"YES @ {price*100:.0f}%"
     
-    market = alert.get('market', 'Unknown market')
-    market_slug = alert.get('market_slug', '')
-    wallet = alert.get('wallet', '')
+    # Get market name from trade data (title field, not nested market)
+    market = trade.get('title', '') or alert.get('market', '')
+    if not market or market == 'Unknown market':
+        market = trade.get('slug', '') or 'Unknown'
     
-    # Determine action recommendation based on track record
+    wallet = alert.get('wallet', '')
+    wallet_short = f"{wallet[:6]}...{wallet[-4:]}" if len(wallet) > 12 else wallet
+    
+    # Build correct URL
+    url = build_polymarket_url(trade, alert)
+    
+    # Determine verdict based on track record
     if win_rate >= 0.65 and profit >= 100000:
-        action = "✅ STRONG COPY: Elite trader with proven edge"
-        sizing = "3-5%"
+        verdict = "🟢 STRONG COPY"
+        verdict_note = f"Elite trader (${profit/1000000:.1f}M profit, {win_rate*100:.0f}% win)"
     elif win_rate >= 0.58 and profit >= 50000:
-        action = "🔶 CONSIDER: Solid track record"
-        sizing = "1-3%"
+        verdict = "🟡 CONSIDER"
+        verdict_note = f"Solid track record (${profit/1000:.0f}K profit)"
     else:
-        action = "👁️ MONITOR: Track before copying"
-        sizing = "0.5-1%"
+        verdict = "🔵 MONITOR"
+        verdict_note = "Track before copying"
+    
+    timestamp = datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M')
     
     message = f"""👑 TOP TRADER SIGNAL
 
-📊 MARKET
+MARKET
 {market}
 
-👤 TRADER: {username}
-Rank: #{rank} on leaderboard
-Profit: ${profit:,.0f} lifetime
-Win rate: {win_rate*100:.1f}%
-Volume: ${volume:,.0f}
+TRADER PROFILE
+{username} · Rank #{rank}
+P&L: ${profit:,.0f} · Win: {win_rate*100:.0f}% · Vol: ${volume/1000000:.1f}M
 
-💰 POSITION
-{position}
-Size: ${amount:,.0f}
+MOVE
+{position} · ${amount:,.0f}
+Wallet: {wallet_short}
 
-{action}
-Suggested sizing: {sizing} of bankroll
+VERDICT: {verdict}
+{verdict_note}
 
-Wallet: {wallet}
+🔗 {url}
+Polymarket Insiders | {timestamp} UTC"""
+    
+    return message
 
-🔗 https://polymarket.com/event/{market_slug}
-📍 Radar | {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M')} UTC"""
+
+def format_institutional_alert(alert):
+    """
+    Format insider alert with new compact UI.
+    Three signal colors: 🟢 HIGH, 🟡 WATCH, 🔴 CONFLICT
+    """
+    from datetime import datetime, timezone
+    
+    analysis = alert["analysis"]
+    trade_info = format_trade_info(alert)
+    trade_data = alert.get("trade_data", {})
+    wallet_stats = alert.get('wallet_stats')
+    latency = alert.get('latency')
+    top_trader = alert.get('top_trader')
+    
+    # Get market data
+    market = alert.get('market', 'Unknown market')
+    yes_price = analysis.get('odds', 0.5)
+    no_price = 1 - yes_price
+    
+    # Build URL
+    url = build_polymarket_url(trade_data, alert)
+    
+    # === Combined Signal Analysis ===
+    combined = alert.get('combined_signal', {})
+    mispricing = alert.get('mispricing', {})
+    irrationality = alert.get('irrationality', {})
+    
+    signal_type = combined.get('signal_type', 'INSIDER_ONLY')
+    edge_percent = float(mispricing.get('edge_percent', 0))
+    
+    # Determine which side stats favor
+    if edge_percent > 0:
+        ev_direction = "NO"
+        edge_note = f"YES overpriced +{edge_percent:.1f}% → FAVORS NO"
+    elif edge_percent < 0:
+        ev_direction = "YES"
+        edge_note = f"NO overpriced {edge_percent:.1f}% → FAVORS YES"
+    else:
+        ev_direction = None
+        edge_note = "No clear edge detected"
+    
+    # === Build Message ===
+    message = f"""👁️ INSIDER ACTIVITY
+
+MARKET SIGNAL
+{market}
+Odds: YES {yes_price*100:.0f}% | NO {no_price*100:.0f}%
+Edge: {edge_note}"""
+    
+    # === Insider Move ===
+    wallet = alert['wallet']
+    wallet_short = f"{wallet[:6]}...{wallet[-4:]}" if len(wallet) > 12 else wallet
+    amount = float(analysis.get('amount', 0))
+    
+    # Wallet profile
+    if top_trader:
+        profile = f"Top #{top_trader['rank']} trader"
+    elif wallet_stats and wallet_stats.get('total_trades', 0) > 0:
+        profile = wallet_stats.get('classification', 'Unknown')
+    else:
+        profile = "new wallet"
+    
+    message += f"""
+
+INSIDER MOVE
+Wallet: {wallet_short} ({profile})
+Bet: ${amount:,.0f} {trade_info['position']}"""
+    
+    # Lead time if available
+    if latency and latency.get('is_pre_event'):
+        lead_min = int(latency['latency_minutes'])
+        if lead_min < 60:
+            message += f"\n⏰ {lead_min}m before event"
+        elif lead_min < 1440:
+            message += f"\n⏰ {lead_min/60:.1f}h before event"
+    
+    # === Verdict ===
+    fa = alert.get('financial_analyst', {})
+    stance = fa.get('stance', 'WATCH_ONLY')
+    quality = fa.get('signal_quality', 0)
+    
+    # Check for conflict
+    position_side = 'YES' if 'YES' in trade_info['position'] else 'NO'
+    has_conflict = ev_direction and position_side != ev_direction
+    
+    if has_conflict:
+        verdict = "⚠️ MODEL CONFLICT"
+        verdict_note = f"Whale bets {position_side}, math says {ev_direction}"
+    elif stance == "HIGH_CONVICTION":
+        verdict = "🟢 ACTION"
+        verdict_note = f"Strong signal, consider {ev_direction or position_side} position"
+    elif stance == "SELECTIVE":
+        verdict = "🟡 WATCH"
+        verdict_note = "Monitor for confirmation"
+    else:
+        verdict = "🔵 WATCH"
+        verdict_note = "Low confidence, track only"
+    
+    # Risk notes
+    risks = []
+    if not wallet_stats or wallet_stats.get('total_trades', 0) < 3:
+        risks.append("New wallet")
+    if amount < 5000:
+        risks.append("Small bet")
+    if edge_percent > 15:
+        risks.append(f"Large mispricing ({edge_percent:+.0f}%)")
+    
+    message += f"""
+
+VERDICT: {verdict}
+{verdict_note}"""
+    
+    if risks:
+        message += f"\nRisk: {', '.join(risks[:3])}"
+    
+    message += f"\nSignal: {quality:.0f}/100"
+    
+    # === Footer ===
+    timestamp = datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M')
+    
+    message += f"""
+
+🔗 {url}
+Polymarket Insiders | {timestamp} UTC"""
+    
+    if trade_info.get('is_estimated'):
+        message += f"\n⚠️ Position estimated from odds"
     
     return message
 
