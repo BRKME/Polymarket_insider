@@ -34814,5 +34814,49 @@
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
     }
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x3bf9c861b87ea40e4cabeae28ee5b3f7875033cbecc83697be63424065d6b111",
+    "wallet": "0x1f2dd6d473f3e824cd2f8a89d9c69fb96f6ad0cf",
+    "trader": {
+      "rank": 2,
+      "address": "0x1f2dd6d473f3e824cd2f8a89d9c69fb96f6ad0cf",
+      "username": "Fredi9999",
+      "profit": 16619506.63173015,
+      "volume": 76611316.90515402,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+      "side": "BUY",
+      "asset": "50574567645727124635653196810032330622350265808688675376294694711594635702125",
+      "conditionId": "0xd277196552fc532d3aa80aad1e84e293b57f8bc24499d86ff703cc14ab71713c",
+      "size": 1700,
+      "price": 0.95,
+      "timestamp": 1773610679,
+      "title": "Mavericks vs. Cavaliers",
+      "slug": "nba-dal-cle-2026-03-15",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
+      "eventSlug": "nba-dal-cle-2026-03-15",
+      "outcome": "Mavericks",
+      "outcomeIndex": 0,
+      "name": "curie",
+      "pseudonym": "Illiterate-Counterforce",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x3bf9c861b87ea40e4cabeae28ee5b3f7875033cbecc83697be63424065d6b111",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Mavericks vs. Cavaliers",
+    "market_slug": "nba-dal-cle-2026-03-15",
+    "amount": 1615.0
   }
 ]
