@@ -196,8 +196,22 @@ def scan_top_traders(tracked_hashes: set) -> List[Dict]:
                 if trade_hash in tracked_hashes:
                     continue
                 
+                # Get price/odds
+                price = float(trade.get('price', 0))
+                outcome = trade.get('outcome', 'Yes').lower()
+                
+                # Calculate effective odds
+                if outcome == 'no':
+                    effective_odds = 1 - price
+                else:
+                    effective_odds = price
+                
+                # Skip extreme odds (97%+ or 3%-) - near zero profit potential
+                if effective_odds >= 0.97 or effective_odds <= 0.03:
+                    continue
+                
                 # Build alert
-                amount = float(trade.get('size', 0)) * float(trade.get('price', 0))
+                amount = float(trade.get('size', 0)) * price
                 if amount < 1500:  # Skip small trades (filter noise from top traders)
                     continue
                 
