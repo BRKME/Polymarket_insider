@@ -34120,5 +34120,110 @@
     "market": "Bitcoin Up or Down - March 15, 10:15AM-10:20AM ET",
     "market_slug": "btc-updown-5m-1773584100",
     "amount": 1999.9999959999998
+  },
+  {
+    "market": "Mavericks vs. Cavaliers: O/U 235.5",
+    "market_slug": "nba-dal-cle-2026-03-15-total-235pt5",
+    "event_slug": "nba-dal-cle-2026-03-15-total-235pt5",
+    "wallet": "0xe554d237b133cf8f3bf7f5b2f5cd47a996beb0af",
+    "analysis": {
+      "score": 70,
+      "flags": [
+        "New wallet (0d old)",
+        "Large bet ($1,271)",
+        "Low activity (2 txns)"
+      ],
+      "amount": 1270.5576,
+      "odds": 0.52,
+      "raw_price": 0.52,
+      "outcome": "Over",
+      "potential_pnl": 1172.8224,
+      "pnl_multiplier": 0.923076923076923,
+      "wallet_age_days": 0,
+      "total_activities": 2
+    },
+    "timestamp": "2026-03-15T14:51:44.795953",
+    "trade_hash": "0xfccff3a6f3ea0fe7da4e32af931d64d4e2f1248db67ae0e074709e69faf3bf0c",
+    "trade_timestamp": 1773586109,
+    "latency": null,
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "Over",
+      "side": "BUY",
+      "price": 0.52,
+      "effective_price": 0.52,
+      "size": 2443.38,
+      "amount": 1270.5576,
+      "potential_pnl": 1172.8224,
+      "pnl_multiplier": 0.923076923076923,
+      "is_no": false,
+      "slug": "nba-dal-cle-2026-03-15-total-235pt5",
+      "eventSlug": "nba-dal-cle-2026-03-15"
+    },
+    "irrationality": {
+      "irrationality_score": 35,
+      "flags": [
+        "Large mispricing edge (+27.6%)"
+      ],
+      "category": "sports",
+      "category_info": {
+        "strength": "medium",
+        "typical_overpricing": 0.03,
+        "min_edge": 0.05
+      },
+      "is_irrational": true
+    },
+    "mispricing": {
+      "rational_estimate": 0.244,
+      "market_price": 0.52,
+      "edge": 0.276,
+      "edge_percent": 27.6,
+      "min_edge_required": 0.05,
+      "is_mispriced": true,
+      "edge_quality": "STRONG",
+      "base_rate_class": "common",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "common",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "Both teams score efficiently",
+          "Defensive lapses by both teams",
+          "Game pace is fast"
+        ],
+        "weakest_link": "Defensive lapses by both teams"
+      },
+      "category": "sports",
+      "narrative_drivers": [
+        "Recent offensive performances of both teams",
+        "Injury status of key players"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "INSIDER_ONLY",
+      "signal_emoji": "\ud83d\udc41\ufe0f",
+      "signal_strength": 70,
+      "interpretation": "Insider activity detected, no clear mispricing",
+      "action_suggestion": "Monitor: insider signal only, no statistical edge",
+      "insider_score": 70,
+      "insider_position": "OVER",
+      "irrationality_score": 35,
+      "is_irrational": true,
+      "is_mispriced": true,
+      "edge": 0.276,
+      "edge_percent": 27.6
+    },
+    "financial_analyst": {
+      "signal_quality": 51.0,
+      "stance": "WATCH_ONLY",
+      "edge_percent": 27.6,
+      "signal_strength": 70.0,
+      "insider_score": 70.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    }
   }
 ]
