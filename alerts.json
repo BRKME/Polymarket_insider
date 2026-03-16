@@ -35410,5 +35410,49 @@
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
     }
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x26014f48a94b3a617bf18fc4862f634a1141d1a2901db8f4bc9c858bbadd520e",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.51568201,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xbddf61af533ff524d27154e589d2d7a81510c684",
+      "side": "BUY",
+      "asset": "59196182479127058424522393851593000749354988996797395494656019696578345043239",
+      "conditionId": "0xaeec946d09b533cfef35473f0b406275273409721eef2b2cb309de9f4a93140e",
+      "size": 20537.68,
+      "price": 0.5,
+      "timestamp": 1773691113,
+      "title": "Spread: Hawks (-3.5)",
+      "slug": "nba-orl-atl-2026-03-16-spread-home-3pt5",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
+      "eventSlug": "nba-orl-atl-2026-03-16",
+      "outcome": "Magic",
+      "outcomeIndex": 1,
+      "name": "Countryside",
+      "pseudonym": "Unique-Congressperson",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x26014f48a94b3a617bf18fc4862f634a1141d1a2901db8f4bc9c858bbadd520e",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Spread: Hawks (-3.5)",
+    "market_slug": "nba-orl-atl-2026-03-16",
+    "amount": 10268.84
   }
 ]
