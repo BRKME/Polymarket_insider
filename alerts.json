@@ -34902,5 +34902,49 @@
     "market": "Will Coritiba FBC win on 2026-03-15?",
     "market_slug": "bra-cor-cre-2026-03-15",
     "amount": 5170.2
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x7f1ce483a72909f7d5f2e0e2e8c24786295cd056df0ad310d1006a81cc13ce0a",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.51568201,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x6ade597c0e2b43c0bf3542cada8a5e330d73f5b0",
+      "side": "BUY",
+      "asset": "31218995787757592150682687098269291857896143833113429627320248318392649066334",
+      "conditionId": "0x58921ff5a49d1d2b13e6a4d4d8b6a6ab5a532cd86d9c36a951c785f9e99f689e",
+      "size": 10000,
+      "price": 0.5,
+      "timestamp": 1773619083,
+      "title": "Spread: Knicks (-14.5)",
+      "slug": "nba-gsw-nyk-2026-03-15-spread-home-14pt5",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
+      "eventSlug": "nba-gsw-nyk-2026-03-15",
+      "outcome": "Warriors",
+      "outcomeIndex": 1,
+      "name": "TheOnlyHuman",
+      "pseudonym": "Vital-Boy",
+      "bio": "",
+      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-3880352-2c848d1c-d674-41af-a677-157d83998b8b.gif",
+      "profileImageOptimized": "",
+      "transactionHash": "0x7f1ce483a72909f7d5f2e0e2e8c24786295cd056df0ad310d1006a81cc13ce0a",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Spread: Knicks (-14.5)",
+    "market_slug": "nba-gsw-nyk-2026-03-15",
+    "amount": 5000.0
   }
 ]
