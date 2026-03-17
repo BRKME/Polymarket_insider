@@ -36630,5 +36630,49 @@
     "market": "Will Chelsea FC win on 2026-03-17?",
     "market_slug": "ucl-cfc1-psg1-2026-03-17",
     "amount": 13815.411500000002
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x2536b1164188ab131dd257cbca8f7a9656487910392d6662add0fd790cc2f59d",
+    "wallet": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
+    "trader": {
+      "rank": 19,
+      "address": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
+      "username": "GamblingIsAllYouNeed",
+      "profit": 4381356.815164947,
+      "volume": 263925515.290218,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x35417b3d09d7a0991f75d7cc95162a6e34d7462e",
+      "side": "BUY",
+      "asset": "11578806222441353507719115176638735578970248989819859302635595162497755626384",
+      "conditionId": "0x81b06cb917c9a2aabc67a7765bc3c640e88a699bbf451b29915049c0766cde04",
+      "size": 5000,
+      "price": 0.44,
+      "timestamp": 1773782349,
+      "title": "US x Iran ceasefire by June 30?",
+      "slug": "us-x-iran-ceasefire-by-june-30-752",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/us-x-iran-ceasefire-by-Cgmx3GCuOwjs.jpg",
+      "eventSlug": "us-x-iran-ceasefire-by",
+      "outcome": "No",
+      "outcomeIndex": 1,
+      "name": "Casdifer",
+      "pseudonym": "Emotional-Assignment",
+      "bio": "",
+      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-4798110-1d9f916f-7692-4971-8d44-8fe6be7e7927.jpg",
+      "profileImageOptimized": "",
+      "transactionHash": "0x2536b1164188ab131dd257cbca8f7a9656487910392d6662add0fd790cc2f59d",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "US x Iran ceasefire by June 30?",
+    "market_slug": "us-x-iran-ceasefire-by",
+    "amount": 2200.0
   }
 ]
