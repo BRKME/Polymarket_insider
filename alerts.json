@@ -36586,5 +36586,49 @@
     "market": "Pistons vs. Wizards: O/U 233.5",
     "market_slug": "nba-det-was-2026-03-17",
     "amount": 2970.38
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x51a44be188f19465d138fd1c51079d98ed540864cc58af7bef50ff405bb7f080",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.515682004,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x37c1874a60d348903594a96703e0507c518fc53a",
+      "side": "BUY",
+      "asset": "20602169730357470459553808928210865653293638873943342723222949937173619709192",
+      "conditionId": "0x0f897962828b30476bcb321821f341964e6633923f3d97d36039a53c4dff143b",
+      "size": 25118.93,
+      "price": 0.55,
+      "timestamp": 1773774847,
+      "title": "Will Chelsea FC win on 2026-03-17?",
+      "slug": "ucl-cfc1-psg1-2026-03-17-cfc1",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/champions-league-pic-QIUFsL8vaDdq.png",
+      "eventSlug": "ucl-cfc1-psg1-2026-03-17",
+      "outcome": "No",
+      "outcomeIndex": 1,
+      "name": "CemeterySun",
+      "pseudonym": "Pale-Bend",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x51a44be188f19465d138fd1c51079d98ed540864cc58af7bef50ff405bb7f080",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Will Chelsea FC win on 2026-03-17?",
+    "market_slug": "ucl-cfc1-psg1-2026-03-17",
+    "amount": 13815.411500000002
   }
 ]
