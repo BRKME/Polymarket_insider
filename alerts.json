@@ -36762,5 +36762,110 @@
     "market": "US x Iran ceasefire by March 31?",
     "market_slug": "us-x-iran-ceasefire-by",
     "amount": 1800.0
+  },
+  {
+    "market": "Will Crude Oil (CL) hit (HIGH) $110 by end of March?",
+    "market_slug": "will-crude-oil-cl-hit-high-110-by-end-of-march-732-945",
+    "event_slug": "will-crude-oil-cl-hit-high-110-by-end-of-march-732-945",
+    "wallet": "0x1507836a804f10ae62b546d053a39498a5fd8363",
+    "analysis": {
+      "score": 70,
+      "flags": [
+        "New wallet (0d old)",
+        "Large bet ($2,698)",
+        "Low activity (3 txns)"
+      ],
+      "amount": 2697.9,
+      "odds": 0.391,
+      "raw_price": 0.609,
+      "outcome": "No",
+      "potential_pnl": 4202.099999999999,
+      "pnl_multiplier": 1.557544757033248,
+      "wallet_age_days": 0,
+      "total_activities": 3
+    },
+    "timestamp": "2026-03-17T22:19:21.760226",
+    "trade_hash": "0xb87ca4409a029a58c93f6c66a9b1f1ef0e941d3b8e40637ea54d1140f55129bc",
+    "trade_timestamp": 1773785649,
+    "latency": null,
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "No",
+      "side": "BUY",
+      "price": 0.609,
+      "effective_price": 0.391,
+      "size": 6900.0,
+      "amount": 2697.9,
+      "potential_pnl": 4202.099999999999,
+      "pnl_multiplier": 1.557544757033248,
+      "is_no": true,
+      "slug": "will-crude-oil-cl-hit-high-110-by-end-of-march-732-945",
+      "eventSlug": "will-crude-oil-cl-hit-by-end-of-march"
+    },
+    "irrationality": {
+      "irrationality_score": 35,
+      "flags": [
+        "Large mispricing edge (+41.5%)"
+      ],
+      "category": "other",
+      "category_info": {
+        "strength": "medium",
+        "typical_overpricing": 0.03,
+        "min_edge": 0.05
+      },
+      "is_irrational": true
+    },
+    "mispricing": {
+      "rational_estimate": 0.1938,
+      "market_price": 0.609,
+      "edge": 0.4152,
+      "edge_percent": 41.52,
+      "min_edge_required": 0.05,
+      "is_mispriced": true,
+      "edge_quality": "STRONG",
+      "base_rate_class": "occasional",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "occasional",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "Geopolitical tensions in major oil-producing regions escalate significantly.",
+          "Global demand for crude oil surges due to economic recovery or increased consumption.",
+          "Supply disruptions occur due to natural disasters or OPEC+ production cuts."
+        ],
+        "weakest_link": "Global demand for crude oil surges due to economic recovery or increased consumption."
+      },
+      "category": "geopolitics",
+      "narrative_drivers": [
+        "Potential conflict in the Middle East affecting oil supply.",
+        "Economic indicators suggesting a rebound in global oil demand."
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "ALPHA",
+      "signal_emoji": "\ud83d\udd25",
+      "signal_strength": 105,
+      "interpretation": "Smart money (NO) confirms YES is overpriced",
+      "action_suggestion": "High conviction: insider + statistics aligned",
+      "insider_score": 70,
+      "insider_position": "NO",
+      "irrationality_score": 35,
+      "is_irrational": true,
+      "is_mispriced": true,
+      "edge": 0.4152,
+      "edge_percent": 41.52
+    },
+    "financial_analyst": {
+      "signal_quality": 81.0,
+      "stance": "HIGH_CONVICTION",
+      "edge_percent": 41.52,
+      "signal_strength": 105.0,
+      "insider_score": 70.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    }
   }
 ]
