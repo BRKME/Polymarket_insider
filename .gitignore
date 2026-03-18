@@ -207,3 +207,11 @@ marimo/_lsp/
 __marimo__/
 backtest.db
 config_hash.json
+
+# Project-specific: SQLite databases should not be in git
+# Use GitHub Actions artifacts or external storage instead
+historical_data.db
+historical_data.db-journal
+historical_data.db-wal
+*.db-journal
+*.db-wal
