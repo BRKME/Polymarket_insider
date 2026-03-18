@@ -1,5 +1,6 @@
 from datetime import datetime, timezone
 import re
+import trade_economics
 from collector import get_active_markets, get_all_priority_markets, get_recent_trades_paginated, get_wallet_activity, get_market_by_condition_id
 from analyzer import calculate_score, should_skip_alert
 from event_detector_fixed import detect_pre_event_trade, calculate_latency_score, get_latency_insight
@@ -82,22 +83,15 @@ def detect_insider_trades():
         
         for idx, trade in enumerate(trades):
             try:
-                # Extract basic trade info
+                # Extract basic trade info and compute economics
                 size = float(trade.get("size", 0))
                 price = float(trade.get("price", 0))
                 outcome = trade.get("outcome", "Yes")
+                econ = trade_economics.calculate(size, price, outcome)
                 
-                # ══════════════════════════════════════════════════
-                # FIX: Correct amount calculation for NO positions
-                # API returns YES token price for all trades.
-                # YES: cost = size * price
-                # NO:  cost = size * (1 - price)
-                # ══════════════════════════════════════════════════
-                is_no = outcome and outcome.lower() == "no"
-                if is_no:
-                    amount = size * (1 - price)  # NO token cost
-                else:
-                    amount = size * price         # YES token cost
+                is_no = econ.is_no
+                amount = econ.cost
+                effective_odds = econ.effective_odds
                 
                 # Validate data before processing
                 if amount <= 0:
@@ -152,7 +146,6 @@ def detect_insider_trades():
                 
                 # Log high-value trades (show position type)
                 position_label = "NO" if is_no else "YES"
-                effective_odds = (1 - price) if is_no else price
                 print(f"\n[{datetime.now()}] 💰 Large trade: ${amount:,.0f} ({position_label})")
                 print(f"  Wallet: {wallet_address[:8]}...{wallet_address[-4:]}")
                 print(f"  Market: {market.get('question', 'Unknown')[:60]}...")
@@ -224,7 +217,7 @@ def detect_insider_trades():
                 print(f"     Activities: {analysis['total_activities']}")
                 print(f"     Effective odds: {analysis['odds']*100:.1f}%")
                 if is_no:
-                    print(f"     ⚠️  NO position — real bet: ${amount:,.0f}, potential profit: ${analysis.get('potential_pnl', 0):,.0f} ({analysis.get('pnl_multiplier', 0):.1f}x)")
+                    print(f"     ⚠️  NO position — real bet: ${econ.cost:,.0f}, potential profit: ${econ.potential_profit:,.0f} ({econ.pnl_multiplier:.1f}x)")
                 
                 # Check if alert threshold met
                 if analysis["score"] >= ALERT_THRESHOLD:
@@ -317,13 +310,13 @@ def detect_insider_trades():
                             "trade_data": {
                                 "outcome": outcome,
                                 "side": trade.get("side"),
-                                "price": price,                              # raw YES price from API
-                                "effective_price": effective_odds,            # what the trader actually pays per token
+                                "price": econ.raw_price,
+                                "effective_price": econ.effective_odds,
                                 "size": size,
-                                "amount": amount,                            # correct cost (YES or NO)
-                                "potential_pnl": analysis.get("potential_pnl", 0),
-                                "pnl_multiplier": analysis.get("pnl_multiplier", 0),
-                                "is_no": is_no,
+                                "amount": econ.cost,
+                                "potential_pnl": econ.potential_profit,
+                                "pnl_multiplier": econ.pnl_multiplier,
+                                "is_no": econ.is_no,
                                 "slug": market.get("slug"),
                                 "eventSlug": market.get("eventSlug") or trade.get("eventSlug")
                             },
@@ -356,9 +349,9 @@ def detect_insider_trades():
                     'trade_timestamp': datetime.fromtimestamp(trade.get('timestamp'), tz=timezone.utc),
                     'event_timestamp': datetime.fromisoformat(latency_data['event_time']) if latency_data else None,
                     'latency_seconds': latency_data['latency_seconds'] if latency_data else None,
-                    'position': outcome,  # FIX: use actual outcome, not trade.get('outcome', 'Unknown')
-                    'size': amount,       # FIX: correct amount for NO positions
-                    'odds': effective_odds,  # FIX: effective odds
+                    'position': outcome,
+                    'size': econ.cost,
+                    'odds': econ.effective_odds,
                     'is_pre_event': latency_data is not None,
                     'trade_hash': trade_hash
                 }
@@ -366,7 +359,7 @@ def detect_insider_trades():
                 
                 # Update Wallet Stats
                 update_wallet_stats(wallet_address, {
-                    'size': amount,  # FIX: correct amount
+                    'size': econ.cost,
                     'is_pre_event': latency_data is not None,
                     'latency_seconds': latency_data['latency_seconds'] if latency_data else None
                 })

@@ -332,19 +332,25 @@ class TestNotifierFormatting:
         """Helper to create a minimal alert dict.
         
         price = YES token price from API (always YES side).
-        For NO: effective_odds = 1 - price, raw_price = price.
+        amount = desired cost of the trade.
+        Computes size (token count) from amount and price.
         """
         if outcome == "No":
             effective = 1 - price
+            size = amount / (1 - price) if price < 1 else 0
         else:
             effective = price
+            size = amount / price if price > 0 else 0
         return {
             "analysis": {
-                "odds": effective,      # effective odds (what analyzer stores)
-                "raw_price": price,     # YES token price (what API returns)
+                "odds": effective,
+                "raw_price": price,
                 "amount": amount,
             },
-            "trade_data": {"outcome": outcome},
+            "trade_data": {
+                "outcome": outcome,
+                "size": size,
+            },
         }
 
     def test_yes_position_display(self):

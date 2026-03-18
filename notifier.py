@@ -7,6 +7,7 @@ DEBUG_CALCULATIONS = False
 import requests
 from openai import OpenAI
 import openai
+import trade_economics
 from config import TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID, OPENAI_API_KEY
 from typing import Dict, Optional
 from functools import lru_cache
@@ -27,71 +28,60 @@ def determine_position(trade_data, odds):
     return '~YES' if odds > 0.5 else '~NO'
 
 def format_trade_info(alert):
-    """Format trade information with correct profit calculation"""
-    if DEBUG_CALCULATIONS:
-        print(f"[DEBUG] format_trade_info() called")
-    
+    """Format trade information using trade_economics as single source of truth."""
     analysis = alert["analysis"]
     trade_data = alert.get("trade_data", {})
     
-    # BUG FIX: analysis['odds'] is EFFECTIVE odds (already flipped for NO).
-    # We need the raw YES price for calculations.
-    # raw_price = YES token price from API (always).
-    # odds = effective probability the trader is betting on.
-    yes_price = analysis.get('raw_price', analysis['odds'])
-    no_price = 1 - yes_price
-    amount = analysis['amount']
+    # Reconstruct economics from alert data
+    size = float(trade_data.get("size", 0))
+    raw_price = analysis.get("raw_price", analysis.get("odds", 0.5))
+    outcome_str = trade_data.get("outcome", "Yes") or "Yes"
     
-    position = determine_position(trade_data, analysis['odds'])
+    if size > 0 and raw_price > 0:
+        econ = trade_economics.calculate(size, raw_price, outcome_str)
+    else:
+        # Fallback for legacy alerts without size
+        amount = float(analysis.get("amount", 0))
+        econ = trade_economics.TradeEconomics(
+            outcome=outcome_str, is_no=outcome_str.lower() == "no",
+            raw_price=raw_price, effective_odds=analysis.get("odds", 0.5),
+            cost=amount, tokens=0,
+            potential_profit=analysis.get("potential_pnl", 0),
+            pnl_multiplier=analysis.get("pnl_multiplier", 0),
+            roi_percent=analysis.get("pnl_multiplier", 0) * 100,
+        )
+    
+    position = determine_position(trade_data, econ.effective_odds)
     is_estimated = position.startswith('~')
     
     if 'YES' in position:
-        implied_prob = yes_price * 100
-        tokens_bought = amount / yes_price if yes_price > 0 else 0
-        payout_if_win = tokens_bought * 1.0
-        potential_profit = payout_if_win - amount
-        position_display = f"YES @ {yes_price*100:.1f}¢"
+        position_display = f"YES @ {econ.raw_price*100:.1f}¢"
+        implied_prob = econ.raw_price * 100
     else:
-        implied_prob = no_price * 100
-        tokens_bought = amount / no_price if no_price > 0 else 0
-        payout_if_win = tokens_bought * 1.0
-        potential_profit = payout_if_win - amount
-        position_display = f"NO @ {no_price*100:.1f}¢"
-        
-        # DEBUG: Print calculation details
-        if DEBUG_CALCULATIONS:
-            print(f"[DEBUG] NO POSITION CALCULATION:")
-            print(f"  YES price (odds): {yes_price:.4f} ({yes_price*100:.1f}¢)")
-            print(f"  NO price: {no_price:.4f} ({no_price*100:.1f}¢)")
-            print(f"  Amount: ${amount:,.0f}")
-            print(f"  Tokens bought: {tokens_bought:,.0f}")
-            print(f"  Potential profit: ${potential_profit:,.0f}")
-            print(f"  Position display: {position_display}")
+        position_display = f"NO @ {(1 - econ.raw_price)*100:.1f}¢"
+        implied_prob = (1 - econ.raw_price) * 100
     
     if is_estimated:
         position_display += " ⚠️"
     
-    # Calculate ROI
-    roi_percent = (potential_profit / amount * 100) if amount > 0 else 0
-    roi_multiplier = roi_percent / 100
-    
     # Format ROI display
+    roi_multiplier = econ.pnl_multiplier
     if roi_multiplier < 0.1:
-        roi_display = f"{roi_multiplier:.2f}x"  # 0.04x for small ROI
+        roi_display = f"{roi_multiplier:.2f}x"
     elif roi_multiplier < 100:
-        roi_display = f"{roi_multiplier:.1f}x"  # 5.7x for medium ROI
+        roi_display = f"{roi_multiplier:.1f}x"
     else:
-        roi_display = f"{roi_multiplier:.0f}x"  # 200x for large ROI
+        roi_display = f"{roi_multiplier:.0f}x"
     
     return {
         'position': position_display,
         'implied_prob': f"{implied_prob:.1f}%",
-        'profit': f"${potential_profit:,.0f}",
-        'roi_percent': roi_percent,
+        'profit': f"${econ.potential_profit:,.0f}",
+        'roi_percent': econ.roi_percent,
         'roi_display': roi_display,
         'is_estimated': is_estimated,
-        'amount': f"${amount:,.0f}",
-        'tokens': f"{tokens_bought:,.0f}"
+        'amount': f"${econ.cost:,.0f}",
+        'tokens': f"{econ.tokens:,.0f}"
     }
 
 def format_wallet_classification(wallet_stats: Optional[Dict]) -> str:
@@ -326,16 +316,16 @@ def format_top_trader_alert(alert: Dict) -> str:
     profit = trader.get('profit', 0)
     volume = trader.get('volume', 0)
     
-    # Trade details
+    # Trade details — use trade_economics
     size = float(trade.get('size', 0))
     price = float(trade.get('price', 0))
     outcome = trade.get('outcome', 'Yes')
+    econ = trade_economics.calculate(size, price, outcome)
     
-    if outcome.lower() == 'no':
-        amount = size * (1 - price)
+    amount = econ.cost
+    if econ.is_no:
         position = f"NO @ {(1-price)*100:.0f}%"
     else:
-        amount = size * price
         position = f"YES @ {price*100:.0f}%"
     
     # Get market name from trade data (title field, not nested market)
@@ -400,7 +390,7 @@ def format_institutional_alert(alert):
     
     # Get market data
     market = alert.get('market', 'Unknown market')
-    # BUG FIX: same as format_trade_info — use raw_price, not effective odds
+    # Market odds for display — always use raw YES price
     yes_price = analysis.get('raw_price', analysis.get('odds', 0.5))
     no_price = 1 - yes_price
     

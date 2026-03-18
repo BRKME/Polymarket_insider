@@ -8,6 +8,7 @@ from typing import Dict, List, Tuple
 from detector import detect_insider_trades
 from notifier import send_telegram_alert, send_top_trader_alert
 from top_traders import get_tracked_wallets, fetch_trader_recent_trades
+import trade_economics
 
 
 def send_heartbeat(stats: Dict) -> None:
@@ -259,21 +260,16 @@ def scan_top_traders(tracked_hashes: set) -> List[Dict]:
                 
                 # Get price/odds
                 price = float(trade.get('price', 0))
-                outcome = trade.get('outcome', 'Yes').lower()
+                outcome = trade.get('outcome', 'Yes')
+                size = float(trade.get('size', 0))
                 
-                # Calculate effective odds
-                if outcome == 'no':
-                    effective_odds = 1 - price
-                else:
-                    effective_odds = price
+                econ = trade_economics.calculate(size, price, outcome)
                 
                 # Skip extreme odds (97%+ or 3%-) - near zero profit potential
-                if effective_odds >= 0.97 or effective_odds <= 0.03:
+                if econ.effective_odds >= 0.97 or econ.effective_odds <= 0.03:
                     continue
                 
-                # Build alert
-                amount = float(trade.get('size', 0)) * price
-                if amount < 1500:  # Skip small trades (filter noise from top traders)
+                if econ.cost < 1500:  # Skip small trades (filter noise from top traders)
                     continue
                 
                 # Get market name from trade data
@@ -289,10 +285,10 @@ def scan_top_traders(tracked_hashes: set) -> List[Dict]:
                     'trade': trade,
                     'market': market_name,
                     'market_slug': market_slug,
-                    'amount': amount,
+                    'amount': econ.cost,
                 }
                 alerts.append(alert)
-                print(f"[{datetime.now()}] 👑 Top trader #{trader_info['rank']} trade: ${amount:,.0f} on {market_name[:50]}")
+                print(f"[{datetime.now()}] 👑 Top trader #{trader_info['rank']} trade: ${econ.cost:,.0f} on {market_name[:50]}")
         
         print(f"[{datetime.now()}] 🎯 Goal #3: {traders_with_trades}/20 traders had trades, {total_trades_found} total trades, {len(alerts)} alerts")
         return alerts

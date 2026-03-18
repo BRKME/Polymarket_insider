@@ -2,6 +2,7 @@ from datetime import datetime, timedelta, timezone
 from typing import Dict, Tuple, Optional
 import re
 from functools import lru_cache
+import trade_economics
 from config import (
     MIN_BET_SIZE, NEW_WALLET_DAYS_HIGH, NEW_WALLET_DAYS_LOW,
     LOW_ACTIVITY_THRESHOLD, LOW_ODDS_THRESHOLD, TIME_TO_RESOLVE_HOURS, SCORES,
@@ -423,12 +424,10 @@ def calculate_score(trade: Dict, wallet_data: Dict, market: Dict) -> Dict:
     else:
         print(f"     Odds: {effective*100:.1f}% effective → 0 pts (middle range)")
     
-    # FIX: For NO positions, amount is calculated in detector.py with correct formula
+    # Use trade_economics as single source of truth for cost/PnL
     size = float(trade.get("size", 0))
-    if is_no:
-        amount = size * (1 - trade_price)  # NO token cost
-    else:
-        amount = size * trade_price         # YES token cost
+    econ = trade_economics.calculate(size, trade_price, outcome)
+    amount = econ.cost
     
     bet_size_score = calculate_bet_size_score(amount)
     if bet_size_score > 0:
@@ -472,24 +471,15 @@ def calculate_score(trade: Dict, wallet_data: Dict, market: Dict) -> Dict:
     print(f"     ────────────────────")
     print(f"     TOTAL: {score} pts")
     
-    # FIX: Calculate correct PnL for both YES and NO
-    if is_no:
-        no_price = 1 - trade_price  # cost of NO token
-        potential_pnl = amount * (trade_price / (1 - trade_price))  # profit if NO wins
-        pnl_multiplier = trade_price / (1 - trade_price)
-    else:
-        potential_pnl = amount * ((1 - trade_price) / trade_price)  # profit if YES wins
-        pnl_multiplier = (1 - trade_price) / trade_price
-    
     return {
         "score": score,
         "flags": flags,
-        "amount": amount,
-        "odds": effective,               # FIX: effective odds, not raw price
-        "raw_price": trade_price,         # keep raw price for reference
-        "outcome": outcome,               # YES or NO
-        "potential_pnl": potential_pnl,    # FIX: correct PnL
-        "pnl_multiplier": pnl_multiplier,  # FIX: correct multiplier
+        "amount": econ.cost,
+        "odds": econ.effective_odds,
+        "raw_price": econ.raw_price,
+        "outcome": outcome,
+        "potential_pnl": econ.potential_profit,
+        "pnl_multiplier": econ.pnl_multiplier,
         "wallet_age_days": calculate_wallet_age_days(wallet_data.get("first_activity_timestamp")),
         "total_activities": total_activities
     }
