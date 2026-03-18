@@ -159,10 +159,23 @@ def is_trade_suspicious(trade: Dict, market: Dict) -> bool:
         # FILTER 0.5: Skip short-term price predictions (arbitrage bots)
         # These are just spot price arbitrage, not insider info
         price_terms = ['price of', 'reach $', 'above $', 'below $', 'less than $', 'more than $']
-        time_terms = ['today', 'tomorrow', 'january 14', 'january 15', 'january 16', 'this week']
+        time_terms = ['today', 'tomorrow', 'this week', 'tonight', 'this morning', 'this afternoon']
         
         has_price = any(term in market_title for term in price_terms)
         has_short_time = any(term in market_title for term in time_terms)
+        
+        # Also check if market has endDate within 24 hours (catches date-specific markets)
+        if not has_short_time and market:
+            try:
+                end_date_str = market.get('endDate', '')
+                if end_date_str:
+                    from datetime import timezone
+                    end_date = datetime.fromisoformat(end_date_str.replace("Z", "+00:00"))
+                    hours_left = (end_date - datetime.now(timezone.utc)).total_seconds() / 3600
+                    if has_price and 0 < hours_left < 24:
+                        has_short_time = True
+            except Exception:
+                pass
         
         if has_price and has_short_time:
             return False  # Block short-term price arbitrage
