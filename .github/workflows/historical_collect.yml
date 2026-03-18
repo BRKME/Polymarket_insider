@@ -19,7 +19,7 @@ on:
           - export
 
 permissions:
-  contents: write
+  contents: read
 
 jobs:
   collect:
@@ -40,6 +40,25 @@ jobs:
       - name: Install dependencies
         run: pip install requests
       
+      # Download DB from previous run (if exists)
+      - name: Restore database from artifacts
+        uses: dawidd6/action-download-artifact@v6
+        with:
+          name: historical-db-latest
+          path: .
+          if_no_artifact_found: warn
+          search_artifacts: true
+          workflow: historical_collect.yml
+        continue-on-error: true
+      
+      - name: Check database state
+        run: |
+          if [ -f historical_data.db ]; then
+            echo "✓ Restored DB: $(du -h historical_data.db | cut -f1)"
+          else
+            echo "ℹ️ No existing DB — will create fresh"
+          fi
+      
       - name: Run collection
         run: |
           CMD="${{ inputs.command }}"
@@ -51,24 +70,15 @@ jobs:
         if: always()
         run: python historical_collector.py stats
       
-      - name: Commit database
+      # Upload DB as artifact for next run
+      - name: Save database artifact
         if: success()
-        run: |
-          git config user.name "Historical Collector Bot"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          
-          if [ -f historical_data.db ]; then
-            git add historical_data.db
-            if ! git diff --cached --quiet; then
-              git commit -m "data: update historical database [skip ci]"
-              git push || {
-                git pull --rebase origin main
-                git push
-              }
-            else
-              echo "No changes to commit"
-            fi
-          fi
+        uses: actions/upload-artifact@v4
+        with:
+          name: historical-db-latest
+          path: historical_data.db
+          retention-days: 90
+          overwrite: true
       
       - name: Post summary
         if: always()
@@ -88,7 +98,7 @@ jobs:
   weekly_backtest:
     runs-on: ubuntu-latest
     timeout-minutes: 30
-    if: github.event.schedule == '0 6 * * 1'  # Only on Monday 6AM run
+    if: github.event.schedule == '0 6 * * 1'
     needs: collect
     
     steps:
@@ -102,6 +112,15 @@ jobs:
       
       - name: Install dependencies
         run: pip install requests
+      
+      - name: Restore database from artifacts
+        uses: dawidd6/action-download-artifact@v6
+        with:
+          name: historical-db-latest
+          path: .
+          if_no_artifact_found: warn
+          search_artifacts: true
+          workflow: historical_collect.yml
       
       - name: Check data sufficiency
         id: check
