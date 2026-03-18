@@ -76,6 +76,12 @@ def load_tracked_wallets():
 
 
 def save_tracked_wallets(tracked_data):
+    # Rotate trade_hashes: keep only last 5000 to prevent infinite growth
+    MAX_HASHES = 5000
+    hashes = tracked_data.get("trade_hashes", [])
+    if len(hashes) > MAX_HASHES:
+        tracked_data["trade_hashes"] = hashes[-MAX_HASHES:]
+    
     path = Path("tracked_wallets.json")
     temp_path = path.with_suffix(".tmp")
     with open(temp_path, "w") as f:
@@ -95,6 +101,12 @@ def load_alerts():
 
 
 def save_alerts(alerts):
+    # Rotate: keep only the last 500 alerts to prevent infinite growth
+    # alerts.json was already 1.2MB — this caps it at ~300KB
+    MAX_ALERTS = 500
+    if len(alerts) > MAX_ALERTS:
+        alerts = alerts[-MAX_ALERTS:]
+    
     path = Path("alerts.json")
     temp_path = path.with_suffix(".tmp")
     with open(temp_path, "w") as f:
