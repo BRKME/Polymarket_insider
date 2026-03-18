@@ -1,11 +1,8 @@
-# VERSION: 2026-01-31-HOTFIX-17:15-UTC
-# CRITICAL FIX: NO position calculation
-# Force reload to clear any cached bytecode
-import sys
-sys.dont_write_bytecode = True
+# Polymarket Insider — Telegram Notifier
+# Formats and sends insider/top-trader alerts
 
-# Debug flag - will print calculation details to logs
-DEBUG_CALCULATIONS = True
+# Debug flag — set to False in production to reduce log noise
+DEBUG_CALCULATIONS = False
 
 import requests
 from openai import OpenAI
