@@ -36911,5 +36911,49 @@
     "market": "Will Ethereum dip to $1,000 by December 31, 2026?",
     "market_slug": "what-price-will-ethereum-hit-before-2027",
     "amount": 5390.965200000001
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xdb56d93e1fb7e3341c428c08ff88e93f1c0cee393e717bf53cb625cfe17baceb",
+    "wallet": "0x8119010a6e589062aa03583bb3f39ca632d9f887",
+    "trader": {
+      "rank": 7,
+      "address": "0x8119010a6e589062aa03583bb3f39ca632d9f887",
+      "username": "PrincessCaro",
+      "profit": 6083643.099591745,
+      "volume": 23520809.952867,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xc2c1a8c92e4c6d2628ef9c6a262411a44e459fe2",
+      "side": "BUY",
+      "asset": "82340757148621494901506589920533813396463383332540302061472601053550396300647",
+      "conditionId": "0xc8f3f366777706237e75edf74a60f7772d332d23013e08adca710ce689901a0f",
+      "size": 20635.829332,
+      "price": 0.43357259139208315,
+      "timestamp": 1773811161,
+      "title": "Map Handicap: FAL (-1.5) vs NRG (+1.5)",
+      "slug": "cs2-fal2-nrg-2026-03-18-map-handicap-away-1pt5",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/counter-strike-image-16c415c538.png",
+      "eventSlug": "cs2-fal2-nrg-2026-03-18",
+      "outcome": "NRG",
+      "outcomeIndex": 1,
+      "name": "xXFrameMoggedByFratLeaderXx67",
+      "pseudonym": "Pricey-Rally",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xdb56d93e1fb7e3341c428c08ff88e93f1c0cee393e717bf53cb625cfe17baceb",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Map Handicap: FAL (-1.5) vs NRG (+1.5)",
+    "market_slug": "cs2-fal2-nrg-2026-03-18",
+    "amount": 8947.129999
   }
 ]
