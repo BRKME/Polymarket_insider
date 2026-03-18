@@ -1,25 +1,5 @@
 [
   {
-    "market": "Will Bitcoin reach $150,000 in January?",
-    "market_slug": "will-bitcoin-reach-150k-in-january-2026",
-    "wallet": "0x94353164e0b0e4d87441b8c53f6002f9eaffc1e2",
-    "analysis": {
-      "score": 85,
-      "flags": [
-        "New wallet (0d old)",
-        "Extreme confidence (99.7% odds)",
-        "Large bet ($3,322)"
-      ],
-      "amount": 3321.66502,
-      "odds": 0.997,
-      "wallet_age_days": 0,
-      "total_activities": 37
-    },
-    "timestamp": "2026-01-21T08:35:05.465957",
-    "trade_hash": "0xbce13af705ac08188fe093a1366a076f0bed3cd0a5d22703839cb1fcbc860ec3",
-    "trade_timestamp": 1768984324
-  },
-  {
     "market": "Will Sporting win the 2025\u201326 Champions League?",
     "market_slug": "will-sporting-win-the-202526-champions-league",
     "wallet": "0x9493b44f39a8f3df70fbaae5cd1cf4f612c9fb28",
@@ -25006,5 +24986,49 @@
     "market": "Will Liverpool FC win on 2026-03-18?",
     "market_slug": "ucl-liv1-gal-2026-03-18",
     "amount": 2997.26
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x12e9fb4c075ec188e2262e195ce122311642c3891443bd94dcac8a66f88ea8df",
+    "wallet": "0xdb27bf2ac5d428a9c63dbc914611036855a6c56e",
+    "trader": {
+      "rank": 10,
+      "address": "0xdb27bf2ac5d428a9c63dbc914611036855a6c56e",
+      "username": "DrPufferfish",
+      "profit": 5649154.6234134035,
+      "volume": 214939870.173182,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x3d3d5f8afa1dbaccc08c4ee85f7a5bc0ed9e3165",
+      "side": "BUY",
+      "asset": "113029239789300692616172453639272219737440053293500020532267049115602188152592",
+      "conditionId": "0x0585f3df945f24cc90a056ee7e1fd146f8223007b88aaf6af885e1a3cc2bcce7",
+      "size": 2000,
+      "price": 0.84,
+      "timestamp": 1773866681,
+      "title": "Warriors vs. Celtics",
+      "slug": "nba-gsw-bos-2026-03-18",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
+      "eventSlug": "nba-gsw-bos-2026-03-18",
+      "outcome": "Celtics",
+      "outcomeIndex": 1,
+      "name": "",
+      "pseudonym": "",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x12e9fb4c075ec188e2262e195ce122311642c3891443bd94dcac8a66f88ea8df",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Warriors vs. Celtics",
+    "market_slug": "nba-gsw-bos-2026-03-18",
+    "amount": 1680.0
   }
 ]
