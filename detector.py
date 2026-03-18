@@ -76,7 +76,6 @@ def detect_insider_trades():
         filtered_weak_signal = 0
         pre_event_detected = 0
         error_count = 0
-        debug_printed = False
         
         for idx, trade in enumerate(trades):
             try:
@@ -155,16 +154,6 @@ def detect_insider_trades():
                 print(f"  Wallet: {wallet_address[:8]}...{wallet_address[-4:]}")
                 print(f"  Market: {market.get('question', 'Unknown')[:60]}...")
                 print(f"  Position: {position_label} @ {effective_odds*100:.1f}% effective odds (raw price: {price:.4f})")
-                
-                # DEBUG: Print trade structure once
-                if not debug_printed:
-                    print(f"\n  ═══ DEBUG: TRADE OBJECT STRUCTURE ═══")
-                    print(f"  Available keys: {list(trade.keys())}")
-                    print(f"  Sample trade data (first 10 fields):")
-                    for key, value in list(trade.items())[:10]:
-                        print(f"    {key}: {value}")
-                    print(f"  ═══════════════════════════════════════\n")
-                    debug_printed = True
                 
                 # Event Latency Detection
                 latency_data = detect_pre_event_trade(trade, market)
