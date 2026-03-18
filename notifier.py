@@ -28,19 +28,21 @@ def determine_position(trade_data, odds):
 
 def format_trade_info(alert):
     """Format trade information with correct profit calculation"""
-    # Print version to confirm this code is running
     if DEBUG_CALCULATIONS:
-        print(f"[DEBUG] format_trade_info() called - VERSION: 2026-01-31-HOTFIX-17:15-UTC")
+        print(f"[DEBUG] format_trade_info() called")
     
     analysis = alert["analysis"]
     trade_data = alert.get("trade_data", {})
     
-    odds = analysis['odds']  # YES token price (always!)
+    # BUG FIX: analysis['odds'] is EFFECTIVE odds (already flipped for NO).
+    # We need the raw YES price for calculations.
+    # raw_price = YES token price from API (always).
+    # odds = effective probability the trader is betting on.
+    yes_price = analysis.get('raw_price', analysis['odds'])
+    no_price = 1 - yes_price
     amount = analysis['amount']
-    yes_price = odds
-    no_price = 1 - odds
     
-    position = determine_position(trade_data, odds)
+    position = determine_position(trade_data, analysis['odds'])
     is_estimated = position.startswith('~')
     
     if 'YES' in position:
