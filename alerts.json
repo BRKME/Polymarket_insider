@@ -2,27 +2,6 @@
   {
     "market": "Will Ethereum reach $4,600 in January?",
     "market_slug": "will-ethereum-reach-4600-in-january-2026",
-    "wallet": "0xee40784a81a617974a451654fdb65b6ecafd8872",
-    "analysis": {
-      "score": 95,
-      "flags": [
-        "New wallet (0d old)",
-        "Extreme confidence (99.4% odds)",
-        "Large bet ($5,219)",
-        "Low activity (2 txns)"
-      ],
-      "amount": 5219.494,
-      "odds": 0.994,
-      "wallet_age_days": 0,
-      "total_activities": 2
-    },
-    "timestamp": "2026-01-21T07:38:01.381873",
-    "trade_hash": "0x6ed9f687dbcf3ed8cf22de9a0c45d91130807a4672553aef51d8e5a63c2b385b",
-    "trade_timestamp": 1768980864
-  },
-  {
-    "market": "Will Ethereum reach $4,600 in January?",
-    "market_slug": "will-ethereum-reach-4600-in-january-2026",
     "wallet": "0x61ab3f2fe0a912cf8caf5d10679f9635c7ff987f",
     "analysis": {
       "score": 85,
@@ -24620,5 +24599,49 @@
     "market": "Trail Blazers vs. Pacers: O/U 232.5",
     "market_slug": "nba-por-ind-2026-03-18",
     "amount": 2227.5
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x96e882a52773df6c0b751c9c16b54150644457e4fb2cfa55665919f8a1f18830",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.515682004,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x3e04fbc51adb75418129f6ce2091ae633070564d",
+      "side": "BUY",
+      "asset": "35689688104413598251363110342390889096349920052486000395208478441743644342269",
+      "conditionId": "0x4ab8d086479d32ff52377289defc81f6c4f24769bf7ffd1e4f132ba4d04ec369",
+      "size": 4119.53,
+      "price": 0.42,
+      "timestamp": 1773848973,
+      "title": "Jets vs. Bruins",
+      "slug": "nhl-wpg-bos-2026-03-19",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nhl.png",
+      "eventSlug": "nhl-wpg-bos-2026-03-19",
+      "outcome": "Jets",
+      "outcomeIndex": 0,
+      "name": "roldy",
+      "pseudonym": "Tattered-Screamer",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x96e882a52773df6c0b751c9c16b54150644457e4fb2cfa55665919f8a1f18830",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Jets vs. Bruins",
+    "market_slug": "nhl-wpg-bos-2026-03-19",
+    "amount": 1730.2025999999998
   }
 ]
