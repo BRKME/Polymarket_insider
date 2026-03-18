@@ -36955,5 +36955,49 @@
     "market": "Map Handicap: FAL (-1.5) vs NRG (+1.5)",
     "market_slug": "cs2-fal2-nrg-2026-03-18",
     "amount": 8947.129999
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x12dab46ec36dc3594f662d0ca09dedc7c9030144cda4d2c3247fb9ce5f14470c",
+    "wallet": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+    "trader": {
+      "rank": 10,
+      "address": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+      "username": "RN1",
+      "profit": 5680292.916432808,
+      "volume": 270473232.45483994,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x689ae12e11aa489adb3605afd8f39040ff52779e",
+      "side": "BUY",
+      "asset": "2078387433062678528341594284022090579269458787238990301986330427520767312650",
+      "conditionId": "0xb810ea8d468ab4783ac913dc8fc848bda0981c87dc5c0eb885067159a1edb2e0",
+      "size": 10496.21,
+      "price": 0.9396655249847325,
+      "timestamp": 1773814763,
+      "title": "Will Elon Musk post 320-339 tweets from March 13 to March 20, 2026?",
+      "slug": "elon-musk-of-tweets-march-13-march-20-320-339",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/elon-musk-of-tweets-nov-22-29-apMPG21-pzx_.jpg",
+      "eventSlug": "elon-musk-of-tweets-march-13-march-20",
+      "outcome": "No",
+      "outcomeIndex": 1,
+      "name": "Annica",
+      "pseudonym": "Standard-Verification",
+      "bio": "",
+      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-3285726-6228364d-2bca-43fb-9add-a2fb14aa18e0.jpg",
+      "profileImageOptimized": "",
+      "transactionHash": "0x12dab46ec36dc3594f662d0ca09dedc7c9030144cda4d2c3247fb9ce5f14470c",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Will Elon Musk post 320-339 tweets from March 13 to March 20, 2026?",
+    "market_slug": "elon-musk-of-tweets-march-13-march-20",
+    "amount": 9862.926679999999
   }
 ]
