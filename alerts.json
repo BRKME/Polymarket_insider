@@ -1,25 +1,5 @@
 [
   {
-    "market": "Will Tran Cam Tu be elected General Secretary of the Vietnamese Communist Party?",
-    "market_slug": "will-tran-cam-tu-be-elected-general-secretary-of-the-vietnamese-communist-party",
-    "wallet": "0xc7c7c2191a8a2b61dac7fbb3d860e1a9cd26f91a",
-    "analysis": {
-      "score": 85,
-      "flags": [
-        "New wallet (0d old)",
-        "Extreme confidence (98.5% odds)",
-        "Large bet ($1,079)"
-      ],
-      "amount": 1079.1856999999998,
-      "odds": 0.985,
-      "wallet_age_days": 0,
-      "total_activities": 10
-    },
-    "timestamp": "2026-01-21T05:59:16.986134",
-    "trade_hash": "0x32be0f401bfa497e094428cf1892775eafc841bfc9689ae5677360a5104af7c2",
-    "trade_timestamp": 1768974938
-  },
-  {
     "market": "Will Uzbekistan win the 2026 FIFA World Cup?",
     "market_slug": "will-uzbekistan-win-the-2026-fifa-world-cup-773",
     "wallet": "0x51647ec2817155b2eda49b5eb83c82a0976af17c",
@@ -24465,5 +24445,110 @@
     "market": "Bitcoin Up or Down - March 18, 3:20AM-3:25AM ET",
     "market_slug": "btc-updown-5m-1773818400",
     "amount": 1651.6799899999999
+  },
+  {
+    "market": "Games Total: O/U 2.5",
+    "market_slug": "val-tyloo-tec-2026-03-18-total-games-2pt5",
+    "event_slug": "val-tyloo-tec-2026-03-18-total-games-2pt5",
+    "wallet": "0xbac05584ab57e57a11f8401a19220893d999664a",
+    "analysis": {
+      "score": 70,
+      "flags": [
+        "New wallet (0d old)",
+        "Large bet ($5,000)",
+        "Low activity (1 txns)"
+      ],
+      "amount": 5000.0,
+      "odds": 0.5,
+      "raw_price": 0.5,
+      "outcome": "Under",
+      "potential_pnl": 5000.0,
+      "pnl_multiplier": 1.0,
+      "wallet_age_days": 0,
+      "total_activities": 1
+    },
+    "timestamp": "2026-03-18T09:42:16.018404",
+    "trade_hash": "0x99a5b29c17aeb18a4f284a8a6ca22f50f3e0e045f14e1b776438eb3be7a4a4b7",
+    "trade_timestamp": 1773826863,
+    "latency": null,
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "Under",
+      "side": "BUY",
+      "price": 0.5,
+      "effective_price": 0.5,
+      "size": 10000.0,
+      "amount": 5000.0,
+      "potential_pnl": 5000.0,
+      "pnl_multiplier": 1.0,
+      "is_no": false,
+      "slug": "val-tyloo-tec-2026-03-18-total-games-2pt5",
+      "eventSlug": "val-tyloo-tec-2026-03-18"
+    },
+    "irrationality": {
+      "irrationality_score": 35,
+      "flags": [
+        "Large mispricing edge (+26.0%)"
+      ],
+      "category": "other",
+      "category_info": {
+        "strength": "medium",
+        "typical_overpricing": 0.03,
+        "min_edge": 0.05
+      },
+      "is_irrational": true
+    },
+    "mispricing": {
+      "rational_estimate": 0.24,
+      "market_price": 0.5,
+      "edge": 0.26,
+      "edge_percent": 26.0,
+      "min_edge_required": 0.05,
+      "is_mispriced": true,
+      "edge_quality": "STRONG",
+      "base_rate_class": "common",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "common",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "Both teams have strong offensive capabilities",
+          "The game is played in a high-scoring environment",
+          "There are no significant defensive strategies employed"
+        ],
+        "weakest_link": "The game is played in a high-scoring environment"
+      },
+      "category": "sports",
+      "narrative_drivers": [
+        "Recent trends in team scoring",
+        "Injuries to key defensive players"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "INSIDER_ONLY",
+      "signal_emoji": "\ud83d\udc41\ufe0f",
+      "signal_strength": 70,
+      "interpretation": "Insider activity detected, no clear mispricing",
+      "action_suggestion": "Monitor: insider signal only, no statistical edge",
+      "insider_score": 70,
+      "insider_position": "UNDER",
+      "irrationality_score": 35,
+      "is_irrational": true,
+      "is_mispriced": true,
+      "edge": 0.26,
+      "edge_percent": 26.0
+    },
+    "financial_analyst": {
+      "signal_quality": 51.0,
+      "stance": "WATCH_ONLY",
+      "edge_percent": 26.0,
+      "signal_strength": 70.0,
+      "insider_score": 70.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    }
   }
 ]
