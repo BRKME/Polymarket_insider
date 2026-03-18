@@ -1,4 +1,6 @@
 import json
+import os
+import requests
 from pathlib import Path
 from datetime import datetime
 from typing import Dict, List, Tuple
@@ -6,6 +8,53 @@ from typing import Dict, List, Tuple
 from detector import detect_insider_trades
 from notifier import send_telegram_alert, send_top_trader_alert
 from top_traders import get_tracked_wallets, fetch_trader_recent_trades
+
+
+def send_heartbeat(stats: Dict) -> None:
+    """
+    Send a lightweight status ping to Telegram after each cycle.
+    Only sends if HEARTBEAT_ENABLED env var is set (opt-in).
+    Silent failure — heartbeat should never crash the main flow.
+    """
+    try:
+        if not os.getenv("HEARTBEAT_ENABLED"):
+            return
+        
+        token = os.getenv("TELEGRAM_BOT_TOKEN")
+        chat_id = os.getenv("TELEGRAM_CHAT_ID")
+        if not token or not chat_id:
+            return
+
+        trades = stats.get("trades_analyzed", 0)
+        insiders = stats.get("insider_signals", 0)
+        copies = stats.get("copy_candidates", 0)
+        insider_sent = stats.get("insider_alerts_sent", 0)
+        top_sent = stats.get("top_trader_alerts_sent", 0)
+        elapsed = stats.get("elapsed_seconds", 0)
+        errors = stats.get("errors", 0)
+
+        # Only send detailed heartbeat if something happened or there were errors
+        if insider_sent == 0 and top_sent == 0 and errors == 0:
+            # Silent cycle — no need to spam
+            return
+
+        status = "⚠️" if errors > 0 else "✅"
+        msg = (
+            f"{status} Heartbeat | {datetime.utcnow().strftime('%H:%M')} UTC\n"
+            f"Trades: {trades} | Signals: {insiders} | Sent: {insider_sent}+{top_sent}\n"
+            f"Time: {elapsed:.0f}s"
+        )
+        if errors > 0:
+            msg += f" | Errors: {errors}"
+
+        url = f"https://api.telegram.org/bot{token}/sendMessage"
+        requests.post(url, json={
+            "chat_id": chat_id,
+            "text": msg,
+            "disable_notification": True,
+        }, timeout=5)
+    except Exception:
+        pass  # Heartbeat must never crash main
 
 
 def load_tracked_wallets():
@@ -244,7 +293,8 @@ def scan_top_traders(tracked_hashes: set) -> List[Dict]:
 
 
 def main():
-    print(f"[{datetime.now()}] Starting Polymarket insider detector...")
+    start_time = datetime.now()
+    print(f"[{start_time}] Starting Polymarket insider detector...")
     
     # Preload leaderboard cache once to avoid repeated API calls
     print(f"[{datetime.now()}] Preloading top traders leaderboard...")
@@ -311,6 +361,18 @@ def main():
         f"Insider signals: {len(insiders)}, copy candidates: {len(irrational_copy_candidates)}, "
         f"insider alerts sent: {sent_count}, top trader alerts: {top_trader_sent}"
     )
+
+    # === HEARTBEAT ===
+    elapsed = (datetime.now() - start_time).total_seconds()
+    send_heartbeat({
+        "trades_analyzed": len(new_alerts),
+        "insider_signals": len(insiders),
+        "copy_candidates": len(irrational_copy_candidates),
+        "insider_alerts_sent": sent_count,
+        "top_trader_alerts_sent": top_trader_sent,
+        "elapsed_seconds": elapsed,
+        "errors": 0,
+    })
 
 
 if __name__ == "__main__":
