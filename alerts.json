@@ -1,25 +1,5 @@
 [
   {
-    "market": "Will Sporting win the 2025\u201326 Champions League?",
-    "market_slug": "will-sporting-win-the-202526-champions-league",
-    "wallet": "0x9493b44f39a8f3df70fbaae5cd1cf4f612c9fb28",
-    "analysis": {
-      "score": 85,
-      "flags": [
-        "New wallet (1d old)",
-        "Extreme confidence (99.1% odds)",
-        "Large bet ($4,844)"
-      ],
-      "amount": 4844.008,
-      "odds": 0.991,
-      "wallet_age_days": 1,
-      "total_activities": 6
-    },
-    "timestamp": "2026-01-21T09:00:25.718742",
-    "trade_hash": "0x77542f10876f3699a55c3bb16e69e6bd138bae8369d3a6248e33b66b489d6e17",
-    "trade_timestamp": 1768985844
-  },
-  {
     "market": "Will the US strike Colombia next?",
     "market_slug": "will-the-us-strike-colombia-next-863",
     "wallet": "0x61deb15bdb695fda6349b713427d02dc00279e1a",
@@ -25030,5 +25010,49 @@
     "market": "Warriors vs. Celtics",
     "market_slug": "nba-gsw-bos-2026-03-18",
     "amount": 1680.0
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x30ebf9a734cc6647fb5b71bb185eeb4c18e88073ca6bdf5bf7be8aaaa002203d",
+    "wallet": "0x863134d00841b2e200492805a01e1e2f5defaa53",
+    "trader": {
+      "rank": 6,
+      "address": "0x863134d00841b2e200492805a01e1e2f5defaa53",
+      "username": "RepTrump",
+      "profit": 7532409.671579,
+      "volume": 13983231.103425,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x87165c4f708a46c60595b0eeddb946412e55bd57",
+      "side": "BUY",
+      "asset": "50405950143962369963302692343536687688455690785913162237484430741288187284298",
+      "conditionId": "0xd06aee0b70ab47174c083f0de54e379d98b3f2f5337135c0f4453eb1f0c397a8",
+      "size": 4542.755554,
+      "price": 0.4499999999339608,
+      "timestamp": 1773873885,
+      "title": "Clippers vs. Pelicans",
+      "slug": "nba-lac-nop-2026-03-18",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
+      "eventSlug": "nba-lac-nop-2026-03-18",
+      "outcome": "Pelicans",
+      "outcomeIndex": 1,
+      "name": "againstmyreligion",
+      "pseudonym": "Possible-Minorleague",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x30ebf9a734cc6647fb5b71bb185eeb4c18e88073ca6bdf5bf7be8aaaa002203d",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Clippers vs. Pelicans",
+    "market_slug": "nba-lac-nop-2026-03-18",
+    "amount": 2044.2399990000001
   }
 ]
