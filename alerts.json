@@ -1,25 +1,5 @@
 [
   {
-    "market": "Will Ethereum reach $6,000 in January?",
-    "market_slug": "will-ethereum-reach-6000-in-january-2026",
-    "wallet": "0xe7de27b34884cf21552a37c88e7864876ca22b2f",
-    "analysis": {
-      "score": 85,
-      "flags": [
-        "New wallet (0d old)",
-        "Extreme confidence (99.9% odds)",
-        "Large bet ($5,015)"
-      ],
-      "amount": 5014.9999800000005,
-      "odds": 0.999,
-      "wallet_age_days": 0,
-      "total_activities": 38
-    },
-    "timestamp": "2026-01-21T11:33:33.241635",
-    "trade_hash": "0x29cbd2da2e2ba01ad278c9a73ef24a1f37eae62ae8dc70b351b716f74c17c4ee",
-    "trade_timestamp": 1768994992
-  },
-  {
     "market": "Will Bitcoin reach $125,000 in January?",
     "market_slug": "will-bitcoin-reach-125k-in-january-2026",
     "wallet": "0x298d29c63a298ee257cd9c62d6878b1b210dddb9",
@@ -25426,5 +25406,112 @@
     "market": "Cavaliers vs. Bulls: O/U 238.5",
     "market_slug": "nba-cle-chi-2026-03-19",
     "amount": 2561.4
+  },
+  {
+    "market": "Will T\u00f4 L\u00e2m be the next President of Vietnam?",
+    "market_slug": "will-t-lm-be-the-next-president-of-vietnam",
+    "event_slug": "will-t-lm-be-the-next-president-of-vietnam",
+    "wallet": "0x53c1363eb2613a74d7599d9d41ead8433db01490",
+    "analysis": {
+      "score": 70,
+      "flags": [
+        "New wallet (0d old)",
+        "Large bet ($2,460)",
+        "Low activity (1 txns)"
+      ],
+      "amount": 2459.791666,
+      "odds": 0.8805532206936515,
+      "raw_price": 0.11944677930634856,
+      "outcome": "No",
+      "potential_pnl": 333.66999899999973,
+      "pnl_multiplier": 0.13564969896113133,
+      "wallet_age_days": 0,
+      "total_activities": 1
+    },
+    "timestamp": "2026-03-19T10:38:01.738789",
+    "trade_hash": "0xd51e1e8288da4c32a4820e1fea6b53894aa503194136f9cef590fbc828c84107",
+    "trade_timestamp": 1773916367,
+    "latency": null,
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "No",
+      "side": "BUY",
+      "price": 0.11944677930634856,
+      "effective_price": 0.8805532206936515,
+      "size": 2793.461665,
+      "amount": 2459.791666,
+      "potential_pnl": 333.66999899999973,
+      "pnl_multiplier": 0.13564969896113133,
+      "is_no": true,
+      "slug": "will-t-lm-be-the-next-president-of-vietnam",
+      "eventSlug": "next-president-of-vietnam"
+    },
+    "irrationality": {
+      "irrationality_score": 48,
+      "flags": [
+        "Longshot (12%) in high bias category (politics_far)",
+        "Category structurally prone to longshot bias",
+        "Moderate mispricing edge (+7.6%)"
+      ],
+      "category": "politics_far",
+      "category_info": {
+        "strength": "high",
+        "typical_overpricing": 0.05,
+        "min_edge": 0.05
+      },
+      "is_irrational": true
+    },
+    "mispricing": {
+      "rational_estimate": 0.04388935586126971,
+      "market_price": 0.11944677930634856,
+      "edge": 0.07555742344507885,
+      "edge_percent": 7.555742344507885,
+      "min_edge_required": 0.03,
+      "is_mispriced": true,
+      "edge_quality": "STRONG",
+      "base_rate_class": "rare",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "rare",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "Political support from the Communist Party",
+          "Public approval and acceptance",
+          "Absence of strong opposition candidates"
+        ],
+        "weakest_link": "Public approval and acceptance"
+      },
+      "category": "politics_near",
+      "narrative_drivers": [
+        "Internal party dynamics",
+        "Public sentiment towards leadership"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "ALPHA",
+      "signal_emoji": "\ud83d\udd25",
+      "signal_strength": 118,
+      "interpretation": "Smart money (NO) confirms YES is overpriced",
+      "action_suggestion": "High conviction: insider + statistics aligned",
+      "insider_score": 70,
+      "insider_position": "NO",
+      "irrationality_score": 48,
+      "is_irrational": true,
+      "is_mispriced": true,
+      "edge": 0.07555742344507885,
+      "edge_percent": 7.555742344507885
+    },
+    "financial_analyst": {
+      "signal_quality": 69.9,
+      "stance": "SELECTIVE",
+      "edge_percent": 7.56,
+      "signal_strength": 118.0,
+      "insider_score": 70.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    }
   }
 ]
