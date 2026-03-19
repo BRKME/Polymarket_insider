@@ -1,65 +1,5 @@
 [
   {
-    "market": "Will Khamenei leave Iran by Jan 31?",
-    "market_slug": "will-khamenei-leave-iran-by-jan-31-322",
-    "wallet": "0x110410310f884e6c33f237a9f86c1793b69a7bab",
-    "analysis": {
-      "score": 85,
-      "flags": [
-        "New wallet (0d old)",
-        "Extreme confidence (97.4% odds)",
-        "Large bet ($2,172)"
-      ],
-      "amount": 2171.61092,
-      "odds": 0.974,
-      "wallet_age_days": 0,
-      "total_activities": 13
-    },
-    "timestamp": "2026-01-21T14:36:03.524401",
-    "trade_hash": "0xf3abd8a02b5be38343ab3446ac3e9bd96f9e2969b8a27a32099497065008f509",
-    "trade_timestamp": 1769005886
-  },
-  {
-    "market": "Russia x Ukraine ceasefire by January 31, 2026?",
-    "market_slug": "russia-x-ukraine-ceasefire-by-january-31-2026",
-    "wallet": "0x8d825c49fd69e90c63d3f5319f8aae1df2da26d3",
-    "analysis": {
-      "score": 85,
-      "flags": [
-        "New wallet (0d old)",
-        "Extreme confidence (98.1% odds)",
-        "Large bet ($17,229)"
-      ],
-      "amount": 17228.79135,
-      "odds": 0.981391631782003,
-      "wallet_age_days": 0,
-      "total_activities": 5
-    },
-    "timestamp": "2026-01-21T15:00:48.998561",
-    "trade_hash": "0x8c92019a56e942302504eedf7eb25106d4380f9542eff8cbbaf59ee33814d087",
-    "trade_timestamp": 1769007470
-  },
-  {
-    "market": "Israel nuclear weapon use against Iran by January 31?",
-    "market_slug": "will-israel-nuke-iran-by-january-31",
-    "wallet": "0xd71ef6fb4b30c222b3e789b97ee1417ab492f150",
-    "analysis": {
-      "score": 85,
-      "flags": [
-        "New wallet (0d old)",
-        "Extreme confidence (99.6% odds)",
-        "Large bet ($2,438)"
-      ],
-      "amount": 2437.7000399999997,
-      "odds": 0.996,
-      "wallet_age_days": 0,
-      "total_activities": 33
-    },
-    "timestamp": "2026-01-21T16:00:23.250177",
-    "trade_hash": "0x1af9c9b03dd4060fe10fd5ed5ac7d81894ffc8f8f0beff64da16e7023f2d8b84",
-    "trade_timestamp": 1769011116
-  },
-  {
     "market": "Will any of Trump\u2019s Greenland Tariffs go into effect by Feb 1?",
     "market_slug": "will-any-of-trumps-greenland-tariffs-go-into-effect-by-feb-1",
     "wallet": "0xae44e7eaf3829be5bad4e8e7452f7cbce83ece37",
@@ -25900,5 +25840,137 @@
     "market": "Will RC Celta de Vigo win on 2026-03-19?",
     "market_slug": "uel-lyo1-cel4-2026-03-19",
     "amount": 4543.998
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x064a8e82008c576be1ffa2ceaf9959643abf23126f185a90391c06704f51ebaa",
+    "wallet": "0x23786fdad0073692157c6d7dc81f281843a35fcb",
+    "trader": {
+      "rank": 13,
+      "address": "0x23786fdad0073692157c6d7dc81f281843a35fcb",
+      "username": "mikatrade77",
+      "profit": 5147998.544602999,
+      "volume": 10884765.388774998,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x6a32a31f2b28c31c016c6a222f2942240d8d0086",
+      "side": "BUY",
+      "asset": "34003663288324402425719266566755962799186506367320329765748501440548333664169",
+      "conditionId": "0x16b320169de30b3f2e0ecd28228027e7de33639389c3487e3b22dadbffe32d9a",
+      "size": 3000,
+      "price": 0.5,
+      "timestamp": 1773959419,
+      "title": "Pistons vs. Wizards: O/U 232.5",
+      "slug": "nba-det-was-2026-03-19-total-232pt5",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
+      "eventSlug": "nba-det-was-2026-03-19",
+      "outcome": "Under",
+      "outcomeIndex": 1,
+      "name": "0x6A32A31F2B28c31c016C6A222f2942240d8D0086-1756820952447",
+      "pseudonym": "Amazing-Hovel",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x064a8e82008c576be1ffa2ceaf9959643abf23126f185a90391c06704f51ebaa",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Pistons vs. Wizards: O/U 232.5",
+    "market_slug": "nba-det-was-2026-03-19",
+    "amount": 1500.0
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x2f6d22ed47d3095bd57a235994ba1aa48f24f6ce6492a3df0ebec2706b230628",
+    "wallet": "0x23786fdad0073692157c6d7dc81f281843a35fcb",
+    "trader": {
+      "rank": 13,
+      "address": "0x23786fdad0073692157c6d7dc81f281843a35fcb",
+      "username": "mikatrade77",
+      "profit": 5147998.544602999,
+      "volume": 10884765.388774998,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xb6aee7f281e13b23bd959127f6e2b3dccb4e4df8",
+      "side": "BUY",
+      "asset": "34003663288324402425719266566755962799186506367320329765748501440548333664169",
+      "conditionId": "0x16b320169de30b3f2e0ecd28228027e7de33639389c3487e3b22dadbffe32d9a",
+      "size": 6988,
+      "price": 0.5,
+      "timestamp": 1773959419,
+      "title": "Pistons vs. Wizards: O/U 232.5",
+      "slug": "nba-det-was-2026-03-19-total-232pt5",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
+      "eventSlug": "nba-det-was-2026-03-19",
+      "outcome": "Under",
+      "outcomeIndex": 1,
+      "name": "hugesportswhale",
+      "pseudonym": "Fuzzy-Oversight",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x2f6d22ed47d3095bd57a235994ba1aa48f24f6ce6492a3df0ebec2706b230628",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Pistons vs. Wizards: O/U 232.5",
+    "market_slug": "nba-det-was-2026-03-19",
+    "amount": 3494.0
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x5cdbc27187722f827420292b37566465ce0f8a74fa0c9b6ae570ee406f8e794f",
+    "wallet": "0x23786fdad0073692157c6d7dc81f281843a35fcb",
+    "trader": {
+      "rank": 13,
+      "address": "0x23786fdad0073692157c6d7dc81f281843a35fcb",
+      "username": "mikatrade77",
+      "profit": 5147998.544602999,
+      "volume": 10884765.388774998,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xb5e9746594e3a11f3cb724d0a6029a5d62234044",
+      "side": "BUY",
+      "asset": "2664311162279059241862911770684565005151952311104325708669060839371754814097",
+      "conditionId": "0x06707a5317654a573e0ed4879d0c81071de1a94b0cd3cb007c7ec32ebe359885",
+      "size": 65759.59,
+      "price": 0.35016557737054016,
+      "timestamp": 1773959419,
+      "title": "Lakers vs. Heat",
+      "slug": "nba-lal-mia-2026-03-19",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
+      "eventSlug": "nba-lal-mia-2026-03-19",
+      "outcome": "Lakers",
+      "outcomeIndex": 0,
+      "name": "LinePunisher",
+      "pseudonym": "Calm-Savannah",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x5cdbc27187722f827420292b37566465ce0f8a74fa0c9b6ae570ee406f8e794f",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Lakers vs. Heat",
+    "market_slug": "nba-lal-mia-2026-03-19",
+    "amount": 23026.744799999997
   }
 ]
