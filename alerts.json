@@ -1,25 +1,5 @@
 [
   {
-    "market": "Will the Logan Paul 1st Edition Charizard sale price be over 500k?",
-    "market_slug": "will-the-logan-paul-1st-edition-charizard-sale-price-be-over-500k",
-    "wallet": "0x7d1922ca7623823d0bcbc454fe3b0d071084655d",
-    "analysis": {
-      "score": 85,
-      "flags": [
-        "New wallet (0d old)",
-        "Extreme confidence (98.8% odds)",
-        "Large bet ($1,080)"
-      ],
-      "amount": 1079.7753200000002,
-      "odds": 0.988,
-      "wallet_age_days": 0,
-      "total_activities": 25
-    },
-    "timestamp": "2026-01-21T14:35:49.422917",
-    "trade_hash": "0x88165e774f7ae9d11938888ae99b555f76ea63f12e83b6c53358bf833d6b0b0a",
-    "trade_timestamp": 1769005934
-  },
-  {
     "market": "Will Khamenei leave Iran by Jan 31?",
     "market_slug": "will-khamenei-leave-iran-by-jan-31-322",
     "wallet": "0x110410310f884e6c33f237a9f86c1793b69a7bab",
@@ -25876,5 +25856,49 @@
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
     }
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x29c3e47ad90aeb5d4771bacb7c5dbcdf7bcce9bfa304fd72ec072c4670309247",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.51568201,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x4133bcbad1d9c41de776646696f41c34d0a65e70",
+      "side": "BUY",
+      "asset": "62505429809364797963518971310518916509956092021742080639017340569942721490348",
+      "conditionId": "0xf0cbad2c1d75167939a31891bd89b8e4b5a94db0ecb1ad571152aa52c8f96013",
+      "size": 5345.88,
+      "price": 0.85,
+      "timestamp": 1773947411,
+      "title": "Will RC Celta de Vigo win on 2026-03-19?",
+      "slug": "uel-lyo1-cel4-2026-03-19-cel4",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/uel.png",
+      "eventSlug": "uel-lyo1-cel4-2026-03-19",
+      "outcome": "Yes",
+      "outcomeIndex": 0,
+      "name": "EF203F2IPFC2ICP20W-CP3",
+      "pseudonym": "Bogus-Fix",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x29c3e47ad90aeb5d4771bacb7c5dbcdf7bcce9bfa304fd72ec072c4670309247",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Will RC Celta de Vigo win on 2026-03-19?",
+    "market_slug": "uel-lyo1-cel4-2026-03-19",
+    "amount": 4543.998
   }
 ]
