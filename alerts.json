@@ -1,25 +1,5 @@
 [
   {
-    "market": "Will Bitcoin reach $125,000 in January?",
-    "market_slug": "will-bitcoin-reach-125k-in-january-2026",
-    "wallet": "0x298d29c63a298ee257cd9c62d6878b1b210dddb9",
-    "analysis": {
-      "score": 85,
-      "flags": [
-        "New wallet (0d old)",
-        "Extreme confidence (99.5% odds)",
-        "Large bet ($1,299)"
-      ],
-      "amount": 1298.5446499999998,
-      "odds": 0.995,
-      "wallet_age_days": 0,
-      "total_activities": 100
-    },
-    "timestamp": "2026-01-21T11:49:00.704810",
-    "trade_hash": "0x424a8e723d5f375b71d46cff3fdeda17826149259a024209811285e40f93e80f",
-    "trade_timestamp": 1768995926
-  },
-  {
     "market": "LoL: LNG Esports vs LGD Gaming (BO3) - LPL Group Nirvana",
     "market_slug": "lol-lng-lgd-2026-01-21",
     "wallet": "0x2aa13994496b2c84268afff01687122de4abc691",
@@ -25513,5 +25493,49 @@
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
     }
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xb4d9d85959a096723c375949b7e02bb1e97fd860bb8cf16d2a86431acb801b0a",
+    "wallet": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+    "trader": {
+      "rank": 9,
+      "address": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+      "username": "RN1",
+      "profit": 5737968.580120262,
+      "volume": 278031629.762783,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xd106952ebf30a3125affd8a23b6c1f30c35fc79c",
+      "side": "BUY",
+      "asset": "2674595536960933334332472878857052687249218836423245888706664492655136930708",
+      "conditionId": "0x4ab8d086479d32ff52377289defc81f6c4f24769bf7ffd1e4f132ba4d04ec369",
+      "size": 2891.03,
+      "price": 0.56,
+      "timestamp": 1773919501,
+      "title": "Jets vs. Bruins",
+      "slug": "nhl-wpg-bos-2026-03-19",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nhl.png",
+      "eventSlug": "nhl-wpg-bos-2026-03-19",
+      "outcome": "Bruins",
+      "outcomeIndex": 1,
+      "name": "Herdonia",
+      "pseudonym": "Unkempt-Image",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xb4d9d85959a096723c375949b7e02bb1e97fd860bb8cf16d2a86431acb801b0a",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Jets vs. Bruins",
+    "market_slug": "nhl-wpg-bos-2026-03-19",
+    "amount": 1618.9768000000004
   }
 ]
