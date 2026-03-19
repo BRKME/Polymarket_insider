@@ -1,25 +1,5 @@
 [
   {
-    "market": "Will any of Trump\u2019s Greenland Tariffs go into effect by Feb 1?",
-    "market_slug": "will-any-of-trumps-greenland-tariffs-go-into-effect-by-feb-1",
-    "wallet": "0xae44e7eaf3829be5bad4e8e7452f7cbce83ece37",
-    "analysis": {
-      "score": 85,
-      "flags": [
-        "New wallet (0d old)",
-        "Extreme confidence (96.0% odds)",
-        "Large bet ($2,128)"
-      ],
-      "amount": 2128.2527999999998,
-      "odds": 0.96,
-      "wallet_age_days": 0,
-      "total_activities": 24
-    },
-    "timestamp": "2026-01-21T19:35:44.270785",
-    "trade_hash": "0xfe4ea184b590be8c9394fe9a9200a47ba3d068919b4f1e0a2ab8ca1f8356709f",
-    "trade_timestamp": 1769023956
-  },
-  {
     "market": "Will Bitcoin dip to $80,000 in January?",
     "market_slug": "will-bitcoin-dip-to-80k-in-january-2026",
     "wallet": "0xe89ea370d21cfe36a27c4236f348a884c36b0600",
@@ -25972,5 +25952,49 @@
     "market": "Lakers vs. Heat",
     "market_slug": "nba-lal-mia-2026-03-19",
     "amount": 23026.744799999997
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x758fc49af99153046d7de036a05113ee9ec39e18450a72df33823918823ef554",
+    "wallet": "0xdc876e6873772d38716fda7f2452a78d426d7ab6",
+    "trader": {
+      "rank": 16,
+      "address": "0xdc876e6873772d38716fda7f2452a78d426d7ab6",
+      "username": "432614799197",
+      "profit": 4561126.663957323,
+      "volume": 185485956.8620829,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x5d58e38cd0a7e6f5fa67b7f9c2f70dd70df09a15",
+      "side": "SELL",
+      "asset": "84007361241758978489330197202827235700289078898880514910472901778979242019662",
+      "conditionId": "0xb44d28615f728f279f32cda4ab130f2edbb5dd1b53363a75502aaac06eb502ce",
+      "size": 10949.46,
+      "price": 0.29095242139795024,
+      "timestamp": 1773962719,
+      "title": "VCU Rams vs. North Carolina Tar Heels",
+      "slug": "cbb-vcu-ncar-2026-03-19",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/ncaa-c14995df96.png",
+      "eventSlug": "cbb-vcu-ncar-2026-03-19",
+      "outcome": "VCU Rams",
+      "outcomeIndex": 0,
+      "name": "Dhdhsjsj",
+      "pseudonym": "Our-Cutover",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x758fc49af99153046d7de036a05113ee9ec39e18450a72df33823918823ef554",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "VCU Rams vs. North Carolina Tar Heels",
+    "market_slug": "cbb-vcu-ncar-2026-03-19",
+    "amount": 3185.7719
   }
 ]
