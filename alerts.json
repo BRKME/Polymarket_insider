@@ -1,81 +1,5 @@
 [
   {
-    "market": "Will Bitcoin dip to $80,000 in January?",
-    "market_slug": "will-bitcoin-dip-to-80k-in-january-2026",
-    "wallet": "0xe89ea370d21cfe36a27c4236f348a884c36b0600",
-    "analysis": {
-      "score": 85,
-      "flags": [
-        "New wallet (0d old)",
-        "Against trend (7.1% odds)",
-        "Large bet ($2,103)"
-      ],
-      "amount": 2102.95201,
-      "odds": 0.07147321137860459,
-      "wallet_age_days": 0,
-      "total_activities": 100
-    },
-    "timestamp": "2026-01-21T22:48:19.878479",
-    "trade_hash": "0xb3768bc5e394d90d0b4505167744b1833f97b87d74b981721453a7fb0bcfa22e",
-    "trade_timestamp": 1769035536,
-    "trade_data": {
-      "asset": "23876986815376127874009957316712352759229210373454136054343758360595212713854",
-      "assetId": null,
-      "tokenId": null,
-      "side": "SELL",
-      "outcome": "Yes",
-      "market": null,
-      "type": null,
-      "status": null,
-      "maker": null,
-      "taker": null,
-      "makerAddress": null,
-      "takerAddress": null,
-      "feeRateBps": null,
-      "price": 0.07147321137860459,
-      "size": 29422.94,
-      "amount": 2102.95201
-    }
-  },
-  {
-    "market": "Will Frances Tiafoe win the 2026 Australian Open?",
-    "market_slug": "will-frances-tiafoe-win-the-2026-australian-open",
-    "wallet": "0x22ed80cbc1dea794a8fc5dc7c27a46f6902bb1bf",
-    "analysis": {
-      "score": 85,
-      "flags": [
-        "New wallet (0d old)",
-        "Extreme confidence (99.9% odds)",
-        "Large bet ($3,993)"
-      ],
-      "amount": 3992.9990040000002,
-      "odds": 0.999,
-      "wallet_age_days": 0,
-      "total_activities": 43
-    },
-    "timestamp": "2026-01-21T23:49:05.760210",
-    "trade_hash": "0xf66c2b1247a899fca6d8ca741a04bce796f35791525ad32f1d1473af498e2c87",
-    "trade_timestamp": 1769039058,
-    "trade_data": {
-      "asset": "83192620285541411047756249672060828548648671176172098790648553905039846249980",
-      "assetId": null,
-      "tokenId": null,
-      "side": "BUY",
-      "outcome": "No",
-      "market": null,
-      "type": null,
-      "status": null,
-      "maker": null,
-      "taker": null,
-      "makerAddress": null,
-      "takerAddress": null,
-      "feeRateBps": null,
-      "price": 0.999,
-      "size": 3996.996,
-      "amount": 3992.9990040000002
-    }
-  },
-  {
     "market": "Will Bitcoin reach $150,000 in January?",
     "market_slug": "will-bitcoin-reach-150k-in-january-2026",
     "wallet": "0xe6b7733ccd4fc227ae6afd84e47849abdedd7864",
@@ -25996,5 +25920,93 @@
     "market": "VCU Rams vs. North Carolina Tar Heels",
     "market_slug": "cbb-vcu-ncar-2026-03-19",
     "amount": 3185.7719
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xf5c43d67eb70a893de143e11a296c64bc9d40b250952e7e710dcaafb3c2d232d",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.515682004,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x37c1874a60d348903594a96703e0507c518fc53a",
+      "side": "BUY",
+      "asset": "51641649794013183299849597466077290512870157021080139376494985217022682240581",
+      "conditionId": "0x9af82525f62f45127301f661979e00c6de4f40566fadaa43361daa58a1a79941",
+      "size": 15978.26,
+      "price": 0.54,
+      "timestamp": 1773963919,
+      "title": "Utah vs. Golden Knights",
+      "slug": "nhl-utah-las-2026-03-19",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nhl.png",
+      "eventSlug": "nhl-utah-las-2026-03-19",
+      "outcome": "Golden Knights",
+      "outcomeIndex": 1,
+      "name": "CemeterySun",
+      "pseudonym": "Pale-Bend",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xf5c43d67eb70a893de143e11a296c64bc9d40b250952e7e710dcaafb3c2d232d",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Utah vs. Golden Knights",
+    "market_slug": "nhl-utah-las-2026-03-19",
+    "amount": 8628.260400000001
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xd682d6c6324622040849474efc12d55f6def1e863e63c0436d712fb59c4dca96",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.515682004,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xa5aa873702c0b28480246b6b474d48cb12869134",
+      "side": "SELL",
+      "asset": "2053750301724228157370324704408926248138691501785348834429298312230383532126",
+      "conditionId": "0xc0550c87bd3f69afb7ee355ad4bd0f28d249d5ec27d6d383253d5ba121a57ca9",
+      "size": 59960,
+      "price": 0.19,
+      "timestamp": 1773963919,
+      "title": "Cavaliers vs. Bulls",
+      "slug": "nba-cle-chi-2026-03-19",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
+      "eventSlug": "nba-cle-chi-2026-03-19",
+      "outcome": "Bulls",
+      "outcomeIndex": 1,
+      "name": "Wal1",
+      "pseudonym": "Impish-Cottage",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xd682d6c6324622040849474efc12d55f6def1e863e63c0436d712fb59c4dca96",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Cavaliers vs. Bulls",
+    "market_slug": "nba-cle-chi-2026-03-19",
+    "amount": 11392.4
   }
 ]
