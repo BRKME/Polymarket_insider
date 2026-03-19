@@ -1,88 +1,5 @@
 [
   {
-    "market": "Will Ethereum dip to $2,000 in January?",
-    "market_slug": "will-ethereum-dip-to-2000-in-january-2026-647",
-    "wallet": "0xadf9e07e9a55e932d8657a6ebfa02ba96108ccb1",
-    "analysis": {
-      "score": 95,
-      "flags": [
-        "New wallet (0d old)",
-        "Extreme confidence (98.4% odds)",
-        "Large bet ($2,488)",
-        "Low activity (1 txns)"
-      ],
-      "amount": 2487.53232,
-      "odds": 0.984,
-      "wallet_age_days": 0,
-      "total_activities": 1
-    },
-    "timestamp": "2026-01-21T10:51:20.591480",
-    "trade_hash": "0xcf2d168ad5b2c742ff60d41b9cb40862ea2b8a7f4f8bc2357838cca07254c5a4",
-    "trade_timestamp": 1768992468
-  },
-  {
-    "market": "Will Ethereum dip to $2,000 in January?",
-    "market_slug": "will-ethereum-dip-to-2000-in-january-2026-647",
-    "wallet": "0x1df3d00b7d3dfe66e489d872bca9c4a64251a45d",
-    "analysis": {
-      "score": 95,
-      "flags": [
-        "New wallet (0d old)",
-        "Extreme confidence (98.4% odds)",
-        "Large bet ($2,507)",
-        "Low activity (1 txns)"
-      ],
-      "amount": 2507.232,
-      "odds": 0.984,
-      "wallet_age_days": 0,
-      "total_activities": 1
-    },
-    "timestamp": "2026-01-21T10:51:21.343869",
-    "trade_hash": "0x6de49fed8bfb82aff513dcdcd00d8751ac1d981fc7d0f9ab1c24d81a3d838400",
-    "trade_timestamp": 1768992466
-  },
-  {
-    "market": "Will Ethereum dip to $2,000 in January?",
-    "market_slug": "will-ethereum-dip-to-2000-in-january-2026-647",
-    "wallet": "0x67476a623708f35cd0a1c0904314244ba909fda4",
-    "analysis": {
-      "score": 95,
-      "flags": [
-        "New wallet (0d old)",
-        "Extreme confidence (98.4% odds)",
-        "Large bet ($2,511)",
-        "Low activity (1 txns)"
-      ],
-      "amount": 2511.168,
-      "odds": 0.984,
-      "wallet_age_days": 0,
-      "total_activities": 1
-    },
-    "timestamp": "2026-01-21T10:51:22.020621",
-    "trade_hash": "0xdfc21a14970bfbc4e0757d429aeb35480abccc64ba018c57c6e9c993b887748a",
-    "trade_timestamp": 1768992466
-  },
-  {
-    "market": "Will the Fed decide differently in the next three decisions (Oct\u2013Dec\u2013Jan)?",
-    "market_slug": "will-the-fed-decide-differently-in-the-next-three-decisions-octdecjan",
-    "wallet": "0xff71238c433968d5582ddb7a3c9c06698ab9a590",
-    "analysis": {
-      "score": 85,
-      "flags": [
-        "New wallet (0d old)",
-        "Extreme confidence (99.7% odds)",
-        "Large bet ($2,600)"
-      ],
-      "amount": 2599.96663,
-      "odds": 0.997,
-      "wallet_age_days": 0,
-      "total_activities": 5
-    },
-    "timestamp": "2026-01-21T11:03:31.316468",
-    "trade_hash": "0xab45dad5821be3e40f3c5f352588b4f132facee933f89fda1bba8f48c53c7004",
-    "trade_timestamp": 1768993318
-  },
-  {
     "market": "Will Ethereum reach $6,000 in January?",
     "market_slug": "will-ethereum-reach-6000-in-january-2026",
     "wallet": "0xe7de27b34884cf21552a37c88e7864876ca22b2f",
@@ -25150,5 +25067,364 @@
     "market": "Counter-Strike: PARIVISION vs NIP (BO3) - BLAST Open Rotterdam Group B",
     "market_slug": "cs2-prv-nip-2026-03-19",
     "amount": 4154.0
+  },
+  {
+    "market": "Spread: Pistons (-16.5)",
+    "market_slug": "nba-det-was-2026-03-19-spread-away-16pt5",
+    "event_slug": "nba-det-was-2026-03-19-spread-away-16pt5",
+    "wallet": "0x409e018892cf9ad5033416c58b7aaed7f1c22d13",
+    "analysis": {
+      "score": 70,
+      "flags": [
+        "New wallet (0d old)",
+        "Large bet ($1,136)",
+        "Low activity (1 txns)"
+      ],
+      "amount": 1136.16,
+      "odds": 0.54,
+      "raw_price": 0.54,
+      "outcome": "Wizards",
+      "potential_pnl": 967.8399999999999,
+      "pnl_multiplier": 0.8518518518518517,
+      "wallet_age_days": 0,
+      "total_activities": 1
+    },
+    "timestamp": "2026-03-19T07:13:22.250132",
+    "trade_hash": "0x5737b90386cf6f005ae7577ef3a04b4839088baacb12e44faef2af242fa2bd47",
+    "trade_timestamp": 1773904075,
+    "latency": null,
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "Wizards",
+      "side": "BUY",
+      "price": 0.54,
+      "effective_price": 0.54,
+      "size": 2104.0,
+      "amount": 1136.16,
+      "potential_pnl": 967.8399999999999,
+      "pnl_multiplier": 0.8518518518518517,
+      "is_no": false,
+      "slug": "nba-det-was-2026-03-19-spread-away-16pt5",
+      "eventSlug": "nba-det-was-2026-03-19"
+    },
+    "irrationality": {
+      "irrationality_score": 35,
+      "flags": [
+        "Large mispricing edge (+29.2%)"
+      ],
+      "category": "other",
+      "category_info": {
+        "strength": "medium",
+        "typical_overpricing": 0.03,
+        "min_edge": 0.05
+      },
+      "is_irrational": true
+    },
+    "mispricing": {
+      "rational_estimate": 0.248,
+      "market_price": 0.54,
+      "edge": 0.29200000000000004,
+      "edge_percent": 29.200000000000003,
+      "min_edge_required": 0.05,
+      "is_mispriced": true,
+      "edge_quality": "STRONG",
+      "base_rate_class": "common",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "common",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "Pistons perform exceptionally well",
+          "Opposing team underperforms significantly",
+          "Key players remain healthy"
+        ],
+        "weakest_link": "Opposing team underperforms significantly"
+      },
+      "category": "sports",
+      "narrative_drivers": [
+        "Pistons' recent performance trends",
+        "Injury reports of key players"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "INSIDER_ONLY",
+      "signal_emoji": "\ud83d\udc41\ufe0f",
+      "signal_strength": 70,
+      "interpretation": "Insider activity detected, no clear mispricing",
+      "action_suggestion": "Monitor: insider signal only, no statistical edge",
+      "insider_score": 70,
+      "insider_position": "WIZARDS",
+      "irrationality_score": 35,
+      "is_irrational": true,
+      "is_mispriced": true,
+      "edge": 0.29200000000000004,
+      "edge_percent": 29.200000000000003
+    },
+    "financial_analyst": {
+      "signal_quality": 51.0,
+      "stance": "WATCH_ONLY",
+      "edge_percent": 29.2,
+      "signal_strength": 70.0,
+      "insider_score": 70.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    }
+  },
+  {
+    "market": "Spread: Pistons (-16.5)",
+    "market_slug": "nba-det-was-2026-03-19-spread-away-16pt5",
+    "event_slug": "nba-det-was-2026-03-19-spread-away-16pt5",
+    "wallet": "0xda06e13ab6839980a0cd7e9d2c0db75f2870496c",
+    "analysis": {
+      "score": 70,
+      "flags": [
+        "New wallet (2d old)",
+        "Large bet ($1,079)",
+        "Low activity (4 txns)"
+      ],
+      "amount": 1078.92,
+      "odds": 0.54,
+      "raw_price": 0.54,
+      "outcome": "Wizards",
+      "potential_pnl": 919.0799999999999,
+      "pnl_multiplier": 0.8518518518518517,
+      "wallet_age_days": 2,
+      "total_activities": 4
+    },
+    "timestamp": "2026-03-19T07:13:24.894444",
+    "trade_hash": "0xbe61681690df6a3cd57b37ca5f20aad6a3a43073c6d58cea2a4a98930ebf2ef1",
+    "trade_timestamp": 1773904075,
+    "latency": null,
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "Wizards",
+      "side": "BUY",
+      "price": 0.54,
+      "effective_price": 0.54,
+      "size": 1998.0,
+      "amount": 1078.92,
+      "potential_pnl": 919.0799999999999,
+      "pnl_multiplier": 0.8518518518518517,
+      "is_no": false,
+      "slug": "nba-det-was-2026-03-19-spread-away-16pt5",
+      "eventSlug": "nba-det-was-2026-03-19"
+    },
+    "irrationality": {
+      "irrationality_score": 35,
+      "flags": [
+        "Large mispricing edge (+29.2%)"
+      ],
+      "category": "other",
+      "category_info": {
+        "strength": "medium",
+        "typical_overpricing": 0.03,
+        "min_edge": 0.05
+      },
+      "is_irrational": true
+    },
+    "mispricing": {
+      "rational_estimate": 0.248,
+      "market_price": 0.54,
+      "edge": 0.29200000000000004,
+      "edge_percent": 29.200000000000003,
+      "min_edge_required": 0.05,
+      "is_mispriced": true,
+      "edge_quality": "STRONG",
+      "base_rate_class": "common",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "common",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "Pistons perform exceptionally well",
+          "Opponent team underperforms",
+          "Key players remain healthy"
+        ],
+        "weakest_link": "Opponent team underperforms"
+      },
+      "category": "sports",
+      "narrative_drivers": [
+        "Pistons recent performance trends",
+        "Public sentiment around the team's potential"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "INSIDER_ONLY",
+      "signal_emoji": "\ud83d\udc41\ufe0f",
+      "signal_strength": 70,
+      "interpretation": "Insider activity detected, no clear mispricing",
+      "action_suggestion": "Monitor: insider signal only, no statistical edge",
+      "insider_score": 70,
+      "insider_position": "WIZARDS",
+      "irrationality_score": 35,
+      "is_irrational": true,
+      "is_mispriced": true,
+      "edge": 0.29200000000000004,
+      "edge_percent": 29.200000000000003
+    },
+    "financial_analyst": {
+      "signal_quality": 51.0,
+      "stance": "WATCH_ONLY",
+      "edge_percent": 29.2,
+      "signal_strength": 70.0,
+      "insider_score": 70.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    }
+  },
+  {
+    "market": "Spread: Pistons (-16.5)",
+    "market_slug": "nba-det-was-2026-03-19-spread-away-16pt5",
+    "event_slug": "nba-det-was-2026-03-19-spread-away-16pt5",
+    "wallet": "0xa198849c030354c7403b4956f9bd1593f323d1f1",
+    "analysis": {
+      "score": 70,
+      "flags": [
+        "New wallet (0d old)",
+        "Large bet ($1,163)",
+        "Low activity (1 txns)"
+      ],
+      "amount": 1162.6200000000001,
+      "odds": 0.54,
+      "raw_price": 0.54,
+      "outcome": "Wizards",
+      "potential_pnl": 990.3799999999999,
+      "pnl_multiplier": 0.8518518518518516,
+      "wallet_age_days": 0,
+      "total_activities": 1
+    },
+    "timestamp": "2026-03-19T07:13:30.397677",
+    "trade_hash": "0xb61d1adb48a706d9384e16c793b278aed314fe3599d190b432b3deb1cfd49272",
+    "trade_timestamp": 1773904073,
+    "latency": null,
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "Wizards",
+      "side": "BUY",
+      "price": 0.54,
+      "effective_price": 0.54,
+      "size": 2153.0,
+      "amount": 1162.6200000000001,
+      "potential_pnl": 990.3799999999999,
+      "pnl_multiplier": 0.8518518518518516,
+      "is_no": false,
+      "slug": "nba-det-was-2026-03-19-spread-away-16pt5",
+      "eventSlug": "nba-det-was-2026-03-19"
+    },
+    "irrationality": {
+      "irrationality_score": 35,
+      "flags": [
+        "Large mispricing edge (+29.2%)"
+      ],
+      "category": "other",
+      "category_info": {
+        "strength": "medium",
+        "typical_overpricing": 0.03,
+        "min_edge": 0.05
+      },
+      "is_irrational": true
+    },
+    "mispricing": {
+      "rational_estimate": 0.248,
+      "market_price": 0.54,
+      "edge": 0.29200000000000004,
+      "edge_percent": 29.200000000000003,
+      "min_edge_required": 0.05,
+      "is_mispriced": true,
+      "edge_quality": "STRONG",
+      "base_rate_class": "common",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "common",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "Pistons perform exceptionally well",
+          "Opponent performs poorly",
+          "Key players for the opponent are injured"
+        ],
+        "weakest_link": "Opponent performs poorly"
+      },
+      "category": "sports",
+      "narrative_drivers": [
+        "Pistons' recent performance",
+        "Injuries affecting opponent's lineup"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "INSIDER_ONLY",
+      "signal_emoji": "\ud83d\udc41\ufe0f",
+      "signal_strength": 70,
+      "interpretation": "Insider activity detected, no clear mispricing",
+      "action_suggestion": "Monitor: insider signal only, no statistical edge",
+      "insider_score": 70,
+      "insider_position": "WIZARDS",
+      "irrationality_score": 35,
+      "is_irrational": true,
+      "is_mispriced": true,
+      "edge": 0.29200000000000004,
+      "edge_percent": 29.200000000000003
+    },
+    "financial_analyst": {
+      "signal_quality": 51.0,
+      "stance": "WATCH_ONLY",
+      "edge_percent": 29.2,
+      "signal_strength": 70.0,
+      "insider_score": 70.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    }
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x1dc999c6b0ccd3736b84eb06c47c6b048606b91a4becd67a122dcebf902c0fb3",
+    "wallet": "0x6a72f61820b26b1fe4d956e17b6dc2a1ea3033ee",
+    "trader": {
+      "rank": 3,
+      "address": "0x6a72f61820b26b1fe4d956e17b6dc2a1ea3033ee",
+      "username": "kch123",
+      "profit": 11358581.724746734,
+      "volume": 256144838.006925,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x7d93f3c40c1f3da6c2c7ff1a8a6f81e3af0288bb",
+      "side": "BUY",
+      "asset": "101382087930113738078068588877810030862858420449201729866179463116442988178498",
+      "conditionId": "0x9079822f95376dae8797ecb6d5b2a0251bd24f102693cf667f3911d864c08f5a",
+      "size": 5692,
+      "price": 0.45,
+      "timestamp": 1773904495,
+      "title": "Cavaliers vs. Bulls: O/U 238.5",
+      "slug": "nba-cle-chi-2026-03-19-total-238pt5",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
+      "eventSlug": "nba-cle-chi-2026-03-19",
+      "outcome": "Under",
+      "outcomeIndex": 1,
+      "name": "Thunderf",
+      "pseudonym": "Useless-Fraud",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x1dc999c6b0ccd3736b84eb06c47c6b048606b91a4becd67a122dcebf902c0fb3",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Cavaliers vs. Bulls: O/U 238.5",
+    "market_slug": "nba-cle-chi-2026-03-19",
+    "amount": 2561.4
   }
 ]
