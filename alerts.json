@@ -1,46 +1,5 @@
 [
   {
-    "market": "LoL: LNG Esports vs LGD Gaming (BO3) - LPL Group Nirvana",
-    "market_slug": "lol-lng-lgd-2026-01-21",
-    "wallet": "0x2aa13994496b2c84268afff01687122de4abc691",
-    "analysis": {
-      "score": 85,
-      "flags": [
-        "New wallet (1d old)",
-        "Extreme confidence (99.9% odds)",
-        "Large bet ($3,770)"
-      ],
-      "amount": 3770.01621,
-      "odds": 0.999,
-      "wallet_age_days": 1,
-      "total_activities": 78
-    },
-    "timestamp": "2026-01-21T11:57:37.778416",
-    "trade_hash": "0x724b550a85575ed8b65c43273bec65f5821de64e8d2159585b40b919a6b6c6f2",
-    "trade_timestamp": 1768996342
-  },
-  {
-    "market": "Will Bitcoin dip to $15,000 by December 31, 2026?",
-    "market_slug": "will-bitcoin-dip-to-15000-by-december-31-2026",
-    "wallet": "0x42f46e8b9513c12d4a5f1f7ef05dc1bb573bc907",
-    "analysis": {
-      "score": 95,
-      "flags": [
-        "New wallet (0d old)",
-        "Extreme confidence (95.5% odds)",
-        "Large bet ($5,200)",
-        "Low activity (2 txns)"
-      ],
-      "amount": 5199.9941,
-      "odds": 0.955,
-      "wallet_age_days": 0,
-      "total_activities": 2
-    },
-    "timestamp": "2026-01-21T12:33:25.542451",
-    "trade_hash": "0x95d3d37b7816fc2b6a3e550257ad666ce23b2d4b264561f8b78c6e9b6f4b5710",
-    "trade_timestamp": 1768998678
-  },
-  {
     "market": "LoL: DRX vs DN Freecs (BO3) - LCK Cup Group Stage",
     "market_slug": "lol-drx-dnf-2026-01-21",
     "wallet": "0xf05ba5ce4b05e7d53b79efc22c3bd99ab0e804f1",
@@ -25537,5 +25496,215 @@
     "market": "Jets vs. Bruins",
     "market_slug": "nhl-wpg-bos-2026-03-19",
     "amount": 1618.9768000000004
+  },
+  {
+    "market": "Spread: Hornets (-4.5)",
+    "market_slug": "nba-orl-cha-2026-03-19-spread-home-4pt5",
+    "event_slug": "nba-orl-cha-2026-03-19-spread-home-4pt5",
+    "wallet": "0xfc6381442d0dd6a65075ab453d0420e98f6d1775",
+    "analysis": {
+      "score": 70,
+      "flags": [
+        "New wallet (0d old)",
+        "Large bet ($1,989)",
+        "Low activity (3 txns)"
+      ],
+      "amount": 1989.3600000000001,
+      "odds": 0.54,
+      "raw_price": 0.54,
+      "outcome": "Hornets",
+      "potential_pnl": 1694.6399999999999,
+      "pnl_multiplier": 0.8518518518518517,
+      "wallet_age_days": 0,
+      "total_activities": 3
+    },
+    "timestamp": "2026-03-19T12:30:31.324868",
+    "trade_hash": "0xcfb2ca72077a06d99b4c9d1b6ae536c603f5c840853461ee1270022678943815",
+    "trade_timestamp": 1773923019,
+    "latency": null,
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "Hornets",
+      "side": "BUY",
+      "price": 0.54,
+      "effective_price": 0.54,
+      "size": 3684.0,
+      "amount": 1989.3600000000001,
+      "potential_pnl": 1694.6399999999999,
+      "pnl_multiplier": 0.8518518518518517,
+      "is_no": false,
+      "slug": "nba-orl-cha-2026-03-19-spread-home-4pt5",
+      "eventSlug": "nba-orl-cha-2026-03-19"
+    },
+    "irrationality": {
+      "irrationality_score": 35,
+      "flags": [
+        "Large mispricing edge (+29.2%)"
+      ],
+      "category": "other",
+      "category_info": {
+        "strength": "medium",
+        "typical_overpricing": 0.03,
+        "min_edge": 0.05
+      },
+      "is_irrational": true
+    },
+    "mispricing": {
+      "rational_estimate": 0.248,
+      "market_price": 0.54,
+      "edge": 0.29200000000000004,
+      "edge_percent": 29.200000000000003,
+      "min_edge_required": 0.05,
+      "is_mispriced": true,
+      "edge_quality": "STRONG",
+      "base_rate_class": "common",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "common",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "Hornets' key players perform at peak levels",
+          "Opposing team has significant injuries",
+          "Home court advantage for the Hornets"
+        ],
+        "weakest_link": "Opposing team has significant injuries"
+      },
+      "category": "sports",
+      "narrative_drivers": [
+        "Fan sentiment towards the Hornets",
+        "Recent performance trends of both teams"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "INSIDER_ONLY",
+      "signal_emoji": "\ud83d\udc41\ufe0f",
+      "signal_strength": 70,
+      "interpretation": "Insider activity detected, no clear mispricing",
+      "action_suggestion": "Monitor: insider signal only, no statistical edge",
+      "insider_score": 70,
+      "insider_position": "HORNETS",
+      "irrationality_score": 35,
+      "is_irrational": true,
+      "is_mispriced": true,
+      "edge": 0.29200000000000004,
+      "edge_percent": 29.200000000000003
+    },
+    "financial_analyst": {
+      "signal_quality": 51.0,
+      "stance": "WATCH_ONLY",
+      "edge_percent": 29.2,
+      "signal_strength": 70.0,
+      "insider_score": 70.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    }
+  },
+  {
+    "market": "Spread: Heat (-2.5)",
+    "market_slug": "nba-lal-mia-2026-03-19-spread-home-2pt5",
+    "event_slug": "nba-lal-mia-2026-03-19-spread-home-2pt5",
+    "wallet": "0xcdeeaad589985a4afd562f1c78091120ca47c456",
+    "analysis": {
+      "score": 70,
+      "flags": [
+        "New wallet (0d old)",
+        "Large bet ($1,191)",
+        "Low activity (1 txns)"
+      ],
+      "amount": 1191.3600000000001,
+      "odds": 0.51,
+      "raw_price": 0.51,
+      "outcome": "Heat",
+      "potential_pnl": 1144.6399999999999,
+      "pnl_multiplier": 0.96078431372549,
+      "wallet_age_days": 0,
+      "total_activities": 1
+    },
+    "timestamp": "2026-03-19T12:30:43.165772",
+    "trade_hash": "0xbdb8e14648d9cbb1baade1fe57564063689f39c3e54781e3bfcdaffde76793c1",
+    "trade_timestamp": 1773923101,
+    "latency": null,
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "Heat",
+      "side": "BUY",
+      "price": 0.51,
+      "effective_price": 0.51,
+      "size": 2336.0,
+      "amount": 1191.3600000000001,
+      "potential_pnl": 1144.6399999999999,
+      "pnl_multiplier": 0.96078431372549,
+      "is_no": false,
+      "slug": "nba-lal-mia-2026-03-19-spread-home-2pt5",
+      "eventSlug": "nba-lal-mia-2026-03-19"
+    },
+    "irrationality": {
+      "irrationality_score": 35,
+      "flags": [
+        "Large mispricing edge (+26.8%)"
+      ],
+      "category": "other",
+      "category_info": {
+        "strength": "medium",
+        "typical_overpricing": 0.03,
+        "min_edge": 0.05
+      },
+      "is_irrational": true
+    },
+    "mispricing": {
+      "rational_estimate": 0.242,
+      "market_price": 0.51,
+      "edge": 0.268,
+      "edge_percent": 26.8,
+      "min_edge_required": 0.05,
+      "is_mispriced": true,
+      "edge_quality": "STRONG",
+      "base_rate_class": "common",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "common",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "team performance consistency",
+          "injury status of key players",
+          "coaching strategies"
+        ],
+        "weakest_link": "injury status of key players"
+      },
+      "category": "sports",
+      "narrative_drivers": [
+        "team's recent performance trends",
+        "public sentiment towards the team"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "INSIDER_ONLY",
+      "signal_emoji": "\ud83d\udc41\ufe0f",
+      "signal_strength": 70,
+      "interpretation": "Insider activity detected, no clear mispricing",
+      "action_suggestion": "Monitor: insider signal only, no statistical edge",
+      "insider_score": 70,
+      "insider_position": "HEAT",
+      "irrationality_score": 35,
+      "is_irrational": true,
+      "is_mispriced": true,
+      "edge": 0.268,
+      "edge_percent": 26.8
+    },
+    "financial_analyst": {
+      "signal_quality": 51.0,
+      "stance": "WATCH_ONLY",
+      "edge_percent": 26.8,
+      "signal_strength": 70.0,
+      "insider_score": 70.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    }
   }
 ]
