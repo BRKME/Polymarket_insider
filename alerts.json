@@ -1,43 +1,5 @@
 [
   {
-    "market": "Will Bitcoin reach $150,000 in January?",
-    "market_slug": "will-bitcoin-reach-150k-in-january-2026",
-    "wallet": "0xe6b7733ccd4fc227ae6afd84e47849abdedd7864",
-    "analysis": {
-      "score": 85,
-      "flags": [
-        "New wallet (2d old)",
-        "Extreme confidence (99.8% odds)",
-        "Large bet ($3,414)"
-      ],
-      "amount": 3413.999817,
-      "odds": 0.998,
-      "wallet_age_days": 2,
-      "total_activities": 39
-    },
-    "timestamp": "2026-01-21T23:49:09.557819",
-    "trade_hash": "0x24de71629fadb03e693daa333b9b02218db2e77d0fc132035cc3901bc1987038",
-    "trade_timestamp": 1769039036,
-    "trade_data": {
-      "asset": "54504735237306435364688890375581221790556858637843718945838566750916495284821",
-      "assetId": null,
-      "tokenId": null,
-      "side": "BUY",
-      "outcome": "No",
-      "market": null,
-      "type": null,
-      "status": null,
-      "maker": null,
-      "taker": null,
-      "makerAddress": null,
-      "takerAddress": null,
-      "feeRateBps": null,
-      "price": 0.998,
-      "size": 3420.8415,
-      "amount": 3413.999817
-    }
-  },
-  {
     "market": "Cavaliers vs. Hornets",
     "market_slug": "nba-cle-cha-2026-01-21",
     "wallet": "0x768f4c085c377216ec444d5a29989f1a92d28a9b",
@@ -26008,5 +25970,49 @@
     "market": "Cavaliers vs. Bulls",
     "market_slug": "nba-cle-chi-2026-03-19",
     "amount": 11392.4
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x87e46cce594aa8588d9c74937c709d27077fbd812bf489a7551c323ca884e8ff",
+    "wallet": "0xdb27bf2ac5d428a9c63dbc914611036855a6c56e",
+    "trader": {
+      "rank": 18,
+      "address": "0xdb27bf2ac5d428a9c63dbc914611036855a6c56e",
+      "username": "DrPufferfish",
+      "profit": 4477916.082784015,
+      "volume": 217871175.342916,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x03381244cf3b8d277aff3cbb6f4fd21a631904b7",
+      "side": "SELL",
+      "asset": "77739027788999909521244198087653826925663878907920170534312635645253556364467",
+      "conditionId": "0x532cabed36cad1b584ff8c7a2d135c38429932498f3736c52c6b27eacfb81cb2",
+      "size": 2600,
+      "price": 0.93,
+      "timestamp": 1773965421,
+      "title": "Magic vs. Hornets",
+      "slug": "nba-orl-cha-2026-03-19",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
+      "eventSlug": "nba-orl-cha-2026-03-19",
+      "outcome": "Hornets",
+      "outcomeIndex": 1,
+      "name": "LoserArcMaxing",
+      "pseudonym": "Agile-Ravioli",
+      "bio": "",
+      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-6284149-dd948d36-0b81-4dec-b86a-a6c645d4c98e.webp",
+      "profileImageOptimized": "",
+      "transactionHash": "0x87e46cce594aa8588d9c74937c709d27077fbd812bf489a7551c323ca884e8ff",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Magic vs. Hornets",
+    "market_slug": "nba-orl-cha-2026-03-19",
+    "amount": 2418.0
   }
 ]
