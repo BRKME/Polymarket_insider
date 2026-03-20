@@ -1,121 +1,5 @@
 [
   {
-    "market": "Will Bitcoin reach $150,000 in January?",
-    "market_slug": "will-bitcoin-reach-150k-in-january-2026",
-    "wallet": "0x5227a8a3f78a5e5c5563266052b4100f712bd47e",
-    "analysis": {
-      "score": 85,
-      "flags": [
-        "New wallet (1d old)",
-        "Extreme confidence (99.7% odds)",
-        "Large bet ($1,017)"
-      ],
-      "amount": 1016.97988,
-      "odds": 0.997,
-      "wallet_age_days": 1,
-      "total_activities": 100
-    },
-    "timestamp": "2026-01-22T06:55:07.564793",
-    "trade_hash": "0x3e68a858004afc6e489542fefcd26071169e42fe02f5d1e4a5a9b4c5b009c911",
-    "trade_timestamp": 1769064714,
-    "trade_data": {
-      "asset": "54504735237306435364688890375581221790556858637843718945838566750916495284821",
-      "assetId": null,
-      "tokenId": null,
-      "side": "SELL",
-      "outcome": "No",
-      "market": null,
-      "type": null,
-      "status": null,
-      "maker": null,
-      "taker": null,
-      "makerAddress": null,
-      "takerAddress": null,
-      "feeRateBps": null,
-      "price": 0.997,
-      "size": 1020.04,
-      "amount": 1016.97988
-    }
-  },
-  {
-    "market": "Will Brentford win the 2025\u201326 English Premier League?",
-    "market_slug": "will-brentford-win-the-202526-english-premier-league",
-    "wallet": "0x54fcc6d6aea0f2fefbc261e82915ab7fd6168bd3",
-    "analysis": {
-      "score": 95,
-      "flags": [
-        "New wallet (2d old)",
-        "Extreme confidence (99.9% odds)",
-        "Large bet ($1,039)",
-        "Low activity (3 txns)"
-      ],
-      "amount": 1038.81015,
-      "odds": 0.999,
-      "wallet_age_days": 2,
-      "total_activities": 3
-    },
-    "timestamp": "2026-01-22T06:55:11.647538",
-    "trade_hash": "0xa5df02d084a161fcf84fe4610e29ba95a10eca54494cb5a858b385125fc38c3a",
-    "trade_timestamp": 1769064680,
-    "trade_data": {
-      "asset": "114444125124122303566399993657146184596008541183155111894675512718735990103370",
-      "assetId": null,
-      "tokenId": null,
-      "side": "BUY",
-      "outcome": "No",
-      "market": null,
-      "type": null,
-      "status": null,
-      "maker": null,
-      "taker": null,
-      "makerAddress": null,
-      "takerAddress": null,
-      "feeRateBps": null,
-      "price": 0.999,
-      "size": 1039.85,
-      "amount": 1038.81015
-    }
-  },
-  {
-    "market": "Will Brentford win the 2025\u201326 English Premier League?",
-    "market_slug": "will-brentford-win-the-202526-english-premier-league",
-    "wallet": "0xd1c204302ee29a9b4db307cbd107d80df20a616b",
-    "analysis": {
-      "score": 95,
-      "flags": [
-        "New wallet (0d old)",
-        "Extreme confidence (99.9% odds)",
-        "Large bet ($1,002)",
-        "Low activity (3 txns)"
-      ],
-      "amount": 1001.7972,
-      "odds": 0.999,
-      "wallet_age_days": 0,
-      "total_activities": 3
-    },
-    "timestamp": "2026-01-22T06:55:13.178856",
-    "trade_hash": "0x17b9e1a189759cb09eba65394e0d518e94e20257f8e5b36048a9d5b3f3e38511",
-    "trade_timestamp": 1769064672,
-    "trade_data": {
-      "asset": "114444125124122303566399993657146184596008541183155111894675512718735990103370",
-      "assetId": null,
-      "tokenId": null,
-      "side": "BUY",
-      "outcome": "No",
-      "market": null,
-      "type": null,
-      "status": null,
-      "maker": null,
-      "taker": null,
-      "makerAddress": null,
-      "takerAddress": null,
-      "feeRateBps": null,
-      "price": 0.999,
-      "size": 1002.8,
-      "amount": 1001.7972
-    }
-  },
-  {
     "market": "Will Brentford win the 2025\u201326 English Premier League?",
     "market_slug": "will-brentford-win-the-202526-english-premier-league",
     "wallet": "0x5d948fd6d6b10f873db0b8924c507ccb8510864f",
@@ -26232,5 +26116,320 @@
     "market": "Iowa Hawkeyes vs. Clemson Tigers",
     "market_slug": "cbb-iowa-clmsn-2026-03-20",
     "amount": 5300.0
+  },
+  {
+    "market": "Spread: Pistons (-5.5)",
+    "market_slug": "nba-gsw-det-2026-03-20-spread-home-5pt5",
+    "event_slug": "nba-gsw-det-2026-03-20-spread-home-5pt5",
+    "wallet": "0xa1f6a9f132fb6a19b2e7db58b14493de113e2a73",
+    "analysis": {
+      "score": 70,
+      "flags": [
+        "New wallet (0d old)",
+        "Large bet ($1,098)",
+        "Low activity (2 txns)"
+      ],
+      "amount": 1098.09,
+      "odds": 0.49,
+      "raw_price": 0.49,
+      "outcome": "Pistons",
+      "potential_pnl": 1142.91,
+      "pnl_multiplier": 1.0408163265306123,
+      "wallet_age_days": 0,
+      "total_activities": 2
+    },
+    "timestamp": "2026-03-20T13:45:20.550626",
+    "trade_hash": "0x04eb6aa5bdd58b9e690fff8cfaec48522e6aedba31cc2ec27e3a68c8cd985554",
+    "trade_timestamp": 1774013797,
+    "latency": null,
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "Pistons",
+      "side": "BUY",
+      "price": 0.49,
+      "effective_price": 0.49,
+      "size": 2241.0,
+      "amount": 1098.09,
+      "potential_pnl": 1142.91,
+      "pnl_multiplier": 1.0408163265306123,
+      "is_no": false,
+      "slug": "nba-gsw-det-2026-03-20-spread-home-5pt5",
+      "eventSlug": "nba-gsw-det-2026-03-20"
+    },
+    "irrationality": {
+      "irrationality_score": 35,
+      "flags": [
+        "Large mispricing edge (+25.2%)"
+      ],
+      "category": "other",
+      "category_info": {
+        "strength": "medium",
+        "typical_overpricing": 0.03,
+        "min_edge": 0.05
+      },
+      "is_irrational": true
+    },
+    "mispricing": {
+      "rational_estimate": 0.238,
+      "market_price": 0.49,
+      "edge": 0.252,
+      "edge_percent": 25.2,
+      "min_edge_required": 0.05,
+      "is_mispriced": true,
+      "edge_quality": "STRONG",
+      "base_rate_class": "common",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "common",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "Pistons perform well offensively",
+          "Pistons maintain defensive consistency",
+          "Opponent's key players underperform"
+        ],
+        "weakest_link": "Opponent's key players underperform"
+      },
+      "category": "sports",
+      "narrative_drivers": [
+        "Pistons' recent performance trends",
+        "Injury reports affecting opponent's lineup"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "INSIDER_ONLY",
+      "signal_emoji": "\ud83d\udc41\ufe0f",
+      "signal_strength": 70,
+      "interpretation": "Insider activity detected, no clear mispricing",
+      "action_suggestion": "Monitor: insider signal only, no statistical edge",
+      "insider_score": 70,
+      "insider_position": "PISTONS",
+      "irrationality_score": 35,
+      "is_irrational": true,
+      "is_mispriced": true,
+      "edge": 0.252,
+      "edge_percent": 25.2
+    },
+    "financial_analyst": {
+      "signal_quality": 51.0,
+      "stance": "WATCH_ONLY",
+      "edge_percent": 25.2,
+      "signal_strength": 70.0,
+      "insider_score": 70.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    }
+  },
+  {
+    "market": "Spread: Pistons (-5.5)",
+    "market_slug": "nba-gsw-det-2026-03-20-spread-home-5pt5",
+    "event_slug": "nba-gsw-det-2026-03-20-spread-home-5pt5",
+    "wallet": "0x3c772d12305e02373a0468566e5fccb9c5f540ea",
+    "analysis": {
+      "score": 70,
+      "flags": [
+        "New wallet (0d old)",
+        "Large bet ($1,094)",
+        "Low activity (2 txns)"
+      ],
+      "amount": 1094.17,
+      "odds": 0.49,
+      "raw_price": 0.49,
+      "outcome": "Pistons",
+      "potential_pnl": 1138.83,
+      "pnl_multiplier": 1.040816326530612,
+      "wallet_age_days": 0,
+      "total_activities": 2
+    },
+    "timestamp": "2026-03-20T13:45:24.505039",
+    "trade_hash": "0x9ae00bf1f384158985eaffb3cca8ef75cebf9cf1df04ce296b262fc80403d08d",
+    "trade_timestamp": 1774013797,
+    "latency": null,
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "Pistons",
+      "side": "BUY",
+      "price": 0.49,
+      "effective_price": 0.49,
+      "size": 2233.0,
+      "amount": 1094.17,
+      "potential_pnl": 1138.83,
+      "pnl_multiplier": 1.040816326530612,
+      "is_no": false,
+      "slug": "nba-gsw-det-2026-03-20-spread-home-5pt5",
+      "eventSlug": "nba-gsw-det-2026-03-20"
+    },
+    "irrationality": {
+      "irrationality_score": 35,
+      "flags": [
+        "Large mispricing edge (+25.2%)"
+      ],
+      "category": "other",
+      "category_info": {
+        "strength": "medium",
+        "typical_overpricing": 0.03,
+        "min_edge": 0.05
+      },
+      "is_irrational": true
+    },
+    "mispricing": {
+      "rational_estimate": 0.238,
+      "market_price": 0.49,
+      "edge": 0.252,
+      "edge_percent": 25.2,
+      "min_edge_required": 0.05,
+      "is_mispriced": true,
+      "edge_quality": "STRONG",
+      "base_rate_class": "common",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "common",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "Pistons' key players perform at or above expectations",
+          "Opposing team struggles with defense",
+          "Home court advantage favors Pistons"
+        ],
+        "weakest_link": "Opposing team struggles with defense"
+      },
+      "category": "sports",
+      "narrative_drivers": [
+        "Pistons' recent performance trends",
+        "Injury reports affecting opposing team"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "INSIDER_ONLY",
+      "signal_emoji": "\ud83d\udc41\ufe0f",
+      "signal_strength": 70,
+      "interpretation": "Insider activity detected, no clear mispricing",
+      "action_suggestion": "Monitor: insider signal only, no statistical edge",
+      "insider_score": 70,
+      "insider_position": "PISTONS",
+      "irrationality_score": 35,
+      "is_irrational": true,
+      "is_mispriced": true,
+      "edge": 0.252,
+      "edge_percent": 25.2
+    },
+    "financial_analyst": {
+      "signal_quality": 51.0,
+      "stance": "WATCH_ONLY",
+      "edge_percent": 25.2,
+      "signal_strength": 70.0,
+      "insider_score": 70.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    }
+  },
+  {
+    "market": "Spread: Pistons (-5.5)",
+    "market_slug": "nba-gsw-det-2026-03-20-spread-home-5pt5",
+    "event_slug": "nba-gsw-det-2026-03-20-spread-home-5pt5",
+    "wallet": "0xd83e967c9116da6b8e937971fa92a4038c4fb871",
+    "analysis": {
+      "score": 70,
+      "flags": [
+        "New wallet (0d old)",
+        "Large bet ($1,187)",
+        "Low activity (4 txns)"
+      ],
+      "amount": 1187.27,
+      "odds": 0.49,
+      "raw_price": 0.49,
+      "outcome": "Pistons",
+      "potential_pnl": 1235.73,
+      "pnl_multiplier": 1.0408163265306123,
+      "wallet_age_days": 0,
+      "total_activities": 4
+    },
+    "timestamp": "2026-03-20T13:45:29.154850",
+    "trade_hash": "0xb2b582e69cf14eb37dc04d3f4b3869f74ec3c93751518193122cd5b7d1770f78",
+    "trade_timestamp": 1774013797,
+    "latency": null,
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "Pistons",
+      "side": "BUY",
+      "price": 0.49,
+      "effective_price": 0.49,
+      "size": 2423.0,
+      "amount": 1187.27,
+      "potential_pnl": 1235.73,
+      "pnl_multiplier": 1.0408163265306123,
+      "is_no": false,
+      "slug": "nba-gsw-det-2026-03-20-spread-home-5pt5",
+      "eventSlug": "nba-gsw-det-2026-03-20"
+    },
+    "irrationality": {
+      "irrationality_score": 35,
+      "flags": [
+        "Large mispricing edge (+25.2%)"
+      ],
+      "category": "other",
+      "category_info": {
+        "strength": "medium",
+        "typical_overpricing": 0.03,
+        "min_edge": 0.05
+      },
+      "is_irrational": true
+    },
+    "mispricing": {
+      "rational_estimate": 0.238,
+      "market_price": 0.49,
+      "edge": 0.252,
+      "edge_percent": 25.2,
+      "min_edge_required": 0.05,
+      "is_mispriced": true,
+      "edge_quality": "STRONG",
+      "base_rate_class": "common",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "common",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "Pistons maintain strong home court advantage",
+          "Key players remain healthy",
+          "Opposing team underperforms"
+        ],
+        "weakest_link": "Opposing team underperforms"
+      },
+      "category": "sports",
+      "narrative_drivers": [
+        "Pistons' recent performance trends",
+        "Injury reports affecting key players"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "INSIDER_ONLY",
+      "signal_emoji": "\ud83d\udc41\ufe0f",
+      "signal_strength": 70,
+      "interpretation": "Insider activity detected, no clear mispricing",
+      "action_suggestion": "Monitor: insider signal only, no statistical edge",
+      "insider_score": 70,
+      "insider_position": "PISTONS",
+      "irrationality_score": 35,
+      "is_irrational": true,
+      "is_mispriced": true,
+      "edge": 0.252,
+      "edge_percent": 25.2
+    },
+    "financial_analyst": {
+      "signal_quality": 51.0,
+      "stance": "WATCH_ONLY",
+      "edge_percent": 25.2,
+      "signal_strength": 70.0,
+      "insider_score": 70.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    }
   }
 ]
