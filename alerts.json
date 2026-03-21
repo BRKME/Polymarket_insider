@@ -1,43 +1,5 @@
 [
   {
-    "market": "Will Leeds win the 2025\u201326 English Premier League?",
-    "market_slug": "will-leeds-win-the-202526-english-premier-league",
-    "wallet": "0x402aaacba3bcce50d1e9985df11d02f52f964be0",
-    "analysis": {
-      "score": 85,
-      "flags": [
-        "New wallet (0d old)",
-        "Extreme confidence (99.8% odds)",
-        "Large bet ($3,546)"
-      ],
-      "amount": 3546.4429,
-      "odds": 0.998,
-      "wallet_age_days": 0,
-      "total_activities": 35
-    },
-    "timestamp": "2026-01-22T08:51:16.532310",
-    "trade_hash": "0x82d84e4ad44ff11987e11af8cf126769395c3998c032029edbd4830302bd8167",
-    "trade_timestamp": 1769071662,
-    "trade_data": {
-      "asset": "79742853692640441630014447218057231927327132180925275737649345065452061252209",
-      "assetId": null,
-      "tokenId": null,
-      "side": "SELL",
-      "outcome": "No",
-      "market": null,
-      "type": null,
-      "status": null,
-      "maker": null,
-      "taker": null,
-      "makerAddress": null,
-      "takerAddress": null,
-      "feeRateBps": null,
-      "price": 0.998,
-      "size": 3553.55,
-      "amount": 3546.4429
-    }
-  },
-  {
     "market": "Will the next Dutch government be VVD + CDA?",
     "market_slug": "will-the-next-dutch-government-be-vvd-cda",
     "wallet": "0xadc5e798f6b63165555afd5988184350b41db728",
@@ -26533,5 +26495,49 @@
     "market": "Spread: Connecticut Huskies (-20.5)",
     "market_slug": "cbb-furman-uconn-2026-03-20",
     "amount": 2189.2000000000003
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x354a3cd9f5aa73868546a517b195699457a8a65d345513a092650821c6777530",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.515682004,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xead02f1568144be782d762e2b6a719302830f3ba",
+      "side": "SELL",
+      "asset": "113585316433123442536791100600311303712932916773596400542759753818685391890060",
+      "conditionId": "0xe7b777864caee67c1a016ca4b6e2ba6c5defda54948c8a51c38c279ace34c519",
+      "size": 9999.98,
+      "price": 0.55,
+      "timestamp": 1774057557,
+      "title": "Ducks vs. Utah",
+      "slug": "nhl-ana-utah-2026-03-20",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nhl.png",
+      "eventSlug": "nhl-ana-utah-2026-03-20",
+      "outcome": "Utah",
+      "outcomeIndex": 1,
+      "name": "",
+      "pseudonym": "",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x354a3cd9f5aa73868546a517b195699457a8a65d345513a092650821c6777530",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Ducks vs. Utah",
+    "market_slug": "nhl-ana-utah-2026-03-20",
+    "amount": 5499.9890000000005
   }
 ]
