@@ -1,119 +1,5 @@
 [
   {
-    "market": "Will Uzbekistan win the 2026 FIFA World Cup?",
-    "market_slug": "will-uzbekistan-win-the-2026-fifa-world-cup-773",
-    "wallet": "0x3a269fd1bdeac9c623632388f66e83fc0840852f",
-    "analysis": {
-      "score": 85,
-      "flags": [
-        "New wallet (0d old)",
-        "Extreme confidence (99.7% odds)",
-        "Large bet ($5,007)"
-      ],
-      "amount": 5006.864210000001,
-      "odds": 0.997,
-      "wallet_age_days": 0,
-      "total_activities": 64
-    },
-    "timestamp": "2026-01-22T10:56:19.915707",
-    "trade_hash": "0x336dba6dc00468604c9569344070fc24b0f31c7975cde4e8088fe0614219c2a7",
-    "trade_timestamp": 1769079164,
-    "trade_data": {
-      "asset": "105754735859803813986361714630753276237891536292440584153365249756008425623608",
-      "assetId": null,
-      "tokenId": null,
-      "side": "SELL",
-      "outcome": "No",
-      "market": null,
-      "type": null,
-      "status": null,
-      "maker": null,
-      "taker": null,
-      "makerAddress": null,
-      "takerAddress": null,
-      "feeRateBps": null,
-      "price": 0.997,
-      "size": 5021.93,
-      "amount": 5006.864210000001
-    }
-  },
-  {
-    "market": "Will Bitcoin reach $150,000 in January?",
-    "market_slug": "will-bitcoin-reach-150k-in-january-2026",
-    "wallet": "0xc365a74944e2372bfc3696b038e30be985c0f6b7",
-    "analysis": {
-      "score": 85,
-      "flags": [
-        "New wallet (0d old)",
-        "Extreme confidence (99.8% odds)",
-        "Large bet ($3,660)"
-      ],
-      "amount": 3659.999998,
-      "odds": 0.997999999818942,
-      "wallet_age_days": 0,
-      "total_activities": 35
-    },
-    "timestamp": "2026-01-22T11:36:45.628282",
-    "trade_hash": "0x7c775e7db2be4eaabfcbd05adcb704b7f4852e8de68c6e1252ce71a7501590fc",
-    "trade_timestamp": 1769081602,
-    "trade_data": {
-      "asset": "54504735237306435364688890375581221790556858637843718945838566750916495284821",
-      "assetId": null,
-      "tokenId": null,
-      "side": "BUY",
-      "outcome": "No",
-      "market": null,
-      "type": null,
-      "status": null,
-      "maker": null,
-      "taker": null,
-      "makerAddress": null,
-      "takerAddress": null,
-      "feeRateBps": null,
-      "price": 0.997999999818942,
-      "size": 3667.334668,
-      "amount": 3659.999998
-    }
-  },
-  {
-    "market": "Will Ethereum reach $6,000 in January?",
-    "market_slug": "will-ethereum-reach-6000-in-january-2026",
-    "wallet": "0x6196b913e1316da77d084b93c7123163b23720cd",
-    "analysis": {
-      "score": 85,
-      "flags": [
-        "New wallet (0d old)",
-        "Extreme confidence (99.9% odds)",
-        "Large bet ($2,996)"
-      ],
-      "amount": 2996.4595409999997,
-      "odds": 0.999,
-      "wallet_age_days": 0,
-      "total_activities": 22
-    },
-    "timestamp": "2026-01-22T11:36:50.473411",
-    "trade_hash": "0xa5ec681b29b40552b6de071d85832f51ebcd9032dc5e4c0759a92de2a1a905ef",
-    "trade_timestamp": 1769081630,
-    "trade_data": {
-      "asset": "85314966135663911945383444595070372155331802770649765628594996080163644717023",
-      "assetId": null,
-      "tokenId": null,
-      "side": "BUY",
-      "outcome": "No",
-      "market": null,
-      "type": null,
-      "status": null,
-      "maker": null,
-      "taker": null,
-      "makerAddress": null,
-      "takerAddress": null,
-      "feeRateBps": null,
-      "price": 0.999,
-      "size": 2999.459,
-      "amount": 2996.4595409999997
-    }
-  },
-  {
     "market": "Will Bitcoin reach $115,000 in January?",
     "market_slug": "will-bitcoin-reach-115k-in-january-2026",
     "wallet": "0x17a3fad677296fdd93549ada074dc3fc6f372384",
@@ -26617,5 +26503,320 @@
     "market": "Will annual inflation increase by \u22652.8% in March?",
     "market_slug": "march-inflation-us-annual",
     "amount": 2542.775
+  },
+  {
+    "market": "Thunder vs. Wizards: O/U 228.5",
+    "market_slug": "nba-okc-was-2026-03-21-total-228pt5",
+    "event_slug": "nba-okc-was-2026-03-21-total-228pt5",
+    "wallet": "0xfd79d8441675ab2d2eb98035bba6dc54551a0f28",
+    "analysis": {
+      "score": 70,
+      "flags": [
+        "New wallet (0d old)",
+        "Large bet ($1,262)",
+        "Low activity (3 txns)"
+      ],
+      "amount": 1261.7,
+      "odds": 0.55,
+      "raw_price": 0.55,
+      "outcome": "Over",
+      "potential_pnl": 1032.3,
+      "pnl_multiplier": 0.8181818181818181,
+      "wallet_age_days": 0,
+      "total_activities": 3
+    },
+    "timestamp": "2026-03-21T11:50:04.368371",
+    "trade_hash": "0x889e18795a1be79341fc50b26d786a936cb19bd3a79b60ac2a370872b588669f",
+    "trade_timestamp": 1774093553,
+    "latency": null,
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "Over",
+      "side": "BUY",
+      "price": 0.55,
+      "effective_price": 0.55,
+      "size": 2294.0,
+      "amount": 1261.7,
+      "potential_pnl": 1032.3,
+      "pnl_multiplier": 0.8181818181818181,
+      "is_no": false,
+      "slug": "nba-okc-was-2026-03-21-total-228pt5",
+      "eventSlug": "nba-okc-was-2026-03-21"
+    },
+    "irrationality": {
+      "irrationality_score": 35,
+      "flags": [
+        "Large mispricing edge (+30.0%)"
+      ],
+      "category": "sports",
+      "category_info": {
+        "strength": "medium",
+        "typical_overpricing": 0.03,
+        "min_edge": 0.05
+      },
+      "is_irrational": true
+    },
+    "mispricing": {
+      "rational_estimate": 0.25,
+      "market_price": 0.55,
+      "edge": 0.30000000000000004,
+      "edge_percent": 30.000000000000004,
+      "min_edge_required": 0.05,
+      "is_mispriced": true,
+      "edge_quality": "STRONG",
+      "base_rate_class": "common",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "common",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "Both teams score efficiently",
+          "Defensive lapses from both sides",
+          "Favorable officiating leading to free throws"
+        ],
+        "weakest_link": "Defensive lapses from both sides"
+      },
+      "category": "sports",
+      "narrative_drivers": [
+        "Recent offensive performances of both teams",
+        "Injury status of key players affecting scoring"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "INSIDER_ONLY",
+      "signal_emoji": "\ud83d\udc41\ufe0f",
+      "signal_strength": 70,
+      "interpretation": "Insider activity detected, no clear mispricing",
+      "action_suggestion": "Monitor: insider signal only, no statistical edge",
+      "insider_score": 70,
+      "insider_position": "OVER",
+      "irrationality_score": 35,
+      "is_irrational": true,
+      "is_mispriced": true,
+      "edge": 0.30000000000000004,
+      "edge_percent": 30.000000000000004
+    },
+    "financial_analyst": {
+      "signal_quality": 51.0,
+      "stance": "WATCH_ONLY",
+      "edge_percent": 30.0,
+      "signal_strength": 70.0,
+      "insider_score": 70.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    }
+  },
+  {
+    "market": "Thunder vs. Wizards: O/U 228.5",
+    "market_slug": "nba-okc-was-2026-03-21-total-228pt5",
+    "event_slug": "nba-okc-was-2026-03-21-total-228pt5",
+    "wallet": "0xc08543fdee8bbf07cb54b519fcf1fbb8c1ba2dbc",
+    "analysis": {
+      "score": 70,
+      "flags": [
+        "New wallet (0d old)",
+        "Large bet ($1,124)",
+        "Low activity (2 txns)"
+      ],
+      "amount": 1124.2,
+      "odds": 0.55,
+      "raw_price": 0.55,
+      "outcome": "Over",
+      "potential_pnl": 919.8,
+      "pnl_multiplier": 0.8181818181818181,
+      "wallet_age_days": 0,
+      "total_activities": 2
+    },
+    "timestamp": "2026-03-21T11:50:20.366005",
+    "trade_hash": "0xa17d49c7085bb80e5998b9d70c8847d5a0370449a216e19355fc4294cff444c9",
+    "trade_timestamp": 1774093529,
+    "latency": null,
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "Over",
+      "side": "BUY",
+      "price": 0.55,
+      "effective_price": 0.55,
+      "size": 2044.0,
+      "amount": 1124.2,
+      "potential_pnl": 919.8,
+      "pnl_multiplier": 0.8181818181818181,
+      "is_no": false,
+      "slug": "nba-okc-was-2026-03-21-total-228pt5",
+      "eventSlug": "nba-okc-was-2026-03-21"
+    },
+    "irrationality": {
+      "irrationality_score": 35,
+      "flags": [
+        "Large mispricing edge (+30.0%)"
+      ],
+      "category": "sports",
+      "category_info": {
+        "strength": "medium",
+        "typical_overpricing": 0.03,
+        "min_edge": 0.05
+      },
+      "is_irrational": true
+    },
+    "mispricing": {
+      "rational_estimate": 0.25,
+      "market_price": 0.55,
+      "edge": 0.30000000000000004,
+      "edge_percent": 30.000000000000004,
+      "min_edge_required": 0.05,
+      "is_mispriced": true,
+      "edge_quality": "STRONG",
+      "base_rate_class": "common",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "common",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "Both teams score efficiently",
+          "Game pace is high",
+          "Defensive performance is below average"
+        ],
+        "weakest_link": "Defensive performance is below average"
+      },
+      "category": "sports",
+      "narrative_drivers": [
+        "Recent offensive trends of both teams",
+        "Injury reports affecting key players"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "INSIDER_ONLY",
+      "signal_emoji": "\ud83d\udc41\ufe0f",
+      "signal_strength": 70,
+      "interpretation": "Insider activity detected, no clear mispricing",
+      "action_suggestion": "Monitor: insider signal only, no statistical edge",
+      "insider_score": 70,
+      "insider_position": "OVER",
+      "irrationality_score": 35,
+      "is_irrational": true,
+      "is_mispriced": true,
+      "edge": 0.30000000000000004,
+      "edge_percent": 30.000000000000004
+    },
+    "financial_analyst": {
+      "signal_quality": 51.0,
+      "stance": "WATCH_ONLY",
+      "edge_percent": 30.0,
+      "signal_strength": 70.0,
+      "insider_score": 70.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    }
+  },
+  {
+    "market": "Thunder vs. Wizards: O/U 228.5",
+    "market_slug": "nba-okc-was-2026-03-21-total-228pt5",
+    "event_slug": "nba-okc-was-2026-03-21-total-228pt5",
+    "wallet": "0x8df6f5439cbbb1a658228c38c0758b5f28b31285",
+    "analysis": {
+      "score": 70,
+      "flags": [
+        "New wallet (0d old)",
+        "Large bet ($1,041)",
+        "Low activity (2 txns)"
+      ],
+      "amount": 1040.8500000000001,
+      "odds": 0.45,
+      "raw_price": 0.45,
+      "outcome": "Under",
+      "potential_pnl": 1272.1500000000003,
+      "pnl_multiplier": 1.2222222222222223,
+      "wallet_age_days": 0,
+      "total_activities": 2
+    },
+    "timestamp": "2026-03-21T11:50:23.483847",
+    "trade_hash": "0xb89f568f0f3d0e5fbcd4f2f653d11d35141f575c2e1bac3897601777798b4292",
+    "trade_timestamp": 1774093529,
+    "latency": null,
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "Under",
+      "side": "BUY",
+      "price": 0.45,
+      "effective_price": 0.45,
+      "size": 2313.0,
+      "amount": 1040.8500000000001,
+      "potential_pnl": 1272.1500000000003,
+      "pnl_multiplier": 1.2222222222222223,
+      "is_no": false,
+      "slug": "nba-okc-was-2026-03-21-total-228pt5",
+      "eventSlug": "nba-okc-was-2026-03-21"
+    },
+    "irrationality": {
+      "irrationality_score": 35,
+      "flags": [
+        "Large mispricing edge (+22.0%)"
+      ],
+      "category": "sports",
+      "category_info": {
+        "strength": "medium",
+        "typical_overpricing": 0.03,
+        "min_edge": 0.05
+      },
+      "is_irrational": true
+    },
+    "mispricing": {
+      "rational_estimate": 0.22999999999999998,
+      "market_price": 0.45,
+      "edge": 0.22000000000000003,
+      "edge_percent": 22.000000000000004,
+      "min_edge_required": 0.05,
+      "is_mispriced": true,
+      "edge_quality": "STRONG",
+      "base_rate_class": "common",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "common",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "Both teams have high-scoring offenses",
+          "Defensive strategies are ineffective",
+          "Game pace is fast"
+        ],
+        "weakest_link": "Defensive strategies are ineffective"
+      },
+      "category": "sports",
+      "narrative_drivers": [
+        "Recent high-scoring games by both teams",
+        "Injury reports affecting key defensive players"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "INSIDER_ONLY",
+      "signal_emoji": "\ud83d\udc41\ufe0f",
+      "signal_strength": 70,
+      "interpretation": "Insider activity detected, no clear mispricing",
+      "action_suggestion": "Monitor: insider signal only, no statistical edge",
+      "insider_score": 70,
+      "insider_position": "UNDER",
+      "irrationality_score": 35,
+      "is_irrational": true,
+      "is_mispriced": true,
+      "edge": 0.22000000000000003,
+      "edge_percent": 22.000000000000004
+    },
+    "financial_analyst": {
+      "signal_quality": 51.0,
+      "stance": "WATCH_ONLY",
+      "edge_percent": 22.0,
+      "signal_strength": 70.0,
+      "insider_score": 70.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    }
   }
 ]
