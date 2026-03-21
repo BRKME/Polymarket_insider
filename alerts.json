@@ -1,82 +1,5 @@
 [
   {
-    "market": "Will To Lam be elected General Secretary of the Vietnamese Communist Party?",
-    "market_slug": "will-to-lam-be-elected-general-secretary-of-the-vietnamese-communist-party",
-    "wallet": "0xe259f41c002f58469c6993760cbfd065c409dde5",
-    "analysis": {
-      "score": 95,
-      "flags": [
-        "New wallet (2d old)",
-        "Extreme confidence (97.8% odds)",
-        "Large bet ($1,064)",
-        "Low activity (2 txns)"
-      ],
-      "amount": 1064.21995,
-      "odds": 0.9783411627351118,
-      "wallet_age_days": 2,
-      "total_activities": 2
-    },
-    "timestamp": "2026-01-22T14:37:59.949531",
-    "trade_hash": "0x061cd95a7da66898c8daa8c47a05824fcfc56d7d3930f460e3b46c8d876da9d6",
-    "trade_timestamp": 1769092568,
-    "trade_data": {
-      "asset": "32502880350678995655372695756293563376414484296787693507155481019498489053168",
-      "assetId": null,
-      "tokenId": null,
-      "side": "SELL",
-      "outcome": "Yes",
-      "market": null,
-      "type": null,
-      "status": null,
-      "maker": null,
-      "taker": null,
-      "makerAddress": null,
-      "takerAddress": null,
-      "feeRateBps": null,
-      "price": 0.9783411627351118,
-      "size": 1087.78,
-      "amount": 1064.21995
-    }
-  },
-  {
-    "market": "Will To Lam be elected General Secretary of the Vietnamese Communist Party?",
-    "market_slug": "will-to-lam-be-elected-general-secretary-of-the-vietnamese-communist-party",
-    "wallet": "0x646f9b63e0f2823a99d706f0f3a1668b16736976",
-    "analysis": {
-      "score": 85,
-      "flags": [
-        "New wallet (0d old)",
-        "Extreme confidence (95.5% odds)",
-        "Large bet ($1,401)"
-      ],
-      "amount": 1400.999982,
-      "odds": 0.9549999999727338,
-      "wallet_age_days": 0,
-      "total_activities": 6
-    },
-    "timestamp": "2026-01-22T15:32:53.284717",
-    "trade_hash": "0x85b1b77ffa61b11220b68301403bbbfc434e078713d3588829874b6afc98ca6f",
-    "trade_timestamp": 1769095874,
-    "trade_data": {
-      "asset": "32502880350678995655372695756293563376414484296787693507155481019498489053168",
-      "assetId": null,
-      "tokenId": null,
-      "side": "BUY",
-      "outcome": "Yes",
-      "market": null,
-      "type": null,
-      "status": null,
-      "maker": null,
-      "taker": null,
-      "makerAddress": null,
-      "takerAddress": null,
-      "feeRateBps": null,
-      "price": 0.9549999999727338,
-      "size": 1467.015688,
-      "amount": 1400.999982
-    }
-  },
-  {
     "market": "Will Phan Van Giang be elected General Secretary of the Vietnamese Communist Party?",
     "market_slug": "will-phan-van-giang-be-elected-general-secretary-of-the-vietnamese-communist-party",
     "wallet": "0x241178b8817237522efc247b26b40d3851c1a664",
@@ -26864,5 +26787,93 @@
     "market": "Stars vs. Wild",
     "market_slug": "nhl-dal-min-2026-03-21",
     "amount": 6789.6
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xd10c15f33d6330acf42c96b2cd32e4480a61a1dca6ad89ef24d2a25a4b302704",
+    "wallet": "0xe9ad918c7678cd38b12603a762e638a5d1ee7091",
+    "trader": {
+      "rank": 9,
+      "address": "0xe9ad918c7678cd38b12603a762e638a5d1ee7091",
+      "username": "walletmobile",
+      "profit": 5942685.45339684,
+      "volume": 32196692.075936034,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x53515c8447275edfac486e6d70a6e3bf49c19b3c",
+      "side": "BUY",
+      "asset": "90576790101411314186358099588684245267465903531290573999378152746429050365668",
+      "conditionId": "0x65933c93527508665229e5d49cd68907731f92e46f02672b02160504f4d111f4",
+      "size": 6610,
+      "price": 0.88,
+      "timestamp": 1774123879,
+      "title": "TCU Horned Frogs vs. Duke Blue Devils",
+      "slug": "cbb-tcu-duke-2026-03-21",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/ncaa-c14995df96.png",
+      "eventSlug": "cbb-tcu-duke-2026-03-21",
+      "outcome": "Duke Blue Devils",
+      "outcomeIndex": 1,
+      "name": "Gambleguy123",
+      "pseudonym": "Querulous-Patrimony",
+      "bio": "Go gamba",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xd10c15f33d6330acf42c96b2cd32e4480a61a1dca6ad89ef24d2a25a4b302704",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "TCU Horned Frogs vs. Duke Blue Devils",
+    "market_slug": "cbb-tcu-duke-2026-03-21",
+    "amount": 5816.8
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x01b57bd4cee567f9b7b4ee10e5406ae5ecdf2d74e2f1730541e73fcdf2a9d419",
+    "wallet": "0xe9ad918c7678cd38b12603a762e638a5d1ee7091",
+    "trader": {
+      "rank": 9,
+      "address": "0xe9ad918c7678cd38b12603a762e638a5d1ee7091",
+      "username": "walletmobile",
+      "profit": 5942685.45339684,
+      "volume": 32196692.075936034,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xb6aee7f281e13b23bd959127f6e2b3dccb4e4df8",
+      "side": "BUY",
+      "asset": "36598050262530853227068246431172433877550992270759643736223503368561328696518",
+      "conditionId": "0xd5b149e7c4d6b49824c2fd110983f3562f1f12c713ddf4905872ea009b2d4aa6",
+      "size": 7071,
+      "price": 0.52,
+      "timestamp": 1774123877,
+      "title": "Texas A&M Aggies vs. Houston Cougars: O/U 143.5",
+      "slug": "cbb-txam-hou-2026-03-21-total-143pt5",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/ncaa-c14995df96.png",
+      "eventSlug": "cbb-txam-hou-2026-03-21",
+      "outcome": "Under",
+      "outcomeIndex": 1,
+      "name": "hugesportswhale",
+      "pseudonym": "Fuzzy-Oversight",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x01b57bd4cee567f9b7b4ee10e5406ae5ecdf2d74e2f1730541e73fcdf2a9d419",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Texas A&M Aggies vs. Houston Cougars: O/U 143.5",
+    "market_slug": "cbb-txam-hou-2026-03-21",
+    "amount": 3676.92
   }
 ]
