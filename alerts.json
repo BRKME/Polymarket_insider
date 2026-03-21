@@ -1,43 +1,5 @@
 [
   {
-    "market": "Will USA win the 2026 FIFA World Cup?",
-    "market_slug": "will-usa-win-the-2026-fifa-world-cup-467",
-    "wallet": "0x91fa63640c890a25ee3ba2f5856c7997caea1e20",
-    "analysis": {
-      "score": 85,
-      "flags": [
-        "New wallet (1d old)",
-        "Extreme confidence (98.4% odds)",
-        "Large bet ($2,022)"
-      ],
-      "amount": 2022.47424,
-      "odds": 0.984,
-      "wallet_age_days": 1,
-      "total_activities": 100
-    },
-    "timestamp": "2026-01-22T13:32:04.599256",
-    "trade_hash": "0x9a4885a6494211c21a27cb9334a16d4592a377d94d29f0dfecc6183038fd5699",
-    "trade_timestamp": 1769088444,
-    "trade_data": {
-      "asset": "45270201343463663182019040935560267543606888663369415494551943549463253748361",
-      "assetId": null,
-      "tokenId": null,
-      "side": "SELL",
-      "outcome": "No",
-      "market": null,
-      "type": null,
-      "status": null,
-      "maker": null,
-      "taker": null,
-      "makerAddress": null,
-      "takerAddress": null,
-      "feeRateBps": null,
-      "price": 0.984,
-      "size": 2055.36,
-      "amount": 2022.47424
-    }
-  },
-  {
     "market": "Will the Sacramento Kings win the 2026 NBA Finals?",
     "market_slug": "will-the-sacramento-kings-win-the-2026-nba-finals",
     "wallet": "0x733ff9ed8d1859656e736d116d800f2f228bfd05",
@@ -26847,5 +26809,49 @@
     "market": "Counter-Strike: PARIVISION vs Spirit (BO3) - BLAST Open Rotterdam Group B",
     "market_slug": "cs2-prv-ts7-2026-03-21",
     "amount": 1621.4717999999998
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x4eab03990fc00fde14caa59dfa6e758a2604f9a90895ad5b7c637214800e87f4",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.515682004,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x492442eab586f242b53bda933fd5de859c8a3782",
+      "side": "BUY",
+      "asset": "111667289987821867996523210098284403486242703860066560244877969999789712250266",
+      "conditionId": "0x95bc92b3899a98cb0e6adb127fcf503a3656f1d9c2104e6da3b7acfd80a53383",
+      "size": 20004.75,
+      "price": 0.45,
+      "timestamp": 1774120877,
+      "title": "OGC Nice vs. Paris Saint-Germain FC: O/U 3.5",
+      "slug": "fl1-ogc-psg-2026-03-21-total-3pt5",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/league-fl1.png",
+      "eventSlug": "fl1-ogc-psg-2026-03-21-more-markets",
+      "outcome": "Over",
+      "outcomeIndex": 0,
+      "name": "0x492442EaB586F242B53bDa933fD5dE859c8A3782-1766317541188",
+      "pseudonym": "Multicolored-Self",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x4eab03990fc00fde14caa59dfa6e758a2604f9a90895ad5b7c637214800e87f4",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "OGC Nice vs. Paris Saint-Germain FC: O/U 3.5",
+    "market_slug": "fl1-ogc-psg-2026-03-21-more-markets",
+    "amount": 9002.1375
   }
 ]
