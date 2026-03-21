@@ -1,120 +1,5 @@
 [
   {
-    "market": "Will Bitcoin dip to $15,000 by December 31, 2026?",
-    "market_slug": "will-bitcoin-dip-to-15000-by-december-31-2026",
-    "wallet": "0xc94b3c6b56754c8982fe6f8eb8fea9e9ec6cbfef",
-    "analysis": {
-      "score": 85,
-      "flags": [
-        "New wallet (0d old)",
-        "Extreme confidence (95.2% odds)",
-        "Large bet ($5,065)"
-      ],
-      "amount": 5064.639999999999,
-      "odds": 0.952,
-      "wallet_age_days": 0,
-      "total_activities": 5
-    },
-    "timestamp": "2026-01-22T17:50:04.903790",
-    "trade_hash": "0x0c56c89658b6ff531689fc85d4e6871b038390aa65880eff866a08d7da587580",
-    "trade_timestamp": 1769104112,
-    "trade_data": {
-      "asset": "89977007741727017614798848147688321409996583214301844632616973663289014402184",
-      "assetId": null,
-      "tokenId": null,
-      "side": "BUY",
-      "outcome": "No",
-      "market": null,
-      "type": null,
-      "status": null,
-      "maker": null,
-      "taker": null,
-      "makerAddress": null,
-      "takerAddress": null,
-      "feeRateBps": null,
-      "price": 0.952,
-      "size": 5320.0,
-      "amount": 5064.639999999999
-    }
-  },
-  {
-    "market": "Will Bitcoin dip to $15,000 by December 31, 2026?",
-    "market_slug": "will-bitcoin-dip-to-15000-by-december-31-2026",
-    "wallet": "0xfe6f7c04e3672f63b979fc4f321c9f1dc5d6441c",
-    "analysis": {
-      "score": 95,
-      "flags": [
-        "New wallet (0d old)",
-        "Extreme confidence (95.1% odds)",
-        "Large bet ($5,062)",
-        "Low activity (4 txns)"
-      ],
-      "amount": 5062.316000000001,
-      "odds": 0.9512502466293983,
-      "wallet_age_days": 0,
-      "total_activities": 4
-    },
-    "timestamp": "2026-01-22T17:50:12.190044",
-    "trade_hash": "0xadd9c766936c311145c847276e743ac316a8fab98936327f36d0d41875c545be",
-    "trade_timestamp": 1769104020,
-    "trade_data": {
-      "asset": "89977007741727017614798848147688321409996583214301844632616973663289014402184",
-      "assetId": null,
-      "tokenId": null,
-      "side": "BUY",
-      "outcome": "No",
-      "market": null,
-      "type": null,
-      "status": null,
-      "maker": null,
-      "taker": null,
-      "makerAddress": null,
-      "takerAddress": null,
-      "feeRateBps": null,
-      "price": 0.9512502466293983,
-      "size": 5321.75,
-      "amount": 5062.316000000001
-    }
-  },
-  {
-    "market": "Will Ron DeSantis win the 2028 Republican presidential nomination?",
-    "market_slug": "will-ron-desantis-win-the-2028-republican-presidential-nomination",
-    "wallet": "0x7ac6f6ec4b2f41c6ff77b5b1962c30b4c8613149",
-    "analysis": {
-      "score": 85,
-      "flags": [
-        "New wallet (0d old)",
-        "Extreme confidence (97.0% odds)",
-        "Large bet ($1,067)"
-      ],
-      "amount": 1067.0,
-      "odds": 0.97,
-      "wallet_age_days": 0,
-      "total_activities": 46
-    },
-    "timestamp": "2026-01-22T20:12:54.835707",
-    "trade_hash": "0x1fc858d41911a55fd19a3dfadb0dc9e293c30912867a82667294667885da0f1e",
-    "trade_timestamp": 1769112558,
-    "trade_data": {
-      "asset": "95344728193244020854716971584323868633691370479151373416918812532794690491367",
-      "assetId": null,
-      "tokenId": null,
-      "side": "SELL",
-      "outcome": "No",
-      "market": null,
-      "type": null,
-      "status": null,
-      "maker": null,
-      "taker": null,
-      "makerAddress": null,
-      "takerAddress": null,
-      "feeRateBps": null,
-      "price": 0.97,
-      "size": 1100.0,
-      "amount": 1067.0
-    }
-  },
-  {
     "market": "Counter-Strike: Heroic vs FURIA (BO3) - BLAST Bounty Playoffs",
     "market_slug": "cs2-hero-furia-2026-01-22",
     "wallet": "0x70c5c900812fc38c1277ca972eb09483671e457f",
@@ -27032,5 +26917,137 @@
     "market": "Thunder vs. Wizards",
     "market_slug": "nba-okc-was-2026-03-21",
     "amount": 2256.1545300000002
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x8558b62eb731544d36d0571dbee584faf1fd8fe665d988c9ef8b064c3fa4ce88",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.515682004,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x6ee4cc481bb553f9411cf2e0b1f165f67a1980f2",
+      "side": "BUY",
+      "asset": "42122201333723033774086282932652417053756259550890512898203118588772016262517",
+      "conditionId": "0x7e5f13f6e304e27a37567e21328de14cb711d2d02364552a80ecf73f08a8e9f5",
+      "size": 2165.449776,
+      "price": 0.8892702196756005,
+      "timestamp": 1774131681,
+      "title": "UFC Fight Night: Luke Riley vs. Michael Aswell (Featherweight, Main Card)",
+      "slug": "ufc-luk12-mic34-2026-03-21",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/ufc-logo-37bbbd28e6.png",
+      "eventSlug": "ufc-luk12-mic34-2026-03-21",
+      "outcome": "Luke Riley",
+      "outcomeIndex": 0,
+      "name": "PolyChrome",
+      "pseudonym": "Absolute-Bake",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x8558b62eb731544d36d0571dbee584faf1fd8fe665d988c9ef8b064c3fa4ce88",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "UFC Fight Night: Luke Riley vs. Michael Aswell (Featherweight, Main Card)",
+    "market_slug": "ufc-luk12-mic34-2026-03-21",
+    "amount": 1925.6699979999999
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xd14412ceb7bc125cfb01af4a793c096961031b9e74bb7ff07ca3b00cd3eff89b",
+    "wallet": "0xe9ad918c7678cd38b12603a762e638a5d1ee7091",
+    "trader": {
+      "rank": 9,
+      "address": "0xe9ad918c7678cd38b12603a762e638a5d1ee7091",
+      "username": "walletmobile",
+      "profit": 5942685.45339684,
+      "volume": 32196692.075936034,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x8bee36ea7cd823199ec20104d309d85bf544a369",
+      "side": "BUY",
+      "asset": "110148211468275658488762534192579152973732637194393043757965343084754830928130",
+      "conditionId": "0x2fa7ce3d3c58e8283273bcf81cae5b8699dbd4680b7992d64acfa1486afef58b",
+      "size": 5490.8,
+      "price": 0.48,
+      "timestamp": 1774131981,
+      "title": "Spread: Cavaliers (-5.5)",
+      "slug": "nba-cle-nop-2026-03-21-spread-away-5pt5",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
+      "eventSlug": "nba-cle-nop-2026-03-21",
+      "outcome": "Cavaliers",
+      "outcomeIndex": 0,
+      "name": "Wwsi233",
+      "pseudonym": "Dearest-Muscat",
+      "bio": "",
+      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-4558368-2c173502-84d8-43bb-841f-ade49f64ca3b.webp",
+      "profileImageOptimized": "",
+      "transactionHash": "0xd14412ceb7bc125cfb01af4a793c096961031b9e74bb7ff07ca3b00cd3eff89b",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Spread: Cavaliers (-5.5)",
+    "market_slug": "nba-cle-nop-2026-03-21",
+    "amount": 2635.584
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xb01a236ea77be314887e12bea3ebcca04916dadb51ef1228fc3ba2cf1cd29f79",
+    "wallet": "0xdc876e6873772d38716fda7f2452a78d426d7ab6",
+    "trader": {
+      "rank": 18,
+      "address": "0xdc876e6873772d38716fda7f2452a78d426d7ab6",
+      "username": "432614799197",
+      "profit": 4558348.7152132625,
+      "volume": 185485956.86208287,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xcd3638fea0107fe3355544251f96a10980daa8ac",
+      "side": "BUY",
+      "asset": "66419344206339468073253308897091364505984570816153869860212591505290583609104",
+      "conditionId": "0x0954cc08de0ab8345bcf24f314d571e6a77d913ea9977ce2b4187983a70b450d",
+      "size": 4116.83,
+      "price": 0.6,
+      "timestamp": 1774132281,
+      "title": "Lakers vs. Magic",
+      "slug": "nba-lal-orl-2026-03-21",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
+      "eventSlug": "nba-lal-orl-2026-03-21",
+      "outcome": "Lakers",
+      "outcomeIndex": 0,
+      "name": "TheCheatCode",
+      "pseudonym": "Open-Supporter",
+      "bio": "3760",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xb01a236ea77be314887e12bea3ebcca04916dadb51ef1228fc3ba2cf1cd29f79",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Lakers vs. Magic",
+    "market_slug": "nba-lal-orl-2026-03-21",
+    "amount": 2470.098
   }
 ]
