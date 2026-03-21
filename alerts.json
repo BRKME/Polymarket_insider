@@ -1,82 +1,5 @@
 [
   {
-    "market": "Will the Sacramento Kings win the 2026 NBA Finals?",
-    "market_slug": "will-the-sacramento-kings-win-the-2026-nba-finals",
-    "wallet": "0x733ff9ed8d1859656e736d116d800f2f228bfd05",
-    "analysis": {
-      "score": 85,
-      "flags": [
-        "New wallet (0d old)",
-        "Extreme confidence (99.8% odds)",
-        "Large bet ($1,463)"
-      ],
-      "amount": 1462.88836,
-      "odds": 0.998,
-      "wallet_age_days": 0,
-      "total_activities": 17
-    },
-    "timestamp": "2026-01-22T13:32:05.298814",
-    "trade_hash": "0x494939bec03486fa9e7909515642d255cf3f716fc80cdadc4113d0db650d4a6d",
-    "trade_timestamp": 1769088442,
-    "trade_data": {
-      "asset": "53762656564813978305123954932423338056181879481865210265145699223531340501188",
-      "assetId": null,
-      "tokenId": null,
-      "side": "SELL",
-      "outcome": "No",
-      "market": null,
-      "type": null,
-      "status": null,
-      "maker": null,
-      "taker": null,
-      "makerAddress": null,
-      "takerAddress": null,
-      "feeRateBps": null,
-      "price": 0.998,
-      "size": 1465.82,
-      "amount": 1462.88836
-    }
-  },
-  {
-    "market": "Will To Lam be elected General Secretary of the Vietnamese Communist Party?",
-    "market_slug": "will-to-lam-be-elected-general-secretary-of-the-vietnamese-communist-party",
-    "wallet": "0xe5c029a975060933c1190bb0bf5f1676c19af9ed",
-    "analysis": {
-      "score": 95,
-      "flags": [
-        "New wallet (1d old)",
-        "Extreme confidence (98.2% odds)",
-        "Large bet ($2,433)",
-        "Low activity (2 txns)"
-      ],
-      "amount": 2432.74452,
-      "odds": 0.9824547066259052,
-      "wallet_age_days": 1,
-      "total_activities": 2
-    },
-    "timestamp": "2026-01-22T13:32:05.985287",
-    "trade_hash": "0x6ba77c88ed10fb4aedf86099601d0a52b868f7ef366f4f60e030d0357b9b2cd6",
-    "trade_timestamp": 1769088438,
-    "trade_data": {
-      "asset": "32502880350678995655372695756293563376414484296787693507155481019498489053168",
-      "assetId": null,
-      "tokenId": null,
-      "side": "SELL",
-      "outcome": "Yes",
-      "market": null,
-      "type": null,
-      "status": null,
-      "maker": null,
-      "taker": null,
-      "makerAddress": null,
-      "takerAddress": null,
-      "feeRateBps": null,
-      "price": 0.9824547066259052,
-      "size": 2476.19,
-      "amount": 2432.74452
-    }
-  },
-  {
     "market": "Will To Lam be elected General Secretary of the Vietnamese Communist Party?",
     "market_slug": "will-to-lam-be-elected-general-secretary-of-the-vietnamese-communist-party",
     "wallet": "0xe259f41c002f58469c6993760cbfd065c409dde5",
@@ -26853,5 +26776,93 @@
     "market": "OGC Nice vs. Paris Saint-Germain FC: O/U 3.5",
     "market_slug": "fl1-ogc-psg-2026-03-21-more-markets",
     "amount": 9002.1375
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x2b5175760d1cfee74b21ee23048742bfc6255b345010fdd1a0775d6b1595f8ad",
+    "wallet": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
+    "trader": {
+      "rank": 17,
+      "address": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
+      "username": "GamblingIsAllYouNeed",
+      "profit": 4583346.255325291,
+      "volume": 273255557.3555661,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x3f5ea0a8053e81ce2f59814118869322c35fe7db",
+      "side": "BUY",
+      "asset": "59710325672987047484152804198498095977107600959651145229891529355298398088578",
+      "conditionId": "0x0954cc08de0ab8345bcf24f314d571e6a77d913ea9977ce2b4187983a70b450d",
+      "size": 8578.79,
+      "price": 0.4,
+      "timestamp": 1774122679,
+      "title": "Lakers vs. Magic",
+      "slug": "nba-lal-orl-2026-03-21",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
+      "eventSlug": "nba-lal-orl-2026-03-21",
+      "outcome": "Magic",
+      "outcomeIndex": 1,
+      "name": "piggyery",
+      "pseudonym": "Pleasing-Biology",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x2b5175760d1cfee74b21ee23048742bfc6255b345010fdd1a0775d6b1595f8ad",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Lakers vs. Magic",
+    "market_slug": "nba-lal-orl-2026-03-21",
+    "amount": 3431.5160000000005
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x955f8b0b9737f3f10dfd577a2068d5260917f1c71c44ff6212ccb2d46d95a070",
+    "wallet": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
+    "trader": {
+      "rank": 17,
+      "address": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
+      "username": "GamblingIsAllYouNeed",
+      "profit": 4583346.255325291,
+      "volume": 273255557.3555661,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xd0e77a638c0b0ddeef9a59db053d596d63fab14f",
+      "side": "BUY",
+      "asset": "50289193185074818749994898826577626996310933167349146380182091626366330502423",
+      "conditionId": "0xc495e735642f2f1381c60ac15d9146d75835a8e99edac82eaf7f34324a4fbafd",
+      "size": 15088,
+      "price": 0.45,
+      "timestamp": 1774122679,
+      "title": "Stars vs. Wild",
+      "slug": "nhl-dal-min-2026-03-21",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nhl.png",
+      "eventSlug": "nhl-dal-min-2026-03-21",
+      "outcome": "Wild",
+      "outcomeIndex": 1,
+      "name": "PleaseBro",
+      "pseudonym": "Determined-Play",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x955f8b0b9737f3f10dfd577a2068d5260917f1c71c44ff6212ccb2d46d95a070",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Stars vs. Wild",
+    "market_slug": "nhl-dal-min-2026-03-21",
+    "amount": 6789.6
   }
 ]
