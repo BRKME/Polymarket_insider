@@ -1,43 +1,5 @@
 [
   {
-    "market": "Will Bitcoin reach $150,000 in January?",
-    "market_slug": "will-bitcoin-reach-150k-in-january-2026",
-    "wallet": "0x15d30a2e0ae97f2c9f6a98dbfb728f73ab1a28de",
-    "analysis": {
-      "score": 85,
-      "flags": [
-        "New wallet (0d old)",
-        "Extreme confidence (99.7% odds)",
-        "Large bet ($3,496)"
-      ],
-      "amount": 3496.4889700000003,
-      "odds": 0.997,
-      "wallet_age_days": 0,
-      "total_activities": 44
-    },
-    "timestamp": "2026-01-22T08:51:14.038200",
-    "trade_hash": "0xad861c7be1119ef78126a9e54706819b7066dd395c80785ac64c0e6c93ff04f3",
-    "trade_timestamp": 1769071672,
-    "trade_data": {
-      "asset": "54504735237306435364688890375581221790556858637843718945838566750916495284821",
-      "assetId": null,
-      "tokenId": null,
-      "side": "SELL",
-      "outcome": "No",
-      "market": null,
-      "type": null,
-      "status": null,
-      "maker": null,
-      "taker": null,
-      "makerAddress": null,
-      "takerAddress": null,
-      "feeRateBps": null,
-      "price": 0.997,
-      "size": 3507.01,
-      "amount": 3496.4889700000003
-    }
-  },
-  {
     "market": "Will Leeds win the 2025\u201326 English Premier League?",
     "market_slug": "will-leeds-win-the-202526-english-premier-league",
     "wallet": "0x402aaacba3bcce50d1e9985df11d02f52f964be0",
@@ -26527,5 +26489,49 @@
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
     }
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xa1e025e01857815e6ba81d05895b6e9365123f88fd30ab2889feeb545da1d740",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.515682004,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xf9885da150836378ce5689395ff4d194683fd63b",
+      "side": "BUY",
+      "asset": "56593789520654207167956730621662106936287736112111884038056973001692803773958",
+      "conditionId": "0x67e1d25da2884ece5c0a77df04b98891fff3e18dde152e7443f6278cc296fdc8",
+      "size": 4210,
+      "price": 0.52,
+      "timestamp": 1774050951,
+      "title": "Spread: Connecticut Huskies (-20.5)",
+      "slug": "cbb-furman-uconn-2026-03-20-spread-home-20pt5",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/ncaa-c14995df96.png",
+      "eventSlug": "cbb-furman-uconn-2026-03-20",
+      "outcome": "Connecticut Huskies",
+      "outcomeIndex": 0,
+      "name": "0xF9885Da150836378ce5689395FF4d194683fd63B-1767719836281",
+      "pseudonym": "Harmful-Wood",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xa1e025e01857815e6ba81d05895b6e9365123f88fd30ab2889feeb545da1d740",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Spread: Connecticut Huskies (-20.5)",
+    "market_slug": "cbb-furman-uconn-2026-03-20",
+    "amount": 2189.2000000000003
   }
 ]
