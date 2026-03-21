@@ -1,43 +1,5 @@
 [
   {
-    "market": "Counter-Strike: Liquid vs Team Falcons (BO3) - BLAST Bounty Playoffs",
-    "market_slug": "cs2-tl1-fal2-2026-01-22",
-    "wallet": "0xb76f1ca090894b5a18c7ba2e4f4ea4e734f88536",
-    "analysis": {
-      "score": 85,
-      "flags": [
-        "New wallet (0d old)",
-        "Extreme confidence (99.9% odds)",
-        "Large bet ($1,800)"
-      ],
-      "amount": 1800.3578400000001,
-      "odds": 0.999,
-      "wallet_age_days": 0,
-      "total_activities": 100
-    },
-    "timestamp": "2026-01-22T17:23:33.982636",
-    "trade_hash": "0x3f1c08c5f671e1b2ff89f5bc6bb55ea26db1a058a9e5dd0d6331828cd3ad1033",
-    "trade_timestamp": 1769102470,
-    "trade_data": {
-      "asset": "62484969071260813330567839528939316750863720349180156210189968419678356881537",
-      "assetId": null,
-      "tokenId": null,
-      "side": "SELL",
-      "outcome": "Team Falcons",
-      "market": null,
-      "type": null,
-      "status": null,
-      "maker": null,
-      "taker": null,
-      "makerAddress": null,
-      "takerAddress": null,
-      "feeRateBps": null,
-      "price": 0.999,
-      "size": 1802.16,
-      "amount": 1800.3578400000001
-    }
-  },
-  {
     "market": "Will Bitcoin dip to $15,000 by December 31, 2026?",
     "market_slug": "will-bitcoin-dip-to-15000-by-december-31-2026",
     "wallet": "0xc94b3c6b56754c8982fe6f8eb8fea9e9ec6cbfef",
@@ -27026,5 +26988,49 @@
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
     }
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xfa03d9a15f645beb58b91175c0ef7fe841a16e1088340544774a0cb2a3435cb6",
+    "wallet": "0xd0c042c08f755ff940249f62745e82d356345565",
+    "trader": {
+      "rank": 15,
+      "address": "0xd0c042c08f755ff940249f62745e82d356345565",
+      "username": "alexmulti",
+      "profit": 4804855.613376001,
+      "volume": 9949068.653841998,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xd6a3f0ec6c4a8ad680d580610c82ca57ff139489",
+      "side": "BUY",
+      "asset": "94844051458161093758408644748213964911062272689244334591279755394311450989118",
+      "conditionId": "0x05d8ff62e7335e4d5eb06cab8ee02726b1f38e677c2861e5e1119967fd6d1851",
+      "size": 2510.28,
+      "price": 0.8987660858549644,
+      "timestamp": 1774130181,
+      "title": "Thunder vs. Wizards",
+      "slug": "nba-okc-was-2026-03-21",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
+      "eventSlug": "nba-okc-was-2026-03-21",
+      "outcome": "Thunder",
+      "outcomeIndex": 0,
+      "name": "knedloveprovelo",
+      "pseudonym": "Weighty-Rifle",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xfa03d9a15f645beb58b91175c0ef7fe841a16e1088340544774a0cb2a3435cb6",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Thunder vs. Wizards",
+    "market_slug": "nba-okc-was-2026-03-21",
+    "amount": 2256.1545300000002
   }
 ]
