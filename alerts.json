@@ -1,43 +1,5 @@
 [
   {
-    "market": "Will Luong Cuong be elected General Secretary of the Vietnamese Communist Party?",
-    "market_slug": "will-luong-cuong-be-elected-general-secretary-of-the-vietnamese-communist-party",
-    "wallet": "0x78fd643b0bdf57e95bfde37c083421568cbb83c9",
-    "analysis": {
-      "score": 85,
-      "flags": [
-        "New wallet (0d old)",
-        "Extreme confidence (99.8% odds)",
-        "Large bet ($1,198)"
-      ],
-      "amount": 1197.6,
-      "odds": 0.998,
-      "wallet_age_days": 0,
-      "total_activities": 100
-    },
-    "timestamp": "2026-01-22T13:31:29.462649",
-    "trade_hash": "0x45ebf3a67aab5c9c20662ce0007a3251a60c71e0a5d6439f019e23953bfca4b5",
-    "trade_timestamp": 1769088540,
-    "trade_data": {
-      "asset": "19773465193550709412593336098123191117870796508798669033257036910643420764427",
-      "assetId": null,
-      "tokenId": null,
-      "side": "SELL",
-      "outcome": "No",
-      "market": null,
-      "type": null,
-      "status": null,
-      "maker": null,
-      "taker": null,
-      "makerAddress": null,
-      "takerAddress": null,
-      "feeRateBps": null,
-      "price": 0.998,
-      "size": 1200.0,
-      "amount": 1197.6
-    }
-  },
-  {
     "market": "Will USA win the 2026 FIFA World Cup?",
     "market_slug": "will-usa-win-the-2026-fifa-world-cup-467",
     "wallet": "0x91fa63640c890a25ee3ba2f5856c7997caea1e20",
@@ -26841,5 +26803,49 @@
     "market": "LoL: Bilibili Gaming vs JD Gaming (BO5) - First Stand Playoffs",
     "market_slug": "lol-blg-jdg-2026-03-21",
     "amount": 2380.6925
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x6f6f5ebd7cfee65e81a5ad210d446cc1187f87462343ecf624e6fb51e8702bdb",
+    "wallet": "0xd235973291b2b75ff4070e9c0b01728c520b0f29",
+    "trader": {
+      "rank": 5,
+      "address": "0xd235973291b2b75ff4070e9c0b01728c520b0f29",
+      "username": "zxgngl",
+      "profit": 7807265.589240883,
+      "volume": 40551790.62184699,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x99e42eb9038705165b22f821e27659c1dc41e4c4",
+      "side": "SELL",
+      "asset": "60832842270124197536093153288000759796820984556909516527686428747665816266639",
+      "conditionId": "0x05cd7f4580c9ec9b8f6ede3e7e0cf1aadfb0b2e8245e2e58619e2e770e6c8866",
+      "size": 5811.69,
+      "price": 0.279001770569318,
+      "timestamp": 1774117877,
+      "title": "Counter-Strike: PARIVISION vs Spirit (BO3) - BLAST Open Rotterdam Group B",
+      "slug": "cs2-prv-ts7-2026-03-21",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/counter-strike-image-16c415c538.png",
+      "eventSlug": "cs2-prv-ts7-2026-03-21",
+      "outcome": "PARIVISION",
+      "outcomeIndex": 0,
+      "name": "acorp",
+      "pseudonym": "Untimely-Spite",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x6f6f5ebd7cfee65e81a5ad210d446cc1187f87462343ecf624e6fb51e8702bdb",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Counter-Strike: PARIVISION vs Spirit (BO3) - BLAST Open Rotterdam Group B",
+    "market_slug": "cs2-prv-ts7-2026-03-21",
+    "amount": 1621.4717999999998
   }
 ]
