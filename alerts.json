@@ -1,81 +1,5 @@
 [
   {
-    "market": "Will Phan Van Giang be elected General Secretary of the Vietnamese Communist Party?",
-    "market_slug": "will-phan-van-giang-be-elected-general-secretary-of-the-vietnamese-communist-party",
-    "wallet": "0x241178b8817237522efc247b26b40d3851c1a664",
-    "analysis": {
-      "score": 85,
-      "flags": [
-        "New wallet (0d old)",
-        "Extreme confidence (95.1% odds)",
-        "Large bet ($1,833)"
-      ],
-      "amount": 1833.11718,
-      "odds": 0.951181600249066,
-      "wallet_age_days": 0,
-      "total_activities": 16
-    },
-    "timestamp": "2026-01-22T15:56:50.900053",
-    "trade_hash": "0xdec7abb4891c25c2e77fa448fb5c02b5b10c444033fa541916379978700b48de",
-    "trade_timestamp": 1769097260,
-    "trade_data": {
-      "asset": "97790049399572907096588141288919706823942870675833426831859440416518977970287",
-      "assetId": null,
-      "tokenId": null,
-      "side": "SELL",
-      "outcome": "No",
-      "market": null,
-      "type": null,
-      "status": null,
-      "maker": null,
-      "taker": null,
-      "makerAddress": null,
-      "takerAddress": null,
-      "feeRateBps": null,
-      "price": 0.951181600249066,
-      "size": 1927.2,
-      "amount": 1833.11718
-    }
-  },
-  {
-    "market": "Will Katie Britt win the 2028 Republican presidential nomination?",
-    "market_slug": "will-katie-britt-win-the-2028-republican-presidential-nomination",
-    "wallet": "0x5039feb2d79e55ac68edc24d434ec1f5219432da",
-    "analysis": {
-      "score": 85,
-      "flags": [
-        "New wallet (0d old)",
-        "Extreme confidence (99.6% odds)",
-        "Large bet ($1,431)"
-      ],
-      "amount": 1431.4213200000002,
-      "odds": 0.996,
-      "wallet_age_days": 0,
-      "total_activities": 21
-    },
-    "timestamp": "2026-01-22T15:56:52.389187",
-    "trade_hash": "0xf03cccf9039769b3f1af0eacfbca478a7fa53ca80bb64df6af37178c81b54c6b",
-    "trade_timestamp": 1769097250,
-    "trade_data": {
-      "asset": "16356411122994156106976113515543626616680005491893556174464804958397610666717",
-      "assetId": null,
-      "tokenId": null,
-      "side": "BUY",
-      "outcome": "No",
-      "market": null,
-      "type": null,
-      "status": null,
-      "maker": null,
-      "taker": null,
-      "makerAddress": null,
-      "takerAddress": null,
-      "feeRateBps": null,
-      "price": 0.996,
-      "size": 1437.17,
-      "amount": 1431.4213200000002
-    }
-  },
-  {
     "market": "Will To Lam be elected General Secretary of the Vietnamese Communist Party?",
     "market_slug": "will-to-lam-be-elected-general-secretary-of-the-vietnamese-communist-party",
     "wallet": "0xaa182032fc0354d8ea1b8204ffc28b7c5f55fc3b",
@@ -26875,5 +26799,93 @@
     "market": "Texas A&M Aggies vs. Houston Cougars: O/U 143.5",
     "market_slug": "cbb-txam-hou-2026-03-21",
     "amount": 3676.92
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x0b70f06b0cd55921da3a06d404582eb829e15de2224cdcf6c43f5db7e1ddec7c",
+    "wallet": "0x78b9ac44a6d7d7a076c14e0ad518b301b63c6b76",
+    "trader": {
+      "rank": 4,
+      "address": "0x78b9ac44a6d7d7a076c14e0ad518b301b63c6b76",
+      "username": "Len9311238",
+      "profit": 8709972.988069998,
+      "volume": 16402744.764627,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x6e8d1343cb660fd7df754e126510bd01842fd730",
+      "side": "SELL",
+      "asset": "47571491404982934163378154396644887577737314993278215946872107495346386959353",
+      "conditionId": "0x56ebb4e4ffdf6ce04bc845e4cd27ae479359bc55b2b5a0c6073639c7a137912c",
+      "size": 3548.09,
+      "price": 0.8130638456183468,
+      "timestamp": 1774126279,
+      "title": "Leeds United FC vs. Brentford FC: O/U 2.5",
+      "slug": "epl-lee-bre-2026-03-21-total-2pt5",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Repetitive-markets/premier+league.jpg",
+      "eventSlug": "epl-lee-bre-2026-03-21-more-markets",
+      "outcome": "Under",
+      "outcomeIndex": 1,
+      "name": "Collio21",
+      "pseudonym": "Practical-Military",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x0b70f06b0cd55921da3a06d404582eb829e15de2224cdcf6c43f5db7e1ddec7c",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Leeds United FC vs. Brentford FC: O/U 2.5",
+    "market_slug": "epl-lee-bre-2026-03-21-more-markets",
+    "amount": 2884.8237
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x3461e037c2538ac4b69eba46cde6bf606b9b6b686c490dfa809123cff901dab0",
+    "wallet": "0x78b9ac44a6d7d7a076c14e0ad518b301b63c6b76",
+    "trader": {
+      "rank": 4,
+      "address": "0x78b9ac44a6d7d7a076c14e0ad518b301b63c6b76",
+      "username": "Len9311238",
+      "profit": 8709972.988069998,
+      "volume": 16402744.764627,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xf9139499d45d5fb184ba990901ddf6bb8c38d009",
+      "side": "BUY",
+      "asset": "62174615336627888814453166657652087168672936561990669762061326057126859157348",
+      "conditionId": "0x24fb7c2d95c93a68018e6c4a90d88043bb67d32fd1454924cef8ebdd550228f3",
+      "size": 2766.8,
+      "price": 0.969,
+      "timestamp": 1774126279,
+      "title": "Will Israel launch a major ground offensive in Lebanon by March 31?",
+      "slug": "will-israel-launch-a-major-ground-offensive-in-lebanon-by-march-31",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-israel-launch-a-major-ground-offensive-in-lebanon-by-december-31-5OgalKHi_0iX.jpg",
+      "eventSlug": "will-israel-launch-a-major-ground-offensive-in-lebanon-by-march-31",
+      "outcome": "Yes",
+      "outcomeIndex": 0,
+      "name": "PainStealer",
+      "pseudonym": "Imperturbable-Sir",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x3461e037c2538ac4b69eba46cde6bf606b9b6b686c490dfa809123cff901dab0",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Will Israel launch a major ground offensive in Lebanon by March 31?",
+    "market_slug": "will-israel-launch-a-major-ground-offensive-in-lebanon-by-march-31",
+    "amount": 2681.0292
   }
 ]
