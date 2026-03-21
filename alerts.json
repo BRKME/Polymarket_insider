@@ -1,43 +1,5 @@
 [
   {
-    "market": "Counter-Strike: Heroic vs FURIA (BO3) - BLAST Bounty Playoffs",
-    "market_slug": "cs2-hero-furia-2026-01-22",
-    "wallet": "0x70c5c900812fc38c1277ca972eb09483671e457f",
-    "analysis": {
-      "score": 85,
-      "flags": [
-        "New wallet (2d old)",
-        "Extreme confidence (99.9% odds)",
-        "Large bet ($9,990)"
-      ],
-      "amount": 9990.019980000001,
-      "odds": 0.999,
-      "wallet_age_days": 2,
-      "total_activities": 100
-    },
-    "timestamp": "2026-01-22T20:42:44.999017",
-    "trade_hash": "0xe746bc13109a3ce68c7e0eeb7ba9341c89fd4e0c767f7201e04a72ba32983f47",
-    "trade_timestamp": 1769114436,
-    "trade_data": {
-      "asset": "38258646551336023520552755289214822922052543292256889845173566298804356902019",
-      "assetId": null,
-      "tokenId": null,
-      "side": "SELL",
-      "outcome": "FURIA",
-      "market": null,
-      "type": null,
-      "status": null,
-      "maker": null,
-      "taker": null,
-      "makerAddress": null,
-      "takerAddress": null,
-      "feeRateBps": null,
-      "price": 0.999,
-      "size": 10000.02,
-      "amount": 9990.019980000001
-    }
-  },
-  {
     "market": "ETHGAS FDV above $200M one day after launch?",
     "market_slug": "ethgas-fdv-above-200m-one-day-after-launch",
     "wallet": "0xabbeb2bdd30ba5c51cb14168b068103961648f37",
@@ -27049,5 +27011,49 @@
     "market": "Lakers vs. Magic",
     "market_slug": "nba-lal-orl-2026-03-21",
     "amount": 2470.098
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xe3aca6234442796483bc0e3ad846d2d1be1c4553417c8697b1ede6e9cd3eae4b",
+    "wallet": "0xdb27bf2ac5d428a9c63dbc914611036855a6c56e",
+    "trader": {
+      "rank": 20,
+      "address": "0xdb27bf2ac5d428a9c63dbc914611036855a6c56e",
+      "username": "DrPufferfish",
+      "profit": 4058404.252825029,
+      "volume": 220193609.19156295,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x1d7ab6473e55405bb5bc62cb3377a6d37989b22f",
+      "side": "BUY",
+      "asset": "108478613802402022030846297419595503435513409327357946197005967644010155220473",
+      "conditionId": "0x41f885dbd144ded625e536058251139c66b1f9904a28fa17631cfc80d7b4e20c",
+      "size": 5326,
+      "price": 0.5,
+      "timestamp": 1774134383,
+      "title": "VCU Rams vs. Illinois Fighting Illini: O/U 150.5",
+      "slug": "cbb-vcu-ill-2026-03-21-total-150pt5",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/ncaa-c14995df96.png",
+      "eventSlug": "cbb-vcu-ill-2026-03-21",
+      "outcome": "Under",
+      "outcomeIndex": 1,
+      "name": "Garyg9870",
+      "pseudonym": "Accurate-Pitcher",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xe3aca6234442796483bc0e3ad846d2d1be1c4553417c8697b1ede6e9cd3eae4b",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "VCU Rams vs. Illinois Fighting Illini: O/U 150.5",
+    "market_slug": "cbb-vcu-ill-2026-03-21",
+    "amount": 2663.0
   }
 ]
