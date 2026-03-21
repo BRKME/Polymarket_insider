@@ -1,44 +1,5 @@
 [
   {
-    "market": "Will Union Saint-Gilloise win the 2025\u201326 Champions League?",
-    "market_slug": "will-union-saint-gilloise-win-the-202526-champions-league",
-    "wallet": "0x3b8fff1b7c4b4c7c215c4b8d59f48fa9f4e6a529",
-    "analysis": {
-      "score": 95,
-      "flags": [
-        "New wallet (0d old)",
-        "Extreme confidence (99.8% odds)",
-        "Large bet ($1,182)",
-        "Low activity (2 txns)"
-      ],
-      "amount": 1182.16094,
-      "odds": 0.998,
-      "wallet_age_days": 0,
-      "total_activities": 2
-    },
-    "timestamp": "2026-01-22T10:32:54.609474",
-    "trade_hash": "0x94d8e4e23fe675b6d5a2037875450bc1fe487830da4dcbeb728ddd332d9d6c2f",
-    "trade_timestamp": 1769077806,
-    "trade_data": {
-      "asset": "8530723144410488573227621851575969317510697903783455903927607049155629901235",
-      "assetId": null,
-      "tokenId": null,
-      "side": "SELL",
-      "outcome": "No",
-      "market": null,
-      "type": null,
-      "status": null,
-      "maker": null,
-      "taker": null,
-      "makerAddress": null,
-      "takerAddress": null,
-      "feeRateBps": null,
-      "price": 0.998,
-      "size": 1184.53,
-      "amount": 1182.16094
-    }
-  },
-  {
     "market": "Will Uzbekistan win the 2026 FIFA World Cup?",
     "market_slug": "will-uzbekistan-win-the-2026-fifa-world-cup-773",
     "wallet": "0x3a269fd1bdeac9c623632388f66e83fc0840852f",
@@ -26612,5 +26573,49 @@
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
     }
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x61e06e5ca5d423f3906ac23bba3c39233697fc037092dc37072550a0bc33887c",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.515682004,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xf8dc391ef182ef95cdc73aa3bd61fd88807000af",
+      "side": "SELL",
+      "asset": "72346193983167052704532134887896387209217761135880519903413176791759418897353",
+      "conditionId": "0x34ae6edef62d01800a54869009ccd6b9a1e08260a276e2e2348b630eaec7079e",
+      "size": 2635,
+      "price": 0.035,
+      "timestamp": 1774088767,
+      "title": "Will annual inflation increase by \u22652.8% in March?",
+      "slug": "will-annual-inflation-increase-by-2pt8-in-march",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/january-inflation-annual-vp5qkgK2R7Et.jpg",
+      "eventSlug": "march-inflation-us-annual",
+      "outcome": "No",
+      "outcomeIndex": 1,
+      "name": "finnian995carmela",
+      "pseudonym": "Fixed-Middle",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x61e06e5ca5d423f3906ac23bba3c39233697fc037092dc37072550a0bc33887c",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Will annual inflation increase by \u22652.8% in March?",
+    "market_slug": "march-inflation-us-annual",
+    "amount": 2542.775
   }
 ]
