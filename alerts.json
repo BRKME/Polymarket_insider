@@ -1,43 +1,5 @@
 [
   {
-    "market": "Will the next Dutch government be VVD + CDA?",
-    "market_slug": "will-the-next-dutch-government-be-vvd-cda",
-    "wallet": "0xadc5e798f6b63165555afd5988184350b41db728",
-    "analysis": {
-      "score": 85,
-      "flags": [
-        "New wallet (0d old)",
-        "Extreme confidence (99.8% odds)",
-        "Large bet ($3,696)"
-      ],
-      "amount": 3696.2925999999998,
-      "odds": 0.998,
-      "wallet_age_days": 0,
-      "total_activities": 42
-    },
-    "timestamp": "2026-01-22T08:51:17.301402",
-    "trade_hash": "0x2dcb9ff265b896f292dfde2d9bb9d507ca71e23b71ae05f38fb496efadefe3fe",
-    "trade_timestamp": 1769071656,
-    "trade_data": {
-      "asset": "5475912822565843617133287560714396163074121364992481974898800473017031268222",
-      "assetId": null,
-      "tokenId": null,
-      "side": "SELL",
-      "outcome": "No",
-      "market": null,
-      "type": null,
-      "status": null,
-      "maker": null,
-      "taker": null,
-      "makerAddress": null,
-      "takerAddress": null,
-      "feeRateBps": null,
-      "price": 0.998,
-      "size": 3703.7,
-      "amount": 3696.2925999999998
-    }
-  },
-  {
     "market": "Will Bitcoin reach $120,000 in January?",
     "market_slug": "will-bitcoin-reach-120k-in-january-2026",
     "wallet": "0x293b50be54460f10aa5bb5b5b9a2aa2c47b386f1",
@@ -26539,5 +26501,49 @@
     "market": "Ducks vs. Utah",
     "market_slug": "nhl-ana-utah-2026-03-20",
     "amount": 5499.9890000000005
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x4e1042d526ccb0d64f4e145933c781f8f8ed95ecd9efb95133786509eb3322db",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.51568201,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xcb437c1cae90151d00fb55c014a9d3616ffd3c74",
+      "side": "BUY",
+      "asset": "89108373864437510966053279018117953216832793306244932425971907442192231322683",
+      "conditionId": "0xa975ba5b4a113fd1dab41d787d37d714ba0c5a144dba4a4e06491110d665522d",
+      "size": 1777.9,
+      "price": 0.939579335170707,
+      "timestamp": 1774065055,
+      "title": "Furman Paladins vs. Connecticut Huskies",
+      "slug": "cbb-furman-uconn-2026-03-20",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/ncaa-c14995df96.png",
+      "eventSlug": "cbb-furman-uconn-2026-03-20",
+      "outcome": "Connecticut Huskies",
+      "outcomeIndex": 1,
+      "name": "Stupidity",
+      "pseudonym": "Bossy-Window",
+      "bio": "9206",
+      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-3401687-c0659135-dfd5-496d-8b0e-85cfdaff117a.png",
+      "profileImageOptimized": "",
+      "transactionHash": "0x4e1042d526ccb0d64f4e145933c781f8f8ed95ecd9efb95133786509eb3322db",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Furman Paladins vs. Connecticut Huskies",
+    "market_slug": "cbb-furman-uconn-2026-03-20",
+    "amount": 1670.4781
   }
 ]
