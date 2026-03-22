@@ -2,44 +2,6 @@
   {
     "market": "Lakers vs. Clippers",
     "market_slug": "nba-lal-lac-2026-01-22",
-    "wallet": "0x0bf2e85fb07f8627b421e1a89456f0d3e0556d2d",
-    "analysis": {
-      "score": 85,
-      "flags": [
-        "New wallet (2d old)",
-        "Extreme confidence (99.9% odds)",
-        "Large bet ($2,239)"
-      ],
-      "amount": 2238.79896,
-      "odds": 0.999,
-      "wallet_age_days": 2,
-      "total_activities": 19
-    },
-    "timestamp": "2026-01-23T05:46:44.144873",
-    "trade_hash": "0x5d6099168b27bb49fcd6be0e160c3328ecbe5745e751b09f2f6a979d5107651a",
-    "trade_timestamp": 1769147082,
-    "trade_data": {
-      "asset": "4522626961998347638949299833876955601992495312657575180273017265451490005164",
-      "assetId": null,
-      "tokenId": null,
-      "side": "SELL",
-      "outcome": "Clippers",
-      "market": null,
-      "type": null,
-      "status": null,
-      "maker": null,
-      "taker": null,
-      "makerAddress": null,
-      "takerAddress": null,
-      "feeRateBps": null,
-      "price": 0.999,
-      "size": 2241.04,
-      "amount": 2238.79896
-    }
-  },
-  {
-    "market": "Lakers vs. Clippers",
-    "market_slug": "nba-lal-lac-2026-01-22",
     "wallet": "0xd681227a8ed17f41c1b19f90990d2f58c2dbbaca",
     "analysis": {
       "score": 85,
@@ -27061,5 +27023,49 @@
     "market": "Texas Longhorns vs. Gonzaga Bulldogs",
     "market_slug": "cbb-tx-gnzg-2026-03-21",
     "amount": 1687.5920999999998
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x1f8a9c23c2fc26fcd2c23356a9f62cf748472e88f0ac9d6fa1448c126895a466",
+    "wallet": "0xdc876e6873772d38716fda7f2452a78d426d7ab6",
+    "trader": {
+      "rank": 17,
+      "address": "0xdc876e6873772d38716fda7f2452a78d426d7ab6",
+      "username": "432614799197",
+      "profit": 4558776.094847582,
+      "volume": 185485956.86208287,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xc257ea7e3a81ca8e16df8935d44d513959fa358e",
+      "side": "BUY",
+      "asset": "83774203144135081842355459897658116029968711621349149305109936193167343401256",
+      "conditionId": "0xa7c97170c8edfff309517bd76bfea38f85211bf8319a4688de553c7e87cc1159",
+      "size": 6051.1,
+      "price": 0.6998940688469865,
+      "timestamp": 1774165895,
+      "title": "Counter-Strike: Liquid vs TheMongolz (BO3) - BLAST Open Rotterdam Group B",
+      "slug": "cs2-tl1-mglz-2026-03-22",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/counter-strike-image-16c415c538.png",
+      "eventSlug": "cs2-tl1-mglz-2026-03-22",
+      "outcome": "TheMongolz",
+      "outcomeIndex": 1,
+      "name": "YT-JuicySlots",
+      "pseudonym": "Weepy-Frosting",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x1f8a9c23c2fc26fcd2c23356a9f62cf748472e88f0ac9d6fa1448c126895a466",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Counter-Strike: Liquid vs TheMongolz (BO3) - BLAST Open Rotterdam Group B",
+    "market_slug": "cs2-tl1-mglz-2026-03-22",
+    "amount": 4235.129
   }
 ]
