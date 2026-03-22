@@ -1,119 +1,5 @@
 [
   {
-    "market": "Will To Lam be elected General Secretary of the Vietnamese Communist Party?",
-    "market_slug": "will-to-lam-be-elected-general-secretary-of-the-vietnamese-communist-party",
-    "wallet": "0x04fac58714f780a2b693db17764dd7a9cd2c9e24",
-    "analysis": {
-      "score": 85,
-      "flags": [
-        "New wallet (2d old)",
-        "Extreme confidence (99.7% odds)",
-        "Large bet ($6,504)"
-      ],
-      "amount": 6503.5307,
-      "odds": 0.997,
-      "wallet_age_days": 2,
-      "total_activities": 88
-    },
-    "timestamp": "2026-01-23T08:24:00.127635",
-    "trade_hash": "0x80e72f60d48f2e3196ebddef3852253029c494fb541a2c17e1582998b2ba618a",
-    "trade_timestamp": 1769156382,
-    "trade_data": {
-      "asset": "32502880350678995655372695756293563376414484296787693507155481019498489053168",
-      "assetId": null,
-      "tokenId": null,
-      "side": "SELL",
-      "outcome": "Yes",
-      "market": null,
-      "type": null,
-      "status": null,
-      "maker": null,
-      "taker": null,
-      "makerAddress": null,
-      "takerAddress": null,
-      "feeRateBps": null,
-      "price": 0.997,
-      "size": 6523.1,
-      "amount": 6503.5307
-    }
-  },
-  {
-    "market": "Will Beto O\u2019Rourke win the 2028 Democratic presidential nomination?",
-    "market_slug": "will-beto-orourke-win-the-2028-democratic-presidential-nomination",
-    "wallet": "0x080277cfc47f807932d985d85fb8f29c09059fd4",
-    "analysis": {
-      "score": 85,
-      "flags": [
-        "New wallet (2d old)",
-        "Extreme confidence (99.3% odds)",
-        "Large bet ($2,019)"
-      ],
-      "amount": 2018.999943,
-      "odds": 0.9929999999985245,
-      "wallet_age_days": 2,
-      "total_activities": 9
-    },
-    "timestamp": "2026-01-23T08:24:50.308598",
-    "trade_hash": "0x548f1d9b16157a12219975a42711186a6e34bea40db6fa71cc494c796c81f3e7",
-    "trade_timestamp": 1769156440,
-    "trade_data": {
-      "asset": "2426274669138238576933962603416907393958833898063513872892433203206006096668",
-      "assetId": null,
-      "tokenId": null,
-      "side": "BUY",
-      "outcome": "No",
-      "market": null,
-      "type": null,
-      "status": null,
-      "maker": null,
-      "taker": null,
-      "makerAddress": null,
-      "takerAddress": null,
-      "feeRateBps": null,
-      "price": 0.9929999999985245,
-      "size": 2033.232571,
-      "amount": 2018.999943
-    }
-  },
-  {
-    "market": "LoL: Oh My God vs LGD Gaming (BO3) - LPL Group Nirvana",
-    "market_slug": "lol-omg-lgd-2026-01-23",
-    "wallet": "0xf44bf587ab7209418c903f8d0efcea848b60f278",
-    "analysis": {
-      "score": 85,
-      "flags": [
-        "New wallet (2d old)",
-        "Extreme confidence (99.0% odds)",
-        "Large bet ($13,188)"
-      ],
-      "amount": 13188.3741,
-      "odds": 0.99,
-      "wallet_age_days": 2,
-      "total_activities": 100
-    },
-    "timestamp": "2026-01-23T09:45:36.309188",
-    "trade_hash": "0xf3566caef2b9e95d3ef0e4015e24437b8c5a57cbfd9119a743aa7bceeb0f4a9c",
-    "trade_timestamp": 1769161374,
-    "trade_data": {
-      "asset": "78168126192935826043536641576153843518944264490464134377282242603590903093439",
-      "assetId": null,
-      "tokenId": null,
-      "side": "BUY",
-      "outcome": "Oh My God",
-      "market": null,
-      "type": null,
-      "status": null,
-      "maker": null,
-      "taker": null,
-      "makerAddress": null,
-      "takerAddress": null,
-      "feeRateBps": null,
-      "price": 0.99,
-      "size": 13321.59,
-      "amount": 13188.3741
-    }
-  },
-  {
     "market": "Will Ethereum reach $6,000 in January?",
     "market_slug": "will-ethereum-reach-6000-in-january-2026",
     "wallet": "0x38819b2d2994bd2f742bb05de88b088f11b00532",
@@ -27569,5 +27455,320 @@
     "market": "Will Arsenal FC win on 2026-03-22?",
     "market_slug": "efl-ars-mnc-2026-03-22",
     "amount": 4142.999999000001
+  },
+  {
+    "market": "Spread: Raptors (-1.5)",
+    "market_slug": "nba-tor-phx-2026-03-22-spread-away-1pt5",
+    "event_slug": "nba-tor-phx-2026-03-22-spread-away-1pt5",
+    "wallet": "0xd8aaee0ab26d890c7e06170253a845fd3f61271b",
+    "analysis": {
+      "score": 70,
+      "flags": [
+        "New wallet (0d old)",
+        "Large bet ($1,507)",
+        "Low activity (2 txns)"
+      ],
+      "amount": 1506.6000000000001,
+      "odds": 0.54,
+      "raw_price": 0.54,
+      "outcome": "Raptors",
+      "potential_pnl": 1283.3999999999999,
+      "pnl_multiplier": 0.8518518518518516,
+      "wallet_age_days": 0,
+      "total_activities": 2
+    },
+    "timestamp": "2026-03-22T14:32:41.181635",
+    "trade_hash": "0x0c8020cea1ec6b97135f0dfd367c2c0994954e04168141155ace6da868f8cb27",
+    "trade_timestamp": 1774189639,
+    "latency": null,
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "Raptors",
+      "side": "BUY",
+      "price": 0.54,
+      "effective_price": 0.54,
+      "size": 2790.0,
+      "amount": 1506.6000000000001,
+      "potential_pnl": 1283.3999999999999,
+      "pnl_multiplier": 0.8518518518518516,
+      "is_no": false,
+      "slug": "nba-tor-phx-2026-03-22-spread-away-1pt5",
+      "eventSlug": "nba-tor-phx-2026-03-22"
+    },
+    "irrationality": {
+      "irrationality_score": 35,
+      "flags": [
+        "Large mispricing edge (+29.2%)"
+      ],
+      "category": "other",
+      "category_info": {
+        "strength": "medium",
+        "typical_overpricing": 0.03,
+        "min_edge": 0.05
+      },
+      "is_irrational": true
+    },
+    "mispricing": {
+      "rational_estimate": 0.248,
+      "market_price": 0.54,
+      "edge": 0.29200000000000004,
+      "edge_percent": 29.200000000000003,
+      "min_edge_required": 0.05,
+      "is_mispriced": true,
+      "edge_quality": "STRONG",
+      "base_rate_class": "common",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "common",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "Raptors maintain strong home court advantage",
+          "Key players perform at or above average",
+          "Opposing team struggles with injuries or poor performance"
+        ],
+        "weakest_link": "Opposing team struggles with injuries or poor performance"
+      },
+      "category": "sports",
+      "narrative_drivers": [
+        "Recent performance trends of the Raptors",
+        "Injuries affecting the opposing team"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "INSIDER_ONLY",
+      "signal_emoji": "\ud83d\udc41\ufe0f",
+      "signal_strength": 70,
+      "interpretation": "Insider activity detected, no clear mispricing",
+      "action_suggestion": "Monitor: insider signal only, no statistical edge",
+      "insider_score": 70,
+      "insider_position": "RAPTORS",
+      "irrationality_score": 35,
+      "is_irrational": true,
+      "is_mispriced": true,
+      "edge": 0.29200000000000004,
+      "edge_percent": 29.200000000000003
+    },
+    "financial_analyst": {
+      "signal_quality": 51.0,
+      "stance": "WATCH_ONLY",
+      "edge_percent": 29.2,
+      "signal_strength": 70.0,
+      "insider_score": 70.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    }
+  },
+  {
+    "market": "Spread: Raptors (-1.5)",
+    "market_slug": "nba-tor-phx-2026-03-22-spread-away-1pt5",
+    "event_slug": "nba-tor-phx-2026-03-22-spread-away-1pt5",
+    "wallet": "0xebeb6fbee9f6cc7fc2386c4f5980292e57a1ce76",
+    "analysis": {
+      "score": 70,
+      "flags": [
+        "New wallet (0d old)",
+        "Large bet ($1,527)",
+        "Low activity (2 txns)"
+      ],
+      "amount": 1526.5800000000002,
+      "odds": 0.54,
+      "raw_price": 0.54,
+      "outcome": "Raptors",
+      "potential_pnl": 1300.4199999999998,
+      "pnl_multiplier": 0.8518518518518516,
+      "wallet_age_days": 0,
+      "total_activities": 2
+    },
+    "timestamp": "2026-03-22T14:32:44.219890",
+    "trade_hash": "0xb6388a8a8c36cac306709a956e17bdb9c4797629dcf079c696946299864a0b86",
+    "trade_timestamp": 1774189637,
+    "latency": null,
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "Raptors",
+      "side": "BUY",
+      "price": 0.54,
+      "effective_price": 0.54,
+      "size": 2827.0,
+      "amount": 1526.5800000000002,
+      "potential_pnl": 1300.4199999999998,
+      "pnl_multiplier": 0.8518518518518516,
+      "is_no": false,
+      "slug": "nba-tor-phx-2026-03-22-spread-away-1pt5",
+      "eventSlug": "nba-tor-phx-2026-03-22"
+    },
+    "irrationality": {
+      "irrationality_score": 35,
+      "flags": [
+        "Large mispricing edge (+29.2%)"
+      ],
+      "category": "other",
+      "category_info": {
+        "strength": "medium",
+        "typical_overpricing": 0.03,
+        "min_edge": 0.05
+      },
+      "is_irrational": true
+    },
+    "mispricing": {
+      "rational_estimate": 0.248,
+      "market_price": 0.54,
+      "edge": 0.29200000000000004,
+      "edge_percent": 29.200000000000003,
+      "min_edge_required": 0.05,
+      "is_mispriced": true,
+      "edge_quality": "STRONG",
+      "base_rate_class": "common",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "common",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "Raptors' key players perform at peak levels",
+          "Opposing team has significant injuries",
+          "Home court advantage plays a crucial role"
+        ],
+        "weakest_link": "Opposing team has significant injuries"
+      },
+      "category": "sports",
+      "narrative_drivers": [
+        "team performance trends",
+        "injury reports"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "INSIDER_ONLY",
+      "signal_emoji": "\ud83d\udc41\ufe0f",
+      "signal_strength": 70,
+      "interpretation": "Insider activity detected, no clear mispricing",
+      "action_suggestion": "Monitor: insider signal only, no statistical edge",
+      "insider_score": 70,
+      "insider_position": "RAPTORS",
+      "irrationality_score": 35,
+      "is_irrational": true,
+      "is_mispriced": true,
+      "edge": 0.29200000000000004,
+      "edge_percent": 29.200000000000003
+    },
+    "financial_analyst": {
+      "signal_quality": 51.0,
+      "stance": "WATCH_ONLY",
+      "edge_percent": 29.2,
+      "signal_strength": 70.0,
+      "insider_score": 70.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    }
+  },
+  {
+    "market": "Spread: Raptors (-1.5)",
+    "market_slug": "nba-tor-phx-2026-03-22-spread-away-1pt5",
+    "event_slug": "nba-tor-phx-2026-03-22-spread-away-1pt5",
+    "wallet": "0xf03368ac163234dcae340f32fd3438786d316f43",
+    "analysis": {
+      "score": 70,
+      "flags": [
+        "New wallet (0d old)",
+        "Large bet ($1,443)",
+        "Low activity (2 txns)"
+      ],
+      "amount": 1443.42,
+      "odds": 0.54,
+      "raw_price": 0.54,
+      "outcome": "Raptors",
+      "potential_pnl": 1229.58,
+      "pnl_multiplier": 0.8518518518518517,
+      "wallet_age_days": 0,
+      "total_activities": 2
+    },
+    "timestamp": "2026-03-22T14:32:58.236365",
+    "trade_hash": "0x220fa80554f2082bd392f7fddf5c2eacf3915f9ac6d19d85eb1ee680e7afa137",
+    "trade_timestamp": 1774189637,
+    "latency": null,
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "Raptors",
+      "side": "BUY",
+      "price": 0.54,
+      "effective_price": 0.54,
+      "size": 2673.0,
+      "amount": 1443.42,
+      "potential_pnl": 1229.58,
+      "pnl_multiplier": 0.8518518518518517,
+      "is_no": false,
+      "slug": "nba-tor-phx-2026-03-22-spread-away-1pt5",
+      "eventSlug": "nba-tor-phx-2026-03-22"
+    },
+    "irrationality": {
+      "irrationality_score": 35,
+      "flags": [
+        "Large mispricing edge (+29.2%)"
+      ],
+      "category": "other",
+      "category_info": {
+        "strength": "medium",
+        "typical_overpricing": 0.03,
+        "min_edge": 0.05
+      },
+      "is_irrational": true
+    },
+    "mispricing": {
+      "rational_estimate": 0.248,
+      "market_price": 0.54,
+      "edge": 0.29200000000000004,
+      "edge_percent": 29.200000000000003,
+      "min_edge_required": 0.05,
+      "is_mispriced": true,
+      "edge_quality": "STRONG",
+      "base_rate_class": "common",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "common",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "Raptors maintain strong home court advantage",
+          "Key players remain healthy",
+          "Opposing team underperforms"
+        ],
+        "weakest_link": "Opposing team underperforms"
+      },
+      "category": "sports",
+      "narrative_drivers": [
+        "Recent performance trends",
+        "Injury reports"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "INSIDER_ONLY",
+      "signal_emoji": "\ud83d\udc41\ufe0f",
+      "signal_strength": 70,
+      "interpretation": "Insider activity detected, no clear mispricing",
+      "action_suggestion": "Monitor: insider signal only, no statistical edge",
+      "insider_score": 70,
+      "insider_position": "RAPTORS",
+      "irrationality_score": 35,
+      "is_irrational": true,
+      "is_mispriced": true,
+      "edge": 0.29200000000000004,
+      "edge_percent": 29.200000000000003
+    },
+    "financial_analyst": {
+      "signal_quality": 51.0,
+      "stance": "WATCH_ONLY",
+      "edge_percent": 29.2,
+      "signal_strength": 70.0,
+      "insider_score": 70.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    }
   }
 ]
