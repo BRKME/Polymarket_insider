@@ -2,82 +2,6 @@
   {
     "market": "Lakers vs. Clippers",
     "market_slug": "nba-lal-lac-2026-01-22",
-    "wallet": "0x54ed329bc494c648010b43cced5067643091d4b2",
-    "analysis": {
-      "score": 85,
-      "flags": [
-        "New wallet (0d old)",
-        "Extreme confidence (99.9% odds)",
-        "Large bet ($1,052)"
-      ],
-      "amount": 1051.53741,
-      "odds": 0.999,
-      "wallet_age_days": 0,
-      "total_activities": 6
-    },
-    "timestamp": "2026-01-23T05:46:49.743420",
-    "trade_hash": "0xcaa51594769dd59cb454ff005b584847fd1694c184ffc6e8712ca9ae89149fb0",
-    "trade_timestamp": 1769147056,
-    "trade_data": {
-      "asset": "4522626961998347638949299833876955601992495312657575180273017265451490005164",
-      "assetId": null,
-      "tokenId": null,
-      "side": "SELL",
-      "outcome": "Clippers",
-      "market": null,
-      "type": null,
-      "status": null,
-      "maker": null,
-      "taker": null,
-      "makerAddress": null,
-      "takerAddress": null,
-      "feeRateBps": null,
-      "price": 0.999,
-      "size": 1052.59,
-      "amount": 1051.53741
-    }
-  },
-  {
-    "market": "Lakers vs. Clippers",
-    "market_slug": "nba-lal-lac-2026-01-22",
-    "wallet": "0x128b78fbfbfcf481f0848e7c7dbf76727866eb7f",
-    "analysis": {
-      "score": 85,
-      "flags": [
-        "New wallet (0d old)",
-        "Extreme confidence (99.9% odds)",
-        "Large bet ($1,110)"
-      ],
-      "amount": 1110.47841,
-      "odds": 0.999,
-      "wallet_age_days": 0,
-      "total_activities": 8
-    },
-    "timestamp": "2026-01-23T05:46:50.433054",
-    "trade_hash": "0x51d6de6a6382e3a511159353c575be417dce117130232e3c35d9d2063b1e0295",
-    "trade_timestamp": 1769147056,
-    "trade_data": {
-      "asset": "4522626961998347638949299833876955601992495312657575180273017265451490005164",
-      "assetId": null,
-      "tokenId": null,
-      "side": "SELL",
-      "outcome": "Clippers",
-      "market": null,
-      "type": null,
-      "status": null,
-      "maker": null,
-      "taker": null,
-      "makerAddress": null,
-      "takerAddress": null,
-      "feeRateBps": null,
-      "price": 0.999,
-      "size": 1111.59,
-      "amount": 1110.47841
-    }
-  },
-  {
-    "market": "Lakers vs. Clippers",
-    "market_slug": "nba-lal-lac-2026-01-22",
     "wallet": "0xeace6050bce0926195054bfbc8b77d60e22c492c",
     "analysis": {
       "score": 95,
@@ -27285,5 +27209,93 @@
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
     }
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x41a93417aaca39be4b487a6d4dda0b1a76d39518f4eac352873504477ab9a238",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.515682004,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x8c70d61931a76e0ae70d1b1117b1f079c7cd1d71",
+      "side": "BUY",
+      "asset": "28768249851410180909622261371472073512315499066065983745623858206669494712500",
+      "conditionId": "0x2491d56b8baeb8f355867f039b5915826bb1eee50b9b5c97b420e414df753790",
+      "size": 2000,
+      "price": 0.75,
+      "timestamp": 1774183303,
+      "title": "Counter-Strike: TYLOO vs Team Falcons (BO3) - BLAST Open Rotterdam Group A",
+      "slug": "cs2-tyloo-fal2-2026-03-22",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/counter-strike-image-16c415c538.png",
+      "eventSlug": "cs2-tyloo-fal2-2026-03-22",
+      "outcome": "Team Falcons",
+      "outcomeIndex": 1,
+      "name": "ShushAndro",
+      "pseudonym": "Graceful-Patriot",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x41a93417aaca39be4b487a6d4dda0b1a76d39518f4eac352873504477ab9a238",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Counter-Strike: TYLOO vs Team Falcons (BO3) - BLAST Open Rotterdam Group A",
+    "market_slug": "cs2-tyloo-fal2-2026-03-22",
+    "amount": 1500.0
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x906b6311f0a0de3964f1a0ba1cef11446c333b60c2f9eba5db5e3d952fc0ced9",
+    "wallet": "0x006cc834cc092684f1b56626e23bedb3835c16ea",
+    "trader": {
+      "rank": 18,
+      "address": "0x006cc834cc092684f1b56626e23bedb3835c16ea",
+      "username": "0x006cc834Cc092684F1B56626E23BEdB3835c16ea-1729683673397",
+      "profit": 4543350.9968061345,
+      "volume": 60006795.13364801,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xb8d3df4227ae5f009297da3005e2042464f70e0f",
+      "side": "BUY",
+      "asset": "47356973464997605719605174397696115680094145199547305062587856474628607811266",
+      "conditionId": "0xd3f429ccc2d3b6280cb846678d9fdad454216e4285970dee67ec3e6dfe6992f5",
+      "size": 30900,
+      "price": 0.18,
+      "timestamp": 1774184205,
+      "title": "Will FC Barcelona win on 2026-03-22?",
+      "slug": "lal-bar-ray-2026-03-22-bar",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/league-lal.png",
+      "eventSlug": "lal-bar-ray-2026-03-22",
+      "outcome": "No",
+      "outcomeIndex": 1,
+      "name": "SonOfAMillionaire",
+      "pseudonym": "Miniature-Conspiracy",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x906b6311f0a0de3964f1a0ba1cef11446c333b60c2f9eba5db5e3d952fc0ced9",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Will FC Barcelona win on 2026-03-22?",
+    "market_slug": "lal-bar-ray-2026-03-22",
+    "amount": 25338.000000000004
   }
 ]
