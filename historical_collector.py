@@ -513,6 +513,10 @@ def run_collection():
     
     print(f"      Total unresolved markets in DB: {len(unresolved)}")
     
+    # Debug: show sample of our condition IDs
+    sample_our_cids = list(unresolved_cids)[:3]
+    print(f"      [DEBUG] Sample our CIDs: {[c[:30]+'...' for c in sample_our_cids]}")
+    
     # APPROACH 1: Batch fetch closed markets from API
     try:
         url = f"{GAMMA_API_URL}/markets"
@@ -523,14 +527,25 @@ def run_collection():
             closed_markets = response.json()
             print(f"      [API] Fetched {len(closed_markets)} closed markets from Gamma API")
             
+            # Debug: show sample API condition IDs
+            sample_api_cids = [m.get('conditionId', '')[:30]+'...' for m in closed_markets[:3]]
+            print(f"      [DEBUG] Sample API CIDs: {sample_api_cids}")
+            
+            # Count matches before filtering
+            matched_count = 0
+            matched_but_no_source = 0
+            
             # Cross-reference with our tracked markets
             for market in closed_markets:
                 cid = market.get('conditionId')
                 if not cid or cid not in unresolved_cids:
                     continue
                 
+                matched_count += 1
+                
                 # Check resolution source
                 if not market.get('resolutionSource'):
+                    matched_but_no_source += 1
                     continue
                 
                 # Parse outcome prices to find winner
@@ -587,6 +602,9 @@ def run_collection():
                 question = market.get('question', '')[:50]
                 print(f"      ✓ Resolved: {question}... → {winning}")
             
+            # Debug: show match statistics
+            print(f"      [DEBUG] Matched {matched_count} markets, {matched_but_no_source} without resolutionSource")
+            
             conn.commit()
         else:
             print(f"      [API ERROR] Failed to fetch closed markets: {response.status_code}")
@@ -600,12 +618,23 @@ def run_collection():
     
     today = datetime.now(timezone.utc).strftime('%Y-%m-%dT%H:%M:%S')
     to_check = []
-    for cid, question, end_date, slug in still_unresolved:
-        if end_date and end_date < today:
-            to_check.append((cid, question, slug))
+    sports_keywords = ['vs', 'nba', 'nfl', 'mlb', 'nhl', 'cs2', 'lol', 'dota', 'valorant', 'soccer', 'football']
     
-    if to_check:
-        print(f"      Checking {len(to_check)} individual markets past end_date...")
+    for cid, question, end_date, slug in still_unresolved:
+        q_lower = (question or '').lower()
+        is_sports = any(kw in q_lower for kw in sports_keywords)
+        
+        # Check sports markets regardless of end_date (they resolve quickly)
+        if is_sports:
+            to_check.append((cid, question, slug, 'sports'))
+        # Also check markets past end_date
+        elif end_date and end_date < today:
+            to_check.append((cid, question, slug, 'past_end'))
+    
+    # Debug: show what we're checking
+    sports_count = sum(1 for x in to_check if x[3] == 'sports')
+    past_end_count = sum(1 for x in to_check if x[3] == 'past_end')
+    print(f"      Checking {len(to_check)} markets: {sports_count} sports, {past_end_count} past end_date")
     
     checked = 0
     not_closed = 0
@@ -613,7 +642,7 @@ def run_collection():
     no_winner = 0
     api_errors = 0
     
-    for condition_id, question, slug in to_check[:100]:  # Limit to 100 to avoid rate limits
+    for condition_id, question, slug, reason in to_check[:100]:  # Limit to 100 to avoid rate limits
         checked += 1
         if checked % 20 == 0:
             print(f"      Checked {checked}/{min(len(to_check), 100)}...")
