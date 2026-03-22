@@ -2,44 +2,6 @@
   {
     "market": "Lakers vs. Clippers",
     "market_slug": "nba-lal-lac-2026-01-22",
-    "wallet": "0xd681227a8ed17f41c1b19f90990d2f58c2dbbaca",
-    "analysis": {
-      "score": 85,
-      "flags": [
-        "New wallet (0d old)",
-        "Extreme confidence (99.9% odds)",
-        "Large bet ($1,042)"
-      ],
-      "amount": 1041.8571000000002,
-      "odds": 0.999,
-      "wallet_age_days": 0,
-      "total_activities": 6
-    },
-    "timestamp": "2026-01-23T05:46:45.512443",
-    "trade_hash": "0x6152eccdc8aef08fa099c1f678f1faa0cbb1bdc4f7ec3e7b8b9a1daaf91a89f2",
-    "trade_timestamp": 1769147056,
-    "trade_data": {
-      "asset": "4522626961998347638949299833876955601992495312657575180273017265451490005164",
-      "assetId": null,
-      "tokenId": null,
-      "side": "SELL",
-      "outcome": "Clippers",
-      "market": null,
-      "type": null,
-      "status": null,
-      "maker": null,
-      "taker": null,
-      "makerAddress": null,
-      "takerAddress": null,
-      "feeRateBps": null,
-      "price": 0.999,
-      "size": 1042.9,
-      "amount": 1041.8571000000002
-    }
-  },
-  {
-    "market": "Lakers vs. Clippers",
-    "market_slug": "nba-lal-lac-2026-01-22",
     "wallet": "0x8f0571c2b978b81f254ec3e5e9f257f08b5f1a89",
     "analysis": {
       "score": 95,
@@ -27067,5 +27029,49 @@
     "market": "Counter-Strike: Liquid vs TheMongolz (BO3) - BLAST Open Rotterdam Group B",
     "market_slug": "cs2-tl1-mglz-2026-03-22",
     "amount": 4235.129
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x2b562f13b3582ebc26fcb32ba4094d9f29aede80e307ccdf385056693df36dbe",
+    "wallet": "0x6a72f61820b26b1fe4d956e17b6dc2a1ea3033ee",
+    "trader": {
+      "rank": 3,
+      "address": "0x6a72f61820b26b1fe4d956e17b6dc2a1ea3033ee",
+      "username": "kch123",
+      "profit": 11362797.902296938,
+      "volume": 258066304.289614,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xfd2930a094c0a6900a2dc947e5db462d11ae77ae",
+      "side": "BUY",
+      "asset": "55676427870922204922497360430044642436911050457023661200891637930737550561101",
+      "conditionId": "0x502545a1aa82d3b878766a696c6886c2b7a3bdbd8c94dc13898180cc30a19a7a",
+      "size": 5757.14,
+      "price": 0.51,
+      "timestamp": 1774166497,
+      "title": "Will Melbourne City FC win on 2026-03-22?",
+      "slug": "aus-per-mct-2026-03-22-mct",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/a-league-6595bd3047.jpg",
+      "eventSlug": "aus-per-mct-2026-03-22",
+      "outcome": "Yes",
+      "outcomeIndex": 0,
+      "name": "NoLyon",
+      "pseudonym": "Immediate-Calcification",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x2b562f13b3582ebc26fcb32ba4094d9f29aede80e307ccdf385056693df36dbe",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Will Melbourne City FC win on 2026-03-22?",
+    "market_slug": "aus-per-mct-2026-03-22",
+    "amount": 2936.1414000000004
   }
 ]
