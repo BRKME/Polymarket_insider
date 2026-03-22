@@ -1,43 +1,5 @@
 [
   {
-    "market": "Nuggets vs. Bucks",
-    "market_slug": "nba-den-mil-2026-01-23",
-    "wallet": "0x0748d52d106d30ce0662a19610f61044b5c1a31e",
-    "analysis": {
-      "score": 85,
-      "flags": [
-        "New wallet (2d old)",
-        "Extreme confidence (99.9% odds)",
-        "Large bet ($6,660)"
-      ],
-      "amount": 6659.99334,
-      "odds": 0.999,
-      "wallet_age_days": 2,
-      "total_activities": 100
-    },
-    "timestamp": "2026-01-24T05:23:24.729368",
-    "trade_hash": "0x87c6fd1c397f531949704600d863dd14cfc3cbdf146ca43f35f1d61484be5c5d",
-    "trade_timestamp": 1769231990,
-    "trade_data": {
-      "asset": "91369545689078304909539644951352215280046945283642895387373198375379734843974",
-      "assetId": null,
-      "tokenId": null,
-      "side": "SELL",
-      "outcome": "Nuggets",
-      "market": null,
-      "type": null,
-      "status": null,
-      "maker": null,
-      "taker": null,
-      "makerAddress": null,
-      "takerAddress": null,
-      "feeRateBps": null,
-      "price": 0.999,
-      "size": 6666.66,
-      "amount": 6659.99334
-    }
-  },
-  {
     "market": "Pelicans vs. Grizzlies",
     "market_slug": "nba-nop-mem-2026-01-23",
     "wallet": "0xe8210b7362b656c3d7cbe43f36dbd2d198368952",
@@ -28249,5 +28211,49 @@
     "market": "Will Atalanta BC win on 2026-03-22?",
     "market_slug": "sea-ata-ver-2026-03-22",
     "amount": 3316.8199950000003
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x495c5487563c0ce2faac08136ac85788ed2bc37b5b8ee5153f99159fbaa27617",
+    "wallet": "0x863134d00841b2e200492805a01e1e2f5defaa53",
+    "trader": {
+      "rank": 6,
+      "address": "0x863134d00841b2e200492805a01e1e2f5defaa53",
+      "username": "RepTrump",
+      "profit": 7532409.671579,
+      "volume": 13983231.103425,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x14a056c698f46d181d1e650e7a7a0f7d1d8a22bb",
+      "side": "SELL",
+      "asset": "11274039182758931042150227700555863794918591138703821713919300339232834919406",
+      "conditionId": "0x02c5217f323f111d1b2a76415903fe393d863a66faa3923312fa7c51692540dd",
+      "size": 1800,
+      "price": 0.8519174444444444,
+      "timestamp": 1774198307,
+      "title": "Counter-Strike: NRG vs FURIA (BO3) - BLAST Open Rotterdam Group A",
+      "slug": "cs2-nrg-furia-2026-03-22",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/counter-strike-image-16c415c538.png",
+      "eventSlug": "cs2-nrg-furia-2026-03-22",
+      "outcome": "FURIA",
+      "outcomeIndex": 1,
+      "name": "gnose",
+      "pseudonym": "Neighboring-Snowsuit",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x495c5487563c0ce2faac08136ac85788ed2bc37b5b8ee5153f99159fbaa27617",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Counter-Strike: NRG vs FURIA (BO3) - BLAST Open Rotterdam Group A",
+    "market_slug": "cs2-nrg-furia-2026-03-22",
+    "amount": 1533.4514
   }
 ]
