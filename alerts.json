@@ -1,43 +1,5 @@
 [
   {
-    "market": "Pelicans vs. Grizzlies",
-    "market_slug": "nba-nop-mem-2026-01-23",
-    "wallet": "0xe8210b7362b656c3d7cbe43f36dbd2d198368952",
-    "analysis": {
-      "score": 85,
-      "flags": [
-        "New wallet (0d old)",
-        "Extreme confidence (99.9% odds)",
-        "Large bet ($3,696)"
-      ],
-      "amount": 3696.28002,
-      "odds": 0.999,
-      "wallet_age_days": 0,
-      "total_activities": 5
-    },
-    "timestamp": "2026-01-24T05:41:34.254738",
-    "trade_hash": "0x05636c8d205512b59811a70ecefe64fa00948c1cae38957d902474eea23c9463",
-    "trade_timestamp": 1769233208,
-    "trade_data": {
-      "asset": "42083787782761382582930129881516186963211314833820765356097567330907472022763",
-      "assetId": null,
-      "tokenId": null,
-      "side": "SELL",
-      "outcome": "Pelicans",
-      "market": null,
-      "type": null,
-      "status": null,
-      "maker": null,
-      "taker": null,
-      "makerAddress": null,
-      "takerAddress": null,
-      "feeRateBps": null,
-      "price": 0.999,
-      "size": 3699.98,
-      "amount": 3696.28002
-    }
-  },
-  {
     "market": "Raptors vs. Trail Blazers",
     "market_slug": "nba-tor-por-2026-01-23",
     "wallet": "0x1ccc64544c01f0da181f0842eb191376fca7cfa8",
@@ -28255,5 +28217,110 @@
     "market": "Counter-Strike: NRG vs FURIA (BO3) - BLAST Open Rotterdam Group A",
     "market_slug": "cs2-nrg-furia-2026-03-22",
     "amount": 1533.4514
+  },
+  {
+    "market": "Raptors vs. Suns: O/U 219.5",
+    "market_slug": "nba-tor-phx-2026-03-22-total-219pt5",
+    "event_slug": "nba-tor-phx-2026-03-22-total-219pt5",
+    "wallet": "0x73f7046efe2e1acb41c797f3f48967d9792d6e4b",
+    "analysis": {
+      "score": 70,
+      "flags": [
+        "New wallet (0d old)",
+        "Large bet ($10,000)",
+        "Low activity (1 txns)"
+      ],
+      "amount": 10000.0,
+      "odds": 0.5,
+      "raw_price": 0.5,
+      "outcome": "Over",
+      "potential_pnl": 10000.0,
+      "pnl_multiplier": 1.0,
+      "wallet_age_days": 0,
+      "total_activities": 1
+    },
+    "timestamp": "2026-03-22T19:54:28.684463",
+    "trade_hash": "0xb1a733241a3664a5e15592866090c044e6a1561dac08ce457cdd5b0b36f3339e",
+    "trade_timestamp": 1774209031,
+    "latency": null,
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "Over",
+      "side": "BUY",
+      "price": 0.5,
+      "effective_price": 0.5,
+      "size": 20000.0,
+      "amount": 10000.0,
+      "potential_pnl": 10000.0,
+      "pnl_multiplier": 1.0,
+      "is_no": false,
+      "slug": "nba-tor-phx-2026-03-22-total-219pt5",
+      "eventSlug": "nba-tor-phx-2026-03-22"
+    },
+    "irrationality": {
+      "irrationality_score": 35,
+      "flags": [
+        "Large mispricing edge (+26.0%)"
+      ],
+      "category": "sports",
+      "category_info": {
+        "strength": "medium",
+        "typical_overpricing": 0.03,
+        "min_edge": 0.05
+      },
+      "is_irrational": true
+    },
+    "mispricing": {
+      "rational_estimate": 0.24,
+      "market_price": 0.5,
+      "edge": 0.26,
+      "edge_percent": 26.0,
+      "min_edge_required": 0.05,
+      "is_mispriced": true,
+      "edge_quality": "STRONG",
+      "base_rate_class": "common",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "common",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "Both teams have high offensive efficiency",
+          "Both teams have low defensive efficiency",
+          "Game pace is fast"
+        ],
+        "weakest_link": "Both teams have low defensive efficiency"
+      },
+      "category": "sports",
+      "narrative_drivers": [
+        "Recent performance trends of both teams",
+        "Injury reports affecting key players"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "INSIDER_ONLY",
+      "signal_emoji": "\ud83d\udc41\ufe0f",
+      "signal_strength": 70,
+      "interpretation": "Insider activity detected, no clear mispricing",
+      "action_suggestion": "Monitor: insider signal only, no statistical edge",
+      "insider_score": 70,
+      "insider_position": "OVER",
+      "irrationality_score": 35,
+      "is_irrational": true,
+      "is_mispriced": true,
+      "edge": 0.26,
+      "edge_percent": 26.0
+    },
+    "financial_analyst": {
+      "signal_quality": 51.0,
+      "stance": "WATCH_ONLY",
+      "edge_percent": 26.0,
+      "signal_strength": 70.0,
+      "insider_score": 70.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    }
   }
 ]
