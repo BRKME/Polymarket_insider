@@ -2,45 +2,6 @@
   {
     "market": "Lakers vs. Clippers",
     "market_slug": "nba-lal-lac-2026-01-22",
-    "wallet": "0x8f0571c2b978b81f254ec3e5e9f257f08b5f1a89",
-    "analysis": {
-      "score": 95,
-      "flags": [
-        "New wallet (0d old)",
-        "Extreme confidence (99.9% odds)",
-        "Large bet ($1,023)",
-        "Low activity (4 txns)"
-      ],
-      "amount": 1022.88609,
-      "odds": 0.999,
-      "wallet_age_days": 0,
-      "total_activities": 4
-    },
-    "timestamp": "2026-01-23T05:46:46.201499",
-    "trade_hash": "0x7eef41db312444a3187dcbe6a8a80e8387f44338e5745a364aaa23c61816ba4e",
-    "trade_timestamp": 1769147056,
-    "trade_data": {
-      "asset": "4522626961998347638949299833876955601992495312657575180273017265451490005164",
-      "assetId": null,
-      "tokenId": null,
-      "side": "SELL",
-      "outcome": "Clippers",
-      "market": null,
-      "type": null,
-      "status": null,
-      "maker": null,
-      "taker": null,
-      "makerAddress": null,
-      "takerAddress": null,
-      "feeRateBps": null,
-      "price": 0.999,
-      "size": 1023.91,
-      "amount": 1022.88609
-    }
-  },
-  {
-    "market": "Lakers vs. Clippers",
-    "market_slug": "nba-lal-lac-2026-01-22",
     "wallet": "0x295ea9b175b68df2dd9005ed165a8ae0574e218a",
     "analysis": {
       "score": 85,
@@ -27073,5 +27034,49 @@
     "market": "Will Melbourne City FC win on 2026-03-22?",
     "market_slug": "aus-per-mct-2026-03-22",
     "amount": 2936.1414000000004
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xb64edd03c325df0d7c4776fb43cd013c87c8f1a2ca6ada569491e45b07bdccf8",
+    "wallet": "0xdb27bf2ac5d428a9c63dbc914611036855a6c56e",
+    "trader": {
+      "rank": 20,
+      "address": "0xdb27bf2ac5d428a9c63dbc914611036855a6c56e",
+      "username": "DrPufferfish",
+      "profit": 4056629.606802935,
+      "volume": 220262445.53849897,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x4133bcbad1d9c41de776646696f41c34d0a65e70",
+      "side": "BUY",
+      "asset": "10896855212367307723189950420475121026134934942555179144663752031261193447967",
+      "conditionId": "0x21649378ed4a304e302f1d2ec5be7a6815d925bbb46dd891cdbf4ad0019a5fe8",
+      "size": 1941.03,
+      "price": 0.78,
+      "timestamp": 1774173099,
+      "title": "Will Como 1907 win on 2026-03-22?",
+      "slug": "sea-com-pis-2026-03-22-com",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Serie-A-Logo.png",
+      "eventSlug": "sea-com-pis-2026-03-22",
+      "outcome": "Yes",
+      "outcomeIndex": 0,
+      "name": "EF203F2IPFC2ICP20W-CP3",
+      "pseudonym": "Bogus-Fix",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xb64edd03c325df0d7c4776fb43cd013c87c8f1a2ca6ada569491e45b07bdccf8",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Will Como 1907 win on 2026-03-22?",
+    "market_slug": "sea-com-pis-2026-03-22",
+    "amount": 1514.0034
   }
 ]
