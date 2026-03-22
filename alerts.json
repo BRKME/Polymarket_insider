@@ -1,43 +1,5 @@
 [
   {
-    "market": "Counter-Strike: RED Canids vs BESTIA (BO3) - IEM Rio: Americas Closed Qualifier Playoffs",
-    "market_slug": "cs2-red9-bst-2026-01-23",
-    "wallet": "0x720e5fe769290726682fe170adfe9f5a4e8017b0",
-    "analysis": {
-      "score": 85,
-      "flags": [
-        "New wallet (1d old)",
-        "Extreme confidence (99.9% odds)",
-        "Large bet ($1,009)"
-      ],
-      "amount": 1009.07991,
-      "odds": 0.999,
-      "wallet_age_days": 1,
-      "total_activities": 100
-    },
-    "timestamp": "2026-01-24T03:16:58.134931",
-    "trade_hash": "0xb22f0d4a6813ce197be22b49d3e2e067c8e19be494aef01f934ef387a3d75465",
-    "trade_timestamp": 1769224436,
-    "trade_data": {
-      "asset": "31543391300211729240264638311023400642293315020466004790701623757256202257498",
-      "assetId": null,
-      "tokenId": null,
-      "side": "SELL",
-      "outcome": "RED Canids",
-      "market": null,
-      "type": null,
-      "status": null,
-      "maker": null,
-      "taker": null,
-      "makerAddress": null,
-      "takerAddress": null,
-      "feeRateBps": null,
-      "price": 0.999,
-      "size": 1010.09,
-      "amount": 1009.07991
-    }
-  },
-  {
     "market": "Nuggets vs. Bucks",
     "market_slug": "nba-den-mil-2026-01-23",
     "wallet": "0x0748d52d106d30ce0662a19610f61044b5c1a31e",
@@ -28243,5 +28205,49 @@
     "market": "Will CR Vasco da Gama win on 2026-03-22?",
     "market_slug": "bra-vas-gre-2026-03-22",
     "amount": 5593.346938000001
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xcee6f76f14de84c5378dd6de9ada1270fa34580f694024ced538693d93e8ce14",
+    "wallet": "0x1f2dd6d473f3e824cd2f8a89d9c69fb96f6ad0cf",
+    "trader": {
+      "rank": 2,
+      "address": "0x1f2dd6d473f3e824cd2f8a89d9c69fb96f6ad0cf",
+      "username": "Fredi9999",
+      "profit": 16619506.631730152,
+      "volume": 76611316.90515402,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x122c17cb5f9930a254523cdd6a3e830c67e8b48f",
+      "side": "BUY",
+      "asset": "19901222835944487203708466658821686468364428638367141880030486718568300324536",
+      "conditionId": "0xdae8a2bcd39b64c42e6d77ac9281660054b1d2d746773387b2dcd928cf34b91c",
+      "size": 3605.239125,
+      "price": 0.92,
+      "timestamp": 1774194107,
+      "title": "Will Atalanta BC win on 2026-03-22?",
+      "slug": "sea-ata-ver-2026-03-22-ata",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Serie-A-Logo.png",
+      "eventSlug": "sea-ata-ver-2026-03-22",
+      "outcome": "Yes",
+      "outcomeIndex": 0,
+      "name": "sili-315",
+      "pseudonym": "Drab-Blind",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xcee6f76f14de84c5378dd6de9ada1270fa34580f694024ced538693d93e8ce14",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Will Atalanta BC win on 2026-03-22?",
+    "market_slug": "sea-ata-ver-2026-03-22",
+    "amount": 3316.8199950000003
   }
 ]
