@@ -1,121 +1,5 @@
 [
   {
-    "market": "Will Michelle Obama win the 2028 Democratic presidential nomination?",
-    "market_slug": "will-michelle-obama-win-the-2028-democratic-presidential-nomination-777",
-    "wallet": "0x9427bd54dc88e8bc621892fa13098bbafb71a9b2",
-    "analysis": {
-      "score": 85,
-      "flags": [
-        "New wallet (1d old)",
-        "Extreme confidence (99.2% odds)",
-        "Large bet ($3,139)"
-      ],
-      "amount": 3138.809892,
-      "odds": 0.992,
-      "wallet_age_days": 1,
-      "total_activities": 25
-    },
-    "timestamp": "2026-01-24T06:51:52.344272",
-    "trade_hash": "0x647246653468907544a6cb32033d79ad104d76edf2169ef2bd5eff4331f99e6e",
-    "trade_timestamp": 1769237222,
-    "trade_data": {
-      "asset": "107146110974011455665373243296921398136854344089489911087344946921091914123046",
-      "assetId": null,
-      "tokenId": null,
-      "side": "BUY",
-      "outcome": "No",
-      "market": null,
-      "type": null,
-      "status": null,
-      "maker": null,
-      "taker": null,
-      "makerAddress": null,
-      "takerAddress": null,
-      "feeRateBps": null,
-      "price": 0.992,
-      "size": 3164.122875,
-      "amount": 3138.809892
-    }
-  },
-  {
-    "market": "Will Ethereum reach $6,000 in January?",
-    "market_slug": "will-ethereum-reach-6000-in-january-2026",
-    "wallet": "0x377c2c59e5c07b83f8b097693e856576542098be",
-    "analysis": {
-      "score": 95,
-      "flags": [
-        "New wallet (0d old)",
-        "Extreme confidence (99.8% odds)",
-        "Large bet ($9,865)",
-        "Low activity (4 txns)"
-      ],
-      "amount": 9864.55136,
-      "odds": 0.998,
-      "wallet_age_days": 0,
-      "total_activities": 4
-    },
-    "timestamp": "2026-01-24T06:51:53.164369",
-    "trade_hash": "0xde1b303e92af48ca945b5592c5aff0706bd014ad8d95190f3d1b2162280d619c",
-    "trade_timestamp": 1769237192,
-    "trade_data": {
-      "asset": "85314966135663911945383444595070372155331802770649765628594996080163644717023",
-      "assetId": null,
-      "tokenId": null,
-      "side": "SELL",
-      "outcome": "No",
-      "market": null,
-      "type": null,
-      "status": null,
-      "maker": null,
-      "taker": null,
-      "makerAddress": null,
-      "takerAddress": null,
-      "feeRateBps": null,
-      "price": 0.998,
-      "size": 9884.32,
-      "amount": 9864.55136
-    }
-  },
-  {
-    "market": "Will Josh Safdie win Best Director at the 98th Academy Awards?",
-    "market_slug": "will-josh-safdie-win-best-director-at-the-98th-academy-awards",
-    "wallet": "0x4342ca51ddfe25ba121668125c785d8d78a5cfb0",
-    "analysis": {
-      "score": 95,
-      "flags": [
-        "New wallet (0d old)",
-        "Extreme confidence (99.1% odds)",
-        "Large bet ($2,533)",
-        "Low activity (1 txns)"
-      ],
-      "amount": 2532.996,
-      "odds": 0.991,
-      "wallet_age_days": 0,
-      "total_activities": 1
-    },
-    "timestamp": "2026-01-24T07:01:28.591256",
-    "trade_hash": "0x405dccc873126d09ad75965ad9f6eebf8745deb6aa61f69bad0127f5db094e12",
-    "trade_timestamp": 1769237936,
-    "trade_data": {
-      "asset": "96034442295193306734398224254296669772681716356178194014225838729384095243517",
-      "assetId": null,
-      "tokenId": null,
-      "side": "BUY",
-      "outcome": "No",
-      "market": null,
-      "type": null,
-      "status": null,
-      "maker": null,
-      "taker": null,
-      "makerAddress": null,
-      "takerAddress": null,
-      "feeRateBps": null,
-      "price": 0.991,
-      "size": 2556.0,
-      "amount": 2532.996
-    }
-  },
-  {
     "market": "Will Josh Safdie win Best Director at the 98th Academy Awards?",
     "market_slug": "will-josh-safdie-win-best-director-at-the-98th-academy-awards",
     "wallet": "0xcb7a0201e7103a8a8051b9d3ee65fe25cb1b6d5b",
@@ -28333,5 +28217,137 @@
     "market": "Texas Tech Red Raiders vs. Alabama Crimson Tide: O/U 165.5",
     "market_slug": "cbb-txtech-ala-2026-03-22",
     "amount": 3650.0
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x16ba75f91488cf2fa36f4daf2bba4ced284a8741012200001b0a55765e9a4424",
+    "wallet": "0x863134d00841b2e200492805a01e1e2f5defaa53",
+    "trader": {
+      "rank": 6,
+      "address": "0x863134d00841b2e200492805a01e1e2f5defaa53",
+      "username": "RepTrump",
+      "profit": 7532409.671579,
+      "volume": 13983231.103425,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x849b410fc7a902250aa6d2a3f7993f558fd5e7a5",
+      "side": "BUY",
+      "asset": "49079122243198510968414959373457733219664128070398698070551374957467549389777",
+      "conditionId": "0xfb5cc69802663657da33ab2bbc8697f08faea2c57468bde75a1282730b7a7b75",
+      "size": 2518.9393,
+      "price": 0.1984962480040706,
+      "timestamp": 1774267339,
+      "title": "Backpack FDV above $200M one day after launch?",
+      "slug": "backpack-fdv-above-200m-one-day-after-launch-327-787-729-852",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-backpack-launch-a-token-by-k9RMGR8hRwMJ.jpg",
+      "eventSlug": "backpack-fdv-above-one-day-after-launch",
+      "outcome": "No",
+      "outcomeIndex": 1,
+      "name": "evvvvv",
+      "pseudonym": "Negative-Tracksuit",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x16ba75f91488cf2fa36f4daf2bba4ced284a8741012200001b0a55765e9a4424",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Backpack FDV above $200M one day after launch?",
+    "market_slug": "backpack-fdv-above-one-day-after-launch",
+    "amount": 2018.9393
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x7a3c6e62f63d40460f47fdca4f5491ae0f65b59abff8bd7aaa99d8ae81b298cc",
+    "wallet": "0xd0c042c08f755ff940249f62745e82d356345565",
+    "trader": {
+      "rank": 15,
+      "address": "0xd0c042c08f755ff940249f62745e82d356345565",
+      "username": "alexmulti",
+      "profit": 4804855.613376001,
+      "volume": 9949068.653841998,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x0dcf5b49627c5194805bd1af846fd0bd3388c556",
+      "side": "BUY",
+      "asset": "21055190573360289252432522126172833836286579964552859587717109155156751675601",
+      "conditionId": "0xf608bb729492ce81bacff62f60fd364f8c4ef1d6a9c1d057dfb27908d14e8a98",
+      "size": 4905.76,
+      "price": 0.5286836698085515,
+      "timestamp": 1774267641,
+      "title": "Dota 2: PARIVISION vs BetBoom Team - Game 1 Winner",
+      "slug": "dota2-pari-bb4-2026-03-23-game1",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/dota2-7ffacddb21.jpg",
+      "eventSlug": "dota2-pari-bb4-2026-03-23",
+      "outcome": "PARIVISION",
+      "outcomeIndex": 0,
+      "name": "0x0dcf5B49627C5194805bD1AF846Fd0bd3388c556-1769755919166",
+      "pseudonym": "Insignificant-Wrestler",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x7a3c6e62f63d40460f47fdca4f5491ae0f65b59abff8bd7aaa99d8ae81b298cc",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Dota 2: PARIVISION vs BetBoom Team - Game 1 Winner",
+    "market_slug": "dota2-pari-bb4-2026-03-23",
+    "amount": 2593.5951999999997
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x23f79de6fea800d4c653dc7408c0ad9b93c4c96f03492d786d069c799b449204",
+    "wallet": "0xd0c042c08f755ff940249f62745e82d356345565",
+    "trader": {
+      "rank": 15,
+      "address": "0xd0c042c08f755ff940249f62745e82d356345565",
+      "username": "alexmulti",
+      "profit": 4804855.613376001,
+      "volume": 9949068.653841998,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x66fbe4344c1a9f6029a4e40ffd5ca7848e189f72",
+      "side": "BUY",
+      "asset": "21055190573360289252432522126172833836286579964552859587717109155156751675601",
+      "conditionId": "0xf608bb729492ce81bacff62f60fd364f8c4ef1d6a9c1d057dfb27908d14e8a98",
+      "size": 3846.153845,
+      "price": 0.519999999896,
+      "timestamp": 1774267639,
+      "title": "Dota 2: PARIVISION vs BetBoom Team - Game 1 Winner",
+      "slug": "dota2-pari-bb4-2026-03-23-game1",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/dota2-7ffacddb21.jpg",
+      "eventSlug": "dota2-pari-bb4-2026-03-23",
+      "outcome": "PARIVISION",
+      "outcomeIndex": 0,
+      "name": "bobbythedestroyer",
+      "pseudonym": "Incredible-Integer",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x23f79de6fea800d4c653dc7408c0ad9b93c4c96f03492d786d069c799b449204",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Dota 2: PARIVISION vs BetBoom Team - Game 1 Winner",
+    "market_slug": "dota2-pari-bb4-2026-03-23",
+    "amount": 1999.999999
   }
 ]
