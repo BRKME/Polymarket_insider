@@ -1,44 +1,5 @@
 [
   {
-    "market": "Will Josh Safdie win Best Director at the 98th Academy Awards?",
-    "market_slug": "will-josh-safdie-win-best-director-at-the-98th-academy-awards",
-    "wallet": "0xcb7a0201e7103a8a8051b9d3ee65fe25cb1b6d5b",
-    "analysis": {
-      "score": 95,
-      "flags": [
-        "New wallet (0d old)",
-        "Extreme confidence (99.1% odds)",
-        "Large bet ($2,520)",
-        "Low activity (1 txns)"
-      ],
-      "amount": 2520.113,
-      "odds": 0.991,
-      "wallet_age_days": 0,
-      "total_activities": 1
-    },
-    "timestamp": "2026-01-24T07:01:29.283628",
-    "trade_hash": "0xf5861c76de990c4c2b0095840f4db025d552be7ea18dc9646cb793d67fe3bcb8",
-    "trade_timestamp": 1769237932,
-    "trade_data": {
-      "asset": "96034442295193306734398224254296669772681716356178194014225838729384095243517",
-      "assetId": null,
-      "tokenId": null,
-      "side": "BUY",
-      "outcome": "No",
-      "market": null,
-      "type": null,
-      "status": null,
-      "maker": null,
-      "taker": null,
-      "makerAddress": null,
-      "takerAddress": null,
-      "feeRateBps": null,
-      "price": 0.991,
-      "size": 2543.0,
-      "amount": 2520.113
-    }
-  },
-  {
     "market": "Will Bitcoin reach $150,000 in January?",
     "market_slug": "will-bitcoin-reach-150k-in-january-2026",
     "wallet": "0x5eb6ee40d95b945c30ecb79d381ed9974cbdf625",
@@ -28349,5 +28310,110 @@
     "market": "Dota 2: PARIVISION vs BetBoom Team - Game 1 Winner",
     "market_slug": "dota2-pari-bb4-2026-03-23",
     "amount": 1999.999999
+  },
+  {
+    "market": "Thunder vs. 76ers: O/U 225.5",
+    "market_slug": "nba-okc-phi-2026-03-23-total-225pt5",
+    "event_slug": "nba-okc-phi-2026-03-23-total-225pt5",
+    "wallet": "0x9138ea7a8baa81bd3bb403283d3f73c734474dc0",
+    "analysis": {
+      "score": 70,
+      "flags": [
+        "New wallet (0d old)",
+        "Large bet ($1,807)",
+        "Low activity (2 txns)"
+      ],
+      "amount": 1807.44,
+      "odds": 0.51,
+      "raw_price": 0.51,
+      "outcome": "Under",
+      "potential_pnl": 1736.56,
+      "pnl_multiplier": 0.9607843137254901,
+      "wallet_age_days": 0,
+      "total_activities": 2
+    },
+    "timestamp": "2026-03-23T15:17:27.356928",
+    "trade_hash": "0xd8e2610252fa0baad0600140c0fbb134f5a76b6e7c664ee413a4086e38475e3d",
+    "trade_timestamp": 1774278675,
+    "latency": null,
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "Under",
+      "side": "BUY",
+      "price": 0.51,
+      "effective_price": 0.51,
+      "size": 3544.0,
+      "amount": 1807.44,
+      "potential_pnl": 1736.56,
+      "pnl_multiplier": 0.9607843137254901,
+      "is_no": false,
+      "slug": "nba-okc-phi-2026-03-23-total-225pt5",
+      "eventSlug": "nba-okc-phi-2026-03-23"
+    },
+    "irrationality": {
+      "irrationality_score": 35,
+      "flags": [
+        "Large mispricing edge (+26.8%)"
+      ],
+      "category": "sports",
+      "category_info": {
+        "strength": "medium",
+        "typical_overpricing": 0.03,
+        "min_edge": 0.05
+      },
+      "is_irrational": true
+    },
+    "mispricing": {
+      "rational_estimate": 0.242,
+      "market_price": 0.51,
+      "edge": 0.268,
+      "edge_percent": 26.8,
+      "min_edge_required": 0.05,
+      "is_mispriced": true,
+      "edge_quality": "STRONG",
+      "base_rate_class": "common",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "common",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "Both teams score efficiently",
+          "Defensive lapses from both teams",
+          "Favorable officiating leading to free throws"
+        ],
+        "weakest_link": "Favorable officiating leading to free throws"
+      },
+      "category": "sports",
+      "narrative_drivers": [
+        "Recent offensive trends of both teams",
+        "Injury reports affecting key players"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "INSIDER_ONLY",
+      "signal_emoji": "\ud83d\udc41\ufe0f",
+      "signal_strength": 70,
+      "interpretation": "Insider activity detected, no clear mispricing",
+      "action_suggestion": "Monitor: insider signal only, no statistical edge",
+      "insider_score": 70,
+      "insider_position": "UNDER",
+      "irrationality_score": 35,
+      "is_irrational": true,
+      "is_mispriced": true,
+      "edge": 0.268,
+      "edge_percent": 26.8
+    },
+    "financial_analyst": {
+      "signal_quality": 51.0,
+      "stance": "WATCH_ONLY",
+      "edge_percent": 26.8,
+      "signal_strength": 70.0,
+      "insider_score": 70.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    }
   }
 ]
