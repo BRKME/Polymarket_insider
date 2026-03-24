@@ -2,84 +2,6 @@
   {
     "market": "Will Bitcoin dip to $15,000 by December 31, 2026?",
     "market_slug": "will-bitcoin-dip-to-15000-by-december-31-2026",
-    "wallet": "0x68607e31902d77f2f7da3b563ea11dfec19b958a",
-    "analysis": {
-      "score": 95,
-      "flags": [
-        "New wallet (0d old)",
-        "Extreme confidence (96.4% odds)",
-        "Large bet ($5,165)",
-        "Low activity (1 txns)"
-      ],
-      "amount": 5164.99632,
-      "odds": 0.964,
-      "wallet_age_days": 0,
-      "total_activities": 1
-    },
-    "timestamp": "2026-01-24T11:13:22.506461",
-    "trade_hash": "0xd2a08cb7e83c34e320889f683caf6d09fe0da89ff5e2c0cacb40b1aa26705b34",
-    "trade_timestamp": 1769252988,
-    "trade_data": {
-      "asset": "89977007741727017614798848147688321409996583214301844632616973663289014402184",
-      "assetId": null,
-      "tokenId": null,
-      "side": "BUY",
-      "outcome": "No",
-      "market": null,
-      "type": null,
-      "status": null,
-      "maker": null,
-      "taker": null,
-      "makerAddress": null,
-      "takerAddress": null,
-      "feeRateBps": null,
-      "price": 0.964,
-      "size": 5357.88,
-      "amount": 5164.99632
-    }
-  },
-  {
-    "market": "Will Bitcoin dip to $15,000 by December 31, 2026?",
-    "market_slug": "will-bitcoin-dip-to-15000-by-december-31-2026",
-    "wallet": "0xe020ba720da04387e6d4e214d11eb85fef276474",
-    "analysis": {
-      "score": 95,
-      "flags": [
-        "New wallet (0d old)",
-        "Extreme confidence (96.3% odds)",
-        "Large bet ($5,225)",
-        "Low activity (2 txns)"
-      ],
-      "amount": 5224.752530000001,
-      "odds": 0.9625007654315985,
-      "wallet_age_days": 0,
-      "total_activities": 2
-    },
-    "timestamp": "2026-01-24T11:13:38.925213",
-    "trade_hash": "0xc6276f2e0df2d618ec283dadd6cf9b87934fb4830ae25a039e4f4cfe26e06044",
-    "trade_timestamp": 1769252884,
-    "trade_data": {
-      "asset": "89977007741727017614798848147688321409996583214301844632616973663289014402184",
-      "assetId": null,
-      "tokenId": null,
-      "side": "BUY",
-      "outcome": "No",
-      "market": null,
-      "type": null,
-      "status": null,
-      "maker": null,
-      "taker": null,
-      "makerAddress": null,
-      "takerAddress": null,
-      "feeRateBps": null,
-      "price": 0.9625007654315985,
-      "size": 5428.31,
-      "amount": 5224.752530000001
-    }
-  },
-  {
-    "market": "Will Bitcoin dip to $15,000 by December 31, 2026?",
-    "market_slug": "will-bitcoin-dip-to-15000-by-december-31-2026",
     "wallet": "0x38df2c065d78fc2d5ae87661c69bdd0b9f57473c",
     "analysis": {
       "score": 95,
@@ -28855,5 +28777,93 @@
       "insider_score": 80.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
     }
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x283ffe65ea52b2ca697aa8876dedc2b57e0d4397dbdfa897558d6906ac1d04e6",
+    "wallet": "0xd235973291b2b75ff4070e9c0b01728c520b0f29",
+    "trader": {
+      "rank": 5,
+      "address": "0xd235973291b2b75ff4070e9c0b01728c520b0f29",
+      "username": "zxgngl",
+      "profit": 7807265.5892408835,
+      "volume": 40551790.62184699,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xead152b855effa6b5b5837f53b24c0756830c76a",
+      "side": "BUY",
+      "asset": "113783662019454507967720129693467493325825726660314197671673023431409229815202",
+      "conditionId": "0x8d940577f973f2bc329022c4bc00ee63fec79e42e501302138815daa84217228",
+      "size": 4012,
+      "price": 0.4,
+      "timestamp": 1774390691,
+      "title": "Blackhawks vs. Islanders",
+      "slug": "nhl-chi-nyi-2026-03-24",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nhl.png",
+      "eventSlug": "nhl-chi-nyi-2026-03-24",
+      "outcome": "Blackhawks",
+      "outcomeIndex": 0,
+      "name": "elkmonkey",
+      "pseudonym": "Unconscious-Penguin",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x283ffe65ea52b2ca697aa8876dedc2b57e0d4397dbdfa897558d6906ac1d04e6",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Blackhawks vs. Islanders",
+    "market_slug": "nhl-chi-nyi-2026-03-24",
+    "amount": 1604.8000000000002
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x694f7b72027c3f6227b14c1afb528959ada98c12ba221876bf57f3e1a209ae09",
+    "wallet": "0x23786fdad0073692157c6d7dc81f281843a35fcb",
+    "trader": {
+      "rank": 13,
+      "address": "0x23786fdad0073692157c6d7dc81f281843a35fcb",
+      "username": "mikatrade77",
+      "profit": 5147998.544602999,
+      "volume": 10884765.388775002,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x6d3c5bd13984b2de47c3a88ddc455309aab3d294",
+      "side": "SELL",
+      "asset": "16837684648635772950321658735457479320416455305373033538332622156443877105197",
+      "conditionId": "0xb76c2f1129b705f1a880df0050f8650b46970ff7d05f4a865c33b2491412ff50",
+      "size": 3000,
+      "price": 0.54,
+      "timestamp": 1774390989,
+      "title": "Hurricanes vs. Canadiens",
+      "slug": "nhl-car-mon-2026-03-24",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nhl.png",
+      "eventSlug": "nhl-car-mon-2026-03-24",
+      "outcome": "Hurricanes",
+      "outcomeIndex": 0,
+      "name": "VeryLucky888",
+      "pseudonym": "Scornful-West",
+      "bio": "",
+      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-3980992-50a3f24e-e4d8-4388-86ae-d9c063867f3e.webp",
+      "profileImageOptimized": "",
+      "transactionHash": "0x694f7b72027c3f6227b14c1afb528959ada98c12ba221876bf57f3e1a209ae09",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Hurricanes vs. Canadiens",
+    "market_slug": "nhl-car-mon-2026-03-24",
+    "amount": 1620.0
   }
 ]
