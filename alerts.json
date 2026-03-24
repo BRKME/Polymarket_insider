@@ -1,44 +1,5 @@
 [
   {
-    "market": "Will Bitcoin dip to $15,000 by December 31, 2026?",
-    "market_slug": "will-bitcoin-dip-to-15000-by-december-31-2026",
-    "wallet": "0x38df2c065d78fc2d5ae87661c69bdd0b9f57473c",
-    "analysis": {
-      "score": 95,
-      "flags": [
-        "New wallet (0d old)",
-        "Extreme confidence (96.3% odds)",
-        "Large bet ($5,235)",
-        "Low activity (3 txns)"
-      ],
-      "amount": 5235.34806,
-      "odds": 0.9629767079974175,
-      "wallet_age_days": 0,
-      "total_activities": 3
-    },
-    "timestamp": "2026-01-24T11:14:02.141069",
-    "trade_hash": "0x1c39325674b159c42adce2d21ff46af157b923af8263930352a42c0cbaf82a81",
-    "trade_timestamp": 1769252776,
-    "trade_data": {
-      "asset": "89977007741727017614798848147688321409996583214301844632616973663289014402184",
-      "assetId": null,
-      "tokenId": null,
-      "side": "BUY",
-      "outcome": "No",
-      "market": null,
-      "type": null,
-      "status": null,
-      "maker": null,
-      "taker": null,
-      "makerAddress": null,
-      "takerAddress": null,
-      "feeRateBps": null,
-      "price": 0.9629767079974175,
-      "size": 5436.63,
-      "amount": 5235.34806
-    }
-  },
-  {
     "market": "Will Elon Musk post 0-19 tweets from January 27 to February 3, 2026?",
     "market_slug": "elon-musk-of-tweets-january-27-february-3-0-19",
     "wallet": "0x378e6411b87a5e8107f5ef59e9ddd6c0ffe8db77",
@@ -28865,5 +28826,49 @@
     "market": "Hurricanes vs. Canadiens",
     "market_slug": "nhl-car-mon-2026-03-24",
     "amount": 1620.0
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xebc6a66e5652de0f38e89b63e18ab5618c2326fa3a913334d10f460c5baa7492",
+    "wallet": "0xe90bec87d9ef430f27f9dcfe72c34b76967d5da2",
+    "trader": {
+      "rank": 14,
+      "address": "0xe90bec87d9ef430f27f9dcfe72c34b76967d5da2",
+      "username": "gmanas",
+      "profit": 4955661.636137511,
+      "volume": 529047708.505991,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x37c1874a60d348903594a96703e0507c518fc53a",
+      "side": "BUY",
+      "asset": "12418350741378781744860560828146316728362490721342422717268337544338667097601",
+      "conditionId": "0x3e15bfe9a5daabca8e5a56e96e390480015e478fc0ba39241cf0bd6c6d16a89f",
+      "size": 11990.9,
+      "price": 0.55,
+      "timestamp": 1774393089,
+      "title": "Blackhawks vs. Islanders: O/U 6.5",
+      "slug": "nhl-chi-nyi-2026-03-24-total-6pt5",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nhl.png",
+      "eventSlug": "nhl-chi-nyi-2026-03-24",
+      "outcome": "Under",
+      "outcomeIndex": 1,
+      "name": "CemeterySun",
+      "pseudonym": "Pale-Bend",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xebc6a66e5652de0f38e89b63e18ab5618c2326fa3a913334d10f460c5baa7492",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Blackhawks vs. Islanders: O/U 6.5",
+    "market_slug": "nhl-chi-nyi-2026-03-24",
+    "amount": 6594.995
   }
 ]
