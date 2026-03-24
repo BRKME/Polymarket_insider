@@ -1,81 +1,5 @@
 [
   {
-    "market": "Will the Orlando Magic win the 2026 NBA Finals?",
-    "market_slug": "will-the-orlando-magic-win-the-2026-nba-finals",
-    "wallet": "0x8d057087a3dbf956686f0ccfbf30b84f6a46693d",
-    "analysis": {
-      "score": 85,
-      "flags": [
-        "New wallet (1d old)",
-        "Extreme confidence (98.7% odds)",
-        "Large bet ($4,935)"
-      ],
-      "amount": 4935.0,
-      "odds": 0.987,
-      "wallet_age_days": 1,
-      "total_activities": 14
-    },
-    "timestamp": "2026-01-24T09:15:26.679689",
-    "trade_hash": "0x605c36269bc191ab9d69acedfe3bd95bff1546751fb6ce516636129d61d1e7d0",
-    "trade_timestamp": 1769245998,
-    "trade_data": {
-      "asset": "8332314939688900216478864488824055129773277161185304797159692826491772870785",
-      "assetId": null,
-      "tokenId": null,
-      "side": "BUY",
-      "outcome": "No",
-      "market": null,
-      "type": null,
-      "status": null,
-      "maker": null,
-      "taker": null,
-      "makerAddress": null,
-      "takerAddress": null,
-      "feeRateBps": null,
-      "price": 0.987,
-      "size": 5000.0,
-      "amount": 4935.0
-    }
-  },
-  {
-    "market": "Will Bitcoin dip to $15,000 by December 31, 2026?",
-    "market_slug": "will-bitcoin-dip-to-15000-by-december-31-2026",
-    "wallet": "0x8b066ba505947af9c6fcd5d56344b5da5d12b78e",
-    "analysis": {
-      "score": 85,
-      "flags": [
-        "New wallet (0d old)",
-        "Extreme confidence (96.4% odds)",
-        "Large bet ($5,038)"
-      ],
-      "amount": 5038.0014,
-      "odds": 0.9635008462663874,
-      "wallet_age_days": 0,
-      "total_activities": 5
-    },
-    "timestamp": "2026-01-24T09:34:28.879701",
-    "trade_hash": "0x23ca3c0890e15bffadeaefe60cd7a758a22032581ae069cfa3b2c4417fb1e125",
-    "trade_timestamp": 1769247128,
-    "trade_data": {
-      "asset": "89977007741727017614798848147688321409996583214301844632616973663289014402184",
-      "assetId": null,
-      "tokenId": null,
-      "side": "BUY",
-      "outcome": "No",
-      "market": null,
-      "type": null,
-      "status": null,
-      "maker": null,
-      "taker": null,
-      "makerAddress": null,
-      "takerAddress": null,
-      "feeRateBps": null,
-      "price": 0.9635008462663874,
-      "size": 5228.85,
-      "amount": 5038.0014
-    }
-  },
-  {
     "market": "Will Bitcoin reach $150,000 in January?",
     "market_slug": "will-bitcoin-reach-150k-in-january-2026",
     "wallet": "0xed7cf7bcfefa7a7b178c53f49bed09f52ae01b7d",
@@ -28565,5 +28489,154 @@
     "market": "Lakers vs. Pistons",
     "market_slug": "nba-lal-det-2026-03-23",
     "amount": 14288.0129
+  },
+  {
+    "market": "Spread: Nuggets (-5.5)",
+    "market_slug": "nba-den-phx-2026-03-24-spread-away-5pt5",
+    "event_slug": "nba-den-phx-2026-03-24-spread-away-5pt5",
+    "wallet": "0x23727d1fb51bd48d0f5236b10fdca0ef005581c6",
+    "analysis": {
+      "score": 70,
+      "flags": [
+        "New wallet (0d old)",
+        "Large bet ($1,912)",
+        "Low activity (4 txns)"
+      ],
+      "amount": 1911.99,
+      "odds": 0.51,
+      "raw_price": 0.51,
+      "outcome": "Suns",
+      "potential_pnl": 1837.01,
+      "pnl_multiplier": 0.9607843137254902,
+      "wallet_age_days": 0,
+      "total_activities": 4
+    },
+    "timestamp": "2026-03-24T07:40:56.696336",
+    "trade_hash": "0x5784112fc01c91ad030ea05f55fe1839e73b4e14e81fa1e828006bf38a6c3893",
+    "trade_timestamp": 1774337845,
+    "latency": null,
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "Suns",
+      "side": "BUY",
+      "price": 0.51,
+      "effective_price": 0.51,
+      "size": 3749.0,
+      "amount": 1911.99,
+      "potential_pnl": 1837.01,
+      "pnl_multiplier": 0.9607843137254902,
+      "is_no": false,
+      "slug": "nba-den-phx-2026-03-24-spread-away-5pt5",
+      "eventSlug": "nba-den-phx-2026-03-24"
+    },
+    "irrationality": {
+      "irrationality_score": 35,
+      "flags": [
+        "Large mispricing edge (+26.8%)"
+      ],
+      "category": "other",
+      "category_info": {
+        "strength": "medium",
+        "typical_overpricing": 0.03,
+        "min_edge": 0.05
+      },
+      "is_irrational": true
+    },
+    "mispricing": {
+      "rational_estimate": 0.242,
+      "market_price": 0.51,
+      "edge": 0.268,
+      "edge_percent": 26.8,
+      "min_edge_required": 0.05,
+      "is_mispriced": true,
+      "edge_quality": "STRONG",
+      "base_rate_class": "common",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "common",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "Nuggets' key players perform at or above expectations",
+          "Opposing team struggles defensively",
+          "Injury status of key players remains favorable"
+        ],
+        "weakest_link": "Opposing team struggles defensively"
+      },
+      "category": "sports",
+      "narrative_drivers": [
+        "Recent performance trends of the Nuggets",
+        "Injury reports and player availability"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "INSIDER_ONLY",
+      "signal_emoji": "\ud83d\udc41\ufe0f",
+      "signal_strength": 70,
+      "interpretation": "Insider activity detected, no clear mispricing",
+      "action_suggestion": "Monitor: insider signal only, no statistical edge",
+      "insider_score": 70,
+      "insider_position": "SUNS",
+      "irrationality_score": 35,
+      "is_irrational": true,
+      "is_mispriced": true,
+      "edge": 0.268,
+      "edge_percent": 26.8
+    },
+    "financial_analyst": {
+      "signal_quality": 51.0,
+      "stance": "WATCH_ONLY",
+      "edge_percent": 26.8,
+      "signal_strength": 70.0,
+      "insider_score": 70.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    }
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x0d4aebd729fe8192fff15adf814db635d8656d18f99be3a0cbf7b54a447a3d6a",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.515682004,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xa46143136df30aa5583fcd896a7f41e1141b182d",
+      "side": "BUY",
+      "asset": "25856514610130837649380983927848419003326588793008371077788379588860797425932",
+      "conditionId": "0xb7ca42c3a0324b32cad3e64b29cc372d5e941a41f7f23f787806439854be9021",
+      "size": 22350,
+      "price": 0.27,
+      "timestamp": 1774337869,
+      "title": "Will India strike Pakistan by December 31, 2026?",
+      "slug": "will-india-strike-pakistan-by-december-31-2026",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/india-strike-on-pakistan-before-august-x85XQfgodtQ_.jpg",
+      "eventSlug": "india-strike-on-pakistan-by",
+      "outcome": "Yes",
+      "outcomeIndex": 0,
+      "name": "baxian",
+      "pseudonym": "Long-Harald",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x0d4aebd729fe8192fff15adf814db635d8656d18f99be3a0cbf7b54a447a3d6a",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Will India strike Pakistan by December 31, 2026?",
+    "market_slug": "india-strike-on-pakistan-by",
+    "amount": 6034.5
   }
 ]
