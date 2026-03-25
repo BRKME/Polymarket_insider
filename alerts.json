@@ -1,43 +1,5 @@
 [
   {
-    "market": "Will Trump nominate Jerome Powell as the next Fed chair?",
-    "market_slug": "will-trump-nominate-jerome-powell-as-the-next-fed-chair",
-    "wallet": "0xc296d202be038599177daaf127e96d824413c633",
-    "analysis": {
-      "score": 85,
-      "flags": [
-        "New wallet (2d old)",
-        "Extreme confidence (99.8% odds)",
-        "Large bet ($2,001)"
-      ],
-      "amount": 2000.86026,
-      "odds": 0.998,
-      "wallet_age_days": 2,
-      "total_activities": 25
-    },
-    "timestamp": "2026-01-24T13:40:10.416782",
-    "trade_hash": "0xb9ef6e335906b77acc0cc4ad64c0d2d67e7ac3c449ff3221fb60415c87b35041",
-    "trade_timestamp": 1769261946,
-    "trade_data": {
-      "asset": "83835245338776946964312557572556765129893211997427807179516406386114613522003",
-      "assetId": null,
-      "tokenId": null,
-      "side": "SELL",
-      "outcome": "No",
-      "market": null,
-      "type": null,
-      "status": null,
-      "maker": null,
-      "taker": null,
-      "makerAddress": null,
-      "takerAddress": null,
-      "feeRateBps": null,
-      "price": 0.998,
-      "size": 2004.87,
-      "amount": 2000.86026
-    }
-  },
-  {
     "market": "Will there be less than 4 inches of snow in NYC this weekend?",
     "market_slug": "will-there-be-less-than-4-inches-of-snow-in-nyc-this-weekend",
     "wallet": "0x5dc475af30e397289c0daa3eec5efe79dc9399ad",
@@ -29019,5 +28981,120 @@
     "market": "Nuggets vs. Suns",
     "market_slug": "nba-den-phx-2026-03-24",
     "amount": 2956.5885
+  },
+  {
+    "market": "US x Iran ceasefire by March 31?",
+    "market_slug": "us-x-iran-ceasefire-by-march-31",
+    "event_slug": "us-x-iran-ceasefire-by-march-31",
+    "wallet": "0x28845247d3f4085e759668252b0b1152b7a677e7",
+    "analysis": {
+      "score": 110,
+      "flags": [
+        "New wallet (2d old)",
+        "Large bet ($1,302)",
+        "Low activity (2 txns)",
+        "Pre-event latency: 7887m"
+      ],
+      "amount": 1301.8158,
+      "odds": 0.17,
+      "raw_price": 0.17,
+      "outcome": "Yes",
+      "potential_pnl": 6355.9241999999995,
+      "pnl_multiplier": 4.88235294117647,
+      "wallet_age_days": 2,
+      "total_activities": 2
+    },
+    "timestamp": "2026-03-25T12:33:57.608260",
+    "trade_hash": "0x9d46ca8a186f0866e3874083a21dec1c78280f7e5475683fdeaa38957c7ccfc6",
+    "trade_timestamp": 1774441961,
+    "latency": {
+      "latency_seconds": 473239.0,
+      "latency_minutes": 7887.316666666667,
+      "is_pre_event": true,
+      "severity": "CRITICAL",
+      "trade_time": "2026-03-25T12:32:41+00:00",
+      "event_time": "2026-03-31T00:00:00+00:00"
+    },
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "Yes",
+      "side": "SELL",
+      "price": 0.17,
+      "effective_price": 0.17,
+      "size": 7657.74,
+      "amount": 1301.8158,
+      "potential_pnl": 6355.9241999999995,
+      "pnl_multiplier": 4.88235294117647,
+      "is_no": false,
+      "slug": "us-x-iran-ceasefire-by-march-31",
+      "eventSlug": "us-x-iran-ceasefire-by"
+    },
+    "irrationality": {
+      "irrationality_score": 55,
+      "flags": [
+        "Longshot (17%) in high bias category (geopolitics)",
+        "Category structurally prone to longshot bias",
+        "Significant mispricing edge (+11.2%)"
+      ],
+      "category": "geopolitics",
+      "category_info": {
+        "strength": "high",
+        "typical_overpricing": 0.05,
+        "min_edge": 0.05
+      },
+      "is_irrational": true
+    },
+    "mispricing": {
+      "rational_estimate": 0.058,
+      "market_price": 0.17,
+      "edge": 0.11200000000000002,
+      "edge_percent": 11.200000000000001,
+      "min_edge_required": 0.05,
+      "is_mispriced": true,
+      "edge_quality": "STRONG",
+      "base_rate_class": "rare",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "rare",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "Mutual willingness to negotiate from both US and Iran",
+          "Reduction of hostilities and military actions in the region",
+          "Involvement of third-party mediators to facilitate discussions"
+        ],
+        "weakest_link": "Mutual willingness to negotiate from both US and Iran"
+      },
+      "category": "geopolitics",
+      "narrative_drivers": [
+        "International pressure for de-escalation",
+        "Economic sanctions impacting Iran's stability"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "CONFLICT",
+      "signal_emoji": "\u26a0\ufe0f",
+      "signal_strength": 110,
+      "interpretation": "Insider buying YES despite statistical overpricing",
+      "action_suggestion": "Requires manual analysis: insider may have real info OR is part of irrational crowd",
+      "insider_score": 110,
+      "insider_position": "YES",
+      "irrationality_score": 55,
+      "is_irrational": true,
+      "is_mispriced": true,
+      "edge": 0.11200000000000002,
+      "edge_percent": 11.200000000000001
+    },
+    "financial_analyst": {
+      "signal_quality": 47.8,
+      "stance": "WATCH_ONLY",
+      "edge_percent": 11.2,
+      "signal_strength": 110.0,
+      "insider_score": 110.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    }
   }
 ]
