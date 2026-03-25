@@ -1,81 +1,5 @@
 [
   {
-    "market": "Will MrBeast's next video get between 50 and 55 million views on day 1?",
-    "market_slug": "will-mrbeasts-next-video-get-between-50-and-55-million-views-on-day-1-872",
-    "wallet": "0x663ce53cb3331871e5078eec63b865280e0e56e1",
-    "analysis": {
-      "score": 85,
-      "flags": [
-        "New wallet (0d old)",
-        "Extreme confidence (99.6% odds)",
-        "Large bet ($1,759)"
-      ],
-      "amount": 1758.93428,
-      "odds": 0.9963262453127301,
-      "wallet_age_days": 0,
-      "total_activities": 9
-    },
-    "timestamp": "2026-01-24T17:44:52.016048",
-    "trade_hash": "0x2f64b36fd4d37b7d683f09993fa91faf58441bf7e37f0fe29439f0d107fd3e2b",
-    "trade_timestamp": 1769276494,
-    "trade_data": {
-      "asset": "11329644166279394966313899629754958777591704690779153746749471342501751915631",
-      "assetId": null,
-      "tokenId": null,
-      "side": "BUY",
-      "outcome": "No",
-      "market": null,
-      "type": null,
-      "status": null,
-      "maker": null,
-      "taker": null,
-      "makerAddress": null,
-      "takerAddress": null,
-      "feeRateBps": null,
-      "price": 0.9963262453127301,
-      "size": 1765.42,
-      "amount": 1758.93428
-    }
-  },
-  {
-    "market": "LoL: Natus Vincere vs Karmine Corp Blue (BO1) - LEC Versus Regular Season",
-    "market_slug": "lol-navi-kcb-2026-01-24",
-    "wallet": "0xd2951e072504ba7afc33630d63f5d7e11b7d0fe6",
-    "analysis": {
-      "score": 85,
-      "flags": [
-        "New wallet (0d old)",
-        "Extreme confidence (99.9% odds)",
-        "Large bet ($1,718)"
-      ],
-      "amount": 1718.19009,
-      "odds": 0.999,
-      "wallet_age_days": 0,
-      "total_activities": 31
-    },
-    "timestamp": "2026-01-24T17:52:30.942345",
-    "trade_hash": "0xaf6de0448214fac81b8c9d00c52c03d204648435e1062e966195521fcdf5a2d6",
-    "trade_timestamp": 1769276778,
-    "trade_data": {
-      "asset": "3723198023544435355959379067052578578869748782234813085299530992559318241801",
-      "assetId": null,
-      "tokenId": null,
-      "side": "SELL",
-      "outcome": "Natus Vincere",
-      "market": null,
-      "type": null,
-      "status": null,
-      "maker": null,
-      "taker": null,
-      "makerAddress": null,
-      "takerAddress": null,
-      "feeRateBps": null,
-      "price": 0.999,
-      "size": 1719.91,
-      "amount": 1718.19009
-    }
-  },
-  {
     "market": "Caroline Ellison new boyfriend by January 31?",
     "market_slug": "caroline-ellison-new-boyfriend-by-january-31",
     "wallet": "0x32c88e3554a205db32d9918f76b9f777142060c8",
@@ -29434,5 +29358,155 @@
     "market": "Rangers vs. Maple Leafs",
     "market_slug": "nhl-nyr-tor-2026-03-25",
     "amount": 1804.5
+  },
+  {
+    "market": "Russia x Ukraine ceasefire by end of 2026?",
+    "market_slug": "russia-x-ukraine-ceasefire-before-2027",
+    "event_slug": "russia-x-ukraine-ceasefire-before-2027",
+    "wallet": "0x2f47384ca48c7e636017d1606d3a7b26cc98d0b0",
+    "analysis": {
+      "score": 70,
+      "flags": [
+        "New wallet (0d old)",
+        "Large bet ($1,551)",
+        "Low activity (2 txns)"
+      ],
+      "amount": 1550.5074619999998,
+      "odds": 0.3300000000425667,
+      "raw_price": 0.6699999999574333,
+      "outcome": "No",
+      "potential_pnl": 3147.9999980000002,
+      "pnl_multiplier": 2.030303029912152,
+      "wallet_age_days": 0,
+      "total_activities": 2
+    },
+    "timestamp": "2026-03-25T22:59:09.846834",
+    "trade_hash": "0xf9010ec85d8855c60e0b3ee3c0ca106800253cd8a7dc59a027ae138ecbd1a5c8",
+    "trade_timestamp": 1774479153,
+    "latency": null,
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "No",
+      "side": "BUY",
+      "price": 0.6699999999574333,
+      "effective_price": 0.3300000000425667,
+      "size": 4698.50746,
+      "amount": 1550.5074619999998,
+      "potential_pnl": 3147.9999980000002,
+      "pnl_multiplier": 2.030303029912152,
+      "is_no": true,
+      "slug": "russia-x-ukraine-ceasefire-before-2027",
+      "eventSlug": "russia-x-ukraine-ceasefire-before-2027"
+    },
+    "irrationality": {
+      "irrationality_score": 40,
+      "flags": [
+        "Category structurally prone to longshot bias",
+        "Large mispricing edge (+46.4%)"
+      ],
+      "category": "geopolitics",
+      "category_info": {
+        "strength": "high",
+        "typical_overpricing": 0.05,
+        "min_edge": 0.05
+      },
+      "is_irrational": true
+    },
+    "mispricing": {
+      "rational_estimate": 0.20599999999148666,
+      "market_price": 0.6699999999574333,
+      "edge": 0.46399999996594665,
+      "edge_percent": 46.399999996594666,
+      "min_edge_required": 0.05,
+      "is_mispriced": true,
+      "edge_quality": "STRONG",
+      "base_rate_class": "occasional",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "occasional",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "Mutual agreement on key territorial disputes",
+          "Sustained pressure from international mediators",
+          "Internal political stability in both Russia and Ukraine"
+        ],
+        "weakest_link": "Internal political stability in both Russia and Ukraine"
+      },
+      "category": "geopolitics",
+      "narrative_drivers": [
+        "Increased international diplomatic efforts",
+        "Economic pressures on Russia and Ukraine"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "ALPHA",
+      "signal_emoji": "\ud83d\udd25",
+      "signal_strength": 110,
+      "interpretation": "Smart money (NO) confirms YES is overpriced",
+      "action_suggestion": "High conviction: insider + statistics aligned",
+      "insider_score": 70,
+      "insider_position": "NO",
+      "irrationality_score": 40,
+      "is_irrational": true,
+      "is_mispriced": true,
+      "edge": 0.46399999996594665,
+      "edge_percent": 46.399999996594666
+    },
+    "financial_analyst": {
+      "signal_quality": 82.0,
+      "stance": "HIGH_CONVICTION",
+      "edge_percent": 46.4,
+      "signal_strength": 110.0,
+      "insider_score": 70.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    }
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x5a2db242cbb1af5eb322fcfb019d917148e240c3907f313da9c55b1784f0c1e6",
+    "wallet": "0x94f199fb7789f1aef7fff6b758d6b375100f4c7a",
+    "trader": {
+      "rank": 10,
+      "address": "0x94f199fb7789f1aef7fff6b758d6b375100f4c7a",
+      "username": "KeyTransporter",
+      "profit": 5711459.802519929,
+      "volume": 20086062.154324993,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x70e96fe9d8b5d4a0404660d6fbf94b31fc01c6ef",
+      "side": "BUY",
+      "asset": "7612910576717793402991019799791772135256321521836599291298863333468643619461",
+      "conditionId": "0x37e55389468d891e2609c493ce9832bd07e03775f063a346722c1c6dad4dbb9c",
+      "size": 4213.934375,
+      "price": 0.7944831841383386,
+      "timestamp": 1774479825,
+      "title": "Lakers vs. Pacers",
+      "slug": "nba-lal-ind-2026-03-25",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
+      "eventSlug": "nba-lal-ind-2026-03-25",
+      "outcome": "Lakers",
+      "outcomeIndex": 0,
+      "name": "0x7D7",
+      "pseudonym": "Shy-Return",
+      "bio": "\ud83c\udf86",
+      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-5571702-18077944-7f9a-4ee0-b084-eef541a90ec4.webp",
+      "profileImageOptimized": "",
+      "transactionHash": "0x5a2db242cbb1af5eb322fcfb019d917148e240c3907f313da9c55b1784f0c1e6",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Lakers vs. Pacers",
+    "market_slug": "nba-lal-ind-2026-03-25",
+    "amount": 3347.8999999999996
   }
 ]
