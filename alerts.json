@@ -1,43 +1,5 @@
 [
   {
-    "market": "Will Bitcoin reach $150,000 in January?",
-    "market_slug": "will-bitcoin-reach-150k-in-january-2026",
-    "wallet": "0xddf0d09befd28dc4d80352a98afd3bd40cb1428e",
-    "analysis": {
-      "score": 85,
-      "flags": [
-        "New wallet (0d old)",
-        "Extreme confidence (99.8% odds)",
-        "Large bet ($5,156)"
-      ],
-      "amount": 5156.28676,
-      "odds": 0.998,
-      "wallet_age_days": 0,
-      "total_activities": 6
-    },
-    "timestamp": "2026-01-24T12:32:26.594943",
-    "trade_hash": "0x44146912e5558d1b6bc514274a8b2f6b645d29b430efdba2eed30a58f02cbb2e",
-    "trade_timestamp": 1769257646,
-    "trade_data": {
-      "asset": "54504735237306435364688890375581221790556858637843718945838566750916495284821",
-      "assetId": null,
-      "tokenId": null,
-      "side": "SELL",
-      "outcome": "No",
-      "market": null,
-      "type": null,
-      "status": null,
-      "maker": null,
-      "taker": null,
-      "makerAddress": null,
-      "takerAddress": null,
-      "feeRateBps": null,
-      "price": 0.998,
-      "size": 5166.62,
-      "amount": 5156.28676
-    }
-  },
-  {
     "market": "Will Trump nominate Jerome Powell as the next Fed chair?",
     "market_slug": "will-trump-nominate-jerome-powell-as-the-next-fed-chair",
     "wallet": "0xc296d202be038599177daaf127e96d824413c633",
@@ -29013,5 +28975,49 @@
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
     }
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xb71a260eb470c75c7f20718eb32c792353cf058022656b5ca4cb00d32702ca85",
+    "wallet": "0x23786fdad0073692157c6d7dc81f281843a35fcb",
+    "trader": {
+      "rank": 13,
+      "address": "0x23786fdad0073692157c6d7dc81f281843a35fcb",
+      "username": "mikatrade77",
+      "profit": 5147998.544602999,
+      "volume": 10884765.388775,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xd6a3f0ec6c4a8ad680d580610c82ca57ff139489",
+      "side": "BUY",
+      "asset": "23233394988453138676453756568931964683203148302915027263468721213424953033444",
+      "conditionId": "0xbd4c47f29092f81f777211bb56e17a6658e80992fb87db766f679160be3241c3",
+      "size": 3403.36,
+      "price": 0.8687263469042358,
+      "timestamp": 1774414401,
+      "title": "Nuggets vs. Suns",
+      "slug": "nba-den-phx-2026-03-24",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
+      "eventSlug": "nba-den-phx-2026-03-24",
+      "outcome": "Nuggets",
+      "outcomeIndex": 0,
+      "name": "knedloveprovelo",
+      "pseudonym": "Weighty-Rifle",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xb71a260eb470c75c7f20718eb32c792353cf058022656b5ca4cb00d32702ca85",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Nuggets vs. Suns",
+    "market_slug": "nba-den-phx-2026-03-24",
+    "amount": 2956.5885
   }
 ]
