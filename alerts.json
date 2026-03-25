@@ -1,43 +1,5 @@
 [
   {
-    "market": "AFC U23 Final: China vs. Japan",
-    "market_slug": "afc-u23-final-china-vs-japan",
-    "wallet": "0xfcc6892e55831231570854f76aeb521dfec1725e",
-    "analysis": {
-      "score": 85,
-      "flags": [
-        "New wallet (0d old)",
-        "Extreme confidence (99.9% odds)",
-        "Large bet ($1,417)"
-      ],
-      "amount": 1416.93165,
-      "odds": 0.999,
-      "wallet_age_days": 0,
-      "total_activities": 8
-    },
-    "timestamp": "2026-01-24T17:32:33.451852",
-    "trade_hash": "0x298e7594ef4af1e7d3f64feb3b03188bfa904800cdfb64fa150cd57adb665f12",
-    "trade_timestamp": 1769275906,
-    "trade_data": {
-      "asset": "32633627784937800425222620381892177821942626282596460302332787440080250099123",
-      "assetId": null,
-      "tokenId": null,
-      "side": "SELL",
-      "outcome": "Japan",
-      "market": null,
-      "type": null,
-      "status": null,
-      "maker": null,
-      "taker": null,
-      "makerAddress": null,
-      "takerAddress": null,
-      "feeRateBps": null,
-      "price": 0.999,
-      "size": 1418.35,
-      "amount": 1416.93165
-    }
-  },
-  {
     "market": "Will MrBeast's next video get between 50 and 55 million views on day 1?",
     "market_slug": "will-mrbeasts-next-video-get-between-50-and-55-million-views-on-day-1-872",
     "wallet": "0x663ce53cb3331871e5078eec63b865280e0e56e1",
@@ -29428,5 +29390,49 @@
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
     }
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x70c2bdae14f629cc16e48f5f93e4fda1ac33c2cb58c5dabe182f294ddb1db5b8",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.515682004,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xead152b855effa6b5b5837f53b24c0756830c76a",
+      "side": "BUY",
+      "asset": "50181829773967147829359812554458694670840538126923475302035540013208537232772",
+      "conditionId": "0x582c66d505843a09b656d6d120d5616d1004150f9de25e3158b0037ee5104c0d",
+      "size": 4010,
+      "price": 0.45,
+      "timestamp": 1774477125,
+      "title": "Rangers vs. Maple Leafs",
+      "slug": "nhl-nyr-tor-2026-03-25",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nhl.png",
+      "eventSlug": "nhl-nyr-tor-2026-03-25",
+      "outcome": "Maple Leafs",
+      "outcomeIndex": 1,
+      "name": "elkmonkey",
+      "pseudonym": "Unconscious-Penguin",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x70c2bdae14f629cc16e48f5f93e4fda1ac33c2cb58c5dabe182f294ddb1db5b8",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Rangers vs. Maple Leafs",
+    "market_slug": "nhl-nyr-tor-2026-03-25",
+    "amount": 1804.5
   }
 ]
