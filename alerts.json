@@ -2,84 +2,6 @@
   {
     "market": "AFC U23 Final: China vs. Japan",
     "market_slug": "afc-u23-final-china-vs-japan",
-    "wallet": "0xf8fe97d3d9c72eade3491def132cf86b13dcff12",
-    "analysis": {
-      "score": 95,
-      "flags": [
-        "New wallet (0d old)",
-        "Extreme confidence (99.9% odds)",
-        "Large bet ($1,183)",
-        "Low activity (2 txns)"
-      ],
-      "amount": 1183.0257900000001,
-      "odds": 0.999,
-      "wallet_age_days": 0,
-      "total_activities": 2
-    },
-    "timestamp": "2026-01-24T16:47:16.815186",
-    "trade_hash": "0x5e2708654e9303c210ce14d78c14926683dc9646fe4be5e86b518b764e22c90c",
-    "trade_timestamp": 1769273054,
-    "trade_data": {
-      "asset": "32633627784937800425222620381892177821942626282596460302332787440080250099123",
-      "assetId": null,
-      "tokenId": null,
-      "side": "SELL",
-      "outcome": "Japan",
-      "market": null,
-      "type": null,
-      "status": null,
-      "maker": null,
-      "taker": null,
-      "makerAddress": null,
-      "takerAddress": null,
-      "feeRateBps": null,
-      "price": 0.999,
-      "size": 1184.21,
-      "amount": 1183.0257900000001
-    }
-  },
-  {
-    "market": "AFC U23 Final: China vs. Japan",
-    "market_slug": "afc-u23-final-china-vs-japan",
-    "wallet": "0xdc38694dd7759ae68ca8a04437608265db9f9750",
-    "analysis": {
-      "score": 95,
-      "flags": [
-        "New wallet (0d old)",
-        "Extreme confidence (99.9% odds)",
-        "Large bet ($1,314)",
-        "Low activity (2 txns)"
-      ],
-      "amount": 1314.46422,
-      "odds": 0.999,
-      "wallet_age_days": 0,
-      "total_activities": 2
-    },
-    "timestamp": "2026-01-24T16:57:14.866942",
-    "trade_hash": "0xf349765f2b515ce62aa4a5881ea2230daa4bbd2ab4758064e6c870590699787e",
-    "trade_timestamp": 1769273708,
-    "trade_data": {
-      "asset": "32633627784937800425222620381892177821942626282596460302332787440080250099123",
-      "assetId": null,
-      "tokenId": null,
-      "side": "SELL",
-      "outcome": "Japan",
-      "market": null,
-      "type": null,
-      "status": null,
-      "maker": null,
-      "taker": null,
-      "makerAddress": null,
-      "takerAddress": null,
-      "feeRateBps": null,
-      "price": 0.999,
-      "size": 1315.78,
-      "amount": 1314.46422
-    }
-  },
-  {
-    "market": "AFC U23 Final: China vs. Japan",
-    "market_slug": "afc-u23-final-china-vs-japan",
     "wallet": "0xfcc6892e55831231570854f76aeb521dfec1725e",
     "analysis": {
       "score": 85,
@@ -29292,6 +29214,216 @@
       "signal_quality": 51.0,
       "stance": "WATCH_ONLY",
       "edge_percent": 25.2,
+      "signal_strength": 70.0,
+      "insider_score": 70.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    }
+  },
+  {
+    "market": "Hawks vs. Pistons: O/U 228.5",
+    "market_slug": "nba-atl-det-2026-03-25-total-228pt5",
+    "event_slug": "nba-atl-det-2026-03-25-total-228pt5",
+    "wallet": "0x0aa71d328fdafccca7a14d73f339e61685b8aa68",
+    "analysis": {
+      "score": 70,
+      "flags": [
+        "New wallet (0d old)",
+        "Large bet ($1,080)",
+        "Low activity (1 txns)"
+      ],
+      "amount": 1079.5,
+      "odds": 0.5,
+      "raw_price": 0.5,
+      "outcome": "Under",
+      "potential_pnl": 1079.5,
+      "pnl_multiplier": 1.0,
+      "wallet_age_days": 0,
+      "total_activities": 1
+    },
+    "timestamp": "2026-03-25T18:36:34.518926",
+    "trade_hash": "0xaa1327fc15f13d032abba8cb11bce4b5c54b3e90fcfd2f54067129c413f8dce1",
+    "trade_timestamp": 1774463545,
+    "latency": null,
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "Under",
+      "side": "BUY",
+      "price": 0.5,
+      "effective_price": 0.5,
+      "size": 2159.0,
+      "amount": 1079.5,
+      "potential_pnl": 1079.5,
+      "pnl_multiplier": 1.0,
+      "is_no": false,
+      "slug": "nba-atl-det-2026-03-25-total-228pt5",
+      "eventSlug": "nba-atl-det-2026-03-25"
+    },
+    "irrationality": {
+      "irrationality_score": 35,
+      "flags": [
+        "Large mispricing edge (+26.0%)"
+      ],
+      "category": "sports",
+      "category_info": {
+        "strength": "medium",
+        "typical_overpricing": 0.03,
+        "min_edge": 0.05
+      },
+      "is_irrational": true
+    },
+    "mispricing": {
+      "rational_estimate": 0.24,
+      "market_price": 0.5,
+      "edge": 0.26,
+      "edge_percent": 26.0,
+      "min_edge_required": 0.05,
+      "is_mispriced": true,
+      "edge_quality": "STRONG",
+      "base_rate_class": "common",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "common",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "Both teams have high-scoring games",
+          "Key players are healthy and performing well",
+          "Defensive weaknesses are exploited"
+        ],
+        "weakest_link": "Defensive weaknesses are exploited"
+      },
+      "category": "sports",
+      "narrative_drivers": [
+        "Recent scoring trends of both teams",
+        "Injury reports affecting key players"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "INSIDER_ONLY",
+      "signal_emoji": "\ud83d\udc41\ufe0f",
+      "signal_strength": 70,
+      "interpretation": "Insider activity detected, no clear mispricing",
+      "action_suggestion": "Monitor: insider signal only, no statistical edge",
+      "insider_score": 70,
+      "insider_position": "UNDER",
+      "irrationality_score": 35,
+      "is_irrational": true,
+      "is_mispriced": true,
+      "edge": 0.26,
+      "edge_percent": 26.0
+    },
+    "financial_analyst": {
+      "signal_quality": 51.0,
+      "stance": "WATCH_ONLY",
+      "edge_percent": 26.0,
+      "signal_strength": 70.0,
+      "insider_score": 70.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    }
+  },
+  {
+    "market": "Hawks vs. Pistons: O/U 228.5",
+    "market_slug": "nba-atl-det-2026-03-25-total-228pt5",
+    "event_slug": "nba-atl-det-2026-03-25-total-228pt5",
+    "wallet": "0x0e2d7e5fae80ff89c5ddf1f03829f5ab2d3ac099",
+    "analysis": {
+      "score": 70,
+      "flags": [
+        "New wallet (0d old)",
+        "Large bet ($1,490)",
+        "Low activity (2 txns)"
+      ],
+      "amount": 1490.5,
+      "odds": 0.5,
+      "raw_price": 0.5,
+      "outcome": "Under",
+      "potential_pnl": 1490.5,
+      "pnl_multiplier": 1.0,
+      "wallet_age_days": 0,
+      "total_activities": 2
+    },
+    "timestamp": "2026-03-25T18:36:37.518799",
+    "trade_hash": "0x45fe0e33ef13d295daff7a1b27177d1bb053b109d99773921b73bcd1a08582d2",
+    "trade_timestamp": 1774463545,
+    "latency": null,
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "Under",
+      "side": "BUY",
+      "price": 0.5,
+      "effective_price": 0.5,
+      "size": 2981.0,
+      "amount": 1490.5,
+      "potential_pnl": 1490.5,
+      "pnl_multiplier": 1.0,
+      "is_no": false,
+      "slug": "nba-atl-det-2026-03-25-total-228pt5",
+      "eventSlug": "nba-atl-det-2026-03-25"
+    },
+    "irrationality": {
+      "irrationality_score": 35,
+      "flags": [
+        "Large mispricing edge (+26.0%)"
+      ],
+      "category": "sports",
+      "category_info": {
+        "strength": "medium",
+        "typical_overpricing": 0.03,
+        "min_edge": 0.05
+      },
+      "is_irrational": true
+    },
+    "mispricing": {
+      "rational_estimate": 0.24,
+      "market_price": 0.5,
+      "edge": 0.26,
+      "edge_percent": 26.0,
+      "min_edge_required": 0.05,
+      "is_mispriced": true,
+      "edge_quality": "STRONG",
+      "base_rate_class": "common",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "common",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "Both teams have strong offensive performances",
+          "Defensive weaknesses from both teams",
+          "Game pace is fast with high possessions"
+        ],
+        "weakest_link": "Defensive weaknesses from both teams"
+      },
+      "category": "sports",
+      "narrative_drivers": [
+        "Recent scoring trends of both teams",
+        "Injuries affecting key defensive players"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "INSIDER_ONLY",
+      "signal_emoji": "\ud83d\udc41\ufe0f",
+      "signal_strength": 70,
+      "interpretation": "Insider activity detected, no clear mispricing",
+      "action_suggestion": "Monitor: insider signal only, no statistical edge",
+      "insider_score": 70,
+      "insider_position": "UNDER",
+      "irrationality_score": 35,
+      "is_irrational": true,
+      "is_mispriced": true,
+      "edge": 0.26,
+      "edge_percent": 26.0
+    },
+    "financial_analyst": {
+      "signal_quality": 51.0,
+      "stance": "WATCH_ONLY",
+      "edge_percent": 26.0,
       "signal_strength": 70.0,
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
