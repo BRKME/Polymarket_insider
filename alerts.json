@@ -1,44 +1,5 @@
 [
   {
-    "market": "Will Ant\u00f3nio Jos\u00e9 Seguro win the 2026 Portugal presidential election?",
-    "market_slug": "will-antnio-jos-seguro-win-the-2026-portugal-presidential-election",
-    "wallet": "0x3dbb2d2f8814396c9cf192a240f1c8df54dc6fd2",
-    "analysis": {
-      "score": 95,
-      "flags": [
-        "New wallet (0d old)",
-        "Extreme confidence (98.0% odds)",
-        "Large bet ($18,055)",
-        "Low activity (1 txns)"
-      ],
-      "amount": 18055.2064,
-      "odds": 0.98,
-      "wallet_age_days": 0,
-      "total_activities": 1
-    },
-    "timestamp": "2026-01-24T23:00:06.097722",
-    "trade_hash": "0x253f26e9739635ccfc919f8fb0488735d0d5d8eacb6caebc093a6523a2da1e63",
-    "trade_timestamp": 1769295534,
-    "trade_data": {
-      "asset": "16754375222233973989954094649431109282368408854808102040230156977754673841406",
-      "assetId": null,
-      "tokenId": null,
-      "side": "BUY",
-      "outcome": "Yes",
-      "market": null,
-      "type": null,
-      "status": null,
-      "maker": null,
-      "taker": null,
-      "makerAddress": null,
-      "takerAddress": null,
-      "feeRateBps": null,
-      "price": 0.98,
-      "size": 18423.68,
-      "amount": 18055.2064
-    }
-  },
-  {
     "market": "Will Alex Honnold free solo Taipei 101?",
     "market_slug": "will-alex-honnold-free-solo-taipei-101",
     "wallet": "0x1478ce601ad3033bd1f6e5a7bdeae619285e6167",
@@ -29849,6 +29810,111 @@
       "signal_quality": 51.0,
       "stance": "WATCH_ONLY",
       "edge_percent": 26.0,
+      "signal_strength": 70.0,
+      "insider_score": 70.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    }
+  },
+  {
+    "market": "Pelicans vs. Pistons: O/U 225.5",
+    "market_slug": "nba-nop-det-2026-03-26-total-225pt5",
+    "event_slug": "nba-nop-det-2026-03-26-total-225pt5",
+    "wallet": "0xac5a1079c6acd48418550807068a6e11d985933b",
+    "analysis": {
+      "score": 70,
+      "flags": [
+        "New wallet (0d old)",
+        "Large bet ($1,358)",
+        "Low activity (3 txns)"
+      ],
+      "amount": 1358.24,
+      "odds": 0.52,
+      "raw_price": 0.52,
+      "outcome": "Over",
+      "potential_pnl": 1253.76,
+      "pnl_multiplier": 0.923076923076923,
+      "wallet_age_days": 0,
+      "total_activities": 3
+    },
+    "timestamp": "2026-03-26T09:12:23.946758",
+    "trade_hash": "0xd3fb735692770d2648558eae387feb97669eb782125cfa8d0f18ab9bb458745a",
+    "trade_timestamp": 1774516149,
+    "latency": null,
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "Over",
+      "side": "BUY",
+      "price": 0.52,
+      "effective_price": 0.52,
+      "size": 2612.0,
+      "amount": 1358.24,
+      "potential_pnl": 1253.76,
+      "pnl_multiplier": 0.923076923076923,
+      "is_no": false,
+      "slug": "nba-nop-det-2026-03-26-total-225pt5",
+      "eventSlug": "nba-nop-det-2026-03-26"
+    },
+    "irrationality": {
+      "irrationality_score": 35,
+      "flags": [
+        "Large mispricing edge (+27.6%)"
+      ],
+      "category": "sports",
+      "category_info": {
+        "strength": "medium",
+        "typical_overpricing": 0.03,
+        "min_edge": 0.05
+      },
+      "is_irrational": true
+    },
+    "mispricing": {
+      "rational_estimate": 0.244,
+      "market_price": 0.52,
+      "edge": 0.276,
+      "edge_percent": 27.6,
+      "min_edge_required": 0.05,
+      "is_mispriced": true,
+      "edge_quality": "STRONG",
+      "base_rate_class": "common",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "common",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "Both teams have high offensive efficiency",
+          "Both teams have low defensive efficiency",
+          "Game pace is high"
+        ],
+        "weakest_link": "Both teams have low defensive efficiency"
+      },
+      "category": "sports",
+      "narrative_drivers": [
+        "Recent scoring trends of both teams",
+        "Injuries affecting player performance"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "INSIDER_ONLY",
+      "signal_emoji": "\ud83d\udc41\ufe0f",
+      "signal_strength": 70,
+      "interpretation": "Insider activity detected, no clear mispricing",
+      "action_suggestion": "Monitor: insider signal only, no statistical edge",
+      "insider_score": 70,
+      "insider_position": "OVER",
+      "irrationality_score": 35,
+      "is_irrational": true,
+      "is_mispriced": true,
+      "edge": 0.276,
+      "edge_percent": 27.6
+    },
+    "financial_analyst": {
+      "signal_quality": 51.0,
+      "stance": "WATCH_ONLY",
+      "edge_percent": 27.6,
       "signal_strength": 70.0,
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
