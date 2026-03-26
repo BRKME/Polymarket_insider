@@ -1,43 +1,5 @@
 [
   {
-    "market": "Will Alex Honnold free solo Taipei 101?",
-    "market_slug": "will-alex-honnold-free-solo-taipei-101",
-    "wallet": "0x1478ce601ad3033bd1f6e5a7bdeae619285e6167",
-    "analysis": {
-      "score": 85,
-      "flags": [
-        "New wallet (0d old)",
-        "Against trend (6.9% odds)",
-        "Large bet ($1,660)"
-      ],
-      "amount": 1659.84,
-      "odds": 0.06861977651360983,
-      "wallet_age_days": 0,
-      "total_activities": 5
-    },
-    "timestamp": "2026-01-24T23:00:42.224896",
-    "trade_hash": "0xa70d9b8bdc4ce7620e4b766aa48a074ad4a64682fa68eeffacf804506a240158",
-    "trade_timestamp": 1769295306,
-    "trade_data": {
-      "asset": "110181156192693711846310872068146183338589103136220803391073384883714916360200",
-      "assetId": null,
-      "tokenId": null,
-      "side": "BUY",
-      "outcome": "No",
-      "market": null,
-      "type": null,
-      "status": null,
-      "maker": null,
-      "taker": null,
-      "makerAddress": null,
-      "takerAddress": null,
-      "feeRateBps": null,
-      "price": 0.06861977651360983,
-      "size": 24188.945,
-      "amount": 1659.84
-    }
-  },
-  {
     "market": "Will Bitcoin reach $150,000 in January?",
     "market_slug": "will-bitcoin-reach-150k-in-january-2026",
     "wallet": "0xaea22f37c19fcba5262d3d907faaf9818a2a934f",
@@ -29917,6 +29879,120 @@
       "edge_percent": 27.6,
       "signal_strength": 70.0,
       "insider_score": 70.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    }
+  },
+  {
+    "market": "US forces enter Iran by March 31?",
+    "market_slug": "us-forces-enter-iran-by-march-31-222-191-243-517-878",
+    "event_slug": "us-forces-enter-iran-by-march-31-222-191-243-517-878",
+    "wallet": "0x4fd867bf2c76c1e5ade8383a828ba532626cde98",
+    "analysis": {
+      "score": 80,
+      "flags": [
+        "New wallet (3d old)",
+        "Large bet ($1,742)",
+        "Pre-event latency: 6596m"
+      ],
+      "amount": 1741.6655999999998,
+      "odds": 0.24,
+      "raw_price": 0.24,
+      "outcome": "Yes",
+      "potential_pnl": 5515.2744,
+      "pnl_multiplier": 3.166666666666667,
+      "wallet_age_days": 3,
+      "total_activities": 6
+    },
+    "timestamp": "2026-03-26T10:11:07.863679",
+    "trade_hash": "0x7b6708ad19235dab7444cf0bb3803a3e5ede97633061837afb864fccca39f715",
+    "trade_timestamp": 1774519463,
+    "latency": {
+      "latency_seconds": 395737.0,
+      "latency_minutes": 6595.616666666667,
+      "is_pre_event": true,
+      "severity": "CRITICAL",
+      "trade_time": "2026-03-26T10:04:23+00:00",
+      "event_time": "2026-03-31T00:00:00+00:00"
+    },
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "Yes",
+      "side": "SELL",
+      "price": 0.24,
+      "effective_price": 0.24,
+      "size": 7256.94,
+      "amount": 1741.6655999999998,
+      "potential_pnl": 5515.2744,
+      "pnl_multiplier": 3.166666666666667,
+      "is_no": false,
+      "slug": "us-forces-enter-iran-by-march-31-222-191-243-517-878",
+      "eventSlug": "us-forces-enter-iran-by"
+    },
+    "irrationality": {
+      "irrationality_score": 65,
+      "flags": [
+        "Longshot (24%) in high bias category (geopolitics)",
+        "Category structurally prone to longshot bias",
+        "Large mispricing edge (+16.8%)"
+      ],
+      "category": "geopolitics",
+      "category_info": {
+        "strength": "high",
+        "typical_overpricing": 0.05,
+        "min_edge": 0.05
+      },
+      "is_irrational": true
+    },
+    "mispricing": {
+      "rational_estimate": 0.07200000000000001,
+      "market_price": 0.24,
+      "edge": 0.16799999999999998,
+      "edge_percent": 16.799999999999997,
+      "min_edge_required": 0.05,
+      "is_mispriced": true,
+      "edge_quality": "STRONG",
+      "base_rate_class": "rare",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "rare",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "Escalation of regional tensions necessitating military intervention",
+          "Political consensus within the US government for military action",
+          "Support from key allies or international coalitions"
+        ],
+        "weakest_link": "Political consensus within the US government for military action"
+      },
+      "category": "geopolitics",
+      "narrative_drivers": [
+        "Rising threats from Iran's nuclear program",
+        "Influence of domestic political pressures on military decisions"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "CONFLICT",
+      "signal_emoji": "\u26a0\ufe0f",
+      "signal_strength": 80,
+      "interpretation": "Insider buying YES despite statistical overpricing",
+      "action_suggestion": "Requires manual analysis: insider may have real info OR is part of irrational crowd",
+      "insider_score": 80,
+      "insider_position": "YES",
+      "irrationality_score": 65,
+      "is_irrational": true,
+      "is_mispriced": true,
+      "edge": 0.16799999999999998,
+      "edge_percent": 16.799999999999997
+    },
+    "financial_analyst": {
+      "signal_quality": 54.0,
+      "stance": "WATCH_ONLY",
+      "edge_percent": 16.8,
+      "signal_strength": 80.0,
+      "insider_score": 80.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
     }
   }
