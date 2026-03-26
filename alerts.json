@@ -1,159 +1,5 @@
 [
   {
-    "market": "Zama auction clearing price above $0.04?",
-    "market_slug": "zama-auction-clearing-price-above-0pt04",
-    "wallet": "0x25689cce25bedd91c4deffe12d19b2dc568451d3",
-    "analysis": {
-      "score": 85,
-      "flags": [
-        "New wallet (0d old)",
-        "Extreme confidence (97.5% odds)",
-        "Large bet ($1,551)"
-      ],
-      "amount": 1550.7430000000002,
-      "odds": 0.9753836767554784,
-      "wallet_age_days": 0,
-      "total_activities": 7
-    },
-    "timestamp": "2026-01-25T04:36:29.066388",
-    "trade_hash": "0xc8708d1e097933ab645908eb0173d56372005286a458568b815b0dc5a4770af7",
-    "trade_timestamp": 1769315658,
-    "trade_data": {
-      "asset": "75708158412677585226677422198604829899112573674583007200556310906275153671201",
-      "assetId": null,
-      "tokenId": null,
-      "side": "SELL",
-      "outcome": "Yes",
-      "market": null,
-      "type": null,
-      "status": null,
-      "maker": null,
-      "taker": null,
-      "makerAddress": null,
-      "takerAddress": null,
-      "feeRateBps": null,
-      "price": 0.9753836767554784,
-      "size": 1589.88,
-      "amount": 1550.7430000000002
-    }
-  },
-  {
-    "market": "Will Napoli win the 2025\u201326 Champions League?",
-    "market_slug": "will-napoli-win-the-202526-champions-league",
-    "wallet": "0x5bed27224f60753726cd9f7c07d7d264b4e5f0d4",
-    "analysis": {
-      "score": 95,
-      "flags": [
-        "New wallet (1d old)",
-        "Extreme confidence (99.6% odds)",
-        "Large bet ($4,979)",
-        "Low activity (3 txns)"
-      ],
-      "amount": 4979.004,
-      "odds": 0.996,
-      "wallet_age_days": 1,
-      "total_activities": 3
-    },
-    "timestamp": "2026-01-25T05:07:00.136136",
-    "trade_hash": "0x06e98c4e5cec192e02c7895f5fce07112165745f148e85cfcde95cb390b68807",
-    "trade_timestamp": 1769317184,
-    "trade_data": {
-      "asset": "113753834420626426489086669834410871414747105447808165698067606682083475322079",
-      "assetId": null,
-      "tokenId": null,
-      "side": "BUY",
-      "outcome": "No",
-      "market": null,
-      "type": null,
-      "status": null,
-      "maker": null,
-      "taker": null,
-      "makerAddress": null,
-      "takerAddress": null,
-      "feeRateBps": null,
-      "price": 0.996,
-      "size": 4999.0,
-      "amount": 4979.004
-    }
-  },
-  {
-    "market": "UFC 324: Gaethje vs. Pimblett (Lightweight, Main Card)",
-    "market_slug": "ufc-jus3-pad-2026-01-24",
-    "wallet": "0x6b5d8c0202c0c9bd19f842823441943f9e7a8ebb",
-    "analysis": {
-      "score": 85,
-      "flags": [
-        "New wallet (0d old)",
-        "Extreme confidence (99.9% odds)",
-        "Large bet ($7,053)"
-      ],
-      "amount": 7053.42951,
-      "odds": 0.999,
-      "wallet_age_days": 0,
-      "total_activities": 8
-    },
-    "timestamp": "2026-01-25T05:38:35.714968",
-    "trade_hash": "0x07a3ee49c458a2a58114c825fc3f39397acdfbbb58fd28e130bb74b6e6f2e531",
-    "trade_timestamp": 1769319356,
-    "trade_data": {
-      "asset": "60383033611346737815653700469552352128982256937312621916490618416556126633272",
-      "assetId": null,
-      "tokenId": null,
-      "side": "SELL",
-      "outcome": "Gaethje",
-      "market": null,
-      "type": null,
-      "status": null,
-      "maker": null,
-      "taker": null,
-      "makerAddress": null,
-      "takerAddress": null,
-      "feeRateBps": null,
-      "price": 0.999,
-      "size": 7060.49,
-      "amount": 7053.42951
-    }
-  },
-  {
-    "market": "UFC 324: Gaethje vs. Pimblett (Lightweight, Main Card)",
-    "market_slug": "ufc-jus3-pad-2026-01-24",
-    "wallet": "0x22489e8348070b70fc920bcd645595abec1acad0",
-    "analysis": {
-      "score": 95,
-      "flags": [
-        "New wallet (0d old)",
-        "Extreme confidence (99.9% odds)",
-        "Large bet ($4,038)",
-        "Low activity (4 txns)"
-      ],
-      "amount": 4037.58837,
-      "odds": 0.999,
-      "wallet_age_days": 0,
-      "total_activities": 4
-    },
-    "timestamp": "2026-01-25T05:38:49.744945",
-    "trade_hash": "0x6288a787468f51347bc5e09335491e8901f8dd81fe9ce5a98c03abeeae5dda39",
-    "trade_timestamp": 1769319296,
-    "trade_data": {
-      "asset": "60383033611346737815653700469552352128982256937312621916490618416556126633272",
-      "assetId": null,
-      "tokenId": null,
-      "side": "SELL",
-      "outcome": "Gaethje",
-      "market": null,
-      "type": null,
-      "status": null,
-      "maker": null,
-      "taker": null,
-      "makerAddress": null,
-      "takerAddress": null,
-      "feeRateBps": null,
-      "price": 0.999,
-      "size": 4041.63,
-      "amount": 4037.58837
-    }
-  },
-  {
     "market": "UFC 324: Gaethje vs. Pimblett (Lightweight, Main Card)",
     "market_slug": "ufc-jus3-pad-2026-01-24",
     "wallet": "0xa70e50fbe0ae95d22cbb1fd9b7551fcdcca8709f",
@@ -30075,5 +29921,242 @@
     "market": "US x Iran ceasefire by June 30?",
     "market_slug": "us-x-iran-ceasefire-by",
     "amount": 6124.8064
+  },
+  {
+    "market": "Will the next Prime Minister of Hungary be Viktor Orb\u00e1n?",
+    "market_slug": "will-the-next-prime-minister-of-hungary-be-viktor-orbn",
+    "event_slug": "will-the-next-prime-minister-of-hungary-be-viktor-orbn",
+    "wallet": "0xc6c1645421c076d26bf117f8960553ede1fc3a9d",
+    "analysis": {
+      "score": 70,
+      "flags": [
+        "New wallet (0d old)",
+        "Large bet ($4,001)",
+        "Low activity (1 txns)"
+      ],
+      "amount": 4000.959999,
+      "odds": 0.38221443099849767,
+      "raw_price": 0.38221443099849767,
+      "outcome": "Yes",
+      "potential_pnl": 6466.881282,
+      "pnl_multiplier": 1.6163324011278124,
+      "wallet_age_days": 0,
+      "total_activities": 1
+    },
+    "timestamp": "2026-03-26T21:16:47.024644",
+    "trade_hash": "0x8acaa07487b74ddb432331f8604454134f4621474877bfc48d93d5f7749587bc",
+    "trade_timestamp": 1774559481,
+    "latency": null,
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "Yes",
+      "side": "BUY",
+      "price": 0.38221443099849767,
+      "effective_price": 0.38221443099849767,
+      "size": 10467.841281,
+      "amount": 4000.959999,
+      "potential_pnl": 6466.881282,
+      "pnl_multiplier": 1.6163324011278124,
+      "is_no": false,
+      "slug": "will-the-next-prime-minister-of-hungary-be-viktor-orbn",
+      "eventSlug": "next-prime-minister-of-hungary"
+    },
+    "irrationality": {
+      "irrationality_score": 35,
+      "flags": [
+        "Large mispricing edge (+16.6%)"
+      ],
+      "category": "other",
+      "category_info": {
+        "strength": "medium",
+        "typical_overpricing": 0.03,
+        "min_edge": 0.05
+      },
+      "is_irrational": true
+    },
+    "mispricing": {
+      "rational_estimate": 0.21644288619969954,
+      "market_price": 0.38221443099849767,
+      "edge": 0.16577154479879813,
+      "edge_percent": 16.577154479879812,
+      "min_edge_required": 0.03,
+      "is_mispriced": true,
+      "edge_quality": "STRONG",
+      "base_rate_class": "common",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "common",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "Viktor Orb\u00e1n secures the nomination from his party",
+          "Orb\u00e1n maintains significant public support leading up to the next election",
+          "No major political scandals or crises arise that undermine his position"
+        ],
+        "weakest_link": "Orb\u00e1n's public support could wane due to economic issues or political scandals"
+      },
+      "category": "politics_near",
+      "narrative_drivers": [
+        "Orb\u00e1n's long-standing leadership and political experience",
+        "The current political climate and opposition strength"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "CONFLICT",
+      "signal_emoji": "\u26a0\ufe0f",
+      "signal_strength": 70,
+      "interpretation": "Insider buying YES despite statistical overpricing",
+      "action_suggestion": "Requires manual analysis: insider may have real info OR is part of irrational crowd",
+      "insider_score": 70,
+      "insider_position": "YES",
+      "irrationality_score": 35,
+      "is_irrational": true,
+      "is_mispriced": true,
+      "edge": 0.16577154479879813,
+      "edge_percent": 16.577154479879812
+    },
+    "financial_analyst": {
+      "signal_quality": 45.9,
+      "stance": "WATCH_ONLY",
+      "edge_percent": 16.58,
+      "signal_strength": 70.0,
+      "insider_score": 70.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    }
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x8f4f6abd7ab34d0bc56c1129f26cbc0df352910632eca5f2c4a16d18fb89d645",
+    "wallet": "0x23786fdad0073692157c6d7dc81f281843a35fcb",
+    "trader": {
+      "rank": 13,
+      "address": "0x23786fdad0073692157c6d7dc81f281843a35fcb",
+      "username": "mikatrade77",
+      "profit": 5147998.544602999,
+      "volume": 10884765.388774998,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x7b02b2bac2a30ed5e40b7094e734f4c3dc2a4991",
+      "side": "BUY",
+      "asset": "95949957895141858444199258452803633110472396604599808168788254125381075552218",
+      "conditionId": "0x9352c559e9648ab4cab236087b64ca85c5b7123a4c7d9d7d4efde4a39c18056f",
+      "size": 69420,
+      "price": 0.78,
+      "timestamp": 1774560257,
+      "title": "Will the Iranian regime fall by June 30?",
+      "slug": "will-the-iranian-regime-fall-by-june-30",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-the-iranian-regime-fall-in-2025-YLXIniTmQs4q.png",
+      "eventSlug": "will-the-iranian-regime-fall-by-june-30",
+      "outcome": "No",
+      "outcomeIndex": 1,
+      "name": "foodenjoyer",
+      "pseudonym": "Similar-Balloonist",
+      "bio": "",
+      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-5560611-d85e5215-b379-4aef-a93c-e95b42d9dcbd.webp",
+      "profileImageOptimized": "",
+      "transactionHash": "0x8f4f6abd7ab34d0bc56c1129f26cbc0df352910632eca5f2c4a16d18fb89d645",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Will the Iranian regime fall by June 30?",
+    "market_slug": "will-the-iranian-regime-fall-by-june-30",
+    "amount": 15272.399999999998
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xf212972a4b596bdecf1f0c0d3ddaab2e47d84d4935b82352dcef75d2374cb35b",
+    "wallet": "0x23786fdad0073692157c6d7dc81f281843a35fcb",
+    "trader": {
+      "rank": 13,
+      "address": "0x23786fdad0073692157c6d7dc81f281843a35fcb",
+      "username": "mikatrade77",
+      "profit": 5147998.544602999,
+      "volume": 10884765.388774998,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x6b09bc94d5742e2e76bc8e49605f101264692c43",
+      "side": "BUY",
+      "asset": "73468542564971447011632749901887590248473823547291538411904156367732432599020",
+      "conditionId": "0x5f0200e04c4d30da580bb997a8437e4f25675b7c93c8aba4ca6da0fe11a0a816",
+      "size": 4368.91,
+      "price": 0.52,
+      "timestamp": 1774560257,
+      "title": "Poland vs. Albania: O/U 3.5",
+      "slug": "uef-pol-alb-2026-03-26-total-3pt5",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/uef.png",
+      "eventSlug": "uef-pol-alb-2026-03-26-more-markets",
+      "outcome": "Under",
+      "outcomeIndex": 1,
+      "name": "us98",
+      "pseudonym": "Giant-Effort",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xf212972a4b596bdecf1f0c0d3ddaab2e47d84d4935b82352dcef75d2374cb35b",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Poland vs. Albania: O/U 3.5",
+    "market_slug": "uef-pol-alb-2026-03-26-more-markets",
+    "amount": 2271.8332
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x22d98ed7a790e3d9aeff7696918d5a56694c8b8f8199aa035a7167d2ac08c5c8",
+    "wallet": "0x23786fdad0073692157c6d7dc81f281843a35fcb",
+    "trader": {
+      "rank": 13,
+      "address": "0x23786fdad0073692157c6d7dc81f281843a35fcb",
+      "username": "mikatrade77",
+      "profit": 5147998.544602999,
+      "volume": 10884765.388774998,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xdbdd45150249e229eb4ca8aa48a30dca21faa5de",
+      "side": "BUY",
+      "asset": "73468542564971447011632749901887590248473823547291538411904156367732432599020",
+      "conditionId": "0x5f0200e04c4d30da580bb997a8437e4f25675b7c93c8aba4ca6da0fe11a0a816",
+      "size": 5788.192306,
+      "price": 0.5199999999792682,
+      "timestamp": 1774560257,
+      "title": "Poland vs. Albania: O/U 3.5",
+      "slug": "uef-pol-alb-2026-03-26-total-3pt5",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/uef.png",
+      "eventSlug": "uef-pol-alb-2026-03-26-more-markets",
+      "outcome": "Under",
+      "outcomeIndex": 1,
+      "name": "0xdbdd45150249e229eB4cA8aa48A30Dca21Faa5de-1757094771846",
+      "pseudonym": "Vigilant-Environment",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x22d98ed7a790e3d9aeff7696918d5a56694c8b8f8199aa035a7167d2ac08c5c8",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Poland vs. Albania: O/U 3.5",
+    "market_slug": "uef-pol-alb-2026-03-26-more-markets",
+    "amount": 3009.8599990000002
   }
 ]
