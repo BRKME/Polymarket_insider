@@ -1,41 +1,5 @@
 [
   {
-    "market": "Will Apple be the largest company in the world by market cap on January 31?",
-    "market_slug": "will-apple-be-the-largest-company-in-the-world-by-market-cap-on-january-31-756",
-    "wallet": "0x81ef7007da744a1dd3d1afd96d82af52ba868eaa",
-    "analysis": {
-      "score": 85,
-      "flags": [
-        "Extreme confidence (99.8% odds)",
-        "Large bet ($1,111)",
-        "Pre-event latency: 6987m"
-      ],
-      "amount": 1110.68418,
-      "odds": 0.998,
-      "wallet_age_days": 34,
-      "total_activities": 100
-    },
-    "timestamp": "2026-01-26T03:35:09.381006",
-    "trade_hash": "0x779e79fc6b5e90b0d3332dd70fb0ac58d3d9bb2f8b2e260722de9a1fbde5ef31",
-    "trade_timestamp": 1769398404,
-    "latency": {
-      "latency_seconds": 419196.0,
-      "latency_minutes": 6986.6,
-      "is_pre_event": true,
-      "severity": "CRITICAL",
-      "trade_time": "2026-01-26T03:33:24+00:00",
-      "event_time": "2026-01-31T00:00:00+00:00"
-    },
-    "wallet_stats": null,
-    "trade_data": {
-      "outcome": "No",
-      "side": "SELL",
-      "price": 0.998,
-      "size": 1112.91,
-      "amount": 1110.68418
-    }
-  },
-  {
     "market": "Will NVIDIA be the largest company in the world by market cap on January 31?",
     "market_slug": "will-nvidia-be-the-largest-company-in-the-world-by-market-cap-on-january-31-985",
     "wallet": "0x25a7fcfe11abd6ae873148584fa3e1b6aa98a4c8",
@@ -30831,5 +30795,49 @@
     "market": "Bulls vs. Thunder",
     "market_slug": "nba-chi-okc-2026-03-27",
     "amount": 1674.909983
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x3b01d9f93bee353a0e909d4f863c6d399a9ef0e3600983e7e9055bb8c55838ea",
+    "wallet": "0x1f2dd6d473f3e824cd2f8a89d9c69fb96f6ad0cf",
+    "trader": {
+      "rank": 2,
+      "address": "0x1f2dd6d473f3e824cd2f8a89d9c69fb96f6ad0cf",
+      "username": "Fredi9999",
+      "profit": 16619506.631730152,
+      "volume": 76611316.905154,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xf9fe29004c5a905c7b78bbb930ac57feea67366b",
+      "side": "BUY",
+      "asset": "65503641970158136703516259292243467669354193972901151416267326116001014725196",
+      "conditionId": "0x891e9e5612fb38538cfc8e972e8298f51112d78817f73fbfa73d55f5a2a9b477",
+      "size": 2318,
+      "price": 0.76,
+      "timestamp": 1774653593,
+      "title": "St. John's Red Storm vs. Duke Blue Devils",
+      "slug": "cbb-stjohn-duke-2026-03-27",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/ncaa-c14995df96.png",
+      "eventSlug": "cbb-stjohn-duke-2026-03-27",
+      "outcome": "Duke Blue Devils",
+      "outcomeIndex": 1,
+      "name": "CanadianGoose",
+      "pseudonym": "Blond-Alliance",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x3b01d9f93bee353a0e909d4f863c6d399a9ef0e3600983e7e9055bb8c55838ea",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "St. John's Red Storm vs. Duke Blue Devils",
+    "market_slug": "cbb-stjohn-duke-2026-03-27",
+    "amount": 1761.68
   }
 ]
