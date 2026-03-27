@@ -1,43 +1,5 @@
 [
   {
-    "market": "Will the Miami Heat win the 2026 NBA Finals?",
-    "market_slug": "will-the-miami-heat-win-the-2026-nba-finals",
-    "wallet": "0xa464f85f415ec7925b2bc11a9ccd064553045a0e",
-    "analysis": {
-      "score": 85,
-      "flags": [
-        "New wallet (1d old)",
-        "Extreme confidence (98.5% odds)",
-        "Large bet ($4,728)"
-      ],
-      "amount": 4728.0,
-      "odds": 0.985,
-      "wallet_age_days": 1,
-      "total_activities": 19
-    },
-    "timestamp": "2026-01-25T09:55:01.387223",
-    "trade_hash": "0x5f2b9f07264a5db319363418f272ea0864b13976faf21c2b879e867159bd7f3f",
-    "trade_timestamp": 1769334602,
-    "trade_data": {
-      "asset": "15377800909339117478848654529132462257649986576758444132279677343865329475931",
-      "assetId": null,
-      "tokenId": null,
-      "side": "BUY",
-      "outcome": "No",
-      "market": null,
-      "type": null,
-      "status": null,
-      "maker": null,
-      "taker": null,
-      "makerAddress": null,
-      "takerAddress": null,
-      "feeRateBps": null,
-      "price": 0.985,
-      "size": 4800.0,
-      "amount": 4728.0
-    }
-  },
-  {
     "market": "Will Burnley win the 2025\u201326 English Premier League?",
     "market_slug": "will-burnley-win-the-202526-english-premier-league",
     "wallet": "0x8253c71cd441f71eb20b6ff788bc6f9d506d5ed1",
@@ -30340,5 +30302,110 @@
     "market": "Illinois Fighting Illini vs. Houston Cougars",
     "market_slug": "cbb-ill-hou-2026-03-26",
     "amount": 1877.28992
+  },
+  {
+    "market": "Spread: Lakers (-16.5)",
+    "market_slug": "nba-bkn-lal-2026-03-27-spread-home-16pt5",
+    "event_slug": "nba-bkn-lal-2026-03-27-spread-home-16pt5",
+    "wallet": "0x59f0d813b79133a40d0b58902f0b50bf30776ca0",
+    "analysis": {
+      "score": 70,
+      "flags": [
+        "New wallet (0d old)",
+        "Large bet ($5,970)",
+        "Low activity (1 txns)"
+      ],
+      "amount": 5970.0,
+      "odds": 0.4920382523889199,
+      "raw_price": 0.4920382523889199,
+      "outcome": "Lakers",
+      "potential_pnl": 6163.2029999999995,
+      "pnl_multiplier": 1.032362311557789,
+      "wallet_age_days": 0,
+      "total_activities": 1
+    },
+    "timestamp": "2026-03-27T06:44:09.882901",
+    "trade_hash": "0xf98e732a0cc5dc8909752627adc6af9c2732f70a4b1902ad82fa2e3b4ad17caa",
+    "trade_timestamp": 1774593397,
+    "latency": null,
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "Lakers",
+      "side": "BUY",
+      "price": 0.4920382523889199,
+      "effective_price": 0.4920382523889199,
+      "size": 12133.203,
+      "amount": 5970.0,
+      "potential_pnl": 6163.2029999999995,
+      "pnl_multiplier": 1.032362311557789,
+      "is_no": false,
+      "slug": "nba-bkn-lal-2026-03-27-spread-home-16pt5",
+      "eventSlug": "nba-bkn-lal-2026-03-27"
+    },
+    "irrationality": {
+      "irrationality_score": 35,
+      "flags": [
+        "Large mispricing edge (+25.4%)"
+      ],
+      "category": "other",
+      "category_info": {
+        "strength": "medium",
+        "typical_overpricing": 0.03,
+        "min_edge": 0.05
+      },
+      "is_irrational": true
+    },
+    "mispricing": {
+      "rational_estimate": 0.23840765047778398,
+      "market_price": 0.4920382523889199,
+      "edge": 0.25363060191113596,
+      "edge_percent": 25.363060191113597,
+      "min_edge_required": 0.05,
+      "is_mispriced": true,
+      "edge_quality": "STRONG",
+      "base_rate_class": "common",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "common",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "Lakers perform exceptionally well in the game",
+          "Opponent team underperforms significantly",
+          "Key players for the Lakers remain healthy"
+        ],
+        "weakest_link": "Opponent team underperforms significantly"
+      },
+      "category": "sports",
+      "narrative_drivers": [
+        "Lakers' recent performance trends",
+        "Injury reports of key players"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "INSIDER_ONLY",
+      "signal_emoji": "\ud83d\udc41\ufe0f",
+      "signal_strength": 70,
+      "interpretation": "Insider activity detected, no clear mispricing",
+      "action_suggestion": "Monitor: insider signal only, no statistical edge",
+      "insider_score": 70,
+      "insider_position": "LAKERS",
+      "irrationality_score": 35,
+      "is_irrational": true,
+      "is_mispriced": true,
+      "edge": 0.25363060191113596,
+      "edge_percent": 25.363060191113597
+    },
+    "financial_analyst": {
+      "signal_quality": 51.0,
+      "stance": "WATCH_ONLY",
+      "edge_percent": 25.36,
+      "signal_strength": 70.0,
+      "insider_score": 70.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    }
   }
 ]
