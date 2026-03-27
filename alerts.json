@@ -1,120 +1,5 @@
 [
   {
-    "market": "Will Tulsi Gabbard win the 2028 Republican presidential nomination?",
-    "market_slug": "will-tulsi-gabbard-win-the-2028-republican-presidential-nomination",
-    "wallet": "0xc74d14f0ca97dcad139a346cea4235a9d0d8ad56",
-    "analysis": {
-      "score": 85,
-      "flags": [
-        "New wallet (2d old)",
-        "Extreme confidence (99.3% odds)",
-        "Large bet ($3,576)"
-      ],
-      "amount": 3576.41859,
-      "odds": 0.993,
-      "wallet_age_days": 2,
-      "total_activities": 29
-    },
-    "timestamp": "2026-01-25T07:58:23.598934",
-    "trade_hash": "0x4543392eb36305b23b82bdc7ab25508bb7b6f7bdfc59ba941166169722e1f44e",
-    "trade_timestamp": 1769327618,
-    "trade_data": {
-      "asset": "72519808073108999474312955064075820476359073658026830985534265136852842710652",
-      "assetId": null,
-      "tokenId": null,
-      "side": "SELL",
-      "outcome": "No",
-      "market": null,
-      "type": null,
-      "status": null,
-      "maker": null,
-      "taker": null,
-      "makerAddress": null,
-      "takerAddress": null,
-      "feeRateBps": null,
-      "price": 0.993,
-      "size": 3601.63,
-      "amount": 3576.41859
-    }
-  },
-  {
-    "market": "Australian Open Men's: Alexander Zverev vs Francisco Cerundolo",
-    "market_slug": "atp-zverev-cerundo-2026-01-25",
-    "wallet": "0x83a046a3893cbbff01494654fe8a67c11ef3165d",
-    "analysis": {
-      "score": 85,
-      "flags": [
-        "New wallet (2d old)",
-        "Extreme confidence (99.9% odds)",
-        "Large bet ($9,990)"
-      ],
-      "amount": 9990.0,
-      "odds": 0.999,
-      "wallet_age_days": 2,
-      "total_activities": 100
-    },
-    "timestamp": "2026-01-25T08:45:52.026969",
-    "trade_hash": "0x904c147ae8f841bbace1fedcbfb81a5a3beff9fe317272fe89501aac0d5d8b1a",
-    "trade_timestamp": 1769330480,
-    "trade_data": {
-      "asset": "111095414058944870309128929814763982573930624195150566486148122519674659995864",
-      "assetId": null,
-      "tokenId": null,
-      "side": "SELL",
-      "outcome": "Zverev",
-      "market": null,
-      "type": null,
-      "status": null,
-      "maker": null,
-      "taker": null,
-      "makerAddress": null,
-      "takerAddress": null,
-      "feeRateBps": null,
-      "price": 0.999,
-      "size": 10000.0,
-      "amount": 9990.0
-    }
-  },
-  {
-    "market": "LoL: T1 vs BNK FEARX (BO3) - LCK Cup Group Stage",
-    "market_slug": "lol-t1-fox1-2026-01-25",
-    "wallet": "0x9772c6029eaa741bb85bca698fecbbc49aab4867",
-    "analysis": {
-      "score": 95,
-      "flags": [
-        "New wallet (0d old)",
-        "Extreme confidence (95.2% odds)",
-        "Large bet ($1,059)",
-        "Low activity (1 txns)"
-      ],
-      "amount": 1059.4599879999998,
-      "odds": 0.9521691835319468,
-      "wallet_age_days": 0,
-      "total_activities": 1
-    },
-    "timestamp": "2026-01-25T09:17:06.104517",
-    "trade_hash": "0x5e233113980764b9288749b9eddd3f793730d3d0cd3968534c06ec3c5e04011e",
-    "trade_timestamp": 1769332370,
-    "trade_data": {
-      "asset": "35706489463905798377206276908448279262252632810990716119761574211765419066022",
-      "assetId": null,
-      "tokenId": null,
-      "side": "BUY",
-      "outcome": "T1",
-      "market": null,
-      "type": null,
-      "status": null,
-      "maker": null,
-      "taker": null,
-      "makerAddress": null,
-      "takerAddress": null,
-      "feeRateBps": null,
-      "price": 0.9521691835319468,
-      "size": 1112.6804,
-      "amount": 1059.4599879999998
-    }
-  },
-  {
     "market": "Will the Miami Heat win the 2026 NBA Finals?",
     "market_slug": "will-the-miami-heat-win-the-2026-nba-finals",
     "wallet": "0xefce7670c6378c7082a0843a2a409889cbdbbfad",
@@ -30240,5 +30125,208 @@
     "market": "Texas Longhorns vs. Purdue Boilermakers",
     "market_slug": "cbb-tx-pur-2026-03-26",
     "amount": 1514.0842999999998
+  },
+  {
+    "market": "Will Saudi Arabia strike Iran by March 31?",
+    "market_slug": "will-saudi-arabia-strike-iran-by-march-31",
+    "event_slug": "will-saudi-arabia-strike-iran-by-march-31",
+    "wallet": "0x23ebd66eb7eac485e01bdac08f89a0b3e11948d8",
+    "analysis": {
+      "score": 125,
+      "flags": [
+        "New wallet (0d old)",
+        "Against trend (7.4% effective odds)",
+        "Large bet ($1,000)",
+        "Pre-event latency: 5775m"
+      ],
+      "amount": 1000.0,
+      "odds": 0.07396409767905839,
+      "raw_price": 0.07396409767905839,
+      "outcome": "Yes",
+      "potential_pnl": 12520.073,
+      "pnl_multiplier": 12.520073,
+      "wallet_age_days": 0,
+      "total_activities": 6
+    },
+    "timestamp": "2026-03-26T23:53:47.983894",
+    "trade_hash": "0x39edec8a01a4fc3c97c83380ad4b3c94eec149bfc49c30194b8a38e6f3ced714",
+    "trade_timestamp": 1774568719,
+    "latency": {
+      "latency_seconds": 346481.0,
+      "latency_minutes": 5774.683333333333,
+      "is_pre_event": true,
+      "severity": "CRITICAL",
+      "trade_time": "2026-03-26T23:45:19+00:00",
+      "event_time": "2026-03-31T00:00:00+00:00"
+    },
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "Yes",
+      "side": "BUY",
+      "price": 0.07396409767905839,
+      "effective_price": 0.07396409767905839,
+      "size": 13520.073,
+      "amount": 1000.0,
+      "potential_pnl": 12520.073,
+      "pnl_multiplier": 12.520073,
+      "is_no": false,
+      "slug": "will-saudi-arabia-strike-iran-by-march-31",
+      "eventSlug": "which-countries-will-strike-iran-by-march-31"
+    },
+    "irrationality": {
+      "irrationality_score": 50,
+      "flags": [
+        "Longshot (7%) in high bias category (geopolitics)",
+        "Category structurally prone to longshot bias",
+        "Crisis keyword detected ('strike')"
+      ],
+      "category": "geopolitics",
+      "category_info": {
+        "strength": "high",
+        "typical_overpricing": 0.05,
+        "min_edge": 0.05
+      },
+      "is_irrational": true
+    },
+    "mispricing": {
+      "rational_estimate": 0.03879281953581168,
+      "market_price": 0.07396409767905839,
+      "edge": 0.035171278143246706,
+      "edge_percent": 3.5171278143246707,
+      "min_edge_required": 0.05,
+      "is_mispriced": false,
+      "edge_quality": "WEAK",
+      "base_rate_class": "rare",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "rare",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "Escalation of regional tensions between Saudi Arabia and Iran",
+          "Support or acquiescence from key allies, such as the United States",
+          "Internal political stability within Saudi Arabia"
+        ],
+        "weakest_link": "Internal political stability within Saudi Arabia"
+      },
+      "category": "geopolitics",
+      "narrative_drivers": [
+        "Increased military posturing in the region",
+        "Influence of external powers on Saudi decision-making"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "INSIDER_ONLY",
+      "signal_emoji": "\ud83d\udc41\ufe0f",
+      "signal_strength": 125,
+      "interpretation": "Insider activity detected, no clear mispricing",
+      "action_suggestion": "Monitor: insider signal only, no statistical edge",
+      "insider_score": 125,
+      "insider_position": "YES",
+      "irrationality_score": 50,
+      "is_irrational": true,
+      "is_mispriced": false,
+      "edge": 0.035171278143246706,
+      "edge_percent": 3.5171278143246707
+    },
+    "financial_analyst": {
+      "signal_quality": 40.3,
+      "stance": "WATCH_ONLY",
+      "edge_percent": 3.52,
+      "signal_strength": 125.0,
+      "insider_score": 125.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    }
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x9c04ad2ca39682b6dd675dc252ed1f3155c8beb34aa328b20c059561dc2302cc",
+    "wallet": "0x1f2dd6d473f3e824cd2f8a89d9c69fb96f6ad0cf",
+    "trader": {
+      "rank": 2,
+      "address": "0x1f2dd6d473f3e824cd2f8a89d9c69fb96f6ad0cf",
+      "username": "Fredi9999",
+      "profit": 16619506.631730152,
+      "volume": 76611316.90515402,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xa38a455bbdd4b68486548b7e19da99903f4f821d",
+      "side": "BUY",
+      "asset": "8407769013236185519523211059555999620435865750175863777492373951715898856141",
+      "conditionId": "0xe96bab86f43e9ae8647eedb5ed680747a8875571c027d11f1f2bae39867d4209",
+      "size": 6359.77,
+      "price": 0.34,
+      "timestamp": 1774569261,
+      "title": "Nebraska Cornhuskers vs. Iowa Hawkeyes",
+      "slug": "cbb-nebr-iowa-2026-03-26",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/ncaa-c14995df96.png",
+      "eventSlug": "cbb-nebr-iowa-2026-03-26",
+      "outcome": "Iowa Hawkeyes",
+      "outcomeIndex": 1,
+      "name": "takeormake",
+      "pseudonym": "Scary-Fannypack",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x9c04ad2ca39682b6dd675dc252ed1f3155c8beb34aa328b20c059561dc2302cc",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Nebraska Cornhuskers vs. Iowa Hawkeyes",
+    "market_slug": "cbb-nebr-iowa-2026-03-26",
+    "amount": 2162.3218
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x0f0f310a56ca3c68d321d058f5d5c32485b4eaabede0df123ae71a08b5f7c1b9",
+    "wallet": "0x1f2dd6d473f3e824cd2f8a89d9c69fb96f6ad0cf",
+    "trader": {
+      "rank": 2,
+      "address": "0x1f2dd6d473f3e824cd2f8a89d9c69fb96f6ad0cf",
+      "username": "Fredi9999",
+      "profit": 16619506.631730152,
+      "volume": 76611316.90515402,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xc257ea7e3a81ca8e16df8935d44d513959fa358e",
+      "side": "BUY",
+      "asset": "23138276531714290702025315283784371330732889711674327429046468121059683679512",
+      "conditionId": "0x2a7be326158a8ce78c4f38304fd489cf60ed7483a4ef5865c6303134a86898e1",
+      "size": 9316,
+      "price": 0.56,
+      "timestamp": 1774569261,
+      "title": "Penguins vs. Senators",
+      "slug": "nhl-pit-ott-2026-03-26",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nhl.png",
+      "eventSlug": "nhl-pit-ott-2026-03-26",
+      "outcome": "Senators",
+      "outcomeIndex": 1,
+      "name": "YT-JuicySlots",
+      "pseudonym": "Weepy-Frosting",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x0f0f310a56ca3c68d321d058f5d5c32485b4eaabede0df123ae71a08b5f7c1b9",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Penguins vs. Senators",
+    "market_slug": "nhl-pit-ott-2026-03-26",
+    "amount": 5216.960000000001
   }
 ]
