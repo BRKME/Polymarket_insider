@@ -1,44 +1,5 @@
 [
   {
-    "market": "Will the price of Bitcoin be above $96,000 on January 27?",
-    "market_slug": "bitcoin-above-96k-on-january-27",
-    "wallet": "0x97067b9438113caa2b58437b734a451c4c354ef3",
-    "analysis": {
-      "score": 95,
-      "flags": [
-        "New wallet (0d old)",
-        "Extreme confidence (99.2% odds)",
-        "Large bet ($2,976)",
-        "Low activity (1 txns)"
-      ],
-      "amount": 2976.0,
-      "odds": 0.992,
-      "wallet_age_days": 0,
-      "total_activities": 1
-    },
-    "timestamp": "2026-01-25T19:40:27.896960",
-    "trade_hash": "0xa54e8269da940fd7b688bbf75a0a8b1a9bd1fe982d87d9cd7e9ddb41af529c5c",
-    "trade_timestamp": 1769369860,
-    "trade_data": {
-      "asset": "92300409277859657478155505628077705192344923280130674446259666774449381093528",
-      "assetId": null,
-      "tokenId": null,
-      "side": "BUY",
-      "outcome": "No",
-      "market": null,
-      "type": null,
-      "status": null,
-      "maker": null,
-      "taker": null,
-      "makerAddress": null,
-      "takerAddress": null,
-      "feeRateBps": null,
-      "price": 0.992,
-      "size": 3000.0,
-      "amount": 2976.0
-    }
-  },
-  {
     "market": "Will Bitcoin reach $100,000 in January?",
     "market_slug": "will-bitcoin-reach-100k-in-january-2026",
     "wallet": "0xf9a25b4f8187e069d3a92b6949afa6c9c3be2136",
@@ -30710,5 +30671,49 @@
     "market": "Alabama Crimson Tide vs. Michigan Wolverines",
     "market_slug": "cbb-ala-mich-2026-03-27",
     "amount": 3616.65
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x5bbe97e4390bfad7a5386577dcc182406876ad148142e41cfacd74effcda4c5c",
+    "wallet": "0xdc876e6873772d38716fda7f2452a78d426d7ab6",
+    "trader": {
+      "rank": 18,
+      "address": "0xdc876e6873772d38716fda7f2452a78d426d7ab6",
+      "username": "432614799197",
+      "profit": 4552488.661632559,
+      "volume": 185485956.86208287,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x58451c98e709b1c12e991f219b61f4d3048e7903",
+      "side": "SELL",
+      "asset": "90527368220056094499787958638375970410413722308601684454359395969617817547528",
+      "conditionId": "0x946833228cae9572bc293e26a19d7333d162bec248b18df7ba0166c7ec76690b",
+      "size": 7795.08,
+      "price": 0.22,
+      "timestamp": 1774638587,
+      "title": "Clippers vs. Pacers",
+      "slug": "nba-lac-ind-2026-03-27",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
+      "eventSlug": "nba-lac-ind-2026-03-27",
+      "outcome": "Pacers",
+      "outcomeIndex": 1,
+      "name": "0x274bc03829ef1382",
+      "pseudonym": "Voluminous-Attraction",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x5bbe97e4390bfad7a5386577dcc182406876ad148142e41cfacd74effcda4c5c",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Clippers vs. Pacers",
+    "market_slug": "nba-lac-ind-2026-03-27",
+    "amount": 1714.9176
   }
 ]
