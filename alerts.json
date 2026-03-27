@@ -1,83 +1,5 @@
 [
   {
-    "market": "LoL: Team Heretics vs Los Ratones (BO1) - LEC Versus Regular Season",
-    "market_slug": "lol-th-lr-2026-01-25",
-    "wallet": "0x6d61747b794daa284141760e0fa2436c043b1938",
-    "analysis": {
-      "score": 95,
-      "flags": [
-        "New wallet (0d old)",
-        "Extreme confidence (99.9% odds)",
-        "Large bet ($2,624)",
-        "Low activity (2 txns)"
-      ],
-      "amount": 2623.6537200000002,
-      "odds": 0.999,
-      "wallet_age_days": 0,
-      "total_activities": 2
-    },
-    "timestamp": "2026-01-25T19:30:55.816076",
-    "trade_hash": "0x2779aa1161f37a2a98ab5ce88b77818a017fe76a7088cf2cda7a72712c9370a5",
-    "trade_timestamp": 1769369326,
-    "trade_data": {
-      "asset": "41431511448041754073260610572966913292047050397104158217478273598869268041965",
-      "assetId": null,
-      "tokenId": null,
-      "side": "SELL",
-      "outcome": "Los Ratones",
-      "market": null,
-      "type": null,
-      "status": null,
-      "maker": null,
-      "taker": null,
-      "makerAddress": null,
-      "takerAddress": null,
-      "feeRateBps": null,
-      "price": 0.999,
-      "size": 2626.28,
-      "amount": 2623.6537200000002
-    }
-  },
-  {
-    "market": "Will the price of Bitcoin be above $96,000 on January 27?",
-    "market_slug": "bitcoin-above-96k-on-january-27",
-    "wallet": "0x6b24d891cb3e264d4181a728aefb43b3e400a5b4",
-    "analysis": {
-      "score": 95,
-      "flags": [
-        "New wallet (0d old)",
-        "Extreme confidence (99.2% odds)",
-        "Large bet ($2,976)",
-        "Low activity (2 txns)"
-      ],
-      "amount": 2976.0,
-      "odds": 0.992,
-      "wallet_age_days": 0,
-      "total_activities": 2
-    },
-    "timestamp": "2026-01-25T19:30:58.423130",
-    "trade_hash": "0x241ee3317368b3b80af36eb8558bdca423c762f4bf50a13e75e6710277203180",
-    "trade_timestamp": 1769369300,
-    "trade_data": {
-      "asset": "92300409277859657478155505628077705192344923280130674446259666774449381093528",
-      "assetId": null,
-      "tokenId": null,
-      "side": "BUY",
-      "outcome": "No",
-      "market": null,
-      "type": null,
-      "status": null,
-      "maker": null,
-      "taker": null,
-      "makerAddress": null,
-      "takerAddress": null,
-      "feeRateBps": null,
-      "price": 0.992,
-      "size": 3000.0,
-      "amount": 2976.0
-    }
-  },
-  {
     "market": "Will the price of Bitcoin be above $96,000 on January 27?",
     "market_slug": "bitcoin-above-96k-on-january-27",
     "wallet": "0xd30de8411c3a2b5b058effa6a4c49ac285e659ef",
@@ -30620,5 +30542,163 @@
     "market": "Will Cear\u00e1 SC vs. Vila Nova FC end in a draw?",
     "market_slug": "bra2-csc-vln-2026-04-01",
     "amount": 1578.0748299999998
+  },
+  {
+    "market": "US x Iran ceasefire by March 31?",
+    "market_slug": "us-x-iran-ceasefire-by-march-31",
+    "event_slug": "us-x-iran-ceasefire-by-march-31",
+    "wallet": "0x0b6d597962e5af2c5b193111791d5e3d58f845ff",
+    "analysis": {
+      "score": 105,
+      "flags": [
+        "New wallet (5d old)",
+        "Against trend (3.5% effective odds)",
+        "Large bet ($1,756)",
+        "Pre-event latency: 4836m"
+      ],
+      "amount": 1755.9260499999998,
+      "odds": 0.0347963347770325,
+      "raw_price": 0.0347963347770325,
+      "outcome": "Yes",
+      "potential_pnl": 48707.03395,
+      "pnl_multiplier": 27.738659011294924,
+      "wallet_age_days": 5,
+      "total_activities": 21
+    },
+    "timestamp": "2026-03-27T15:30:24.052007",
+    "trade_hash": "0x2c28ecf934f0c66d06695eca2540e0e3a686e6232c2eea2a4e85c429507fd7d1",
+    "trade_timestamp": 1774625063,
+    "latency": {
+      "latency_seconds": 290137.0,
+      "latency_minutes": 4835.616666666667,
+      "is_pre_event": true,
+      "severity": "CRITICAL",
+      "trade_time": "2026-03-27T15:24:23+00:00",
+      "event_time": "2026-03-31T00:00:00+00:00"
+    },
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "Yes",
+      "side": "SELL",
+      "price": 0.0347963347770325,
+      "effective_price": 0.0347963347770325,
+      "size": 50462.96,
+      "amount": 1755.9260499999998,
+      "potential_pnl": 48707.03395,
+      "pnl_multiplier": 27.738659011294924,
+      "is_no": false,
+      "slug": "us-x-iran-ceasefire-by-march-31",
+      "eventSlug": "us-x-iran-ceasefire-by"
+    },
+    "irrationality": {
+      "irrationality_score": 40,
+      "flags": [
+        "Longshot (3%) in high bias category (geopolitics)",
+        "Category structurally prone to longshot bias"
+      ],
+      "category": "geopolitics",
+      "category_info": {
+        "strength": "high",
+        "typical_overpricing": 0.05,
+        "min_edge": 0.05
+      },
+      "is_irrational": true
+    },
+    "mispricing": {
+      "rational_estimate": 0.0309592669554065,
+      "market_price": 0.0347963347770325,
+      "edge": 0.0038370678216259994,
+      "edge_percent": 0.38370678216259996,
+      "min_edge_required": 0.05,
+      "is_mispriced": false,
+      "edge_quality": "WEAK",
+      "base_rate_class": "rare",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "rare",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "Diplomatic negotiations between the US and Iran show significant progress.",
+          "Both parties agree to a mutual cessation of hostilities.",
+          "External pressures (e.g., from allies or international organizations) encourage a ceasefire."
+        ],
+        "weakest_link": "Diplomatic negotiations between the US and Iran show significant progress."
+      },
+      "category": "geopolitics",
+      "narrative_drivers": [
+        "Escalating regional tensions prompting a need for de-escalation.",
+        "International pressure for stability in the Middle East."
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "INSIDER_ONLY",
+      "signal_emoji": "\ud83d\udc41\ufe0f",
+      "signal_strength": 105,
+      "interpretation": "Insider activity detected, no clear mispricing",
+      "action_suggestion": "Monitor: insider signal only, no statistical edge",
+      "insider_score": 105,
+      "insider_position": "YES",
+      "irrationality_score": 40,
+      "is_irrational": true,
+      "is_mispriced": false,
+      "edge": 0.0038370678216259994,
+      "edge_percent": 0.38370678216259996
+    },
+    "financial_analyst": {
+      "signal_quality": 33.6,
+      "stance": "WATCH_ONLY",
+      "edge_percent": 0.38,
+      "signal_strength": 105.0,
+      "insider_score": 105.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    }
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xd1753c18945e5283ea3a6830ebe5f3ff8ddfce10567256db262b7fb5a8b0b4a7",
+    "wallet": "0x006cc834cc092684f1b56626e23bedb3835c16ea",
+    "trader": {
+      "rank": 17,
+      "address": "0x006cc834cc092684f1b56626e23bedb3835c16ea",
+      "username": "0x006cc834Cc092684F1B56626E23BEdB3835c16ea-1729683673397",
+      "profit": 4554529.318828875,
+      "volume": 60068293.39364801,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x777d9f00c2b4f7b829c9de0049ca3e707db05143",
+      "side": "BUY",
+      "asset": "82637965911804763594025437964960183940831074167851978502344480273015333555801",
+      "conditionId": "0x2d7b1698e8b1ffc3fd4ef222416659270eab0ef375371b949d805c2fb513dc7d",
+      "size": 7525.03,
+      "price": 0.66,
+      "timestamp": 1774625979,
+      "title": "Spread: England (-1.5)",
+      "slug": "fif-eng-ury-2026-03-27-spread-home-1pt5",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/fif.png",
+      "eventSlug": "fif-eng-ury-2026-03-27-more-markets",
+      "outcome": "Uruguay",
+      "outcomeIndex": 1,
+      "name": "CarlosMC",
+      "pseudonym": "Cheerful-Waistband",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xd1753c18945e5283ea3a6830ebe5f3ff8ddfce10567256db262b7fb5a8b0b4a7",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Spread: England (-1.5)",
+    "market_slug": "fif-eng-ury-2026-03-27-more-markets",
+    "amount": 4966.5198
   }
 ]
