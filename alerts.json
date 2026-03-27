@@ -1,43 +1,5 @@
 [
   {
-    "market": "Dota 2: Zero Tenacity vs Virtus.pro - Game 2 Winner",
-    "market_slug": "dota2-z10-vp-2026-01-25-game2",
-    "wallet": "0xa6f6a6f3740d8c3208c722240f38b4e0ac2568ea",
-    "analysis": {
-      "score": 85,
-      "flags": [
-        "New wallet (0d old)",
-        "Extreme confidence (99.9% odds)",
-        "Large bet ($1,810)"
-      ],
-      "amount": 1809.6485400000001,
-      "odds": 0.999,
-      "wallet_age_days": 0,
-      "total_activities": 85
-    },
-    "timestamp": "2026-01-25T15:10:34.919875",
-    "trade_hash": "0xc1705d7c404cbdc9d5ea0ffdc780ef2cb05e4713d6a32ab229420c6ab8818c94",
-    "trade_timestamp": 1769353546,
-    "trade_data": {
-      "asset": "98039240826115746846618455348402473930893390270796268984740047536659532059588",
-      "assetId": null,
-      "tokenId": null,
-      "side": "SELL",
-      "outcome": "Zero Tenacity",
-      "market": null,
-      "type": null,
-      "status": null,
-      "maker": null,
-      "taker": null,
-      "makerAddress": null,
-      "takerAddress": null,
-      "feeRateBps": null,
-      "price": 0.999,
-      "size": 1811.46,
-      "amount": 1809.6485400000001
-    }
-  },
-  {
     "market": "Newcastle United FC vs. Aston Villa FC: O/U 1.5",
     "market_slug": "epl-new-ast-2026-01-25-total-1pt5",
     "wallet": "0x012a64e1e9447bf3fb4ee701a154bcec23cec01d",
@@ -30539,5 +30501,49 @@
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
     }
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x8ad81a3443efd3a616111ae674bf78571113f50c575818e16b863d9ed32f22b6",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.51568201,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xf40f825520148a438e494192d0f214372d0ec3bc",
+      "side": "SELL",
+      "asset": "107903187097064440993665243047237103234187359771702998268137476819081108572677",
+      "conditionId": "0x8cf61b7b84b6ac2e0c619867dd6966e688b43e4fd4c866423da2f757c58f0a9f",
+      "size": 2213.87,
+      "price": 0.29,
+      "timestamp": 1774609175,
+      "title": "Will Gold (GC) hit (LOW) $4,200 by end of June?",
+      "slug": "gc-hit-4200-low-jun-2026-737-562-112-239",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/gold-logo-0d00c80498.png",
+      "eventSlug": "gc-hit-jun-2026",
+      "outcome": "No",
+      "outcomeIndex": 1,
+      "name": "l0xxen",
+      "pseudonym": "Sizzling-Safari",
+      "bio": "Actively trade",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x8ad81a3443efd3a616111ae674bf78571113f50c575818e16b863d9ed32f22b6",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Will Gold (GC) hit (LOW) $4,200 by end of June?",
+    "market_slug": "gc-hit-jun-2026",
+    "amount": 1571.8476999999998
   }
 ]
