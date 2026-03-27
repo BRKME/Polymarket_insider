@@ -1,41 +1,5 @@
 [
   {
-    "market": "Will NVIDIA be the largest company in the world by market cap on January 31?",
-    "market_slug": "will-nvidia-be-the-largest-company-in-the-world-by-market-cap-on-january-31-985",
-    "wallet": "0x25a7fcfe11abd6ae873148584fa3e1b6aa98a4c8",
-    "analysis": {
-      "score": 85,
-      "flags": [
-        "Extreme confidence (99.4% odds)",
-        "Large bet ($5,276)",
-        "Pre-event latency: 6987m"
-      ],
-      "amount": 5275.757,
-      "odds": 0.994067914773027,
-      "wallet_age_days": 480,
-      "total_activities": 100
-    },
-    "timestamp": "2026-01-26T03:35:10.446397",
-    "trade_hash": "0x5d7cd46c045756f4311d5971460f6d603f6e13778e74ed9e643c0904457c31df",
-    "trade_timestamp": 1769398390,
-    "latency": {
-      "latency_seconds": 419210.0,
-      "latency_minutes": 6986.833333333333,
-      "is_pre_event": true,
-      "severity": "CRITICAL",
-      "trade_time": "2026-01-26T03:33:10+00:00",
-      "event_time": "2026-01-31T00:00:00+00:00"
-    },
-    "wallet_stats": null,
-    "trade_data": {
-      "outcome": "Yes",
-      "side": "BUY",
-      "price": 0.994067914773027,
-      "size": 5307.24,
-      "amount": 5275.757
-    }
-  },
-  {
     "market": "Will Apple be the largest company in the world by market cap on January 31?",
     "market_slug": "will-apple-be-the-largest-company-in-the-world-by-market-cap-on-january-31-756",
     "wallet": "0x29ad1faec17bbedb955f8fafca860d420048edb3",
@@ -30839,5 +30803,49 @@
     "market": "St. John's Red Storm vs. Duke Blue Devils",
     "market_slug": "cbb-stjohn-duke-2026-03-27",
     "amount": 1761.68
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xea1ab0982b591b48eb43fdaed5a15708aae6e8ad959c4d52082624b77d67f76f",
+    "wallet": "0xd0c042c08f755ff940249f62745e82d356345565",
+    "trader": {
+      "rank": 15,
+      "address": "0xd0c042c08f755ff940249f62745e82d356345565",
+      "username": "alexmulti",
+      "profit": 4804855.613376001,
+      "volume": 9949068.653841998,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x4453886425fdbcc900525755515244a66659dd3b",
+      "side": "BUY",
+      "asset": "90527368220056094499787958638375970410413722308601684454359395969617817547528",
+      "conditionId": "0x946833228cae9572bc293e26a19d7333d162bec248b18df7ba0166c7ec76690b",
+      "size": 18642.740296,
+      "price": 0.6661509950157168,
+      "timestamp": 1774655687,
+      "title": "Clippers vs. Pacers",
+      "slug": "nba-lac-ind-2026-03-27",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
+      "eventSlug": "nba-lac-ind-2026-03-27",
+      "outcome": "Pacers",
+      "outcomeIndex": 1,
+      "name": "MasonFree",
+      "pseudonym": "Necessary-Alpenglow",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xea1ab0982b591b48eb43fdaed5a15708aae6e8ad959c4d52082624b77d67f76f",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Clippers vs. Pacers",
+    "market_slug": "nba-lac-ind-2026-03-27",
+    "amount": 12418.879998
   }
 ]
