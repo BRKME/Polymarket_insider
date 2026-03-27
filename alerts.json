@@ -1,120 +1,5 @@
 [
   {
-    "market": "Will Bitcoin reach $100,000 in January?",
-    "market_slug": "will-bitcoin-reach-100k-in-january-2026",
-    "wallet": "0xf9a25b4f8187e069d3a92b6949afa6c9c3be2136",
-    "analysis": {
-      "score": 85,
-      "flags": [
-        "New wallet (2d old)",
-        "Extreme confidence (96.7% odds)",
-        "Large bet ($1,640)"
-      ],
-      "amount": 1639.9174500000001,
-      "odds": 0.966687367000112,
-      "wallet_age_days": 2,
-      "total_activities": 76
-    },
-    "timestamp": "2026-01-25T21:17:49.544418",
-    "trade_hash": "0xfcbb67e612dde5e7c4a5d98bf701f03aac7c68e44dd8915cae227b6073ff4ccd",
-    "trade_timestamp": 1769375610,
-    "trade_data": {
-      "asset": "5607394821438033480329831490709557904290234461314111313418562435616991179510",
-      "assetId": null,
-      "tokenId": null,
-      "side": "SELL",
-      "outcome": "No",
-      "market": null,
-      "type": null,
-      "status": null,
-      "maker": null,
-      "taker": null,
-      "makerAddress": null,
-      "takerAddress": null,
-      "feeRateBps": null,
-      "price": 0.966687367000112,
-      "size": 1696.43,
-      "amount": 1639.9174500000001
-    }
-  },
-  {
-    "market": "Will Donald Trump win the 2028 US Presidential Election?",
-    "market_slug": "will-donald-trump-win-the-2028-us-presidential-election",
-    "wallet": "0xe63ed3c16c2ec22c77ca3facf65330ba229c525a",
-    "analysis": {
-      "score": 85,
-      "flags": [
-        "New wallet (0d old)",
-        "Against trend (3.6% odds)",
-        "Large bet ($1,594)"
-      ],
-      "amount": 1593.999999,
-      "odds": 0.03551076159697107,
-      "wallet_age_days": 0,
-      "total_activities": 5
-    },
-    "timestamp": "2026-01-25T21:57:26.135207",
-    "trade_hash": "0x774367900a522c4d21ece4a7906e40f1bd059f2a4fdb0dd9b27954bdb0a7dd2e",
-    "trade_timestamp": 1769378136,
-    "trade_data": {
-      "asset": "11807691644868166983390207408868795383945915035851758101409310535538572683733",
-      "assetId": null,
-      "tokenId": null,
-      "side": "BUY",
-      "outcome": "Yes",
-      "market": null,
-      "type": null,
-      "status": null,
-      "maker": null,
-      "taker": null,
-      "makerAddress": null,
-      "takerAddress": null,
-      "feeRateBps": null,
-      "price": 0.03551076159697107,
-      "size": 44887.800974,
-      "amount": 1593.999999
-    }
-  },
-  {
-    "market": "Will Barack Obama win the 2028 Democratic presidential nomination?",
-    "market_slug": "will-barack-obama-win-the-2028-democratic-presidential-nomination-265",
-    "wallet": "0x96cdd62c61335131376a1510141dca1df2179ea1",
-    "analysis": {
-      "score": 95,
-      "flags": [
-        "New wallet (2d old)",
-        "Extreme confidence (99.2% odds)",
-        "Large bet ($4,563)",
-        "Low activity (4 txns)"
-      ],
-      "amount": 4563.2,
-      "odds": 0.992,
-      "wallet_age_days": 2,
-      "total_activities": 4
-    },
-    "timestamp": "2026-01-25T22:14:29.696446",
-    "trade_hash": "0x04d32c4575492b6a6d00495c53faa7a7de0110ed1c294fb78f38930eae002265",
-    "trade_timestamp": 1769379136,
-    "trade_data": {
-      "asset": "93993883668914241189795812807312922412111034935516092303580333564217329905759",
-      "assetId": null,
-      "tokenId": null,
-      "side": "BUY",
-      "outcome": "No",
-      "market": null,
-      "type": null,
-      "status": null,
-      "maker": null,
-      "taker": null,
-      "makerAddress": null,
-      "takerAddress": null,
-      "feeRateBps": null,
-      "price": 0.992,
-      "size": 4600.0,
-      "amount": 4563.2
-    }
-  },
-  {
     "market": "Will the US next strike Iran on January 30, 2026 (ET)?",
     "market_slug": "will-the-us-next-strike-iran-on-january-30-2026-et-866",
     "wallet": "0x8575467a6743c81ef0a8d06acc76e99b454a87fe",
@@ -30715,5 +30600,206 @@
     "market": "Clippers vs. Pacers",
     "market_slug": "nba-lac-ind-2026-03-27",
     "amount": 1714.9176
+  },
+  {
+    "market": "US x Iran ceasefire by March 31?",
+    "market_slug": "us-x-iran-ceasefire-by-march-31",
+    "event_slug": "us-x-iran-ceasefire-by-march-31",
+    "wallet": "0x3b8de6b527425e9c19fb2634f9c3d2e7dfaf2ce6",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "Against trend (3.2% effective odds)",
+        "Large bet ($1,046)",
+        "Pre-event latency: 4515m"
+      ],
+      "amount": 1045.9452199999994,
+      "odds": 0.032453059124751604,
+      "raw_price": 0.9675469408752484,
+      "outcome": "No",
+      "potential_pnl": 31183.534780000005,
+      "pnl_multiplier": 29.813736115166744,
+      "wallet_age_days": 80,
+      "total_activities": 68
+    },
+    "timestamp": "2026-03-27T20:51:29.162547",
+    "trade_hash": "0xee30872afdbc8a08a36a7acaf8611cd995c8ceb8e944ee7a53a8cab5e9e170c4",
+    "trade_timestamp": 1774644307,
+    "latency": {
+      "latency_seconds": 270893.0,
+      "latency_minutes": 4514.883333333333,
+      "is_pre_event": true,
+      "severity": "CRITICAL",
+      "trade_time": "2026-03-27T20:45:07+00:00",
+      "event_time": "2026-03-31T00:00:00+00:00"
+    },
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "No",
+      "side": "SELL",
+      "price": 0.9675469408752484,
+      "effective_price": 0.032453059124751604,
+      "size": 32229.48,
+      "amount": 1045.9452199999994,
+      "potential_pnl": 31183.534780000005,
+      "pnl_multiplier": 29.813736115166744,
+      "is_no": true,
+      "slug": "us-x-iran-ceasefire-by-march-31",
+      "eventSlug": "us-x-iran-ceasefire-by"
+    },
+    "irrationality": {
+      "irrationality_score": 40,
+      "flags": [
+        "Category structurally prone to longshot bias",
+        "Large mispricing edge (+75.0%)"
+      ],
+      "category": "geopolitics",
+      "category_info": {
+        "strength": "high",
+        "typical_overpricing": 0.05,
+        "min_edge": 0.05
+      },
+      "is_irrational": true
+    },
+    "mispricing": {
+      "rational_estimate": 0.2175093881750497,
+      "market_price": 0.9675469408752484,
+      "edge": 0.7500375527001987,
+      "edge_percent": 75.00375527001987,
+      "min_edge_required": 0.05,
+      "is_mispriced": true,
+      "edge_quality": "STRONG",
+      "base_rate_class": "rare",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "rare",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "Mutual agreement on terms of ceasefire",
+          "Reduction in military hostilities",
+          "International pressure for de-escalation"
+        ],
+        "weakest_link": "Mutual agreement on terms of ceasefire"
+      },
+      "category": "geopolitics",
+      "narrative_drivers": [
+        "Increased diplomatic efforts from third-party nations",
+        "Domestic pressures within Iran and the US for peace"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "ALPHA",
+      "signal_emoji": "\ud83d\udd25",
+      "signal_strength": 125,
+      "interpretation": "Smart money (NO) confirms YES is overpriced",
+      "action_suggestion": "High conviction: insider + statistics aligned",
+      "insider_score": 85,
+      "insider_position": "NO",
+      "irrationality_score": 40,
+      "is_irrational": true,
+      "is_mispriced": true,
+      "edge": 0.7500375527001987,
+      "edge_percent": 75.00375527001987
+    },
+    "financial_analyst": {
+      "signal_quality": 85.0,
+      "stance": "HIGH_CONVICTION",
+      "edge_percent": 75.0,
+      "signal_strength": 125.0,
+      "insider_score": 85.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    }
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x71850ab678e525e196cfca757a91f697e5a04764bd4a8381f713568fff2eeec3",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.515682,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xb517cf918d88602c084a040037cc3ffe1355434b",
+      "side": "BUY",
+      "asset": "64652068338076333237704520096230219844404902021272479562664081446392177295672",
+      "conditionId": "0x8a01e84afd1ebddfff4ad3d677ec24ddfd439eb8247bc56a9cc021899c9adca8",
+      "size": 4178.333941,
+      "price": 0.6371008242971836,
+      "timestamp": 1774644589,
+      "title": "Dota 2: Team Spirit vs Xtreme Gaming - Game 2 Winner",
+      "slug": "dota2-ts8-xtreme-2026-03-27-game2",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/dota2-7ffacddb21.jpg",
+      "eventSlug": "dota2-ts8-xtreme-2026-03-27",
+      "outcome": "Team Spirit",
+      "outcomeIndex": 0,
+      "name": "dadada22",
+      "pseudonym": "Calculating-Millennium",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x71850ab678e525e196cfca757a91f697e5a04764bd4a8381f713568fff2eeec3",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Dota 2: Team Spirit vs Xtreme Gaming - Game 2 Winner",
+    "market_slug": "dota2-ts8-xtreme-2026-03-27",
+    "amount": 2662.0199979999998
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x705b2514524e982fa2325d6be3db761b5904027a1e51325e9473fdd62de3c5d7",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.515682,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x5f8ec8b9c07547d93ac7206ef75c1b625e6021b7",
+      "side": "BUY",
+      "asset": "63586620628756015058616403521099137018911742768824051367331188904593189743777",
+      "conditionId": "0x36e8ca24d2a13435f519f15580d42b45cdbe3bc425fb39a7c2733260357af0fa",
+      "size": 2000,
+      "price": 0.964,
+      "timestamp": 1774644589,
+      "title": "Will there be no change in Fed interest rates after the April 2026 meeting?",
+      "slug": "will-there-be-no-change-in-fed-interest-rates-after-the-april-2026-meeting",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/jerome+powell+glasses1.png",
+      "eventSlug": "fed-decision-in-april",
+      "outcome": "Yes",
+      "outcomeIndex": 0,
+      "name": "1234ab",
+      "pseudonym": "Offbeat-Pole",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x705b2514524e982fa2325d6be3db761b5904027a1e51325e9473fdd62de3c5d7",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Will there be no change in Fed interest rates after the April 2026 meeting?",
+    "market_slug": "fed-decision-in-april",
+    "amount": 1928.0
   }
 ]
