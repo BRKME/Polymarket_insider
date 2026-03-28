@@ -1,41 +1,5 @@
 [
   {
-    "market": "Khamenei out as Supreme Leader of Iran by January 31?",
-    "market_slug": "khamenei-out-as-supreme-leader-of-iran-by-january-31",
-    "wallet": "0x8454f39e7fa6957dfbf1ecc574820ada1c92331a",
-    "analysis": {
-      "score": 85,
-      "flags": [
-        "Extreme confidence (96.4% odds)",
-        "Large bet ($2,787)",
-        "Pre-event latency: 6607m"
-      ],
-      "amount": 2787.08788,
-      "odds": 0.964,
-      "wallet_age_days": 50,
-      "total_activities": 100
-    },
-    "timestamp": "2026-01-26T09:57:35.754515",
-    "trade_hash": "0x04d51a03a160093f48529d0d95e9e1340b9e55834c6637815e0c284e983fc39c",
-    "trade_timestamp": 1769421151,
-    "latency": {
-      "latency_seconds": 396449.0,
-      "latency_minutes": 6607.483333333334,
-      "is_pre_event": true,
-      "severity": "CRITICAL",
-      "trade_time": "2026-01-26T09:52:31+00:00",
-      "event_time": "2026-01-31T00:00:00+00:00"
-    },
-    "wallet_stats": null,
-    "trade_data": {
-      "outcome": "No",
-      "side": "BUY",
-      "price": 0.964,
-      "size": 2891.17,
-      "amount": 2787.08788
-    }
-  },
-  {
     "market": "US strikes Iran by January 31, 2026?",
     "market_slug": "us-strikes-iran-by-january-31-2026-165",
     "wallet": "0x9e9ecc8c4c34e996af3991078455e527e1594d55",
@@ -31176,5 +31140,49 @@
     "market": "Dota 2: Team Yandex vs Tundra Esports - Game 1 Winner",
     "market_slug": "dota2-ty-tundra-2026-03-28",
     "amount": 2550.0
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x462f81fb307d43369abf1d0d59718aa603e7a3f09b3eaf1a81906c94959d797c",
+    "wallet": "0x94f199fb7789f1aef7fff6b758d6b375100f4c7a",
+    "trader": {
+      "rank": 10,
+      "address": "0x94f199fb7789f1aef7fff6b758d6b375100f4c7a",
+      "username": "KeyTransporter",
+      "profit": 5711459.802519929,
+      "volume": 20086062.154324997,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xc0eeaa237f21de3e95d859f604989428a46f1686",
+      "side": "BUY",
+      "asset": "8110181234290531578434481130562650569021983344806109560925184291893518018647",
+      "conditionId": "0x74e3d59c8574b12acfe1c596869bca1c1226e60db837c8bb638fc11685466f10",
+      "size": 3000,
+      "price": 0.12,
+      "timestamp": 1774716011,
+      "title": "Indian Premier League: Royal Challengers Bengaluru vs Sunrisers Hyderabad",
+      "slug": "cricipl-roy-sun-2026-03-28",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/cricket-ball-a0b0bf2dc9.png",
+      "eventSlug": "cricipl-roy-sun-2026-03-28",
+      "outcome": "Sunrisers Hyderabad",
+      "outcomeIndex": 1,
+      "name": "Sachinvikash",
+      "pseudonym": "Mysterious-Labor",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x462f81fb307d43369abf1d0d59718aa603e7a3f09b3eaf1a81906c94959d797c",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Indian Premier League: Royal Challengers Bengaluru vs Sunrisers Hyderabad",
+    "market_slug": "cricipl-roy-sun-2026-03-28",
+    "amount": 2640.0
   }
 ]
