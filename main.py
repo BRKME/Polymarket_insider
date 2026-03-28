@@ -261,8 +261,23 @@ def scan_top_traders(tracked_hashes: set) -> List[Dict]:
                 price = float(trade.get('price', 0))
                 outcome = trade.get('outcome', 'Yes')
                 size = float(trade.get('size', 0))
+                outcome_index = trade.get('outcomeIndex', 0)
                 
-                econ = trade_economics.calculate(size, price, outcome)
+                # FIX: For non-binary markets (team names, Over/Under),
+                # trade_economics only knows YES/NO. Map outcomeIndex=1 → NO
+                # so cost is computed correctly (size * (1-price) not size * price)
+                outcome_lower = str(outcome).lower()
+                if outcome_lower in ('yes', 'no'):
+                    econ_outcome = outcome  # binary: use as-is
+                elif outcome_lower in ('over',):
+                    econ_outcome = 'Yes'    # Over = first option
+                elif outcome_lower in ('under',):
+                    econ_outcome = 'No'     # Under = second option
+                else:
+                    # Team/player name: use outcomeIndex
+                    econ_outcome = 'No' if outcome_index == 1 else 'Yes'
+                
+                econ = trade_economics.calculate(size, price, econ_outcome)
                 
                 # Skip extreme odds (97%+ or 3%-) - near zero profit potential
                 if econ.effective_odds >= 0.97 or econ.effective_odds <= 0.03:
@@ -271,9 +286,19 @@ def scan_top_traders(tracked_hashes: set) -> List[Dict]:
                 if econ.cost < 1500:  # Skip small trades (filter noise from top traders)
                     continue
                 
-                # Get market name from trade data
-                # API returns 'title' and 'slug' directly on trade, not nested in 'market'
+                # FIX: Skip daily crypto/price markets (same as insider flow)
                 market_name = trade.get('title', '') or trade.get('market', {}).get('question', 'Unknown market')
+                title_lower = market_name.lower()
+                
+                # Skip "Up or Down" daily crypto markets
+                if 'up or down' in title_lower:
+                    continue
+                
+                # Skip short-term price prediction markets
+                crypto_kw = ['bitcoin', 'ethereum', 'solana', 'btc', 'eth', 'price']
+                price_kw = ['above', 'below', 'less than', 'more than']
+                if any(k in title_lower for k in crypto_kw) and any(k in title_lower for k in price_kw):
+                    continue
                 market_slug = trade.get('eventSlug', '') or trade.get('slug', '') or trade.get('market', {}).get('slug', '')
                 
                 alert = {

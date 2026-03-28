@@ -460,9 +460,12 @@ def format_top_trader_alert(alert: Dict) -> str:
     outcome_index = trade.get('outcomeIndex', 0)
     outcome_lower = str(outcome_name).lower()
     
-    # For binary markets: index 1 = NO
-    # For sports: we use actual price from trade
-    if outcome_index == 1 or outcome_lower == 'no':
+    # Determine if this is the "second side" (NO equivalent)
+    is_second_side = (outcome_index == 1 
+                      or outcome_lower == 'no' 
+                      or outcome_lower == 'under')
+    
+    if is_second_side:
         amount = size * (1 - price)
         odds_display = f"{(1-price)*100:.0f}%"
     else:
@@ -507,13 +510,20 @@ def format_top_trader_alert(alert: Dict) -> str:
     # Build correct URL
     url = build_polymarket_url(trade, alert)
     
-    # Determine verdict based on profit and rank (win_rate not available from API)
-    if profit >= 1000000:
+    # Determine verdict based on profit, rank, AND bet size
+    # A $190 bet from a $16M trader is noise, not a signal
+    if amount < 1000:
+        verdict = "🔵 MONITOR"
+        verdict_note = f"Tiny bet (${amount:,.0f}) — noise, not conviction"
+    elif amount < 3000:
+        verdict = "🔵 MONITOR"
+        verdict_note = f"Small bet (${amount:,.0f}) — low conviction"
+    elif profit >= 1000000:
         verdict = "🟢 STRONG COPY"
-        verdict_note = f"Elite trader (${profit/1000000:.1f}M lifetime profit)"
+        verdict_note = f"Elite trader (${profit/1000000:.1f}M profit) · ${amount:,.0f} bet"
     elif profit >= 100000:
         verdict = "🟡 CONSIDER"
-        verdict_note = f"Solid track record (${profit/1000:.0f}K profit)"
+        verdict_note = f"Solid trader (${profit/1000:.0f}K profit) · ${amount:,.0f} bet"
     else:
         verdict = "🔵 MONITOR"
         verdict_note = "Track before copying"
