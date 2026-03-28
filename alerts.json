@@ -2,42 +2,6 @@
   {
     "market": "Will Apple be the largest company in the world by market cap on January 31?",
     "market_slug": "will-apple-be-the-largest-company-in-the-world-by-market-cap-on-january-31-756",
-    "wallet": "0x29ad1faec17bbedb955f8fafca860d420048edb3",
-    "analysis": {
-      "score": 85,
-      "flags": [
-        "Extreme confidence (99.8% odds)",
-        "Large bet ($1,111)",
-        "Pre-event latency: 6987m"
-      ],
-      "amount": 1110.68418,
-      "odds": 0.998,
-      "wallet_age_days": 34,
-      "total_activities": 100
-    },
-    "timestamp": "2026-01-26T03:35:13.405013",
-    "trade_hash": "0x9136f9f4621f73f60639270a4b8152b2844943901651528e584470417439a9ab",
-    "trade_timestamp": 1769398378,
-    "latency": {
-      "latency_seconds": 419222.0,
-      "latency_minutes": 6987.033333333334,
-      "is_pre_event": true,
-      "severity": "CRITICAL",
-      "trade_time": "2026-01-26T03:32:58+00:00",
-      "event_time": "2026-01-31T00:00:00+00:00"
-    },
-    "wallet_stats": null,
-    "trade_data": {
-      "outcome": "No",
-      "side": "SELL",
-      "price": 0.998,
-      "size": 1112.91,
-      "amount": 1110.68418
-    }
-  },
-  {
-    "market": "Will Apple be the largest company in the world by market cap on January 31?",
-    "market_slug": "will-apple-be-the-largest-company-in-the-world-by-market-cap-on-january-31-756",
     "wallet": "0xed0611d23623e8ed2821159a2ddb4e29e6c2c8c1",
     "analysis": {
       "score": 85,
@@ -30847,5 +30811,49 @@
     "market": "Clippers vs. Pacers",
     "market_slug": "nba-lac-ind-2026-03-27",
     "amount": 12418.879998
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x790847b721cbbf5543db079da83cc6f8cce79a28b8cf280c6216a56f88a9f0cb",
+    "wallet": "0xd235973291b2b75ff4070e9c0b01728c520b0f29",
+    "trader": {
+      "rank": 5,
+      "address": "0xd235973291b2b75ff4070e9c0b01728c520b0f29",
+      "username": "zxgngl",
+      "profit": 7807265.589240883,
+      "volume": 40551790.62184699,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x70e96fe9d8b5d4a0404660d6fbf94b31fc01c6ef",
+      "side": "BUY",
+      "asset": "12140363270813721013935821508234774830862117498614233251879688391015459761132",
+      "conditionId": "0x5b84fbae5daa65b4660a32fb55e8ee4f17cc2a51a85ce1917b92e1a681e869c4",
+      "size": 3793.61052,
+      "price": 0.95,
+      "timestamp": 1774656287,
+      "title": "Bulls vs. Thunder",
+      "slug": "nba-chi-okc-2026-03-27",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
+      "eventSlug": "nba-chi-okc-2026-03-27",
+      "outcome": "Thunder",
+      "outcomeIndex": 1,
+      "name": "0x7D7",
+      "pseudonym": "Shy-Return",
+      "bio": "\ud83c\udf86",
+      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-5571702-18077944-7f9a-4ee0-b084-eef541a90ec4.webp",
+      "profileImageOptimized": "",
+      "transactionHash": "0x790847b721cbbf5543db079da83cc6f8cce79a28b8cf280c6216a56f88a9f0cb",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Bulls vs. Thunder",
+    "market_slug": "nba-chi-okc-2026-03-27",
+    "amount": 3603.929994
   }
 ]
