@@ -1,41 +1,5 @@
 [
   {
-    "market": "US strikes Iran by January 31, 2026?",
-    "market_slug": "us-strikes-iran-by-january-31-2026-165",
-    "wallet": "0x9e9ecc8c4c34e996af3991078455e527e1594d55",
-    "analysis": {
-      "score": 100,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($2,016)",
-        "Pre-event latency: 6516m"
-      ],
-      "amount": 2016.0,
-      "odds": 0.84,
-      "wallet_age_days": 0,
-      "total_activities": 10
-    },
-    "timestamp": "2026-01-26T11:25:21.277424",
-    "trade_hash": "0x2e2b99280973cb4bc8dae35bca97c25ed1cb618a2d4f9fb6e6f9d3ac2075a1aa",
-    "trade_timestamp": 1769426637,
-    "latency": {
-      "latency_seconds": 390963.0,
-      "latency_minutes": 6516.05,
-      "is_pre_event": true,
-      "severity": "CRITICAL",
-      "trade_time": "2026-01-26T11:23:57+00:00",
-      "event_time": "2026-01-31T00:00:00+00:00"
-    },
-    "wallet_stats": null,
-    "trade_data": {
-      "outcome": "No",
-      "side": "SELL",
-      "price": 0.84,
-      "size": 2400.0,
-      "amount": 2016.0
-    }
-  },
-  {
     "market": "Russia x Ukraine ceasefire by January 31, 2026?",
     "market_slug": "russia-x-ukraine-ceasefire-by-january-31-2026",
     "wallet": "0x080493e82a5ccc8743e8eb8352a29ca3cb5d1c31",
@@ -31184,5 +31148,49 @@
     "market": "Indian Premier League: Royal Challengers Bengaluru vs Sunrisers Hyderabad",
     "market_slug": "cricipl-roy-sun-2026-03-28",
     "amount": 2640.0
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x4d89d25bf2c459b59d606ba4473ae385629052a7e33102950426d6a328fed16c",
+    "wallet": "0x94f199fb7789f1aef7fff6b758d6b375100f4c7a",
+    "trader": {
+      "rank": 10,
+      "address": "0x94f199fb7789f1aef7fff6b758d6b375100f4c7a",
+      "username": "KeyTransporter",
+      "profit": 5711459.802519929,
+      "volume": 20086062.154324993,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x098c8fe3e2e915715e8b4c013ad43b433ca21c67",
+      "side": "SELL",
+      "asset": "108589600470325504740081423193161239818019538756696798339090302191901142024805",
+      "conditionId": "0x61938e68cfbc53ce2a4ecf35438ad9a7cc83c1ba1b5d24b07b7d1691840030af",
+      "size": 3115.21,
+      "price": 0.34,
+      "timestamp": 1774719707,
+      "title": "LoL: Karmine Corp vs Team Vitality (BO3) - LEC Group Stage",
+      "slug": "lol-kc-vit-2026-03-28",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/league-of-legends-61a4f083a6.png",
+      "eventSlug": "lol-kc-vit-2026-03-28",
+      "outcome": "Team Vitality",
+      "outcomeIndex": 1,
+      "name": "D.Dantes",
+      "pseudonym": "Rusty-Statue",
+      "bio": "",
+      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-2722604-03f40c5a-6d28-4d5e-8efc-3f970066d875.webp",
+      "profileImageOptimized": "",
+      "transactionHash": "0x4d89d25bf2c459b59d606ba4473ae385629052a7e33102950426d6a328fed16c",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "LoL: Karmine Corp vs Team Vitality (BO3) - LEC Group Stage",
+    "market_slug": "lol-kc-vit-2026-03-28",
+    "amount": 2056.0386
   }
 ]
