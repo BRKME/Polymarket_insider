@@ -17,6 +17,7 @@ from config import (
     COMBINED_SIGNAL_MIN_STRENGTH,
     CONFLICT_MIN_INSIDER_SCORE,
     INSIDER_ONLY_REQUIRES_PRE_EVENT,
+    CONFLICT_SIGNAL_MODE,
 )
 
 def detect_insider_trades():
@@ -330,6 +331,11 @@ def detect_insider_trades():
                         }
                         alerts.append(alert)
                         print(f"  🚨 ALERT! Score {analysis['score']} >= {ALERT_THRESHOLD}")
+
+                        # CONFLICT demote: save for tracking but don't send Telegram
+                        if signal_type == "CONFLICT" and CONFLICT_SIGNAL_MODE == "LOG_ONLY":
+                            alert["log_only"] = True
+                            print(f"  📋 CONFLICT → LOG_ONLY (mispricing model bias, saved for resolution tracking)")
                         
                         # Mark alert as sent
                         mark_alert_sent(

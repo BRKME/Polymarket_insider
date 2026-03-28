@@ -319,6 +319,7 @@ def main():
     _print_goal_summary(insiders, irrational_copy_candidates)
 
     sent_count = 0
+    log_only_count = 0
     for alert in insiders:
         trade_hash = alert.get("trade_hash", "")
         wallet = alert["wallet"]
@@ -326,6 +327,15 @@ def main():
         # Deduplicate by trade_hash (not wallet) - allows multiple alerts per wallet
         if trade_hash and trade_hash in tracked_hashes:
             print(f"[{datetime.now()}] Trade {trade_hash[:12]}... already alerted, skipping")
+            continue
+
+        # LOG_ONLY alerts: save for resolution tracking but skip Telegram
+        if alert.get("log_only"):
+            if trade_hash:
+                tracked_hashes.add(trade_hash)
+            existing_alerts.append(alert)
+            log_only_count += 1
+            print(f"[{datetime.now()}] 📋 LOG_ONLY: {alert.get('market', '')[:60]} (saved, no Telegram)")
             continue
 
         if send_telegram_alert(alert):
@@ -367,7 +377,8 @@ def main():
     print(
         f"[{datetime.now()}] Completed. "
         f"Insider signals: {len(insiders)}, copy candidates: {len(irrational_copy_candidates)}, "
-        f"insider alerts sent: {sent_count}, top trader alerts: {top_trader_sent}"
+        f"insider alerts sent: {sent_count}, log_only (CONFLICT): {log_only_count}, "
+        f"top trader alerts: {top_trader_sent}"
     )
 
     # === HEARTBEAT ===
