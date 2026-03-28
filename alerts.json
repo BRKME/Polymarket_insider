@@ -1,35 +1,5 @@
 [
   {
-    "market": "Will Newcastle win the 2025\u201326 English Premier League?",
-    "market_slug": "will-newcastle-win-the-202526-english-premier-league",
-    "wallet": "0xe08c670a0bfddcb705dc480d2970829ac58b1e8b",
-    "analysis": {
-      "score": 95,
-      "flags": [
-        "New wallet (0d old)",
-        "Extreme confidence (99.9% odds)",
-        "Large bet ($1,003)",
-        "Low activity (1 txns)"
-      ],
-      "amount": 1003.289706,
-      "odds": 0.999,
-      "wallet_age_days": 0,
-      "total_activities": 1
-    },
-    "timestamp": "2026-01-26T14:49:40.938336",
-    "trade_hash": "0xd598c11bcbaafa3c5ce80a273a074170c85aed1820e541bf7a3f52ed120a96fe",
-    "trade_timestamp": 1769438831,
-    "latency": null,
-    "wallet_stats": null,
-    "trade_data": {
-      "outcome": "No",
-      "side": "BUY",
-      "price": 0.999,
-      "size": 1004.294,
-      "amount": 1003.289706
-    }
-  },
-  {
     "market": "Will Apple release AirTag 2 by June 30?",
     "market_slug": "will-apple-release-airtag-2-by-june-30",
     "wallet": "0x6a88c5ecd262e2c42e78bad8e6db7ab3c4e4b859",
@@ -31309,5 +31279,49 @@
     "market": "Pistons vs. Timberwolves",
     "market_slug": "nba-det-min-2026-03-28",
     "amount": 2925.8658000000005
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xe490a85252e01cf42cea8684fc817d97c18a6506fae3ffb9c0d9eb1029b2d148",
+    "wallet": "0x78b9ac44a6d7d7a076c14e0ad518b301b63c6b76",
+    "trader": {
+      "rank": 4,
+      "address": "0x78b9ac44a6d7d7a076c14e0ad518b301b63c6b76",
+      "username": "Len9311238",
+      "profit": 8709972.988069998,
+      "volume": 16402744.764627002,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xc8075693f48668a264b9fa313b47f52712fcc12b",
+      "side": "BUY",
+      "asset": "101956596833689225647942371410391467452405604261147678306279562902544987773581",
+      "conditionId": "0xb4f7ea62f286e88a8e17c671adfa96854ade1d8df4e17b16f41346bee570013f",
+      "size": 40000,
+      "price": 0.74,
+      "timestamp": 1774734412,
+      "title": "UFC Fight Night: Ignacio Bahamondes vs. Tofiq Musayev (Lightweight, Prelims)",
+      "slug": "ufc-ign-tof-2026-03-28",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/ufc-logo-37bbbd28e6.png",
+      "eventSlug": "ufc-ign-tof-2026-03-28",
+      "outcome": "Ignacio Bahamondes",
+      "outcomeIndex": 0,
+      "name": "texaskid",
+      "pseudonym": "Dutiful-Fur",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xe490a85252e01cf42cea8684fc817d97c18a6506fae3ffb9c0d9eb1029b2d148",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "UFC Fight Night: Ignacio Bahamondes vs. Tofiq Musayev (Lightweight, Prelims)",
+    "market_slug": "ufc-ign-tof-2026-03-28",
+    "amount": 29600.0
   }
 ]
