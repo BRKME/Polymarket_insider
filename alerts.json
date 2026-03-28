@@ -1,113 +1,5 @@
 [
   {
-    "market": "Will Jim Harbaugh be fired by February 28?",
-    "market_slug": "will-jim-harbaugh-be-fired-by-february-28",
-    "wallet": "0x6f022ea4008541006c56fb166a1649fa38156607",
-    "analysis": {
-      "score": 85,
-      "flags": [
-        "Extreme confidence (99.3% odds)",
-        "Large bet ($1,741)",
-        "Pre-event latency: 47118m"
-      ],
-      "amount": 1740.69921,
-      "odds": 0.993,
-      "wallet_age_days": 52,
-      "total_activities": 5
-    },
-    "timestamp": "2026-01-26T06:42:28.463834",
-    "trade_hash": "0x208411d2e53ed56fd98e71b47fd626384e2c53774550d675e808bfef922f2c36",
-    "trade_timestamp": 1769409698,
-    "latency": {
-      "latency_seconds": 2827102.0,
-      "latency_minutes": 47118.36666666667,
-      "is_pre_event": true,
-      "severity": "CRITICAL",
-      "trade_time": "2026-01-26T06:41:38+00:00",
-      "event_time": "2026-02-28T00:00:00+00:00"
-    },
-    "wallet_stats": null,
-    "trade_data": {
-      "outcome": "No",
-      "side": "BUY",
-      "price": 0.993,
-      "size": 1752.97,
-      "amount": 1740.69921
-    }
-  },
-  {
-    "market": "Will Jim Harbaugh be fired by February 28?",
-    "market_slug": "will-jim-harbaugh-be-fired-by-february-28",
-    "wallet": "0xe55bd2c331c5b89ced4d0842e13b038de10ddfe2",
-    "analysis": {
-      "score": 85,
-      "flags": [
-        "Extreme confidence (99.3% odds)",
-        "Large bet ($1,719)",
-        "Pre-event latency: 47118m"
-      ],
-      "amount": 1718.70426,
-      "odds": 0.993,
-      "wallet_age_days": 52,
-      "total_activities": 5
-    },
-    "timestamp": "2026-01-26T06:42:29.925199",
-    "trade_hash": "0x3b3a0d3e0ceeb223087aeb04f42e582bd6554b447177a432eb92c8b59d9cadd3",
-    "trade_timestamp": 1769409696,
-    "latency": {
-      "latency_seconds": 2827104.0,
-      "latency_minutes": 47118.4,
-      "is_pre_event": true,
-      "severity": "CRITICAL",
-      "trade_time": "2026-01-26T06:41:36+00:00",
-      "event_time": "2026-02-28T00:00:00+00:00"
-    },
-    "wallet_stats": null,
-    "trade_data": {
-      "outcome": "No",
-      "side": "BUY",
-      "price": 0.993,
-      "size": 1730.82,
-      "amount": 1718.70426
-    }
-  },
-  {
-    "market": "Will Jim Harbaugh be fired by February 28?",
-    "market_slug": "will-jim-harbaugh-be-fired-by-february-28",
-    "wallet": "0x5609992b6b7013b61b06f84336414dbaa7173688",
-    "analysis": {
-      "score": 85,
-      "flags": [
-        "Extreme confidence (99.3% odds)",
-        "Large bet ($1,668)",
-        "Pre-event latency: 47118m"
-      ],
-      "amount": 1667.71371,
-      "odds": 0.993,
-      "wallet_age_days": 52,
-      "total_activities": 5
-    },
-    "timestamp": "2026-01-26T06:42:30.810381",
-    "trade_hash": "0x689a1580d8b93f488db5a625107bb1f13a10e8b1e1e7eb6973d24f2bc2c37704",
-    "trade_timestamp": 1769409696,
-    "latency": {
-      "latency_seconds": 2827104.0,
-      "latency_minutes": 47118.4,
-      "is_pre_event": true,
-      "severity": "CRITICAL",
-      "trade_time": "2026-01-26T06:41:36+00:00",
-      "event_time": "2026-02-28T00:00:00+00:00"
-    },
-    "wallet_stats": null,
-    "trade_data": {
-      "outcome": "No",
-      "side": "BUY",
-      "price": 0.993,
-      "size": 1679.47,
-      "amount": 1667.71371
-    }
-  },
-  {
     "market": "US strikes Iran by January 31, 2026?",
     "market_slug": "us-strikes-iran-by-january-31-2026-165",
     "wallet": "0xb518a1f0ec6b0eb8d6c5ed3f504765f81d09a9e1",
@@ -30885,5 +30777,320 @@
     "market": "Spurs vs. Bucks",
     "market_slug": "nba-sas-mil-2026-03-28",
     "amount": 3748.2725
+  },
+  {
+    "market": "Spurs vs. Bucks: O/U 226.5",
+    "market_slug": "nba-sas-mil-2026-03-28-total-226pt5",
+    "event_slug": "nba-sas-mil-2026-03-28-total-226pt5",
+    "wallet": "0x9d5e9f3843db2a9906a348d215904d191719749d",
+    "analysis": {
+      "score": 70,
+      "flags": [
+        "New wallet (0d old)",
+        "Large bet ($1,040)",
+        "Low activity (1 txns)"
+      ],
+      "amount": 1039.5,
+      "odds": 0.5,
+      "raw_price": 0.5,
+      "outcome": "Over",
+      "potential_pnl": 1039.5,
+      "pnl_multiplier": 1.0,
+      "wallet_age_days": 0,
+      "total_activities": 1
+    },
+    "timestamp": "2026-03-28T11:43:21.137814",
+    "trade_hash": "0xcb3ed4698c3741e849b8a969091080d8550ed9486ae760ecd8bad9af773d73fd",
+    "trade_timestamp": 1774698071,
+    "latency": null,
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "Over",
+      "side": "BUY",
+      "price": 0.5,
+      "effective_price": 0.5,
+      "size": 2079.0,
+      "amount": 1039.5,
+      "potential_pnl": 1039.5,
+      "pnl_multiplier": 1.0,
+      "is_no": false,
+      "slug": "nba-sas-mil-2026-03-28-total-226pt5",
+      "eventSlug": "nba-sas-mil-2026-03-28"
+    },
+    "irrationality": {
+      "irrationality_score": 35,
+      "flags": [
+        "Large mispricing edge (+26.0%)"
+      ],
+      "category": "sports",
+      "category_info": {
+        "strength": "medium",
+        "typical_overpricing": 0.03,
+        "min_edge": 0.05
+      },
+      "is_irrational": true
+    },
+    "mispricing": {
+      "rational_estimate": 0.24,
+      "market_price": 0.5,
+      "edge": 0.26,
+      "edge_percent": 26.0,
+      "min_edge_required": 0.05,
+      "is_mispriced": true,
+      "edge_quality": "STRONG",
+      "base_rate_class": "common",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "common",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "Both teams score efficiently",
+          "Defensive lapses from both teams",
+          "Game pace is fast"
+        ],
+        "weakest_link": "Defensive lapses from both teams"
+      },
+      "category": "sports",
+      "narrative_drivers": [
+        "Recent scoring trends of both teams",
+        "Injury status of key players"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "INSIDER_ONLY",
+      "signal_emoji": "\ud83d\udc41\ufe0f",
+      "signal_strength": 70,
+      "interpretation": "Insider activity detected, no clear mispricing",
+      "action_suggestion": "Monitor: insider signal only, no statistical edge",
+      "insider_score": 70,
+      "insider_position": "OVER",
+      "irrationality_score": 35,
+      "is_irrational": true,
+      "is_mispriced": true,
+      "edge": 0.26,
+      "edge_percent": 26.0
+    },
+    "financial_analyst": {
+      "signal_quality": 51.0,
+      "stance": "WATCH_ONLY",
+      "edge_percent": 26.0,
+      "signal_strength": 70.0,
+      "insider_score": 70.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    }
+  },
+  {
+    "market": "Spurs vs. Bucks: O/U 226.5",
+    "market_slug": "nba-sas-mil-2026-03-28-total-226pt5",
+    "event_slug": "nba-sas-mil-2026-03-28-total-226pt5",
+    "wallet": "0x0d8fd4fbcd46d505daaa4822a759c5997b6200e8",
+    "analysis": {
+      "score": 70,
+      "flags": [
+        "New wallet (0d old)",
+        "Large bet ($1,628)",
+        "Low activity (1 txns)"
+      ],
+      "amount": 1627.5,
+      "odds": 0.5,
+      "raw_price": 0.5,
+      "outcome": "Under",
+      "potential_pnl": 1627.5,
+      "pnl_multiplier": 1.0,
+      "wallet_age_days": 0,
+      "total_activities": 1
+    },
+    "timestamp": "2026-03-28T11:43:26.339325",
+    "trade_hash": "0x99dd0a8a1154b884f9d3be66450374289a8c956b03b5d81efe5bf7d48d670104",
+    "trade_timestamp": 1774698071,
+    "latency": null,
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "Under",
+      "side": "BUY",
+      "price": 0.5,
+      "effective_price": 0.5,
+      "size": 3255.0,
+      "amount": 1627.5,
+      "potential_pnl": 1627.5,
+      "pnl_multiplier": 1.0,
+      "is_no": false,
+      "slug": "nba-sas-mil-2026-03-28-total-226pt5",
+      "eventSlug": "nba-sas-mil-2026-03-28"
+    },
+    "irrationality": {
+      "irrationality_score": 35,
+      "flags": [
+        "Large mispricing edge (+26.0%)"
+      ],
+      "category": "sports",
+      "category_info": {
+        "strength": "medium",
+        "typical_overpricing": 0.03,
+        "min_edge": 0.05
+      },
+      "is_irrational": true
+    },
+    "mispricing": {
+      "rational_estimate": 0.24,
+      "market_price": 0.5,
+      "edge": 0.26,
+      "edge_percent": 26.0,
+      "min_edge_required": 0.05,
+      "is_mispriced": true,
+      "edge_quality": "STRONG",
+      "base_rate_class": "common",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "common",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "Both teams maintain high offensive efficiency",
+          "Defensive strategies are less effective than usual",
+          "Game pace is significantly faster than average"
+        ],
+        "weakest_link": "Defensive strategies are less effective than usual"
+      },
+      "category": "sports",
+      "narrative_drivers": [
+        "Recent scoring trends of both teams",
+        "Injuries affecting player performance"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "INSIDER_ONLY",
+      "signal_emoji": "\ud83d\udc41\ufe0f",
+      "signal_strength": 70,
+      "interpretation": "Insider activity detected, no clear mispricing",
+      "action_suggestion": "Monitor: insider signal only, no statistical edge",
+      "insider_score": 70,
+      "insider_position": "UNDER",
+      "irrationality_score": 35,
+      "is_irrational": true,
+      "is_mispriced": true,
+      "edge": 0.26,
+      "edge_percent": 26.0
+    },
+    "financial_analyst": {
+      "signal_quality": 51.0,
+      "stance": "WATCH_ONLY",
+      "edge_percent": 26.0,
+      "signal_strength": 70.0,
+      "insider_score": 70.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    }
+  },
+  {
+    "market": "Spurs vs. Bucks: O/U 226.5",
+    "market_slug": "nba-sas-mil-2026-03-28-total-226pt5",
+    "event_slug": "nba-sas-mil-2026-03-28-total-226pt5",
+    "wallet": "0xa5f8e96d5a9df29683a4a75f83f8efb06ddb52fb",
+    "analysis": {
+      "score": 70,
+      "flags": [
+        "New wallet (0d old)",
+        "Large bet ($2,216)",
+        "Low activity (2 txns)"
+      ],
+      "amount": 2215.5,
+      "odds": 0.5,
+      "raw_price": 0.5,
+      "outcome": "Over",
+      "potential_pnl": 2215.5,
+      "pnl_multiplier": 1.0,
+      "wallet_age_days": 0,
+      "total_activities": 2
+    },
+    "timestamp": "2026-03-28T11:43:29.818959",
+    "trade_hash": "0xccaa51f6398c2eb8c3d650ba143808a12263d54c60b08de72271096984efd8a1",
+    "trade_timestamp": 1774698071,
+    "latency": null,
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "Over",
+      "side": "BUY",
+      "price": 0.5,
+      "effective_price": 0.5,
+      "size": 4431.0,
+      "amount": 2215.5,
+      "potential_pnl": 2215.5,
+      "pnl_multiplier": 1.0,
+      "is_no": false,
+      "slug": "nba-sas-mil-2026-03-28-total-226pt5",
+      "eventSlug": "nba-sas-mil-2026-03-28"
+    },
+    "irrationality": {
+      "irrationality_score": 35,
+      "flags": [
+        "Large mispricing edge (+26.0%)"
+      ],
+      "category": "sports",
+      "category_info": {
+        "strength": "medium",
+        "typical_overpricing": 0.03,
+        "min_edge": 0.05
+      },
+      "is_irrational": true
+    },
+    "mispricing": {
+      "rational_estimate": 0.24,
+      "market_price": 0.5,
+      "edge": 0.26,
+      "edge_percent": 26.0,
+      "min_edge_required": 0.05,
+      "is_mispriced": true,
+      "edge_quality": "STRONG",
+      "base_rate_class": "common",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "common",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "Both teams have high-scoring offenses",
+          "Defensive strategies are less effective than usual",
+          "Game pace is fast with many possessions"
+        ],
+        "weakest_link": "Defensive strategies are less effective than usual"
+      },
+      "category": "sports",
+      "narrative_drivers": [
+        "Recent performance trends of both teams",
+        "Injury reports affecting key players"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "INSIDER_ONLY",
+      "signal_emoji": "\ud83d\udc41\ufe0f",
+      "signal_strength": 70,
+      "interpretation": "Insider activity detected, no clear mispricing",
+      "action_suggestion": "Monitor: insider signal only, no statistical edge",
+      "insider_score": 70,
+      "insider_position": "OVER",
+      "irrationality_score": 35,
+      "is_irrational": true,
+      "is_mispriced": true,
+      "edge": 0.26,
+      "edge_percent": 26.0
+    },
+    "financial_analyst": {
+      "signal_quality": 51.0,
+      "stance": "WATCH_ONLY",
+      "edge_percent": 26.0,
+      "signal_strength": 70.0,
+      "insider_score": 70.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    }
   }
 ]
