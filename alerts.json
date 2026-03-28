@@ -1,41 +1,5 @@
 [
   {
-    "market": "US strikes Iran by January 31, 2026?",
-    "market_slug": "us-strikes-iran-by-january-31-2026-165",
-    "wallet": "0xb518a1f0ec6b0eb8d6c5ed3f504765f81d09a9e1",
-    "analysis": {
-      "score": 100,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($17,766)",
-        "Pre-event latency: 6801m"
-      ],
-      "amount": 17766.283499999998,
-      "odds": 0.85,
-      "wallet_age_days": 0,
-      "total_activities": 13
-    },
-    "timestamp": "2026-01-26T06:42:58.245989",
-    "trade_hash": "0x7b6db905aff686d58419aa2c0cfdeabb375eae58066c380e7ca3b7ab1ed078c8",
-    "trade_timestamp": 1769409538,
-    "latency": {
-      "latency_seconds": 408062.0,
-      "latency_minutes": 6801.033333333334,
-      "is_pre_event": true,
-      "severity": "CRITICAL",
-      "trade_time": "2026-01-26T06:38:58+00:00",
-      "event_time": "2026-01-31T00:00:00+00:00"
-    },
-    "wallet_stats": null,
-    "trade_data": {
-      "outcome": "No",
-      "side": "BUY",
-      "price": 0.85,
-      "size": 20901.51,
-      "amount": 17766.283499999998
-    }
-  },
-  {
     "market": "Will the Memphis Grizzlies win the 2026 NBA Finals?",
     "market_slug": "will-the-memphis-grizzlies-win-the-2026-nba-finals",
     "wallet": "0x7296c4dfce546344a34b462b55d24cda9b767299",
@@ -31088,6 +31052,111 @@
       "signal_quality": 51.0,
       "stance": "WATCH_ONLY",
       "edge_percent": 26.0,
+      "signal_strength": 70.0,
+      "insider_score": 70.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    }
+  },
+  {
+    "market": "Will TISZA \u2013 Respect and Freedom Party (TISZA) win the most seats in the next Hungarian parliamentary election?",
+    "market_slug": "will-tisza-respect-and-freedom-party-tisza-win-the-most-seats-in-the-next-hungarian-parliamentary-election",
+    "event_slug": "will-tisza-respect-and-freedom-party-tisza-win-the-most-seats-in-the-next-hungarian-parliamentary-election",
+    "wallet": "0x55d711f71db4b192bfc5e49c514b8746e50f906f",
+    "analysis": {
+      "score": 70,
+      "flags": [
+        "New wallet (0d old)",
+        "Large bet ($8,816)",
+        "Low activity (2 txns)"
+      ],
+      "amount": 8815.699999,
+      "odds": 0.6598107919007601,
+      "raw_price": 0.6598107919007601,
+      "outcome": "Yes",
+      "potential_pnl": 4545.251515000002,
+      "pnl_multiplier": 0.5155860017373082,
+      "wallet_age_days": 0,
+      "total_activities": 2
+    },
+    "timestamp": "2026-03-28T11:58:06.118613",
+    "trade_hash": "0x94ca9ad922780be04fc5ceebfdf290772ceddb46038ddc04ee98ed66c96a968f",
+    "trade_timestamp": 1774698775,
+    "latency": null,
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "Yes",
+      "side": "BUY",
+      "price": 0.6598107919007601,
+      "effective_price": 0.6598107919007601,
+      "size": 13360.951514,
+      "amount": 8815.699999,
+      "potential_pnl": 4545.251515000002,
+      "pnl_multiplier": 0.5155860017373082,
+      "is_no": false,
+      "slug": "will-tisza-respect-and-freedom-party-tisza-win-the-most-seats-in-the-next-hungarian-parliamentary-election",
+      "eventSlug": "hungary-parliamentary-election-winner"
+    },
+    "irrationality": {
+      "irrationality_score": 35,
+      "flags": [
+        "Large mispricing edge (+38.8%)"
+      ],
+      "category": "other",
+      "category_info": {
+        "strength": "medium",
+        "typical_overpricing": 0.03,
+        "min_edge": 0.05
+      },
+      "is_irrational": true
+    },
+    "mispricing": {
+      "rational_estimate": 0.27196215838015203,
+      "market_price": 0.6598107919007601,
+      "edge": 0.38784863352060805,
+      "edge_percent": 38.7848633520608,
+      "min_edge_required": 0.03,
+      "is_mispriced": true,
+      "edge_quality": "STRONG",
+      "base_rate_class": "common",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "common",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "TISZA gains significant public support leading up to the election",
+          "TISZA successfully mobilizes voters on election day",
+          "Opposition parties fail to unify or present a strong alternative"
+        ],
+        "weakest_link": "Opposition parties fail to unify or present a strong alternative"
+      },
+      "category": "politics_near",
+      "narrative_drivers": [
+        "Public sentiment shifts towards TISZA's platform",
+        "Increased media coverage and visibility for TISZA"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "CONFLICT",
+      "signal_emoji": "\u26a0\ufe0f",
+      "signal_strength": 70,
+      "interpretation": "Insider buying YES despite statistical overpricing",
+      "action_suggestion": "Requires manual analysis: insider may have real info OR is part of irrational crowd",
+      "insider_score": 70,
+      "insider_position": "YES",
+      "irrationality_score": 35,
+      "is_irrational": true,
+      "is_mispriced": true,
+      "edge": 0.38784863352060805,
+      "edge_percent": 38.7848633520608
+    },
+    "financial_analyst": {
+      "signal_quality": 46.0,
+      "stance": "WATCH_ONLY",
+      "edge_percent": 38.78,
       "signal_strength": 70.0,
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
