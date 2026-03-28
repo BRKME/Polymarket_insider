@@ -1,41 +1,5 @@
 [
   {
-    "market": "Will Apple release AirTag 2 by June 30?",
-    "market_slug": "will-apple-release-airtag-2-by-june-30",
-    "wallet": "0x6a88c5ecd262e2c42e78bad8e6db7ab3c4e4b859",
-    "analysis": {
-      "score": 85,
-      "flags": [
-        "Extreme confidence (99.7% odds)",
-        "Large bet ($5,969)",
-        "Pre-event latency: 222314m"
-      ],
-      "amount": 5969.25834,
-      "odds": 0.997,
-      "wallet_age_days": 110,
-      "total_activities": 100
-    },
-    "timestamp": "2026-01-26T14:49:49.133699",
-    "trade_hash": "0x28e7aa3e909de10c47f15d9b1dd83271c19543987d5b8585ef3848020221d033",
-    "trade_timestamp": 1769438773,
-    "latency": {
-      "latency_seconds": 13338827.0,
-      "latency_minutes": 222313.78333333333,
-      "is_pre_event": true,
-      "severity": "CRITICAL",
-      "trade_time": "2026-01-26T14:46:13+00:00",
-      "event_time": "2026-06-30T00:00:00+00:00"
-    },
-    "wallet_stats": null,
-    "trade_data": {
-      "outcome": "Yes",
-      "side": "BUY",
-      "price": 0.997,
-      "size": 5987.22,
-      "amount": 5969.25834
-    }
-  },
-  {
     "market": "Venezuela election scheduled by January 31, 2026?",
     "market_slug": "venezuela-election-scheduled-by-january-31-2026",
     "wallet": "0xdb6f1694b47e14c54a39881e9808e6c41c884ce8",
@@ -31323,5 +31287,49 @@
     "market": "UFC Fight Night: Ignacio Bahamondes vs. Tofiq Musayev (Lightweight, Prelims)",
     "market_slug": "ufc-ign-tof-2026-03-28",
     "amount": 29600.0
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x6f8d8236143d46a27980841b7594544bf7b4a83fce8d17af36dda164110f393f",
+    "wallet": "0x006cc834cc092684f1b56626e23bedb3835c16ea",
+    "trader": {
+      "rank": 18,
+      "address": "0x006cc834cc092684f1b56626e23bedb3835c16ea",
+      "username": "0x006cc834Cc092684F1B56626E23BEdB3835c16ea-1729683673397",
+      "profit": 4552026.639442839,
+      "volume": 60068570.023648,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xb55216ed55337cf9443139e4e5cace56426694a8",
+      "side": "BUY",
+      "asset": "8315118855769906914031029123329030363204850099913487464661726710285931120780",
+      "conditionId": "0xabffa266a98370e4fa5ab03fcda6c805000304c036fb9df728908e043d214416",
+      "size": 5000,
+      "price": 0.49978314,
+      "timestamp": 1774735612,
+      "title": "Spread: Hornets (-6.5)",
+      "slug": "nba-phi-cha-2026-03-28-spread-home-6pt5",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
+      "eventSlug": "nba-phi-cha-2026-03-28",
+      "outcome": "76ers",
+      "outcomeIndex": 1,
+      "name": "KirksCousin",
+      "pseudonym": "Acceptable-Dare",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x6f8d8236143d46a27980841b7594544bf7b4a83fce8d17af36dda164110f393f",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Spread: Hornets (-6.5)",
+    "market_slug": "nba-phi-cha-2026-03-28",
+    "amount": 2501.0843
   }
 ]
