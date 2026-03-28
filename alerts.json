@@ -1,34 +1,5 @@
 [
   {
-    "market": "Will the Memphis Grizzlies win the 2026 NBA Finals?",
-    "market_slug": "will-the-memphis-grizzlies-win-the-2026-nba-finals",
-    "wallet": "0x7296c4dfce546344a34b462b55d24cda9b767299",
-    "analysis": {
-      "score": 85,
-      "flags": [
-        "New wallet (0d old)",
-        "Extreme confidence (99.6% odds)",
-        "Large bet ($2,249)"
-      ],
-      "amount": 2248.8186,
-      "odds": 0.996,
-      "wallet_age_days": 0,
-      "total_activities": 6
-    },
-    "timestamp": "2026-01-26T07:37:10.383522",
-    "trade_hash": "0x3a8e8a477a32235ecb199c55a5fda1ab097907e1f2d4e497e707a4cecc244742",
-    "trade_timestamp": 1769412861,
-    "latency": null,
-    "wallet_stats": null,
-    "trade_data": {
-      "outcome": "No",
-      "side": "SELL",
-      "price": 0.996,
-      "size": 2257.85,
-      "amount": 2248.8186
-    }
-  },
-  {
     "market": "Khamenei out as Supreme Leader of Iran by January 31?",
     "market_slug": "khamenei-out-as-supreme-leader-of-iran-by-january-31",
     "wallet": "0x8454f39e7fa6957dfbf1ecc574820ada1c92331a",
@@ -31161,5 +31132,49 @@
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
     }
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x8fc5613663c2269da7430c20011e959903f6f8cfb0358f7310a3f0da82fe1ddb",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.515682004,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x554b0975cc71514bcfb52598310dc4e9291b8216",
+      "side": "BUY",
+      "asset": "34146692331503177603782853463663889667346777354917338693542546006951588245370",
+      "conditionId": "0x3dd276f10193bb8c36b4647af3400e2fcb116ccb7683d8d834739d111512c907",
+      "size": 5000,
+      "price": 0.51,
+      "timestamp": 1774712409,
+      "title": "Dota 2: Team Yandex vs Tundra Esports - Game 1 Winner",
+      "slug": "dota2-ty-tundra-2026-03-28-game1",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/dota2-7ffacddb21.jpg",
+      "eventSlug": "dota2-ty-tundra-2026-03-28",
+      "outcome": "Team Yandex",
+      "outcomeIndex": 0,
+      "name": "sd908787",
+      "pseudonym": "Linear-Octagon",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x8fc5613663c2269da7430c20011e959903f6f8cfb0358f7310a3f0da82fe1ddb",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Dota 2: Team Yandex vs Tundra Esports - Game 1 Winner",
+    "market_slug": "dota2-ty-tundra-2026-03-28",
+    "amount": 2550.0
   }
 ]
