@@ -1,42 +1,5 @@
 [
   {
-    "market": "Will xQc beat Forsen's Minecraft speedrun record by January 31?",
-    "market_slug": "will-xqc-beat-forsens-minecraft-speedrun-record-by-january-31",
-    "wallet": "0x48aebd206b99c165fa8b7cbdcb71d1c05782fd6b",
-    "analysis": {
-      "score": 85,
-      "flags": [
-        "Extreme confidence (98.1% odds)",
-        "Large bet ($4,494)",
-        "Pre-event latency: 5504m"
-      ],
-      "amount": 4493.85248,
-      "odds": 0.9806766061452514,
-      "wallet_age_days": 41,
-      "total_activities": 18
-    },
-    "timestamp": "2026-01-27T04:17:36.524828",
-    "trade_hash": "0x3d5bc47e19e8e5ac3d201c4859723da7a13e413a7bcad49ea748fa98e525321a",
-    "trade_timestamp": 1769487383,
-    "latency": {
-      "latency_seconds": 330217.0,
-      "latency_minutes": 5503.616666666667,
-      "is_pre_event": true,
-      "severity": "CRITICAL",
-      "trade_time": "2026-01-27T04:16:23+00:00",
-      "event_time": "2026-01-31T00:00:00+00:00"
-    },
-    "wallet_stats": null,
-    "trade_data": {
-      "outcome": "Yes",
-      "side": "SELL",
-      "price": 0.9806766061452514,
-      "size": 4582.4,
-      "amount": 4493.85248
-    },
-    "resolution_last_check": "2026-03-29T06:54:18.859696+00:00"
-  },
-  {
     "market": "Cilia Flores released from custody by January 31, 2026?",
     "market_slug": "cilia-flores-released-from-custody-by-january-31-2026",
     "wallet": "0x08354f0ec613f7b8a0abc0b7cacf7cee899f0e07",
@@ -33691,5 +33654,49 @@
     "market": "Heat vs. Pacers",
     "market_slug": "nba-mia-ind-2026-03-29",
     "amount": 30433.669199999997
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x94ee8abf90a9226062ea1c2a6a64398bc887dad963ae1b1e49e796161540c408",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.515682004,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x6c16abad96d6989efe1b0333cb9af9158f548bfa",
+      "side": "BUY",
+      "asset": "30737869522084583250787348761921807424436212950877429392167290854319537675093",
+      "conditionId": "0xdf99b42652984acb2679ce1729acca79ca93cbb1eb6e512cf7153eedcd0b630e",
+      "size": 7800,
+      "price": 0.23,
+      "timestamp": 1774823844,
+      "title": "Heat vs. Pacers",
+      "slug": "nba-mia-ind-2026-03-29",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
+      "eventSlug": "nba-mia-ind-2026-03-29",
+      "outcome": "Pacers",
+      "outcomeIndex": 1,
+      "name": "XPredicter1",
+      "pseudonym": "Happy-Bottle",
+      "bio": "BET ON YOUR BELIEFS",
+      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-3213213-9f8b7631-e046-4d06-ab23-61e8e23df953.webp",
+      "profileImageOptimized": "",
+      "transactionHash": "0x94ee8abf90a9226062ea1c2a6a64398bc887dad963ae1b1e49e796161540c408",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Heat vs. Pacers",
+    "market_slug": "nba-mia-ind-2026-03-29",
+    "amount": 6006.0
   }
 ]
