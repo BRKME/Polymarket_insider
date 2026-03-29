@@ -1,43 +1,5 @@
 [
   {
-    "market": "US strikes Iran by January 29, 2026?",
-    "market_slug": "us-strikes-iran-by-january-29-2026-183-883-657-383-499",
-    "wallet": "0xc37c6c989bc5d86b3eb6095020899fedd585cd7e",
-    "analysis": {
-      "score": 105,
-      "flags": [
-        "New wallet (3d old)",
-        "Against trend (6.0% odds)",
-        "Large bet ($1,335)",
-        "Pre-event latency: 2979m"
-      ],
-      "amount": 1335.2899989999999,
-      "odds": 0.05999999995866066,
-      "wallet_age_days": 3,
-      "total_activities": 15
-    },
-    "timestamp": "2026-01-26T22:23:07.285922",
-    "trade_hash": "0x2043c7201ba5b44ec4dc903d65a93833851aea45b4907f2704c67ef0c69cd5d3",
-    "trade_timestamp": 1769466081,
-    "latency": {
-      "latency_seconds": 178719.0,
-      "latency_minutes": 2978.65,
-      "is_pre_event": true,
-      "severity": "CRITICAL",
-      "trade_time": "2026-01-26T22:21:21+00:00",
-      "event_time": "2026-01-29T00:00:00+00:00"
-    },
-    "wallet_stats": null,
-    "trade_data": {
-      "outcome": "Yes",
-      "side": "BUY",
-      "price": 0.05999999995866066,
-      "size": 22254.833332,
-      "amount": 1335.2899989999999
-    },
-    "resolution_last_check": "2026-03-29T06:54:16.243439+00:00"
-  },
-  {
     "market": "76ers vs. Hornets",
     "market_slug": "nba-phi-cha-2026-01-26",
     "wallet": "0x7312902334e3961cdd0cc4b740f913823961dea7",
@@ -33578,5 +33540,49 @@
     "market": "Dota 2: Tundra Esports vs Team Yandex - Game 2 Winner",
     "market_slug": "dota2-tundra-ty-2026-03-29",
     "amount": 2105.84
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xf33d76eca1f954901ceb1c0813c36072e09419dbc3e5c6c973616d5ab00daff8",
+    "wallet": "0xd235973291b2b75ff4070e9c0b01728c520b0f29",
+    "trader": {
+      "rank": 5,
+      "address": "0xd235973291b2b75ff4070e9c0b01728c520b0f29",
+      "username": "zxgngl",
+      "profit": 7807265.5892408835,
+      "volume": 40551790.62184699,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x37c1874a60d348903594a96703e0507c518fc53a",
+      "side": "BUY",
+      "asset": "103532622044166510194203290959104019976251609570170234013973788160436106686017",
+      "conditionId": "0x175710d3ed7ab79444b3cdf648bbaed8c948f0e086a7ceaec7e9db5fe45798d3",
+      "size": 5197.72,
+      "price": 0.44,
+      "timestamp": 1774806740,
+      "title": "Pittsburgh Pirates vs. New York Mets",
+      "slug": "mlb-pit-nym-2026-03-29",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Repetitive-markets/MLB.jpg",
+      "eventSlug": "mlb-pit-nym-2026-03-29",
+      "outcome": "Pittsburgh Pirates",
+      "outcomeIndex": 0,
+      "name": "CemeterySun",
+      "pseudonym": "Pale-Bend",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xf33d76eca1f954901ceb1c0813c36072e09419dbc3e5c6c973616d5ab00daff8",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Pittsburgh Pirates vs. New York Mets",
+    "market_slug": "mlb-pit-nym-2026-03-29",
+    "amount": 2286.9968000000003
   }
 ]
