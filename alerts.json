@@ -1,34 +1,5 @@
 [
   {
-    "market": "Will Silver (SI) hit (HIGH) $110 by end of January?",
-    "market_slug": "si-hit-110-high-jan-2026",
-    "wallet": "0xfa10080e23458cf4334325e41f0fc2b5fe478f6b",
-    "analysis": {
-      "score": 85,
-      "flags": [
-        "New wallet (0d old)",
-        "Extreme confidence (99.4% odds)",
-        "Large bet ($4,535)"
-      ],
-      "amount": 4534.9262,
-      "odds": 0.994,
-      "wallet_age_days": 0,
-      "total_activities": 16
-    },
-    "timestamp": "2026-01-26T18:42:07.859165",
-    "trade_hash": "0x6602972999784f1ecf090a15db34f71d457552266156ae10eac0ba0f805029b2",
-    "trade_timestamp": 1769452783,
-    "latency": null,
-    "wallet_stats": null,
-    "trade_data": {
-      "outcome": "Yes",
-      "side": "SELL",
-      "price": 0.994,
-      "size": 4562.3,
-      "amount": 4534.9262
-    }
-  },
-  {
     "market": "Will Donald Trump announce a new nominee for Chair of the Federal Reserve by January 31, 2026?",
     "market_slug": "will-donald-trump-announce-a-new-nominee-for-chair-of-the-federal-reserve-by-january-31-2026-849-849-957-245",
     "wallet": "0x2b247492d5484c9832e41569957a42174af52605",
@@ -33198,5 +33169,49 @@
     "market": "Counter-Strike: G2 vs CarritoSpain (BO1) - Roman Imperium Cup Group D",
     "market_slug": "cs2-g2-car-2026-03-29",
     "amount": 2064.5058
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xb87dfbb383777e394117fe9cd58a93d1b477d87f12b39088e4fcf9713d70f570",
+    "wallet": "0x23786fdad0073692157c6d7dc81f281843a35fcb",
+    "trader": {
+      "rank": 13,
+      "address": "0x23786fdad0073692157c6d7dc81f281843a35fcb",
+      "username": "mikatrade77",
+      "profit": 5147998.544602999,
+      "volume": 10884765.388775,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x66fbe4344c1a9f6029a4e40ffd5ca7848e189f72",
+      "side": "BUY",
+      "asset": "98837326371445854502148454046144343204430522102119267065134485523643192081778",
+      "conditionId": "0x116ac25a35e4d82319ca49acd4db983c9e6bcfd58d4c889b742069e16aedbeab",
+      "size": 34482.758619,
+      "price": 0.57999999999942,
+      "timestamp": 1774786032,
+      "title": "Dota 2: Team Yandex vs Xtreme Gaming - Game 2 Winner",
+      "slug": "dota2-ty-xtreme-2026-03-29-game2",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/dota2-7ffacddb21.jpg",
+      "eventSlug": "dota2-ty-xtreme-2026-03-29",
+      "outcome": "Team Yandex",
+      "outcomeIndex": 0,
+      "name": "bobbythedestroyer",
+      "pseudonym": "Incredible-Integer",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xb87dfbb383777e394117fe9cd58a93d1b477d87f12b39088e4fcf9713d70f570",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Dota 2: Team Yandex vs Xtreme Gaming - Game 2 Winner",
+    "market_slug": "dota2-ty-xtreme-2026-03-29",
+    "amount": 19999.999999
   }
 ]
