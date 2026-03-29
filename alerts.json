@@ -1,42 +1,5 @@
 [
   {
-    "market": "Cilia Flores released from custody by January 31, 2026?",
-    "market_slug": "cilia-flores-released-from-custody-by-january-31-2026",
-    "wallet": "0x08354f0ec613f7b8a0abc0b7cacf7cee899f0e07",
-    "analysis": {
-      "score": 85,
-      "flags": [
-        "Extreme confidence (99.5% odds)",
-        "Large bet ($1,943)",
-        "Pre-event latency: 5372m"
-      ],
-      "amount": 1943.235,
-      "odds": 0.995,
-      "wallet_age_days": 96,
-      "total_activities": 100
-    },
-    "timestamp": "2026-01-27T06:32:08.136561",
-    "trade_hash": "0x54eac29aaac2fa988e5c61ad14ce0fc2ab3cc9fd28f3119fa6148d1f0e1f08b9",
-    "trade_timestamp": 1769495257,
-    "latency": {
-      "latency_seconds": 322343.0,
-      "latency_minutes": 5372.383333333333,
-      "is_pre_event": true,
-      "severity": "CRITICAL",
-      "trade_time": "2026-01-27T06:27:37+00:00",
-      "event_time": "2026-01-31T00:00:00+00:00"
-    },
-    "wallet_stats": null,
-    "trade_data": {
-      "outcome": "No",
-      "side": "SELL",
-      "price": 0.995,
-      "size": 1953.0,
-      "amount": 1943.235
-    },
-    "resolution_last_check": "2026-03-29T06:54:19.524048+00:00"
-  },
-  {
     "market": "Khamenei out as Supreme Leader of Iran by January 31?",
     "market_slug": "khamenei-out-as-supreme-leader-of-iran-by-january-31",
     "wallet": "0x7f7bf485545d5ce980c767cdf1ec93046c5c10e7",
@@ -33698,5 +33661,49 @@
     "market": "Heat vs. Pacers",
     "market_slug": "nba-mia-ind-2026-03-29",
     "amount": 6006.0
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x7eed9c41c41331b078aba91c6c620d9cb67a6f402cfe22107e5f899d97f77fba",
+    "wallet": "0x94f199fb7789f1aef7fff6b758d6b375100f4c7a",
+    "trader": {
+      "rank": 10,
+      "address": "0x94f199fb7789f1aef7fff6b758d6b375100f4c7a",
+      "username": "KeyTransporter",
+      "profit": 5711459.802519929,
+      "volume": 20086062.154324997,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xfbf3d501e88815464642d0e913f15379c3eeb218",
+      "side": "BUY",
+      "asset": "46074053027504456980838139439071668463534417342542986769475437075526685360542",
+      "conditionId": "0xb71276804dfd74c76d770e78ac1e90c1d60bc827d4300c2fa21f6983b9a601ac",
+      "size": 10434.11,
+      "price": 0.22428030756815867,
+      "timestamp": 1774828048,
+      "title": "Knicks vs. Thunder",
+      "slug": "nba-nyk-okc-2026-03-29",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
+      "eventSlug": "nba-nyk-okc-2026-03-29",
+      "outcome": "Knicks",
+      "outcomeIndex": 0,
+      "name": "VPenguin",
+      "pseudonym": "Pastel-Push",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x7eed9c41c41331b078aba91c6c620d9cb67a6f402cfe22107e5f899d97f77fba",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Knicks vs. Thunder",
+    "market_slug": "nba-nyk-okc-2026-03-29",
+    "amount": 2340.1654000000003
   }
 ]
