@@ -1,42 +1,5 @@
 [
   {
-    "market": "Khamenei out as Supreme Leader of Iran by January 31?",
-    "market_slug": "khamenei-out-as-supreme-leader-of-iran-by-january-31",
-    "wallet": "0xcf4ce453df47baba44a5b52f77a7745bd386f088",
-    "analysis": {
-      "score": 85,
-      "flags": [
-        "Extreme confidence (98.1% odds)",
-        "Large bet ($9,813)",
-        "Pre-event latency: 5683m"
-      ],
-      "amount": 9813.24626,
-      "odds": 0.9812912620970887,
-      "wallet_age_days": 104,
-      "total_activities": 100
-    },
-    "timestamp": "2026-01-27T01:19:55.788864",
-    "trade_hash": "0x238ff007e0a0cc6ddb3d8a0e8299bf385ceb7c8af502ab6100b54eedfca0e9b6",
-    "trade_timestamp": 1769476649,
-    "latency": {
-      "latency_seconds": 340951.0,
-      "latency_minutes": 5682.516666666666,
-      "is_pre_event": true,
-      "severity": "CRITICAL",
-      "trade_time": "2026-01-27T01:17:29+00:00",
-      "event_time": "2026-01-31T00:00:00+00:00"
-    },
-    "wallet_stats": null,
-    "trade_data": {
-      "outcome": "No",
-      "side": "SELL",
-      "price": 0.9812912620970887,
-      "size": 10000.34,
-      "amount": 9813.24626
-    },
-    "resolution_last_check": "2026-03-29T06:54:18.205471+00:00"
-  },
-  {
     "market": "Will xQc beat Forsen's Minecraft speedrun record by January 31?",
     "market_slug": "will-xqc-beat-forsens-minecraft-speedrun-record-by-january-31",
     "wallet": "0x48aebd206b99c165fa8b7cbdcb71d1c05782fd6b",
@@ -33684,5 +33647,49 @@
     "market": "Spread: Trail Blazers (-16.5)",
     "market_slug": "nba-was-por-2026-03-29",
     "amount": 3017.9188
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xf289547448f5eeabec3dd1ca9804a772d54992ffa0b0367d766d0444bcde205f",
+    "wallet": "0xd0c042c08f755ff940249f62745e82d356345565",
+    "trader": {
+      "rank": 15,
+      "address": "0xd0c042c08f755ff940249f62745e82d356345565",
+      "username": "alexmulti",
+      "profit": 4804855.613376001,
+      "volume": 9949068.653841998,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x7e3a1f95c558f39a51ff334d789e3e039b553246",
+      "side": "BUY",
+      "asset": "30737869522084583250787348761921807424436212950877429392167290854319537675093",
+      "conditionId": "0xdf99b42652984acb2679ce1729acca79ca93cbb1eb6e512cf7153eedcd0b630e",
+      "size": 46111.62,
+      "price": 0.34,
+      "timestamp": 1774822344,
+      "title": "Heat vs. Pacers",
+      "slug": "nba-mia-ind-2026-03-29",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
+      "eventSlug": "nba-mia-ind-2026-03-29",
+      "outcome": "Pacers",
+      "outcomeIndex": 1,
+      "name": "KaneAnalytics",
+      "pseudonym": "Smart-Elbow",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xf289547448f5eeabec3dd1ca9804a772d54992ffa0b0367d766d0444bcde205f",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Heat vs. Pacers",
+    "market_slug": "nba-mia-ind-2026-03-29",
+    "amount": 30433.669199999997
   }
 ]
