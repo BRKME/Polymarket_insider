@@ -1,1 +1,32 @@
+name: Keepalive
 
+on:
+  schedule:
+    - cron: '0 12 * * 0'
+  workflow_dispatch:
+
+jobs:
+  keepalive:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check last commit age and keepalive
+        run: |
+          LAST=$(git log -1 --format=%ct)
+          NOW=$(date +%s)
+          DAYS=$(( (NOW - LAST) / 86400 ))
+          echo "Last commit: ${DAYS} days ago"
+          if [ "$DAYS" -gt 45 ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            date -u > .github/.keepalive
+            git add .github/.keepalive
+            git commit -m "chore: keepalive [skip ci]"
+            git push
+            echo "Keepalive commit pushed"
+          else
+            echo "Recent activity, no keepalive needed"
+          fi
