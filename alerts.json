@@ -1,79 +1,5 @@
 [
   {
-    "market": "Will the price of Solana be between $160 and $170 on January 28?",
-    "market_slug": "will-the-price-of-solana-be-between-160-170-on-january-28",
-    "wallet": "0x42a5de1c23eed47862337067c334631f313e49c6",
-    "analysis": {
-      "score": 85,
-      "flags": [
-        "Extreme confidence (99.9% odds)",
-        "Large bet ($3,656)",
-        "Pre-event latency: 1641m"
-      ],
-      "amount": 3656.34,
-      "odds": 0.999,
-      "wallet_age_days": 368,
-      "total_activities": 100
-    },
-    "timestamp": "2026-01-26T20:42:11.905516",
-    "trade_hash": "0x39fe1ff6cd8d569ca3d3b06975b48e10270218a984e5878497e7eb32d5e57fba",
-    "trade_timestamp": 1769459933,
-    "latency": {
-      "latency_seconds": 98467.0,
-      "latency_minutes": 1641.1166666666666,
-      "is_pre_event": true,
-      "severity": "CRITICAL",
-      "trade_time": "2026-01-26T20:38:53+00:00",
-      "event_time": "2026-01-28T00:00:00+00:00"
-    },
-    "wallet_stats": null,
-    "trade_data": {
-      "outcome": "No",
-      "side": "BUY",
-      "price": 0.999,
-      "size": 3660.0,
-      "amount": 3656.34
-    },
-    "resolution_last_check": "2026-03-29T06:54:13.602798+00:00"
-  },
-  {
-    "market": "Will NVIDIA be the second-largest company in the world by market cap on January 31?",
-    "market_slug": "will-nvidia-be-the-second-largest-company-in-the-world-by-market-cap-on-january-31",
-    "wallet": "0x1584cb3b5a84944bd0db072c43d67189397071b6",
-    "analysis": {
-      "score": 85,
-      "flags": [
-        "Extreme confidence (99.8% odds)",
-        "Large bet ($1,813)",
-        "Pre-event latency: 5926m"
-      ],
-      "amount": 1812.5721,
-      "odds": 0.9981673550305633,
-      "wallet_age_days": 62,
-      "total_activities": 100
-    },
-    "timestamp": "2026-01-26T21:16:31.358472",
-    "trade_hash": "0x4d63674e22d5ee607c139159b8a30a25977b337ebf753d51d416245ec0849470",
-    "trade_timestamp": 1769462033,
-    "latency": {
-      "latency_seconds": 355567.0,
-      "latency_minutes": 5926.116666666667,
-      "is_pre_event": true,
-      "severity": "CRITICAL",
-      "trade_time": "2026-01-26T21:13:53+00:00",
-      "event_time": "2026-01-31T00:00:00+00:00"
-    },
-    "wallet_stats": null,
-    "trade_data": {
-      "outcome": "No",
-      "side": "BUY",
-      "price": 0.9981673550305633,
-      "size": 1815.9,
-      "amount": 1812.5721
-    },
-    "resolution_last_check": "2026-03-29T06:54:14.264194+00:00"
-  },
-  {
     "market": "Will the US next strike Iran on January 28, 2026 (ET)?",
     "market_slug": "will-the-us-next-strike-iran-on-january-28-2026-et-699",
     "wallet": "0x2c18fc1449d5fb66217484f0ca3f97d0c7373570",
@@ -33417,6 +33343,222 @@
       "stance": "HIGH_CONVICTION",
       "edge_percent": 26.8,
       "signal_strength": 105.0,
+      "insider_score": 70.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    }
+  },
+  {
+    "market": "Wizards vs. Trail Blazers: O/U 237.5",
+    "market_slug": "nba-was-por-2026-03-29-total-237pt5",
+    "event_slug": "nba-was-por-2026-03-29-total-237pt5",
+    "wallet": "0x42cb365e9eb08172df9c035ec31b7bbd36d2f905",
+    "analysis": {
+      "score": 70,
+      "flags": [
+        "New wallet (0d old)",
+        "Large bet ($1,478)",
+        "Low activity (1 txns)"
+      ],
+      "amount": 1477.5,
+      "odds": 0.5,
+      "raw_price": 0.5,
+      "outcome": "Over",
+      "potential_pnl": 1477.5,
+      "pnl_multiplier": 1.0,
+      "wallet_age_days": 0,
+      "total_activities": 1
+    },
+    "timestamp": "2026-03-29T14:56:32.783725",
+    "trade_hash": "0xf36d204eb1f56855c564c030a1a2f818bee3dfd95f8c0fc0391992ca9ff5b0e3",
+    "trade_timestamp": 1774795836,
+    "latency": null,
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "Over",
+      "outcomeIndex": 0,
+      "normalized_position": "YES",
+      "side": "BUY",
+      "price": 0.5,
+      "effective_price": 0.5,
+      "size": 2955.0,
+      "amount": 1477.5,
+      "potential_pnl": 1477.5,
+      "pnl_multiplier": 1.0,
+      "is_no": false,
+      "slug": "nba-was-por-2026-03-29-total-237pt5",
+      "eventSlug": "nba-was-por-2026-03-29"
+    },
+    "irrationality": {
+      "irrationality_score": 35,
+      "flags": [
+        "Large mispricing edge (+26.0%)"
+      ],
+      "category": "sports",
+      "category_info": {
+        "strength": "medium",
+        "typical_overpricing": 0.03,
+        "min_edge": 0.05
+      },
+      "is_irrational": true
+    },
+    "mispricing": {
+      "rational_estimate": 0.24,
+      "market_price": 0.5,
+      "edge": 0.26,
+      "edge_percent": 26.0,
+      "min_edge_required": 0.05,
+      "is_mispriced": true,
+      "edge_quality": "STRONG",
+      "base_rate_class": "common",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "common",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "high-scoring performances from both teams",
+          "defensive weaknesses exploited",
+          "favorable game pace"
+        ],
+        "weakest_link": "defensive weaknesses exploited"
+      },
+      "category": "sports",
+      "narrative_drivers": [
+        "recent offensive trends of both teams",
+        "injuries affecting defensive capabilities"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "CONFLICT",
+      "signal_emoji": "\u26a0\ufe0f",
+      "signal_strength": 70,
+      "interpretation": "Insider buying YES despite statistical overpricing",
+      "action_suggestion": "Requires manual analysis: insider may have real info OR is part of irrational crowd",
+      "insider_score": 70,
+      "insider_position": "YES",
+      "irrationality_score": 35,
+      "is_irrational": true,
+      "is_mispriced": true,
+      "edge": 0.26,
+      "edge_percent": 26.0
+    },
+    "log_only": true,
+    "financial_analyst": {
+      "signal_quality": 46.0,
+      "stance": "WATCH_ONLY",
+      "edge_percent": 26.0,
+      "signal_strength": 70.0,
+      "insider_score": 70.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    }
+  },
+  {
+    "market": "Wizards vs. Trail Blazers: O/U 237.5",
+    "market_slug": "nba-was-por-2026-03-29-total-237pt5",
+    "event_slug": "nba-was-por-2026-03-29-total-237pt5",
+    "wallet": "0x107321c60ca5d443807d8fb9e6dea8cb8c6fa93a",
+    "analysis": {
+      "score": 70,
+      "flags": [
+        "New wallet (0d old)",
+        "Large bet ($1,080)",
+        "Low activity (1 txns)"
+      ],
+      "amount": 1080.5,
+      "odds": 0.5,
+      "raw_price": 0.5,
+      "outcome": "Over",
+      "potential_pnl": 1080.5,
+      "pnl_multiplier": 1.0,
+      "wallet_age_days": 0,
+      "total_activities": 1
+    },
+    "timestamp": "2026-03-29T14:56:38.007338",
+    "trade_hash": "0x4535eebb8e26c9bb2236bee29bc700f22852e4791c65d54b67822c3e620474db",
+    "trade_timestamp": 1774795834,
+    "latency": null,
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "Over",
+      "outcomeIndex": 0,
+      "normalized_position": "YES",
+      "side": "BUY",
+      "price": 0.5,
+      "effective_price": 0.5,
+      "size": 2161.0,
+      "amount": 1080.5,
+      "potential_pnl": 1080.5,
+      "pnl_multiplier": 1.0,
+      "is_no": false,
+      "slug": "nba-was-por-2026-03-29-total-237pt5",
+      "eventSlug": "nba-was-por-2026-03-29"
+    },
+    "irrationality": {
+      "irrationality_score": 35,
+      "flags": [
+        "Large mispricing edge (+26.0%)"
+      ],
+      "category": "sports",
+      "category_info": {
+        "strength": "medium",
+        "typical_overpricing": 0.03,
+        "min_edge": 0.05
+      },
+      "is_irrational": true
+    },
+    "mispricing": {
+      "rational_estimate": 0.24,
+      "market_price": 0.5,
+      "edge": 0.26,
+      "edge_percent": 26.0,
+      "min_edge_required": 0.05,
+      "is_mispriced": true,
+      "edge_quality": "STRONG",
+      "base_rate_class": "common",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "common",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "Both teams have high-scoring offenses",
+          "Defensive weaknesses on both sides",
+          "Recent trends indicate high-scoring games"
+        ],
+        "weakest_link": "Defensive weaknesses on both sides"
+      },
+      "category": "sports",
+      "narrative_drivers": [
+        "Recent performance of key players",
+        "Historical matchups between the teams"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "CONFLICT",
+      "signal_emoji": "\u26a0\ufe0f",
+      "signal_strength": 70,
+      "interpretation": "Insider buying YES despite statistical overpricing",
+      "action_suggestion": "Requires manual analysis: insider may have real info OR is part of irrational crowd",
+      "insider_score": 70,
+      "insider_position": "YES",
+      "irrationality_score": 35,
+      "is_irrational": true,
+      "is_mispriced": true,
+      "edge": 0.26,
+      "edge_percent": 26.0
+    },
+    "log_only": true,
+    "financial_analyst": {
+      "signal_quality": 46.0,
+      "stance": "WATCH_ONLY",
+      "edge_percent": 26.0,
+      "signal_strength": 70.0,
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
     }
