@@ -1,104 +1,5 @@
 [
   {
-    "market": "Will Bitcoin reach $125,000 in January?",
-    "market_slug": "will-bitcoin-reach-125k-in-january-2026",
-    "wallet": "0xff35a1eac094b29fa306881c0be09e04c08f674a",
-    "analysis": {
-      "score": 95,
-      "flags": [
-        "New wallet (0d old)",
-        "Extreme confidence (99.8% odds)",
-        "Large bet ($1,200)",
-        "Low activity (1 txns)"
-      ],
-      "amount": 1199.9952,
-      "odds": 0.998,
-      "wallet_age_days": 0,
-      "total_activities": 1
-    },
-    "timestamp": "2026-01-27T07:58:41.352552",
-    "trade_hash": "0x81dafc9afecaaa5d9c5aa8728ef0a28d432a97a40af465803ddd6b5c4e9ddefc",
-    "trade_timestamp": 1769500623,
-    "latency": null,
-    "wallet_stats": null,
-    "trade_data": {
-      "outcome": "No",
-      "side": "BUY",
-      "price": 0.998,
-      "size": 1202.4,
-      "amount": 1199.9952
-    },
-    "resolution_last_check": "2026-03-29T06:54:22.180169+00:00"
-  },
-  {
-    "market": "Russia x Ukraine ceasefire by January 31, 2026?",
-    "market_slug": "russia-x-ukraine-ceasefire-by-january-31-2026",
-    "wallet": "0x373559a78c0fdc5adcb7df68601ef1644b8c4282",
-    "analysis": {
-      "score": 85,
-      "flags": [
-        "Extreme confidence (99.5% odds)",
-        "Large bet ($1,260)",
-        "Pre-event latency: 5283m"
-      ],
-      "amount": 1260.37645,
-      "odds": 0.995,
-      "wallet_age_days": 130,
-      "total_activities": 100
-    },
-    "timestamp": "2026-01-27T07:58:49.434641",
-    "trade_hash": "0x7ebcce8f6a92cf72679b058ec6d2227eccaac4e791ff8a702e361e4faab7dcce",
-    "trade_timestamp": 1769500605,
-    "latency": {
-      "latency_seconds": 316995.0,
-      "latency_minutes": 5283.25,
-      "is_pre_event": true,
-      "severity": "CRITICAL",
-      "trade_time": "2026-01-27T07:56:45+00:00",
-      "event_time": "2026-01-31T00:00:00+00:00"
-    },
-    "wallet_stats": null,
-    "trade_data": {
-      "outcome": "No",
-      "side": "SELL",
-      "price": 0.995,
-      "size": 1266.71,
-      "amount": 1260.37645
-    },
-    "resolution_last_check": "2026-03-29T06:54:22.830227+00:00"
-  },
-  {
-    "market": "Will Trump nominate David Malpass as the next Fed chair?",
-    "market_slug": "will-trump-nominate-david-malpass-as-the-next-fed-chair",
-    "wallet": "0x1457639f227b60f620775ffaa84dbdd60fd83c40",
-    "analysis": {
-      "score": 95,
-      "flags": [
-        "New wallet (0d old)",
-        "Extreme confidence (99.9% odds)",
-        "Large bet ($2,856)",
-        "Low activity (1 txns)"
-      ],
-      "amount": 2856.149991,
-      "odds": 0.999,
-      "wallet_age_days": 0,
-      "total_activities": 1
-    },
-    "timestamp": "2026-01-27T08:29:32.688790",
-    "trade_hash": "0x1f8853b937bdaae294724e449653c214bc4b15fd1d5bd8a8db9507fa118c2f5b",
-    "trade_timestamp": 1769502433,
-    "latency": null,
-    "wallet_stats": null,
-    "trade_data": {
-      "outcome": "No",
-      "side": "BUY",
-      "price": 0.999,
-      "size": 2859.009,
-      "amount": 2856.149991
-    },
-    "resolution_last_check": "2026-03-29T06:54:23.489785+00:00"
-  },
-  {
     "market": "Will Bitcoin reach $150,000 in January?",
     "market_slug": "will-bitcoin-reach-150k-in-january-2026",
     "wallet": "0xc66b97a1e198db20288f751cc15968e2a4260764",
@@ -33954,5 +33855,263 @@
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
     }
+  },
+  {
+    "market": "Spread: 76ers (-1.5)",
+    "market_slug": "nba-phi-mia-2026-03-30-spread-away-1pt5",
+    "event_slug": "nba-phi-mia-2026-03-30-spread-away-1pt5",
+    "wallet": "0x0daa0d3fd576c5b6bbbef56167ae8ae7eadac9da",
+    "analysis": {
+      "score": 70,
+      "flags": [
+        "New wallet (0d old)",
+        "Large bet ($2,978)",
+        "Low activity (2 txns)"
+      ],
+      "amount": 2977.5090039016495,
+      "odds": 0.4899999999640667,
+      "raw_price": 0.4899999999640667,
+      "outcome": "Heat",
+      "potential_pnl": 3099.039984098351,
+      "pnl_multiplier": 1.0408163266802721,
+      "wallet_age_days": 0,
+      "total_activities": 2
+    },
+    "timestamp": "2026-03-30T22:52:30.199597",
+    "trade_hash": "0xdb673c527a986a05c35610bdc14e6cd4b043b0f93b66430f5c724bd9f2ee0695",
+    "trade_timestamp": 1774911005,
+    "latency": null,
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "Heat",
+      "outcomeIndex": 1,
+      "normalized_position": "NO",
+      "side": "BUY",
+      "price": 0.4899999999640667,
+      "effective_price": 0.4899999999640667,
+      "size": 6076.5489880000005,
+      "amount": 2977.5090039016495,
+      "potential_pnl": 3099.039984098351,
+      "pnl_multiplier": 1.0408163266802721,
+      "is_no": false,
+      "slug": "nba-phi-mia-2026-03-30-spread-away-1pt5",
+      "eventSlug": "nba-phi-mia-2026-03-30"
+    },
+    "irrationality": {
+      "irrationality_score": 35,
+      "flags": [
+        "Large mispricing edge (+25.2%)"
+      ],
+      "category": "other",
+      "category_info": {
+        "strength": "medium",
+        "typical_overpricing": 0.03,
+        "min_edge": 0.05
+      },
+      "is_irrational": true
+    },
+    "mispricing": {
+      "rational_estimate": 0.23799999999281332,
+      "market_price": 0.4899999999640667,
+      "edge": 0.25199999997125333,
+      "edge_percent": 25.19999999712533,
+      "min_edge_required": 0.05,
+      "is_mispriced": true,
+      "edge_quality": "STRONG",
+      "base_rate_class": "common",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "common",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "76ers maintain key player health",
+          "76ers perform well in away games",
+          "Opposing team has injuries or underperformance"
+        ],
+        "weakest_link": "Opposing team has injuries or underperformance"
+      },
+      "category": "sports",
+      "narrative_drivers": [
+        "76ers recent performance trends",
+        "Public sentiment towards team dynamics"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "ALPHA",
+      "signal_emoji": "\ud83d\udd25",
+      "signal_strength": 105,
+      "interpretation": "Smart money (NO) confirms YES is overpriced",
+      "action_suggestion": "High conviction: insider + statistics aligned",
+      "insider_score": 70,
+      "insider_position": "NO",
+      "irrationality_score": 35,
+      "is_irrational": true,
+      "is_mispriced": true,
+      "edge": 0.25199999997125333,
+      "edge_percent": 25.19999999712533
+    },
+    "financial_analyst": {
+      "signal_quality": 81.0,
+      "stance": "HIGH_CONVICTION",
+      "edge_percent": 25.2,
+      "signal_strength": 105.0,
+      "insider_score": 70.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    }
+  },
+  {
+    "market": "Spread: 76ers (-2.5)",
+    "market_slug": "nba-phi-mia-2026-03-30-spread-away-2pt5",
+    "event_slug": "nba-phi-mia-2026-03-30-spread-away-2pt5",
+    "wallet": "0x0daa0d3fd576c5b6bbbef56167ae8ae7eadac9da",
+    "analysis": {
+      "score": 70,
+      "flags": [
+        "New wallet (0d old)",
+        "Large bet ($1,981)",
+        "Low activity (2 txns)"
+      ],
+      "amount": 1981.053956201797,
+      "odds": 0.5199999999374749,
+      "raw_price": 0.5199999999374749,
+      "outcome": "Heat",
+      "potential_pnl": 1828.6651907982032,
+      "pnl_multiplier": 0.9230769233081549,
+      "wallet_age_days": 0,
+      "total_activities": 2
+    },
+    "timestamp": "2026-03-30T22:52:40.316927",
+    "trade_hash": "0x0b73363e89d54577c3ee64a17f2dc2424d33e044eafeaa0a18d960c8d70c7b97",
+    "trade_timestamp": 1774911031,
+    "latency": null,
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "Heat",
+      "outcomeIndex": 1,
+      "normalized_position": "NO",
+      "side": "BUY",
+      "price": 0.5199999999374749,
+      "effective_price": 0.5199999999374749,
+      "size": 3809.7191470000002,
+      "amount": 1981.053956201797,
+      "potential_pnl": 1828.6651907982032,
+      "pnl_multiplier": 0.9230769233081549,
+      "is_no": false,
+      "slug": "nba-phi-mia-2026-03-30-spread-away-2pt5",
+      "eventSlug": "nba-phi-mia-2026-03-30"
+    },
+    "irrationality": {
+      "irrationality_score": 35,
+      "flags": [
+        "Large mispricing edge (+27.6%)"
+      ],
+      "category": "other",
+      "category_info": {
+        "strength": "medium",
+        "typical_overpricing": 0.03,
+        "min_edge": 0.05
+      },
+      "is_irrational": true
+    },
+    "mispricing": {
+      "rational_estimate": 0.24399999998749497,
+      "market_price": 0.5199999999374749,
+      "edge": 0.2759999999499799,
+      "edge_percent": 27.599999994997994,
+      "min_edge_required": 0.05,
+      "is_mispriced": true,
+      "edge_quality": "STRONG",
+      "base_rate_class": "common",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "common",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "76ers maintain key player health",
+          "76ers perform well in recent games",
+          "opposing team struggles with injuries"
+        ],
+        "weakest_link": "opposing team struggles with injuries"
+      },
+      "category": "sports",
+      "narrative_drivers": [
+        "team performance trends",
+        "player health updates"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "ALPHA",
+      "signal_emoji": "\ud83d\udd25",
+      "signal_strength": 105,
+      "interpretation": "Smart money (NO) confirms YES is overpriced",
+      "action_suggestion": "High conviction: insider + statistics aligned",
+      "insider_score": 70,
+      "insider_position": "NO",
+      "irrationality_score": 35,
+      "is_irrational": true,
+      "is_mispriced": true,
+      "edge": 0.2759999999499799,
+      "edge_percent": 27.599999994997994
+    },
+    "financial_analyst": {
+      "signal_quality": 81.0,
+      "stance": "HIGH_CONVICTION",
+      "edge_percent": 27.6,
+      "signal_strength": 105.0,
+      "insider_score": 70.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    }
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xa72e910c6943c0bbcf5a572269580000d18c30cf61dca1fa72fbfe00ebbccce4",
+    "wallet": "0x885783760858e1bd5dd09a3c3f916cfa251ac270",
+    "trader": {
+      "rank": 11,
+      "address": "0x885783760858e1bd5dd09a3c3f916cfa251ac270",
+      "username": "BetTom42",
+      "profit": 5642135.735356,
+      "volume": 11212839.523403,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x5bac37ae4b985011e34862ec14c3ae72ebbf8769",
+      "side": "BUY",
+      "asset": "12788726080058661594808252973556519084186112914380703737448250849988276926222",
+      "conditionId": "0x80e9c8ac70e30b71e4e926278af11366d47d910f8c9ca89f6f9b20e8643523c7",
+      "size": 9559.884624,
+      "price": 0.25999999993344,
+      "timestamp": 1774911481,
+      "title": "US Men's Clay Court Championships: Alex Bolt vs Yibing Wu",
+      "slug": "atp-bolt-wu-2026-03-30",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/atp-tour-b4390c4fb8.jpg",
+      "eventSlug": "atp-bolt-wu-2026-03-30",
+      "outcome": "Alex Bolt",
+      "outcomeIndex": 0,
+      "name": "0xBumblebee",
+      "pseudonym": "Pungent-Vulture",
+      "bio": "",
+      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-4187284-efa38349-4f1f-423b-b045-21db10b3e9ae.jpg",
+      "profileImageOptimized": "",
+      "transactionHash": "0xa72e910c6943c0bbcf5a572269580000d18c30cf61dca1fa72fbfe00ebbccce4",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "US Men's Clay Court Championships: Alex Bolt vs Yibing Wu",
+    "market_slug": "atp-bolt-wu-2026-03-30",
+    "amount": 2485.570001603694
   }
 ]
