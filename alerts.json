@@ -1,42 +1,5 @@
 [
   {
-    "market": "Will Alphabet be the second-largest company in the world by market cap on January 31?",
-    "market_slug": "will-alphabet-be-the-second-largest-company-in-the-world-by-market-cap-on-january-31",
-    "wallet": "0x79929dfb11820a017fb7a51faf536a55bdbd48bf",
-    "analysis": {
-      "score": 85,
-      "flags": [
-        "Extreme confidence (98.8% odds)",
-        "Large bet ($1,235)",
-        "Pre-event latency: 5292m"
-      ],
-      "amount": 1234.74312,
-      "odds": 0.988,
-      "wallet_age_days": 379,
-      "total_activities": 100
-    },
-    "timestamp": "2026-01-27T07:51:00.554201",
-    "trade_hash": "0xdbac08eac4bb22acc221c4a51491cbbdb25b24f04d6a4c295126a6cda0a3007a",
-    "trade_timestamp": 1769500061,
-    "latency": {
-      "latency_seconds": 317539.0,
-      "latency_minutes": 5292.316666666667,
-      "is_pre_event": true,
-      "severity": "CRITICAL",
-      "trade_time": "2026-01-27T07:47:41+00:00",
-      "event_time": "2026-01-31T00:00:00+00:00"
-    },
-    "wallet_stats": null,
-    "trade_data": {
-      "outcome": "Yes",
-      "side": "SELL",
-      "price": 0.988,
-      "size": 1249.74,
-      "amount": 1234.74312
-    },
-    "resolution_last_check": "2026-03-29T06:54:21.534158+00:00"
-  },
-  {
     "market": "Will Bitcoin reach $125,000 in January?",
     "market_slug": "will-bitcoin-reach-125k-in-january-2026",
     "wallet": "0xff35a1eac094b29fa306881c0be09e04c08f674a",
@@ -33882,5 +33845,114 @@
     "market": "Counter-Strike: Inner Circle Esports vs BASEMENT BOYS - Map 2 Winner",
     "market_slug": "cs2-ice-bmb-2026-03-30",
     "amount": 4236.473043
+  },
+  {
+    "market": "Counter-Strike: 9z vs Legacy (BO5) - FERJEE In House Playoffs",
+    "market_slug": "cs2-9z-lgc-2026",
+    "event_slug": "cs2-9z-lgc-2026",
+    "wallet": "0x3dc2a9a025485d14bf1cca5c21df8790a7090f14",
+    "analysis": {
+      "score": 70,
+      "flags": [
+        "New wallet (0d old)",
+        "Large bet ($1,192)",
+        "Low activity (3 txns)"
+      ],
+      "amount": 1191.8789939943792,
+      "odds": 0.3437421696428852,
+      "raw_price": 0.3437421696428852,
+      "outcome": "9z",
+      "potential_pnl": 2275.484336005621,
+      "pnl_multiplier": 1.9091571774242981,
+      "wallet_age_days": 0,
+      "total_activities": 3
+    },
+    "timestamp": "2026-03-30T22:07:02.903296",
+    "trade_hash": "0xa8b454c12b1bc78e207df3a93cd9fe83ab23a2001887fadd27ca6cc18dfdabff",
+    "trade_timestamp": 1774908241,
+    "latency": null,
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "9z",
+      "outcomeIndex": 0,
+      "normalized_position": "YES",
+      "side": "BUY",
+      "price": 0.3437421696428852,
+      "effective_price": 0.3437421696428852,
+      "size": 3467.3633299999997,
+      "amount": 1191.8789939943792,
+      "potential_pnl": 2275.484336005621,
+      "pnl_multiplier": 1.9091571774242981,
+      "is_no": false,
+      "slug": "cs2-9z-lgc-2026",
+      "eventSlug": "cs2-9z-lgc-2026-03-30"
+    },
+    "irrationality": {
+      "irrationality_score": 45,
+      "flags": [
+        "Crisis keyword detected ('strike')",
+        "Large mispricing edge (+21.5%)"
+      ],
+      "category": "sports",
+      "category_info": {
+        "strength": "medium",
+        "typical_overpricing": 0.03,
+        "min_edge": 0.05
+      },
+      "is_irrational": true
+    },
+    "mispricing": {
+      "rational_estimate": 0.12874843392857704,
+      "market_price": 0.3437421696428852,
+      "edge": 0.21499373571430813,
+      "edge_percent": 21.499373571430812,
+      "min_edge_required": 0.05,
+      "is_mispriced": true,
+      "edge_quality": "STRONG",
+      "base_rate_class": "occasional",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "occasional",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "9z has a strong performance history",
+          "Legacy has a poor performance history",
+          "Key players on 9z are in top form"
+        ],
+        "weakest_link": "Legacy's ability to perform under pressure"
+      },
+      "category": "sports",
+      "narrative_drivers": [
+        "team dynamics and synergy",
+        "recent match performance trends"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "CONFLICT",
+      "signal_emoji": "\u26a0\ufe0f",
+      "signal_strength": 70,
+      "interpretation": "Insider buying YES despite statistical overpricing",
+      "action_suggestion": "Requires manual analysis: insider may have real info OR is part of irrational crowd",
+      "insider_score": 70,
+      "insider_position": "YES",
+      "irrationality_score": 45,
+      "is_irrational": true,
+      "is_mispriced": true,
+      "edge": 0.21499373571430813,
+      "edge_percent": 21.499373571430812
+    },
+    "log_only": true,
+    "financial_analyst": {
+      "signal_quality": 48.0,
+      "stance": "WATCH_ONLY",
+      "edge_percent": 21.5,
+      "signal_strength": 70.0,
+      "insider_score": 70.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    }
   }
 ]
