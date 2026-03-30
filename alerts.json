@@ -1,44 +1,5 @@
 [
   {
-    "market": "Khamenei out as Supreme Leader of Iran by January 31?",
-    "market_slug": "khamenei-out-as-supreme-leader-of-iran-by-january-31",
-    "wallet": "0x7f7bf485545d5ce980c767cdf1ec93046c5c10e7",
-    "analysis": {
-      "score": 135,
-      "flags": [
-        "New wallet (0d old)",
-        "Against trend (2.7% odds)",
-        "Large bet ($2,346)",
-        "Low activity (1 txns)",
-        "Pre-event latency: 5373m"
-      ],
-      "amount": 2345.999999,
-      "odds": 0.026897419559611228,
-      "wallet_age_days": 0,
-      "total_activities": 1
-    },
-    "timestamp": "2026-01-27T06:32:16.657121",
-    "trade_hash": "0x1b60e4657b24f9ae828af13ca940500fb0ca4d4c632d4a75acab568605aa77ab",
-    "trade_timestamp": 1769495219,
-    "latency": {
-      "latency_seconds": 322381.0,
-      "latency_minutes": 5373.016666666666,
-      "is_pre_event": true,
-      "severity": "CRITICAL",
-      "trade_time": "2026-01-27T06:26:59+00:00",
-      "event_time": "2026-01-31T00:00:00+00:00"
-    },
-    "wallet_stats": null,
-    "trade_data": {
-      "outcome": "Yes",
-      "side": "BUY",
-      "price": 0.026897419559611228,
-      "size": 87220.262665,
-      "amount": 2345.999999
-    },
-    "resolution_last_check": "2026-03-29T06:54:19.524058+00:00"
-  },
-  {
     "market": "US strikes Iran by January 31, 2026?",
     "market_slug": "us-strikes-iran-by-january-31-2026-165",
     "wallet": "0xe2c066d6d99d836058ee23167ecae1c34066f22b",
@@ -33800,6 +33761,114 @@
       "checked_at": "2026-03-30T07:19:23.978666+00:00",
       "insider_win": null,
       "model_correct": null
+    }
+  },
+  {
+    "market": "Celtics vs. Hawks",
+    "market_slug": "nba-bos-atl-2026",
+    "event_slug": "nba-bos-atl-2026",
+    "wallet": "0x7aeab32f78e89c58c6adccf1b3e75fbf2e2e0b5a",
+    "analysis": {
+      "score": 70,
+      "flags": [
+        "New wallet (0d old)",
+        "Large bet ($2,875)",
+        "Low activity (1 txns)"
+      ],
+      "amount": 2874.779999,
+      "odds": 0.4570100985191383,
+      "raw_price": 0.4570100985191383,
+      "outcome": "Celtics",
+      "potential_pnl": 3415.628043,
+      "pnl_multiplier": 1.188135455300279,
+      "wallet_age_days": 0,
+      "total_activities": 1
+    },
+    "timestamp": "2026-03-30T17:37:09.449665",
+    "trade_hash": "0xabed191b73c0a3e018cc7409d4fe2c0d17b0478005c317eb1bc5b98b23384072",
+    "trade_timestamp": 1774891921,
+    "latency": null,
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "Celtics",
+      "outcomeIndex": 0,
+      "normalized_position": "YES",
+      "side": "BUY",
+      "price": 0.4570100985191383,
+      "effective_price": 0.4570100985191383,
+      "size": 6290.408042,
+      "amount": 2874.779999,
+      "potential_pnl": 3415.628043,
+      "pnl_multiplier": 1.188135455300279,
+      "is_no": false,
+      "slug": "nba-bos-atl-2026",
+      "eventSlug": "nba-bos-atl-2026-03-30"
+    },
+    "irrationality": {
+      "irrationality_score": 35,
+      "flags": [
+        "Large mispricing edge (+22.6%)"
+      ],
+      "category": "sports",
+      "category_info": {
+        "strength": "medium",
+        "typical_overpricing": 0.03,
+        "min_edge": 0.05
+      },
+      "is_irrational": true
+    },
+    "mispricing": {
+      "rational_estimate": 0.23140201970382765,
+      "market_price": 0.4570100985191383,
+      "edge": 0.22560807881531067,
+      "edge_percent": 22.560807881531066,
+      "min_edge_required": 0.05,
+      "is_mispriced": true,
+      "edge_quality": "STRONG",
+      "base_rate_class": "common",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "common",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "Celtics maintain their current roster health",
+          "Hawks underperform in key matchups",
+          "Celtics capitalize on home court advantage"
+        ],
+        "weakest_link": "Hawks underperform in key matchups"
+      },
+      "category": "sports",
+      "narrative_drivers": [
+        "Celtics' playoff performance history",
+        "Hawks' recent struggles against top teams"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "CONFLICT",
+      "signal_emoji": "\u26a0\ufe0f",
+      "signal_strength": 70,
+      "interpretation": "Insider buying YES despite statistical overpricing",
+      "action_suggestion": "Requires manual analysis: insider may have real info OR is part of irrational crowd",
+      "insider_score": 70,
+      "insider_position": "YES",
+      "irrationality_score": 35,
+      "is_irrational": true,
+      "is_mispriced": true,
+      "edge": 0.22560807881531067,
+      "edge_percent": 22.560807881531066
+    },
+    "log_only": true,
+    "financial_analyst": {
+      "signal_quality": 46.0,
+      "stance": "WATCH_ONLY",
+      "edge_percent": 22.56,
+      "signal_strength": 70.0,
+      "insider_score": 70.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
     }
   }
 ]
