@@ -1,73 +1,5 @@
 [
   {
-    "market": "Will Bitcoin reach $150,000 in January?",
-    "market_slug": "will-bitcoin-reach-150k-in-january-2026",
-    "wallet": "0xc66b97a1e198db20288f751cc15968e2a4260764",
-    "analysis": {
-      "score": 95,
-      "flags": [
-        "New wallet (0d old)",
-        "Extreme confidence (99.9% odds)",
-        "Large bet ($10,077)",
-        "Low activity (1 txns)"
-      ],
-      "amount": 10076.999913,
-      "odds": 0.999,
-      "wallet_age_days": 0,
-      "total_activities": 1
-    },
-    "timestamp": "2026-01-27T08:29:47.636744",
-    "trade_hash": "0x28d2adf9b3e994af27447a904d91848df10492f972a9fc7ed0ad3431b368f1d2",
-    "trade_timestamp": 1769502339,
-    "latency": null,
-    "wallet_stats": null,
-    "trade_data": {
-      "outcome": "No",
-      "side": "BUY",
-      "price": 0.999,
-      "size": 10087.087,
-      "amount": 10076.999913
-    },
-    "resolution_last_check": "2026-03-29T06:54:24.150818+00:00"
-  },
-  {
-    "market": "US strikes Iran by February 28, 2026?",
-    "market_slug": "us-strikes-iran-by-february-28-2026-227-967-547-688-589-491-592-418",
-    "wallet": "0xf3903ff2f4e76d5c1582df009aea003d75b25f78",
-    "analysis": {
-      "score": 110,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($1,500)",
-        "Low activity (1 txns)",
-        "Pre-event latency: 45544m"
-      ],
-      "amount": 1499.999999,
-      "odds": 0.43851824671473105,
-      "wallet_age_days": 0,
-      "total_activities": 1
-    },
-    "timestamp": "2026-01-27T08:57:55.585181",
-    "trade_hash": "0x9f38d98fcf7ca79c4475affcf99c633cc5a792e18e645daf9e9c6201a73f2a44",
-    "trade_timestamp": 1769504155,
-    "latency": {
-      "latency_seconds": 2732645.0,
-      "latency_minutes": 45544.083333333336,
-      "is_pre_event": true,
-      "severity": "CRITICAL",
-      "trade_time": "2026-01-27T08:55:55+00:00",
-      "event_time": "2026-02-28T00:00:00+00:00"
-    },
-    "wallet_stats": null,
-    "trade_data": {
-      "outcome": "Yes",
-      "side": "BUY",
-      "price": 0.43851824671473105,
-      "size": 3420.610226,
-      "amount": 1499.999999
-    }
-  },
-  {
     "market": "Iran Strike on Israel by February 28?",
     "market_slug": "iran-strike-on-israel-by-february-28",
     "wallet": "0x6608452251d7471db5efb0e3072028df365ab9b9",
@@ -34113,5 +34045,93 @@
     "market": "US Men's Clay Court Championships: Alex Bolt vs Yibing Wu",
     "market_slug": "atp-bolt-wu-2026-03-30",
     "amount": 2485.570001603694
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xd9514e098a20fdf7f9ef98af8a6a2fbaf12b59f15ed4450879d17ad623fb3feb",
+    "wallet": "0xc2e7800b5af46e6093872b177b7a5e7f0563be51",
+    "trader": {
+      "rank": 19,
+      "address": "0xc2e7800b5af46e6093872b177b7a5e7f0563be51",
+      "username": "beachboy4",
+      "profit": 4141852.968866816,
+      "volume": 199137316.59853497,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x8a6c6811e8937f9e8afc1b9249fa540262c30b3f",
+      "side": "BUY",
+      "asset": "32832907394454432307120525920312348331425301367048726077404174311648945918531",
+      "conditionId": "0x92abe08d0f02ea17334984d2c8dfd6173003cebbd52d4ce5132eb2a266f0792e",
+      "size": 9730.421577,
+      "price": 0.50999999998266,
+      "timestamp": 1774913581,
+      "title": "Spread: Timberwolves (-8.5)",
+      "slug": "nba-min-dal-2026-03-30-spread-away-8pt5",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
+      "eventSlug": "nba-min-dal-2026-03-30",
+      "outcome": "Timberwolves",
+      "outcomeIndex": 0,
+      "name": "0x8a6C6811e8937F9E8aFc1b9249FA540262c30b3f-1771776258725",
+      "pseudonym": "Rare-Dishwasher",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xd9514e098a20fdf7f9ef98af8a6a2fbaf12b59f15ed4450879d17ad623fb3feb",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Spread: Timberwolves (-8.5)",
+    "market_slug": "nba-min-dal-2026-03-30",
+    "amount": 4962.515004101274
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x7874e3f146b4ea0e3f6ddc6253be4f69fe647dd00ee3bfdfd5f7da29984a65e1",
+    "wallet": "0xc2e7800b5af46e6093872b177b7a5e7f0563be51",
+    "trader": {
+      "rank": 19,
+      "address": "0xc2e7800b5af46e6093872b177b7a5e7f0563be51",
+      "username": "beachboy4",
+      "profit": 4141852.968866816,
+      "volume": 199137316.59853497,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xd6966eb1ae7b52320ba7ab1016680198c9e08a49",
+      "side": "BUY",
+      "asset": "51759907851946476798459406565393737772551997792655053440600013885668931375484",
+      "conditionId": "0x318fcd38de59d70dbf5977cb465ab7744cbfdb5b3986a834c6a349a74c8e1081",
+      "size": 4939.15148,
+      "price": 0.49,
+      "timestamp": 1774913581,
+      "title": "Suns vs. Grizzlies: O/U 227.5",
+      "slug": "nba-phx-mem-2026-03-30-total-227pt5",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
+      "eventSlug": "nba-phx-mem-2026-03-30",
+      "outcome": "Under",
+      "outcomeIndex": 1,
+      "name": "EIf",
+      "pseudonym": "Short-Term-Valance",
+      "bio": "You know who I am",
+      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-2970187-7a242ca5-ce20-4cbd-a772-b93edd01736c.png",
+      "profileImageOptimized": "",
+      "transactionHash": "0x7874e3f146b4ea0e3f6ddc6253be4f69fe647dd00ee3bfdfd5f7da29984a65e1",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Suns vs. Grizzlies: O/U 227.5",
+    "market_slug": "nba-phx-mem-2026-03-30",
+    "amount": 2518.9672548000003
   }
 ]
