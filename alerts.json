@@ -1,65 +1,5 @@
 [
   {
-    "market": "Will Bitcoin reach $150,000 in January?",
-    "market_slug": "will-bitcoin-reach-150k-in-january-2026",
-    "wallet": "0x9a74eb57b2bbd9babe44bd22ff9e60a0c769534b",
-    "analysis": {
-      "score": 85,
-      "flags": [
-        "New wallet (0d old)",
-        "Extreme confidence (99.9% odds)",
-        "Large bet ($1,550)"
-      ],
-      "amount": 1549.999449,
-      "odds": 0.999,
-      "wallet_age_days": 0,
-      "total_activities": 5
-    },
-    "timestamp": "2026-01-27T11:30:58.570499",
-    "trade_hash": "0x9eade1636a1316330bd4b2ddea2dc75fab56e529e7dc97e5ceef11567b31b24a",
-    "trade_timestamp": 1769513201,
-    "latency": null,
-    "wallet_stats": null,
-    "trade_data": {
-      "outcome": "No",
-      "side": "BUY",
-      "price": 0.999,
-      "size": 1551.551,
-      "amount": 1549.999449
-    },
-    "resolution_last_check": "2026-03-29T06:54:25.996602+00:00"
-  },
-  {
-    "market": "Will Bitcoin reach $150,000 in January?",
-    "market_slug": "will-bitcoin-reach-150k-in-january-2026",
-    "wallet": "0x6147584b5c5efb659af9a7dfd40a5b3d636c4703",
-    "analysis": {
-      "score": 85,
-      "flags": [
-        "New wallet (0d old)",
-        "Extreme confidence (99.9% odds)",
-        "Large bet ($2,261)"
-      ],
-      "amount": 2260.999737,
-      "odds": 0.999,
-      "wallet_age_days": 0,
-      "total_activities": 6
-    },
-    "timestamp": "2026-01-27T11:31:01.216161",
-    "trade_hash": "0x50f139265b22502197151673b39eaafa66c76164c94578505fc0a7dcd9f2fe8d",
-    "trade_timestamp": 1769513201,
-    "latency": null,
-    "wallet_stats": null,
-    "trade_data": {
-      "outcome": "No",
-      "side": "BUY",
-      "price": 0.999,
-      "size": 2263.263,
-      "amount": 2260.999737
-    },
-    "resolution_last_check": "2026-03-29T06:54:25.996606+00:00"
-  },
-  {
     "market": "Will MrBeast hit 470 Million subscribers by January 31?",
     "market_slug": "will-mrbeast-hit-470-million-subscribers-by-january-31-634-222-492-335",
     "wallet": "0x847667d84fc4d81db36689c4f4c5845c8d125418",
@@ -34195,5 +34135,93 @@
     "market": "US x Iran ceasefire by April 30?",
     "market_slug": "us-x-iran-ceasefire-by",
     "amount": 1564.2527
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xfa29fc9fd10c9d145dbdcf4f7554737858995bf0dabd45c9260b1bdaac18464c",
+    "wallet": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+    "trader": {
+      "rank": 12,
+      "address": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+      "username": "swisstony",
+      "profit": 5589555.5041189,
+      "volume": 609308802.233076,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xd6a3f0ec6c4a8ad680d580610c82ca57ff139489",
+      "side": "BUY",
+      "asset": "111199352781941517928446270722541788533347630079537022109358230447620429784331",
+      "conditionId": "0xa1f669d4b43ef25decb44e6c56b726ccfe9fc78c3b9ae0c8399f032e522b9d84",
+      "size": 3036.423726,
+      "price": 0.5899999998880262,
+      "timestamp": 1774988015,
+      "title": "Will Japan win on 2026-03-31?",
+      "slug": "fif-eng-jpn-2026-03-31-jpn",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/fif.png",
+      "eventSlug": "fif-eng-jpn-2026-03-31",
+      "outcome": "Yes",
+      "outcomeIndex": 0,
+      "name": "knedloveprovelo",
+      "pseudonym": "Weighty-Rifle",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xfa29fc9fd10c9d145dbdcf4f7554737858995bf0dabd45c9260b1bdaac18464c",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Will Japan win on 2026-03-31?",
+    "market_slug": "fif-eng-jpn-2026-03-31",
+    "amount": 1791.489998
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x99a097745a75fcf8cde34ca84c4f218aa0550178a0f140c5a07084a760e76451",
+    "wallet": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+    "trader": {
+      "rank": 12,
+      "address": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+      "username": "swisstony",
+      "profit": 5589555.5041189,
+      "volume": 609308802.233076,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x12d58a3a1ca80afac28ea43e67e5c65a19c48107",
+      "side": "SELL",
+      "asset": "38022285143811019504150836638332107856890739154750615708150828571895447353900",
+      "conditionId": "0x11a18ba621697cb743407ee6bc22dee0b8ead2fa4b05e3eb0f6655800755df04",
+      "size": 4463.3,
+      "price": 0.5180970582304573,
+      "timestamp": 1774988015,
+      "title": "Sweden vs. Poland: O/U 4.5",
+      "slug": "uef-swe-pol-2026-03-31-total-4pt5",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/uef.png",
+      "eventSlug": "uef-swe-pol-2026-03-31-more-markets",
+      "outcome": "Over",
+      "outcomeIndex": 0,
+      "name": "socfan",
+      "pseudonym": "Flustered-Inversion",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x99a097745a75fcf8cde34ca84c4f218aa0550178a0f140c5a07084a760e76451",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Sweden vs. Poland: O/U 4.5",
+    "market_slug": "uef-swe-pol-2026-03-31-more-markets",
+    "amount": 2312.4226
   }
 ]
