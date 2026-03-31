@@ -1,79 +1,5 @@
 [
   {
-    "market": "Will the Iranian regime fall by March 31?",
-    "market_slug": "will-the-iranian-regime-fall-by-march-31",
-    "wallet": "0x5060b41a1be40a63b7da2075e42479b29157a780",
-    "analysis": {
-      "score": 80,
-      "flags": [
-        "New wallet (3d old)",
-        "Large bet ($3,000)",
-        "Pre-event latency: 90007m"
-      ],
-      "amount": 2999.999998,
-      "odds": 0.8396597724237482,
-      "wallet_age_days": 3,
-      "total_activities": 100
-    },
-    "timestamp": "2026-01-27T11:56:53.977510",
-    "trade_hash": "0xbc0f4771f6e0d8735ed1cf4c889f4ad0d014a18a29837afe62a1dcab9c20809d",
-    "trade_timestamp": 1769514769,
-    "latency": {
-      "latency_seconds": 5400431.0,
-      "latency_minutes": 90007.18333333333,
-      "is_pre_event": true,
-      "severity": "CRITICAL",
-      "trade_time": "2026-01-27T11:52:49+00:00",
-      "event_time": "2026-03-31T00:00:00+00:00"
-    },
-    "wallet_stats": null,
-    "trade_data": {
-      "outcome": "No",
-      "side": "BUY",
-      "price": 0.8396597724237482,
-      "size": 3572.875701,
-      "amount": 2999.999998
-    },
-    "resolution_last_check": "2026-03-29T06:54:28.485025+00:00"
-  },
-  {
-    "market": "Will the Supreme Court rule on Trump's tarriffs by January 31?",
-    "market_slug": "will-the-supreme-court-rule-on-trumps-tarriffs-by-january-31",
-    "wallet": "0xa81eefec9c08fa157d855f1ac5caf8feab1903dc",
-    "analysis": {
-      "score": 85,
-      "flags": [
-        "Extreme confidence (99.8% odds)",
-        "Large bet ($1,304)",
-        "Pre-event latency: 4955m"
-      ],
-      "amount": 1303.7373,
-      "odds": 0.998,
-      "wallet_age_days": 93,
-      "total_activities": 100
-    },
-    "timestamp": "2026-01-27T13:28:48.457175",
-    "trade_hash": "0x75e8b4670f047b77e8e19882f783abb744ea77300dd5c02f474bb0f5a3dda3bc",
-    "trade_timestamp": 1769520317,
-    "latency": {
-      "latency_seconds": 297283.0,
-      "latency_minutes": 4954.716666666666,
-      "is_pre_event": true,
-      "severity": "CRITICAL",
-      "trade_time": "2026-01-27T13:25:17+00:00",
-      "event_time": "2026-01-31T00:00:00+00:00"
-    },
-    "wallet_stats": null,
-    "trade_data": {
-      "outcome": "No",
-      "side": "SELL",
-      "price": 0.998,
-      "size": 1306.35,
-      "amount": 1303.7373
-    },
-    "resolution_last_check": "2026-03-29T06:54:29.145978+00:00"
-  },
-  {
     "market": "Will Ethereum reach $6,000 in January?",
     "market_slug": "will-ethereum-reach-6000-in-january-2026",
     "wallet": "0xda223293052113e8a73f76aa3ef1e3709a1db0a9",
@@ -34386,5 +34312,93 @@
       "insider_score": 85.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
     }
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x3c074c9ca62afa02374a021f70cff05db1666367649ee3ba94e9a00f30cad966",
+    "wallet": "0x6a72f61820b26b1fe4d956e17b6dc2a1ea3033ee",
+    "trader": {
+      "rank": 3,
+      "address": "0x6a72f61820b26b1fe4d956e17b6dc2a1ea3033ee",
+      "username": "kch123",
+      "profit": 10935699.447613182,
+      "volume": 268213276.620331,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xcfd9567ca07b8fd931cb7f48637963702e61648d",
+      "side": "BUY",
+      "asset": "73699110394980052788001938579708550329317186422700595719894711946843781206501",
+      "conditionId": "0x241e3900bcdba2ba58252a4fcd4b92c5b80606249aa031751bef35b23c44e610",
+      "size": 9070,
+      "price": 0.42,
+      "timestamp": 1774998219,
+      "title": "Senators vs. Panthers: O/U 6.5",
+      "slug": "nhl-ott-fla-2026-03-31-total-6pt5",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nhl.png",
+      "eventSlug": "nhl-ott-fla-2026-03-31",
+      "outcome": "Over",
+      "outcomeIndex": 0,
+      "name": "Tinmannn",
+      "pseudonym": "Ethical-Cupola",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x3c074c9ca62afa02374a021f70cff05db1666367649ee3ba94e9a00f30cad966",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Senators vs. Panthers: O/U 6.5",
+    "market_slug": "nhl-ott-fla-2026-03-31",
+    "amount": 3809.3999999999996
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x71ff526edac1dadb7cb8e25058624e7b1e5ef36fc1b0f04dba34097ef612f452",
+    "wallet": "0x6a72f61820b26b1fe4d956e17b6dc2a1ea3033ee",
+    "trader": {
+      "rank": 3,
+      "address": "0x6a72f61820b26b1fe4d956e17b6dc2a1ea3033ee",
+      "username": "kch123",
+      "profit": 10935699.447613182,
+      "volume": 268213276.620331,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x1d66ba6af652edd656de16ebef49fe9c70d07799",
+      "side": "BUY",
+      "asset": "48076860968282907708377646762774445117741960723888576239822628617000344114984",
+      "conditionId": "0x3215685766ee786bc4be99701dfd8c37d89fdfccde189ccc95e9ee6b4f68e113",
+      "size": 4673.05,
+      "price": 0.46,
+      "timestamp": 1774998219,
+      "title": "Suns vs. Magic",
+      "slug": "nba-phx-orl-2026-03-31",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
+      "eventSlug": "nba-phx-orl-2026-03-31",
+      "outcome": "Suns",
+      "outcomeIndex": 0,
+      "name": "0x1D66BA6af652edd656DE16ebef49fe9c70D07799-1774448658353",
+      "pseudonym": "Submissive-Wallaby",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x71ff526edac1dadb7cb8e25058624e7b1e5ef36fc1b0f04dba34097ef612f452",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Suns vs. Magic",
+    "market_slug": "nba-phx-orl-2026-03-31",
+    "amount": 2149.603
   }
 ]
