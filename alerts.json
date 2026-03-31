@@ -1,79 +1,5 @@
 [
   {
-    "market": "Israel strikes Iran by January 31, 2026?",
-    "market_slug": "israel-strikes-iran-by-january-31-2026-894-994-453",
-    "wallet": "0x5d4721fb7ab7239799ce10e5777e8779a252e488",
-    "analysis": {
-      "score": 85,
-      "flags": [
-        "Against trend (6.3% odds)",
-        "Large bet ($1,714)",
-        "Pre-event latency: 5057m"
-      ],
-      "amount": 1713.5783000000001,
-      "odds": 0.06325975331484789,
-      "wallet_age_days": 22,
-      "total_activities": 100
-    },
-    "timestamp": "2026-01-27T11:46:33.398904",
-    "trade_hash": "0xf43cff222cc5553ab3e22c153803e0b5cb67ee71af2f9afc865a4f40f7d19c0c",
-    "trade_timestamp": 1769514185,
-    "latency": {
-      "latency_seconds": 303415.0,
-      "latency_minutes": 5056.916666666667,
-      "is_pre_event": true,
-      "severity": "CRITICAL",
-      "trade_time": "2026-01-27T11:43:05+00:00",
-      "event_time": "2026-01-31T00:00:00+00:00"
-    },
-    "wallet_stats": null,
-    "trade_data": {
-      "outcome": "Yes",
-      "side": "SELL",
-      "price": 0.06325975331484789,
-      "size": 27087.97,
-      "amount": 1713.5783000000001
-    },
-    "resolution_last_check": "2026-03-29T06:54:27.296723+00:00"
-  },
-  {
-    "market": "Caroline Ellison new boyfriend by January 31?",
-    "market_slug": "caroline-ellison-new-boyfriend-by-january-31",
-    "wallet": "0xb10047d6a254b2ebb306d7a7d13bf59171ab6461",
-    "analysis": {
-      "score": 85,
-      "flags": [
-        "Extreme confidence (97.2% odds)",
-        "Large bet ($1,981)",
-        "Pre-event latency: 5057m"
-      ],
-      "amount": 1981.25704,
-      "odds": 0.9723722313562857,
-      "wallet_age_days": 541,
-      "total_activities": 100
-    },
-    "timestamp": "2026-01-27T11:46:40.629919",
-    "trade_hash": "0xd500e48dc5cc490c20f6efcfb4514373289a657a9d6c6727934e9fc1448638bd",
-    "trade_timestamp": 1769514161,
-    "latency": {
-      "latency_seconds": 303439.0,
-      "latency_minutes": 5057.316666666667,
-      "is_pre_event": true,
-      "severity": "CRITICAL",
-      "trade_time": "2026-01-27T11:42:41+00:00",
-      "event_time": "2026-01-31T00:00:00+00:00"
-    },
-    "wallet_stats": null,
-    "trade_data": {
-      "outcome": "No",
-      "side": "SELL",
-      "price": 0.9723722313562857,
-      "size": 2037.55,
-      "amount": 1981.25704
-    },
-    "resolution_last_check": "2026-03-29T06:54:27.942540+00:00"
-  },
-  {
     "market": "Will the Iranian regime fall by March 31?",
     "market_slug": "will-the-iranian-regime-fall-by-march-31",
     "wallet": "0x5060b41a1be40a63b7da2075e42479b29157a780",
@@ -34230,5 +34156,235 @@
     "market": "Devils vs. Rangers",
     "market_slug": "nhl-nj-nyr-2026-03-31",
     "amount": 15660.000000000002
+  },
+  {
+    "market": "US x Iran ceasefire by April 7?",
+    "market_slug": "us-x-iran-ceasefire-by-april",
+    "event_slug": "us-x-iran-ceasefire-by-april",
+    "wallet": "0x7c3db723f1d4d8cb9c550095203b686cb11e5c6b",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "Against trend (10.0% effective odds)",
+        "Large bet ($1,033)",
+        "Pre-event latency: 8764m"
+      ],
+      "amount": 1032.7869999999998,
+      "odds": 0.09999999999999998,
+      "raw_price": 0.9,
+      "outcome": "No",
+      "potential_pnl": 9295.083,
+      "pnl_multiplier": 9.000000000000002,
+      "wallet_age_days": 781,
+      "total_activities": 100
+    },
+    "timestamp": "2026-03-31T22:00:13.701959",
+    "trade_hash": "0xf641692b0e9755cc4023081516f8f895b742a9f93ee08d345d76d363b76e0a11",
+    "trade_timestamp": 1774994167,
+    "latency": {
+      "latency_seconds": 525833.0,
+      "latency_minutes": 8763.883333333333,
+      "is_pre_event": true,
+      "severity": "CRITICAL",
+      "trade_time": "2026-03-31T21:56:07+00:00",
+      "event_time": "2026-04-07T00:00:00+00:00"
+    },
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "No",
+      "outcomeIndex": 1,
+      "normalized_position": "NO",
+      "side": "BUY",
+      "price": 0.9,
+      "effective_price": 0.09999999999999998,
+      "size": 10327.87,
+      "amount": 1032.7869999999998,
+      "potential_pnl": 9295.083,
+      "pnl_multiplier": 9.000000000000002,
+      "is_no": true,
+      "slug": "us-x-iran-ceasefire-by-april",
+      "eventSlug": "us-x-iran-ceasefire-by"
+    },
+    "irrationality": {
+      "irrationality_score": 40,
+      "flags": [
+        "Category structurally prone to longshot bias",
+        "Large mispricing edge (+64.8%)"
+      ],
+      "category": "geopolitics",
+      "category_info": {
+        "strength": "high",
+        "typical_overpricing": 0.05,
+        "min_edge": 0.05
+      },
+      "is_irrational": true
+    },
+    "mispricing": {
+      "rational_estimate": 0.252,
+      "market_price": 0.9,
+      "edge": 0.648,
+      "edge_percent": 64.8,
+      "min_edge_required": 0.05,
+      "is_mispriced": true,
+      "edge_quality": "STRONG",
+      "base_rate_class": "occasional",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "occasional",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "Mutual willingness to negotiate from both the US and Iran",
+          "Reduction in hostilities or provocations leading up to the deadline",
+          "Involvement of third-party mediators to facilitate discussions"
+        ],
+        "weakest_link": "Reduction in hostilities or provocations leading up to the deadline"
+      },
+      "category": "geopolitics",
+      "narrative_drivers": [
+        "Desire for stability in the region",
+        "Pressure from international allies for a ceasefire"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "ALPHA",
+      "signal_emoji": "\ud83d\udd25",
+      "signal_strength": 125,
+      "interpretation": "Smart money (NO) confirms YES is overpriced",
+      "action_suggestion": "High conviction: insider + statistics aligned",
+      "insider_score": 85,
+      "insider_position": "NO",
+      "irrationality_score": 40,
+      "is_irrational": true,
+      "is_mispriced": true,
+      "edge": 0.648,
+      "edge_percent": 64.8
+    },
+    "financial_analyst": {
+      "signal_quality": 85.0,
+      "stance": "HIGH_CONVICTION",
+      "edge_percent": 64.8,
+      "signal_strength": 125.0,
+      "insider_score": 85.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    }
+  },
+  {
+    "market": "US x Iran ceasefire by April 7?",
+    "market_slug": "us-x-iran-ceasefire-by-april",
+    "event_slug": "us-x-iran-ceasefire-by-april",
+    "wallet": "0xde7be6d489bce070a959e0cb813128ae659b5f4b",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "Against trend (9.0% effective odds)",
+        "Large bet ($3,671)",
+        "Pre-event latency: 8764m"
+      ],
+      "amount": 3670.6913999999997,
+      "odds": 0.09,
+      "raw_price": 0.09,
+      "outcome": "Yes",
+      "potential_pnl": 37114.768599999996,
+      "pnl_multiplier": 10.11111111111111,
+      "wallet_age_days": 37,
+      "total_activities": 100
+    },
+    "timestamp": "2026-03-31T22:00:20.500750",
+    "trade_hash": "0x9e75a61cabe8bc4dcf5c351200b22bf057b1cf76ce215fc83f0be0f125abf53d",
+    "trade_timestamp": 1774994175,
+    "latency": {
+      "latency_seconds": 525825.0,
+      "latency_minutes": 8763.75,
+      "is_pre_event": true,
+      "severity": "CRITICAL",
+      "trade_time": "2026-03-31T21:56:15+00:00",
+      "event_time": "2026-04-07T00:00:00+00:00"
+    },
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "Yes",
+      "outcomeIndex": 0,
+      "normalized_position": "YES",
+      "side": "SELL",
+      "price": 0.09,
+      "effective_price": 0.09,
+      "size": 40785.46,
+      "amount": 3670.6913999999997,
+      "potential_pnl": 37114.768599999996,
+      "pnl_multiplier": 10.11111111111111,
+      "is_no": false,
+      "slug": "us-x-iran-ceasefire-by-april",
+      "eventSlug": "us-x-iran-ceasefire-by"
+    },
+    "irrationality": {
+      "irrationality_score": 40,
+      "flags": [
+        "Longshot (9%) in high bias category (geopolitics)",
+        "Category structurally prone to longshot bias"
+      ],
+      "category": "geopolitics",
+      "category_info": {
+        "strength": "high",
+        "typical_overpricing": 0.05,
+        "min_edge": 0.05
+      },
+      "is_irrational": true
+    },
+    "mispricing": {
+      "rational_estimate": 0.041999999999999996,
+      "market_price": 0.09,
+      "edge": 0.048,
+      "edge_percent": 4.8,
+      "min_edge_required": 0.05,
+      "is_mispriced": false,
+      "edge_quality": "WEAK",
+      "base_rate_class": "rare",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "rare",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "Mutual agreement on ceasefire terms",
+          "Reduction of hostilities and military actions",
+          "International pressure or mediation to facilitate ceasefire"
+        ],
+        "weakest_link": "Mutual agreement on ceasefire terms"
+      },
+      "category": "geopolitics",
+      "narrative_drivers": [
+        "Increased diplomatic efforts by third-party nations",
+        "Escalation of conflict leading to greater urgency for a ceasefire"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "INSIDER_ONLY",
+      "signal_emoji": "\ud83d\udc41\ufe0f",
+      "signal_strength": 85,
+      "interpretation": "Insider activity detected, no clear mispricing",
+      "action_suggestion": "Monitor: insider signal only, no statistical edge",
+      "insider_score": 85,
+      "insider_position": "YES",
+      "irrationality_score": 40,
+      "is_irrational": true,
+      "is_mispriced": false,
+      "edge": 0.048,
+      "edge_percent": 4.8
+    },
+    "financial_analyst": {
+      "signal_quality": 37.2,
+      "stance": "WATCH_ONLY",
+      "edge_percent": 4.8,
+      "signal_strength": 85.0,
+      "insider_score": 85.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    }
   }
 ]
