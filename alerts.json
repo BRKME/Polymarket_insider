@@ -1,42 +1,5 @@
 [
   {
-    "market": "Russia x Ukraine ceasefire by January 31, 2026?",
-    "market_slug": "russia-x-ukraine-ceasefire-by-january-31-2026",
-    "wallet": "0xc04327210c95d1addf43285c39fe43406759eb1b",
-    "analysis": {
-      "score": 85,
-      "flags": [
-        "Extreme confidence (99.5% odds)",
-        "Large bet ($2,211)",
-        "Pre-event latency: 5148m"
-      ],
-      "amount": 2210.89,
-      "odds": 0.995,
-      "wallet_age_days": 23,
-      "total_activities": 100
-    },
-    "timestamp": "2026-01-27T10:15:23.717701",
-    "trade_hash": "0x2a444331a6dab75bb4602197aa324f6f5d780302e4e0760e0782312275fd581c",
-    "trade_timestamp": 1769508727,
-    "latency": {
-      "latency_seconds": 308873.0,
-      "latency_minutes": 5147.883333333333,
-      "is_pre_event": true,
-      "severity": "CRITICAL",
-      "trade_time": "2026-01-27T10:12:07+00:00",
-      "event_time": "2026-01-31T00:00:00+00:00"
-    },
-    "wallet_stats": null,
-    "trade_data": {
-      "outcome": "No",
-      "side": "SELL",
-      "price": 0.995,
-      "size": 2222.0,
-      "amount": 2210.89
-    },
-    "resolution_last_check": "2026-03-29T06:54:25.996596+00:00"
-  },
-  {
     "market": "Will Bitcoin reach $150,000 in January?",
     "market_slug": "will-bitcoin-reach-150k-in-january-2026",
     "wallet": "0x9a74eb57b2bbd9babe44bd22ff9e60a0c769534b",
@@ -34188,5 +34151,49 @@
     "market": "Betmoar FDV above $20M one day after launch?",
     "market_slug": "betmoar-fdv-above-one-day-after-launch",
     "amount": 1520.9601
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x1c6eb3692cd7238118b70a6040dc9fe28b5a7681c76edcf18f79de95ca6db921",
+    "wallet": "0xc2e7800b5af46e6093872b177b7a5e7f0563be51",
+    "trader": {
+      "rank": 19,
+      "address": "0xc2e7800b5af46e6093872b177b7a5e7f0563be51",
+      "username": "beachboy4",
+      "profit": 4141853.1506849956,
+      "volume": 199137316.59853497,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x35bbbad2415fe5e39b12da9a316cdc80b022009b",
+      "side": "BUY",
+      "asset": "44149007410374101286260953227333745102128417138356632089802983317837574022801",
+      "conditionId": "0x80059ff4e694f878c0498f6f3a067ee7ca62dc2fc46251a4287b58355ce47bc5",
+      "size": 4227.71,
+      "price": 0.37,
+      "timestamp": 1774979311,
+      "title": "US x Iran ceasefire by April 30?",
+      "slug": "us-x-iran-ceasefire-by-april-30-194-679-389",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/us-x-iran-ceasefire-by-Cgmx3GCuOwjs.jpg",
+      "eventSlug": "us-x-iran-ceasefire-by",
+      "outcome": "Yes",
+      "outcomeIndex": 0,
+      "name": "MisTKy",
+      "pseudonym": "Grounded-Depression",
+      "bio": "Follow on X for more",
+      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-5070263-f290eb6b-11db-423d-b532-cd773195842b.jpg",
+      "profileImageOptimized": "",
+      "transactionHash": "0x1c6eb3692cd7238118b70a6040dc9fe28b5a7681c76edcf18f79de95ca6db921",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "US x Iran ceasefire by April 30?",
+    "market_slug": "us-x-iran-ceasefire-by",
+    "amount": 1564.2527
   }
 ]
