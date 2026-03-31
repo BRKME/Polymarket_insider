@@ -178,21 +178,36 @@ def check_insider_win(alert: Dict, resolution: str) -> Optional[bool]:
     """
     trade_data = alert.get("trade_data", {})
     outcome = trade_data.get("outcome", "Yes")
-    analysis = alert.get("analysis", {})
+    normalized = trade_data.get("normalized_position")  # YES or NO from detector
 
-    # Normalize
     position = str(outcome).strip()
     resolved = str(resolution).strip()
 
-    # Binary market: Yes/No
-    if resolved.lower() in ["yes", "no"]:
-        return position.lower() == resolved.lower()
+    # 1. Binary resolution (Yes/No)
+    if resolved.lower() in ("yes", "no"):
+        # Use normalized_position if available (handles Over→YES, Under→NO, teams)
+        if normalized:
+            return normalized.lower() == resolved.lower()
+        # Fallback: direct match
+        if position.lower() in ("yes", "no"):
+            return position.lower() == resolved.lower()
+        # Over/Under → YES/NO mapping
+        if position.lower() == "over":
+            return resolved.lower() == "yes"
+        if position.lower() == "under":
+            return resolved.lower() == "no"
+        # Can't determine (team name vs Yes/No)
+        return None
 
-    # Named outcome (sports, etc.)
+    # 2. Named resolution (team/player name)
+    # Exact match
     if position.lower() == resolved.lower():
         return True
-    # If position is YES/NO but resolution is a name → can't determine
-    if position.lower() in ["yes", "no"]:
+    # Substring match (e.g., "Brady" in "Jennifer Brady")
+    if position.lower() in resolved.lower() or resolved.lower() in position.lower():
+        return True
+    # Position is binary but resolution is a name — mismatch
+    if position.lower() in ("yes", "no", "over", "under"):
         return None
 
     return False
@@ -405,46 +420,44 @@ def run_resolution_check():
 
 def send_resolution_summary(stats: Dict, newly_resolved: int):
     """Send daily resolution summary to Telegram."""
-    total_resolved = stats["insider_wins"] + stats["insider_losses"]
-    insider_wr = (stats["insider_wins"] / total_resolved * 100) if total_resolved > 0 else 0
+    wins = stats["insider_wins"]
+    losses = stats["insider_losses"]
+    determined = wins + losses
+    total_resolved = stats["total_resolved"]
+    undetermined = total_resolved - determined
 
-    total_model = stats["model_correct"] + stats["model_wrong"]
-    model_acc = (stats["model_correct"] / total_model * 100) if total_model > 0 else 0
+    msg = f"📊 RESOLUTION TRACKER\n\n"
+    msg += f"New: +{newly_resolved} | Total: {total_resolved} resolved\n\n"
 
-    msg = f"""📊 RESOLUTION TRACKER
+    # Insider win rate
+    if determined > 0:
+        wr = wins / determined * 100
+        msg += f"INSIDER WIN RATE: {wr:.0f}%\n"
+        msg += f"{wins}W / {losses}L (of {determined} determined)"
+        if undetermined > 0:
+            msg += f"\n{undetermined} unmatched (sports/named markets)"
+    else:
+        msg += "INSIDER WIN RATE: no data yet"
 
-New resolutions: {newly_resolved}
-Total resolved: {stats['total_resolved']}
-
-INSIDER WIN RATE
-{stats['insider_wins']}W / {stats['insider_losses']}L"""
-
-    if total_resolved > 0:
-        msg += f" ({insider_wr:.0f}%)"
-
-    msg += f"""
-
-MODEL ACCURACY
-{stats['model_correct']} correct / {stats['model_wrong']} wrong"""
-
-    if total_model > 0:
-        msg += f" ({model_acc:.0f}%)"
-
-    # Add per-signal breakdown if meaningful data exists
+    # Per-signal breakdown — only show signals with 5+ resolved
     by_st = stats.get("by_signal_type", {})
     breakdowns = []
-    for st in ["ALPHA", "INSIDER_CONFIRMED", "CONFLICT", "INSIDER_ONLY"]:
+    for st in ["ALPHA", "INSIDER_CONFIRMED", "CONFLICT", "INSIDER_ONLY", "UNKNOWN"]:
         data = by_st.get(st, {})
         w = data.get("insider_wins", 0)
         l = data.get("insider_losses", 0)
         t = w + l
-        if t > 0:
-            breakdowns.append(f"{st}: {w}/{t} ({w/t*100:.0f}%)")
+        if t >= 3:
+            breakdowns.append(f"  {st}: {w}W/{l}L ({w/t*100:.0f}%)")
 
     if breakdowns:
-        msg += "\n\nBY SIGNAL:"
-        for b in breakdowns:
-            msg += f"\n{b}"
+        msg += "\n\n" + "\n".join(breakdowns)
+
+    # Model accuracy — only show if meaningful sample
+    total_model = stats["model_correct"] + stats["model_wrong"]
+    if total_model >= 10:
+        model_acc = stats["model_correct"] / total_model * 100
+        msg += f"\n\nMODEL: {stats['model_correct']}/{total_model} ({model_acc:.0f}%)"
 
     timestamp = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M")
     msg += f"\n\nPolymarket Insiders | {timestamp} UTC"
