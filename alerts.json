@@ -33181,7 +33181,13 @@
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
     },
-    "resolution_last_check": "2026-03-30T07:19:20.468372+00:00"
+    "resolution_last_check": "2026-03-30T07:19:20.468372+00:00",
+    "resolution": {
+      "outcome": "Under",
+      "checked_at": "2026-03-31T07:05:18.971894+00:00",
+      "insider_win": true,
+      "model_correct": null
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -33633,7 +33639,13 @@
     },
     "market": "Credit One Charleston Open: Viktoriya Tomova vs Jennifer Brady",
     "market_slug": "wta-tomova-brady-2026-03-30",
-    "amount": 2040.0
+    "amount": 2040.0,
+    "resolution": {
+      "outcome": "Viktoriya Tomova",
+      "checked_at": "2026-03-31T07:05:20.826044+00:00",
+      "insider_win": null,
+      "model_correct": null
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -33677,7 +33689,13 @@
     },
     "market": "Counter-Strike: Inner Circle Esports vs BASEMENT BOYS - Map 2 Winner",
     "market_slug": "cs2-ice-bmb-2026-03-30",
-    "amount": 4236.473043
+    "amount": 4236.473043,
+    "resolution": {
+      "outcome": "Inner Circle Esports",
+      "checked_at": "2026-03-31T07:05:21.451342+00:00",
+      "insider_win": null,
+      "model_correct": null
+    }
   },
   {
     "market": "Counter-Strike: 9z vs Legacy (BO5) - FERJEE In House Playoffs",
@@ -33893,6 +33911,12 @@
       "signal_strength": 105.0,
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "resolution": {
+      "outcome": "Heat",
+      "checked_at": "2026-03-31T07:05:23.260218+00:00",
+      "insider_win": true,
+      "model_correct": null
     }
   },
   {
@@ -34000,6 +34024,12 @@
       "signal_strength": 105.0,
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "resolution": {
+      "outcome": "Heat",
+      "checked_at": "2026-03-31T07:05:23.943306+00:00",
+      "insider_win": true,
+      "model_correct": null
     }
   },
   {
@@ -34044,7 +34074,13 @@
     },
     "market": "US Men's Clay Court Championships: Alex Bolt vs Yibing Wu",
     "market_slug": "atp-bolt-wu-2026-03-30",
-    "amount": 2485.570001603694
+    "amount": 2485.570001603694,
+    "resolution": {
+      "outcome": "Alex Bolt",
+      "checked_at": "2026-03-31T07:05:24.494592+00:00",
+      "insider_win": null,
+      "model_correct": null
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -34088,7 +34124,13 @@
     },
     "market": "Spread: Timberwolves (-8.5)",
     "market_slug": "nba-min-dal-2026-03-30",
-    "amount": 4962.515004101274
+    "amount": 4962.515004101274,
+    "resolution": {
+      "outcome": "Timberwolves",
+      "checked_at": "2026-03-31T07:05:25.119430+00:00",
+      "insider_win": null,
+      "model_correct": null
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -34132,6 +34174,12 @@
     },
     "market": "Suns vs. Grizzlies: O/U 227.5",
     "market_slug": "nba-phx-mem-2026-03-30",
-    "amount": 2518.9672548000003
+    "amount": 2518.9672548000003,
+    "resolution": {
+      "outcome": "Suns",
+      "checked_at": "2026-03-31T07:05:25.780791+00:00",
+      "insider_win": null,
+      "model_correct": null
+    }
   }
 ]
