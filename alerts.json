@@ -1,36 +1,5 @@
 [
   {
-    "market": "Will Ethereum reach $6,000 in January?",
-    "market_slug": "will-ethereum-reach-6000-in-january-2026",
-    "wallet": "0xda223293052113e8a73f76aa3ef1e3709a1db0a9",
-    "analysis": {
-      "score": 95,
-      "flags": [
-        "New wallet (0d old)",
-        "Extreme confidence (99.9% odds)",
-        "Large bet ($1,002)",
-        "Low activity (1 txns)"
-      ],
-      "amount": 1002.209787,
-      "odds": 0.999,
-      "wallet_age_days": 0,
-      "total_activities": 1
-    },
-    "timestamp": "2026-01-27T15:01:48.438588",
-    "trade_hash": "0x29c7d7bc177504bb02ac26f9e74da32bd7229a5e30a6646997dd5eb821e8d33f",
-    "trade_timestamp": 1769525981,
-    "latency": null,
-    "wallet_stats": null,
-    "trade_data": {
-      "outcome": "No",
-      "side": "BUY",
-      "price": 0.999,
-      "size": 1003.213,
-      "amount": 1002.209787
-    },
-    "resolution_last_check": "2026-03-29T06:54:29.788362+00:00"
-  },
-  {
     "market": "Will the price of Bitcoin be above $100,000 on January 29?",
     "market_slug": "bitcoin-above-100k-on-january-29",
     "wallet": "0xf67e09f19d4485f297457f9ad6f70a03112ba55c",
@@ -34417,6 +34386,121 @@
       "checked_at": "2026-04-01T07:11:54.421431+00:00",
       "insider_win": null,
       "model_correct": null
+    }
+  },
+  {
+    "market": "US x Iran ceasefire by April 7?",
+    "market_slug": "us-x-iran-ceasefire-by-april",
+    "event_slug": "us-x-iran-ceasefire-by-april",
+    "wallet": "0x3080ab8ddb156f635ece429b902a26047adc971b",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "Against trend (6.0% effective odds)",
+        "Large bet ($2,380)",
+        "Pre-event latency: 8147m"
+      ],
+      "amount": 2380.3224,
+      "odds": 0.05950806,
+      "raw_price": 0.05950806,
+      "outcome": "Yes",
+      "potential_pnl": 37619.6776,
+      "pnl_multiplier": 15.804446322061247,
+      "wallet_age_days": 15,
+      "total_activities": 100
+    },
+    "timestamp": "2026-04-01T08:19:04.492631",
+    "trade_hash": "0x06e27e0f98c4d61aec4c3783f054530ead751fce3ec14b3e5f1cddd1ebedd0bf",
+    "trade_timestamp": 1775031177,
+    "latency": {
+      "latency_seconds": 488823.0,
+      "latency_minutes": 8147.05,
+      "is_pre_event": true,
+      "severity": "CRITICAL",
+      "trade_time": "2026-04-01T08:12:57+00:00",
+      "event_time": "2026-04-07T00:00:00+00:00"
+    },
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "Yes",
+      "outcomeIndex": 0,
+      "normalized_position": "YES",
+      "side": "SELL",
+      "price": 0.05950806,
+      "effective_price": 0.05950806,
+      "size": 40000.0,
+      "amount": 2380.3224,
+      "potential_pnl": 37619.6776,
+      "pnl_multiplier": 15.804446322061247,
+      "is_no": false,
+      "slug": "us-x-iran-ceasefire-by-april",
+      "eventSlug": "us-x-iran-ceasefire-by"
+    },
+    "irrationality": {
+      "irrationality_score": 40,
+      "flags": [
+        "Longshot (6%) in high bias category (geopolitics)",
+        "Category structurally prone to longshot bias"
+      ],
+      "category": "geopolitics",
+      "category_info": {
+        "strength": "high",
+        "typical_overpricing": 0.05,
+        "min_edge": 0.05
+      },
+      "is_irrational": true
+    },
+    "mispricing": {
+      "rational_estimate": 0.035901612,
+      "market_price": 0.05950806,
+      "edge": 0.023606448000000002,
+      "edge_percent": 2.3606448,
+      "min_edge_required": 0.05,
+      "is_mispriced": false,
+      "edge_quality": "WEAK",
+      "base_rate_class": "rare",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "rare",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "Mutual agreement on terms of ceasefire",
+          "Reduction in hostilities from both sides",
+          "International pressure or mediation facilitating discussions"
+        ],
+        "weakest_link": "Mutual agreement on terms of ceasefire"
+      },
+      "category": "geopolitics",
+      "narrative_drivers": [
+        "Escalation of conflict leading to increased casualties",
+        "Diplomatic efforts by third-party nations or organizations"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "INSIDER_ONLY",
+      "signal_emoji": "\ud83d\udc41\ufe0f",
+      "signal_strength": 85,
+      "interpretation": "Insider activity detected, no clear mispricing",
+      "action_suggestion": "Monitor: insider signal only, no statistical edge",
+      "insider_score": 85,
+      "insider_position": "YES",
+      "irrationality_score": 40,
+      "is_irrational": true,
+      "is_mispriced": false,
+      "edge": 0.023606448000000002,
+      "edge_percent": 2.3606448
+    },
+    "financial_analyst": {
+      "signal_quality": 33.5,
+      "stance": "WATCH_ONLY",
+      "edge_percent": 2.36,
+      "signal_strength": 85.0,
+      "insider_score": 85.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
     }
   }
 ]
