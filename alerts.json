@@ -34081,7 +34081,13 @@
     },
     "market": "Devils vs. Rangers",
     "market_slug": "nhl-nj-nyr-2026-03-31",
-    "amount": 15660.000000000002
+    "amount": 15660.000000000002,
+    "resolution": {
+      "outcome": "Rangers",
+      "checked_at": "2026-04-01T07:11:51.918500+00:00",
+      "insider_win": null,
+      "model_correct": null
+    }
   },
   {
     "market": "US x Iran ceasefire by April 7?",
@@ -34355,7 +34361,13 @@
     },
     "market": "Senators vs. Panthers: O/U 6.5",
     "market_slug": "nhl-ott-fla-2026-03-31",
-    "amount": 3809.3999999999996
+    "amount": 3809.3999999999996,
+    "resolution": {
+      "outcome": "Panthers",
+      "checked_at": "2026-04-01T07:11:53.774583+00:00",
+      "insider_win": null,
+      "model_correct": null
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -34399,6 +34411,12 @@
     },
     "market": "Suns vs. Magic",
     "market_slug": "nba-phx-orl-2026-03-31",
-    "amount": 2149.603
+    "amount": 2149.603,
+    "resolution": {
+      "outcome": "Magic",
+      "checked_at": "2026-04-01T07:11:54.421431+00:00",
+      "insider_win": null,
+      "model_correct": null
+    }
   }
 ]
