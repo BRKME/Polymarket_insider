@@ -1,73 +1,5 @@
 [
   {
-    "market": "Will the US strike Somalia next?",
-    "market_slug": "will-the-us-strike-somalia-next-737",
-    "wallet": "0x326561306aa31c91f80e65b764b1871581c50bc5",
-    "analysis": {
-      "score": 95,
-      "flags": [
-        "New wallet (0d old)",
-        "Extreme confidence (99.1% odds)",
-        "Large bet ($2,738)",
-        "Low activity (2 txns)"
-      ],
-      "amount": 2737.5879499999996,
-      "odds": 0.991,
-      "wallet_age_days": 0,
-      "total_activities": 2
-    },
-    "timestamp": "2026-01-27T18:00:19.557899",
-    "trade_hash": "0x9cde193651bd11a540338bc3db2d41ab056c2cc7d81fb7be5e2969a9b2a7c730",
-    "trade_timestamp": 1769536669,
-    "latency": null,
-    "wallet_stats": null,
-    "trade_data": {
-      "outcome": "Yes",
-      "side": "BUY",
-      "price": 0.991,
-      "size": 2762.45,
-      "amount": 2737.5879499999996
-    },
-    "resolution_last_check": "2026-03-29T06:54:34.364111+00:00"
-  },
-  {
-    "market": "Will USD reach 1.5M Iranian rials by January 31?",
-    "market_slug": "will-usd-reach-1pt5m-iranian-rials-by-january-31",
-    "wallet": "0xf97fb1ce313ee1a486cdcb55b27e1f172d1e23c3",
-    "analysis": {
-      "score": 85,
-      "flags": [
-        "Extreme confidence (98.8% odds)",
-        "Large bet ($1,259)",
-        "Pre-event latency: 4587m"
-      ],
-      "amount": 1259.41995,
-      "odds": 0.9876565527098502,
-      "wallet_age_days": 81,
-      "total_activities": 90
-    },
-    "timestamp": "2026-01-27T19:36:38.485024",
-    "trade_hash": "0x0c721f1df3fe31089e7670d01da9b8215daa2329acd5d6a35ad8913ff39b1fba",
-    "trade_timestamp": 1769542399,
-    "latency": {
-      "latency_seconds": 275201.0,
-      "latency_minutes": 4586.683333333333,
-      "is_pre_event": true,
-      "severity": "CRITICAL",
-      "trade_time": "2026-01-27T19:33:19+00:00",
-      "event_time": "2026-01-31T00:00:00+00:00"
-    },
-    "wallet_stats": null,
-    "trade_data": {
-      "outcome": "Yes",
-      "side": "BUY",
-      "price": 0.9876565527098502,
-      "size": 1275.159818,
-      "amount": 1259.41995
-    },
-    "resolution_last_check": "2026-03-29T06:54:35.020649+00:00"
-  },
-  {
     "market": "Will Mar\u00eda Corina Machado enter Venezuela by January 31?",
     "market_slug": "will-mara-corina-machado-enter-venezuela-by-january-31-859-245",
     "wallet": "0xc550e5ee1011afb6d37c7fbb18fea32e03f9272d",
@@ -34783,5 +34715,93 @@
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
     },
     "resolution_last_check": "2026-04-02T07:04:27.765943+00:00"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x774b354893b4d3a6ba721898524405f513e5bc8134ccbb3046f904facbfa5a22",
+    "wallet": "0x006cc834cc092684f1b56626e23bedb3835c16ea",
+    "trader": {
+      "rank": 17,
+      "address": "0x006cc834cc092684f1b56626e23bedb3835c16ea",
+      "username": "0x006cc834Cc092684F1B56626E23BEdB3835c16ea-1729683673397",
+      "profit": 4552141.183965707,
+      "volume": 60070499.453648,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x907fbed5c365d0ee90fe066a3b5073bc9a7cbaee",
+      "side": "BUY",
+      "asset": "2916184120206223749839849644877707470354946028257066951797428049170871002238",
+      "conditionId": "0x6d0e09d0f04572d9b1adad84703458b0297bc5603b69dccbde93147ee4443246",
+      "size": 16028.935966,
+      "price": 0.6117343046849127,
+      "timestamp": 1775116771,
+      "title": "US forces enter Iran by April 30?",
+      "slug": "us-forces-enter-iran-by-april-30-899",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/us-forces-enter-iran-by-L_p5JkCpvr0I.jpg",
+      "eventSlug": "us-forces-enter-iran-by",
+      "outcome": "Yes",
+      "outcomeIndex": 0,
+      "name": "alksdjfaksdjfkladsflkjasdf",
+      "pseudonym": "Bulky-Other",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x774b354893b4d3a6ba721898524405f513e5bc8134ccbb3046f904facbfa5a22",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "US forces enter Iran by April 30?",
+    "market_slug": "us-forces-enter-iran-by",
+    "amount": 9805.449998
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x5c9e4717b490558759fe5f5e10a2d629daf75f9b544ef52f1df2a92ffe4de885",
+    "wallet": "0x006cc834cc092684f1b56626e23bedb3835c16ea",
+    "trader": {
+      "rank": 17,
+      "address": "0x006cc834cc092684f1b56626e23bedb3835c16ea",
+      "username": "0x006cc834Cc092684F1B56626E23BEdB3835c16ea-1729683673397",
+      "profit": 4552141.183965707,
+      "volume": 60070499.453648,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xd8644051d1749bf5771cddf2f822fb7e986a497e",
+      "side": "BUY",
+      "asset": "17137206920857383523614304650148756829688496576722556348226923267242745234263",
+      "conditionId": "0x9df006923390474e5c675296b68396ace48d9ffb013d03472834db11988e0188",
+      "size": 7814.2132,
+      "price": 0.25,
+      "timestamp": 1775116771,
+      "title": "Lakers vs. Thunder",
+      "slug": "nba-lal-okc-2026-04-02",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
+      "eventSlug": "nba-lal-okc-2026-04-02",
+      "outcome": "Lakers",
+      "outcomeIndex": 0,
+      "name": "Gambajangle",
+      "pseudonym": "Hideous-Plea",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x5c9e4717b490558759fe5f5e10a2d629daf75f9b544ef52f1df2a92ffe4de885",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Lakers vs. Thunder",
+    "market_slug": "nba-lal-okc-2026-04-02",
+    "amount": 1953.5533
   }
 ]
