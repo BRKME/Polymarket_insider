@@ -1,40 +1,5 @@
 [
   {
-    "market": "Alabama State Hornets vs. Texas Southern Tigers",
-    "market_slug": "cbb-alast-txs-2026-01-27",
-    "wallet": "0x7647f7fa87e53d49dbbf58f9a0230de8a926d711",
-    "analysis": {
-      "score": 85,
-      "flags": [
-        "New wallet (0d old)",
-        "Extreme confidence (99.9% odds)",
-        "Large bet ($6,361)"
-      ],
-      "amount": 6360.59304,
-      "odds": 0.999,
-      "wallet_age_days": 0,
-      "total_activities": 5
-    },
-    "timestamp": "2026-01-27T20:43:39.674198",
-    "trade_hash": "0x75554dd753bb5cae2be62451e3333dfc630b6052f28b899e0144d5d65c844cda",
-    "trade_timestamp": 1769546405,
-    "latency": null,
-    "wallet_stats": null,
-    "trade_data": {
-      "outcome": "Texas Southern Tigers",
-      "side": "SELL",
-      "price": 0.999,
-      "size": 6366.96,
-      "amount": 6360.59304
-    },
-    "resolution": {
-      "outcome": "Texas Southern Tigers",
-      "checked_at": "2026-03-29T06:54:36.989777+00:00",
-      "insider_win": true,
-      "model_correct": null
-    }
-  },
-  {
     "market": "New \"Stranger Things\" episode released by February 28? ",
     "market_slug": "new-stranger-things-episode-released-by-february-28",
     "wallet": "0xdf17f4a8dd01a4cfa6fc3da323a2baee5f8697d1",
@@ -35023,5 +34988,49 @@
     "market": "Capitals vs. Devils",
     "market_slug": "nhl-wsh-nj-2026-04-02",
     "amount": 25480.0
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xe355a514b51092fc52a1c532a55208f5596744ec4fc35d3f815e08bab5363794",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.515682,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x37e4728b3c4607fb2b3b205386bb1d1fb1a8c991",
+      "side": "BUY",
+      "asset": "82272262530488929157692362571985106096759704402780654437291728344156862992976",
+      "conditionId": "0xe383b4aa725793bbc1cec2be5865a17d4d8b247a717012985001442ab86132dc",
+      "size": 7308.09876,
+      "price": 0.49,
+      "timestamp": 1775150681,
+      "title": "Paris Basketball vs. Olimpia Milano",
+      "slug": "euroleague-paris-milano-2026-04-02",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/euroleague-basketball-8fab4f41ec.png",
+      "eventSlug": "euroleague-paris-milano-2026-04-02",
+      "outcome": "Paris Basketball",
+      "outcomeIndex": 0,
+      "name": "SemyonMarmeladov",
+      "pseudonym": "Opulent-Hall",
+      "bio": "",
+      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-102792-ee6f6ac0-da9f-45fc-bd69-173d5ddd17cf.jpeg",
+      "profileImageOptimized": "",
+      "transactionHash": "0xe355a514b51092fc52a1c532a55208f5596744ec4fc35d3f815e08bab5363794",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Paris Basketball vs. Olimpia Milano",
+    "market_slug": "euroleague-paris-milano-2026-04-02",
+    "amount": 3580.9683924
   }
 ]
