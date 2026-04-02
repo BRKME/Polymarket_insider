@@ -1,77 +1,5 @@
 [
   {
-    "market": "US strikes Iran by January 31, 2026?",
-    "market_slug": "us-strikes-iran-by-january-31-2026-165",
-    "wallet": "0x6452018b718265464dcf6d391db99f56ba899874",
-    "analysis": {
-      "score": 80,
-      "flags": [
-        "New wallet (4d old)",
-        "Large bet ($5,000)",
-        "Pre-event latency: 4809m"
-      ],
-      "amount": 4999.999999,
-      "odds": 0.10999999998174,
-      "wallet_age_days": 4,
-      "total_activities": 23
-    },
-    "timestamp": "2026-01-27T15:54:16.738256",
-    "trade_hash": "0x75432d809bd31fbe63cf1f271523dbddf5ed22bc5c88e9b3666d146d9bb1fa46",
-    "trade_timestamp": 1769529047,
-    "latency": {
-      "latency_seconds": 288553.0,
-      "latency_minutes": 4809.216666666666,
-      "is_pre_event": true,
-      "severity": "CRITICAL",
-      "trade_time": "2026-01-27T15:50:47+00:00",
-      "event_time": "2026-01-31T00:00:00+00:00"
-    },
-    "wallet_stats": null,
-    "trade_data": {
-      "outcome": "Yes",
-      "side": "BUY",
-      "price": 0.10999999998174,
-      "size": 45454.545453,
-      "amount": 4999.999999
-    },
-    "resolution_last_check": "2026-03-29T06:54:31.754205+00:00"
-  },
-  {
-    "market": "Counter-Strike: Virtus.pro vs Nemiga (BO3) - CCT Europe Series #13 Playoffs",
-    "market_slug": "cs2-vp-nemi1-2026-01-27",
-    "wallet": "0x6941ae4e8697598452a51cd2dc12bece941daee6",
-    "analysis": {
-      "score": 85,
-      "flags": [
-        "New wallet (0d old)",
-        "Extreme confidence (99.9% odds)",
-        "Large bet ($3,825)"
-      ],
-      "amount": 3825.171,
-      "odds": 0.999,
-      "wallet_age_days": 0,
-      "total_activities": 49
-    },
-    "timestamp": "2026-01-27T17:16:32.093849",
-    "trade_hash": "0xd5a3b868a3a017461be0a581af56f81804152e541c7ea1aa275edeb68fac7278",
-    "trade_timestamp": 1769534021,
-    "latency": null,
-    "wallet_stats": null,
-    "trade_data": {
-      "outcome": "Nemiga",
-      "side": "SELL",
-      "price": 0.999,
-      "size": 3829.0,
-      "amount": 3825.171
-    },
-    "resolution": {
-      "outcome": "Nemiga",
-      "checked_at": "2026-03-29T06:54:32.414136+00:00",
-      "insider_win": true,
-      "model_correct": null
-    }
-  },
-  {
     "market": "Will Mar\u00eda Corina Machado enter Venezuela by January 31?",
     "market_slug": "will-mara-corina-machado-enter-venezuela-by-january-31-859-245",
     "wallet": "0x0939df35f48c48fa02a5a7a18cb9879364ffb5a6",
@@ -34587,5 +34515,93 @@
     "market": "Hawks vs. Magic",
     "market_slug": "nba-atl-orl-2026-04-01",
     "amount": 3682.5
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x1a50bd16e46dfcc78ce4c78b5ffff61290aadcf17723af44a4f55c788a66d4c9",
+    "wallet": "0x23786fdad0073692157c6d7dc81f281843a35fcb",
+    "trader": {
+      "rank": 13,
+      "address": "0x23786fdad0073692157c6d7dc81f281843a35fcb",
+      "username": "mikatrade77",
+      "profit": 5147998.544602999,
+      "volume": 10884765.388774998,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x1cf58e946147a1d353dfd2d5c153d5be75426440",
+      "side": "SELL",
+      "asset": "106089330606463390094979723214198773666329550032574650943275002629872541877548",
+      "conditionId": "0xecc1044c1b24732e5e29170d92dea903204e196a2b960daf78cb794c2cbb0a19",
+      "size": 20230.91,
+      "price": 0.13,
+      "timestamp": 1775087959,
+      "title": "Kings vs. Raptors",
+      "slug": "nba-sac-tor-2026-04-01",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
+      "eventSlug": "nba-sac-tor-2026-04-01",
+      "outcome": "Kings",
+      "outcomeIndex": 0,
+      "name": "BLACKBET",
+      "pseudonym": "Palatable-Availability",
+      "bio": "",
+      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/logo_da91d0a9-d825-41d0-b30e-a6e6769833d7_1734781894482.jpg",
+      "profileImageOptimized": "",
+      "transactionHash": "0x1a50bd16e46dfcc78ce4c78b5ffff61290aadcf17723af44a4f55c788a66d4c9",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Kings vs. Raptors",
+    "market_slug": "nba-sac-tor-2026-04-01",
+    "amount": 2630.0183
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x4c835904897302319d8df33f17d23a0029cccfb08bf0de9feb5fcea8ad357714",
+    "wallet": "0x23786fdad0073692157c6d7dc81f281843a35fcb",
+    "trader": {
+      "rank": 13,
+      "address": "0x23786fdad0073692157c6d7dc81f281843a35fcb",
+      "username": "mikatrade77",
+      "profit": 5147998.544602999,
+      "volume": 10884765.388774998,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xc94a2031b8b4cc4cf77eac0fd0e0b982b7b29401",
+      "side": "BUY",
+      "asset": "26346969848783400678587156575421437877397531835925129201949023118835646369030",
+      "conditionId": "0xb7d751a6a47f2d51a6d85b95aa26ccba8bfcc14b841daaac2cfb83fadead1e56",
+      "size": 11596.2,
+      "price": 0.43,
+      "timestamp": 1775087959,
+      "title": "Blues vs. Kings",
+      "slug": "nhl-stl-lak-2026-04-01",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nhl.png",
+      "eventSlug": "nhl-stl-lak-2026-04-01",
+      "outcome": "Blues",
+      "outcomeIndex": 0,
+      "name": "yuanshuai",
+      "pseudonym": "Crisp-Fountain",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x4c835904897302319d8df33f17d23a0029cccfb08bf0de9feb5fcea8ad357714",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Blues vs. Kings",
+    "market_slug": "nhl-stl-lak-2026-04-01",
+    "amount": 4986.366
   }
 ]
