@@ -608,7 +608,14 @@ P&L: ${profit:,.0f} · Vol: ${volume/1000000:.1f}M
 
 MOVE
 {position} · ${amount:,.0f}
-Wallet: {wallet_short}
+Wallet: {wallet_short}"""
+
+    # AI Context (if available)
+    ai_context = alert.get('ai_context')
+    if ai_context:
+        message += f"\n\nCONTEXT\n→ {ai_context}"
+
+    message += f"""
 
 VERDICT: {verdict}
 {verdict_note}
