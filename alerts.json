@@ -2,43 +2,6 @@
   {
     "market": "Khamenei out as Supreme Leader of Iran by January 31?",
     "market_slug": "khamenei-out-as-supreme-leader-of-iran-by-january-31",
-    "wallet": "0xbafe972545afc35d0767c3329ef2259c7d215c14",
-    "analysis": {
-      "score": 85,
-      "flags": [
-        "Extreme confidence (97.7% odds)",
-        "Large bet ($1,417)",
-        "Pre-event latency: 1854m"
-      ],
-      "amount": 1416.60115,
-      "odds": 0.977,
-      "wallet_age_days": 146,
-      "total_activities": 100
-    },
-    "timestamp": "2026-01-29T17:09:25.936842",
-    "trade_hash": "0x3fb39e2bfe3219305f7579bc60e5ac8ae9b2cd9e854309c1fdb816eae4267e07",
-    "trade_timestamp": 1769706366,
-    "latency": {
-      "latency_seconds": 111234.0,
-      "latency_minutes": 1853.9,
-      "is_pre_event": true,
-      "severity": "CRITICAL",
-      "trade_time": "2026-01-29T17:06:06+00:00",
-      "event_time": "2026-01-31T00:00:00+00:00"
-    },
-    "wallet_stats": null,
-    "trade_data": {
-      "outcome": "No",
-      "side": "BUY",
-      "price": 0.977,
-      "size": 1449.95,
-      "amount": 1416.60115
-    },
-    "resolution_last_check": "2026-03-29T06:54:41.346946+00:00"
-  },
-  {
-    "market": "Khamenei out as Supreme Leader of Iran by January 31?",
-    "market_slug": "khamenei-out-as-supreme-leader-of-iran-by-january-31",
     "wallet": "0xca716bba36d1b573613e18cb6c8fc4573a47cf3e",
     "analysis": {
       "score": 85,
@@ -35108,5 +35071,49 @@
     "market": "Spread: Michigan Wolverines (-1.5)",
     "market_slug": "cbb-arz-mich-2026-04-04",
     "amount": 17370.107999999997
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x1e4c12b52f6fa210d36d4f5dd190d68f57fe67a195f24f389677e5e3bc2ed61e",
+    "wallet": "0x863134d00841b2e200492805a01e1e2f5defaa53",
+    "trader": {
+      "rank": 6,
+      "address": "0x863134d00841b2e200492805a01e1e2f5defaa53",
+      "username": "RepTrump",
+      "profit": 7532409.671579,
+      "volume": 13983231.103425,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x54ac09857c3e76d50a2e7da064b0293d9a9e7c14",
+      "side": "BUY",
+      "asset": "30287144177747319963837175511707013281156894969279504180034676079182836420902",
+      "conditionId": "0xe3f5cc5d278fea6f9d1c79b1826fbcd274cb9fa7d261824e5b0348d63914ebb0",
+      "size": 6562.0104,
+      "price": 0.48,
+      "timestamp": 1775317849,
+      "title": "Will Real Betis Balompi\u00e9 win on 2026-04-04?",
+      "slug": "lal-bet-esp-2026-04-04-bet",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/league-lal.png",
+      "eventSlug": "lal-bet-esp-2026-04-04",
+      "outcome": "No",
+      "outcomeIndex": 1,
+      "name": "jackiechann",
+      "pseudonym": "Official-Presume",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x1e4c12b52f6fa210d36d4f5dd190d68f57fe67a195f24f389677e5e3bc2ed61e",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Will Real Betis Balompi\u00e9 win on 2026-04-04?",
+    "market_slug": "lal-bet-esp-2026-04-04",
+    "amount": 3412.245408
   }
 ]
