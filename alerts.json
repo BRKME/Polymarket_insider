@@ -2,116 +2,6 @@
   {
     "market": "Khamenei out as Supreme Leader of Iran by January 31?",
     "market_slug": "khamenei-out-as-supreme-leader-of-iran-by-january-31",
-    "wallet": "0xca716bba36d1b573613e18cb6c8fc4573a47cf3e",
-    "analysis": {
-      "score": 85,
-      "flags": [
-        "Extreme confidence (97.8% odds)",
-        "Large bet ($2,094)",
-        "Pre-event latency: 1703m"
-      ],
-      "amount": 2093.898,
-      "odds": 0.978,
-      "wallet_age_days": 392,
-      "total_activities": 100
-    },
-    "timestamp": "2026-01-29T19:39:05.918771",
-    "trade_hash": "0x4b829344afa565adf3d3f6032e76429a207ee0241db99334b96dd1638ce35e66",
-    "trade_timestamp": 1769715416,
-    "latency": {
-      "latency_seconds": 102184.0,
-      "latency_minutes": 1703.0666666666666,
-      "is_pre_event": true,
-      "severity": "CRITICAL",
-      "trade_time": "2026-01-29T19:36:56+00:00",
-      "event_time": "2026-01-31T00:00:00+00:00"
-    },
-    "wallet_stats": null,
-    "trade_data": {
-      "outcome": "No",
-      "side": "SELL",
-      "price": 0.978,
-      "size": 2141.0,
-      "amount": 2093.898
-    },
-    "resolution_last_check": "2026-03-29T06:54:41.346949+00:00"
-  },
-  {
-    "market": "Will Donald Trump announce a new nominee for Chair of the Federal Reserve by January 31, 2026?",
-    "market_slug": "will-donald-trump-announce-a-new-nominee-for-chair-of-the-federal-reserve-by-january-31-2026-849-849",
-    "wallet": "0xc0bff7089f8536447e3d963fcbaa2d07e3e12032",
-    "analysis": {
-      "score": 85,
-      "flags": [
-        "Extreme confidence (97.9% odds)",
-        "Large bet ($1,175)",
-        "Pre-event latency: 1661m"
-      ],
-      "amount": 1174.9902,
-      "odds": 0.9791666597221643,
-      "wallet_age_days": 63,
-      "total_activities": 100
-    },
-    "timestamp": "2026-01-29T20:21:40.804186",
-    "trade_hash": "0xd422ecdaecba4939f547a9dc1eb75630e7eeb7e000e73962404077c7da43769c",
-    "trade_timestamp": 1769717966,
-    "latency": {
-      "latency_seconds": 99634.0,
-      "latency_minutes": 1660.5666666666666,
-      "is_pre_event": true,
-      "severity": "CRITICAL",
-      "trade_time": "2026-01-29T20:19:26+00:00",
-      "event_time": "2026-01-31T00:00:00+00:00"
-    },
-    "wallet_stats": null,
-    "trade_data": {
-      "outcome": "No",
-      "side": "SELL",
-      "price": 0.9791666597221643,
-      "size": 1199.99,
-      "amount": 1174.9902
-    }
-  },
-  {
-    "market": "U.S. Government Funding Lapse on January 31?",
-    "market_slug": "us-government-funding-lapse-on-january-31",
-    "wallet": "0xbacd00c9080a82ded56f504ee8810af732b0ab35",
-    "analysis": {
-      "score": 85,
-      "flags": [
-        "Extreme confidence (96.0% odds)",
-        "Large bet ($3,413)",
-        "Pre-event latency: 1631m"
-      ],
-      "amount": 3413.0111999999995,
-      "odds": 0.96,
-      "wallet_age_days": 268,
-      "total_activities": 100
-    },
-    "timestamp": "2026-01-29T20:50:12.744728",
-    "trade_hash": "0x47dff9361c3cbc15d1d6228cca8db59af39b15a06c7d36ff0e3efbb05198024a",
-    "trade_timestamp": 1769719716,
-    "latency": {
-      "latency_seconds": 97884.0,
-      "latency_minutes": 1631.4,
-      "is_pre_event": true,
-      "severity": "CRITICAL",
-      "trade_time": "2026-01-29T20:48:36+00:00",
-      "event_time": "2026-01-31T00:00:00+00:00"
-    },
-    "wallet_stats": null,
-    "trade_data": {
-      "outcome": "Yes",
-      "side": "BUY",
-      "price": 0.96,
-      "size": 3555.22,
-      "amount": 3413.0111999999995
-    },
-    "resolution_last_check": "2026-03-29T06:54:43.191360+00:00"
-  },
-  {
-    "market": "Khamenei out as Supreme Leader of Iran by January 31?",
-    "market_slug": "khamenei-out-as-supreme-leader-of-iran-by-january-31",
     "wallet": "0x211e247d8e7f68b78fdace32249ac16c8fd335dd",
     "analysis": {
       "score": 85,
@@ -35115,5 +35005,137 @@
     "market": "Will Real Betis Balompi\u00e9 win on 2026-04-04?",
     "market_slug": "lal-bet-esp-2026-04-04",
     "amount": 3412.245408
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x83674df60d29d717825aac2fceb06f332c6045a72c5387bb02431138cad3b555",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.515682004,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x88c4919de76e526d55a32c1f8afb439dd1f1129a",
+      "side": "BUY",
+      "asset": "2916184120206223749839849644877707470354946028257066951797428049170871002238",
+      "conditionId": "0x6d0e09d0f04572d9b1adad84703458b0297bc5603b69dccbde93147ee4443246",
+      "size": 3563.074073,
+      "price": 0.8099999999635147,
+      "timestamp": 1775321149,
+      "title": "US forces enter Iran by April 30?",
+      "slug": "us-forces-enter-iran-by-april-30-899",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/us-forces-enter-iran-by-L_p5JkCpvr0I.jpg",
+      "eventSlug": "us-forces-enter-iran-by",
+      "outcome": "Yes",
+      "outcomeIndex": 0,
+      "name": "8934394839",
+      "pseudonym": "Sardonic-Lentil",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x83674df60d29d717825aac2fceb06f332c6045a72c5387bb02431138cad3b555",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "US forces enter Iran by April 30?",
+    "market_slug": "us-forces-enter-iran-by",
+    "amount": 2886.0899990000003
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x2adbda5e439e53fd83cf9c99f112f49baf1cc0c37ff105a2b94623299f115d59",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.515682004,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x808da97104cb12a9f082ea746d1531d3a4b54689",
+      "side": "BUY",
+      "asset": "49617491469566249578860170872965653241987485237779755001596974671152587714222",
+      "conditionId": "0x877b0b5e2f9620777f4870d3dee614a08e1dbbd341989a60b39e64cc6e419608",
+      "size": 7200.66548,
+      "price": 0.52,
+      "timestamp": 1775321149,
+      "title": "St. Louis Cardinals vs. Detroit Tigers: O/U 7.5",
+      "slug": "mlb-stl-det-2026-04-04-total-7pt5",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Repetitive-markets/MLB.jpg",
+      "eventSlug": "mlb-stl-det-2026-04-04",
+      "outcome": "Over",
+      "outcomeIndex": 0,
+      "name": "uzumiru",
+      "pseudonym": "Live-Interchange",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x2adbda5e439e53fd83cf9c99f112f49baf1cc0c37ff105a2b94623299f115d59",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "St. Louis Cardinals vs. Detroit Tigers: O/U 7.5",
+    "market_slug": "mlb-stl-det-2026-04-04",
+    "amount": 3744.3460496
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x39c0326e68285e8d32a943efdd0ee64ab4bb900fa9e3ce55ebb7a0282e389d30",
+    "wallet": "0xd235973291b2b75ff4070e9c0b01728c520b0f29",
+    "trader": {
+      "rank": 5,
+      "address": "0xd235973291b2b75ff4070e9c0b01728c520b0f29",
+      "username": "zxgngl",
+      "profit": 7807265.5892408835,
+      "volume": 40551790.62184699,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xd6a3f0ec6c4a8ad680d580610c82ca57ff139489",
+      "side": "BUY",
+      "asset": "63364431932125506061542044306581171994293901185256623456868261536874360931900",
+      "conditionId": "0x45ef84fa7f880622c095bb0981ed9e2a4a15706a6d8bb099544ad2669f541556",
+      "size": 5116.35,
+      "price": 0.69,
+      "timestamp": 1775321451,
+      "title": "US Men's Clay Court Championships: Tommy Paul vs Frances Tiafoe",
+      "slug": "atp-paul-tiafoe-2026-04-04",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/atp-tour-b4390c4fb8.jpg",
+      "eventSlug": "atp-paul-tiafoe-2026-04-04",
+      "outcome": "Tommy Paul",
+      "outcomeIndex": 0,
+      "name": "knedloveprovelo",
+      "pseudonym": "Weighty-Rifle",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x39c0326e68285e8d32a943efdd0ee64ab4bb900fa9e3ce55ebb7a0282e389d30",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "US Men's Clay Court Championships: Tommy Paul vs Frances Tiafoe",
+    "market_slug": "atp-paul-tiafoe-2026-04-04",
+    "amount": 3530.2815
   }
 ]
