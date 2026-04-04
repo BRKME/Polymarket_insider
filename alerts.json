@@ -2,36 +2,6 @@
   {
     "market": "Will Josh Shapiro win the 2028 US Presidential Election?",
     "market_slug": "will-josh-shapiro-win-the-2028-us-presidential-election",
-    "wallet": "0xa9433389c6be6d2f2e8f312a5c975f7ffee6a533",
-    "analysis": {
-      "score": 85,
-      "flags": [
-        "New wallet (0d old)",
-        "Extreme confidence (96.2% odds)",
-        "Large bet ($1,250)"
-      ],
-      "amount": 1249.638,
-      "odds": 0.962,
-      "wallet_age_days": 0,
-      "total_activities": 9
-    },
-    "timestamp": "2026-01-30T11:04:34.669712",
-    "trade_hash": "0x39bd3ce47def64299c3181cf0c9825ef4023e1042067a3a3b62fa41499d3b32e",
-    "trade_timestamp": 1769770778,
-    "latency": null,
-    "wallet_stats": null,
-    "trade_data": {
-      "outcome": "No",
-      "side": "SELL",
-      "price": 0.962,
-      "size": 1299.0,
-      "amount": 1249.638
-    },
-    "resolution_last_check": "2026-03-29T06:54:44.483103+00:00"
-  },
-  {
-    "market": "Will Josh Shapiro win the 2028 US Presidential Election?",
-    "market_slug": "will-josh-shapiro-win-the-2028-us-presidential-election",
     "wallet": "0x1ae983827e2e74a7fcd93bf23538af5339e04e94",
     "analysis": {
       "score": 95,
@@ -35146,5 +35116,49 @@
     "market": "Will Racing Club de Lens win on 2026-04-04?",
     "market_slug": "fl1-lil-rcl-2026-04-04",
     "amount": 1999.989999
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xb415f2cc4955d67832de2951f038172bd5fb4adc491688aff0151658df7a2149",
+    "wallet": "0xe9ad918c7678cd38b12603a762e638a5d1ee7091",
+    "trader": {
+      "rank": 9,
+      "address": "0xe9ad918c7678cd38b12603a762e638a5d1ee7091",
+      "username": "walletmobile",
+      "profit": 5942685.45339684,
+      "volume": 32196692.075936034,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xaa8d2d2331bd667bb3016fd0d9e4720804be54b0",
+      "side": "SELL",
+      "asset": "16326670096923664216613693409797962977209257122277516043212050298836321932197",
+      "conditionId": "0x836b6b413f708cd929adfa5280fb05be940b164b147df6cb4af9b039da586439",
+      "size": 4343.34,
+      "price": 0.42,
+      "timestamp": 1775332855,
+      "title": "Pistons vs. 76ers",
+      "slug": "nba-det-phi-2026-04-04",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
+      "eventSlug": "nba-det-phi-2026-04-04",
+      "outcome": "76ers",
+      "outcomeIndex": 1,
+      "name": "",
+      "pseudonym": "",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xb415f2cc4955d67832de2951f038172bd5fb4adc491688aff0151658df7a2149",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Pistons vs. 76ers",
+    "market_slug": "nba-det-phi-2026-04-04",
+    "amount": 2519.1372000000006
   }
 ]
