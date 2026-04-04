@@ -2,42 +2,6 @@
   {
     "market": "Will Mar\u00eda Corina Machado enter Venezuela by January 31?",
     "market_slug": "will-mara-corina-machado-enter-venezuela-by-january-31",
-    "wallet": "0xbc9fa38bb3200bafe0aa68aa2b89cc18e23235e5",
-    "analysis": {
-      "score": 85,
-      "flags": [
-        "Extreme confidence (97.8% odds)",
-        "Large bet ($2,150)",
-        "Pre-event latency: 3525m"
-      ],
-      "amount": 2149.9999980000002,
-      "odds": 0.9779999996151684,
-      "wallet_age_days": 108,
-      "total_activities": 100
-    },
-    "timestamp": "2026-01-28T13:16:57.537135",
-    "trade_hash": "0x64c096076f4643350ed071dbd17de66d67e4782bdd106f12c03cdaff230d0c68",
-    "trade_timestamp": 1769606119,
-    "latency": {
-      "latency_seconds": 211481.0,
-      "latency_minutes": 3524.6833333333334,
-      "is_pre_event": true,
-      "severity": "CRITICAL",
-      "trade_time": "2026-01-28T13:15:19+00:00",
-      "event_time": "2026-01-31T00:00:00+00:00"
-    },
-    "wallet_stats": null,
-    "trade_data": {
-      "outcome": "No",
-      "side": "BUY",
-      "price": 0.9779999996151684,
-      "size": 2198.364007,
-      "amount": 2149.9999980000002
-    }
-  },
-  {
-    "market": "Will Mar\u00eda Corina Machado enter Venezuela by January 31?",
-    "market_slug": "will-mara-corina-machado-enter-venezuela-by-january-31",
     "wallet": "0xfd076a684f0a2de61598b1de9a8ee2fe520cce86",
     "analysis": {
       "score": 85,
@@ -35072,5 +35036,49 @@
     "market": "Counter-Strike: NRG vs Voca (BO3) - PGL Bucharest Group Stage",
     "market_slug": "cs2-nrg-voc-2026-04-04",
     "amount": 7199.9939448
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xb3a440bbde7131046782b9503798e742e5f7eaadd49a521c2b89a99afe7be87e",
+    "wallet": "0x6a72f61820b26b1fe4d956e17b6dc2a1ea3033ee",
+    "trader": {
+      "rank": 3,
+      "address": "0x6a72f61820b26b1fe4d956e17b6dc2a1ea3033ee",
+      "username": "kch123",
+      "profit": 10672887.340271465,
+      "volume": 272371675.38032407,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x43670feb10084f60417938adfba2506801e2e904",
+      "side": "BUY",
+      "asset": "105744980932883842428735227675534401609303780685558675947313562840137884511221",
+      "conditionId": "0xb454c0e5eb37b5881f1591452d4e68f5a542c6ad540717f579350bd7dbe46277",
+      "size": 8092.068595,
+      "price": 0.4804572166126779,
+      "timestamp": 1775293537,
+      "title": "LoL: T1 vs Hanwha Life Esports - Game 2 Winner",
+      "slug": "lol-t1-hle1-2026-04-04-game2",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/league-of-legends-61a4f083a6.png",
+      "eventSlug": "lol-t1-hle1-2026-04-04",
+      "outcome": "Hanwha Life Esports",
+      "outcomeIndex": 1,
+      "name": "finnnark",
+      "pseudonym": "Idolized-Gammaray",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xb3a440bbde7131046782b9503798e742e5f7eaadd49a521c2b89a99afe7be87e",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "LoL: T1 vs Hanwha Life Esports - Game 2 Winner",
+    "market_slug": "lol-t1-hle1-2026-04-04",
+    "amount": 4204.175841207437
   }
 ]
