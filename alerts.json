@@ -1,95 +1,5 @@
 [
   {
-    "market": "Will Norway win the 2026 FIFA World Cup?",
-    "market_slug": "will-norway-win-the-2026-fifa-world-cup-893",
-    "wallet": "0x37a245202b72439acb6d6311240773fe8feac105",
-    "analysis": {
-      "score": 85,
-      "flags": [
-        "New wallet (0d old)",
-        "Extreme confidence (97.4% odds)",
-        "Large bet ($1,340)"
-      ],
-      "amount": 1340.224,
-      "odds": 0.974,
-      "wallet_age_days": 0,
-      "total_activities": 15
-    },
-    "timestamp": "2026-01-30T11:55:25.135688",
-    "trade_hash": "0x8572959899fbc52783a03e03c41930ff9faa9dc412f4b35881d11e057fd61826",
-    "trade_timestamp": 1769773998,
-    "latency": null,
-    "wallet_stats": null,
-    "trade_data": {
-      "outcome": "No",
-      "side": "BUY",
-      "price": 0.974,
-      "size": 1376.0,
-      "amount": 1340.224
-    },
-    "resolution_last_check": "2026-03-29T06:54:45.131596+00:00"
-  },
-  {
-    "market": "Will Josh Shapiro win the 2028 US Presidential Election?",
-    "market_slug": "will-josh-shapiro-win-the-2028-us-presidential-election",
-    "wallet": "0x1ba340af1a92cdc27d319a26e4a2414519ac4666",
-    "analysis": {
-      "score": 85,
-      "flags": [
-        "New wallet (0d old)",
-        "Extreme confidence (96.1% odds)",
-        "Large bet ($1,316)"
-      ],
-      "amount": 1315.609,
-      "odds": 0.961,
-      "wallet_age_days": 0,
-      "total_activities": 38
-    },
-    "timestamp": "2026-01-30T16:22:00.224602",
-    "trade_hash": "0x6bad7a0e6b643a02582b5db4dd9a0909540a641324b40b7b05889383415977c9",
-    "trade_timestamp": 1769789844,
-    "latency": null,
-    "wallet_stats": null,
-    "trade_data": {
-      "outcome": "No",
-      "side": "BUY",
-      "price": 0.961,
-      "size": 1369.0,
-      "amount": 1315.609
-    },
-    "resolution_last_check": "2026-03-29T06:54:45.131618+00:00"
-  },
-  {
-    "market": "Will Josh Shapiro win the 2028 US Presidential Election?",
-    "market_slug": "will-josh-shapiro-win-the-2028-us-presidential-election",
-    "wallet": "0xea0e977c29e4de9ec594e8e48de831c1f734b908",
-    "analysis": {
-      "score": 85,
-      "flags": [
-        "New wallet (0d old)",
-        "Extreme confidence (96.1% odds)",
-        "Large bet ($1,004)"
-      ],
-      "amount": 1004.245,
-      "odds": 0.961,
-      "wallet_age_days": 0,
-      "total_activities": 30
-    },
-    "timestamp": "2026-01-30T17:41:30.116876",
-    "trade_hash": "0x471d1414626c0b4c1f83641798e1ab6e918f5d0b0cb1616ad58e8cefd8d56b22",
-    "trade_timestamp": 1769794702,
-    "latency": null,
-    "wallet_stats": null,
-    "trade_data": {
-      "outcome": "No",
-      "side": "SELL",
-      "price": 0.961,
-      "size": 1045.0,
-      "amount": 1004.245
-    },
-    "resolution_last_check": "2026-03-29T06:54:45.131622+00:00"
-  },
-  {
     "market": "Will Josh Shapiro win the 2028 US Presidential Election?",
     "market_slug": "will-josh-shapiro-win-the-2028-us-presidential-election",
     "wallet": "0x2a34df2355be39b185699fb5b5e4abb549b0da49",
@@ -35173,5 +35083,200 @@
     "market": "Chicago Cubs vs. Cleveland Guardians",
     "market_slug": "mlb-chc-cle-2026-04-04",
     "amount": 9875.946410400491
+  },
+  {
+    "market": "UFC Fight Night: Melissa Gatto vs. Dione Barbosa (Women's Flyweight, Prelims)",
+    "market_slug": "ufc-mel1-dio-2026",
+    "event_slug": "ufc-mel1-dio-2026",
+    "wallet": "0xfccc7ab26a95a004d53d0cb1084bf5fa1a8bd978",
+    "analysis": {
+      "score": 70,
+      "flags": [
+        "New wallet (0d old)",
+        "Large bet ($1,160)",
+        "Low activity (2 txns)"
+      ],
+      "amount": 1159.978787630781,
+      "odds": 0.4934057985099925,
+      "raw_price": 0.4934057985099925,
+      "outcome": "Dione Barbosa",
+      "potential_pnl": 1190.9842353692193,
+      "pnl_multiplier": 1.0267293230437136,
+      "wallet_age_days": 0,
+      "total_activities": 2
+    },
+    "timestamp": "2026-04-04T22:02:26.877888",
+    "trade_hash": "0x904385a73ff37238828bdd672c3d2c2e46e3533048089fcc901f2df8ae0b0b49",
+    "trade_timestamp": 1775339663,
+    "latency": null,
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "Dione Barbosa",
+      "outcomeIndex": 1,
+      "normalized_position": "NO",
+      "side": "BUY",
+      "price": 0.4934057985099925,
+      "effective_price": 0.4934057985099925,
+      "size": 2350.9630230000002,
+      "amount": 1159.978787630781,
+      "potential_pnl": 1190.9842353692193,
+      "pnl_multiplier": 1.0267293230437136,
+      "is_no": false,
+      "slug": "ufc-mel1-dio-2026",
+      "eventSlug": "ufc-mel1-dio-2026-04-04"
+    },
+    "irrationality": {
+      "irrationality_score": 35,
+      "flags": [
+        "Large mispricing edge (+25.5%)"
+      ],
+      "category": "sports",
+      "category_info": {
+        "strength": "medium",
+        "typical_overpricing": 0.03,
+        "min_edge": 0.05
+      },
+      "is_irrational": true
+    },
+    "mispricing": {
+      "rational_estimate": 0.2386811597019985,
+      "market_price": 0.4934057985099925,
+      "edge": 0.254724638807994,
+      "edge_percent": 25.472463880799403,
+      "min_edge_required": 0.05,
+      "is_mispriced": true,
+      "edge_quality": "STRONG",
+      "base_rate_class": "common",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "common",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "Gatto's striking accuracy improves significantly",
+          "Barbosa's grappling defense fails",
+          "Fight ends in a finish rather than a decision"
+        ],
+        "weakest_link": "Gatto's striking accuracy improves significantly"
+      },
+      "category": "sports",
+      "narrative_drivers": [
+        "Gatto's recent performance trends",
+        "Barbosa's fight history against similar opponents"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "ALPHA",
+      "signal_emoji": "\ud83d\udd25",
+      "signal_strength": 105,
+      "interpretation": "Smart money (NO) confirms YES is overpriced",
+      "action_suggestion": "High conviction: insider + statistics aligned",
+      "insider_score": 70,
+      "insider_position": "NO",
+      "irrationality_score": 35,
+      "is_irrational": true,
+      "is_mispriced": true,
+      "edge": 0.254724638807994,
+      "edge_percent": 25.472463880799403
+    },
+    "financial_analyst": {
+      "signal_quality": 81.0,
+      "stance": "HIGH_CONVICTION",
+      "edge_percent": 25.47,
+      "signal_strength": 105.0,
+      "insider_score": 70.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    }
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x13c2117c22f63d7b0b95e59db9cba806f1f5cff333c2c812f40054125dc16903",
+    "wallet": "0xe90bec87d9ef430f27f9dcfe72c34b76967d5da2",
+    "trader": {
+      "rank": 14,
+      "address": "0xe90bec87d9ef430f27f9dcfe72c34b76967d5da2",
+      "username": "gmanas",
+      "profit": 4955895.713702176,
+      "volume": 529047708.50599104,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x97504467882760cb74a0e5f2adbed6eb6345263d",
+      "side": "BUY",
+      "asset": "85777790802825974881581755939266143106546518206254447468298034584618202366950",
+      "conditionId": "0x8f96fc29485891c3ef52fedafaf745c0d9d265ac2a22f0164c906c5b84865ad7",
+      "size": 8905.29,
+      "price": 0.5882501524374838,
+      "timestamp": 1775340359,
+      "title": "LoL: Cloud9 vs LYON (BO3) - LCS Group Stage",
+      "slug": "lol-c9-ly-2026-04-04",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/league-of-legends-61a4f083a6.png",
+      "eventSlug": "lol-c9-ly-2026-04-04",
+      "outcome": "Cloud9",
+      "outcomeIndex": 0,
+      "name": "Thyton",
+      "pseudonym": "Elated-Woodshed",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x13c2117c22f63d7b0b95e59db9cba806f1f5cff333c2c812f40054125dc16903",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "LoL: Cloud9 vs LYON (BO3) - LCS Group Stage",
+    "market_slug": "lol-c9-ly-2026-04-04",
+    "amount": 5238.538200000001
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x343dab3266af94ef267d1fad1fc94c663f3840a04dd1452213a0bdcc6e983c7b",
+    "wallet": "0xe90bec87d9ef430f27f9dcfe72c34b76967d5da2",
+    "trader": {
+      "rank": 14,
+      "address": "0xe90bec87d9ef430f27f9dcfe72c34b76967d5da2",
+      "username": "gmanas",
+      "profit": 4955895.713702176,
+      "volume": 529047708.50599104,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x97504467882760cb74a0e5f2adbed6eb6345263d",
+      "side": "BUY",
+      "asset": "85777790802825974881581755939266143106546518206254447468298034584618202366950",
+      "conditionId": "0x8f96fc29485891c3ef52fedafaf745c0d9d265ac2a22f0164c906c5b84865ad7",
+      "size": 17850.52,
+      "price": 0.5404531800754264,
+      "timestamp": 1775340359,
+      "title": "LoL: Cloud9 vs LYON (BO3) - LCS Group Stage",
+      "slug": "lol-c9-ly-2026-04-04",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/league-of-legends-61a4f083a6.png",
+      "eventSlug": "lol-c9-ly-2026-04-04",
+      "outcome": "Cloud9",
+      "outcomeIndex": 0,
+      "name": "Thyton",
+      "pseudonym": "Elated-Woodshed",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x343dab3266af94ef267d1fad1fc94c663f3840a04dd1452213a0bdcc6e983c7b",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "LoL: Cloud9 vs LYON (BO3) - LCS Group Stage",
+    "market_slug": "lol-c9-ly-2026-04-04",
+    "amount": 9647.3703
   }
 ]
