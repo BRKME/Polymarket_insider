@@ -1,36 +1,5 @@
 [
   {
-    "market": "Will Josh Shapiro win the 2028 US Presidential Election?",
-    "market_slug": "will-josh-shapiro-win-the-2028-us-presidential-election",
-    "wallet": "0x1ae983827e2e74a7fcd93bf23538af5339e04e94",
-    "analysis": {
-      "score": 95,
-      "flags": [
-        "New wallet (0d old)",
-        "Extreme confidence (96.2% odds)",
-        "Large bet ($1,234)",
-        "Low activity (4 txns)"
-      ],
-      "amount": 1234.2459999999999,
-      "odds": 0.962,
-      "wallet_age_days": 0,
-      "total_activities": 4
-    },
-    "timestamp": "2026-01-30T11:04:35.472908",
-    "trade_hash": "0x1ef82f2e8cd81280e62741dd08bb57dbe7b1f904deafd4f92c574ad74111a456",
-    "trade_timestamp": 1769770776,
-    "latency": null,
-    "wallet_stats": null,
-    "trade_data": {
-      "outcome": "No",
-      "side": "SELL",
-      "price": 0.962,
-      "size": 1283.0,
-      "amount": 1234.2459999999999
-    },
-    "resolution_last_check": "2026-03-29T06:54:44.483119+00:00"
-  },
-  {
     "market": "Will Norway win the 2026 FIFA World Cup?",
     "market_slug": "will-norway-win-the-2026-fifa-world-cup-893",
     "wallet": "0x37a245202b72439acb6d6311240773fe8feac105",
@@ -35160,5 +35129,49 @@
     "market": "Pistons vs. 76ers",
     "market_slug": "nba-det-phi-2026-04-04",
     "amount": 2519.1372000000006
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x7645efd52ec75b6e94e0557610524eed97dae129477315452e2991ff40a9080c",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.515682,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x63a51cbb37341837b873bc29d05f482bc2988e33",
+      "side": "BUY",
+      "asset": "14590063194640113694710768176096333411010389613589510640026041212845591522120",
+      "conditionId": "0x3e1633885215ca9f2583a9bf18768570deb43db4d1a08d6417e0b88fb4bcf10b",
+      "size": 16839.127218999998,
+      "price": 0.5864880217341205,
+      "timestamp": 1775337359,
+      "title": "Chicago Cubs vs. Cleveland Guardians",
+      "slug": "mlb-chc-cle-2026-04-04",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Repetitive-markets/MLB.jpg",
+      "eventSlug": "mlb-chc-cle-2026-04-04",
+      "outcome": "Chicago Cubs",
+      "outcomeIndex": 0,
+      "name": "mhh29",
+      "pseudonym": "Sociable-Meadow",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x7645efd52ec75b6e94e0557610524eed97dae129477315452e2991ff40a9080c",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Chicago Cubs vs. Cleveland Guardians",
+    "market_slug": "mlb-chc-cle-2026-04-04",
+    "amount": 9875.946410400491
   }
 ]
