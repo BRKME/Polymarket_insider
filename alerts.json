@@ -1,41 +1,5 @@
 [
   {
-    "market": "Will Elon Musk post 520-539 tweets from February 3 to February 10, 2026?",
-    "market_slug": "elon-musk-of-tweets-february-3-february-10",
-    "wallet": "0x2335fd8ccd69c34c71a819c2c7b51ce09073352b",
-    "analysis": {
-      "score": 85,
-      "flags": [
-        "Extreme confidence (97.7% odds)",
-        "Large bet ($1,954)",
-        "Pre-event latency: 3767m"
-      ],
-      "amount": 1953.70558,
-      "odds": 0.97685279,
-      "wallet_age_days": 25,
-      "total_activities": 100
-    },
-    "timestamp": "2026-01-31T09:14:35.142132",
-    "trade_hash": "0xc46cfb5fb9da3e351eca77e50d98f6bce4203d5fc035bb1f2331fa553eacff31",
-    "trade_timestamp": 1769850772,
-    "latency": {
-      "latency_seconds": 226028.0,
-      "latency_minutes": 3767.133333333333,
-      "is_pre_event": true,
-      "severity": "CRITICAL",
-      "trade_time": "2026-01-31T09:12:52+00:00",
-      "event_time": "2026-02-03T00:00:00+00:00"
-    },
-    "wallet_stats": null,
-    "trade_data": {
-      "outcome": "No",
-      "side": "BUY",
-      "price": 0.97685279,
-      "size": 2000.0,
-      "amount": 1953.70558
-    }
-  },
-  {
     "market": "US strikes Iran by February 3, 2026?",
     "market_slug": "us-strikes-iran-by-february-3-2026",
     "wallet": "0xb917bb0c83ef912e004f4aa41131a6b9775a02c6",
@@ -35455,5 +35419,50 @@
     "market_slug": "nhl-car-ott-2026-04-05",
     "amount": 29508.996000000003,
     "ai_context": "The Hurricanes are the favorite, as they are generally considered a contender in a strong conference compared to the rebuilding Senators."
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x17b04fe28c5c1e189734a99fb55a77f4fe91f3569f4596304953fbf1d538a645",
+    "wallet": "0xe9ad918c7678cd38b12603a762e638a5d1ee7091",
+    "trader": {
+      "rank": 9,
+      "address": "0xe9ad918c7678cd38b12603a762e638a5d1ee7091",
+      "username": "walletmobile",
+      "profit": 5942685.45339684,
+      "volume": 32196692.075936034,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xead152b855effa6b5b5837f53b24c0756830c76a",
+      "side": "BUY",
+      "asset": "46314988444372811517520002071803534269341567798463321407996241864916562503066",
+      "conditionId": "0x4c0348dfc0c77e682c30ebccb0d4662933a81356540bc39ef8992a220f1a93d3",
+      "size": 5906.204159999999,
+      "price": 0.28218603125481473,
+      "timestamp": 1775420809,
+      "title": "Raptors vs. Celtics",
+      "slug": "nba-tor-bos-2026-04-05",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
+      "eventSlug": "nba-tor-bos-2026-04-05",
+      "outcome": "Raptors",
+      "outcomeIndex": 0,
+      "name": "elkmonkey",
+      "pseudonym": "Unconscious-Penguin",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x17b04fe28c5c1e189734a99fb55a77f4fe91f3569f4596304953fbf1d538a645",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Raptors vs. Celtics",
+    "market_slug": "nba-tor-bos-2026-04-05",
+    "amount": 1666.6483116910765,
+    "ai_context": "The Raptors are underdogs against the Celtics, who are typically stronger contenders in the Eastern Conference with a more established roster."
   }
 ]
