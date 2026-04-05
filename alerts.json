@@ -1,35 +1,5 @@
 [
   {
-    "market": "Will Norway win the 2026 FIFA World Cup?",
-    "market_slug": "will-norway-win-the-2026-fifa-world-cup-893",
-    "wallet": "0x5ca765d557347feb48f527950b72025f67f33953",
-    "analysis": {
-      "score": 85,
-      "flags": [
-        "New wallet (0d old)",
-        "Extreme confidence (97.6% odds)",
-        "Large bet ($1,032)"
-      ],
-      "amount": 1031.632,
-      "odds": 0.976,
-      "wallet_age_days": 0,
-      "total_activities": 38
-    },
-    "timestamp": "2026-01-30T20:59:34.852140",
-    "trade_hash": "0xeb07e3bedd0281984ae02ad8832524f7fd8d1bdf97872d76b813d7792e9a93c0",
-    "trade_timestamp": 1769806624,
-    "latency": null,
-    "wallet_stats": null,
-    "trade_data": {
-      "outcome": "No",
-      "side": "BUY",
-      "price": 0.976,
-      "size": 1057.0,
-      "amount": 1031.632
-    },
-    "resolution_last_check": "2026-03-29T06:54:45.131629+00:00"
-  },
-  {
     "market": "Pistons vs. Warriors",
     "market_slug": "nba-det-gsw-2026",
     "wallet": "0x51b832ff139ff12a9dd33c85be35bb098e3508f7",
@@ -35369,5 +35339,49 @@
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
     }
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x09a0652a02bbac50d4ec9da5c56e1ce519041d02cd6709cbbb92aaf00193af14",
+    "wallet": "0x006cc834cc092684f1b56626e23bedb3835c16ea",
+    "trader": {
+      "rank": 17,
+      "address": "0x006cc834cc092684f1b56626e23bedb3835c16ea",
+      "username": "0x006cc834Cc092684F1B56626E23BEdB3835c16ea-1729683673397",
+      "profit": 4552136.828305708,
+      "volume": 60070499.45364801,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x36257cb65f199caa86f7d30625bbc1250a981187",
+      "side": "BUY",
+      "asset": "23566027596070359188577455339138457000440787264374026791253078062605877317532",
+      "conditionId": "0xcc196612d0de3d9c3008567168ce17ac1f419fe29998f62ebc02b0a16ac1d728",
+      "size": 17936.36364,
+      "price": 0.55,
+      "timestamp": 1775369169,
+      "title": "Lakers vs. Mavericks",
+      "slug": "nba-lal-dal-2026-04-05",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
+      "eventSlug": "nba-lal-dal-2026-04-05",
+      "outcome": "Lakers",
+      "outcomeIndex": 0,
+      "name": "",
+      "pseudonym": "",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x09a0652a02bbac50d4ec9da5c56e1ce519041d02cd6709cbbb92aaf00193af14",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Lakers vs. Mavericks",
+    "market_slug": "nba-lal-dal-2026-04-05",
+    "amount": 9865.000002
   }
 ]
