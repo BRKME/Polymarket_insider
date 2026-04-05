@@ -502,7 +502,12 @@ def format_top_trader_alert(alert: Dict) -> str:
     trade = alert.get('trade', {})
     
     rank = trader.get('rank', '?')
-    username = trader.get('username', '') or f"Trader #{rank}"
+    raw_username = trader.get('username', '')
+    # Some traders have wallet address or wallet+timestamp as "username" — not useful
+    if raw_username and not raw_username.startswith('0x') and len(raw_username) < 30:
+        username = raw_username
+    else:
+        username = f"Trader #{rank}"
     profit = trader.get('profit', 0)
     volume = trader.get('volume', 0)
     
