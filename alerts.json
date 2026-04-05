@@ -34464,7 +34464,13 @@
     },
     "market": "Counter-Strike: NRG vs Voca (BO3) - PGL Bucharest Group Stage",
     "market_slug": "cs2-nrg-voc-2026-04-04",
-    "amount": 7199.9939448
+    "amount": 7199.9939448,
+    "resolution": {
+      "outcome": "NRG",
+      "checked_at": "2026-04-05T06:58:22.937252+00:00",
+      "insider_win": null,
+      "model_correct": null
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -34508,7 +34514,13 @@
     },
     "market": "LoL: T1 vs Hanwha Life Esports - Game 2 Winner",
     "market_slug": "lol-t1-hle1-2026-04-04",
-    "amount": 4204.175841207437
+    "amount": 4204.175841207437,
+    "resolution": {
+      "outcome": "T1",
+      "checked_at": "2026-04-05T06:58:23.600540+00:00",
+      "insider_win": null,
+      "model_correct": null
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -34596,7 +34608,13 @@
     },
     "market": "Spread: Michigan Wolverines (-1.5)",
     "market_slug": "cbb-arz-mich-2026-04-04",
-    "amount": 4923.500003402907
+    "amount": 4923.500003402907,
+    "resolution": {
+      "outcome": "Michigan Wolverines",
+      "checked_at": "2026-04-05T06:58:25.440734+00:00",
+      "insider_win": null,
+      "model_correct": null
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -34640,7 +34658,13 @@
     },
     "market": "Spread: Michigan Wolverines (-1.5)",
     "market_slug": "cbb-arz-mich-2026-04-04",
-    "amount": 17370.107999999997
+    "amount": 17370.107999999997,
+    "resolution": {
+      "outcome": "Michigan Wolverines",
+      "checked_at": "2026-04-05T06:58:25.440766+00:00",
+      "insider_win": null,
+      "model_correct": null
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -34772,7 +34796,13 @@
     },
     "market": "St. Louis Cardinals vs. Detroit Tigers: O/U 7.5",
     "market_slug": "mlb-stl-det-2026-04-04",
-    "amount": 3744.3460496
+    "amount": 3744.3460496,
+    "resolution": {
+      "outcome": "Detroit Tigers",
+      "checked_at": "2026-04-05T06:58:27.296214+00:00",
+      "insider_win": null,
+      "model_correct": null
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -34816,7 +34846,13 @@
     },
     "market": "US Men's Clay Court Championships: Tommy Paul vs Frances Tiafoe",
     "market_slug": "atp-paul-tiafoe-2026-04-04",
-    "amount": 3530.2815
+    "amount": 3530.2815,
+    "resolution": {
+      "outcome": "Tommy Paul",
+      "checked_at": "2026-04-05T06:58:27.957943+00:00",
+      "insider_win": null,
+      "model_correct": null
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -34948,7 +34984,13 @@
     },
     "market": "Pistons vs. 76ers",
     "market_slug": "nba-det-phi-2026-04-04",
-    "amount": 2519.1372000000006
+    "amount": 2519.1372000000006,
+    "resolution": {
+      "outcome": "Pistons",
+      "checked_at": "2026-04-05T06:58:29.788287+00:00",
+      "insider_win": null,
+      "model_correct": null
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -34992,7 +35034,8 @@
     },
     "market": "Chicago Cubs vs. Cleveland Guardians",
     "market_slug": "mlb-chc-cle-2026-04-04",
-    "amount": 9875.946410400491
+    "amount": 9875.946410400491,
+    "resolution_last_check": "2026-04-05T06:58:30.432040+00:00"
   },
   {
     "market": "UFC Fight Night: Melissa Gatto vs. Dione Barbosa (Women's Flyweight, Prelims)",
@@ -35143,7 +35186,13 @@
     },
     "market": "LoL: Cloud9 vs LYON (BO3) - LCS Group Stage",
     "market_slug": "lol-c9-ly-2026-04-04",
-    "amount": 5238.538200000001
+    "amount": 5238.538200000001,
+    "resolution": {
+      "outcome": "Cloud9",
+      "checked_at": "2026-04-05T06:58:32.313064+00:00",
+      "insider_win": null,
+      "model_correct": null
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -35187,7 +35236,13 @@
     },
     "market": "LoL: Cloud9 vs LYON (BO3) - LCS Group Stage",
     "market_slug": "lol-c9-ly-2026-04-04",
-    "amount": 9647.3703
+    "amount": 9647.3703,
+    "resolution": {
+      "outcome": "Cloud9",
+      "checked_at": "2026-04-05T06:58:32.313093+00:00",
+      "insider_win": null,
+      "model_correct": null
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -35382,6 +35437,7 @@
     },
     "market": "Lakers vs. Mavericks",
     "market_slug": "nba-lal-dal-2026-04-05",
-    "amount": 9865.000002
+    "amount": 9865.000002,
+    "resolution_last_check": "2026-04-05T06:58:34.154781+00:00"
   }
 ]
