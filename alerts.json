@@ -1,35 +1,5 @@
 [
   {
-    "market": "Will Josh Shapiro win the 2028 US Presidential Election?",
-    "market_slug": "will-josh-shapiro-win-the-2028-us-presidential-election",
-    "wallet": "0x2fe67436d7ce99aa55ab0754730277935e627266",
-    "analysis": {
-      "score": 85,
-      "flags": [
-        "New wallet (0d old)",
-        "Extreme confidence (96.1% odds)",
-        "Large bet ($1,025)"
-      ],
-      "amount": 1025.387,
-      "odds": 0.961,
-      "wallet_age_days": 0,
-      "total_activities": 37
-    },
-    "timestamp": "2026-01-30T17:41:50.190207",
-    "trade_hash": "0xc8cccd9caed6d08ede1e8d16cbd6c50c14b2caa3bf2a368603af23372b243bb3",
-    "trade_timestamp": 1769794656,
-    "latency": null,
-    "wallet_stats": null,
-    "trade_data": {
-      "outcome": "No",
-      "side": "BUY",
-      "price": 0.961,
-      "size": 1067.0,
-      "amount": 1025.387
-    },
-    "resolution_last_check": "2026-03-29T06:54:45.131626+00:00"
-  },
-  {
     "market": "Will Norway win the 2026 FIFA World Cup?",
     "market_slug": "will-norway-win-the-2026-fifa-world-cup-893",
     "wallet": "0x5ca765d557347feb48f527950b72025f67f33953",
@@ -35292,5 +35262,112 @@
     "market": "US forces enter Iran by April 30?",
     "market_slug": "us-forces-enter-iran-by",
     "amount": 1820.0
+  },
+  {
+    "market": "Arizona Wildcats vs. Michigan Wolverines",
+    "market_slug": "cbb-arz-mich-2026",
+    "event_slug": "cbb-arz-mich-2026",
+    "wallet": "0x974bf0b99dacfda7d96a264befb9d97775b9cdd5",
+    "analysis": {
+      "score": 70,
+      "flags": [
+        "New wallet (0d old)",
+        "Large bet ($1,036)",
+        "Low activity (1 txns)"
+      ],
+      "amount": 1035.9249258679522,
+      "odds": 0.7421750296911245,
+      "raw_price": 0.7421750296911245,
+      "outcome": "Michigan Wolverines",
+      "potential_pnl": 359.87105813204766,
+      "pnl_multiplier": 0.3473910600524732,
+      "wallet_age_days": 0,
+      "total_activities": 1
+    },
+    "timestamp": "2026-04-05T01:46:25.231595",
+    "trade_hash": "0xb2b74d394212477f620852f32ba477fb3f5fbf4a6c56d74d198ac9f1364b7454",
+    "trade_timestamp": 1775353461,
+    "latency": null,
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "Michigan Wolverines",
+      "outcomeIndex": 1,
+      "normalized_position": "NO",
+      "side": "BUY",
+      "price": 0.7421750296911245,
+      "effective_price": 0.7421750296911245,
+      "size": 1395.7959839999999,
+      "amount": 1035.9249258679522,
+      "potential_pnl": 359.87105813204766,
+      "pnl_multiplier": 0.3473910600524732,
+      "is_no": false,
+      "slug": "cbb-arz-mich-2026",
+      "eventSlug": "cbb-arz-mich-2026-04-04"
+    },
+    "irrationality": {
+      "irrationality_score": 35,
+      "flags": [
+        "Large mispricing edge (+45.4%)"
+      ],
+      "category": "sports",
+      "category_info": {
+        "strength": "medium",
+        "typical_overpricing": 0.03,
+        "min_edge": 0.05
+      },
+      "is_irrational": true
+    },
+    "mispricing": {
+      "rational_estimate": 0.2884350059382249,
+      "market_price": 0.7421750296911245,
+      "edge": 0.45374002375289957,
+      "edge_percent": 45.374002375289955,
+      "min_edge_required": 0.05,
+      "is_mispriced": true,
+      "edge_quality": "STRONG",
+      "base_rate_class": "common",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "common",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "Arizona Wildcats perform exceptionally well in upcoming games",
+          "Michigan Wolverines underperform relative to expectations",
+          "Injuries or other significant disruptions affect key players"
+        ],
+        "weakest_link": "Michigan Wolverines underperform relative to expectations"
+      },
+      "category": "sports",
+      "narrative_drivers": [
+        "Recent performance trends of both teams",
+        "Fan sentiment and betting patterns"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "ALPHA",
+      "signal_emoji": "\ud83d\udd25",
+      "signal_strength": 105,
+      "interpretation": "Smart money (NO) confirms YES is overpriced",
+      "action_suggestion": "High conviction: insider + statistics aligned",
+      "insider_score": 70,
+      "insider_position": "NO",
+      "irrationality_score": 35,
+      "is_irrational": true,
+      "is_mispriced": true,
+      "edge": 0.45374002375289957,
+      "edge_percent": 45.374002375289955
+    },
+    "financial_analyst": {
+      "signal_quality": 81.0,
+      "stance": "HIGH_CONVICTION",
+      "edge_percent": 45.37,
+      "signal_strength": 105.0,
+      "insider_score": 70.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    }
   }
 ]
