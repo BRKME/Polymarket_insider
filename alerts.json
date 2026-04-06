@@ -1,40 +1,5 @@
 [
   {
-    "market": "LoL: Hanwha Life Esports vs Gen.G - Game 1 Winner",
-    "market_slug": "lol-hle1-gen-2026-02-01-game1",
-    "wallet": "0x9d2df67ebf4f8cd281b38f80203792bcea4b341b",
-    "analysis": {
-      "score": 85,
-      "flags": [
-        "New wallet (0d old)",
-        "Extreme confidence (97.3% odds)",
-        "Large bet ($2,236)"
-      ],
-      "amount": 2236.069969,
-      "odds": 0.9734914381690871,
-      "wallet_age_days": 0,
-      "total_activities": 29
-    },
-    "timestamp": "2026-02-01T08:38:27.774024",
-    "trade_hash": "0xd741b5351283b4f908c005047747717e81883f7991965ed2e0c8d90319655c47",
-    "trade_timestamp": 1769934878,
-    "latency": null,
-    "wallet_stats": null,
-    "trade_data": {
-      "outcome": "Gen.G",
-      "side": "BUY",
-      "price": 0.9734914381690871,
-      "size": 2296.95905,
-      "amount": 2236.069969
-    },
-    "resolution": {
-      "outcome": "Gen.G",
-      "checked_at": "2026-03-29T06:54:48.818061+00:00",
-      "insider_win": true,
-      "model_correct": null
-    }
-  },
-  {
     "market": "US strikes Iran by February 6, 2026?",
     "market_slug": "us-strikes-iran-by-february-6-2026-242-933-289-312-673-611",
     "wallet": "0x01d17b8f5b8559b7577e3cd6b059c72b4e7d12a4",
@@ -35566,5 +35531,50 @@
       "insider_score": 85.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
     }
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xc11fdb084972004ea36254d9fc5ddb07d7d5a8979809b2248b3e6528c0e25f7a",
+    "wallet": "0x78b9ac44a6d7d7a076c14e0ad518b301b63c6b76",
+    "trader": {
+      "rank": 4,
+      "address": "0x78b9ac44a6d7d7a076c14e0ad518b301b63c6b76",
+      "username": "Len9311238",
+      "profit": 8709972.988069998,
+      "volume": 16402744.764627,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xbc43a2f0deb85ba4ad316300762972089c911540",
+      "side": "BUY",
+      "asset": "85191934649046129480174964255278880752271767733539167443243111973456166096127",
+      "conditionId": "0x773abaa5fe55e5cde51a261f444b7921652a4e059ead6b3be9fe56499c2d4609",
+      "size": 40000,
+      "price": 0.17,
+      "timestamp": 1775459529,
+      "title": "US x Iran ceasefire by April 15?",
+      "slug": "us-x-iran-ceasefire-by-april-15-182-528-637",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/us-x-iran-ceasefire-by-Cgmx3GCuOwjs.jpg",
+      "eventSlug": "us-x-iran-ceasefire-by",
+      "outcome": "Yes",
+      "outcomeIndex": 0,
+      "name": "westminster",
+      "pseudonym": "Unknown-Last",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xc11fdb084972004ea36254d9fc5ddb07d7d5a8979809b2248b3e6528c0e25f7a",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "US x Iran ceasefire by April 15?",
+    "market_slug": "us-x-iran-ceasefire-by",
+    "amount": 6800.000000000001,
+    "ai_context": "OVERPRICED. Diplomatic tensions remain high, military postures are aggressive, and historical precedents suggest limited likelihood of a ceasefire."
   }
 ]
