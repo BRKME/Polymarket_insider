@@ -1,72 +1,5 @@
 [
   {
-    "market": "Will Bitcoin reach $105,000 in February?",
-    "market_slug": "will-bitcoin-reach-105k-in-february-2026",
-    "wallet": "0x1461cc6e1a05e20710c416307db62c28f1d122d8",
-    "analysis": {
-      "score": 85,
-      "flags": [
-        "New wallet (0d old)",
-        "Extreme confidence (97.5% odds)",
-        "Large bet ($2,411)"
-      ],
-      "amount": 2410.719998,
-      "odds": 0.9749999997168896,
-      "wallet_age_days": 0,
-      "total_activities": 100
-    },
-    "timestamp": "2026-02-01T17:23:06.505768",
-    "trade_hash": "0x1c1dbc6723293deab3f8069be8a3d5be467be1d2d39e99dda995d52c729f6c0b",
-    "trade_timestamp": 1769966490,
-    "latency": null,
-    "wallet_stats": null,
-    "trade_data": {
-      "outcome": "No",
-      "side": "BUY",
-      "price": 0.9749999997168896,
-      "size": 2472.533332,
-      "amount": 2410.719998
-    },
-    "resolution_last_check": "2026-03-29T06:54:51.344125+00:00"
-  },
-  {
-    "market": "US strikes Iran by February 5, 2026?",
-    "market_slug": "us-strikes-iran-by-february-5-2026",
-    "wallet": "0xd7ee835cecd49a3f4c0f0c2b2e2382092ecb0e97",
-    "analysis": {
-      "score": 85,
-      "flags": [
-        "Extreme confidence (95.0% odds)",
-        "Large bet ($2,651)",
-        "Pre-event latency: 4621m"
-      ],
-      "amount": 2651.49749,
-      "odds": 0.9501395701344495,
-      "wallet_age_days": 84,
-      "total_activities": 100
-    },
-    "timestamp": "2026-02-01T19:01:32.661189",
-    "trade_hash": "0xa3b2c1c1c2055048d9d4ca78a2910dfcc007c6baa7a582a1e7d43072c4fe9a54",
-    "trade_timestamp": 1769972344,
-    "latency": {
-      "latency_seconds": 277256.0,
-      "latency_minutes": 4620.933333333333,
-      "is_pre_event": true,
-      "severity": "CRITICAL",
-      "trade_time": "2026-02-01T18:59:04+00:00",
-      "event_time": "2026-02-05T00:00:00+00:00"
-    },
-    "wallet_stats": null,
-    "trade_data": {
-      "outcome": "No",
-      "side": "SELL",
-      "price": 0.9501395701344495,
-      "size": 2790.64,
-      "amount": 2651.49749
-    },
-    "resolution_last_check": "2026-03-29T06:54:51.986872+00:00"
-  },
-  {
     "market": "US strikes Iran by February 3, 2026?",
     "market_slug": "us-strikes-iran-by-february-3-2026",
     "wallet": "0x9e25f9cd6d4fd6996135e68ff55acb28bca657c7",
@@ -35608,5 +35541,95 @@
     "market_slug": "trump-announces-end-of-military-operations-against-iran-by",
     "amount": 1535.1297000000002,
     "ai_context": "OVERPRICED. Diplomatic tensions remain high, and historical precedent suggests continued military engagement rather than a swift withdrawal by April."
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x0ee8759c359f2d548d0e03914715b5f3d20dff1478ee5889829f1bc484d0fec5",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.51568201,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x1118257121e67ba3f0c9bff271f3ca29c2c2d320",
+      "side": "BUY",
+      "asset": "61963573353880265694358880181512412652951688509792017552668784297365342759317",
+      "conditionId": "0xfcde02af15efe40e336d67f0ef9aa49e9d40c37b92961fb890afc4afdbfe54d6",
+      "size": 18261.42857,
+      "price": 0.7,
+      "timestamp": 1775508447,
+      "title": "Will TISZA \u2013 Respect and Freedom Party (TISZA) win the most seats in the next Hungarian parliamentary election?",
+      "slug": "will-tisza-respect-and-freedom-party-tisza-win-the-most-seats-in-the-next-hungarian-parliamentary-election",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-tisza-respect-and-freedom-party-tisza-win-the-most-seats-in-the-next-hungarian-parliamentary-election-UMinl25aFF0J.png",
+      "eventSlug": "hungary-parliamentary-election-winner",
+      "outcome": "Yes",
+      "outcomeIndex": 0,
+      "name": "PetrLudwig",
+      "pseudonym": "Loud-Trapezoid",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x0ee8759c359f2d548d0e03914715b5f3d20dff1478ee5889829f1bc484d0fec5",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Will TISZA \u2013 Respect and Freedom Party (TISZA) win the most seats in the next Hungarian parliamentary election?",
+    "market_slug": "hungary-parliamentary-election-winner",
+    "amount": 12782.999999,
+    "ai_context": "OVERPRICED. Incumbent advantage and historical trends suggest TISZA may struggle against established parties in the upcoming election."
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x74c8141f7d543c01885471a934df35359d07f2b047a07948d3c2b7178180e98b",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.51568201,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xd48a81db62f742c4e42d86dfc23a7ee345366e90",
+      "side": "BUY",
+      "asset": "65085765758547938248635273968174674431959683798348472600204186101042030389703",
+      "conditionId": "0xb0895d2eb96b48b5e9a62a7e02aacb534c4c63fe153712ac93d4bd9c77c2b2e3",
+      "size": 4019.183682,
+      "price": 0.4899999998824,
+      "timestamp": 1775508447,
+      "title": "Connecticut Huskies vs. Michigan Wolverines: O/U 145.5",
+      "slug": "cbb-uconn-mich-2026-04-06-total-145pt5",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
+      "eventSlug": "cbb-uconn-mich-2026-04-06",
+      "outcome": "Under",
+      "outcomeIndex": 1,
+      "name": "NiFengFanPan",
+      "pseudonym": "Orderly-Venture",
+      "bio": "Wen Zhong Qiu Sheng",
+      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-3358711-e85e8a4d-0015-4638-8326-28b28b4859ed.webp",
+      "profileImageOptimized": "",
+      "transactionHash": "0x74c8141f7d543c01885471a934df35359d07f2b047a07948d3c2b7178180e98b",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Connecticut Huskies vs. Michigan Wolverines: O/U 145.5",
+    "market_slug": "cbb-uconn-mich-2026-04-06",
+    "amount": 1969.400003707344,
+    "ai_context": "FAIR. Both teams have strong defenses and historically low-scoring matchups, justifying a competitive under percentage."
   }
 ]
