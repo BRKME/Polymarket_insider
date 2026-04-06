@@ -1,42 +1,5 @@
 [
   {
-    "market": "US strikes Iran by February 3, 2026?",
-    "market_slug": "us-strikes-iran-by-february-3-2026",
-    "wallet": "0xf0411ab604bce8a4efe71b77c2e0aa454bdedde5",
-    "analysis": {
-      "score": 85,
-      "flags": [
-        "Extreme confidence (96.4% odds)",
-        "Large bet ($11,299)",
-        "Pre-event latency: 2165m"
-      ],
-      "amount": 11298.88999,
-      "odds": 0.9637864244173884,
-      "wallet_age_days": 40,
-      "total_activities": 13
-    },
-    "timestamp": "2026-02-01T11:59:26.862529",
-    "trade_hash": "0x3999d3b4995648648d0aaeeb09ca32efd5d1e56f9fdaec22c46a93ed69da944c",
-    "trade_timestamp": 1769946924,
-    "latency": {
-      "latency_seconds": 129876.0,
-      "latency_minutes": 2164.6,
-      "is_pre_event": true,
-      "severity": "CRITICAL",
-      "trade_time": "2026-02-01T11:55:24+00:00",
-      "event_time": "2026-02-03T00:00:00+00:00"
-    },
-    "wallet_stats": null,
-    "trade_data": {
-      "outcome": "No",
-      "side": "BUY",
-      "price": 0.9637864244173884,
-      "size": 11723.437583,
-      "amount": 11298.88999
-    },
-    "resolution_last_check": "2026-03-29T06:54:50.059809+00:00"
-  },
-  {
     "market": "Will the price of Solana be above $80 on February 3?",
     "market_slug": "solana-above-80-on-february-3",
     "wallet": "0x35385f3ef6c95f83fc18aae11462d3726950eac8",
@@ -35593,5 +35556,50 @@
     "market_slug": "sea-nap-mil-2026-04-06-more-markets",
     "amount": 5315.479351,
     "ai_context": "OVERPRICED. Both teams have strong defenses and typically low-scoring matchups, making 91% for Under too optimistic."
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x10d58b35bf9cc9d95aa91455de7d390e541c8991f9748125731b2340a0f90217",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.51568201,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xa8fac068d32639c40188563c83c206b320e57dda",
+      "side": "BUY",
+      "asset": "104875416173670121020949799580698937213218916543870860778075607852731218974220",
+      "conditionId": "0xdb63bb7d41cb852a80a573b398b91627e884827755e73e3ed8eee2f70076fa93",
+      "size": 4467.26,
+      "price": 0.6490150562089514,
+      "timestamp": 1775504245,
+      "title": "Will MrBeast's next video get between 58 and 60 million views on day 3?",
+      "slug": "will-mrbeasts-next-video-get-between-58-and-60-million-views-on-day-3",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/of-views-of-next-mrbeast-video-on-day-1--HcOnJGLLP3O.jpg",
+      "eventSlug": "of-views-of-mrbeast-video-day-3-176",
+      "outcome": "Yes",
+      "outcomeIndex": 0,
+      "name": "0xA8fAC068d32639c40188563C83c206b320E57Dda-1773425391498",
+      "pseudonym": "Tough-Filing",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x10d58b35bf9cc9d95aa91455de7d390e541c8991f9748125731b2340a0f90217",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Will MrBeast's next video get between 58 and 60 million views on day 3?",
+    "market_slug": "of-views-of-mrbeast-video-day-3-176",
+    "amount": 2899.3190000000004,
+    "ai_context": "OVERPRICED. MrBeast's videos typically exceed 60 million views; a 65% chance for this range seems too conservative."
   }
 ]
