@@ -34933,7 +34933,13 @@
     "market": "Chicago Cubs vs. Cleveland Guardians",
     "market_slug": "mlb-chc-cle-2026-04-04",
     "amount": 9875.946410400491,
-    "resolution_last_check": "2026-04-05T06:58:30.432040+00:00"
+    "resolution_last_check": "2026-04-05T06:58:30.432040+00:00",
+    "resolution": {
+      "outcome": "Cleveland Guardians",
+      "checked_at": "2026-04-06T07:21:15.042280+00:00",
+      "insider_win": null,
+      "model_correct": null
+    }
   },
   {
     "market": "UFC Fight Night: Melissa Gatto vs. Dione Barbosa (Women's Flyweight, Prelims)",
@@ -35336,7 +35342,13 @@
     "market": "Lakers vs. Mavericks",
     "market_slug": "nba-lal-dal-2026-04-05",
     "amount": 9865.000002,
-    "resolution_last_check": "2026-04-05T06:58:34.154781+00:00"
+    "resolution_last_check": "2026-04-05T06:58:34.154781+00:00",
+    "resolution": {
+      "outcome": "Mavericks",
+      "checked_at": "2026-04-06T07:21:18.747298+00:00",
+      "insider_win": null,
+      "model_correct": null
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -35381,7 +35393,13 @@
     "market": "Hurricanes vs. Senators",
     "market_slug": "nhl-car-ott-2026-04-05",
     "amount": 29508.996000000003,
-    "ai_context": "The Hurricanes are the favorite, as they are generally considered a contender in a strong conference compared to the rebuilding Senators."
+    "ai_context": "The Hurricanes are the favorite, as they are generally considered a contender in a strong conference compared to the rebuilding Senators.",
+    "resolution": {
+      "outcome": "Senators",
+      "checked_at": "2026-04-06T07:21:19.524069+00:00",
+      "insider_win": null,
+      "model_correct": null
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -35426,7 +35444,13 @@
     "market": "Raptors vs. Celtics",
     "market_slug": "nba-tor-bos-2026-04-05",
     "amount": 1666.6483116910765,
-    "ai_context": "The Raptors are underdogs against the Celtics, who are typically stronger contenders in the Eastern Conference with a more established roster."
+    "ai_context": "The Raptors are underdogs against the Celtics, who are typically stronger contenders in the Eastern Conference with a more established roster.",
+    "resolution": {
+      "outcome": "Celtics",
+      "checked_at": "2026-04-06T07:21:20.305254+00:00",
+      "insider_win": null,
+      "model_correct": null
+    }
   },
   {
     "market": "US x Iran ceasefire by April 7?",
