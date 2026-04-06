@@ -1,78 +1,5 @@
 [
   {
-    "market": "US strikes Iran by February 6, 2026?",
-    "market_slug": "us-strikes-iran-by-february-6-2026-242-933-289-312-673-611",
-    "wallet": "0x01d17b8f5b8559b7577e3cd6b059c72b4e7d12a4",
-    "analysis": {
-      "score": 85,
-      "flags": [
-        "Against trend (6.5% odds)",
-        "Large bet ($1,148)",
-        "Pre-event latency: 6663m"
-      ],
-      "amount": 1147.5068999999999,
-      "odds": 0.06537286521136244,
-      "wallet_age_days": 55,
-      "total_activities": 52
-    },
-    "timestamp": "2026-02-01T09:02:14.845867",
-    "trade_hash": "0x29b40ee33e3cc0837569f9c63fe808e60cf971f9d36e6937022d4ae54131c386",
-    "trade_timestamp": 1769936230,
-    "latency": {
-      "latency_seconds": 399770.0,
-      "latency_minutes": 6662.833333333333,
-      "is_pre_event": true,
-      "severity": "CRITICAL",
-      "trade_time": "2026-02-01T08:57:10+00:00",
-      "event_time": "2026-02-06T00:00:00+00:00"
-    },
-    "wallet_stats": null,
-    "trade_data": {
-      "outcome": "Yes",
-      "side": "SELL",
-      "price": 0.06537286521136244,
-      "size": 17553.26,
-      "amount": 1147.5068999999999
-    }
-  },
-  {
-    "market": "US strikes Iran by February 3, 2026?",
-    "market_slug": "us-strikes-iran-by-february-3-2026",
-    "wallet": "0xfcf2378f20cf408d077c21e731272f21cccea469",
-    "analysis": {
-      "score": 85,
-      "flags": [
-        "Extreme confidence (96.4% odds)",
-        "Large bet ($1,476)",
-        "Pre-event latency: 2196m"
-      ],
-      "amount": 1475.9999739999998,
-      "odds": 0.9639999999869376,
-      "wallet_age_days": 247,
-      "total_activities": 100
-    },
-    "timestamp": "2026-02-01T11:26:59.419260",
-    "trade_hash": "0x29a3f1901780b230c008f3939f4a20aaa7752e5568d82fbf8f312091815ef77c",
-    "trade_timestamp": 1769945062,
-    "latency": {
-      "latency_seconds": 131738.0,
-      "latency_minutes": 2195.633333333333,
-      "is_pre_event": true,
-      "severity": "CRITICAL",
-      "trade_time": "2026-02-01T11:24:22+00:00",
-      "event_time": "2026-02-03T00:00:00+00:00"
-    },
-    "wallet_stats": null,
-    "trade_data": {
-      "outcome": "No",
-      "side": "BUY",
-      "price": 0.9639999999869376,
-      "size": 1531.120305,
-      "amount": 1475.9999739999998
-    },
-    "resolution_last_check": "2026-03-29T06:54:50.059798+00:00"
-  },
-  {
     "market": "US strikes Iran by February 3, 2026?",
     "market_slug": "us-strikes-iran-by-february-3-2026",
     "wallet": "0xf0411ab604bce8a4efe71b77c2e0aa454bdedde5",
@@ -35576,5 +35503,95 @@
     "market_slug": "us-x-iran-ceasefire-by",
     "amount": 6800.000000000001,
     "ai_context": "OVERPRICED. Diplomatic tensions remain high, military postures are aggressive, and historical precedents suggest limited likelihood of a ceasefire."
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xf556edcd6e960bc50247ac16f6a2ceaf52718d905efe1345ae650ecad8518be1",
+    "wallet": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+    "trader": {
+      "rank": 11,
+      "address": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+      "username": "swisstony",
+      "profit": 5663357.447615905,
+      "volume": 629109759.0498661,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xf4eeb42438ad0f2b37ea783c8cb73399fc8047c8",
+      "side": "BUY",
+      "asset": "5766995226990748778175826823884479633903980496522692024968908181805143771682",
+      "conditionId": "0x7bd2a83625f1c63d72f62cdc259492ee9093eff73d97b48255b9a11c8f5a460f",
+      "size": 7637.014,
+      "price": 0.4,
+      "timestamp": 1775500945,
+      "title": "Will SSC Napoli win on 2026-04-06?",
+      "slug": "sea-nap-mil-2026-04-06-nap",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Serie-A-Logo.png",
+      "eventSlug": "sea-nap-mil-2026-04-06",
+      "outcome": "Yes",
+      "outcomeIndex": 0,
+      "name": "letsgetit1100",
+      "pseudonym": "Harsh-Marshland",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xf556edcd6e960bc50247ac16f6a2ceaf52718d905efe1345ae650ecad8518be1",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Will SSC Napoli win on 2026-04-06?",
+    "market_slug": "sea-nap-mil-2026-04-06",
+    "amount": 3054.8056,
+    "ai_context": "UNDERPRICED. Napoli's historical performance and squad strength suggest a higher likelihood of winning than 40%."
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xfac8ae82fa65fd79235457fec7630c6ff3ac2b0d9b516fbefdaf940ce374d6e4",
+    "wallet": "0x16f91db2592924cfed6e03b7e5cb5bb1e32299e3",
+    "trader": {
+      "rank": 19,
+      "address": "0x16f91db2592924cfed6e03b7e5cb5bb1e32299e3",
+      "username": "Jenzigo",
+      "profit": 4049827.0941029997,
+      "volume": 9457725.03433801,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+      "side": "BUY",
+      "asset": "5528695519637465448985827727623623910936051246942194906572450403924959976003",
+      "conditionId": "0xb3e74ab796b88be00dc43dadd1548e42cee46e2f7ce3ee36f17f2413d52234cc",
+      "size": 5841.1861,
+      "price": 0.91,
+      "timestamp": 1775501243,
+      "title": "SSC Napoli vs. AC Milan: O/U 4.5",
+      "slug": "sea-nap-mil-2026-04-06-total-4pt5",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Serie-A-Logo.png",
+      "eventSlug": "sea-nap-mil-2026-04-06-more-markets",
+      "outcome": "Under",
+      "outcomeIndex": 1,
+      "name": "swisstony",
+      "pseudonym": "Frail-Possible",
+      "bio": "loincloth chic",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xfac8ae82fa65fd79235457fec7630c6ff3ac2b0d9b516fbefdaf940ce374d6e4",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "SSC Napoli vs. AC Milan: O/U 4.5",
+    "market_slug": "sea-nap-mil-2026-04-06-more-markets",
+    "amount": 5315.479351,
+    "ai_context": "OVERPRICED. Both teams have strong defenses and typically low-scoring matchups, making 91% for Under too optimistic."
   }
 ]
