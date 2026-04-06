@@ -1,43 +1,5 @@
 [
   {
-    "market": "Will the price of Solana be above $80 on February 3?",
-    "market_slug": "solana-above-80-on-february-3",
-    "wallet": "0x35385f3ef6c95f83fc18aae11462d3726950eac8",
-    "analysis": {
-      "score": 125,
-      "flags": [
-        "New wallet (0d old)",
-        "Extreme confidence (98.0% odds)",
-        "Large bet ($1,460)",
-        "Pre-event latency: 1864m"
-      ],
-      "amount": 1460.199995,
-      "odds": 0.9796661540337512,
-      "wallet_age_days": 0,
-      "total_activities": 100
-    },
-    "timestamp": "2026-02-01T16:59:17.732769",
-    "trade_hash": "0x28f058efc06529ab54855f0592a2180fc31c235d03b68d00fbf0f291cdb88a4f",
-    "trade_timestamp": 1769964990,
-    "latency": {
-      "latency_seconds": 111810.0,
-      "latency_minutes": 1863.5,
-      "is_pre_event": true,
-      "severity": "CRITICAL",
-      "trade_time": "2026-02-01T16:56:30+00:00",
-      "event_time": "2026-02-03T00:00:00+00:00"
-    },
-    "wallet_stats": null,
-    "trade_data": {
-      "outcome": "Yes",
-      "side": "BUY",
-      "price": 0.9796661540337512,
-      "size": 1490.50775,
-      "amount": 1460.199995
-    },
-    "resolution_last_check": "2026-03-29T06:54:50.700911+00:00"
-  },
-  {
     "market": "Will Bitcoin reach $105,000 in February?",
     "market_slug": "will-bitcoin-reach-105k-in-february-2026",
     "wallet": "0x1461cc6e1a05e20710c416307db62c28f1d122d8",
@@ -35601,5 +35563,50 @@
     "market_slug": "of-views-of-mrbeast-video-day-3-176",
     "amount": 2899.3190000000004,
     "ai_context": "OVERPRICED. MrBeast's videos typically exceed 60 million views; a 65% chance for this range seems too conservative."
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x8c8651f6a98480e28b62ff732e5932ec40641cfa6deb555ddf57024156cfee3c",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.51568201,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x14cf467786bb4cf1178437df8b6639a1bce3c320",
+      "side": "SELL",
+      "asset": "50143980393435996217714022897965886420387298227054033598176282877756178368402",
+      "conditionId": "0x68beecc857017df8663fa36c0c86310dec7305aa88fe830c94651391314afc1c",
+      "size": 11808.69,
+      "price": 0.13,
+      "timestamp": 1775506047,
+      "title": "Trump announces end of military operations against Iran by April 15th?",
+      "slug": "trump-announces-end-of-military-operations-against-iran-by-april-15th-962-364-677",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/trump-announces-end-of-military-operations-against-iran-before-july-KQddUiSdAUpe.jpg",
+      "eventSlug": "trump-announces-end-of-military-operations-against-iran-by",
+      "outcome": "Yes",
+      "outcomeIndex": 0,
+      "name": "UASUAVeee",
+      "pseudonym": "Leafy-Morbidity",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x8c8651f6a98480e28b62ff732e5932ec40641cfa6deb555ddf57024156cfee3c",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Trump announces end of military operations against Iran by April 15th?",
+    "market_slug": "trump-announces-end-of-military-operations-against-iran-by",
+    "amount": 1535.1297000000002,
+    "ai_context": "OVERPRICED. Diplomatic tensions remain high, and historical precedent suggests continued military engagement rather than a swift withdrawal by April."
   }
 ]
