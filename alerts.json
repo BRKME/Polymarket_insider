@@ -2,43 +2,6 @@
   {
     "market": "US strikes Iran by February 3, 2026?",
     "market_slug": "us-strikes-iran-by-february-3-2026",
-    "wallet": "0x9e25f9cd6d4fd6996135e68ff55acb28bca657c7",
-    "analysis": {
-      "score": 85,
-      "flags": [
-        "Extreme confidence (97.5% odds)",
-        "Large bet ($1,140)",
-        "Pre-event latency: 1605m"
-      ],
-      "amount": 1139.699964,
-      "odds": 0.975,
-      "wallet_age_days": 12,
-      "total_activities": 22
-    },
-    "timestamp": "2026-02-01T21:17:34.979921",
-    "trade_hash": "0x6c08687fe0406b785ac6654e228bfa03fc44095f46772049db2bfa14fc17301e",
-    "trade_timestamp": 1769980516,
-    "latency": {
-      "latency_seconds": 96284.0,
-      "latency_minutes": 1604.7333333333333,
-      "is_pre_event": true,
-      "severity": "CRITICAL",
-      "trade_time": "2026-02-01T21:15:16+00:00",
-      "event_time": "2026-02-03T00:00:00+00:00"
-    },
-    "wallet_stats": null,
-    "trade_data": {
-      "outcome": "No",
-      "side": "BUY",
-      "price": 0.975,
-      "size": 1168.92304,
-      "amount": 1139.699964
-    },
-    "resolution_last_check": "2026-03-29T06:54:51.986889+00:00"
-  },
-  {
-    "market": "US strikes Iran by February 3, 2026?",
-    "market_slug": "us-strikes-iran-by-february-3-2026",
     "wallet": "0xd48a81db62f742c4e42d86dfc23a7ee345366e90",
     "analysis": {
       "score": 85,
@@ -35631,5 +35594,112 @@
     "market_slug": "cbb-uconn-mich-2026-04-06",
     "amount": 1969.400003707344,
     "ai_context": "FAIR. Both teams have strong defenses and historically low-scoring matchups, justifying a competitive under percentage."
+  },
+  {
+    "market": "Trail Blazers vs. Nuggets",
+    "market_slug": "nba-por-den-2026",
+    "event_slug": "nba-por-den-2026",
+    "wallet": "0xd540ca33c85bfe36b64bfd2febd19d8530380e7d",
+    "analysis": {
+      "score": 70,
+      "flags": [
+        "New wallet (1d old)",
+        "Large bet ($1,213)",
+        "Low activity (3 txns)"
+      ],
+      "amount": 1213.15301760156,
+      "odds": 0.7399999998789554,
+      "raw_price": 0.7399999998789554,
+      "outcome": "Nuggets",
+      "potential_pnl": 426.24295239844014,
+      "pnl_multiplier": 0.3513513515723971,
+      "wallet_age_days": 1,
+      "total_activities": 3
+    },
+    "timestamp": "2026-04-06T21:24:28.705764",
+    "trade_hash": "0x4f1e07c44ed5b529375dde4b275a86640ad1be90a97d01c116f7cf6a85023704",
+    "trade_timestamp": 1775510423,
+    "latency": null,
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "Nuggets",
+      "outcomeIndex": 1,
+      "normalized_position": "NO",
+      "side": "BUY",
+      "price": 0.7399999998789554,
+      "effective_price": 0.7399999998789554,
+      "size": 1639.39597,
+      "amount": 1213.15301760156,
+      "potential_pnl": 426.24295239844014,
+      "pnl_multiplier": 0.3513513515723971,
+      "is_no": false,
+      "slug": "nba-por-den-2026",
+      "eventSlug": "nba-por-den-2026-04-06"
+    },
+    "irrationality": {
+      "irrationality_score": 35,
+      "flags": [
+        "Large mispricing edge (+45.2%)"
+      ],
+      "category": "sports",
+      "category_info": {
+        "strength": "medium",
+        "typical_overpricing": 0.03,
+        "min_edge": 0.05
+      },
+      "is_irrational": true
+    },
+    "mispricing": {
+      "rational_estimate": 0.28799999997579107,
+      "market_price": 0.7399999998789554,
+      "edge": 0.4519999999031643,
+      "edge_percent": 45.19999999031643,
+      "min_edge_required": 0.05,
+      "is_mispriced": true,
+      "edge_quality": "STRONG",
+      "base_rate_class": "common",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "common",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "Trail Blazers must maintain a strong home-court advantage",
+          "Nuggets need to face significant injury issues",
+          "Matchup history favors the Trail Blazers"
+        ],
+        "weakest_link": "Nuggets need to face significant injury issues"
+      },
+      "category": "sports",
+      "narrative_drivers": [
+        "recent performance trends of both teams",
+        "fan sentiment and support for the Trail Blazers"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "ALPHA",
+      "signal_emoji": "\ud83d\udd25",
+      "signal_strength": 105,
+      "interpretation": "Smart money (NO) confirms YES is overpriced",
+      "action_suggestion": "High conviction: insider + statistics aligned",
+      "insider_score": 70,
+      "insider_position": "NO",
+      "irrationality_score": 35,
+      "is_irrational": true,
+      "is_mispriced": true,
+      "edge": 0.4519999999031643,
+      "edge_percent": 45.19999999031643
+    },
+    "financial_analyst": {
+      "signal_quality": 81.0,
+      "stance": "HIGH_CONVICTION",
+      "edge_percent": 45.2,
+      "signal_strength": 105.0,
+      "insider_score": 70.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    }
   }
 ]
