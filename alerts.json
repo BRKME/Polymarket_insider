@@ -2,43 +2,6 @@
   {
     "market": "Will Trump admin release any more Epstein related files by February 6?",
     "market_slug": "will-trump-admin-release-any-more-epstein-related-files-by-777",
-    "wallet": "0x44c1dfe43260c94ed4f1d00de2e1f80fb113ebc1",
-    "analysis": {
-      "score": 85,
-      "flags": [
-        "Extreme confidence (95.8% odds)",
-        "Large bet ($4,213)",
-        "Pre-event latency: 3756m"
-      ],
-      "amount": 4213.33424,
-      "odds": 0.9577849348948861,
-      "wallet_age_days": 751,
-      "total_activities": 100
-    },
-    "timestamp": "2026-02-03T09:27:10.495511",
-    "trade_hash": "0xf12549b81a51a74308c1b205e4187354c907d1e3f5c6e1eafdd03ba0700fd676",
-    "trade_timestamp": 1770110634,
-    "latency": {
-      "latency_seconds": 225366.0,
-      "latency_minutes": 3756.1,
-      "is_pre_event": true,
-      "severity": "CRITICAL",
-      "trade_time": "2026-02-03T09:23:54+00:00",
-      "event_time": "2026-02-06T00:00:00+00:00"
-    },
-    "wallet_stats": null,
-    "trade_data": {
-      "outcome": "Yes",
-      "side": "BUY",
-      "price": 0.9577849348948861,
-      "size": 4399.04,
-      "amount": 4213.33424
-    },
-    "resolution_last_check": "2026-03-29T06:54:55.672567+00:00"
-  },
-  {
-    "market": "Will Trump admin release any more Epstein related files by February 6?",
-    "market_slug": "will-trump-admin-release-any-more-epstein-related-files-by-777",
     "wallet": "0xe598435df0cdf5d22bdd5082d557f75f9180a0a8",
     "analysis": {
       "score": 85,
@@ -35789,5 +35752,50 @@
     "market_slug": "us-x-iran-ceasefire-by",
     "amount": 7848.2330999999995,
     "ai_context": "OVERPRICED. Diplomatic tensions remain high, military posturing is aggressive, and historical precedents suggest limited likelihood of a ceasefire ..."
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xd1329baed1fda3a33d64900b2407192b15733c13ceca83a306d394d214a50c3f",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.515682004,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xb741a5dade4a298897a3124ed798a9cca1fba996",
+      "side": "BUY",
+      "asset": "23980803355312800186405089050901824358558568660851405590679475986314779760690",
+      "conditionId": "0xecf63047b28b4a9a5a94782e5b2c501348303de25a6ee78f08b02d4f2bad1748",
+      "size": 2229.298921,
+      "price": 0.8971430310040508,
+      "timestamp": 1775600283,
+      "title": "JD Vance diplomatic meeting with Iran by April 10?",
+      "slug": "jd-vance-diplomatic-meeting-with-iran-by-april-10",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/jd-vance-x-iran-diplomatic-meeting-by-april-30-e2Dv9slgQdmE.jpg",
+      "eventSlug": "jd-vance-diplomatic-meeting-with-iran-by",
+      "outcome": "No",
+      "outcomeIndex": 1,
+      "name": "tostitos",
+      "pseudonym": "Alarming-Year",
+      "bio": "462014",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xd1329baed1fda3a33d64900b2407192b15733c13ceca83a306d394d214a50c3f",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "JD Vance diplomatic meeting with Iran by April 10?",
+    "market_slug": "jd-vance-diplomatic-meeting-with-iran-by",
+    "amount": 1999.9999910000001,
+    "ai_context": "OVERPRICED. Diplomatic relations with Iran are complex; recent tensions suggest a low likelihood of meetings by the deadline."
   }
 ]
