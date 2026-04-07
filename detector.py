@@ -84,13 +84,38 @@ def detect_insider_trades():
         
         for idx, trade in enumerate(trades):
             try:
-                # Extract basic trade info and compute economics
+                # Extract basic trade info
                 size = float(trade.get("size", 0))
                 price = float(trade.get("price", 0))
                 outcome = trade.get("outcome", "Yes")
-                econ = trade_economics.calculate(size, price, outcome)
+                side = trade.get("side", "BUY")
                 
-                is_no = econ.is_no
+                # SELL trades = closing positions, not opening insider bets
+                # Skip them — we only want new position openings
+                if side == "SELL":
+                    continue
+                
+                # price = specific outcome token price (NOT always YES price)
+                # cost = size × price for ALL outcomes
+                cost = size * price
+                effective_odds = price
+                is_no = outcome.lower() in ("no", "under")
+                
+                # For trade_economics compatibility (still needed for some display logic)
+                econ = trade_economics.calculate(size, price, outcome)
+                # Override with correct values
+                econ = trade_economics.TradeEconomics(
+                    outcome=outcome,
+                    is_no=is_no,
+                    raw_price=price,
+                    effective_odds=effective_odds,
+                    cost=cost,
+                    tokens=size,
+                    potential_profit=(size - cost) if cost > 0 else 0,
+                    pnl_multiplier=((size - cost) / cost) if cost > 0 else 0,
+                    roi_percent=(((size - cost) / cost) * 100) if cost > 0 else 0,
+                )
+                
                 amount = econ.cost
                 effective_odds = econ.effective_odds
                 
