@@ -1,42 +1,5 @@
 [
   {
-    "market": "US strikes Iran by February 3, 2026?",
-    "market_slug": "us-strikes-iran-by-february-3-2026",
-    "wallet": "0xd48a81db62f742c4e42d86dfc23a7ee345366e90",
-    "analysis": {
-      "score": 85,
-      "flags": [
-        "Extreme confidence (97.5% odds)",
-        "Large bet ($5,000)",
-        "Pre-event latency: 1582m"
-      ],
-      "amount": 4999.999965999999,
-      "odds": 0.9749682374845432,
-      "wallet_age_days": 132,
-      "total_activities": 100
-    },
-    "timestamp": "2026-02-01T21:40:16.106216",
-    "trade_hash": "0xf3fded5738a5a667b3f34a7907da88620893ec5732a08db097ad5173e348c415",
-    "trade_timestamp": 1769981852,
-    "latency": {
-      "latency_seconds": 94948.0,
-      "latency_minutes": 1582.4666666666667,
-      "is_pre_event": true,
-      "severity": "CRITICAL",
-      "trade_time": "2026-02-01T21:37:32+00:00",
-      "event_time": "2026-02-03T00:00:00+00:00"
-    },
-    "wallet_stats": null,
-    "trade_data": {
-      "outcome": "No",
-      "side": "BUY",
-      "price": 0.9749682374845432,
-      "size": 5128.37216,
-      "amount": 4999.999965999999
-    },
-    "resolution_last_check": "2026-03-29T06:54:51.986893+00:00"
-  },
-  {
     "market": "Thunder vs. Nuggets",
     "market_slug": "nba-okc-den-2026",
     "wallet": "0x6863919db6e128b1c81ad4829b9589e7bfb379fb",
@@ -35701,5 +35664,50 @@
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
     }
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x437a61ca645ac2b9570c81fe00fb0376f941ebe0f723809967231ca7ac30a801",
+    "wallet": "0xdc876e6873772d38716fda7f2452a78d426d7ab6",
+    "trader": {
+      "rank": 17,
+      "address": "0xdc876e6873772d38716fda7f2452a78d426d7ab6",
+      "username": "432614799197",
+      "profit": 4526176.046412439,
+      "volume": 185485956.8620829,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xebbba265a23a5c13d94051b4be1090101e024214",
+      "side": "BUY",
+      "asset": "72366711975805571374660628153225204556559937284048893748248897309484385762835",
+      "conditionId": "0x8be05ca821d04baecf14dfe20dd6636c222ed11b8c9555cfe24b8cf608e871bc",
+      "size": 4081.632652,
+      "price": 0.4899999998824,
+      "timestamp": 1775538757,
+      "title": "Predators vs. Kings",
+      "slug": "nhl-nsh-lak-2026-04-06",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nhl.png",
+      "eventSlug": "nhl-nsh-lak-2026-04-06",
+      "outcome": "Predators",
+      "outcomeIndex": 0,
+      "name": "capnjack1497",
+      "pseudonym": "Kindly-Amazement",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x437a61ca645ac2b9570c81fe00fb0376f941ebe0f723809967231ca7ac30a801",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Predators vs. Kings",
+    "market_slug": "nhl-nsh-lak-2026-04-06",
+    "amount": 1999.999999,
+    "ai_context": "FAIR. Predators' performance aligns with their tier and recent trends against Kings, making 49% reasonable for this matchup."
   }
 ]
