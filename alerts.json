@@ -1,79 +1,5 @@
 [
   {
-    "market": "Will Trump admin release any more Epstein related files by February 6?",
-    "market_slug": "will-trump-admin-release-any-more-epstein-related-files-by-777",
-    "wallet": "0xe598435df0cdf5d22bdd5082d557f75f9180a0a8",
-    "analysis": {
-      "score": 85,
-      "flags": [
-        "Extreme confidence (96.3% odds)",
-        "Large bet ($2,000)",
-        "Pre-event latency: 3721m"
-      ],
-      "amount": 1999.999998,
-      "odds": 0.9633855861617414,
-      "wallet_age_days": 97,
-      "total_activities": 100
-    },
-    "timestamp": "2026-02-03T10:04:53.608878",
-    "trade_hash": "0x49b42b753f349d123bb6bf33198d97dcc5aa0cb3c7c2cb6bcc3b82feea3cb08b",
-    "trade_timestamp": 1770112752,
-    "latency": {
-      "latency_seconds": 223248.0,
-      "latency_minutes": 3720.8,
-      "is_pre_event": true,
-      "severity": "CRITICAL",
-      "trade_time": "2026-02-03T09:59:12+00:00",
-      "event_time": "2026-02-06T00:00:00+00:00"
-    },
-    "wallet_stats": null,
-    "trade_data": {
-      "outcome": "Yes",
-      "side": "BUY",
-      "price": 0.9633855861617414,
-      "size": 2076.011959,
-      "amount": 1999.999998
-    },
-    "resolution_last_check": "2026-03-29T06:54:55.672570+00:00"
-  },
-  {
-    "market": "Will the price of Ethereum be above $1,900 on February 9?",
-    "market_slug": "ethereum-above-1900-on-february-9",
-    "wallet": "0x51729bf1b339d1c55216a01b087684e4e565ac35",
-    "analysis": {
-      "score": 100,
-      "flags": [
-        "New wallet (2d old)",
-        "Large bet ($3,925)",
-        "Pre-event latency: 7467m"
-      ],
-      "amount": 3925.44,
-      "odds": 0.928,
-      "wallet_age_days": 2,
-      "total_activities": 100
-    },
-    "timestamp": "2026-02-03T19:34:20.402894",
-    "trade_hash": "0xe96a07a58ff64648627468c350391e734e6c52b1382b66c750b1884235b1523f",
-    "trade_timestamp": 1770147156,
-    "latency": {
-      "latency_seconds": 448044.0,
-      "latency_minutes": 7467.4,
-      "is_pre_event": true,
-      "severity": "CRITICAL",
-      "trade_time": "2026-02-03T19:32:36+00:00",
-      "event_time": "2026-02-09T00:00:00+00:00"
-    },
-    "wallet_stats": null,
-    "trade_data": {
-      "outcome": "Yes",
-      "side": "BUY",
-      "price": 0.928,
-      "size": 4230.0,
-      "amount": 3925.44
-    },
-    "resolution_last_check": "2026-03-29T06:54:56.318758+00:00"
-  },
-  {
     "market": "US strikes Iran by February 6, 2026?",
     "market_slug": "us-strikes-iran-by-february-6-2026-242-933-289-312-673-611",
     "wallet": "0x548bcd24d5926761bbbfd98d4950d5b7066e8390",
@@ -35797,5 +35723,158 @@
     "market_slug": "jd-vance-diplomatic-meeting-with-iran-by",
     "amount": 1999.9999910000001,
     "ai_context": "OVERPRICED. Diplomatic relations with Iran are complex; recent tensions suggest a low likelihood of meetings by the deadline."
+  },
+  {
+    "market": "Will Rafael L\u00f3pez Aliaga win the 2026 Peruvian presidential election?",
+    "market_slug": "will-rafael-lpez-aliaga-win-the-2026-peruvian-presidential-election",
+    "event_slug": "will-rafael-lpez-aliaga-win-the-2026-peruvian-presidential-election",
+    "wallet": "0x9c4eaf9b1c0cd987029823d1bbddab355806ad13",
+    "analysis": {
+      "score": 70,
+      "flags": [
+        "New wallet (0d old)",
+        "Large bet ($9,581)",
+        "Low activity (3 txns)"
+      ],
+      "amount": 9580.5847,
+      "odds": 0.2295055367826054,
+      "raw_price": 0.2295055367826054,
+      "outcome": "Yes",
+      "potential_pnl": 32163.8753,
+      "pnl_multiplier": 3.3571933558501916,
+      "wallet_age_days": 0,
+      "total_activities": 3
+    },
+    "timestamp": "2026-04-07T23:02:10.868462",
+    "trade_hash": "0xef8a5ce6b32418228caa16225e42e73b913078d133ebfd33157ce56363ccd376",
+    "trade_timestamp": 1775602641,
+    "latency": null,
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "Yes",
+      "outcomeIndex": 0,
+      "normalized_position": "YES",
+      "side": "BUY",
+      "price": 0.2295055367826054,
+      "effective_price": 0.2295055367826054,
+      "size": 41744.46,
+      "amount": 9580.5847,
+      "potential_pnl": 32163.8753,
+      "pnl_multiplier": 3.3571933558501916,
+      "is_no": false,
+      "slug": "will-rafael-lpez-aliaga-win-the-2026-peruvian-presidential-election",
+      "eventSlug": "peru-presidential-election-winner"
+    },
+    "irrationality": {
+      "irrationality_score": 25,
+      "flags": [
+        "Significant mispricing edge (+12.4%)"
+      ],
+      "category": "politics_near",
+      "category_info": {
+        "strength": "medium",
+        "typical_overpricing": 0.02,
+        "min_edge": 0.03
+      },
+      "is_irrational": false
+    },
+    "mispricing": {
+      "rational_estimate": 0.10590110735652108,
+      "market_price": 0.2295055367826054,
+      "edge": 0.12360442942608432,
+      "edge_percent": 12.360442942608433,
+      "min_edge_required": 0.03,
+      "is_mispriced": true,
+      "edge_quality": "STRONG",
+      "base_rate_class": "occasional",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "occasional",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "Rafael L\u00f3pez Aliaga successfully consolidates support within his political party.",
+          "Economic conditions in Peru improve leading up to the election.",
+          "L\u00f3pez Aliaga effectively addresses key voter concerns such as security and corruption."
+        ],
+        "weakest_link": "Economic conditions in Peru improve leading up to the election."
+      },
+      "category": "politics_near",
+      "narrative_drivers": [
+        "Public perception of L\u00f3pez Aliaga's leadership capabilities.",
+        "The impact of rival candidates and their campaigns."
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "CONFLICT",
+      "signal_emoji": "\u26a0\ufe0f",
+      "signal_strength": 70,
+      "interpretation": "Insider buying YES despite statistical overpricing",
+      "action_suggestion": "Requires manual analysis: insider may have real info OR is part of irrational crowd",
+      "insider_score": 70,
+      "insider_position": "YES",
+      "irrationality_score": 25,
+      "is_irrational": false,
+      "is_mispriced": true,
+      "edge": 0.12360442942608432,
+      "edge_percent": 12.360442942608433
+    },
+    "log_only": true,
+    "financial_analyst": {
+      "signal_quality": 37.5,
+      "stance": "WATCH_ONLY",
+      "edge_percent": 12.36,
+      "signal_strength": 70.0,
+      "insider_score": 70.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    }
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xc4a86fb1d6a41d86e7470ae56840f48f82b194583799d216508602d816ed455d",
+    "wallet": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
+    "trader": {
+      "rank": 18,
+      "address": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
+      "username": "GamblingIsAllYouNeed",
+      "profit": 4444523.480072443,
+      "volume": 320729948.2841881,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x116c6d1117c8690203bad2e6c5bee0d9f27fe162",
+      "side": "BUY",
+      "asset": "37037002675967782045158391765875672365959780312112067475756804793698379795814",
+      "conditionId": "0x5bca8e83d53f6629950674f629e2711ed39486749387865877dbfb673299927e",
+      "size": 3246.29981,
+      "price": 0.74,
+      "timestamp": 1775603581,
+      "title": "Jazz vs. Pelicans",
+      "slug": "nba-uta-nop-2026-04-07",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
+      "eventSlug": "nba-uta-nop-2026-04-07",
+      "outcome": "Pelicans",
+      "outcomeIndex": 1,
+      "name": "oorangutan",
+      "pseudonym": "Dependable-Attitude",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xc4a86fb1d6a41d86e7470ae56840f48f82b194583799d216508602d816ed455d",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Jazz vs. Pelicans",
+    "market_slug": "nba-uta-nop-2026-04-07",
+    "amount": 2402.2618594,
+    "ai_context": "OVERPRICED. Pelicans struggle on the road, and Jazz have a stronger home advantage and better recent performance."
   }
 ]
