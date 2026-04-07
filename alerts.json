@@ -1,34 +1,5 @@
 [
   {
-    "market": "Thunder vs. Nuggets",
-    "market_slug": "nba-okc-den-2026",
-    "wallet": "0x6863919db6e128b1c81ad4829b9589e7bfb379fb",
-    "analysis": {
-      "score": 85,
-      "flags": [
-        "New wallet (0d old)",
-        "Extreme confidence (96.8% odds)",
-        "Large bet ($9,000)"
-      ],
-      "amount": 8999.99998,
-      "odds": 0.9677389746535198,
-      "wallet_age_days": 0,
-      "total_activities": 15
-    },
-    "timestamp": "2026-02-02T04:32:04.528479",
-    "trade_hash": "0x1b3a02a390973280feeb314c0b986ad9b54a801b89d478354537ac76f1255562",
-    "trade_timestamp": 1770006388,
-    "latency": null,
-    "wallet_stats": null,
-    "trade_data": {
-      "outcome": "Thunder",
-      "side": "BUY",
-      "price": 0.9677389746535198,
-      "size": 9300.028433,
-      "amount": 8999.99998
-    }
-  },
-  {
     "market": "Will Jon Stewart win the 2028 Democratic presidential nomination?",
     "market_slug": "will-jon-stewart-win-the-2028-democratic-presidential-nomination-518",
     "wallet": "0x40c0dd4a4c97ec27b715161643596129f3e2e028",
@@ -35721,5 +35692,50 @@
       "insider_win": null,
       "model_correct": null
     }
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x14ca7d1ebc668512ca0d9fbd70217a1ad75be99a51b02189ad930fa1c4fdc524",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.515682004,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x3f5ea0a8053e81ce2f59814118869322c35fe7db",
+      "side": "BUY",
+      "asset": "37992007915130616159810987147462761110418400522972721876119456361964804692051",
+      "conditionId": "0xb35792805e3cb829eef50e2f86c80578096166faa130aff26b9d8354222bf649",
+      "size": 5480.50393,
+      "price": 0.79,
+      "timestamp": 1775570871,
+      "title": "Will Sporting CP win on 2026-04-07?",
+      "slug": "ucl-spo1-ars-2026-04-07-spo1",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/champions-league-pic-QIUFsL8vaDdq.png",
+      "eventSlug": "ucl-spo1-ars-2026-04-07",
+      "outcome": "No",
+      "outcomeIndex": 1,
+      "name": "piggyery",
+      "pseudonym": "Pleasing-Biology",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x14ca7d1ebc668512ca0d9fbd70217a1ad75be99a51b02189ad930fa1c4fdc524",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Will Sporting CP win on 2026-04-07?",
+    "market_slug": "ucl-spo1-ars-2026-04-07",
+    "amount": 4329.5981047000005,
+    "ai_context": "FAIR | The odds reflect Sporting CP's competitive form and historical performance, making 79% reasonable for a loss."
   }
 ]
