@@ -2,43 +2,6 @@
   {
     "market": "Will Trump admin release any more Epstein related files by February 6?",
     "market_slug": "will-trump-admin-release-any-more-epstein-related-files-by-777",
-    "wallet": "0x7131cb618fb195c70e8e629c45199096833c29cc",
-    "analysis": {
-      "score": 85,
-      "flags": [
-        "Extreme confidence (95.9% odds)",
-        "Large bet ($1,706)",
-        "Pre-event latency: 3906m"
-      ],
-      "amount": 1706.061,
-      "odds": 0.959,
-      "wallet_age_days": 241,
-      "total_activities": 100
-    },
-    "timestamp": "2026-02-03T06:58:20.793263",
-    "trade_hash": "0x837bc2dda03efd94ef01c04a652a408af16cf4090e5216554ed23dd280b99e8b",
-    "trade_timestamp": 1770101632,
-    "latency": {
-      "latency_seconds": 234368.0,
-      "latency_minutes": 3906.133333333333,
-      "is_pre_event": true,
-      "severity": "CRITICAL",
-      "trade_time": "2026-02-03T06:53:52+00:00",
-      "event_time": "2026-02-06T00:00:00+00:00"
-    },
-    "wallet_stats": null,
-    "trade_data": {
-      "outcome": "Yes",
-      "side": "BUY",
-      "price": 0.959,
-      "size": 1779.0,
-      "amount": 1706.061
-    },
-    "resolution_last_check": "2026-03-29T06:54:55.672550+00:00"
-  },
-  {
-    "market": "Will Trump admin release any more Epstein related files by February 6?",
-    "market_slug": "will-trump-admin-release-any-more-epstein-related-files-by-777",
     "wallet": "0x44c1dfe43260c94ed4f1d00de2e1f80fb113ebc1",
     "analysis": {
       "score": 85,
@@ -35781,5 +35744,50 @@
     "market_slug": "of-views-of-mrbeast-video-day-4-892",
     "amount": 3650.0,
     "ai_context": "OVERPRICED. MrBeast's videos typically exceed 65 million views; a 73% chance for \"No\" seems too high."
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xafb6cdca8f791aed6ae86fd5bdd5dc1f9cf5414c1603754cd07f4292f1ecbe7a",
+    "wallet": "0xdc876e6873772d38716fda7f2452a78d426d7ab6",
+    "trader": {
+      "rank": 17,
+      "address": "0xdc876e6873772d38716fda7f2452a78d426d7ab6",
+      "username": "432614799197",
+      "profit": 4526176.046412427,
+      "volume": 185485956.8620829,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x5188fa0e8a77e87bc6a58e6781fdfc4e165cc804",
+      "side": "BUY",
+      "asset": "44149007410374101286260953227333745102128417138356632089802983317837574022801",
+      "conditionId": "0x80059ff4e694f878c0498f6f3a067ee7ca62dc2fc46251a4287b58355ce47bc5",
+      "size": 17443.19,
+      "price": 0.44993106765448293,
+      "timestamp": 1775591279,
+      "title": "US x Iran ceasefire by April 30?",
+      "slug": "us-x-iran-ceasefire-by-april-30-194-679-389",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/us-x-iran-ceasefire-by-Cgmx3GCuOwjs.jpg",
+      "eventSlug": "us-x-iran-ceasefire-by",
+      "outcome": "Yes",
+      "outcomeIndex": 0,
+      "name": "AllByMyseIf",
+      "pseudonym": "Parallel-Steamroller",
+      "bio": "Frosen",
+      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-3063734-5d789c1c-92ea-4bf2-a4f6-9ecc42977b56.png",
+      "profileImageOptimized": "",
+      "transactionHash": "0xafb6cdca8f791aed6ae86fd5bdd5dc1f9cf5414c1603754cd07f4292f1ecbe7a",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "US x Iran ceasefire by April 30?",
+    "market_slug": "us-x-iran-ceasefire-by",
+    "amount": 7848.2330999999995,
+    "ai_context": "OVERPRICED. Diplomatic tensions remain high, military posturing is aggressive, and historical precedents suggest limited likelihood of a ceasefire ..."
   }
 ]
