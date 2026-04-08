@@ -1,41 +1,5 @@
 [
   {
-    "market": "US strikes Iran by February 6, 2026?",
-    "market_slug": "us-strikes-iran-by-february-6-2026-242-933-289-312-673-611",
-    "wallet": "0x548bcd24d5926761bbbfd98d4950d5b7066e8390",
-    "analysis": {
-      "score": 85,
-      "flags": [
-        "Extreme confidence (98.0% odds)",
-        "Large bet ($1,787)",
-        "Pre-event latency: 2642m"
-      ],
-      "amount": 1786.51831,
-      "odds": 0.9799235980078108,
-      "wallet_age_days": 158,
-      "total_activities": 100
-    },
-    "timestamp": "2026-02-04T04:00:39.256942",
-    "trade_hash": "0x79d0346f6d5f0a8dc97eefb14cbad12a51767c6e24779b105384b10b238afedd",
-    "trade_timestamp": 1770177490,
-    "latency": {
-      "latency_seconds": 158510.0,
-      "latency_minutes": 2641.8333333333335,
-      "is_pre_event": true,
-      "severity": "CRITICAL",
-      "trade_time": "2026-02-04T03:58:10+00:00",
-      "event_time": "2026-02-06T00:00:00+00:00"
-    },
-    "wallet_stats": null,
-    "trade_data": {
-      "outcome": "No",
-      "side": "BUY",
-      "price": 0.9799235980078108,
-      "size": 1823.12,
-      "amount": 1786.51831
-    }
-  },
-  {
     "market": "Will the price of Bitcoin be above $76,000 on February 8?",
     "market_slug": "bitcoin-above-76k-on-february-8",
     "wallet": "0x5bd881f87bc81fe1ea0e460c86ce6746fb77d455",
@@ -35876,5 +35840,120 @@
     "market_slug": "nba-uta-nop-2026-04-07",
     "amount": 2402.2618594,
     "ai_context": "OVERPRICED. Pelicans struggle on the road, and Jazz have a stronger home advantage and better recent performance."
+  },
+  {
+    "market": "Kharg Island no longer under Iranian control by April 15?",
+    "market_slug": "kharg-island-no-longer-under-iranian-control-by-april-15",
+    "event_slug": "kharg-island-no-longer-under-iranian-control-by-april-15",
+    "wallet": "0xc8ab97a9089a9ff7e6ef0688e6e591a066946418",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "Against trend (3.3% effective odds)",
+        "Large bet ($1,041)",
+        "Pre-event latency: 10075m"
+      ],
+      "amount": 1041.1361499999998,
+      "odds": 0.03300206101191183,
+      "raw_price": 0.9669979389880882,
+      "outcome": "No",
+      "potential_pnl": 30506.473850000002,
+      "pnl_multiplier": 29.301137848301597,
+      "wallet_age_days": 437,
+      "total_activities": 100
+    },
+    "timestamp": "2026-04-08T00:07:27.562942",
+    "trade_hash": "0x0a8e4592afb1746594ad880c330004b2643196d4733b6f046387bfdfaaf08293",
+    "trade_timestamp": 1775606671,
+    "latency": {
+      "latency_seconds": 604529.0,
+      "latency_minutes": 10075.483333333334,
+      "is_pre_event": true,
+      "severity": "CRITICAL",
+      "trade_time": "2026-04-08T00:04:31+00:00",
+      "event_time": "2026-04-15T00:00:00+00:00"
+    },
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "No",
+      "outcomeIndex": 1,
+      "normalized_position": "NO",
+      "side": "BUY",
+      "price": 0.9669979389880882,
+      "effective_price": 0.9669979389880882,
+      "size": 31547.61,
+      "amount": 30506.473850000002,
+      "potential_pnl": 1041.1361499999985,
+      "pnl_multiplier": 0.034128367477646006,
+      "is_no": true,
+      "slug": "kharg-island-no-longer-under-iranian-control-by-april-15",
+      "eventSlug": "kharg-island-no-longer-under-iranian-control-by-march-31"
+    },
+    "irrationality": {
+      "irrationality_score": 40,
+      "flags": [
+        "Category structurally prone to longshot bias",
+        "Large mispricing edge (+75.0%)"
+      ],
+      "category": "geopolitics",
+      "category_info": {
+        "strength": "high",
+        "typical_overpricing": 0.05,
+        "min_edge": 0.05
+      },
+      "is_irrational": true
+    },
+    "mispricing": {
+      "rational_estimate": 0.21739958779761764,
+      "market_price": 0.9669979389880882,
+      "edge": 0.7495983511904705,
+      "edge_percent": 74.95983511904704,
+      "min_edge_required": 0.05,
+      "is_mispriced": true,
+      "edge_quality": "STRONG",
+      "base_rate_class": "rare",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "rare",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "Significant internal unrest in Iran",
+          "International military intervention",
+          "Economic sanctions leading to regime change"
+        ],
+        "weakest_link": "International military intervention"
+      },
+      "category": "geopolitics",
+      "narrative_drivers": [
+        "Increased tensions between Iran and Western nations",
+        "Potential for regional allies to support a change in control"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "ALPHA",
+      "signal_emoji": "\ud83d\udd25",
+      "signal_strength": 125,
+      "interpretation": "Smart money (NO) confirms YES is overpriced",
+      "action_suggestion": "High conviction: insider + statistics aligned",
+      "insider_score": 85,
+      "insider_position": "NO",
+      "irrationality_score": 40,
+      "is_irrational": true,
+      "is_mispriced": true,
+      "edge": 0.7495983511904705,
+      "edge_percent": 74.95983511904704
+    },
+    "financial_analyst": {
+      "signal_quality": 85.0,
+      "stance": "HIGH_CONVICTION",
+      "edge_percent": 74.96,
+      "signal_strength": 125.0,
+      "insider_score": 85.0,
+      "risk_note": "High stake detected \u2014 copy with reduced sizing (25-40% of source risk)."
+    }
   }
 ]
