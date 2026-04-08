@@ -1,36 +1,5 @@
 [
   {
-    "market": "Will Jon Stewart win the 2028 Democratic presidential nomination?",
-    "market_slug": "will-jon-stewart-win-the-2028-democratic-presidential-nomination-518",
-    "wallet": "0xd70812c70367e97ef7b0481041b6244f6e418399",
-    "analysis": {
-      "score": 95,
-      "flags": [
-        "New wallet (0d old)",
-        "Extreme confidence (97.8% odds)",
-        "Large bet ($2,910)",
-        "Low activity (2 txns)"
-      ],
-      "amount": 2909.98032,
-      "odds": 0.978,
-      "wallet_age_days": 0,
-      "total_activities": 2
-    },
-    "timestamp": "2026-02-04T13:16:00.321099",
-    "trade_hash": "0x76013cf13f0c0ce70ee9792b4464d256b2c0c9b8e1db7fed16dd7bb11bb5f4a5",
-    "trade_timestamp": 1770210710,
-    "latency": null,
-    "wallet_stats": null,
-    "trade_data": {
-      "outcome": "No",
-      "side": "BUY",
-      "price": 0.978,
-      "size": 2975.44,
-      "amount": 2909.98032
-    },
-    "resolution_last_check": "2026-03-29T06:54:56.971973+00:00"
-  },
-  {
     "market": "US strikes Iran by February 6, 2026?",
     "market_slug": "us-strikes-iran-by-february-6-2026-242-933-289-312-673-611",
     "wallet": "0x81eccac42259fcda3d41181458bcacc9c4345a36",
@@ -34395,5 +34364,50 @@
     "market_slug": "nba-okc-lac-2026-04-08",
     "amount": 4939.8852117,
     "ai_context": "OVERPRICED. The Clippers have a strong roster and recent matchups favor them, making 69% too high for the Thunder."
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x77fcbac180deab67177677547777fb50a79685b5d3747f155b9fc6ad581c2317",
+    "wallet": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
+    "trader": {
+      "rank": 18,
+      "address": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
+      "username": "GamblingIsAllYouNeed",
+      "profit": 4407388.904966463,
+      "volume": 324092945.374786,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x6165eea4a70294502eaafe6a6abdcfae35c8db3c",
+      "side": "BUY",
+      "asset": "9213001199289032600476375692888468551012982184429350232585347601594417764501",
+      "conditionId": "0xcb9afbb3743319a44d41ab2a5236acc0d988718897dcdb26f4eae126e0a86075",
+      "size": 2072.072105,
+      "price": 0.8099999999280213,
+      "timestamp": 1775687953,
+      "title": "Timberwolves vs. Magic",
+      "slug": "nba-min-orl-2026-04-08",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
+      "eventSlug": "nba-min-orl-2026-04-08",
+      "outcome": "Magic",
+      "outcomeIndex": 1,
+      "name": "0x6165EEa4a70294502EAafe6A6abdCFAE35c8Db3c-1763787021961",
+      "pseudonym": "Sad-Cashier",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x77fcbac180deab67177677547777fb50a79685b5d3747f155b9fc6ad581c2317",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Timberwolves vs. Magic",
+    "market_slug": "nba-min-orl-2026-04-08",
+    "amount": 1678.378404900855,
+    "ai_context": "UNDERPRICED. The Magic's 19% implies a low chance against a stronger Timberwolves team, considering recent performance and matchup history."
   }
 ]
