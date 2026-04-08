@@ -1,41 +1,5 @@
 [
   {
-    "market": "US strikes Iran by February 6, 2026?",
-    "market_slug": "us-strikes-iran-by-february-6-2026-242-933-289-312-673-611",
-    "wallet": "0x81eccac42259fcda3d41181458bcacc9c4345a36",
-    "analysis": {
-      "score": 85,
-      "flags": [
-        "Against trend (5.4% odds)",
-        "Large bet ($2,940)",
-        "Pre-event latency: 1801m"
-      ],
-      "amount": 2939.9999989999997,
-      "odds": 0.05358600741449619,
-      "wallet_age_days": 11,
-      "total_activities": 5
-    },
-    "timestamp": "2026-02-04T18:02:25.789422",
-    "trade_hash": "0x0c0d24a5a4ae79d230d2b567ee9258ef9dfb8499caf6e3a295d6685a5bec7f99",
-    "trade_timestamp": 1770227913,
-    "latency": {
-      "latency_seconds": 108087.0,
-      "latency_minutes": 1801.45,
-      "is_pre_event": true,
-      "severity": "CRITICAL",
-      "trade_time": "2026-02-04T17:58:33+00:00",
-      "event_time": "2026-02-06T00:00:00+00:00"
-    },
-    "wallet_stats": null,
-    "trade_data": {
-      "outcome": "Yes",
-      "side": "BUY",
-      "price": 0.05358600741449619,
-      "size": 54865.069089,
-      "amount": 2939.9999989999997
-    }
-  },
-  {
     "market": "Will Trump nominate Kevin Warsh as the next Fed chair?",
     "market_slug": "will-trump-nominate-kevin-warsh-as-the-next-fed-chair",
     "wallet": "0x48e375943b5cab0aa003bb983844bec80fe7e4c8",
@@ -34409,5 +34373,50 @@
     "market_slug": "nba-min-orl-2026-04-08",
     "amount": 1678.378404900855,
     "ai_context": "UNDERPRICED. The Magic's 19% implies a low chance against a stronger Timberwolves team, considering recent performance and matchup history."
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x7297a85af62eb17933fafc4aa712c1395f193783215a05001a5dcd4146fb9897",
+    "wallet": "0xd0c042c08f755ff940249f62745e82d356345565",
+    "trader": {
+      "rank": 15,
+      "address": "0xd0c042c08f755ff940249f62745e82d356345565",
+      "username": "alexmulti",
+      "profit": 4804855.613376001,
+      "volume": 9949068.653841998,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xee613b3fc183ee44f9da9c05f53e2da107e3debf",
+      "side": "BUY",
+      "asset": "57671111904343297017035559331206968340219293155722507171442770347401653986711",
+      "conditionId": "0xc31f282a30746ae49954e23d92d23aa6c129d008d07b0f47686db178554e32d8",
+      "size": 2636.14213,
+      "price": 0.76,
+      "timestamp": 1775690053,
+      "title": "Thunder vs. Clippers",
+      "slug": "nba-okc-lac-2026-04-08",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
+      "eventSlug": "nba-okc-lac-2026-04-08",
+      "outcome": "Thunder",
+      "outcomeIndex": 0,
+      "name": "sovereign2013",
+      "pseudonym": "Ultimate-Locality",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x7297a85af62eb17933fafc4aa712c1395f193783215a05001a5dcd4146fb9897",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Thunder vs. Clippers",
+    "market_slug": "nba-okc-lac-2026-04-08",
+    "amount": 2003.4680188000002,
+    "ai_context": "OVERPRICED. The Clippers have shown competitiveness, and historical matchups suggest closer contests than a 76% likelihood for the Thunder."
   }
 ]
