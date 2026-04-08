@@ -2,37 +2,6 @@
   {
     "market": "Will Jon Stewart win the 2028 Democratic presidential nomination?",
     "market_slug": "will-jon-stewart-win-the-2028-democratic-presidential-nomination-518",
-    "wallet": "0xa28704e0738e5ef2107cb034fda0e85ea0e48b9c",
-    "analysis": {
-      "score": 95,
-      "flags": [
-        "New wallet (0d old)",
-        "Extreme confidence (97.8% odds)",
-        "Large bet ($2,525)",
-        "Low activity (4 txns)"
-      ],
-      "amount": 2525.0,
-      "odds": 0.9780000000007747,
-      "wallet_age_days": 0,
-      "total_activities": 4
-    },
-    "timestamp": "2026-02-04T12:02:21.168539",
-    "trade_hash": "0x08983a7e55d4955facab60741526b53a6c035ab5f9c3bfcd07c4d6e74c0f8a5c",
-    "trade_timestamp": 1770206376,
-    "latency": null,
-    "wallet_stats": null,
-    "trade_data": {
-      "outcome": "No",
-      "side": "BUY",
-      "price": 0.9780000000007747,
-      "size": 2581.799591,
-      "amount": 2525.0
-    },
-    "resolution_last_check": "2026-03-29T06:54:56.971969+00:00"
-  },
-  {
-    "market": "Will Jon Stewart win the 2028 Democratic presidential nomination?",
-    "market_slug": "will-jon-stewart-win-the-2028-democratic-presidential-nomination-518",
     "wallet": "0xd8753ff3f8955f9373a3ff5eeda633d0d95acec2",
     "analysis": {
       "score": 85,
@@ -34366,5 +34335,50 @@
     "market_slug": "nba-okc-lac-2026-04-08",
     "amount": 5606.420967,
     "ai_context": "FAIR. Thunder's home advantage and recent form against Clippers justify a 70% probability in this matchup."
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x7ba1967e3ccf088a195680cf8928dd7ad85e5941a4eda8896e4420c0f1e92ac5",
+    "wallet": "0x863134d00841b2e200492805a01e1e2f5defaa53",
+    "trader": {
+      "rank": 6,
+      "address": "0x863134d00841b2e200492805a01e1e2f5defaa53",
+      "username": "RepTrump",
+      "profit": 7532409.671579,
+      "volume": 13983231.103425,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x1c853edd4f57b9e8b52977e04f412407dcf231d4",
+      "side": "SELL",
+      "asset": "91851388830923641218615793149765322805282194001900444983744404881757241655792",
+      "conditionId": "0x5c2e6aef8af5931e9bfa3750364626d754531d2fada2885d45c356b175962a25",
+      "size": 5000,
+      "price": 0.621533434,
+      "timestamp": 1775656715,
+      "title": "Iran x Israel/US conflict ends by April 15?",
+      "slug": "iran-x-israelus-conflict-ends-by-april-15-618-586-982",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/iran-x-israel-conflict-ends-by-next-friday-3FmhGylfITaT.jpg",
+      "eventSlug": "iran-x-israelus-conflict-ends-by",
+      "outcome": "Yes",
+      "outcomeIndex": 0,
+      "name": "Mongabc123",
+      "pseudonym": "Fearless-Walker",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x7ba1967e3ccf088a195680cf8928dd7ad85e5941a4eda8896e4420c0f1e92ac5",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Iran x Israel/US conflict ends by April 15?",
+    "market_slug": "iran-x-israelus-conflict-ends-by",
+    "amount": 3107.66717,
+    "ai_context": "OVERPRICED. The geopolitical situation is complex and unpredictable; a 62% chance of resolution by April 15 seems overly optimistic."
   }
 ]
