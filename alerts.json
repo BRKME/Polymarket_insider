@@ -33824,7 +33824,13 @@
     },
     "market": "Oilers vs. Utah",
     "market_slug": "nhl-edm-utah-2026-04-07",
-    "amount": 19111.265600000002
+    "amount": 19111.265600000002,
+    "resolution": {
+      "outcome": "Utah",
+      "checked_at": "2026-04-08T07:15:14.951822+00:00",
+      "insider_win": null,
+      "model_correct": null
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -33868,7 +33874,13 @@
     },
     "market": "Oilers vs. Utah",
     "market_slug": "nhl-edm-utah-2026-04-07",
-    "amount": 1502.9448000000002
+    "amount": 1502.9448000000002,
+    "resolution": {
+      "outcome": "Utah",
+      "checked_at": "2026-04-08T07:15:14.951858+00:00",
+      "insider_win": null,
+      "model_correct": null
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -34156,7 +34168,8 @@
       "signal_strength": 70.0,
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    }
+    },
+    "resolution_last_check": "2026-04-08T07:15:18.437377+00:00"
   },
   {
     "type": "TOP_TRADER",
@@ -34316,6 +34329,7 @@
       "signal_strength": 125.0,
       "insider_score": 85.0,
       "risk_note": "High stake detected \u2014 copy with reduced sizing (25-40% of source risk)."
-    }
+    },
+    "resolution_last_check": "2026-04-08T07:15:20.437228+00:00"
   }
 ]
