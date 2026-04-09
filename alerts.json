@@ -1,72 +1,5 @@
 [
   {
-    "market": "Will Ethereum reach $2,800 in February?",
-    "market_slug": "will-ethereum-reach-2800-in-february-2026",
-    "wallet": "0x0925cd4208fe6de01aafa972e983e7fd7bdd3160",
-    "analysis": {
-      "score": 85,
-      "flags": [
-        "New wallet (0d old)",
-        "Against trend (7.3% odds)",
-        "Large bet ($1,018)"
-      ],
-      "amount": 1018.4158,
-      "odds": 0.07267432218544795,
-      "wallet_age_days": 0,
-      "total_activities": 32
-    },
-    "timestamp": "2026-02-05T20:42:51.068338",
-    "trade_hash": "0x116d621cde55c39cf34222273029d6769e63b1c98be07495e1c0e350abde5a4a",
-    "trade_timestamp": 1770323821,
-    "latency": null,
-    "wallet_stats": null,
-    "trade_data": {
-      "outcome": "Yes",
-      "side": "SELL",
-      "price": 0.07267432218544795,
-      "size": 14013.42,
-      "amount": 1018.4158
-    },
-    "resolution_last_check": "2026-03-29T06:55:00.765244+00:00"
-  },
-  {
-    "market": "Will the price of Bitcoin be above $76,000 on February 9?",
-    "market_slug": "bitcoin-above-76k-on-february-9",
-    "wallet": "0x831f6f4a4bdbba5e6b062e1e300ab6d0ed11bf3e",
-    "analysis": {
-      "score": 100,
-      "flags": [
-        "New wallet (2d old)",
-        "Large bet ($1,377)",
-        "Pre-event latency: 3935m"
-      ],
-      "amount": 1377.3256,
-      "odds": 0.94,
-      "wallet_age_days": 2,
-      "total_activities": 28
-    },
-    "timestamp": "2026-02-06T06:29:50.159341",
-    "trade_hash": "0x1d5404f9849ee5d70c44889903d2759924f9d39689ac5f967e9ac92766c10ba1",
-    "trade_timestamp": 1770359091,
-    "latency": {
-      "latency_seconds": 236109.0,
-      "latency_minutes": 3935.15,
-      "is_pre_event": true,
-      "severity": "CRITICAL",
-      "trade_time": "2026-02-06T06:24:51+00:00",
-      "event_time": "2026-02-09T00:00:00+00:00"
-    },
-    "wallet_stats": null,
-    "trade_data": {
-      "outcome": "No",
-      "side": "SELL",
-      "price": 0.94,
-      "size": 1465.24,
-      "amount": 1377.3256
-    },
-    "resolution_last_check": "2026-03-29T06:55:01.426534+00:00"
-  },
-  {
     "market": "Will Rahm Emanuel win the 2028 Democratic presidential nomination?",
     "market_slug": "will-rahm-emanuel-win-the-2028-democratic-presidential-nomination-299",
     "wallet": "0x6b997694fcaa2e3c6f759acd7d8ee5ef54e120cc",
@@ -34472,5 +34405,94 @@
     "market_slug": "mlb-cin-mia-2026-04-09",
     "amount": 5464.1379949,
     "ai_context": "FAIR. Miami Marlins have shown competitive play, but Cincinnati Reds' home advantage and historical matchups could balance the odds."
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xccdaa9a484d70cc953bdbbaf49a4d76edc84fbd311394f4aacd05198435fc64c",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.51568201,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x44fa3a093d6c766de8069fb3377450ed96e5d852",
+      "side": "BUY",
+      "asset": "74489175528336063079508426031749555177965967500002981828268283121890403042122",
+      "conditionId": "0x3998a1004e5c93f0e0c50ce64c380a38405b66f924322445100781ed2922df68",
+      "size": 1985.86366,
+      "price": 0.91,
+      "timestamp": 1775753979,
+      "title": "LoL: HMBLE vs EKO Esports (BO1) - LIT Regular Season",
+      "slug": "lol-hmble-eko-2026-04-09",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/league-of-legends-61a4f083a6.png",
+      "eventSlug": "lol-hmble-eko-2026-04-09",
+      "outcome": "HMBLE",
+      "outcomeIndex": 0,
+      "name": "JustaNobody",
+      "pseudonym": "Sure-Footed-Whorl",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xccdaa9a484d70cc953bdbbaf49a4d76edc84fbd311394f4aacd05198435fc64c",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "LoL: HMBLE vs EKO Esports (BO1) - LIT Regular Season",
+    "market_slug": "lol-hmble-eko-2026-04-09",
+    "amount": 1807.1359306
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x79ea073454bb9c87a2704e3b158ba075f7567ed08009006f0144fe62f13a5337",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.51568201,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xd48a81db62f742c4e42d86dfc23a7ee345366e90",
+      "side": "BUY",
+      "asset": "13499046526323297496336921726183697553742914024071104429251588824329800254029",
+      "conditionId": "0x2e56e92df5f3368b8be91a4d1d7a3e6364a806802bb68ef83df12a424c430517",
+      "size": 4688.96096,
+      "price": 0.47,
+      "timestamp": 1775753979,
+      "title": "Celtics vs. Knicks: O/U 215.5",
+      "slug": "nba-bos-nyk-2026-04-09-total-215pt5",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
+      "eventSlug": "nba-bos-nyk-2026-04-09",
+      "outcome": "Over",
+      "outcomeIndex": 0,
+      "name": "NiFengFanPan",
+      "pseudonym": "Orderly-Venture",
+      "bio": "Wen Zhong Qiu Sheng",
+      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-3358711-e85e8a4d-0015-4638-8326-28b28b4859ed.webp",
+      "profileImageOptimized": "",
+      "transactionHash": "0x79ea073454bb9c87a2704e3b158ba075f7567ed08009006f0144fe62f13a5337",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Celtics vs. Knicks: O/U 215.5",
+    "market_slug": "nba-bos-nyk-2026-04-09",
+    "amount": 2203.8116512,
+    "ai_context": "FAIR. Both teams have strong offenses, and historical matchups suggest scoring potential aligns with the over at 215.5."
   }
 ]
