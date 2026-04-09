@@ -1,65 +1,5 @@
 [
   {
-    "market": "Will Rahm Emanuel win the 2028 Democratic presidential nomination?",
-    "market_slug": "will-rahm-emanuel-win-the-2028-democratic-presidential-nomination-299",
-    "wallet": "0x6b997694fcaa2e3c6f759acd7d8ee5ef54e120cc",
-    "analysis": {
-      "score": 85,
-      "flags": [
-        "New wallet (0d old)",
-        "Extreme confidence (97.7% odds)",
-        "Large bet ($3,343)"
-      ],
-      "amount": 3343.294,
-      "odds": 0.977,
-      "wallet_age_days": 0,
-      "total_activities": 5
-    },
-    "timestamp": "2026-02-06T11:53:04.388501",
-    "trade_hash": "0x88149302bb9023efc647975d6c14980ebbba4d0ad873592a540f3b32ba5f9eba",
-    "trade_timestamp": 1770378585,
-    "latency": null,
-    "wallet_stats": null,
-    "trade_data": {
-      "outcome": "No",
-      "side": "SELL",
-      "price": 0.977,
-      "size": 3422.0,
-      "amount": 3343.294
-    },
-    "resolution_last_check": "2026-03-29T06:55:02.068291+00:00"
-  },
-  {
-    "market": "Will Rahm Emanuel win the 2028 Democratic presidential nomination?",
-    "market_slug": "will-rahm-emanuel-win-the-2028-democratic-presidential-nomination-299",
-    "wallet": "0xa45aff8556d47e37260127cdfca1666c8429828a",
-    "analysis": {
-      "score": 85,
-      "flags": [
-        "New wallet (0d old)",
-        "Extreme confidence (97.8% odds)",
-        "Large bet ($2,934)"
-      ],
-      "amount": 2934.0,
-      "odds": 0.978,
-      "wallet_age_days": 0,
-      "total_activities": 13
-    },
-    "timestamp": "2026-02-06T11:53:07.834805",
-    "trade_hash": "0x079f9028b88586c5cc31de52c35b1dcbb34784536f587ffa8bd0593f18a9aa38",
-    "trade_timestamp": 1770378579,
-    "latency": null,
-    "wallet_stats": null,
-    "trade_data": {
-      "outcome": "No",
-      "side": "SELL",
-      "price": 0.978,
-      "size": 3000.0,
-      "amount": 2934.0
-    },
-    "resolution_last_check": "2026-03-29T06:55:02.068304+00:00"
-  },
-  {
     "market": "Will Andy Beshear win the 2028 Democratic presidential nomination?",
     "market_slug": "will-andy-beshear-win-the-2028-democratic-presidential-nomination-832",
     "wallet": "0xd4239da486af1c6d070178df34762038412d28ed",
@@ -34494,5 +34434,95 @@
     "market_slug": "nba-bos-nyk-2026-04-09",
     "amount": 2203.8116512,
     "ai_context": "FAIR. Both teams have strong offenses, and historical matchups suggest scoring potential aligns with the over at 215.5."
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x7b4ece632c61311ebb704a0fc470335b37f3fbba9f74d858d7c792e7524efd14",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.515682004,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+      "side": "BUY",
+      "asset": "69933905448869077524363933605479492589846435694918114730035288284176995490366",
+      "conditionId": "0xe7766687d19cb7949958a8c50e0b0bd3bdec12b8a2710be1047cb4eee2c49716",
+      "size": 3362.180515,
+      "price": 0.9115043334462505,
+      "timestamp": 1775762385,
+      "title": "Rolex Monte Carlo Masters: Valentin Vacherot vs Hubert Hurkacz",
+      "slug": "atp-vachero-hurkacz-2026-04-09",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/atp-tour-b4390c4fb8.jpg",
+      "eventSlug": "atp-vachero-hurkacz-2026-04-09",
+      "outcome": "Valentin Vacherot",
+      "outcomeIndex": 0,
+      "name": "swisstony",
+      "pseudonym": "Frail-Possible",
+      "bio": "loincloth chic",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x7b4ece632c61311ebb704a0fc470335b37f3fbba9f74d858d7c792e7524efd14",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Rolex Monte Carlo Masters: Valentin Vacherot vs Hubert Hurkacz",
+    "market_slug": "atp-vachero-hurkacz-2026-04-09",
+    "amount": 3064.6421092510463,
+    "ai_context": "OVERPRICED. Vacherot lacks significant ATP experience compared to Hurkacz, making a 91% win probability unrealistic."
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x975503a86bad2fc870da19a8281cf2d9859378d0bb3579de6d01ce90ea783c9a",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.515682004,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+      "side": "BUY",
+      "asset": "69933905448869077524363933605479492589846435694918114730035288284176995490366",
+      "conditionId": "0xe7766687d19cb7949958a8c50e0b0bd3bdec12b8a2710be1047cb4eee2c49716",
+      "size": 5666.4495,
+      "price": 0.9,
+      "timestamp": 1775762385,
+      "title": "Rolex Monte Carlo Masters: Valentin Vacherot vs Hubert Hurkacz",
+      "slug": "atp-vachero-hurkacz-2026-04-09",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/atp-tour-b4390c4fb8.jpg",
+      "eventSlug": "atp-vachero-hurkacz-2026-04-09",
+      "outcome": "Valentin Vacherot",
+      "outcomeIndex": 0,
+      "name": "swisstony",
+      "pseudonym": "Frail-Possible",
+      "bio": "loincloth chic",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x975503a86bad2fc870da19a8281cf2d9859378d0bb3579de6d01ce90ea783c9a",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Rolex Monte Carlo Masters: Valentin Vacherot vs Hubert Hurkacz",
+    "market_slug": "atp-vachero-hurkacz-2026-04-09",
+    "amount": 5099.80455,
+    "ai_context": "OVERPRICED  \nVacherot lacks experience against top-tier players like Hurkacz, making 90% unrealistic given the competition level."
   }
 ]
