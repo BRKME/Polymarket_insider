@@ -2,36 +2,6 @@
   {
     "market": "Will Andy Beshear win the 2028 Democratic presidential nomination?",
     "market_slug": "will-andy-beshear-win-the-2028-democratic-presidential-nomination-832",
-    "wallet": "0xd4239da486af1c6d070178df34762038412d28ed",
-    "analysis": {
-      "score": 85,
-      "flags": [
-        "New wallet (0d old)",
-        "Extreme confidence (97.2% odds)",
-        "Large bet ($1,730)"
-      ],
-      "amount": 1730.1599999999999,
-      "odds": 0.972,
-      "wallet_age_days": 0,
-      "total_activities": 23
-    },
-    "timestamp": "2026-02-06T20:18:29.486102",
-    "trade_hash": "0x70e17f0dc40f5c7b619ab847f9693a4b6f6a2ae4e10d7fc490ca9cc61bfb7e03",
-    "trade_timestamp": 1770408969,
-    "latency": null,
-    "wallet_stats": null,
-    "trade_data": {
-      "outcome": "No",
-      "side": "BUY",
-      "price": 0.972,
-      "size": 1780.0,
-      "amount": 1730.1599999999999
-    },
-    "resolution_last_check": "2026-03-29T06:55:02.715049+00:00"
-  },
-  {
-    "market": "Will Andy Beshear win the 2028 Democratic presidential nomination?",
-    "market_slug": "will-andy-beshear-win-the-2028-democratic-presidential-nomination-832",
     "wallet": "0x4c9f8d0037f511eb18086272d9e15ae2351855ef",
     "analysis": {
       "score": 85,
@@ -34524,5 +34494,50 @@
     "market_slug": "atp-vachero-hurkacz-2026-04-09",
     "amount": 5099.80455,
     "ai_context": "OVERPRICED  \nVacherot lacks experience against top-tier players like Hurkacz, making 90% unrealistic given the competition level."
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xd10fb39766aed9e100138c65df57a82a79d9244e3d5a6adfad9236066f8eb948",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.51568201,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xe1a24206ed13433b70c603424c8a616b691d14b8",
+      "side": "BUY",
+      "asset": "9372359922810277767390340801612972188675975186959338151785685530743340548590",
+      "conditionId": "0x777cfed7e6db9f8708bf66a8574cb03073cb927635f15e15a76f78ebf449026f",
+      "size": 6000,
+      "price": 0.51,
+      "timestamp": 1775768389,
+      "title": "Penguins vs. Devils",
+      "slug": "nhl-pit-nj-2026-04-09",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nhl.png",
+      "eventSlug": "nhl-pit-nj-2026-04-09",
+      "outcome": "Penguins",
+      "outcomeIndex": 0,
+      "name": "sss.tier",
+      "pseudonym": "Woeful-Chart",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xd10fb39766aed9e100138c65df57a82a79d9244e3d5a6adfad9236066f8eb948",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Penguins vs. Devils",
+    "market_slug": "nhl-pit-nj-2026-04-09",
+    "amount": 3060.0,
+    "ai_context": "\u2705 COPY  \nThe odds suggest a fair assessment of the Penguins' chances, and the bet size indicates strong confidence from the trader."
   }
 ]
