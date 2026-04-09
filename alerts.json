@@ -1,42 +1,5 @@
 [
   {
-    "market": "US x Iran meeting by February 13, 2026?",
-    "market_slug": "us-x-iran-meeting-by-february-13-2026",
-    "wallet": "0xe8a2057abd53d285f7bea590b8f1dff1f04454c2",
-    "analysis": {
-      "score": 85,
-      "flags": [
-        "Extreme confidence (95.4% odds)",
-        "Large bet ($1,547)",
-        "Pre-event latency: 8831m"
-      ],
-      "amount": 1547.1662,
-      "odds": 0.9539926500511783,
-      "wallet_age_days": 7,
-      "total_activities": 100
-    },
-    "timestamp": "2026-02-06T20:52:23.688823",
-    "trade_hash": "0x81495949784422fc50b6d81e8ce94b8b2e121de742a99211cf6e4e9c6c4a1b19",
-    "trade_timestamp": 1770410967,
-    "latency": {
-      "latency_seconds": 529833.0,
-      "latency_minutes": 8830.55,
-      "is_pre_event": true,
-      "severity": "CRITICAL",
-      "trade_time": "2026-02-06T20:49:27+00:00",
-      "event_time": "2026-02-13T00:00:00+00:00"
-    },
-    "wallet_stats": null,
-    "trade_data": {
-      "outcome": "Yes",
-      "side": "BUY",
-      "price": 0.9539926500511783,
-      "size": 1621.78,
-      "amount": 1547.1662
-    },
-    "resolution_last_check": "2026-03-29T06:55:03.378238+00:00"
-  },
-  {
     "market": "Will Ron DeSantis win the 2028 Republican presidential nomination?",
     "market_slug": "will-ron-desantis-win-the-2028-republican-presidential-nomination",
     "wallet": "0x8bb7cfc810d991bc37e37b552d31699febd63f74",
@@ -34554,5 +34517,50 @@
     "market_slug": "nhl-tor-nyi-2026-04-09",
     "amount": 36924.1056,
     "ai_context": "\u2705 COPY  \nThe odds suggest the Islanders are undervalued; strong performance and favorable matchup increase likelihood of winning."
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x6ae7e6d2cf7b1339b01801a855e2e250ee5f81742960175edb3f26169e20e8fd",
+    "wallet": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
+    "trader": {
+      "rank": 18,
+      "address": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
+      "username": "GamblingIsAllYouNeed",
+      "profit": 4450403.432946065,
+      "volume": 327178081.325298,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x12ec6d71325afac2b4d25b3de94185e2c48d41ae",
+      "side": "BUY",
+      "asset": "78108883873731751444585823432571874375565409313122849324303960320208551479629",
+      "conditionId": "0x29059fdef7014dded7d53c5cf8585078265ed56e41de310573ee14acd926ddca",
+      "size": 13000,
+      "price": 0.22243548461538462,
+      "timestamp": 1775776493,
+      "title": "Bulls vs. Wizards",
+      "slug": "nba-chi-was-2026-04-09",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
+      "eventSlug": "nba-chi-was-2026-04-09",
+      "outcome": "Wizards",
+      "outcomeIndex": 1,
+      "name": "olegio",
+      "pseudonym": "Pushy-Program",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x6ae7e6d2cf7b1339b01801a855e2e250ee5f81742960175edb3f26169e20e8fd",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Bulls vs. Wizards",
+    "market_slug": "nba-chi-was-2026-04-09",
+    "amount": 2891.6613,
+    "ai_context": "\u274c SKIP  \nThe odds for the Wizards at 22% seem too low given their potential strength against the Bulls. Market efficiency may be lacking."
   }
 ]
