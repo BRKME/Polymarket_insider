@@ -1,35 +1,5 @@
 [
   {
-    "market": "Will Andy Beshear win the 2028 Democratic presidential nomination?",
-    "market_slug": "will-andy-beshear-win-the-2028-democratic-presidential-nomination-832",
-    "wallet": "0x4c9f8d0037f511eb18086272d9e15ae2351855ef",
-    "analysis": {
-      "score": 85,
-      "flags": [
-        "New wallet (0d old)",
-        "Extreme confidence (97.2% odds)",
-        "Large bet ($1,730)"
-      ],
-      "amount": 1730.1599999999999,
-      "odds": 0.972,
-      "wallet_age_days": 0,
-      "total_activities": 22
-    },
-    "timestamp": "2026-02-06T20:18:30.367469",
-    "trade_hash": "0x0bff65e5bb807908a815ccf57fcbdeceea2cb5746be70e4779f3bcc2fb726a48",
-    "trade_timestamp": 1770408967,
-    "latency": null,
-    "wallet_stats": null,
-    "trade_data": {
-      "outcome": "No",
-      "side": "BUY",
-      "price": 0.972,
-      "size": 1780.0,
-      "amount": 1730.1599999999999
-    },
-    "resolution_last_check": "2026-03-29T06:55:02.715061+00:00"
-  },
-  {
     "market": "US x Iran meeting by February 13, 2026?",
     "market_slug": "us-x-iran-meeting-by-february-13-2026",
     "wallet": "0xe8a2057abd53d285f7bea590b8f1dff1f04454c2",
@@ -34539,5 +34509,50 @@
     "market_slug": "nhl-pit-nj-2026-04-09",
     "amount": 3060.0,
     "ai_context": "\u2705 COPY  \nThe odds suggest a fair assessment of the Penguins' chances, and the bet size indicates strong confidence from the trader."
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xe007d16c176e3c6f000bf048b738ecbdd3b4fcb6ae3003e59d33f494509c4c1f",
+    "wallet": "0x863134d00841b2e200492805a01e1e2f5defaa53",
+    "trader": {
+      "rank": 6,
+      "address": "0x863134d00841b2e200492805a01e1e2f5defaa53",
+      "username": "RepTrump",
+      "profit": 7532409.671579,
+      "volume": 13983231.103425,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x26437896ed9dfeb2f69765edcafe8fdceaab39ae",
+      "side": "BUY",
+      "asset": "24708477020502080529182226975397565107450435776753302895215752821621643729536",
+      "conditionId": "0x7c3b994d5a05758d4f0e69b3db51f8ff3589259ebf41c5c6bdd7ccf0cbb7c6ba",
+      "size": 51283.48,
+      "price": 0.72,
+      "timestamp": 1775773791,
+      "title": "Maple Leafs vs. Islanders",
+      "slug": "nhl-tor-nyi-2026-04-09",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nhl.png",
+      "eventSlug": "nhl-tor-nyi-2026-04-09",
+      "outcome": "Islanders",
+      "outcomeIndex": 1,
+      "name": "Latina",
+      "pseudonym": "Impractical-Fondue",
+      "bio": "follow on X: @LATINAXBT",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xe007d16c176e3c6f000bf048b738ecbdd3b4fcb6ae3003e59d33f494509c4c1f",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Maple Leafs vs. Islanders",
+    "market_slug": "nhl-tor-nyi-2026-04-09",
+    "amount": 36924.1056,
+    "ai_context": "\u2705 COPY  \nThe odds suggest the Islanders are undervalued; strong performance and favorable matchup increase likelihood of winning."
   }
 ]
