@@ -69,56 +69,52 @@ def detect_market_type(title: str) -> str:
 # TYPE-SPECIFIC PROMPTS
 # ══════════════════════════════════════════════════════════
 
+SYSTEM = """You are an independent analyst for a prediction market copy-trading bot.
+A top trader just placed a bet. You must give a binary recommendation: COPY or SKIP.
+
+IMPORTANT:
+- The odds shown (e.g. "Thunder @ 69%") mean the trader PAID 69¢ per share of Thunder.
+  If Thunder wins, each share pays $1. So 69% = the market price for that outcome.
+- Do NOT confuse sides. If "Magic @ 81%" — Magic IS the favorite at 81%, not the underdog.
+- Your job: decide if copying this specific bet is smart.
+
+Rules:
+- Start with ✅ COPY or ❌ SKIP
+- Then give 1-2 specific reasons in max 25 words
+- Consider: are the odds fair? Is this team/outcome likely? Is the market efficient?
+- Do NOT invent stats, W-L records, scores, or injury reports
+- If you don't know enough about the teams/topic, reply: NO_DATA"""
+
 PROMPTS = {
-    "sports": """You are an independent sports analyst. Your job is to CHALLENGE bets, not confirm them.
+    "sports": """Market: "{title}"
+Trader bet: {outcome} at {odds:.0f}% (paid {odds:.0f}¢ per share, wins $1 if {outcome} wins)
+Bet size: ${amount:,.0f}
 
-Market: "{title}"
-Bet: {outcome} at {odds:.0f}%
+Should I copy this bet? Consider team strength, home/away, conference tier.""",
 
-Is {odds:.0f}% FAIR, TOO HIGH, or TOO LOW for {outcome}?
-Consider: team tier, home/away patterns, conference strength, historical matchups.
-Start your answer with one of: FAIR | OVERPRICED | UNDERPRICED
-Then explain WHY in max 20 words. Be specific.
-Do NOT invent W-L records or injury reports. If you don't know these teams: NO_DATA""",
+    "politics": """Market: "{title}"
+Trader bet: {outcome} at {odds:.0f}% (paid {odds:.0f}¢ per share, wins $1 if correct)
+Bet size: ${amount:,.0f}
 
-    "politics": """You are an independent political analyst. Your job is to CHALLENGE bets, not confirm them.
+Should I copy this bet? Consider political landscape, incumbent dynamics, precedent.""",
 
-Market: "{title}"
-Bet: {outcome} at {odds:.0f}%
+    "crypto": """Market: "{title}"
+Trader bet: {outcome} at {odds:.0f}% (paid {odds:.0f}¢ per share, wins $1 if correct)
+Bet size: ${amount:,.0f}
 
-Is {odds:.0f}% FAIR, TOO HIGH, or TOO LOW for {outcome}?
-Consider: incumbent advantage, party dynamics, historical precedent, candidate strength.
-Start your answer with one of: FAIR | OVERPRICED | UNDERPRICED
-Then explain WHY in max 20 words. Do NOT invent poll numbers. If unsure: NO_DATA""",
+Should I copy this bet? Consider project fundamentals, market conditions, volatility.""",
 
-    "crypto": """You are an independent crypto analyst. Your job is to CHALLENGE bets, not confirm them.
+    "geopolitics": """Market: "{title}"
+Trader bet: {outcome} at {odds:.0f}% (paid {odds:.0f}¢ per share, wins $1 if correct)
+Bet size: ${amount:,.0f}
 
-Market: "{title}"
-Bet: {outcome} at {odds:.0f}%
+Should I copy this bet? Consider diplomatic trajectory, escalation risk, historical precedent.""",
 
-Is {odds:.0f}% FAIR, TOO HIGH, or TOO LOW for {outcome}?
-Consider: project fundamentals, market cap tier, narrative momentum, volatility.
-Start your answer with one of: FAIR | OVERPRICED | UNDERPRICED
-Then explain WHY in max 20 words. Do NOT invent prices. If unsure: NO_DATA""",
+    "other": """Market: "{title}"
+Trader bet: {outcome} at {odds:.0f}% (paid {odds:.0f}¢ per share, wins $1 if correct)
+Bet size: ${amount:,.0f}
 
-    "geopolitics": """You are an independent geopolitical analyst. Your job is to CHALLENGE bets, not confirm them.
-
-Market: "{title}"
-Bet: {outcome} at {odds:.0f}%
-
-Is {odds:.0f}% FAIR, TOO HIGH, or TOO LOW for {outcome}?
-Consider: diplomatic trajectory, military posture, historical precedent, escalation risk.
-Start your answer with one of: FAIR | OVERPRICED | UNDERPRICED
-Then explain WHY in max 20 words. Do NOT invent events. If unsure: NO_DATA""",
-
-    "other": """You are an independent analyst. Your job is to CHALLENGE bets, not confirm them.
-
-Market: "{title}"
-Bet: {outcome} at {odds:.0f}%
-
-Is {odds:.0f}% FAIR, TOO HIGH, or TOO LOW for {outcome}?
-Start your answer with one of: FAIR | OVERPRICED | UNDERPRICED
-Then explain WHY in max 20 words. If unsure: NO_DATA""",
+Should I copy this bet?""",
 }
 
 
@@ -134,7 +130,7 @@ def generate_trade_context(
     amount: float = 0,
 ) -> Optional[str]:
     """
-    Generate one-line context for a trade alert.
+    Generate binary COPY/SKIP recommendation.
     Returns None on error or if GPT has no useful context.
     """
     if not market_title or not OPENAI_API_KEY:
@@ -147,13 +143,17 @@ def generate_trade_context(
         title=market_title,
         outcome=outcome,
         odds=odds_pct,
+        amount=amount,
     )
 
     try:
         client = OpenAI(api_key=OPENAI_API_KEY)
         response = client.chat.completions.create(
             model="gpt-4o-mini",
-            messages=[{"role": "user", "content": prompt}],
+            messages=[
+                {"role": "system", "content": SYSTEM},
+                {"role": "user", "content": prompt},
+            ],
             max_tokens=80,
             temperature=0.3,
         )
@@ -168,7 +168,7 @@ def generate_trade_context(
         if len(text) > 150:
             text = text[:147] + "..."
 
-        logger.info(f"  AI context [{market_type}]: {text[:80]}")
+        logger.info(f"  AI [{market_type}]: {text[:80]}")
         return text
 
     except Exception as e:

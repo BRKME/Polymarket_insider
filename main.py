@@ -376,17 +376,16 @@ def main():
         if trade_hash and trade_hash in tracked_hashes:
             continue
         
-        # Generate AI context (cheap, ~$0.002 per call)
+        # Generate AI context (cheap, ~$0.003 per call)
         try:
             from ai_context import generate_trade_context
-            from notifier import _is_second_in_vs_title
             
             trade = alert.get('trade', {})
             outcome_name = trade.get('outcome', 'Unknown')
             market_name = alert.get('market', '')
             price = float(trade.get('price', 0.5))
-            is_second = _is_second_in_vs_title(str(outcome_name), market_name)
-            odds_pct = (1 - price) * 100 if is_second else price * 100
+            # price IS the specific token price — no conversion needed
+            odds_pct = price * 100
             
             context = generate_trade_context(
                 market_title=market_name,
@@ -397,9 +396,9 @@ def main():
             )
             if context:
                 alert['ai_context'] = context
-                print(f"[{datetime.now()}] 🤖 AI context: {context[:80]}")
+                print(f"[{datetime.now()}] 🤖 AI: {context[:80]}")
         except Exception as e:
-            print(f"[{datetime.now()}] ⚠️  AI context skipped: {e}")
+            print(f"[{datetime.now()}] ⚠️  AI skipped: {e}")
         
         if send_top_trader_alert(alert):
             if trade_hash:
