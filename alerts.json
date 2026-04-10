@@ -1,35 +1,5 @@
 [
   {
-    "market": "Will Ron DeSantis win the 2028 Republican presidential nomination?",
-    "market_slug": "will-ron-desantis-win-the-2028-republican-presidential-nomination",
-    "wallet": "0x027a4d34e77da6cb14d8b93ddb812014ec69720d",
-    "analysis": {
-      "score": 85,
-      "flags": [
-        "New wallet (0d old)",
-        "Extreme confidence (97.6% odds)",
-        "Large bet ($1,679)"
-      ],
-      "amount": 1678.72,
-      "odds": 0.976,
-      "wallet_age_days": 0,
-      "total_activities": 29
-    },
-    "timestamp": "2026-02-06T21:47:12.337675",
-    "trade_hash": "0x8cc3380454e7cce272c540ec1f914f0288a139efb595fdcea892faccf0dc9707",
-    "trade_timestamp": 1770414243,
-    "latency": null,
-    "wallet_stats": null,
-    "trade_data": {
-      "outcome": "No",
-      "side": "SELL",
-      "price": 0.976,
-      "size": 1720.0,
-      "amount": 1678.72
-    },
-    "resolution_last_check": "2026-03-29T06:55:04.027588+00:00"
-  },
-  {
     "market": "Jeffrey Epstein confirmed to be alive before 2027?",
     "market_slug": "is-jeffrey-epstein-alive-498",
     "wallet": "0xffed687882ea20e77879f0cf0897060c49554706",
@@ -34578,5 +34548,113 @@
     "amount": 19851.307236,
     "ai_context": "\u2705 COPY  \nThe odds suggest strong confidence in the Nuggets, likely reflecting their superior team strength and performance.",
     "resolution_last_check": "2026-04-10T07:23:43.779922+00:00"
+  },
+  {
+    "market": "Will the next Prime Minister of Hungary be P\u00e9ter Magyar?",
+    "market_slug": "will-the-next-prime-minister-of-hungary-be-pter-magyar",
+    "event_slug": "will-the-next-prime-minister-of-hungary-be-pter-magyar",
+    "wallet": "0x197dc1b08f96a0046883e2b03f120b716300dc5b",
+    "analysis": {
+      "score": 70,
+      "flags": [
+        "New wallet (0d old)",
+        "Large bet ($2,000)",
+        "Low activity (1 txns)"
+      ],
+      "amount": 1999.999998,
+      "odds": 0.72,
+      "raw_price": 0.72,
+      "outcome": "Yes",
+      "potential_pnl": 777.777777,
+      "pnl_multiplier": 0.3888888888888889,
+      "wallet_age_days": 0,
+      "total_activities": 1
+    },
+    "timestamp": "2026-04-10T10:07:42.723789",
+    "trade_hash": "0xc24e48f514372c255f11b6c8ac13384c2817777232fc1679ad7b23588c3ec95b",
+    "trade_timestamp": 1775815347,
+    "latency": null,
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "Yes",
+      "outcomeIndex": 0,
+      "normalized_position": "YES",
+      "side": "BUY",
+      "price": 0.72,
+      "effective_price": 0.72,
+      "size": 2777.777775,
+      "amount": 1999.999998,
+      "potential_pnl": 777.777777,
+      "pnl_multiplier": 0.3888888888888889,
+      "is_no": false,
+      "slug": "will-the-next-prime-minister-of-hungary-be-pter-magyar",
+      "eventSlug": "next-prime-minister-of-hungary"
+    },
+    "irrationality": {
+      "irrationality_score": 35,
+      "flags": [
+        "Large mispricing edge (+43.6%)"
+      ],
+      "category": "other",
+      "category_info": {
+        "strength": "medium",
+        "typical_overpricing": 0.03,
+        "min_edge": 0.05
+      },
+      "is_irrational": true
+    },
+    "mispricing": {
+      "rational_estimate": 0.284,
+      "market_price": 0.72,
+      "edge": 0.436,
+      "edge_percent": 43.6,
+      "min_edge_required": 0.03,
+      "is_mispriced": true,
+      "edge_quality": "STRONG",
+      "base_rate_class": "common",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "common",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "P\u00e9ter Magyar secures significant party support",
+          "Favorable public opinion polls for Magyar",
+          "Political landscape shifts in favor of Magyar"
+        ],
+        "weakest_link": "Favorable public opinion polls for Magyar"
+      },
+      "category": "politics_near",
+      "narrative_drivers": [
+        "Political instability in Hungary",
+        "Emergence of new political alliances"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "CONFLICT",
+      "signal_emoji": "\u26a0\ufe0f",
+      "signal_strength": 70,
+      "interpretation": "Insider buying YES despite statistical overpricing",
+      "action_suggestion": "Requires manual analysis: insider may have real info OR is part of irrational crowd",
+      "insider_score": 70,
+      "insider_position": "YES",
+      "irrationality_score": 35,
+      "is_irrational": true,
+      "is_mispriced": true,
+      "edge": 0.436,
+      "edge_percent": 43.6
+    },
+    "log_only": true,
+    "financial_analyst": {
+      "signal_quality": 46.0,
+      "stance": "WATCH_ONLY",
+      "edge_percent": 43.6,
+      "signal_strength": 70.0,
+      "insider_score": 70.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    }
   }
 ]
