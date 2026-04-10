@@ -1,73 +1,5 @@
 [
   {
-    "market": "Jeffrey Epstein confirmed to be alive before 2027?",
-    "market_slug": "is-jeffrey-epstein-alive-498",
-    "wallet": "0xffed687882ea20e77879f0cf0897060c49554706",
-    "analysis": {
-      "score": 95,
-      "flags": [
-        "New wallet (0d old)",
-        "Against trend (7.4% odds)",
-        "Large bet ($5,774)",
-        "Low activity (1 txns)"
-      ],
-      "amount": 5774.3699990000005,
-      "odds": 0.07444795131183997,
-      "wallet_age_days": 0,
-      "total_activities": 1
-    },
-    "timestamp": "2026-02-06T21:47:33.000489",
-    "trade_hash": "0x242377d11acf46f7a028cab252ee7632bf2183e3f577b8ad01219a2052a89905",
-    "trade_timestamp": 1770414193,
-    "latency": null,
-    "wallet_stats": null,
-    "trade_data": {
-      "outcome": "Yes",
-      "side": "BUY",
-      "price": 0.07444795131183997,
-      "size": 77562.510415,
-      "amount": 5774.3699990000005
-    },
-    "resolution_last_check": "2026-03-29T06:55:04.673339+00:00"
-  },
-  {
-    "market": "Will the price of Bitcoin be above $78,000 on February 9?",
-    "market_slug": "bitcoin-above-78k-on-february-9",
-    "wallet": "0xa42f127d7e8df9f16881ffcc9ed0bc0326875f5a",
-    "analysis": {
-      "score": 85,
-      "flags": [
-        "Extreme confidence (96.5% odds)",
-        "Large bet ($1,072)",
-        "Pre-event latency: 2922m"
-      ],
-      "amount": 1072.259992,
-      "odds": 0.9647743408626627,
-      "wallet_age_days": 24,
-      "total_activities": 100
-    },
-    "timestamp": "2026-02-06T23:27:11.118774",
-    "trade_hash": "0x21cb392a4229a4ec5bf55e5f0ea008e86ba59e2da090871717061771690fa06f",
-    "trade_timestamp": 1770419871,
-    "latency": {
-      "latency_seconds": 175329.0,
-      "latency_minutes": 2922.15,
-      "is_pre_event": true,
-      "severity": "CRITICAL",
-      "trade_time": "2026-02-06T23:17:51+00:00",
-      "event_time": "2026-02-09T00:00:00+00:00"
-    },
-    "wallet_stats": null,
-    "trade_data": {
-      "outcome": "No",
-      "side": "BUY",
-      "price": 0.9647743408626627,
-      "size": 1111.410147,
-      "amount": 1072.259992
-    },
-    "resolution_last_check": "2026-03-29T06:55:05.345348+00:00"
-  },
-  {
     "market": "US strikes Iran by February 13, 2026?",
     "market_slug": "us-strikes-iran-by-february-13-2026-721-759-497-124-197-797-992-641-418-789-676-262",
     "wallet": "0x7b02b2bac2a30ed5e40b7094e734f4c3dc2a4991",
@@ -34653,6 +34585,220 @@
       "stance": "WATCH_ONLY",
       "edge_percent": 43.6,
       "signal_strength": 70.0,
+      "insider_score": 70.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    }
+  },
+  {
+    "market": "Arizona Diamondbacks vs. Philadelphia Phillies",
+    "market_slug": "mlb-ari-phi-2026",
+    "event_slug": "mlb-ari-phi-2026",
+    "wallet": "0xec4e470589f8c27e9d3e66b2964d7d62734261bd",
+    "analysis": {
+      "score": 70,
+      "flags": [
+        "New wallet (0d old)",
+        "Large bet ($3,704)",
+        "Low activity (4 txns)"
+      ],
+      "amount": 3704.4472006015835,
+      "odds": 0.559999999982099,
+      "raw_price": 0.559999999982099,
+      "outcome": "Philadelphia Phillies",
+      "potential_pnl": 2910.637086398416,
+      "pnl_multiplier": 0.7857142857713678,
+      "wallet_age_days": 0,
+      "total_activities": 4
+    },
+    "timestamp": "2026-04-10T20:01:03.146736",
+    "trade_hash": "0x8c1be35b65b5663c997982be6f956b07f261a3361a7486876f8cf96617c1de79",
+    "trade_timestamp": 1775850779,
+    "latency": null,
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "Philadelphia Phillies",
+      "outcomeIndex": 1,
+      "normalized_position": "NO",
+      "side": "BUY",
+      "price": 0.559999999982099,
+      "effective_price": 0.559999999982099,
+      "size": 6615.084287,
+      "amount": 3704.4472006015835,
+      "potential_pnl": 2910.637086398416,
+      "pnl_multiplier": 0.7857142857713678,
+      "is_no": false,
+      "slug": "mlb-ari-phi-2026",
+      "eventSlug": "mlb-ari-phi-2026-04-11"
+    },
+    "irrationality": {
+      "irrationality_score": 35,
+      "flags": [
+        "Large mispricing edge (+30.8%)"
+      ],
+      "category": "sports",
+      "category_info": {
+        "strength": "medium",
+        "typical_overpricing": 0.03,
+        "min_edge": 0.05
+      },
+      "is_irrational": true
+    },
+    "mispricing": {
+      "rational_estimate": 0.2519999999964198,
+      "market_price": 0.559999999982099,
+      "edge": 0.30799999998567923,
+      "edge_percent": 30.799999998567923,
+      "min_edge_required": 0.05,
+      "is_mispriced": true,
+      "edge_quality": "STRONG",
+      "base_rate_class": "common",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "common",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "Diamondbacks maintain consistent performance",
+          "Phillies face significant injuries",
+          "External factors favor Diamondbacks (e.g., weather, home field advantage)"
+        ],
+        "weakest_link": "Phillies face significant injuries"
+      },
+      "category": "sports",
+      "narrative_drivers": [
+        "Diamondbacks' recent winning streak",
+        "Phillies' inconsistent pitching staff"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "ALPHA",
+      "signal_emoji": "\ud83d\udd25",
+      "signal_strength": 105,
+      "interpretation": "Smart money (NO) confirms YES is overpriced",
+      "action_suggestion": "High conviction: insider + statistics aligned",
+      "insider_score": 70,
+      "insider_position": "NO",
+      "irrationality_score": 35,
+      "is_irrational": true,
+      "is_mispriced": true,
+      "edge": 0.30799999998567923,
+      "edge_percent": 30.799999998567923
+    },
+    "financial_analyst": {
+      "signal_quality": 81.0,
+      "stance": "HIGH_CONVICTION",
+      "edge_percent": 30.8,
+      "signal_strength": 105.0,
+      "insider_score": 70.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    }
+  },
+  {
+    "market": "San Francisco Giants vs. Baltimore Orioles",
+    "market_slug": "mlb-sf-bal-2026",
+    "event_slug": "mlb-sf-bal-2026",
+    "wallet": "0xec4e470589f8c27e9d3e66b2964d7d62734261bd",
+    "analysis": {
+      "score": 70,
+      "flags": [
+        "New wallet (0d old)",
+        "Large bet ($2,403)",
+        "Low activity (4 txns)"
+      ],
+      "amount": 2402.668001502295,
+      "odds": 0.48999999996987703,
+      "raw_price": 0.48999999996987703,
+      "outcome": "Baltimore Orioles",
+      "potential_pnl": 2500.7360834977053,
+      "pnl_multiplier": 1.0408163266560724,
+      "wallet_age_days": 0,
+      "total_activities": 4
+    },
+    "timestamp": "2026-04-10T20:01:07.142482",
+    "trade_hash": "0xce03e9938a06dbd050670f85e797b045b08a923f8dba8ae8b5f5bbffcc32f18d",
+    "trade_timestamp": 1775850857,
+    "latency": null,
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "Baltimore Orioles",
+      "outcomeIndex": 1,
+      "normalized_position": "NO",
+      "side": "BUY",
+      "price": 0.48999999996987703,
+      "effective_price": 0.48999999996987703,
+      "size": 4903.404085,
+      "amount": 2402.668001502295,
+      "potential_pnl": 2500.7360834977053,
+      "pnl_multiplier": 1.0408163266560724,
+      "is_no": false,
+      "slug": "mlb-sf-bal-2026",
+      "eventSlug": "mlb-sf-bal-2026-04-11"
+    },
+    "irrationality": {
+      "irrationality_score": 35,
+      "flags": [
+        "Large mispricing edge (+25.2%)"
+      ],
+      "category": "sports",
+      "category_info": {
+        "strength": "medium",
+        "typical_overpricing": 0.03,
+        "min_edge": 0.05
+      },
+      "is_irrational": true
+    },
+    "mispricing": {
+      "rational_estimate": 0.2379999999939754,
+      "market_price": 0.48999999996987703,
+      "edge": 0.2519999999759016,
+      "edge_percent": 25.19999999759016,
+      "min_edge_required": 0.05,
+      "is_mispriced": true,
+      "edge_quality": "STRONG",
+      "base_rate_class": "common",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "common",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "Giants maintain strong performance throughout the season",
+          "Orioles underperform relative to expectations",
+          "Key injuries to opposing teams"
+        ],
+        "weakest_link": "Orioles underperform relative to expectations"
+      },
+      "category": "sports",
+      "narrative_drivers": [
+        "Giants' recent winning streak",
+        "Public sentiment favoring the Giants"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "ALPHA",
+      "signal_emoji": "\ud83d\udd25",
+      "signal_strength": 105,
+      "interpretation": "Smart money (NO) confirms YES is overpriced",
+      "action_suggestion": "High conviction: insider + statistics aligned",
+      "insider_score": 70,
+      "insider_position": "NO",
+      "irrationality_score": 35,
+      "is_irrational": true,
+      "is_mispriced": true,
+      "edge": 0.2519999999759016,
+      "edge_percent": 25.19999999759016
+    },
+    "financial_analyst": {
+      "signal_quality": 81.0,
+      "stance": "HIGH_CONVICTION",
+      "edge_percent": 25.2,
+      "signal_strength": 105.0,
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
     }
