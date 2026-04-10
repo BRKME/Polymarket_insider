@@ -1,41 +1,5 @@
 [
   {
-    "market": "US strikes Iran by February 13, 2026?",
-    "market_slug": "us-strikes-iran-by-february-13-2026-721-759-497-124-197-797-992-641-418-789-676-262",
-    "wallet": "0x7b02b2bac2a30ed5e40b7094e734f4c3dc2a4991",
-    "analysis": {
-      "score": 85,
-      "flags": [
-        "Against trend (7.0% odds)",
-        "Large bet ($1,483)",
-        "Pre-event latency: 7730m"
-      ],
-      "amount": 1482.6483,
-      "odds": 0.07,
-      "wallet_age_days": 9,
-      "total_activities": 100
-    },
-    "timestamp": "2026-02-07T15:12:47.769566",
-    "trade_hash": "0xd1289280054ca1fedcbf72296322e566c4bef6c8f5d0c6706b7ccd216918eebc",
-    "trade_timestamp": 1770477007,
-    "latency": {
-      "latency_seconds": 463793.0,
-      "latency_minutes": 7729.883333333333,
-      "is_pre_event": true,
-      "severity": "CRITICAL",
-      "trade_time": "2026-02-07T15:10:07+00:00",
-      "event_time": "2026-02-13T00:00:00+00:00"
-    },
-    "wallet_stats": null,
-    "trade_data": {
-      "outcome": "Yes",
-      "side": "BUY",
-      "price": 0.07,
-      "size": 21180.69,
-      "amount": 1482.6483
-    }
-  },
-  {
     "market": "76ers vs. Suns",
     "market_slug": "nba-phi-phx-2026",
     "wallet": "0x94807f36a7a1c57e8e19d7531e75f1b48bd17456",
@@ -34802,5 +34766,113 @@
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
     }
+  },
+  {
+    "market": "Will the next Prime Minister of Hungary be P\u00e9ter Magyar?",
+    "market_slug": "will-the-next-prime-minister-of-hungary-be-pter-magyar",
+    "event_slug": "will-the-next-prime-minister-of-hungary-be-pter-magyar",
+    "wallet": "0x9b7d7d5e676cd28d8b13196301067062ca3306be",
+    "analysis": {
+      "score": 70,
+      "flags": [
+        "New wallet (0d old)",
+        "Large bet ($1,453)",
+        "Low activity (3 txns)"
+      ],
+      "amount": 1453.451612,
+      "odds": 0.6900000001946401,
+      "raw_price": 0.30999999980535986,
+      "outcome": "No",
+      "potential_pnl": 652.9999989999999,
+      "pnl_multiplier": 0.44927536191001854,
+      "wallet_age_days": 0,
+      "total_activities": 3
+    },
+    "timestamp": "2026-04-10T21:07:22.927244",
+    "trade_hash": "0x65b9d7078279b71ce6e46fdb0f36925231d0ac77633742ce047ba6023b4e0d1c",
+    "trade_timestamp": 1775854913,
+    "latency": null,
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "No",
+      "outcomeIndex": 1,
+      "normalized_position": "NO",
+      "side": "BUY",
+      "price": 0.30999999980535986,
+      "effective_price": 0.6900000001946401,
+      "size": 2106.451611,
+      "amount": 1453.451612,
+      "potential_pnl": 652.9999989999999,
+      "pnl_multiplier": 0.44927536191001854,
+      "is_no": true,
+      "slug": "will-the-next-prime-minister-of-hungary-be-pter-magyar",
+      "eventSlug": "next-prime-minister-of-hungary"
+    },
+    "irrationality": {
+      "irrationality_score": 35,
+      "flags": [
+        "Large mispricing edge (+18.8%)"
+      ],
+      "category": "other",
+      "category_info": {
+        "strength": "medium",
+        "typical_overpricing": 0.03,
+        "min_edge": 0.05
+      },
+      "is_irrational": true
+    },
+    "mispricing": {
+      "rational_estimate": 0.12199999996107197,
+      "market_price": 0.30999999980535986,
+      "edge": 0.1879999998442879,
+      "edge_percent": 18.79999998442879,
+      "min_edge_required": 0.03,
+      "is_mispriced": true,
+      "edge_quality": "STRONG",
+      "base_rate_class": "occasional",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "occasional",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "P\u00e9ter Magyar secures a significant political backing within his party",
+          "A major political shift occurs in Hungary favoring Magyar",
+          "Public opinion shifts positively towards Magyar ahead of elections"
+        ],
+        "weakest_link": "Public opinion shifts positively towards Magyar ahead of elections"
+      },
+      "category": "politics_near",
+      "narrative_drivers": [
+        "Political instability in Hungary leading to new leadership",
+        "Emergence of new political alliances or coalitions"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "ALPHA",
+      "signal_emoji": "\ud83d\udd25",
+      "signal_strength": 105,
+      "interpretation": "Smart money (NO) confirms YES is overpriced",
+      "action_suggestion": "High conviction: insider + statistics aligned",
+      "insider_score": 70,
+      "insider_position": "NO",
+      "irrationality_score": 35,
+      "is_irrational": true,
+      "is_mispriced": true,
+      "edge": 0.1879999998442879,
+      "edge_percent": 18.79999998442879
+    },
+    "financial_analyst": {
+      "signal_quality": 81.0,
+      "stance": "HIGH_CONVICTION",
+      "edge_percent": 18.8,
+      "signal_strength": 105.0,
+      "insider_score": 70.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "ai_context": "\u274c SKIP  \nThe odds seem too low for a \"No\" bet on a potential Prime Minister, indicating possible overvaluation of Magyar's chances."
   }
 ]
