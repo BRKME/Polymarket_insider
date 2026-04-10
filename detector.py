@@ -91,31 +91,32 @@ def detect_insider_trades():
                 side = trade.get("side", "BUY")
                 
                 # SELL trades = closing positions, not opening insider bets
-                # Skip them — we only want new position openings
                 if side == "SELL":
                     continue
                 
-                # price = specific outcome token price (NOT always YES price)
-                # cost = size × price for ALL outcomes
-                cost = size * price
-                effective_odds = price
-                is_no = outcome.lower() in ("no", "under")
+                # GENERAL TRADES API: price = YES token price ALWAYS
+                # (different from top trader API where price = specific token price)
+                # For non-binary outcomes (team names), detect side from title
+                outcome_lower = str(outcome).lower()
+                if outcome_lower == "no":
+                    econ_outcome = "No"
+                elif outcome_lower == "yes":
+                    econ_outcome = "Yes"
+                elif outcome_lower == "under":
+                    econ_outcome = "No"
+                elif outcome_lower == "over":
+                    econ_outcome = "Yes"
+                else:
+                    # Team/player name: detect from title
+                    from notifier import _is_second_in_vs_title
+                    condition_id = trade.get("conditionId", "")
+                    market = next((m for m in markets if m.get("conditionId") == condition_id), {})
+                    market_title = market.get("question", "")
+                    econ_outcome = "No" if _is_second_in_vs_title(outcome, market_title) else "Yes"
                 
-                # For trade_economics compatibility (still needed for some display logic)
-                econ = trade_economics.calculate(size, price, outcome)
-                # Override with correct values
-                econ = trade_economics.TradeEconomics(
-                    outcome=outcome,
-                    is_no=is_no,
-                    raw_price=price,
-                    effective_odds=effective_odds,
-                    cost=cost,
-                    tokens=size,
-                    potential_profit=(size - cost) if cost > 0 else 0,
-                    pnl_multiplier=((size - cost) / cost) if cost > 0 else 0,
-                    roi_percent=(((size - cost) / cost) * 100) if cost > 0 else 0,
-                )
+                econ = trade_economics.calculate(size, price, econ_outcome)
                 
+                is_no = econ.is_no
                 amount = econ.cost
                 effective_odds = econ.effective_odds
                 

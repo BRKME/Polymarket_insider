@@ -356,6 +356,31 @@ def main():
             print(f"[{datetime.now()}] 📋 LOG_ONLY: {alert.get('market', '')[:60]} (saved, no Telegram)")
             continue
 
+        # Generate AI context for insider alerts
+        try:
+            from ai_context import generate_trade_context
+            
+            trade_data = alert.get('trade_data', {})
+            outcome_name = trade_data.get('outcome', 'Yes')
+            market_name = alert.get('market', '')
+            # General trades API: raw_price = YES token price
+            raw_price = float(trade_data.get('price', 0.5))
+            # For second-team outcomes: their token price = 1 - raw_price
+            effective_price = (1 - raw_price) if trade_data.get('is_no') else raw_price
+            odds_pct = effective_price * 100
+            
+            context = generate_trade_context(
+                market_title=market_name,
+                outcome=str(outcome_name),
+                odds_pct=odds_pct,
+                amount=float(alert.get('analysis', {}).get('amount', 0)),
+            )
+            if context:
+                alert['ai_context'] = context
+                print(f"[{datetime.now()}] 🤖 AI: {context[:80]}")
+        except Exception as e:
+            print(f"[{datetime.now()}] ⚠️  AI skipped: {e}")
+
         if send_telegram_alert(alert):
             if trade_hash:
                 tracked_hashes.add(trade_hash)

@@ -123,6 +123,45 @@ def _is_second_in_vs_title(outcome_name: str, market_title: str) -> bool:
     return False
 
 
+def _extract_opponent_name(outcome_name: str, market_title: str) -> str:
+    """
+    Extract the OTHER team/player name from an 'X vs Y' title.
+    
+    Examples:
+    - outcome="Philadelphia Phillies", title="Arizona Diamondbacks vs. Philadelphia Phillies"
+      → "Arizona Diamondbacks"
+    - outcome="Thunder", title="Thunder vs. Clippers" → "Clippers"
+    """
+    if not outcome_name or not market_title:
+        return "Opponent"
+    
+    vs_match = re.search(r'\bvs\.?\s+', market_title, re.IGNORECASE)
+    if not vs_match:
+        return "Opponent"
+    
+    before_vs = market_title[:vs_match.start()].strip()
+    after_vs = market_title[vs_match.end():].strip()
+    
+    # Remove prefixes like "Copa Colsanitas: " and suffixes like ": O/U 228.5"
+    before_vs = re.sub(r'^.*?:\s*', '', before_vs).strip()
+    after_vs = re.sub(r'\s*:.*$', '', after_vs).strip()
+    
+    outcome_lower = outcome_name.lower().strip()
+    
+    if outcome_lower in after_vs.lower():
+        return before_vs
+    if outcome_lower in before_vs.lower():
+        return after_vs
+    
+    outcome_last = outcome_lower.split()[-1] if outcome_lower.split() else ""
+    if outcome_last and outcome_last in after_vs.lower():
+        return before_vs
+    if outcome_last and outcome_last in before_vs.lower():
+        return after_vs
+    
+    return "Opponent"
+
+
 def determine_position(trade_data, odds):
     """
     Determine position from trade data.
@@ -645,15 +684,16 @@ def format_institutional_alert(alert):
     elif outcome_lower in ('over', 'under'):
         side_a, side_b = "Over", "Under"
     else:
-        # Sports: detect which side the outcome is on using title
+        # Sports: extract BOTH team names from "X vs Y" in title
         market_title = alert.get('market', '') or trade_data.get('title', '')
         is_second = _is_second_in_vs_title(str(outcome_name), market_title)
+        other_name = _extract_opponent_name(str(outcome_name), market_title)
         if is_second:
-            side_a = "Opponent"
+            side_a = other_name
             side_b = str(outcome_name)
         else:
             side_a = str(outcome_name)
-            side_b = "Opponent"
+            side_b = other_name
     
     # Determine which side stats favor
     if edge_percent > 0:
@@ -753,6 +793,11 @@ Bet: ${amount:,.0f} {trade_info['position']}"""
     if edge_percent > 15:
         risks.append(f"Large mispricing ({edge_percent:+.0f}%)")
     
+    # AI context (if available) — before verdict
+    ai_context = alert.get('ai_context')
+    if ai_context:
+        message += f"\n\n🤖 AI\n→ {ai_context}"
+
     message += f"""
 
 VERDICT: {verdict}
