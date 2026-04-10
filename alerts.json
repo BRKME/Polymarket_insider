@@ -2,36 +2,6 @@
   {
     "market": "Will Ron DeSantis win the 2028 Republican presidential nomination?",
     "market_slug": "will-ron-desantis-win-the-2028-republican-presidential-nomination",
-    "wallet": "0x8bb7cfc810d991bc37e37b552d31699febd63f74",
-    "analysis": {
-      "score": 85,
-      "flags": [
-        "New wallet (0d old)",
-        "Extreme confidence (97.6% odds)",
-        "Large bet ($1,679)"
-      ],
-      "amount": 1678.72,
-      "odds": 0.976,
-      "wallet_age_days": 0,
-      "total_activities": 26
-    },
-    "timestamp": "2026-02-06T21:47:08.382804",
-    "trade_hash": "0xba1c2ec8ec485610e542664bd4778b90907a6fe12e79772304f795b51ce97031",
-    "trade_timestamp": 1770414301,
-    "latency": null,
-    "wallet_stats": null,
-    "trade_data": {
-      "outcome": "No",
-      "side": "SELL",
-      "price": 0.976,
-      "size": 1720.0,
-      "amount": 1678.72
-    },
-    "resolution_last_check": "2026-03-29T06:55:04.027577+00:00"
-  },
-  {
-    "market": "Will Ron DeSantis win the 2028 Republican presidential nomination?",
-    "market_slug": "will-ron-desantis-win-the-2028-republican-presidential-nomination",
     "wallet": "0x027a4d34e77da6cb14d8b93ddb812014ec69720d",
     "analysis": {
       "score": 85,
@@ -34562,5 +34532,50 @@
     "market_slug": "nba-chi-was-2026-04-09",
     "amount": 2891.6613,
     "ai_context": "\u274c SKIP  \nThe odds for the Wizards at 22% seem too low given their potential strength against the Bulls. Market efficiency may be lacking."
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x022bd3ffa2110b2c6a016eae223f35f2951b2dc99d50d8da5c79392717a27c80",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.51568201,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x575a227b3d9369b06a4aeffb3ab820b407f3bba6",
+      "side": "BUY",
+      "asset": "109024127569407483994653154191859332262858905496142888757502388329747218091337",
+      "conditionId": "0x731d3440369f4e92d0223215323645ac6b3b40c19f2fe03885ec7dc3ce1abad1",
+      "size": 26120.1411,
+      "price": 0.76,
+      "timestamp": 1775794199,
+      "title": "Thunder vs. Nuggets",
+      "slug": "nba-okc-den-2026-04-10",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
+      "eventSlug": "nba-okc-den-2026-04-10",
+      "outcome": "Nuggets",
+      "outcomeIndex": 1,
+      "name": "qqq89",
+      "pseudonym": "Jaunty-Network",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x022bd3ffa2110b2c6a016eae223f35f2951b2dc99d50d8da5c79392717a27c80",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Thunder vs. Nuggets",
+    "market_slug": "nba-okc-den-2026-04-10",
+    "amount": 19851.307236,
+    "ai_context": "\u2705 COPY  \nThe odds suggest strong confidence in the Nuggets, likely reflecting their superior team strength and performance."
   }
 ]
