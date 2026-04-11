@@ -1,42 +1,5 @@
 [
   {
-    "market": "LoL: DRX vs Nongshim Red Force - Game 3 Winner",
-    "market_slug": "lol-drx-ns-2026-02-08-game3",
-    "wallet": "0x5db56d12501f3c52300e194999da136530f05df8",
-    "analysis": {
-      "score": 85,
-      "flags": [
-        "New wallet (1d old)",
-        "Extreme confidence (96.0% effective odds)",
-        "Large bet ($1,036)"
-      ],
-      "amount": 1035.5232,
-      "odds": 0.96,
-      "raw_price": 0.96,
-      "outcome": "DRX",
-      "potential_pnl": 43.14680000000004,
-      "pnl_multiplier": 0.041666666666666706,
-      "wallet_age_days": 1,
-      "total_activities": 100
-    },
-    "timestamp": "2026-02-08T10:20:36.222229",
-    "trade_hash": "0x3342dbcd27846955bc681c9627f4ec660af3970063ac75e524777e2cb2351c4c",
-    "trade_timestamp": 1770545719,
-    "latency": null,
-    "wallet_stats": null,
-    "trade_data": {
-      "outcome": "DRX",
-      "side": "SELL",
-      "price": 0.96,
-      "effective_price": 0.96,
-      "size": 1078.67,
-      "amount": 1035.5232,
-      "potential_pnl": 43.14680000000004,
-      "pnl_multiplier": 0.041666666666666706,
-      "is_no": false
-    }
-  },
-  {
     "market": "Will Bhumjaithai Party (BJT) win the most seats in the 2026 Thai legislative election?",
     "market_slug": "will-bhumjaithai-party-bjt-win-the-most-seats-in-the-2026-thai-legislative-election",
     "wallet": "0x98a1f7612f8132dd3772f33558d03c88997061b6",
@@ -34884,5 +34847,113 @@
     "market_slug": "next-prime-minister-of-hungary",
     "amount": 4900.0,
     "ai_context": "\u274c SKIP  \nThe odds seem high for a potentially uncertain political outcome; the market may not fully reflect the dynamics of Hungarian politics."
+  },
+  {
+    "market": "Will TISZA \u2013 Respect and Freedom Party (TISZA) win the most seats in the next Hungarian parliamentary election?",
+    "market_slug": "will-tisza-respect-and-freedom-party-tisza-win-the-most-seats-in-the-next-hungarian-parliamentary-election",
+    "event_slug": "will-tisza-respect-and-freedom-party-tisza-win-the-most-seats-in-the-next-hungarian-parliamentary-election",
+    "wallet": "0xda75da58a4578f88d3ef0b3116ead22061378022",
+    "analysis": {
+      "score": 70,
+      "flags": [
+        "New wallet (1d old)",
+        "Large bet ($1,457)",
+        "Low activity (4 txns)"
+      ],
+      "amount": 1456.5749999999998,
+      "odds": 0.75,
+      "raw_price": 0.75,
+      "outcome": "Yes",
+      "potential_pnl": 485.52499999999986,
+      "pnl_multiplier": 0.33333333333333326,
+      "wallet_age_days": 1,
+      "total_activities": 4
+    },
+    "timestamp": "2026-04-11T07:38:10.792041",
+    "trade_hash": "0x42c136833916b48c4659e2e0ef47d23d22a2d4703254bc47d8a73d33f6a7fe73",
+    "trade_timestamp": 1775892669,
+    "latency": null,
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "Yes",
+      "outcomeIndex": 0,
+      "normalized_position": "YES",
+      "side": "BUY",
+      "price": 0.75,
+      "effective_price": 0.75,
+      "size": 1942.1,
+      "amount": 1456.5749999999998,
+      "potential_pnl": 485.52499999999986,
+      "pnl_multiplier": 0.33333333333333326,
+      "is_no": false,
+      "slug": "will-tisza-respect-and-freedom-party-tisza-win-the-most-seats-in-the-next-hungarian-parliamentary-election",
+      "eventSlug": "hungary-parliamentary-election-winner"
+    },
+    "irrationality": {
+      "irrationality_score": 35,
+      "flags": [
+        "Large mispricing edge (+46.0%)"
+      ],
+      "category": "other",
+      "category_info": {
+        "strength": "medium",
+        "typical_overpricing": 0.03,
+        "min_edge": 0.05
+      },
+      "is_irrational": true
+    },
+    "mispricing": {
+      "rational_estimate": 0.29000000000000004,
+      "market_price": 0.75,
+      "edge": 0.45999999999999996,
+      "edge_percent": 46.0,
+      "min_edge_required": 0.03,
+      "is_mispriced": true,
+      "edge_quality": "STRONG",
+      "base_rate_class": "common",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "common",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "TISZA maintains strong public support leading up to the election",
+          "TISZA successfully mobilizes voters on election day",
+          "Opposition parties fail to unite or present a strong alternative"
+        ],
+        "weakest_link": "Opposition parties fail to unite or present a strong alternative"
+      },
+      "category": "politics_near",
+      "narrative_drivers": [
+        "Public sentiment towards TISZA's policies and leadership",
+        "Recent electoral trends and voter turnout patterns"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "CONFLICT",
+      "signal_emoji": "\u26a0\ufe0f",
+      "signal_strength": 70,
+      "interpretation": "Insider buying YES despite statistical overpricing",
+      "action_suggestion": "Requires manual analysis: insider may have real info OR is part of irrational crowd",
+      "insider_score": 70,
+      "insider_position": "YES",
+      "irrationality_score": 35,
+      "is_irrational": true,
+      "is_mispriced": true,
+      "edge": 0.45999999999999996,
+      "edge_percent": 46.0
+    },
+    "log_only": true,
+    "financial_analyst": {
+      "signal_quality": 46.0,
+      "stance": "WATCH_ONLY",
+      "edge_percent": 46.0,
+      "signal_strength": 70.0,
+      "insider_score": 70.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    }
   }
 ]
