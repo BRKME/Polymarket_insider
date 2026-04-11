@@ -1,118 +1,5 @@
 [
   {
-    "market": "US strikes Iran by February 25, 2026?",
-    "market_slug": "us-strikes-iran-by-february-25-2026",
-    "wallet": "0x47dcc568e33970cfd99d0924300195d2d8f24342",
-    "analysis": {
-      "score": 90,
-      "flags": [
-        "New wallet (3d old)",
-        "Large bet ($1,997)",
-        "Low activity (4 txns)",
-        "Pre-event latency: 4102m"
-      ],
-      "amount": 1996.9999990000001,
-      "odds": 0.10499025273752684,
-      "raw_price": 0.10499025273752684,
-      "outcome": "Yes",
-      "potential_pnl": 17023.813333000002,
-      "pnl_multiplier": 8.524693711329341,
-      "wallet_age_days": 3,
-      "total_activities": 4
-    },
-    "timestamp": "2026-02-22T03:39:37.943977",
-    "trade_hash": "0x6ac4d0702cc3cb4fae1d966090218d8a1dcdb8c6902915ab9d0e8063e9ff12ef",
-    "trade_timestamp": 1771731496,
-    "latency": {
-      "latency_seconds": 246104.0,
-      "latency_minutes": 4101.733333333334,
-      "is_pre_event": true,
-      "severity": "CRITICAL",
-      "trade_time": "2026-02-22T03:38:16+00:00",
-      "event_time": "2026-02-25T00:00:00+00:00"
-    },
-    "wallet_stats": null,
-    "trade_data": {
-      "outcome": "Yes",
-      "side": "BUY",
-      "price": 0.10499025273752684,
-      "effective_price": 0.10499025273752684,
-      "size": 19020.813332,
-      "amount": 1996.9999990000001,
-      "potential_pnl": 17023.813333000002,
-      "pnl_multiplier": 8.524693711329341,
-      "is_no": false
-    },
-    "irrationality": {
-      "irrationality_score": 58,
-      "flags": [
-        "Longshot (10%) in high bias category (geopolitics)",
-        "Category structurally prone to longshot bias",
-        "Crisis keyword detected ('strike')",
-        "Moderate mispricing edge (+6.0%)"
-      ],
-      "category": "geopolitics",
-      "category_info": {
-        "strength": "high",
-        "typical_overpricing": 0.05,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.04499805054750537,
-      "market_price": 0.10499025273752684,
-      "edge": 0.059992202190021465,
-      "edge_percent": 5.999220219002146,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "MODERATE",
-      "base_rate_class": "rare",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "rare",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Escalation of tensions between the US and Iran",
-          "Political support within the US government for military action",
-          "Public sentiment favoring intervention"
-        ],
-        "weakest_link": "Public sentiment favoring intervention, as it can significantly influence political decisions"
-      },
-      "category": "geopolitics",
-      "narrative_drivers": [
-        "Rising regional conflicts involving Iran",
-        "US foreign policy shifts under changing administrations"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "CONFLICT",
-      "signal_emoji": "\u26a0\ufe0f",
-      "signal_strength": 90,
-      "interpretation": "Insider buying YES despite statistical overpricing",
-      "action_suggestion": "Requires manual analysis: insider may have real info OR is part of irrational crowd",
-      "insider_score": 90,
-      "insider_position": "YES",
-      "irrationality_score": 58,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.059992202190021465,
-      "edge_percent": 5.999220219002146
-    },
-    "financial_analyst": {
-      "signal_quality": 38.6,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 6.0,
-      "signal_strength": 90.0,
-      "insider_score": 90.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "resolution_last_check": "2026-03-29T06:55:14.103852+00:00"
-  },
-  {
     "market": "Will the Colorado Avalanche win the 2026 NHL Stanley Cup?",
     "market_slug": "will-the-colorado-avalanche-win-the-2026-nhl-stanley-cup",
     "wallet": "0x55972446c7db764b26ceb96f3a9cd1888449ef37",
@@ -35039,5 +34926,50 @@
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
     }
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x5693fc89f0580fb378319c4c3bee4f04f3b4ccda790e0860ae1924982c7eda0c",
+    "wallet": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+    "trader": {
+      "rank": 10,
+      "address": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+      "username": "swisstony",
+      "profit": 5929388.454203411,
+      "volume": 644218659.3991587,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xc44f432b014f36679e13615f95996eac32bbd49f",
+      "side": "BUY",
+      "asset": "19915658701376833067298149137505210903163107934060361837731559528940489307328",
+      "conditionId": "0xe263a8eaeb18085d302070c874d3866fa5548d2f13ed9c06bb275e552e09aaf6",
+      "size": 5730.59306,
+      "price": 0.6282744399694921,
+      "timestamp": 1775920253,
+      "title": "LoL: G2 Esports vs Team Vitality - Game 2 Winner",
+      "slug": "lol-g2-vit-2026-04-11-game2",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/league-of-legends-61a4f083a6.png",
+      "eventSlug": "lol-g2-vit-2026-04-11",
+      "outcome": "G2 Esports",
+      "outcomeIndex": 0,
+      "name": "Zywoo123",
+      "pseudonym": "Superb-Steamroller",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x5693fc89f0580fb378319c4c3bee4f04f3b4ccda790e0860ae1924982c7eda0c",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "LoL: G2 Esports vs Team Vitality - Game 2 Winner",
+    "market_slug": "lol-g2-vit-2026-04-11",
+    "amount": 3600.385145464558,
+    "ai_context": "\u2705 COPY  \nG2 Esports at 63% offers value if their chances of winning are higher than implied odds. Strong performance history supports this bet."
   }
 ]
