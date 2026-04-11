@@ -2,108 +2,6 @@
   {
     "market": "Will the Colorado Avalanche win the 2026 NHL Stanley Cup?",
     "market_slug": "will-the-colorado-avalanche-win-the-2026-nhl-stanley-cup",
-    "wallet": "0x55972446c7db764b26ceb96f3a9cd1888449ef37",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($3,802)",
-        "Low activity (1 txns)"
-      ],
-      "amount": 3802.48,
-      "odds": 0.22,
-      "raw_price": 0.22,
-      "outcome": "Yes",
-      "potential_pnl": 13481.52,
-      "pnl_multiplier": 3.5454545454545454,
-      "wallet_age_days": 0,
-      "total_activities": 1
-    },
-    "timestamp": "2026-02-23T04:28:41.568819",
-    "trade_hash": "0xe718bab06080853fb5b6e5a1411e90d27c89968e76dc8e4399fa5ef77487ae28",
-    "trade_timestamp": 1771820782,
-    "latency": null,
-    "wallet_stats": null,
-    "trade_data": {
-      "outcome": "Yes",
-      "side": "BUY",
-      "price": 0.22,
-      "effective_price": 0.22,
-      "size": 17284.0,
-      "amount": 3802.48,
-      "potential_pnl": 13481.52,
-      "pnl_multiplier": 3.5454545454545454,
-      "is_no": false
-    },
-    "irrationality": {
-      "irrationality_score": 25,
-      "flags": [
-        "Significant mispricing edge (+11.6%)"
-      ],
-      "category": "politics_near",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.02,
-        "min_edge": 0.03
-      },
-      "is_irrational": false
-    },
-    "mispricing": {
-      "rational_estimate": 0.10400000000000001,
-      "market_price": 0.22,
-      "edge": 0.11599999999999999,
-      "edge_percent": 11.6,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "occasional",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "occasional",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "The team maintains a competitive roster with key players performing at a high level.",
-          "The coaching staff implements effective strategies and adapts to opponents.",
-          "The team avoids significant injuries to star players throughout the season."
-        ],
-        "weakest_link": "The team avoids significant injuries to star players throughout the season."
-      },
-      "category": "sports",
-      "narrative_drivers": [
-        "Recent performance trends and playoff success of the team.",
-        "Strength of competition in the NHL during the 2025-2026 season."
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "CONFLICT",
-      "signal_emoji": "\u26a0\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider buying YES despite statistical overpricing",
-      "action_suggestion": "Requires manual analysis: insider may have real info OR is part of irrational crowd",
-      "insider_score": 70,
-      "insider_position": "YES",
-      "irrationality_score": 25,
-      "is_irrational": false,
-      "is_mispriced": true,
-      "edge": 0.11599999999999999,
-      "edge_percent": 11.6
-    },
-    "financial_analyst": {
-      "signal_quality": 36.4,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 11.6,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "resolution_last_check": "2026-03-29T06:55:14.669894+00:00"
-  },
-  {
-    "market": "Will the Colorado Avalanche win the 2026 NHL Stanley Cup?",
-    "market_slug": "will-the-colorado-avalanche-win-the-2026-nhl-stanley-cup",
     "wallet": "0x7290b236fbf5a33a2236f888f9b5166c495734b8",
     "analysis": {
       "score": 70,
@@ -34971,5 +34869,50 @@
     "market_slug": "lol-g2-vit-2026-04-11",
     "amount": 3600.385145464558,
     "ai_context": "\u2705 COPY  \nG2 Esports at 63% offers value if their chances of winning are higher than implied odds. Strong performance history supports this bet."
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x6aec2efef14d118ebbdb7fd8724420c740d165acc7c871124b07e0222c03ab5c",
+    "wallet": "0x23786fdad0073692157c6d7dc81f281843a35fcb",
+    "trader": {
+      "rank": 13,
+      "address": "0x23786fdad0073692157c6d7dc81f281843a35fcb",
+      "username": "mikatrade77",
+      "profit": 5147998.544602999,
+      "volume": 10884765.388775,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x56c000e94c004e4d9af752bd256547181c2a25b8",
+      "side": "BUY",
+      "asset": "4931042854470791933974732960604667881015164811129239347625051166194287216857",
+      "conditionId": "0xb17a25f289d2fa2cd8320e3776016ccc0eefe5bfa9a00c857d6bec621db4d407",
+      "size": 5064.409874999999,
+      "price": 0.4799999999611248,
+      "timestamp": 1775923859,
+      "title": "Arizona Diamondbacks vs. Philadelphia Phillies",
+      "slug": "mlb-ari-phi-2026-04-11",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Repetitive-markets/MLB.jpg",
+      "eventSlug": "mlb-ari-phi-2026-04-11",
+      "outcome": "Arizona Diamondbacks",
+      "outcomeIndex": 0,
+      "name": "TeddiAnn",
+      "pseudonym": "Insistent-Ecosystem",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x6aec2efef14d118ebbdb7fd8724420c740d165acc7c871124b07e0222c03ab5c",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Arizona Diamondbacks vs. Philadelphia Phillies",
+    "market_slug": "mlb-ari-phi-2026-04-11",
+    "amount": 2430.91673980312,
+    "ai_context": "\u2705 COPY  \nThe odds suggest value; Arizona at 48% implies a favorable risk-reward compared to market expectations."
   }
 ]
