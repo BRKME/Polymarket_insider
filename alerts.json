@@ -1,43 +1,5 @@
 [
   {
-    "market": "Will the next Prime Minister of Hungary be Istv\u00e1n Kapit\u00e1ny?",
-    "market_slug": "will-the-next-prime-minister-of-hungary-be-istvn-kapitny",
-    "wallet": "0x8de4df81dd97012c7c7b4bd5a2c4fc6752820427",
-    "analysis": {
-      "score": 85,
-      "flags": [
-        "New wallet (0d old)",
-        "Against trend (5.8% effective odds)",
-        "Large bet ($1,039)"
-      ],
-      "amount": 1038.78,
-      "odds": 0.058,
-      "raw_price": 0.058,
-      "outcome": "Yes",
-      "potential_pnl": 16871.219999999998,
-      "pnl_multiplier": 16.241379310344826,
-      "wallet_age_days": 0,
-      "total_activities": 14
-    },
-    "timestamp": "2026-02-11T03:52:48.104166",
-    "trade_hash": "0x8a8cdccb67fec391634786a8f573186d2bb731bd51e806908796a26fc7cc362f",
-    "trade_timestamp": 1770781651,
-    "latency": null,
-    "wallet_stats": null,
-    "trade_data": {
-      "outcome": "Yes",
-      "side": "SELL",
-      "price": 0.058,
-      "effective_price": 0.058,
-      "size": 17910.0,
-      "amount": 1038.78,
-      "potential_pnl": 16871.219999999998,
-      "pnl_multiplier": 16.241379310344826,
-      "is_no": false
-    },
-    "resolution_last_check": "2026-03-29T06:55:10.312766+00:00"
-  },
-  {
     "market": "Will FC Barcelona win on 2026-02-16?",
     "market_slug": "lal-gir-bar-2026-02-16-bar",
     "wallet": "0xada56a3f1a9d7d3fe7ec8cbcaa0865109c57db70",
@@ -35021,6 +34983,114 @@
       "signal_quality": 27.8,
       "stance": "WATCH_ONLY",
       "edge_percent": 6.8,
+      "signal_strength": 70.0,
+      "insider_score": 70.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    }
+  },
+  {
+    "market": "Will the next Prime Minister of Hungary be P\u00e9ter Magyar?",
+    "market_slug": "will-the-next-prime-minister-of-hungary-be-pter-magyar",
+    "event_slug": "will-the-next-prime-minister-of-hungary-be-pter-magyar",
+    "wallet": "0xb9efbfabd389e903e8395c0719c9a07c079d0b8b",
+    "analysis": {
+      "score": 70,
+      "flags": [
+        "New wallet (0d old)",
+        "Large bet ($3,523)",
+        "Low activity (1 txns)"
+      ],
+      "amount": 3523.02,
+      "odds": 0.71,
+      "raw_price": 0.71,
+      "outcome": "Yes",
+      "potential_pnl": 1438.98,
+      "pnl_multiplier": 0.4084507042253521,
+      "wallet_age_days": 0,
+      "total_activities": 1
+    },
+    "timestamp": "2026-04-11T09:35:43.643389",
+    "trade_hash": "0x735f2a36ef477d45db01d6c5726e4ce502639c6194f1a8e8073bce6eb56df87c",
+    "trade_timestamp": 1775900001,
+    "latency": null,
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "Yes",
+      "outcomeIndex": 0,
+      "normalized_position": "YES",
+      "side": "BUY",
+      "price": 0.71,
+      "effective_price": 0.71,
+      "size": 4962.0,
+      "amount": 3523.02,
+      "potential_pnl": 1438.98,
+      "pnl_multiplier": 0.4084507042253521,
+      "is_no": false,
+      "slug": "will-the-next-prime-minister-of-hungary-be-pter-magyar",
+      "eventSlug": "next-prime-minister-of-hungary"
+    },
+    "irrationality": {
+      "irrationality_score": 35,
+      "flags": [
+        "Large mispricing edge (+42.8%)"
+      ],
+      "category": "other",
+      "category_info": {
+        "strength": "medium",
+        "typical_overpricing": 0.03,
+        "min_edge": 0.05
+      },
+      "is_irrational": true
+    },
+    "mispricing": {
+      "rational_estimate": 0.282,
+      "market_price": 0.71,
+      "edge": 0.428,
+      "edge_percent": 42.8,
+      "min_edge_required": 0.03,
+      "is_mispriced": true,
+      "edge_quality": "STRONG",
+      "base_rate_class": "common",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "common",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "P\u00e9ter Magyar secures party nomination",
+          "P\u00e9ter Magyar gains significant public support",
+          "Political landscape remains stable without major upheavals"
+        ],
+        "weakest_link": "Political landscape remains stable without major upheavals"
+      },
+      "category": "politics_near",
+      "narrative_drivers": [
+        "Public sentiment towards current government",
+        "Influence of opposition parties"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "CONFLICT",
+      "signal_emoji": "\u26a0\ufe0f",
+      "signal_strength": 70,
+      "interpretation": "Insider buying YES despite statistical overpricing",
+      "action_suggestion": "Requires manual analysis: insider may have real info OR is part of irrational crowd",
+      "insider_score": 70,
+      "insider_position": "YES",
+      "irrationality_score": 35,
+      "is_irrational": true,
+      "is_mispriced": true,
+      "edge": 0.428,
+      "edge_percent": 42.8
+    },
+    "log_only": true,
+    "financial_analyst": {
+      "signal_quality": 46.0,
+      "stance": "WATCH_ONLY",
+      "edge_percent": 42.8,
       "signal_strength": 70.0,
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
