@@ -2,118 +2,6 @@
   {
     "market": "US strikes Iran by February 28, 2026?",
     "market_slug": "us-strikes-iran-by-february-28-2026-227-967-547-688-589-491-592-418-452-924-384-915-464-672-196-157-993-596-269-535-381-391-471-256-988-997-296-225-762-973-292-827-345-182-558-215-794-879",
-    "wallet": "0x1caa6a7ad0c6916aef7b67946de2e57ad24846a0",
-    "analysis": {
-      "score": 110,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($8,801)",
-        "Low activity (2 txns)",
-        "Pre-event latency: 3016m"
-      ],
-      "amount": 8800.979999,
-      "odds": 0.10140637812040253,
-      "raw_price": 0.10140637812040253,
-      "outcome": "Yes",
-      "potential_pnl": 77988.235454,
-      "pnl_multiplier": 8.861312656415684,
-      "wallet_age_days": 0,
-      "total_activities": 2
-    },
-    "timestamp": "2026-02-25T21:45:54.702399",
-    "trade_hash": "0xb9cc14bae3bc2050dc4f382818f68f8c5685385a0f84dcdffb219c5e44425138",
-    "trade_timestamp": 1772055864,
-    "latency": {
-      "latency_seconds": 180936.0,
-      "latency_minutes": 3015.6,
-      "is_pre_event": true,
-      "severity": "CRITICAL",
-      "trade_time": "2026-02-25T21:44:24+00:00",
-      "event_time": "2026-02-28T00:00:00+00:00"
-    },
-    "wallet_stats": null,
-    "trade_data": {
-      "outcome": "Yes",
-      "side": "BUY",
-      "price": 0.10140637812040253,
-      "effective_price": 0.10140637812040253,
-      "size": 86789.215453,
-      "amount": 8800.979999,
-      "potential_pnl": 77988.235454,
-      "pnl_multiplier": 8.861312656415684,
-      "is_no": false
-    },
-    "irrationality": {
-      "irrationality_score": 58,
-      "flags": [
-        "Longshot (10%) in high bias category (geopolitics)",
-        "Category structurally prone to longshot bias",
-        "Crisis keyword detected ('strike')",
-        "Moderate mispricing edge (+5.7%)"
-      ],
-      "category": "geopolitics",
-      "category_info": {
-        "strength": "high",
-        "typical_overpricing": 0.05,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.044281275624080504,
-      "market_price": 0.10140637812040253,
-      "edge": 0.05712510249632202,
-      "edge_percent": 5.712510249632202,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "MODERATE",
-      "base_rate_class": "rare",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "rare",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Escalation of tensions between the US and Iran",
-          "Political support within the US government for military action",
-          "Public sentiment favoring intervention"
-        ],
-        "weakest_link": "Public sentiment favoring intervention"
-      },
-      "category": "geopolitics",
-      "narrative_drivers": [
-        "Regional instability in the Middle East",
-        "Influence of external actors (e.g., Russia, China) on US-Iran relations"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "CONFLICT",
-      "signal_emoji": "\u26a0\ufe0f",
-      "signal_strength": 110,
-      "interpretation": "Insider buying YES despite statistical overpricing",
-      "action_suggestion": "Requires manual analysis: insider may have real info OR is part of irrational crowd",
-      "insider_score": 110,
-      "insider_position": "YES",
-      "irrationality_score": 58,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.05712510249632202,
-      "edge_percent": 5.712510249632202
-    },
-    "financial_analyst": {
-      "signal_quality": 40.2,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 5.71,
-      "signal_strength": 110.0,
-      "insider_score": 110.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    }
-  },
-  {
-    "market": "US strikes Iran by February 28, 2026?",
-    "market_slug": "us-strikes-iran-by-february-28-2026-227-967-547-688-589-491-592-418-452-924-384-915-464-672-196-157-993-596-269-535-381-391-471-256-988-997-296-225-762-973-292-827-345-182-558-215-794-879",
     "wallet": "0xd3a6e523c440f94f9259398fbcf7b5cc5ccffd55",
     "analysis": {
       "score": 85,
@@ -34733,5 +34621,113 @@
     "market_slug": "arg-rie-iac-2026-04-11",
     "amount": 1814.5848925037674,
     "ai_context": "\u274c SKIP  \nThe odds of 86% suggest a strong likelihood, but such high odds may indicate overconfidence or inefficiencies in the market."
+  },
+  {
+    "market": "Will Tisza win the most national list votes in the 2026 Hungarian parliamentary election?",
+    "market_slug": "will-tisza-win-the-most-national-list-votes-in-the-2026-hungarian-parliamentary-election",
+    "event_slug": "will-tisza-win-the-most-national-list-votes-in-the-2026-hungarian-parliamentary-election",
+    "wallet": "0x9079e83ad106845369633b36f715632fc960bf19",
+    "analysis": {
+      "score": 70,
+      "flags": [
+        "New wallet (0d old)",
+        "Large bet ($1,173)",
+        "Low activity (3 txns)"
+      ],
+      "amount": 1172.999998,
+      "odds": 0.83999999942711,
+      "raw_price": 0.83999999942711,
+      "outcome": "Yes",
+      "potential_pnl": 223.42857200000003,
+      "pnl_multiplier": 0.19047619128810947,
+      "wallet_age_days": 0,
+      "total_activities": 3
+    },
+    "timestamp": "2026-04-11T19:46:34.716343",
+    "trade_hash": "0x03ed591479224d93b56c01efc87768d3e911ef606edbd911f4b11ac0229bd5f5",
+    "trade_timestamp": 1775936715,
+    "latency": null,
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "Yes",
+      "outcomeIndex": 0,
+      "normalized_position": "YES",
+      "side": "BUY",
+      "price": 0.83999999942711,
+      "effective_price": 0.83999999942711,
+      "size": 1396.42857,
+      "amount": 1172.999998,
+      "potential_pnl": 223.42857200000003,
+      "pnl_multiplier": 0.19047619128810947,
+      "is_no": false,
+      "slug": "will-tisza-win-the-most-national-list-votes-in-the-2026-hungarian-parliamentary-election",
+      "eventSlug": "hungary-parliamentary-election-popular-vote-winner"
+    },
+    "irrationality": {
+      "irrationality_score": 35,
+      "flags": [
+        "Large mispricing edge (+53.2%)"
+      ],
+      "category": "politics_near",
+      "category_info": {
+        "strength": "medium",
+        "typical_overpricing": 0.02,
+        "min_edge": 0.03
+      },
+      "is_irrational": true
+    },
+    "mispricing": {
+      "rational_estimate": 0.30799999988542204,
+      "market_price": 0.83999999942711,
+      "edge": 0.531999999541688,
+      "edge_percent": 53.199999954168796,
+      "min_edge_required": 0.03,
+      "is_mispriced": true,
+      "edge_quality": "STRONG",
+      "base_rate_class": "common",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "common",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "Tisza maintains or increases current popularity leading up to the election",
+          "No significant scandals or controversies arise affecting Tisza's campaign",
+          "Opposition parties fail to unify or present a strong alternative"
+        ],
+        "weakest_link": "Opposition parties fail to unify or present a strong alternative"
+      },
+      "category": "politics_near",
+      "narrative_drivers": [
+        "Public sentiment towards Tisza's policies and leadership",
+        "The effectiveness of Tisza's campaign strategy and outreach efforts"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "CONFLICT",
+      "signal_emoji": "\u26a0\ufe0f",
+      "signal_strength": 70,
+      "interpretation": "Insider buying YES despite statistical overpricing",
+      "action_suggestion": "Requires manual analysis: insider may have real info OR is part of irrational crowd",
+      "insider_score": 70,
+      "insider_position": "YES",
+      "irrationality_score": 35,
+      "is_irrational": true,
+      "is_mispriced": true,
+      "edge": 0.531999999541688,
+      "edge_percent": 53.199999954168796
+    },
+    "log_only": true,
+    "financial_analyst": {
+      "signal_quality": 46.0,
+      "stance": "WATCH_ONLY",
+      "edge_percent": 53.2,
+      "signal_strength": 70.0,
+      "insider_score": 70.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    }
   }
 ]
