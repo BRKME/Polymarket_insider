@@ -1,49 +1,5 @@
 [
   {
-    "market": "Will FC Barcelona win on 2026-02-16?",
-    "market_slug": "lal-gir-bar-2026-02-16-bar",
-    "wallet": "0xada56a3f1a9d7d3fe7ec8cbcaa0865109c57db70",
-    "analysis": {
-      "score": 100,
-      "flags": [
-        "New wallet (2d old)",
-        "Large bet ($2,264)",
-        "Pre-event latency: 1519m"
-      ],
-      "amount": 2263.68,
-      "odds": 0.72,
-      "raw_price": 0.72,
-      "outcome": "Yes",
-      "potential_pnl": 880.32,
-      "pnl_multiplier": 0.38888888888888895,
-      "wallet_age_days": 2,
-      "total_activities": 100
-    },
-    "timestamp": "2026-02-14T22:43:36.875813",
-    "trade_hash": "0xe787fa03f93318c1c316da91ea406d6d5a7a8878b15667e953f52822a4d5317a",
-    "trade_timestamp": 1771108889,
-    "latency": {
-      "latency_seconds": 91111.0,
-      "latency_minutes": 1518.5166666666667,
-      "is_pre_event": true,
-      "severity": "CRITICAL",
-      "trade_time": "2026-02-14T22:41:29+00:00",
-      "event_time": "2026-02-16T00:00:00+00:00"
-    },
-    "wallet_stats": null,
-    "trade_data": {
-      "outcome": "Yes",
-      "side": "BUY",
-      "price": 0.72,
-      "effective_price": 0.72,
-      "size": 3144.0,
-      "amount": 2263.68,
-      "potential_pnl": 880.32,
-      "pnl_multiplier": 0.38888888888888895,
-      "is_no": false
-    }
-  },
-  {
     "market": "US strikes Iran by February 20, 2026?",
     "market_slug": "us-strikes-iran-by-february-20-2026-151-468-624-297-614-778-872-127-349-448-499-337",
     "wallet": "0xc13cbd011bc02c0c9fd9a5d4dbd236ecc0e8a202",
@@ -35095,5 +35051,113 @@
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
     }
+  },
+  {
+    "market": "Will the next Prime Minister of Hungary be P\u00e9ter Magyar?",
+    "market_slug": "will-the-next-prime-minister-of-hungary-be-pter-magyar",
+    "event_slug": "will-the-next-prime-minister-of-hungary-be-pter-magyar",
+    "wallet": "0x91a10f3b6899d1f82a8fcecfb32c9c3a1c3152ab",
+    "analysis": {
+      "score": 70,
+      "flags": [
+        "New wallet (0d old)",
+        "Large bet ($2,446)",
+        "Low activity (1 txns)"
+      ],
+      "amount": 2445.827586,
+      "odds": 0.7100000001886887,
+      "raw_price": 0.2899999998113113,
+      "outcome": "No",
+      "potential_pnl": 998.9999990000001,
+      "pnl_multiplier": 0.40845070385104415,
+      "wallet_age_days": 0,
+      "total_activities": 1
+    },
+    "timestamp": "2026-04-11T10:51:11.307089",
+    "trade_hash": "0xe231a276ef9666e172417c27e100e91bd4d8ade50805bccc9038a73f938fc56e",
+    "trade_timestamp": 1775904519,
+    "latency": null,
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "No",
+      "outcomeIndex": 1,
+      "normalized_position": "NO",
+      "side": "BUY",
+      "price": 0.2899999998113113,
+      "effective_price": 0.7100000001886887,
+      "size": 3444.827585,
+      "amount": 2445.827586,
+      "potential_pnl": 998.9999990000001,
+      "pnl_multiplier": 0.40845070385104415,
+      "is_no": true,
+      "slug": "will-the-next-prime-minister-of-hungary-be-pter-magyar",
+      "eventSlug": "next-prime-minister-of-hungary"
+    },
+    "irrationality": {
+      "irrationality_score": 35,
+      "flags": [
+        "Large mispricing edge (+17.2%)"
+      ],
+      "category": "other",
+      "category_info": {
+        "strength": "medium",
+        "typical_overpricing": 0.03,
+        "min_edge": 0.05
+      },
+      "is_irrational": true
+    },
+    "mispricing": {
+      "rational_estimate": 0.11799999996226226,
+      "market_price": 0.2899999998113113,
+      "edge": 0.17199999984904904,
+      "edge_percent": 17.199999984904903,
+      "min_edge_required": 0.03,
+      "is_mispriced": true,
+      "edge_quality": "STRONG",
+      "base_rate_class": "occasional",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "occasional",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "P\u00e9ter Magyar gains significant political support",
+          "Current political climate favors Magyar's candidacy",
+          "Opposition parties fail to unite against him"
+        ],
+        "weakest_link": "Current political climate favors Magyar's candidacy"
+      },
+      "category": "politics_near",
+      "narrative_drivers": [
+        "Public perception of Magyar's policies",
+        "Influence of current political alliances"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "ALPHA",
+      "signal_emoji": "\ud83d\udd25",
+      "signal_strength": 105,
+      "interpretation": "Smart money (NO) confirms YES is overpriced",
+      "action_suggestion": "High conviction: insider + statistics aligned",
+      "insider_score": 70,
+      "insider_position": "NO",
+      "irrationality_score": 35,
+      "is_irrational": true,
+      "is_mispriced": true,
+      "edge": 0.17199999984904904,
+      "edge_percent": 17.199999984904903
+    },
+    "financial_analyst": {
+      "signal_quality": 81.0,
+      "stance": "HIGH_CONVICTION",
+      "edge_percent": 17.2,
+      "signal_strength": 105.0,
+      "insider_score": 70.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "ai_context": "\u274c SKIP  \nThe odds seem high for a \"No\" bet; potential for a more competitive candidate exists, making this bet risky."
   }
 ]
