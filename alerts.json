@@ -1,42 +1,5 @@
 [
   {
-    "market": "76ers vs. Suns",
-    "market_slug": "nba-phi-phx-2026",
-    "wallet": "0x94807f36a7a1c57e8e19d7531e75f1b48bd17456",
-    "analysis": {
-      "score": 85,
-      "flags": [
-        "New wallet (0d old)",
-        "Extreme confidence (96.9% effective odds)",
-        "Large bet ($6,152)"
-      ],
-      "amount": 6151.929977999999,
-      "odds": 0.9685138998912362,
-      "raw_price": 0.9685138998912362,
-      "outcome": "76ers",
-      "potential_pnl": 199.99742200000003,
-      "pnl_multiplier": 0.03250970390027415,
-      "wallet_age_days": 0,
-      "total_activities": 7
-    },
-    "timestamp": "2026-02-08T04:08:08.200965",
-    "trade_hash": "0x96ed7cf03a3ff41fa7d1aa8470624e3081792bfcfb01f5d0841cbd5704c8204b",
-    "trade_timestamp": 1770523449,
-    "latency": null,
-    "wallet_stats": null,
-    "trade_data": {
-      "outcome": "76ers",
-      "side": "BUY",
-      "price": 0.9685138998912362,
-      "effective_price": 0.9685138998912362,
-      "size": 6351.9274,
-      "amount": 6151.929977999999,
-      "potential_pnl": 199.99742200000003,
-      "pnl_multiplier": 0.03250970390027415,
-      "is_no": false
-    }
-  },
-  {
     "market": "LoL: DRX vs Nongshim Red Force - Game 3 Winner",
     "market_slug": "lol-drx-ns-2026-02-08-game3",
     "wallet": "0x5db56d12501f3c52300e194999da136530f05df8",
@@ -34874,5 +34837,50 @@
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
     },
     "ai_context": "\u274c SKIP  \nThe odds seem too low for a \"No\" bet on a potential Prime Minister, indicating possible overvaluation of Magyar's chances."
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x5e73bd0488f7c14b68a5fbcb1991ee4fc009f85e86b6b622277dc94657272bd5",
+    "wallet": "0x8119010a6e589062aa03583bb3f39ca632d9f887",
+    "trader": {
+      "rank": 8,
+      "address": "0x8119010a6e589062aa03583bb3f39ca632d9f887",
+      "username": "PrincessCaro",
+      "profit": 6083643.099591745,
+      "volume": 23520809.952867,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x56ebe2a8eb1b9bccfd3059f981f9c987e45e076a",
+      "side": "SELL",
+      "asset": "94192784911459194325909253314484842244405314804074606736702592885535642919725",
+      "conditionId": "0x1480b819d03d4b6388d70e848b0384adf38c38d955cb783cdbcf6d4a436dee14",
+      "size": 7000,
+      "price": 0.7,
+      "timestamp": 1775883041,
+      "title": "Will the next Prime Minister of Hungary be P\u00e9ter Magyar?",
+      "slug": "will-the-next-prime-minister-of-hungary-be-pter-magyar",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-the-next-prime-minister-of-romania-be-pter-magyar-HbEv3YBJrtaT.jpg",
+      "eventSlug": "next-prime-minister-of-hungary",
+      "outcome": "Yes",
+      "outcomeIndex": 0,
+      "name": "just.some.guy.2026",
+      "pseudonym": "Third-Theology",
+      "bio": "",
+      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-5004511-769a980b-9ff9-4858-99c0-ab691a7fb061.jpg",
+      "profileImageOptimized": "",
+      "transactionHash": "0x5e73bd0488f7c14b68a5fbcb1991ee4fc009f85e86b6b622277dc94657272bd5",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Will the next Prime Minister of Hungary be P\u00e9ter Magyar?",
+    "market_slug": "next-prime-minister-of-hungary",
+    "amount": 4900.0,
+    "ai_context": "\u274c SKIP  \nThe odds seem high for a potentially uncertain political outcome; the market may not fully reflect the dynamics of Hungarian politics."
   }
 ]
