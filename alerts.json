@@ -1,211 +1,5 @@
 [
   {
-    "market": "US strikes Iran by February 20, 2026?",
-    "market_slug": "us-strikes-iran-by-february-20-2026-151-468-624-297-614-778-872-127-349-448-499-337",
-    "wallet": "0xc13cbd011bc02c0c9fd9a5d4dbd236ecc0e8a202",
-    "analysis": {
-      "score": 85,
-      "flags": [
-        "Against trend (5.0% effective odds)",
-        "Large bet ($2,632)",
-        "Pre-event latency: 6661m"
-      ],
-      "amount": 2631.578947999998,
-      "odds": 0.05000000001329996,
-      "raw_price": 0.9499999999867,
-      "outcome": "No",
-      "potential_pnl": 49999.99999800001,
-      "pnl_multiplier": 18.999999994680017,
-      "wallet_age_days": 109,
-      "total_activities": 100
-    },
-    "timestamp": "2026-02-15T09:01:57.909773",
-    "trade_hash": "0xff9b66f71b600c5c7653a35d1053eac9406917315be268d259a20877f822afa0",
-    "trade_timestamp": 1771145929,
-    "latency": {
-      "latency_seconds": 399671.0,
-      "latency_minutes": 6661.183333333333,
-      "is_pre_event": true,
-      "severity": "CRITICAL",
-      "trade_time": "2026-02-15T08:58:49+00:00",
-      "event_time": "2026-02-20T00:00:00+00:00"
-    },
-    "wallet_stats": null,
-    "trade_data": {
-      "outcome": "No",
-      "side": "BUY",
-      "price": 0.9499999999867,
-      "effective_price": 0.05000000001329996,
-      "size": 52631.578946,
-      "amount": 2631.578947999998,
-      "potential_pnl": 49999.99999800001,
-      "pnl_multiplier": 18.999999994680017,
-      "is_no": true
-    },
-    "irrationality": {
-      "irrationality_score": 5,
-      "flags": [],
-      "category": "geopolitics",
-      "category_info": {
-        "strength": "low",
-        "typical_overpricing": 0.02,
-        "min_edge": 0.08
-      },
-      "is_irrational": false
-    },
-    "mispricing": {
-      "rational_estimate": 0.21399999999734,
-      "market_price": 0.9499999999867,
-      "edge": 0.73599999998936,
-      "edge_percent": 73.599999998936,
-      "min_edge_required": 0.08,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "rare",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "rare",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Escalation of regional tensions between the US and Iran",
-          "Political support within the US government for military action",
-          "Public sentiment favoring intervention"
-        ],
-        "weakest_link": "Public sentiment favoring intervention"
-      },
-      "category": "geopolitics",
-      "narrative_drivers": [
-        "Rising tensions in the Middle East",
-        "Influence of domestic politics on foreign policy decisions"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "ALPHA",
-      "signal_emoji": "\ud83d\udd25",
-      "signal_strength": 90,
-      "interpretation": "Smart money (NO) confirms YES is overpriced",
-      "action_suggestion": "High conviction: insider + statistics aligned",
-      "insider_score": 85,
-      "insider_position": "NO",
-      "irrationality_score": 5,
-      "is_irrational": false,
-      "is_mispriced": true,
-      "edge": 0.73599999998936,
-      "edge_percent": 73.599999998936
-    }
-  },
-  {
-    "market": "US strikes Iran by February 27, 2026?",
-    "market_slug": "us-strikes-iran-by-february-27-2026",
-    "wallet": "0x3b8e02169093576f525679d8863d6ceb57f6d77a",
-    "analysis": {
-      "score": 110,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($9,984)",
-        "Low activity (2 txns)",
-        "Pre-event latency: 8781m"
-      ],
-      "amount": 9983.999999,
-      "odds": 0.23474923313551133,
-      "raw_price": 0.23474923313551133,
-      "outcome": "Yes",
-      "potential_pnl": 32546.49037,
-      "pnl_multiplier": 3.25986482103965,
-      "wallet_age_days": 0,
-      "total_activities": 2
-    },
-    "timestamp": "2026-02-20T21:44:15.178802",
-    "trade_hash": "0x6a823fd529e39f5f177f79c30b4101075fef53207525c10b153abe0f06baad3a",
-    "trade_timestamp": 1771623522,
-    "latency": {
-      "latency_seconds": 526878.0,
-      "latency_minutes": 8781.3,
-      "is_pre_event": true,
-      "severity": "CRITICAL",
-      "trade_time": "2026-02-20T21:38:42+00:00",
-      "event_time": "2026-02-27T00:00:00+00:00"
-    },
-    "wallet_stats": null,
-    "trade_data": {
-      "outcome": "Yes",
-      "side": "BUY",
-      "price": 0.23474923313551133,
-      "effective_price": 0.23474923313551133,
-      "size": 42530.490369,
-      "amount": 9983.999999,
-      "potential_pnl": 32546.49037,
-      "pnl_multiplier": 3.25986482103965,
-      "is_no": false
-    },
-    "irrationality": {
-      "irrationality_score": 5,
-      "flags": [],
-      "category": "geopolitics",
-      "category_info": {
-        "strength": "low",
-        "typical_overpricing": 0.02,
-        "min_edge": 0.08
-      },
-      "is_irrational": false
-    },
-    "mispricing": {
-      "rational_estimate": 0.07094984662710227,
-      "market_price": 0.23474923313551133,
-      "edge": 0.16379938650840906,
-      "edge_percent": 16.379938650840906,
-      "min_edge_required": 0.08,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "rare",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "rare",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Escalation of regional tensions",
-          "Support from key allies",
-          "Domestic political pressure in the US"
-        ],
-        "weakest_link": "Support from key allies"
-      },
-      "category": "geopolitics",
-      "narrative_drivers": [
-        "Rising Iranian influence in the region",
-        "US response to perceived threats"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "CONFLICT",
-      "signal_emoji": "\u26a0\ufe0f",
-      "signal_strength": 110,
-      "interpretation": "Insider buying YES despite statistical overpricing",
-      "action_suggestion": "Requires manual analysis: insider may have real info OR is part of irrational crowd",
-      "insider_score": 110,
-      "insider_position": "YES",
-      "irrationality_score": 5,
-      "is_irrational": false,
-      "is_mispriced": true,
-      "edge": 0.16379938650840906,
-      "edge_percent": 16.379938650840906
-    },
-    "financial_analyst": {
-      "signal_quality": 45.6,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 16.38,
-      "signal_strength": 110.0,
-      "insider_score": 110.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "resolution_last_check": "2026-03-29T06:55:12.809834+00:00"
-  },
-  {
     "market": "US strikes Iran by February 26, 2026?",
     "market_slug": "us-strikes-iran-by-february-26-2026-368",
     "wallet": "0x1abe1368601330a310162064e04d3c2628cb6497",
@@ -35159,5 +34953,95 @@
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
     },
     "ai_context": "\u274c SKIP  \nThe odds seem high for a \"No\" bet; potential for a more competitive candidate exists, making this bet risky."
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x8746006b3a4e5f7d002a10aba983c22c5d1ae6c3f777d14cfbd1ac173f2b8567",
+    "wallet": "0x8119010a6e589062aa03583bb3f39ca632d9f887",
+    "trader": {
+      "rank": 8,
+      "address": "0x8119010a6e589062aa03583bb3f39ca632d9f887",
+      "username": "PrincessCaro",
+      "profit": 6083643.099591745,
+      "volume": 23520809.952867005,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xfc1243854e34aea5e8c577e467ef148cbc7e18a9",
+      "side": "BUY",
+      "asset": "56231474151770057648855426299021396541474371449092934400587810748856711049761",
+      "conditionId": "0x924a2942747dd75703321a7c8d809c68f6a514c3b0f2a2e64274e02310634669",
+      "size": 2435.897431,
+      "price": 0.7799999999261052,
+      "timestamp": 1775908251,
+      "title": "Strait of Hormuz traffic returns to normal by end of April?",
+      "slug": "strait-of-hormuz-traffic-returns-to-normal-by-april-30",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-ships-transit-the-strait-of-hormuz-on-any-day-in-march-ERARnetK0FJm.jpg",
+      "eventSlug": "strait-of-hormuz-traffic-returns-to-normal-by-april-30",
+      "outcome": "No",
+      "outcomeIndex": 1,
+      "name": "Skinner77",
+      "pseudonym": "Thunderous-Spasm",
+      "bio": "",
+      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-4719586-d18c9bd8-2b3c-4ce8-bf3b-48fa310436b3.jpeg",
+      "profileImageOptimized": "",
+      "transactionHash": "0x8746006b3a4e5f7d002a10aba983c22c5d1ae6c3f777d14cfbd1ac173f2b8567",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Strait of Hormuz traffic returns to normal by end of April?",
+    "market_slug": "strait-of-hormuz-traffic-returns-to-normal-by-april-30",
+    "amount": 1899.9999959999998,
+    "ai_context": "\u274c SKIP  \nThe odds of 78% suggest overconfidence; geopolitical situations can be unpredictable, making this bet risky."
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xcdb42f451e906fe98694c87b742198eeaf458263afcca51a4261aa8d40de6d44",
+    "wallet": "0x8119010a6e589062aa03583bb3f39ca632d9f887",
+    "trader": {
+      "rank": 8,
+      "address": "0x8119010a6e589062aa03583bb3f39ca632d9f887",
+      "username": "PrincessCaro",
+      "profit": 6083643.099591745,
+      "volume": 23520809.952867005,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x01e6e3c5cfe50943e7721398054cb1e22032e7e0",
+      "side": "BUY",
+      "asset": "27463835349984391671863665214379526251077104225242551638673470406148681255464",
+      "conditionId": "0xbd6083a6ca7daa6f9226ffd11600cc45028deb3a5f1ed00fc7c7abe2f2f39a2c",
+      "size": 2442.3715,
+      "price": 0.8285336048879837,
+      "timestamp": 1775908251,
+      "title": "LoL: Top Esports vs JD Gaming - Game 1 Winner",
+      "slug": "lol-tes-jdg-2026-04-11-game1",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/league-of-legends-61a4f083a6.png",
+      "eventSlug": "lol-tes-jdg-2026-04-11",
+      "outcome": "JD Gaming",
+      "outcomeIndex": 1,
+      "name": "BirdMan.",
+      "pseudonym": "Well-Made-Sovereignty",
+      "bio": "",
+      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-6981540-65626b91-dc80-4b1c-99ee-de73d651cf10.webp",
+      "profileImageOptimized": "",
+      "transactionHash": "0xcdb42f451e906fe98694c87b742198eeaf458263afcca51a4261aa8d40de6d44",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "LoL: Top Esports vs JD Gaming - Game 1 Winner",
+    "market_slug": "lol-tes-jdg-2026-04-11",
+    "amount": 2023.586863370672,
+    "ai_context": "\u2705 COPY  \nJD Gaming at 83% indicates strong confidence; odds suggest they are likely undervalued given their recent performance."
   }
 ]
