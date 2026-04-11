@@ -34514,7 +34514,8 @@
       "signal_strength": 70.0,
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    }
+    },
+    "resolution_last_check": "2026-04-11T06:58:21.151473+00:00"
   },
   {
     "market": "Arizona Diamondbacks vs. Philadelphia Phillies",
@@ -34836,7 +34837,8 @@
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
     },
-    "ai_context": "\u274c SKIP  \nThe odds seem too low for a \"No\" bet on a potential Prime Minister, indicating possible overvaluation of Magyar's chances."
+    "ai_context": "\u274c SKIP  \nThe odds seem too low for a \"No\" bet on a potential Prime Minister, indicating possible overvaluation of Magyar's chances.",
+    "resolution_last_check": "2026-04-11T06:58:23.637642+00:00"
   },
   {
     "type": "TOP_TRADER",
