@@ -1,219 +1,5 @@
 [
   {
-    "market": "US strikes Iran by March 2, 2026?",
-    "market_slug": "us-strikes-iran-by-march-2-2026",
-    "wallet": "0x45fb8b9fcbdb768d33e9e7301dc626e38625aad0",
-    "analysis": {
-      "score": 80,
-      "flags": [
-        "New wallet (3d old)",
-        "Large bet ($1,012)",
-        "Pre-event latency: 8910m"
-      ],
-      "amount": 1011.9753000000001,
-      "odds": 0.2711282371411884,
-      "raw_price": 0.2711282371411884,
-      "outcome": "Yes",
-      "potential_pnl": 2720.4847,
-      "pnl_multiplier": 2.6882916015835563,
-      "wallet_age_days": 3,
-      "total_activities": 12
-    },
-    "timestamp": "2026-02-23T19:31:27.296473",
-    "trade_hash": "0x64450d3b4721b9009d7f21ec60979773fefc32abe1eabd4126dccc1ab6839732",
-    "trade_timestamp": 1771874974,
-    "latency": {
-      "latency_seconds": 534626.0,
-      "latency_minutes": 8910.433333333332,
-      "is_pre_event": true,
-      "severity": "CRITICAL",
-      "trade_time": "2026-02-23T19:29:34+00:00",
-      "event_time": "2026-03-02T00:00:00+00:00"
-    },
-    "wallet_stats": null,
-    "trade_data": {
-      "outcome": "Yes",
-      "side": "SELL",
-      "price": 0.2711282371411884,
-      "effective_price": 0.2711282371411884,
-      "size": 3732.46,
-      "amount": 1011.9753000000001,
-      "potential_pnl": 2720.4847,
-      "pnl_multiplier": 2.6882916015835563,
-      "is_no": false
-    },
-    "irrationality": {
-      "irrationality_score": 75,
-      "flags": [
-        "Longshot (27%) in high bias category (geopolitics)",
-        "Category structurally prone to longshot bias",
-        "Crisis keyword detected ('strike')",
-        "Large mispricing edge (+19.3%)"
-      ],
-      "category": "geopolitics",
-      "category_info": {
-        "strength": "high",
-        "typical_overpricing": 0.05,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.07822564742823768,
-      "market_price": 0.2711282371411884,
-      "edge": 0.1929025897129507,
-      "edge_percent": 19.29025897129507,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "rare",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "rare",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Escalation of tensions between the US and Iran",
-          "Support from key allies for military action",
-          "Domestic political climate favoring military intervention"
-        ],
-        "weakest_link": "Domestic political climate favoring military intervention"
-      },
-      "category": "geopolitics",
-      "narrative_drivers": [
-        "Rising regional conflicts involving Iran",
-        "Influence of military-industrial complex on US foreign policy"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "CONFLICT",
-      "signal_emoji": "\u26a0\ufe0f",
-      "signal_strength": 80,
-      "interpretation": "Insider buying YES despite statistical overpricing",
-      "action_suggestion": "Requires manual analysis: insider may have real info OR is part of irrational crowd",
-      "insider_score": 80,
-      "insider_position": "YES",
-      "irrationality_score": 75,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.1929025897129507,
-      "edge_percent": 19.29025897129507
-    },
-    "financial_analyst": {
-      "signal_quality": 56.0,
-      "stance": "SELECTIVE",
-      "edge_percent": 19.29,
-      "signal_strength": 80.0,
-      "insider_score": 80.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "resolution_last_check": "2026-03-29T06:55:15.318195+00:00"
-  },
-  {
-    "market": "Will the 2026 State of the Union address last 100 minutes or longer?",
-    "market_slug": "will-the-2026-state-of-the-union-address-last-100-minutes-or-longer",
-    "wallet": "0x2ede67fcc8d39a8b8ccd9941bd63cdd730ae3a1d",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (1d old)",
-        "Large bet ($1,447)",
-        "Low activity (2 txns)"
-      ],
-      "amount": 1446.8799989999998,
-      "odds": 0.5549711176000726,
-      "raw_price": 0.5549711176000726,
-      "outcome": "Yes",
-      "potential_pnl": 1160.246666,
-      "pnl_multiplier": 0.8018955730965219,
-      "wallet_age_days": 1,
-      "total_activities": 2
-    },
-    "timestamp": "2026-02-24T19:32:41.041638",
-    "trade_hash": "0x4f352f0f3fbdab20860bd7e162f4de04b9f29488c4034cf752f9ec12c13a1dcd",
-    "trade_timestamp": 1771961416,
-    "latency": null,
-    "wallet_stats": null,
-    "trade_data": {
-      "outcome": "Yes",
-      "side": "BUY",
-      "price": 0.5549711176000726,
-      "effective_price": 0.5549711176000726,
-      "size": 2607.126665,
-      "amount": 1446.8799989999998,
-      "potential_pnl": 1160.246666,
-      "pnl_multiplier": 0.8018955730965219,
-      "is_no": false
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+30.4%)"
-      ],
-      "category": "politics_near",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.02,
-        "min_edge": 0.03
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.2509942235200145,
-      "market_price": 0.5549711176000726,
-      "edge": 0.30397689408005807,
-      "edge_percent": 30.397689408005807,
-      "min_edge_required": 0.03,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "The President's speechwriting team decides to include more detailed policy discussions.",
-          "The political climate necessitates a longer address to cover pressing issues.",
-          "The President's speaking style tends to be more elaborate and lengthy."
-        ],
-        "weakest_link": "The political climate necessitates a longer address to cover pressing issues."
-      },
-      "category": "politics_near",
-      "narrative_drivers": [
-        "Increased focus on domestic issues leading to longer speeches.",
-        "Historical trends of State of the Union addresses becoming longer over time."
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "CONFLICT",
-      "signal_emoji": "\u26a0\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider buying YES despite statistical overpricing",
-      "action_suggestion": "Requires manual analysis: insider may have real info OR is part of irrational crowd",
-      "insider_score": 70,
-      "insider_position": "YES",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.30397689408005807,
-      "edge_percent": 30.397689408005807
-    },
-    "financial_analyst": {
-      "signal_quality": 46.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 30.4,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "resolution_last_check": "2026-03-29T06:55:15.961645+00:00"
-  },
-  {
     "market": "US strikes Iran by February 28, 2026?",
     "market_slug": "us-strikes-iran-by-february-28-2026-227-967-547-688-589-491-592-418-452-924-384-915-464-672-196-157-993-596-269-535-381-391-471-256-988-997-296-225-762-973-292-827-345-182-558-215-794-879",
     "wallet": "0x1caa6a7ad0c6916aef7b67946de2e57ad24846a0",
@@ -34857,5 +34643,95 @@
     "market_slug": "lal-bar-esp-2026-04-11-more-markets",
     "amount": 1592.9913999999999,
     "ai_context": "\u2705 COPY  \nThe odds suggest a strong likelihood of high scoring based on team strengths and recent performance trends."
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x60618c9303fc956cc2bd92a02652fef1bb792d089f9d8e97cdea6f62cb891fc8",
+    "wallet": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
+    "trader": {
+      "rank": 16,
+      "address": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
+      "username": "GamblingIsAllYouNeed",
+      "profit": 4594680.082180054,
+      "volume": 334157002.46780497,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x8a6c6811e8937f9e8afc1b9249fa540262c30b3f",
+      "side": "BUY",
+      "asset": "93910731207835302738473919434908328408847970283455825892047520286980834326996",
+      "conditionId": "0xf7d9db87cff71cabdb4fa084e44e5e28f7c35630fb2545bdb4af65fd71cd5bbb",
+      "size": 89285.714284,
+      "price": 0.559999999999552,
+      "timestamp": 1775934965,
+      "title": "Golden Knights vs. Avalanche",
+      "slug": "nhl-las-col-2026-04-11",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nhl.png",
+      "eventSlug": "nhl-las-col-2026-04-11",
+      "outcome": "Avalanche",
+      "outcomeIndex": 1,
+      "name": "0x8a6C6811e8937F9E8aFc1b9249FA540262c30b3f-1771776258725",
+      "pseudonym": "Rare-Dishwasher",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x60618c9303fc956cc2bd92a02652fef1bb792d089f9d8e97cdea6f62cb891fc8",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Golden Knights vs. Avalanche",
+    "market_slug": "nhl-las-col-2026-04-11",
+    "amount": 49999.999999,
+    "ai_context": "\u2705 COPY  \nThe odds suggest a fair valuation for the Avalanche, indicating a reasonable chance of winning against the Golden Knights."
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x2a8036fd256a30fce7042c6894eb990a662b0a1e7c4954af0bcc1f9423655e87",
+    "wallet": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
+    "trader": {
+      "rank": 16,
+      "address": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
+      "username": "GamblingIsAllYouNeed",
+      "profit": 4594680.082180054,
+      "volume": 334157002.46780497,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x4133bcbad1d9c41de776646696f41c34d0a65e70",
+      "side": "BUY",
+      "asset": "74966793388564730096993019439299829334566118224601277258031619478996193613981",
+      "conditionId": "0xda7cb19e9c94dd46aedd9c63d648463562f4c8d6bedeb2739c30697a2c4a654d",
+      "size": 2109.89339,
+      "price": 0.8600362943000486,
+      "timestamp": 1775934965,
+      "title": "Will CD Riestra win on 2026-04-11?",
+      "slug": "arg-rie-iac-2026-04-11-rie",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/argentina-primera-division-fdedea0d80.png",
+      "eventSlug": "arg-rie-iac-2026-04-11",
+      "outcome": "No",
+      "outcomeIndex": 1,
+      "name": "EF203F2IPFC2ICP20W-CP3",
+      "pseudonym": "Bogus-Fix",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x2a8036fd256a30fce7042c6894eb990a662b0a1e7c4954af0bcc1f9423655e87",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Will CD Riestra win on 2026-04-11?",
+    "market_slug": "arg-rie-iac-2026-04-11",
+    "amount": 1814.5848925037674,
+    "ai_context": "\u274c SKIP  \nThe odds of 86% suggest a strong likelihood, but such high odds may indicate overconfidence or inefficiencies in the market."
   }
 ]
