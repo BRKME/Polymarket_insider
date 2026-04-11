@@ -1,43 +1,5 @@
 [
   {
-    "market": "Will Bhumjaithai Party (BJT) win the most seats in the 2026 Thai legislative election?",
-    "market_slug": "will-bhumjaithai-party-bjt-win-the-most-seats-in-the-2026-thai-legislative-election",
-    "wallet": "0x98a1f7612f8132dd3772f33558d03c88997061b6",
-    "analysis": {
-      "score": 85,
-      "flags": [
-        "New wallet (1d old)",
-        "Extreme confidence (96.0% effective odds)",
-        "Large bet ($2,230)"
-      ],
-      "amount": 2229.9999980000002,
-      "odds": 0.9599999998278027,
-      "raw_price": 0.9599999998278027,
-      "outcome": "Yes",
-      "potential_pnl": 92.91666699999998,
-      "pnl_multiplier": 0.04166666685351269,
-      "wallet_age_days": 1,
-      "total_activities": 11
-    },
-    "timestamp": "2026-02-08T14:00:01.838971",
-    "trade_hash": "0x24d81850c8cbddec57a777cb73a5b236b8141695eb87eca1c00e2c80e83f37a8",
-    "trade_timestamp": 1770558985,
-    "latency": null,
-    "wallet_stats": null,
-    "trade_data": {
-      "outcome": "Yes",
-      "side": "BUY",
-      "price": 0.9599999998278027,
-      "effective_price": 0.9599999998278027,
-      "size": 2322.916665,
-      "amount": 2229.9999980000002,
-      "potential_pnl": 92.91666699999998,
-      "pnl_multiplier": 0.04166666685351269,
-      "is_no": false
-    },
-    "resolution_last_check": "2026-03-29T06:55:09.006147+00:00"
-  },
-  {
     "market": "Another US government shutdown by February 14?",
     "market_slug": "another-us-government-shutdown-by-february-14",
     "wallet": "0xfd9bf631ab106c4a4ec9a51073d9e3ef2802934e",
@@ -34955,5 +34917,50 @@
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
     }
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xab3a06e8f2d99131afb25066c0892dabe52554538de6356c3156a17c6598998f",
+    "wallet": "0xdc876e6873772d38716fda7f2452a78d426d7ab6",
+    "trader": {
+      "rank": 17,
+      "address": "0xdc876e6873772d38716fda7f2452a78d426d7ab6",
+      "username": "432614799197",
+      "profit": 4526176.046413305,
+      "volume": 185485956.862083,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x5caec2331059ed7bbead580c8bc56e2d1896a00a",
+      "side": "BUY",
+      "asset": "869426892643676245151498154611139604354598333878526514825242227389138160766",
+      "conditionId": "0xa2de47ea7de87c026115f7bfccb9644c982430be1fe8391735a2f314b8a8feb0",
+      "size": 2270.451,
+      "price": 0.7298820445609436,
+      "timestamp": 1775895345,
+      "title": "Game Handicap: FUR (-1.5) vs Leviatan Esports (+1.5)",
+      "slug": "lol-fur-lev-2026-04-06-game-handicap-away-1pt5",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/league-of-legends-61a4f083a6.png",
+      "eventSlug": "lol-fur-lev-2026-04-06",
+      "outcome": "FURIA Esports",
+      "outcomeIndex": 0,
+      "name": "azkalph",
+      "pseudonym": "Male-Essence",
+      "bio": "",
+      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-4444980-c9b70d76-0c95-4347-929a-ef946c243131.jpg",
+      "profileImageOptimized": "",
+      "transactionHash": "0xab3a06e8f2d99131afb25066c0892dabe52554538de6356c3156a17c6598998f",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Game Handicap: FUR (-1.5) vs Leviatan Esports (+1.5)",
+    "market_slug": "lol-fur-lev-2026-04-06",
+    "amount": 1657.161417955439,
+    "ai_context": "\u2705 COPY  \nFURIA Esports at 73% suggests strong confidence; odds may undervalue their chances against Leviatan Esports."
   }
 ]
