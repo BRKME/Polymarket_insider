@@ -1,50 +1,5 @@
 [
   {
-    "market": "Another US government shutdown by February 14?",
-    "market_slug": "another-us-government-shutdown-by-february-14",
-    "wallet": "0xfd9bf631ab106c4a4ec9a51073d9e3ef2802934e",
-    "analysis": {
-      "score": 100,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($1,103)",
-        "Pre-event latency: 6952m"
-      ],
-      "amount": 1103.137931,
-      "odds": 0.7102639821564334,
-      "raw_price": 0.28973601784356656,
-      "outcome": "No",
-      "potential_pnl": 449.99999900000006,
-      "pnl_multiplier": 0.40792722863955266,
-      "wallet_age_days": 0,
-      "total_activities": 18
-    },
-    "timestamp": "2026-02-09T04:12:24.810579",
-    "trade_hash": "0xdb2296238e6ebaab03c170e4d9b9f081f821808fbdfb708a637a6ed8663917bc",
-    "trade_timestamp": 1770610065,
-    "latency": {
-      "latency_seconds": 417135.0,
-      "latency_minutes": 6952.25,
-      "is_pre_event": true,
-      "severity": "CRITICAL",
-      "trade_time": "2026-02-09T04:07:45+00:00",
-      "event_time": "2026-02-14T00:00:00+00:00"
-    },
-    "wallet_stats": null,
-    "trade_data": {
-      "outcome": "No",
-      "side": "BUY",
-      "price": 0.28973601784356656,
-      "effective_price": 0.7102639821564334,
-      "size": 1553.13793,
-      "amount": 1103.137931,
-      "potential_pnl": 449.99999900000006,
-      "pnl_multiplier": 0.40792722863955266,
-      "is_no": true
-    },
-    "resolution_last_check": "2026-03-29T06:55:09.678987+00:00"
-  },
-  {
     "market": "Will the next Prime Minister of Hungary be Istv\u00e1n Kapit\u00e1ny?",
     "market_slug": "will-the-next-prime-minister-of-hungary-be-istvn-kapitny",
     "wallet": "0x8de4df81dd97012c7c7b4bd5a2c4fc6752820427",
@@ -34962,5 +34917,113 @@
     "market_slug": "lol-fur-lev-2026-04-06",
     "amount": 1657.161417955439,
     "ai_context": "\u2705 COPY  \nFURIA Esports at 73% suggests strong confidence; odds may undervalue their chances against Leviatan Esports."
+  },
+  {
+    "market": "Will Fidesz\u2013KDNP win the most seats in the next Hungarian parliamentary election?",
+    "market_slug": "will-fideszkdnp-win-the-most-seats-in-the-next-hungarian-parliamentary-election",
+    "event_slug": "will-fideszkdnp-win-the-most-seats-in-the-next-hungarian-parliamentary-election",
+    "wallet": "0xac33959806f5ad64ca1e463d80f98de916f8f3db",
+    "analysis": {
+      "score": 70,
+      "flags": [
+        "New wallet (0d old)",
+        "Large bet ($1,271)",
+        "Low activity (4 txns)"
+      ],
+      "amount": 1270.9999990000001,
+      "odds": 0.25999999987317074,
+      "raw_price": 0.25999999987317074,
+      "outcome": "Yes",
+      "potential_pnl": 3617.461538,
+      "pnl_multiplier": 2.8461538480300184,
+      "wallet_age_days": 0,
+      "total_activities": 4
+    },
+    "timestamp": "2026-04-11T08:58:01.351709",
+    "trade_hash": "0xa37ecccc7be2e408cbe0197ac719c77b434762a11715e03aaeebea2b692e3b79",
+    "trade_timestamp": 1775897759,
+    "latency": null,
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "Yes",
+      "outcomeIndex": 0,
+      "normalized_position": "YES",
+      "side": "BUY",
+      "price": 0.25999999987317074,
+      "effective_price": 0.25999999987317074,
+      "size": 4888.461537,
+      "amount": 1270.9999990000001,
+      "potential_pnl": 3617.461538,
+      "pnl_multiplier": 2.8461538480300184,
+      "is_no": false,
+      "slug": "will-fideszkdnp-win-the-most-seats-in-the-next-hungarian-parliamentary-election",
+      "eventSlug": "hungary-parliamentary-election-winner"
+    },
+    "irrationality": {
+      "irrationality_score": 18,
+      "flags": [
+        "Moderate mispricing edge (+6.8%)"
+      ],
+      "category": "other",
+      "category_info": {
+        "strength": "medium",
+        "typical_overpricing": 0.03,
+        "min_edge": 0.05
+      },
+      "is_irrational": false
+    },
+    "mispricing": {
+      "rational_estimate": 0.19199999997463413,
+      "market_price": 0.25999999987317074,
+      "edge": 0.06799999989853661,
+      "edge_percent": 6.799999989853661,
+      "min_edge_required": 0.03,
+      "is_mispriced": true,
+      "edge_quality": "STRONG",
+      "base_rate_class": "common",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "common",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "Fidesz\u2013KDNP maintains strong voter support leading up to the election",
+          "Opposition parties remain fragmented and unable to unite against Fidesz\u2013KDNP",
+          "Economic conditions do not deteriorate significantly before the election"
+        ],
+        "weakest_link": "Economic conditions do not deteriorate significantly before the election"
+      },
+      "category": "politics_near",
+      "narrative_drivers": [
+        "Public sentiment towards government performance and policies",
+        "Potential shifts in voter turnout and engagement"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "CONFLICT",
+      "signal_emoji": "\u26a0\ufe0f",
+      "signal_strength": 70,
+      "interpretation": "Insider buying YES despite statistical overpricing",
+      "action_suggestion": "Requires manual analysis: insider may have real info OR is part of irrational crowd",
+      "insider_score": 70,
+      "insider_position": "YES",
+      "irrationality_score": 18,
+      "is_irrational": false,
+      "is_mispriced": true,
+      "edge": 0.06799999989853661,
+      "edge_percent": 6.799999989853661
+    },
+    "log_only": true,
+    "financial_analyst": {
+      "signal_quality": 27.8,
+      "stance": "WATCH_ONLY",
+      "edge_percent": 6.8,
+      "signal_strength": 70.0,
+      "insider_score": 70.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    }
   }
 ]
