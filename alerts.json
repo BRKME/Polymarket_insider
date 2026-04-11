@@ -1,319 +1,5 @@
 [
   {
-    "market": "US strikes Iran by February 28, 2026?",
-    "market_slug": "us-strikes-iran-by-february-28-2026-227-967-547-688-589-491-592-418-452-924-384-915-464-672-196-157-993-596-269-535-381-391-471-256-988-997-296-225-762-973-292-827-345-182-558-215-794-879",
-    "wallet": "0xd3a6e523c440f94f9259398fbcf7b5cc5ccffd55",
-    "analysis": {
-      "score": 85,
-      "flags": [
-        "Against trend (10.0% effective odds)",
-        "Large bet ($1,500)",
-        "Pre-event latency: 2999m"
-      ],
-      "amount": 1499.9929999999997,
-      "odds": 0.09999999999999998,
-      "raw_price": 0.9,
-      "outcome": "No",
-      "potential_pnl": 13499.937,
-      "pnl_multiplier": 9.000000000000002,
-      "wallet_age_days": 538,
-      "total_activities": 100
-    },
-    "timestamp": "2026-02-25T22:02:58.938802",
-    "trade_hash": "0xb9027ef7ba26401a4b22cd5b6fc1d532c6238654daa21fc25740c32bac00cc3e",
-    "trade_timestamp": 1772056868,
-    "latency": {
-      "latency_seconds": 179932.0,
-      "latency_minutes": 2998.866666666667,
-      "is_pre_event": true,
-      "severity": "CRITICAL",
-      "trade_time": "2026-02-25T22:01:08+00:00",
-      "event_time": "2026-02-28T00:00:00+00:00"
-    },
-    "wallet_stats": null,
-    "trade_data": {
-      "outcome": "No",
-      "side": "SELL",
-      "price": 0.9,
-      "effective_price": 0.09999999999999998,
-      "size": 14999.93,
-      "amount": 1499.9929999999997,
-      "potential_pnl": 13499.937,
-      "pnl_multiplier": 9.000000000000002,
-      "is_no": true
-    },
-    "irrationality": {
-      "irrationality_score": 50,
-      "flags": [
-        "Category structurally prone to longshot bias",
-        "Crisis keyword detected ('strike')",
-        "Large mispricing edge (+69.6%)"
-      ],
-      "category": "geopolitics",
-      "category_info": {
-        "strength": "high",
-        "typical_overpricing": 0.05,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.20400000000000001,
-      "market_price": 0.9,
-      "edge": 0.696,
-      "edge_percent": 69.6,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "rare",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "rare",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Escalation of tensions between the US and Iran",
-          "Political support within the US government for military action",
-          "Public sentiment favoring intervention"
-        ],
-        "weakest_link": "Public sentiment favoring intervention"
-      },
-      "category": "geopolitics",
-      "narrative_drivers": [
-        "Rising geopolitical tensions in the Middle East",
-        "Influence of domestic politics on foreign policy decisions"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "ALPHA",
-      "signal_emoji": "\ud83d\udd25",
-      "signal_strength": 135,
-      "interpretation": "Smart money (NO) confirms YES is overpriced",
-      "action_suggestion": "High conviction: insider + statistics aligned",
-      "insider_score": 85,
-      "insider_position": "NO",
-      "irrationality_score": 50,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.696,
-      "edge_percent": 69.6
-    },
-    "financial_analyst": {
-      "signal_quality": 87.0,
-      "stance": "HIGH_CONVICTION",
-      "edge_percent": 69.6,
-      "signal_strength": 135.0,
-      "insider_score": 85.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    }
-  },
-  {
-    "market": "Will Axiom be accused of insider trading?",
-    "market_slug": "will-axiom-be-accused-of-insider-trading",
-    "wallet": "0xfd33347a3f0f6f1af318a3242a1a6ea3541ccbbb",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($1,200)",
-        "Low activity (1 txns)"
-      ],
-      "amount": 1199.9999990000001,
-      "odds": 0.39542106381700026,
-      "raw_price": 0.39542106381700026,
-      "outcome": "Yes",
-      "potential_pnl": 1834.7396970000002,
-      "pnl_multiplier": 1.5289497487741248,
-      "wallet_age_days": 0,
-      "total_activities": 1
-    },
-    "timestamp": "2026-02-26T06:12:24.429038",
-    "trade_hash": "0x43b8e09c1ed1401c5a7c82cb983dcc58dc56f3dcbb46e7b45597fd6b0daf66b4",
-    "trade_timestamp": 1772086234,
-    "latency": null,
-    "wallet_stats": null,
-    "trade_data": {
-      "outcome": "Yes",
-      "side": "BUY",
-      "price": 0.39542106381700026,
-      "effective_price": 0.39542106381700026,
-      "size": 3034.739696,
-      "amount": 1199.9999990000001,
-      "potential_pnl": 1834.7396970000002,
-      "pnl_multiplier": 1.5289497487741248,
-      "is_no": false
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+29.6%)"
-      ],
-      "category": "other",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.09908421276340006,
-      "market_price": 0.39542106381700026,
-      "edge": 0.2963368510536002,
-      "edge_percent": 29.63368510536002,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "rare",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "rare",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Evidence of non-public information being used by Axiom executives",
-          "Regulatory scrutiny or investigation initiated by authorities",
-          "Whistleblower or insider testimony supporting the accusation"
-        ],
-        "weakest_link": "Regulatory scrutiny or investigation initiated by authorities"
-      },
-      "category": "other",
-      "narrative_drivers": [
-        "Increased media attention on corporate governance and insider trading",
-        "Recent high-profile cases influencing public perception and regulatory action"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "CONFLICT",
-      "signal_emoji": "\u26a0\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider buying YES despite statistical overpricing",
-      "action_suggestion": "Requires manual analysis: insider may have real info OR is part of irrational crowd",
-      "insider_score": 70,
-      "insider_position": "YES",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.2963368510536002,
-      "edge_percent": 29.63368510536002
-    },
-    "financial_analyst": {
-      "signal_quality": 46.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 29.63,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "resolution_last_check": "2026-03-29T06:55:17.786414+00:00"
-  },
-  {
-    "market": "Will Lens win the 2025\u201326 French Ligue 1?",
-    "market_slug": "will-lens-win-the-202526-french-ligue-1",
-    "wallet": "0x83b9801cb7b58fdedba42d96fd313a7c2ac2e9bf",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($1,087)",
-        "Low activity (1 txns)"
-      ],
-      "amount": 1087.2549999999999,
-      "odds": 0.12198530236732862,
-      "raw_price": 0.12198530236732862,
-      "outcome": "Yes",
-      "potential_pnl": 7825.744999999999,
-      "pnl_multiplier": 7.197708909133552,
-      "wallet_age_days": 0,
-      "total_activities": 1
-    },
-    "timestamp": "2026-02-26T11:11:09.923762",
-    "trade_hash": "0x5c7dd0dd44f72d39af3e0f7bc4706b89015abfd9d051d88c9cdd67cc1f6d732a",
-    "trade_timestamp": 1772104126,
-    "latency": null,
-    "wallet_stats": null,
-    "trade_data": {
-      "outcome": "Yes",
-      "side": "BUY",
-      "price": 0.12198530236732862,
-      "effective_price": 0.12198530236732862,
-      "size": 8913.0,
-      "amount": 1087.2549999999999,
-      "potential_pnl": 7825.744999999999,
-      "pnl_multiplier": 7.197708909133552,
-      "is_no": false
-    },
-    "irrationality": {
-      "irrationality_score": 25,
-      "flags": [
-        "Longshot (12%) in medium bias category (politics_near)"
-      ],
-      "category": "politics_near",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.02,
-        "min_edge": 0.03
-      },
-      "is_irrational": false
-    },
-    "mispricing": {
-      "rational_estimate": 0.08439706047346572,
-      "market_price": 0.12198530236732862,
-      "edge": 0.037588241893862895,
-      "edge_percent": 3.7588241893862895,
-      "min_edge_required": 0.05,
-      "is_mispriced": false,
-      "edge_quality": "WEAK",
-      "base_rate_class": "occasional",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "occasional",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Lens maintains a strong squad with minimal injuries",
-          "Key rivals underperform throughout the season",
-          "Effective management and tactical execution by coaching staff"
-        ],
-        "weakest_link": "Key rivals underperform throughout the season"
-      },
-      "category": "sports",
-      "narrative_drivers": [
-        "Lens' recent performance trends in Ligue 1",
-        "Potential transfers and squad improvements"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "INSIDER_ONLY",
-      "signal_emoji": "\ud83d\udc41\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider activity detected, no clear mispricing",
-      "action_suggestion": "Monitor: insider signal only, no statistical edge",
-      "insider_score": 70,
-      "insider_position": "YES",
-      "irrationality_score": 25,
-      "is_irrational": false,
-      "is_mispriced": false,
-      "edge": 0.037588241893862895,
-      "edge_percent": 3.7588241893862895
-    },
-    "financial_analyst": {
-      "signal_quality": 29.6,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 3.76,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "resolution_last_check": "2026-03-29T06:55:18.445657+00:00"
-  },
-  {
     "market": "US strikes Iran by March 1, 2026?",
     "market_slug": "us-strikes-iran-by-march-1-2026-492",
     "wallet": "0x9b72ac67ce1f7dbecf68ef3d8e1f17847bcbbb38",
@@ -34729,5 +34415,140 @@
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
     }
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x024bd91e5f7ffede0064d322c903895c83c13e2aeb3f44dd23b5e839c260f7cd",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.515682004,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xa71093cafc0c099b4ccab24c3cb8018d817923c4",
+      "side": "BUY",
+      "asset": "47546623766446634681709829775753447716283707839573087312353194813195659210458",
+      "conditionId": "0x8a6b67112dc49a01950f5156215e6be757e92c2e7d407c15bb9194cd2ad0a951",
+      "size": 52994.8518,
+      "price": 0.5,
+      "timestamp": 1775937667,
+      "title": "UFC 327: Jir\u00ed Proch\u00e1zka vs. Carlos Ulberg (Light Heavyweight, Main Card)",
+      "slug": "ufc-jproch-car6-2026-04-11",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/ufc-logo-37bbbd28e6.png",
+      "eventSlug": "ufc-jproch-car6-2026-04-11",
+      "outcome": "Carlos Ulberg",
+      "outcomeIndex": 1,
+      "name": "Talvez10",
+      "pseudonym": "Fresh-Availability",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x024bd91e5f7ffede0064d322c903895c83c13e2aeb3f44dd23b5e839c260f7cd",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "UFC 327: Jir\u00ed Proch\u00e1zka vs. Carlos Ulberg (Light Heavyweight, Main Card)",
+    "market_slug": "ufc-jproch-car6-2026-04-11",
+    "amount": 26497.4259,
+    "ai_context": "\u2705 COPY  \nCarlos Ulberg at 50% indicates potential value; if the trader is confident, the odds may underestimate his chances."
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x3de28ab72c7f0ba1967d3ab29eb5e0ea364fd2c9ab9d8d3c6c89a64a28c61d3e",
+    "wallet": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+    "trader": {
+      "rank": 7,
+      "address": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+      "username": "RN1",
+      "profit": 7381488.445945847,
+      "volume": 397546873.8186781,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x230287e270f04ba48df3162c5f7de6bdb8a0d6d2",
+      "side": "BUY",
+      "asset": "73883005523140008620305205732436768028078404863926488652009276055541465572044",
+      "conditionId": "0x81535e2f33efe74d777e7d87bbaabea3c602baef10fb4dae3e1d6c1e8f1a90d3",
+      "size": 5174.443379,
+      "price": 0.7299999999674124,
+      "timestamp": 1775937967,
+      "title": "Will Atalanta BC vs. Juventus FC end in a draw?",
+      "slug": "sea-ata-juv-2026-04-11-draw",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Serie-A-Logo.png",
+      "eventSlug": "sea-ata-juv-2026-04-11",
+      "outcome": "No",
+      "outcomeIndex": 1,
+      "name": "pilotguy",
+      "pseudonym": "Whopping-Roar",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x3de28ab72c7f0ba1967d3ab29eb5e0ea364fd2c9ab9d8d3c6c89a64a28c61d3e",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Will Atalanta BC vs. Juventus FC end in a draw?",
+    "market_slug": "sea-ata-juv-2026-04-11",
+    "amount": 3777.3436665013774,
+    "ai_context": "\u274c SKIP  \nThe odds of 73% suggest a strong likelihood of a draw, which may not reflect the actual probabilities."
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xe99514ac85110d032bbf3f27b82691c512b6a4a7faf1d42286afcd98c1c6fd71",
+    "wallet": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+    "trader": {
+      "rank": 7,
+      "address": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+      "username": "RN1",
+      "profit": 7381488.445945847,
+      "volume": 397546873.8186781,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xfb512d428db90455c9507d2578cc306b2701082d",
+      "side": "BUY",
+      "asset": "73883005523140008620305205732436768028078404863926488652009276055541465572044",
+      "conditionId": "0x81535e2f33efe74d777e7d87bbaabea3c602baef10fb4dae3e1d6c1e8f1a90d3",
+      "size": 3396.917813,
+      "price": 0.72999999997372,
+      "timestamp": 1775937967,
+      "title": "Will Atalanta BC vs. Juventus FC end in a draw?",
+      "slug": "sea-ata-juv-2026-04-11-draw",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Serie-A-Logo.png",
+      "eventSlug": "sea-ata-juv-2026-04-11",
+      "outcome": "No",
+      "outcomeIndex": 1,
+      "name": "",
+      "pseudonym": "",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xe99514ac85110d032bbf3f27b82691c512b6a4a7faf1d42286afcd98c1c6fd71",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Will Atalanta BC vs. Juventus FC end in a draw?",
+    "market_slug": "sea-ata-juv-2026-04-11",
+    "amount": 2479.750003400729,
+    "ai_context": "\u274c SKIP  \nThe odds at 73% suggest the market may be overestimating the likelihood of a draw, making this bet less favorable."
   }
 ]
