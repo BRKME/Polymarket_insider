@@ -1,332 +1,5 @@
 [
   {
-    "market": "Hezbollah strike on Israel by March 7?",
-    "market_slug": "hezbollah-strike-on-israel-by-march-7",
-    "wallet": "0x8b3ebc32a0d39de525dd2bb45ca08f0b35ff65e4",
-    "analysis": {
-      "score": 100,
-      "flags": [
-        "New wallet (1d old)",
-        "Large bet ($3,983)",
-        "Pre-event latency: 7201m"
-      ],
-      "amount": 3982.8351999999995,
-      "odds": 0.9006558348314734,
-      "raw_price": 0.09934416516852662,
-      "outcome": "No",
-      "potential_pnl": 439.31479999999993,
-      "pnl_multiplier": 0.11030202806282319,
-      "wallet_age_days": 1,
-      "total_activities": 18
-    },
-    "timestamp": "2026-03-02T00:00:50.744362",
-    "trade_hash": "0x066bc9ef66d3d488ced93c41c40c36207154761116f10f61c575ec528cb62565",
-    "trade_timestamp": 1772409535,
-    "latency": {
-      "latency_seconds": 432065.0,
-      "latency_minutes": 7201.083333333333,
-      "is_pre_event": true,
-      "severity": "CRITICAL",
-      "trade_time": "2026-03-01T23:58:55+00:00",
-      "event_time": "2026-03-07T00:00:00+00:00"
-    },
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "No",
-      "side": "SELL",
-      "price": 0.09934416516852662,
-      "effective_price": 0.9006558348314734,
-      "size": 4422.15,
-      "amount": 3982.8351999999995,
-      "potential_pnl": 439.31479999999993,
-      "pnl_multiplier": 0.11030202806282319,
-      "is_no": true
-    },
-    "irrationality": {
-      "irrationality_score": 58,
-      "flags": [
-        "Longshot (10%) in high bias category (geopolitics)",
-        "Category structurally prone to longshot bias",
-        "Crisis keyword detected ('strike')",
-        "Moderate mispricing edge (+5.5%)"
-      ],
-      "category": "geopolitics",
-      "category_info": {
-        "strength": "high",
-        "typical_overpricing": 0.05,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.043868833033705326,
-      "market_price": 0.09934416516852662,
-      "edge": 0.055475332134821295,
-      "edge_percent": 5.547533213482129,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "MODERATE",
-      "base_rate_class": "rare",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "rare",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "escalation of regional tensions",
-          "internal political pressures within Hezbollah",
-          "support or provocation from external actors"
-        ],
-        "weakest_link": "support or provocation from external actors"
-      },
-      "category": "geopolitics",
-      "narrative_drivers": [
-        "increased military activity in the region",
-        "historical context of Hezbollah's actions"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "ALPHA",
-      "signal_emoji": "\ud83d\udd25",
-      "signal_strength": 158,
-      "interpretation": "Smart money (NO) confirms YES is overpriced",
-      "action_suggestion": "High conviction: insider + statistics aligned",
-      "insider_score": 100,
-      "insider_position": "NO",
-      "irrationality_score": 58,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.055475332134821295,
-      "edge_percent": 5.547533213482129
-    },
-    "financial_analyst": {
-      "signal_quality": 74.9,
-      "stance": "SELECTIVE",
-      "edge_percent": 5.55,
-      "signal_strength": 158.0,
-      "insider_score": 100.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "resolution_last_check": "2026-03-29T06:55:21.014203+00:00"
-  },
-  {
-    "market": "Will the price of Bitcoin be above $62,000 on March 6?",
-    "market_slug": "bitcoin-above-62k-on-march-6",
-    "wallet": "0xcc2261fbb95827c1e2b72996bb1d90ea05405738",
-    "analysis": {
-      "score": 100,
-      "flags": [
-        "New wallet (2d old)",
-        "Large bet ($1,004)",
-        "Pre-event latency: 5038m"
-      ],
-      "amount": 1004.3774999999999,
-      "odds": 0.84,
-      "raw_price": 0.16,
-      "outcome": "No",
-      "potential_pnl": 191.31,
-      "pnl_multiplier": 0.1904761904761905,
-      "wallet_age_days": 2,
-      "total_activities": 40
-    },
-    "timestamp": "2026-03-02T12:03:12.378318",
-    "trade_hash": "0x2df020b9a40d77db4285521458ef630c4c0dbc2ab146a1674d838016b87bc271",
-    "trade_timestamp": 1772452903,
-    "latency": {
-      "latency_seconds": 302297.0,
-      "latency_minutes": 5038.283333333334,
-      "is_pre_event": true,
-      "severity": "CRITICAL",
-      "trade_time": "2026-03-02T12:01:43+00:00",
-      "event_time": "2026-03-06T00:00:00+00:00"
-    },
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "No",
-      "side": "BUY",
-      "price": 0.16,
-      "effective_price": 0.84,
-      "size": 1195.6875,
-      "amount": 1004.3774999999999,
-      "potential_pnl": 191.31,
-      "pnl_multiplier": 0.1904761904761905,
-      "is_no": true
-    },
-    "irrationality": {
-      "irrationality_score": 18,
-      "flags": [
-        "Moderate mispricing edge (+6.8%)"
-      ],
-      "category": "crypto",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": false
-    },
-    "mispricing": {
-      "rational_estimate": 0.092,
-      "market_price": 0.16,
-      "edge": 0.068,
-      "edge_percent": 6.800000000000001,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "MODERATE",
-      "base_rate_class": "occasional",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "occasional",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Increased institutional adoption of Bitcoin",
-          "Positive regulatory developments in major markets",
-          "Significant macroeconomic factors favoring cryptocurrency investments"
-        ],
-        "weakest_link": "Positive regulatory developments in major markets"
-      },
-      "category": "crypto",
-      "narrative_drivers": [
-        "Market sentiment driven by recent technological advancements in blockchain",
-        "Speculation on Bitcoin's role as a hedge against inflation"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "ALPHA",
-      "signal_emoji": "\ud83d\udd25",
-      "signal_strength": 118,
-      "interpretation": "Smart money (NO) confirms YES is overpriced",
-      "action_suggestion": "High conviction: insider + statistics aligned",
-      "insider_score": 100,
-      "insider_position": "NO",
-      "irrationality_score": 18,
-      "is_irrational": false,
-      "is_mispriced": true,
-      "edge": 0.068,
-      "edge_percent": 6.800000000000001
-    },
-    "financial_analyst": {
-      "signal_quality": 68.8,
-      "stance": "SELECTIVE",
-      "edge_percent": 6.8,
-      "signal_strength": 118.0,
-      "insider_score": 100.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "resolution_last_check": "2026-03-29T06:55:21.666341+00:00"
-  },
-  {
-    "market": "Will Mojtaba Khamenei be the next Supreme Leader of Iran?",
-    "market_slug": "will-mojtaba-khamenei-be-the-next-supreme-leader-of-iran-573",
-    "wallet": "0x7814fea2092726c2d892a65e4fda3bf502ff8d4e",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($1,340)",
-        "Low activity (3 txns)"
-      ],
-      "amount": 1340.1199980000001,
-      "odds": 0.6911327627215427,
-      "raw_price": 0.6911327627215427,
-      "outcome": "Yes",
-      "potential_pnl": 598.899638,
-      "pnl_multiplier": 0.4469000081289735,
-      "wallet_age_days": 0,
-      "total_activities": 3
-    },
-    "timestamp": "2026-03-03T22:02:44.155390",
-    "trade_hash": "0xd91b2b04f7247d4e0b0f59136b3b38dc485b4e16d5be24c0ca0438ce6bf83f93",
-    "trade_timestamp": 1772575237,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Yes",
-      "side": "BUY",
-      "price": 0.6911327627215427,
-      "effective_price": 0.6911327627215427,
-      "size": 1939.019636,
-      "amount": 1340.1199980000001,
-      "potential_pnl": 598.899638,
-      "pnl_multiplier": 0.4469000081289735,
-      "is_no": false
-    },
-    "irrationality": {
-      "irrationality_score": 40,
-      "flags": [
-        "Category structurally prone to longshot bias",
-        "Large mispricing edge (+49.3%)"
-      ],
-      "category": "geopolitics",
-      "category_info": {
-        "strength": "high",
-        "typical_overpricing": 0.05,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.19822655254430854,
-      "market_price": 0.6911327627215427,
-      "edge": 0.4929062101772341,
-      "edge_percent": 49.29062101772341,
-      "min_edge_required": 0.03,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "occasional",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "occasional",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Mojtaba Khamenei gains significant political support within the ruling elite.",
-          "The current Supreme Leader's health deteriorates or he passes away.",
-          "There is no strong alternative candidate emerging from the political landscape."
-        ],
-        "weakest_link": "The emergence of a strong alternative candidate who could unify opposition against Mojtaba."
-      },
-      "category": "politics_near",
-      "narrative_drivers": [
-        "Mojtaba Khamenei's familial connection to the current Supreme Leader.",
-        "The political landscape in Iran and potential shifts in power dynamics."
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "CONFLICT",
-      "signal_emoji": "\u26a0\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider buying YES despite statistical overpricing",
-      "action_suggestion": "Requires manual analysis: insider may have real info OR is part of irrational crowd",
-      "insider_score": 70,
-      "insider_position": "YES",
-      "irrationality_score": 40,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.4929062101772341,
-      "edge_percent": 49.29062101772341
-    },
-    "financial_analyst": {
-      "signal_quality": 47.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 49.29,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "resolution_last_check": "2026-03-29T06:55:22.308141+00:00"
-  },
-  {
     "market": "Will Mojtaba Khamenei be the next Supreme Leader of Iran?",
     "market_slug": "will-mojtaba-khamenei-be-the-next-supreme-leader-of-iran-573",
     "wallet": "0x920f2c01f3e904ca268bd018257d91cd3ae0490d",
@@ -34376,5 +34049,266 @@
     "market_slug": "strait-of-hormuz-traffic-returns-to-normal-by-end-of-may",
     "amount": 2750.0,
     "ai_context": "\u274c SKIP  \nThe odds of 55% suggest a close call; the market may not reflect the geopolitical complexities accurately."
+  },
+  {
+    "market": "Will the next Prime Minister of Hungary be Viktor Orb\u00e1n?",
+    "market_slug": "will-the-next-prime-minister-of-hungary-be-viktor-orbn",
+    "event_slug": "will-the-next-prime-minister-of-hungary-be-viktor-orbn",
+    "wallet": "0x15e6d7527849d49ce72560b34e05045ad7eb2fb9",
+    "analysis": {
+      "score": 70,
+      "flags": [
+        "New wallet (0d old)",
+        "Large bet ($1,637)",
+        "Low activity (2 txns)"
+      ],
+      "amount": 1636.8400000000001,
+      "odds": 0.16,
+      "raw_price": 0.16,
+      "outcome": "Yes",
+      "potential_pnl": 8593.41,
+      "pnl_multiplier": 5.249999999999999,
+      "wallet_age_days": 0,
+      "total_activities": 2
+    },
+    "timestamp": "2026-04-12T17:00:23.215357",
+    "trade_hash": "0x996979e0847cd9a8506a5b4d4e187b3ea1cefbd9e1f4727fff1ef154656b5fb7",
+    "trade_timestamp": 1776012749,
+    "latency": null,
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "Yes",
+      "outcomeIndex": 0,
+      "normalized_position": "YES",
+      "side": "BUY",
+      "price": 0.16,
+      "effective_price": 0.16,
+      "size": 10230.25,
+      "amount": 1636.8400000000001,
+      "potential_pnl": 8593.41,
+      "pnl_multiplier": 5.249999999999999,
+      "is_no": false,
+      "slug": "will-the-next-prime-minister-of-hungary-be-viktor-orbn",
+      "eventSlug": "next-prime-minister-of-hungary"
+    },
+    "irrationality": {
+      "irrationality_score": 25,
+      "flags": [
+        "Significant mispricing edge (+10.8%)"
+      ],
+      "category": "other",
+      "category_info": {
+        "strength": "medium",
+        "typical_overpricing": 0.03,
+        "min_edge": 0.05
+      },
+      "is_irrational": false
+    },
+    "mispricing": {
+      "rational_estimate": 0.052000000000000005,
+      "market_price": 0.16,
+      "edge": 0.108,
+      "edge_percent": 10.8,
+      "min_edge_required": 0.03,
+      "is_mispriced": true,
+      "edge_quality": "STRONG",
+      "base_rate_class": "rare",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "rare",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "Viktor Orb\u00e1n wins a significant political endorsement",
+          "A major political scandal affects his opponents",
+          "Changes in public opinion favor Orb\u00e1n's policies"
+        ],
+        "weakest_link": "Changes in public opinion favor Orb\u00e1n's policies"
+      },
+      "category": "politics_near",
+      "narrative_drivers": [
+        "Orb\u00e1n's historical dominance in Hungarian politics",
+        "Potential fragmentation of opposition parties"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "CONFLICT",
+      "signal_emoji": "\u26a0\ufe0f",
+      "signal_strength": 70,
+      "interpretation": "Insider buying YES despite statistical overpricing",
+      "action_suggestion": "Requires manual analysis: insider may have real info OR is part of irrational crowd",
+      "insider_score": 70,
+      "insider_position": "YES",
+      "irrationality_score": 25,
+      "is_irrational": false,
+      "is_mispriced": true,
+      "edge": 0.108,
+      "edge_percent": 10.8
+    },
+    "log_only": true,
+    "financial_analyst": {
+      "signal_quality": 35.2,
+      "stance": "WATCH_ONLY",
+      "edge_percent": 10.8,
+      "signal_strength": 70.0,
+      "insider_score": 70.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    }
+  },
+  {
+    "market": "Will TISZA \u2013 Respect and Freedom Party (TISZA) win the most seats in the next Hungarian parliamentary election?",
+    "market_slug": "will-tisza-respect-and-freedom-party-tisza-win-the-most-seats-in-the-next-hungarian-parliamentary-election",
+    "event_slug": "will-tisza-respect-and-freedom-party-tisza-win-the-most-seats-in-the-next-hungarian-parliamentary-election",
+    "wallet": "0xd5a4a0513e90eb9b892bed4db496d611c26c7946",
+    "analysis": {
+      "score": 70,
+      "flags": [
+        "New wallet (0d old)",
+        "Large bet ($4,948)",
+        "Low activity (1 txns)"
+      ],
+      "amount": 4947.519994,
+      "odds": 0.8793475934157731,
+      "raw_price": 0.8793475934157731,
+      "outcome": "Yes",
+      "potential_pnl": 678.8330329999999,
+      "pnl_multiplier": 0.13720672858790672,
+      "wallet_age_days": 0,
+      "total_activities": 1
+    },
+    "timestamp": "2026-04-12T17:00:39.735481",
+    "trade_hash": "0x33831e76c35f1b0751a4a0aaaf55b68d4ce950efdfce4441f89e86307b67ebf1",
+    "trade_timestamp": 1776012973,
+    "latency": null,
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "Yes",
+      "outcomeIndex": 0,
+      "normalized_position": "YES",
+      "side": "BUY",
+      "price": 0.8793475934157731,
+      "effective_price": 0.8793475934157731,
+      "size": 5626.353027,
+      "amount": 4947.519994,
+      "potential_pnl": 678.8330329999999,
+      "pnl_multiplier": 0.13720672858790672,
+      "is_no": false,
+      "slug": "will-tisza-respect-and-freedom-party-tisza-win-the-most-seats-in-the-next-hungarian-parliamentary-election",
+      "eventSlug": "hungary-parliamentary-election-winner"
+    },
+    "irrationality": {
+      "irrationality_score": 35,
+      "flags": [
+        "Large mispricing edge (+56.3%)"
+      ],
+      "category": "other",
+      "category_info": {
+        "strength": "medium",
+        "typical_overpricing": 0.03,
+        "min_edge": 0.05
+      },
+      "is_irrational": true
+    },
+    "mispricing": {
+      "rational_estimate": 0.3158695186831546,
+      "market_price": 0.8793475934157731,
+      "edge": 0.5634780747326185,
+      "edge_percent": 56.347807473261845,
+      "min_edge_required": 0.03,
+      "is_mispriced": true,
+      "edge_quality": "STRONG",
+      "base_rate_class": "common",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "common",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "TISZA must maintain or increase its current voter base.",
+          "Opposition parties must fail to unify or present a strong alternative.",
+          "Voter turnout must be favorable for TISZA."
+        ],
+        "weakest_link": "Opposition parties failing to unify or present a strong alternative"
+      },
+      "category": "politics_near",
+      "narrative_drivers": [
+        "Public sentiment towards TISZA's policies and leadership.",
+        "Media coverage and public perception of the opposition."
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "CONFLICT",
+      "signal_emoji": "\u26a0\ufe0f",
+      "signal_strength": 70,
+      "interpretation": "Insider buying YES despite statistical overpricing",
+      "action_suggestion": "Requires manual analysis: insider may have real info OR is part of irrational crowd",
+      "insider_score": 70,
+      "insider_position": "YES",
+      "irrationality_score": 35,
+      "is_irrational": true,
+      "is_mispriced": true,
+      "edge": 0.5634780747326185,
+      "edge_percent": 56.347807473261845
+    },
+    "log_only": true,
+    "financial_analyst": {
+      "signal_quality": 46.0,
+      "stance": "WATCH_ONLY",
+      "edge_percent": 56.35,
+      "signal_strength": 70.0,
+      "insider_score": 70.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    }
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x0e4c12a21648a6754e90e3bc7e273d0ecf922fccc07a9bc7459b947e2cf205c2",
+    "wallet": "0x78b9ac44a6d7d7a076c14e0ad518b301b63c6b76",
+    "trader": {
+      "rank": 4,
+      "address": "0x78b9ac44a6d7d7a076c14e0ad518b301b63c6b76",
+      "username": "Len9311238",
+      "profit": 8709972.988069998,
+      "volume": 16402744.764626998,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x35bbbad2415fe5e39b12da9a316cdc80b022009b",
+      "side": "BUY",
+      "asset": "17928724382258631631719579012359945400865032871287932503640701089143599914494",
+      "conditionId": "0x5ec80dc407457301f282a2b44341947afc700dfaa7923d14c8894e04bc63b03f",
+      "size": 2220.31,
+      "price": 0.85,
+      "timestamp": 1776013307,
+      "title": "Will the next Prime Minister of Hungary be Viktor Orb\u00e1n?",
+      "slug": "will-the-next-prime-minister-of-hungary-be-viktor-orbn",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-the-next-prime-minister-of-romania-be-viktor-orbn-iV32QWPAm0Kr.jpg",
+      "eventSlug": "next-prime-minister-of-hungary",
+      "outcome": "No",
+      "outcomeIndex": 1,
+      "name": "MisTKy",
+      "pseudonym": "Grounded-Depression",
+      "bio": "Follow on X for more",
+      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-5070263-f290eb6b-11db-423d-b532-cd773195842b.jpg",
+      "profileImageOptimized": "",
+      "transactionHash": "0x0e4c12a21648a6754e90e3bc7e273d0ecf922fccc07a9bc7459b947e2cf205c2",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Will the next Prime Minister of Hungary be Viktor Orb\u00e1n?",
+    "market_slug": "next-prime-minister-of-hungary",
+    "amount": 1887.2634999999998,
+    "ai_context": "\u274c SKIP  \nThe odds are too low for a significant return, and Orb\u00e1n's incumbency suggests he remains a strong favorite."
   }
 ]
