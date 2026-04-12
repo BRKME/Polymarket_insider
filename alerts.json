@@ -1,107 +1,5 @@
 [
   {
-    "market": "UFC 326: Charles Oliveira vs. Max Holloway (Lightweight, Main Card)",
-    "market_slug": "ufc-cha1-max1-2026",
-    "wallet": "0xeb814eece52f0a86570bfbcba253848479b1d3eb",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($1,500)",
-        "Low activity (1 txns)"
-      ],
-      "amount": 1499.999999,
-      "odds": 0.359999999904,
-      "raw_price": 0.359999999904,
-      "outcome": "Charles Oliveira",
-      "potential_pnl": 2666.6666659999996,
-      "pnl_multiplier": 1.7777777785185185,
-      "wallet_age_days": 0,
-      "total_activities": 1
-    },
-    "timestamp": "2026-03-07T01:13:48.841591",
-    "trade_hash": "0x3746ab59ea734a97e5819fe53e8891ae5543d4d0c7e5940f2b4e5ad9984ccf7a",
-    "trade_timestamp": 1772845641,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Charles Oliveira",
-      "side": "BUY",
-      "price": 0.359999999904,
-      "effective_price": 0.359999999904,
-      "size": 4166.666665,
-      "amount": 1499.999999,
-      "potential_pnl": 2666.6666659999996,
-      "pnl_multiplier": 1.7777777785185185,
-      "is_no": false
-    },
-    "irrationality": {
-      "irrationality_score": 25,
-      "flags": [
-        "Significant mispricing edge (+14.8%)"
-      ],
-      "category": "sports",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": false
-    },
-    "mispricing": {
-      "rational_estimate": 0.2119999999808,
-      "market_price": 0.359999999904,
-      "edge": 0.1479999999232,
-      "edge_percent": 14.79999999232,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Charles Oliveira must successfully defend against Max Holloway's striking",
-          "Max Holloway must avoid being taken down or submitted",
-          "The fight must go the distance without a knockout or submission"
-        ],
-        "weakest_link": "Max Holloway must avoid being taken down or submitted"
-      },
-      "category": "sports",
-      "narrative_drivers": [
-        "Oliveira's grappling skills versus Holloway's striking",
-        "Recent performance trends of both fighters"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "INSIDER_ONLY",
-      "signal_emoji": "\ud83d\udc41\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider activity detected, no clear mispricing",
-      "action_suggestion": "Monitor: insider signal only, no statistical edge",
-      "insider_score": 70,
-      "insider_position": "CHARLES OLIVEIRA",
-      "irrationality_score": 25,
-      "is_irrational": false,
-      "is_mispriced": true,
-      "edge": 0.1479999999232,
-      "edge_percent": 14.79999999232
-    },
-    "financial_analyst": {
-      "signal_quality": 46.2,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 14.8,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    }
-  },
-  {
     "market": "Clippers vs. Grizzlies",
     "market_slug": "nba-lac-mem-2026",
     "wallet": "0x598606a7179c2a9b3747340022a17194bb2843c5",
@@ -34080,5 +33978,50 @@
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
     },
     "ai_context": "\u274c SKIP  \nThe odds at 79% suggest the market may be overvaluing the Spurs; consider their recent performance and matchup history."
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x4dd0709a14db051b81b1ad08cbf2618048c7cf6e7c025f960fdfc77b9ee74c33",
+    "wallet": "0xd235973291b2b75ff4070e9c0b01728c520b0f29",
+    "trader": {
+      "rank": 5,
+      "address": "0xd235973291b2b75ff4070e9c0b01728c520b0f29",
+      "username": "zxgngl",
+      "profit": 7807265.589240883,
+      "volume": 40551790.62184698,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x7fea691e28d169a33c500607279f2acb49058f74",
+      "side": "BUY",
+      "asset": "108819321908929134266641993280310742049744636201866724062552959381995312693423",
+      "conditionId": "0x3dd381b1e3e205b267a5ce14486e7104c50d447a7937ea512cbe80ee78b1524d",
+      "size": 1988.6,
+      "price": 0.81,
+      "timestamp": 1776036123,
+      "title": "Bucks vs. 76ers",
+      "slug": "nba-mil-phi-2026-04-12",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
+      "eventSlug": "nba-mil-phi-2026-04-12",
+      "outcome": "76ers",
+      "outcomeIndex": 1,
+      "name": "CavaSoTasty",
+      "pseudonym": "Cuddly-Will",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x4dd0709a14db051b81b1ad08cbf2618048c7cf6e7c025f960fdfc77b9ee74c33",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Bucks vs. 76ers",
+    "market_slug": "nba-mil-phi-2026-04-12",
+    "amount": 1610.766,
+    "ai_context": "\u2705 COPY  \nThe odds suggest strong confidence in the 76ers, likely reflecting their superior team strength and recent performance against the Bucks."
   }
 ]
