@@ -1,115 +1,5 @@
 [
   {
-    "market": "Will the price of Solana be above $80 on March 10?",
-    "market_slug": "solana-above-80-on-march-10",
-    "wallet": "0xa82afc3751a2e58ec985989eb7d51b3f0f179055",
-    "analysis": {
-      "score": 80,
-      "flags": [
-        "New wallet (4d old)",
-        "Large bet ($1,865)",
-        "Pre-event latency: 5313m"
-      ],
-      "amount": 1865.34,
-      "odds": 0.86,
-      "raw_price": 0.86,
-      "outcome": "Yes",
-      "potential_pnl": 303.66,
-      "pnl_multiplier": 0.16279069767441862,
-      "wallet_age_days": 4,
-      "total_activities": 100
-    },
-    "timestamp": "2026-03-06T07:31:12.619614",
-    "trade_hash": "0x918964cda42c7d13673e0309f92663a869ff4aee52f6d31a5c5e528f5632cefe",
-    "trade_timestamp": 1772782001,
-    "latency": {
-      "latency_seconds": 318799.0,
-      "latency_minutes": 5313.316666666667,
-      "is_pre_event": true,
-      "severity": "CRITICAL",
-      "trade_time": "2026-03-06T07:26:41+00:00",
-      "event_time": "2026-03-10T00:00:00+00:00"
-    },
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Yes",
-      "side": "BUY",
-      "price": 0.86,
-      "effective_price": 0.86,
-      "size": 2169.0,
-      "amount": 1865.34,
-      "potential_pnl": 303.66,
-      "pnl_multiplier": 0.16279069767441862,
-      "is_no": false
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+54.8%)"
-      ],
-      "category": "crypto",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.312,
-      "market_price": 0.86,
-      "edge": 0.548,
-      "edge_percent": 54.800000000000004,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Increased adoption of Solana for decentralized applications",
-          "Positive market sentiment towards cryptocurrencies",
-          "Regulatory clarity and favorable policies for crypto assets"
-        ],
-        "weakest_link": "Regulatory clarity and favorable policies for crypto assets"
-      },
-      "category": "crypto",
-      "narrative_drivers": [
-        "Technological advancements in Solana's ecosystem",
-        "Market trends indicating a bullish sentiment for altcoins"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "CONFLICT",
-      "signal_emoji": "\u26a0\ufe0f",
-      "signal_strength": 80,
-      "interpretation": "Insider buying YES despite statistical overpricing",
-      "action_suggestion": "Requires manual analysis: insider may have real info OR is part of irrational crowd",
-      "insider_score": 80,
-      "insider_position": "YES",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.548,
-      "edge_percent": 54.800000000000004
-    },
-    "financial_analyst": {
-      "signal_quality": 48.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 54.8,
-      "signal_strength": 80.0,
-      "insider_score": 80.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "resolution_last_check": "2026-03-29T06:55:25.492846+00:00"
-  },
-  {
     "market": "Pelicans vs. Suns",
     "market_slug": "nba-nop-phx-2026",
     "wallet": "0x00cd0f647f35c2ad9f50459373a498c14986997d",
@@ -34134,5 +34024,50 @@
     "market_slug": "the-masters-winner-2026",
     "amount": 4627.2474999999995,
     "ai_context": "\u274c SKIP  \nThe odds of 65% suggest an overestimation of Cameron Young's chances, making this bet less favorable."
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xd53f11be53af8c17678de903e9fed9cee50bb6be7b78168b685179b9e5feed8b",
+    "wallet": "0x006cc834cc092684f1b56626e23bedb3835c16ea",
+    "trader": {
+      "rank": 17,
+      "address": "0x006cc834cc092684f1b56626e23bedb3835c16ea",
+      "username": "0x006cc834Cc092684F1B56626E23BEdB3835c16ea-1729683673397",
+      "profit": 4552113.846405428,
+      "volume": 60070499.45364798,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x3e04fbc51adb75418129f6ce2091ae633070564d",
+      "side": "BUY",
+      "asset": "37643639610061651955997759763016896490612258488492280059008299835546981891564",
+      "conditionId": "0x4b965bf4a607ff58d398fa14bfc280af3d26bc3fd29f6d3785cea439757f1419",
+      "size": 4000,
+      "price": 0.59,
+      "timestamp": 1776027419,
+      "title": "Bruins vs. Blue Jackets",
+      "slug": "nhl-bos-cbj-2026-04-12",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nhl.png",
+      "eventSlug": "nhl-bos-cbj-2026-04-12",
+      "outcome": "Blue Jackets",
+      "outcomeIndex": 1,
+      "name": "roldy",
+      "pseudonym": "Tattered-Screamer",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xd53f11be53af8c17678de903e9fed9cee50bb6be7b78168b685179b9e5feed8b",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Bruins vs. Blue Jackets",
+    "market_slug": "nhl-bos-cbj-2026-04-12",
+    "amount": 2360.0,
+    "ai_context": "\u274c SKIP  \nThe odds at 59% suggest the Blue Jackets are undervalued; however, their overall performance may not justify this price."
   }
 ]
