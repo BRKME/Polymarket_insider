@@ -1,108 +1,5 @@
 [
   {
-    "market": "Will the Colorado Avalanche win the 2026 NHL Stanley Cup?",
-    "market_slug": "will-the-colorado-avalanche-win-the-2026-nhl-stanley-cup",
-    "wallet": "0x0493b9966845de32820c19a3583b267efb454662",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($1,331)",
-        "Low activity (1 txns)"
-      ],
-      "amount": 1330.8659999999998,
-      "odds": 0.21399999999999997,
-      "raw_price": 0.786,
-      "outcome": "No",
-      "potential_pnl": 4888.134,
-      "pnl_multiplier": 3.6728971962616828,
-      "wallet_age_days": 0,
-      "total_activities": 1
-    },
-    "timestamp": "2026-02-28T15:34:50.884540",
-    "trade_hash": "0x64f5a69f510a07e367bd3f50e5ebd5a9c214e1dfe6381b47d3565d48a23d5aff",
-    "trade_timestamp": 1772292787,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "No",
-      "side": "BUY",
-      "price": 0.786,
-      "effective_price": 0.21399999999999997,
-      "size": 6219.0,
-      "amount": 1330.8659999999998,
-      "potential_pnl": 4888.134,
-      "pnl_multiplier": 3.6728971962616828,
-      "is_no": true
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+56.9%)"
-      ],
-      "category": "politics_near",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.02,
-        "min_edge": 0.03
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.2172,
-      "market_price": 0.786,
-      "edge": 0.5688,
-      "edge_percent": 56.879999999999995,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "occasional",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "occasional",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Strong performance in regular season",
-          "Key player health and performance",
-          "Effective coaching and strategy"
-        ],
-        "weakest_link": "Key player health and performance"
-      },
-      "category": "sports",
-      "narrative_drivers": [
-        "Recent success in playoffs",
-        "Strong roster and potential acquisitions"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "ALPHA",
-      "signal_emoji": "\ud83d\udd25",
-      "signal_strength": 105,
-      "interpretation": "Smart money (NO) confirms YES is overpriced",
-      "action_suggestion": "High conviction: insider + statistics aligned",
-      "insider_score": 70,
-      "insider_position": "NO",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.5688,
-      "edge_percent": 56.879999999999995
-    },
-    "financial_analyst": {
-      "signal_quality": 81.0,
-      "stance": "HIGH_CONVICTION",
-      "edge_percent": 56.88,
-      "signal_strength": 105.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "resolution_last_check": "2026-03-29T06:55:19.103781+00:00"
-  },
-  {
     "market": "Trail Blazers vs. Hawks",
     "market_slug": "nba-por-atl-2026",
     "wallet": "0xeaee24e02b7ceea5b1848683e9cb92958b1b6b4d",
@@ -34491,5 +34388,50 @@
     "market_slug": "bra-mir-bah-2026-04-11",
     "amount": 3814.4223,
     "ai_context": "\u274c SKIP  \nThe odds of 90% suggest overconfidence; the market may be undervaluing Bahia's chances."
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x1442cbad372121978c94b9f961bcaa5ed13aac9e90bf9a727e45bbf76352218c",
+    "wallet": "0x16f91db2592924cfed6e03b7e5cb5bb1e32299e3",
+    "trader": {
+      "rank": 19,
+      "address": "0x16f91db2592924cfed6e03b7e5cb5bb1e32299e3",
+      "username": "Jenzigo",
+      "profit": 4049827.0941029997,
+      "volume": 9457725.034338009,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x161eb16874e34f545991e774b4e1ac5b65f86ef0",
+      "side": "SELL",
+      "asset": "25575776664510800973106582185886123573796574002421434226985230855726193779874",
+      "conditionId": "0x58564dc91b0ca58adcc986c75806fdf806ab9189d9b7a456496998342f2255ce",
+      "size": 2249.99,
+      "price": 0.89,
+      "timestamp": 1775995897,
+      "title": "LoL: Weibo Gaming vs Bilibili Gaming - Game 1 Winner",
+      "slug": "lol-wb-blg-2026-04-12-game1",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/league-of-legends-61a4f083a6.png",
+      "eventSlug": "lol-wb-blg-2026-04-12",
+      "outcome": "Bilibili Gaming",
+      "outcomeIndex": 1,
+      "name": "piston777",
+      "pseudonym": "Excited-Reboot",
+      "bio": "",
+      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-3463701-3f101834-22db-42be-8579-dbafd0c46064.png",
+      "profileImageOptimized": "",
+      "transactionHash": "0x1442cbad372121978c94b9f961bcaa5ed13aac9e90bf9a727e45bbf76352218c",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "LoL: Weibo Gaming vs Bilibili Gaming - Game 1 Winner",
+    "market_slug": "lol-wb-blg-2026-04-12",
+    "amount": 2002.4910999999997,
+    "ai_context": "\u274c SKIP  \nThe odds at 89% suggest Bilibili Gaming is heavily favored, possibly indicating overvaluation. Market may be inefficient."
   }
 ]
