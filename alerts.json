@@ -1,109 +1,5 @@
 [
   {
-    "market": "Will Mojtaba Khamenei be the next Supreme Leader of Iran?",
-    "market_slug": "will-mojtaba-khamenei-be-the-next-supreme-leader-of-iran-573",
-    "wallet": "0x920f2c01f3e904ca268bd018257d91cd3ae0490d",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($1,451)",
-        "Low activity (4 txns)"
-      ],
-      "amount": 1451.1053,
-      "odds": 0.599486610647035,
-      "raw_price": 0.400513389352965,
-      "outcome": "No",
-      "potential_pnl": 969.4747,
-      "pnl_multiplier": 0.6680939694727874,
-      "wallet_age_days": 0,
-      "total_activities": 4
-    },
-    "timestamp": "2026-03-04T11:47:21.594164",
-    "trade_hash": "0x20869aff83aaf7bf5dc942bc32dee5b7dff5b7a01441856d2eba17ad39a4150a",
-    "trade_timestamp": 1772624693,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "No",
-      "side": "SELL",
-      "price": 0.400513389352965,
-      "effective_price": 0.599486610647035,
-      "size": 2420.58,
-      "amount": 1451.1053,
-      "potential_pnl": 969.4747,
-      "pnl_multiplier": 0.6680939694727874,
-      "is_no": true
-    },
-    "irrationality": {
-      "irrationality_score": 40,
-      "flags": [
-        "Category structurally prone to longshot bias",
-        "Large mispricing edge (+26.0%)"
-      ],
-      "category": "geopolitics",
-      "category_info": {
-        "strength": "high",
-        "typical_overpricing": 0.05,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.140102677870593,
-      "market_price": 0.400513389352965,
-      "edge": 0.260410711482372,
-      "edge_percent": 26.0410711482372,
-      "min_edge_required": 0.03,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "occasional",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "occasional",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Mojtaba Khamenei gains significant political support within the ruling elite",
-          "The current Supreme Leader passes away or becomes incapacitated",
-          "There is no strong alternative candidate emerging from the clerical establishment"
-        ],
-        "weakest_link": "The emergence of a strong alternative candidate from the clerical establishment"
-      },
-      "category": "politics_near",
-      "narrative_drivers": [
-        "The consolidation of power within the Khamenei family",
-        "The current political climate and potential instability in Iran"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "ALPHA",
-      "signal_emoji": "\ud83d\udd25",
-      "signal_strength": 110,
-      "interpretation": "Smart money (NO) confirms YES is overpriced",
-      "action_suggestion": "High conviction: insider + statistics aligned",
-      "insider_score": 70,
-      "insider_position": "NO",
-      "irrationality_score": 40,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.260410711482372,
-      "edge_percent": 26.0410711482372
-    },
-    "financial_analyst": {
-      "signal_quality": 82.0,
-      "stance": "HIGH_CONVICTION",
-      "edge_percent": 26.04,
-      "signal_strength": 110.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "resolution_last_check": "2026-03-29T06:55:22.308158+00:00"
-  },
-  {
     "market": "Will John Cornyn win the 2026 Texas Republican Primary?",
     "market_slug": "will-john-cornyn-win-the-2026-republican-primary",
     "wallet": "0xf9d29e78523037188ba59e6afe0e1e46877461da",
@@ -34310,5 +34206,50 @@
     "market_slug": "next-prime-minister-of-hungary",
     "amount": 1887.2634999999998,
     "ai_context": "\u274c SKIP  \nThe odds are too low for a significant return, and Orb\u00e1n's incumbency suggests he remains a strong favorite."
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x4c7d7129922c88b73f1e1fb619f041d4f25a9fadc5dab238ec2a2e4b74f7be3f",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.515682004,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x2a2c53bd278c04da9962fcf96490e17f3dfb9bc1",
+      "side": "BUY",
+      "asset": "90337444501364335927325126502244353052970409421867619390450599180760571824460",
+      "conditionId": "0xc64a77f9126ab445ae479ecd9c229aa4f666187dc2c0c9729879a2c602e9c0d8",
+      "size": 53286.46,
+      "price": 0.47,
+      "timestamp": 1776015109,
+      "title": "Canadiens vs. Islanders",
+      "slug": "nhl-mon-nyi-2026-04-12",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nhl.png",
+      "eventSlug": "nhl-mon-nyi-2026-04-12",
+      "outcome": "Canadiens",
+      "outcomeIndex": 0,
+      "name": "0x2a2C53bD278c04DA9962Fcf96490E17F3DfB9Bc1-1772479215461",
+      "pseudonym": "Dishonest-Bloom",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x4c7d7129922c88b73f1e1fb619f041d4f25a9fadc5dab238ec2a2e4b74f7be3f",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Canadiens vs. Islanders",
+    "market_slug": "nhl-mon-nyi-2026-04-12",
+    "amount": 25044.636199999997,
+    "ai_context": "\u274c SKIP  \nThe odds suggest the Canadiens are undervalued at 47%. The market may not reflect their true chances of winning."
   }
 ]
