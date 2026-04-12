@@ -1,107 +1,5 @@
 [
   {
-    "market": "Pelicans vs. Suns",
-    "market_slug": "nba-nop-phx-2026",
-    "wallet": "0x00cd0f647f35c2ad9f50459373a498c14986997d",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($2,135)",
-        "Low activity (1 txns)"
-      ],
-      "amount": 2135.2000000000003,
-      "odds": 0.68,
-      "raw_price": 0.68,
-      "outcome": "Suns",
-      "potential_pnl": 1004.7999999999998,
-      "pnl_multiplier": 0.47058823529411753,
-      "wallet_age_days": 0,
-      "total_activities": 1
-    },
-    "timestamp": "2026-03-06T08:34:31.531610",
-    "trade_hash": "0xe4dc239704515e9e7b1fba7a62c77373fd103cbbc11177286faca1d3d86ee95b",
-    "trade_timestamp": 1772785921,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Suns",
-      "side": "BUY",
-      "price": 0.68,
-      "effective_price": 0.68,
-      "size": 3140.0,
-      "amount": 2135.2000000000003,
-      "potential_pnl": 1004.7999999999998,
-      "pnl_multiplier": 0.47058823529411753,
-      "is_no": false
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+40.4%)"
-      ],
-      "category": "sports",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.276,
-      "market_price": 0.68,
-      "edge": 0.404,
-      "edge_percent": 40.400000000000006,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Pelicans maintain key player health",
-          "Suns struggle with injuries",
-          "Recent performance trends favor Pelicans"
-        ],
-        "weakest_link": "Suns struggle with injuries"
-      },
-      "category": "sports",
-      "narrative_drivers": [
-        "Pelicans' recent winning streak",
-        "Suns' inconsistent performance"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "INSIDER_ONLY",
-      "signal_emoji": "\ud83d\udc41\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider activity detected, no clear mispricing",
-      "action_suggestion": "Monitor: insider signal only, no statistical edge",
-      "insider_score": 70,
-      "insider_position": "SUNS",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.404,
-      "edge_percent": 40.400000000000006
-    },
-    "financial_analyst": {
-      "signal_quality": 51.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 40.4,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    }
-  },
-  {
     "market": "Will the next Prime Minister of Hungary be P\u00e9ter Magyar?",
     "market_slug": "will-the-next-prime-minister-of-hungary-be-pter-magyar",
     "wallet": "0x366fb20534129f9a8c9812a62437089cd892c0ef",
@@ -34069,5 +33967,113 @@
     "market_slug": "nhl-bos-cbj-2026-04-12",
     "amount": 2360.0,
     "ai_context": "\u274c SKIP  \nThe odds at 59% suggest the Blue Jackets are undervalued; however, their overall performance may not justify this price."
+  },
+  {
+    "market": "Columbus Crew vs. Orlando City SC: O/U 3.5",
+    "market_slug": "mls-clb-orl-2026-04-12-total-3pt5",
+    "event_slug": "mls-clb-orl-2026-04-12-total-3pt5",
+    "wallet": "0xf003d96c0f007fe2194aaf1e1a38cc255dd808cd",
+    "analysis": {
+      "score": 70,
+      "flags": [
+        "New wallet (0d old)",
+        "Large bet ($1,003)",
+        "Low activity (4 txns)"
+      ],
+      "amount": 1003.0,
+      "odds": 0.5,
+      "raw_price": 0.5,
+      "outcome": "Over",
+      "potential_pnl": 1003.0,
+      "pnl_multiplier": 1.0,
+      "wallet_age_days": 0,
+      "total_activities": 4
+    },
+    "timestamp": "2026-04-12T21:19:12.734581",
+    "trade_hash": "0x74d5229fcb7842c8ae9c8c37cd32ad3097a71d981da5046a6c1b6042fa23c8ce",
+    "trade_timestamp": 1776028601,
+    "latency": null,
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "Over",
+      "outcomeIndex": 0,
+      "normalized_position": "YES",
+      "side": "BUY",
+      "price": 0.5,
+      "effective_price": 0.5,
+      "size": 2006.0,
+      "amount": 1003.0,
+      "potential_pnl": 1003.0,
+      "pnl_multiplier": 1.0,
+      "is_no": false,
+      "slug": "mls-clb-orl-2026-04-12-total-3pt5",
+      "eventSlug": "mls-clb-orl-2026-04-12-more-markets"
+    },
+    "irrationality": {
+      "irrationality_score": 35,
+      "flags": [
+        "Large mispricing edge (+26.0%)"
+      ],
+      "category": "sports",
+      "category_info": {
+        "strength": "medium",
+        "typical_overpricing": 0.03,
+        "min_edge": 0.05
+      },
+      "is_irrational": true
+    },
+    "mispricing": {
+      "rational_estimate": 0.24,
+      "market_price": 0.5,
+      "edge": 0.26,
+      "edge_percent": 26.0,
+      "min_edge_required": 0.05,
+      "is_mispriced": true,
+      "edge_quality": "STRONG",
+      "base_rate_class": "common",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "common",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "Both teams have strong attacking players",
+          "Defensive errors by either team",
+          "Weather conditions favor scoring"
+        ],
+        "weakest_link": "Weather conditions favor scoring"
+      },
+      "category": "sports",
+      "narrative_drivers": [
+        "Recent high-scoring games in the league",
+        "Injury updates on key defensive players"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "CONFLICT",
+      "signal_emoji": "\u26a0\ufe0f",
+      "signal_strength": 70,
+      "interpretation": "Insider buying YES despite statistical overpricing",
+      "action_suggestion": "Requires manual analysis: insider may have real info OR is part of irrational crowd",
+      "insider_score": 70,
+      "insider_position": "YES",
+      "irrationality_score": 35,
+      "is_irrational": true,
+      "is_mispriced": true,
+      "edge": 0.26,
+      "edge_percent": 26.0
+    },
+    "log_only": true,
+    "financial_analyst": {
+      "signal_quality": 46.0,
+      "stance": "WATCH_ONLY",
+      "edge_percent": 26.0,
+      "signal_strength": 70.0,
+      "insider_score": 70.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    }
   }
 ]
