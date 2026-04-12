@@ -1,217 +1,5 @@
 [
   {
-    "market": "T20 World Cup: England vs India",
-    "market_slug": "crint-gbr-ind-2026",
-    "wallet": "0xb6b78496d98e50fc1fe607e8f3e4610c3f5a9e6c",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($1,987)",
-        "Low activity (3 txns)"
-      ],
-      "amount": 1986.999999,
-      "odds": 0.3399999998904882,
-      "raw_price": 0.3399999998904882,
-      "outcome": "England",
-      "potential_pnl": 3857.117647,
-      "pnl_multiplier": 1.9411764715355695,
-      "wallet_age_days": 0,
-      "total_activities": 3
-    },
-    "timestamp": "2026-03-05T12:02:30.245341",
-    "trade_hash": "0x02bf2db8d5300a300bb5b62a8bb36476d265f9c26405be56b47292e7b99fb297",
-    "trade_timestamp": 1772711903,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "England",
-      "side": "BUY",
-      "price": 0.3399999998904882,
-      "effective_price": 0.3399999998904882,
-      "size": 5844.117646,
-      "amount": 1986.999999,
-      "potential_pnl": 3857.117647,
-      "pnl_multiplier": 1.9411764715355695,
-      "is_no": false
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+21.2%)"
-      ],
-      "category": "sports",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.12799999997809763,
-      "market_price": 0.3399999998904882,
-      "edge": 0.21199999991239055,
-      "edge_percent": 21.199999991239054,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "occasional",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "occasional",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "England's key players perform exceptionally well",
-          "India's performance declines significantly",
-          "Weather conditions favor England"
-        ],
-        "weakest_link": "India's performance declines significantly"
-      },
-      "category": "sports",
-      "narrative_drivers": [
-        "England's historical performance in knockout stages",
-        "India's recent form and injuries"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "INSIDER_ONLY",
-      "signal_emoji": "\ud83d\udc41\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider activity detected, no clear mispricing",
-      "action_suggestion": "Monitor: insider signal only, no statistical edge",
-      "insider_score": 70,
-      "insider_position": "ENGLAND",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.21199999991239055,
-      "edge_percent": 21.199999991239054
-    },
-    "financial_analyst": {
-      "signal_quality": 51.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 21.2,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    }
-  },
-  {
-    "market": "Will the price of Bitcoin be above $66,000 on March 10?",
-    "market_slug": "bitcoin-above-66k-on-march-10",
-    "wallet": "0xde17f7144fbd0eddb2679132c10ff5e74b120988",
-    "analysis": {
-      "score": 80,
-      "flags": [
-        "New wallet (4d old)",
-        "Large bet ($1,500)",
-        "Pre-event latency: 6304m"
-      ],
-      "amount": 1500.3,
-      "odds": 0.9,
-      "raw_price": 0.9,
-      "outcome": "Yes",
-      "potential_pnl": 166.69999999999993,
-      "pnl_multiplier": 0.11111111111111108,
-      "wallet_age_days": 4,
-      "total_activities": 100
-    },
-    "timestamp": "2026-03-05T15:00:49.525014",
-    "trade_hash": "0xae1c0b51cd6199b95c09edbd653bbc9e2bdb65510e660c3b635fc61d6503b318",
-    "trade_timestamp": 1772722563,
-    "latency": {
-      "latency_seconds": 378237.0,
-      "latency_minutes": 6303.95,
-      "is_pre_event": true,
-      "severity": "CRITICAL",
-      "trade_time": "2026-03-05T14:56:03+00:00",
-      "event_time": "2026-03-10T00:00:00+00:00"
-    },
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Yes",
-      "side": "BUY",
-      "price": 0.9,
-      "effective_price": 0.9,
-      "size": 1667.0,
-      "amount": 1500.3,
-      "potential_pnl": 166.69999999999993,
-      "pnl_multiplier": 0.11111111111111108,
-      "is_no": false
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+66.0%)"
-      ],
-      "category": "crypto",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.24000000000000002,
-      "market_price": 0.9,
-      "edge": 0.66,
-      "edge_percent": 66.0,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "occasional",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "occasional",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Increased institutional adoption of Bitcoin",
-          "Positive regulatory developments in major markets",
-          "Significant macroeconomic factors favoring cryptocurrency investments"
-        ],
-        "weakest_link": "Positive regulatory developments in major markets"
-      },
-      "category": "crypto",
-      "narrative_drivers": [
-        "Market sentiment driven by technological advancements in blockchain",
-        "Speculation around Bitcoin as a hedge against inflation"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "CONFLICT",
-      "signal_emoji": "\u26a0\ufe0f",
-      "signal_strength": 80,
-      "interpretation": "Insider buying YES despite statistical overpricing",
-      "action_suggestion": "Requires manual analysis: insider may have real info OR is part of irrational crowd",
-      "insider_score": 80,
-      "insider_position": "YES",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.66,
-      "edge_percent": 66.0
-    },
-    "financial_analyst": {
-      "signal_quality": 48.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 66.0,
-      "signal_strength": 80.0,
-      "insider_score": 80.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "resolution_last_check": "2026-03-29T06:55:24.800388+00:00"
-  },
-  {
     "market": "Will the price of Solana be above $80 on March 10?",
     "market_slug": "solana-above-80-on-march-10",
     "wallet": "0xa82afc3751a2e58ec985989eb7d51b3f0f179055",
@@ -34256,5 +34044,95 @@
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
     }
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x8d738313ed26a10cb01698630461dcd6d87e6e8aa4a3f830eb6e53259bd452f9",
+    "wallet": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+    "trader": {
+      "rank": 7,
+      "address": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+      "username": "RN1",
+      "profit": 7399940.361541751,
+      "volume": 402696389.7707318,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xead152b855effa6b5b5837f53b24c0756830c76a",
+      "side": "BUY",
+      "asset": "64839620643543455663176545644417187741508741750332061546105736635983287442638",
+      "conditionId": "0x7a00c50eb4e76f5bc25b38a83c029dfde5faa9268e4ade490c931a384f8d157a",
+      "size": 21493.69,
+      "price": 0.345,
+      "timestamp": 1776020815,
+      "title": "Will Cameron Young win the 2026 Masters tournament?",
+      "slug": "will-cameron-young-win-the-2026-masters-tournament",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-cameron-young-win-the-2026-masters-tournament-sXasr_Yw-Hib.png",
+      "eventSlug": "the-masters-winner-2026",
+      "outcome": "Yes",
+      "outcomeIndex": 0,
+      "name": "elkmonkey",
+      "pseudonym": "Unconscious-Penguin",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x8d738313ed26a10cb01698630461dcd6d87e6e8aa4a3f830eb6e53259bd452f9",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Will Cameron Young win the 2026 Masters tournament?",
+    "market_slug": "the-masters-winner-2026",
+    "amount": 7415.323049999999,
+    "ai_context": "\u2705 COPY  \nThe odds of 34% suggest a potential undervaluation of Cameron Young's chances, making this a favorable bet."
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x8a7cd3615454c96610b12b329d066a832f6576d06eac0b05a6d2edaa7d9fe509",
+    "wallet": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+    "trader": {
+      "rank": 7,
+      "address": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+      "username": "RN1",
+      "profit": 7399940.361541751,
+      "volume": 402696389.7707318,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xdb27bf2ac5d428a9c63dbc914611036855a6c56e",
+      "side": "BUY",
+      "asset": "115441174756778497442573516192216092472503715286856402978812563445827005215235",
+      "conditionId": "0x7a00c50eb4e76f5bc25b38a83c029dfde5faa9268e4ade490c931a384f8d157a",
+      "size": 7097.15,
+      "price": 0.6519867129763356,
+      "timestamp": 1776020815,
+      "title": "Will Cameron Young win the 2026 Masters tournament?",
+      "slug": "will-cameron-young-win-the-2026-masters-tournament",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-cameron-young-win-the-2026-masters-tournament-sXasr_Yw-Hib.png",
+      "eventSlug": "the-masters-winner-2026",
+      "outcome": "No",
+      "outcomeIndex": 1,
+      "name": "DrPufferfish",
+      "pseudonym": "Extraneous-Twine",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x8a7cd3615454c96610b12b329d066a832f6576d06eac0b05a6d2edaa7d9fe509",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Will Cameron Young win the 2026 Masters tournament?",
+    "market_slug": "the-masters-winner-2026",
+    "amount": 4627.2474999999995,
+    "ai_context": "\u274c SKIP  \nThe odds of 65% suggest an overestimation of Cameron Young's chances, making this bet less favorable."
   }
 ]
