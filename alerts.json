@@ -1,108 +1,5 @@
 [
   {
-    "market": "Will the next Prime Minister of Hungary be P\u00e9ter Magyar?",
-    "market_slug": "will-the-next-prime-minister-of-hungary-be-pter-magyar",
-    "wallet": "0x366fb20534129f9a8c9812a62437089cd892c0ef",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (1d old)",
-        "Large bet ($1,742)",
-        "Low activity (2 txns)"
-      ],
-      "amount": 1742.253846,
-      "odds": 0.6100000001925667,
-      "raw_price": 0.38999999980743333,
-      "outcome": "No",
-      "potential_pnl": 1113.8999989999998,
-      "pnl_multiplier": 0.6393442617775686,
-      "wallet_age_days": 1,
-      "total_activities": 2
-    },
-    "timestamp": "2026-03-06T13:59:04.757702",
-    "trade_hash": "0xdd4722e2a0490ad589492d3453cf9464735f773a5eea0ca5677ea5386faebff0",
-    "trade_timestamp": 1772805437,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "No",
-      "side": "BUY",
-      "price": 0.38999999980743333,
-      "effective_price": 0.6100000001925667,
-      "size": 2856.153845,
-      "amount": 1742.253846,
-      "potential_pnl": 1113.8999989999998,
-      "pnl_multiplier": 0.6393442617775686,
-      "is_no": true
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+25.2%)"
-      ],
-      "category": "other",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.13799999996148665,
-      "market_price": 0.38999999980743333,
-      "edge": 0.2519999998459467,
-      "edge_percent": 25.19999998459467,
-      "min_edge_required": 0.03,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "occasional",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "occasional",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "P\u00e9ter Magyar gains significant political support",
-          "Opposition parties fail to unite against him",
-          "Favorable economic conditions during the election period"
-        ],
-        "weakest_link": "Opposition parties fail to unite against him"
-      },
-      "category": "politics_near",
-      "narrative_drivers": [
-        "Public sentiment shifts in favor of Magyar",
-        "Internal party dynamics favor Magyar's candidacy"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "ALPHA",
-      "signal_emoji": "\ud83d\udd25",
-      "signal_strength": 105,
-      "interpretation": "Smart money (NO) confirms YES is overpriced",
-      "action_suggestion": "High conviction: insider + statistics aligned",
-      "insider_score": 70,
-      "insider_position": "NO",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.2519999998459467,
-      "edge_percent": 25.19999998459467
-    },
-    "financial_analyst": {
-      "signal_quality": 81.0,
-      "stance": "HIGH_CONVICTION",
-      "edge_percent": 25.2,
-      "signal_strength": 105.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "resolution_last_check": "2026-03-29T06:55:27.330394+00:00"
-  },
-  {
     "market": "UFC 326: Charles Oliveira vs. Max Holloway (Lightweight, Main Card)",
     "market_slug": "ufc-cha1-max1-2026",
     "wallet": "0xeb814eece52f0a86570bfbcba253848479b1d3eb",
@@ -34075,5 +33972,113 @@
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
     }
+  },
+  {
+    "market": "Nuggets vs. Spurs",
+    "market_slug": "nba-den-sas-2026",
+    "event_slug": "nba-den-sas-2026",
+    "wallet": "0x38852b5408e7c207597fc388a964f79521c26791",
+    "analysis": {
+      "score": 70,
+      "flags": [
+        "New wallet (0d old)",
+        "Large bet ($9,914)",
+        "Low activity (1 txns)"
+      ],
+      "amount": 9914.495086199999,
+      "odds": 0.79,
+      "raw_price": 0.79,
+      "outcome": "Spurs",
+      "potential_pnl": 2635.4986937999984,
+      "pnl_multiplier": 0.26582278481012644,
+      "wallet_age_days": 0,
+      "total_activities": 1
+    },
+    "timestamp": "2026-04-12T22:56:24.699448",
+    "trade_hash": "0x05e06d741f6b91b83b01f07c974ac3d060c8edc7cef8ff7f82f8d7dd49e79a38",
+    "trade_timestamp": 1776034391,
+    "latency": null,
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "Spurs",
+      "outcomeIndex": 1,
+      "normalized_position": "NO",
+      "side": "BUY",
+      "price": 0.79,
+      "effective_price": 0.79,
+      "size": 12549.993779999999,
+      "amount": 9914.495086199999,
+      "potential_pnl": 2635.4986937999984,
+      "pnl_multiplier": 0.26582278481012644,
+      "is_no": false,
+      "slug": "nba-den-sas-2026",
+      "eventSlug": "nba-den-sas-2026-04-12"
+    },
+    "irrationality": {
+      "irrationality_score": 35,
+      "flags": [
+        "Large mispricing edge (+49.2%)"
+      ],
+      "category": "sports",
+      "category_info": {
+        "strength": "medium",
+        "typical_overpricing": 0.03,
+        "min_edge": 0.05
+      },
+      "is_irrational": true
+    },
+    "mispricing": {
+      "rational_estimate": 0.29800000000000004,
+      "market_price": 0.79,
+      "edge": 0.492,
+      "edge_percent": 49.2,
+      "min_edge_required": 0.05,
+      "is_mispriced": true,
+      "edge_quality": "STRONG",
+      "base_rate_class": "common",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "common",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "Nuggets maintain current roster health",
+          "Spurs underperform in key matchups",
+          "External factors (e.g., injuries, trades) do not favor Spurs"
+        ],
+        "weakest_link": "Spurs underperform in key matchups"
+      },
+      "category": "sports",
+      "narrative_drivers": [
+        "Nuggets' recent performance trends",
+        "Spurs' historical playoff struggles"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "ALPHA",
+      "signal_emoji": "\ud83d\udd25",
+      "signal_strength": 105,
+      "interpretation": "Smart money (NO) confirms YES is overpriced",
+      "action_suggestion": "High conviction: insider + statistics aligned",
+      "insider_score": 70,
+      "insider_position": "NO",
+      "irrationality_score": 35,
+      "is_irrational": true,
+      "is_mispriced": true,
+      "edge": 0.492,
+      "edge_percent": 49.2
+    },
+    "financial_analyst": {
+      "signal_quality": 81.0,
+      "stance": "HIGH_CONVICTION",
+      "edge_percent": 49.2,
+      "signal_strength": 105.0,
+      "insider_score": 70.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "ai_context": "\u274c SKIP  \nThe odds at 79% suggest the market may be overvaluing the Spurs; consider their recent performance and matchup history."
   }
 ]
