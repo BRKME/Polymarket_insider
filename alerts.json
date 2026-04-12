@@ -1,108 +1,5 @@
 [
   {
-    "market": "Will John Cornyn win the 2026 Texas Republican Primary?",
-    "market_slug": "will-john-cornyn-win-the-2026-republican-primary",
-    "wallet": "0xf9d29e78523037188ba59e6afe0e1e46877461da",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (1d old)",
-        "Large bet ($1,233)",
-        "Low activity (3 txns)"
-      ],
-      "amount": 1232.9999999999998,
-      "odds": 0.44999999999999996,
-      "raw_price": 0.55,
-      "outcome": "No",
-      "potential_pnl": 1507.0000000000002,
-      "pnl_multiplier": 1.2222222222222225,
-      "wallet_age_days": 1,
-      "total_activities": 3
-    },
-    "timestamp": "2026-03-04T14:41:11.312318",
-    "trade_hash": "0x9f3e4ef1dafd7c455abca57294303fe4108a8a8a78654085ea66778c7bd4f135",
-    "trade_timestamp": 1772635091,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "No",
-      "side": "BUY",
-      "price": 0.55,
-      "effective_price": 0.44999999999999996,
-      "size": 2740.0,
-      "amount": 1232.9999999999998,
-      "potential_pnl": 1507.0000000000002,
-      "pnl_multiplier": 1.2222222222222225,
-      "is_no": true
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+30.0%)"
-      ],
-      "category": "politics_near",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.02,
-        "min_edge": 0.03
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.25,
-      "market_price": 0.55,
-      "edge": 0.30000000000000004,
-      "edge_percent": 30.000000000000004,
-      "min_edge_required": 0.03,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Strong voter turnout in favor of Cornyn",
-          "Limited viable challengers in the primary",
-          "Effective campaign strategy and funding"
-        ],
-        "weakest_link": "Limited viable challengers in the primary"
-      },
-      "category": "politics_near",
-      "narrative_drivers": [
-        "Incumbency advantage",
-        "Shifts in voter sentiment within the Republican base"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "ALPHA",
-      "signal_emoji": "\ud83d\udd25",
-      "signal_strength": 105,
-      "interpretation": "Smart money (NO) confirms YES is overpriced",
-      "action_suggestion": "High conviction: insider + statistics aligned",
-      "insider_score": 70,
-      "insider_position": "NO",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.30000000000000004,
-      "edge_percent": 30.000000000000004
-    },
-    "financial_analyst": {
-      "signal_quality": 81.0,
-      "stance": "HIGH_CONVICTION",
-      "edge_percent": 30.0,
-      "signal_strength": 105.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "resolution_last_check": "2026-03-29T06:55:22.948936+00:00"
-  },
-  {
     "market": "T20 World Cup: England vs India",
     "market_slug": "crint-gbr-ind-2026",
     "wallet": "0xb6b78496d98e50fc1fe607e8f3e4610c3f5a9e6c",
@@ -34251,5 +34148,113 @@
     "market_slug": "nhl-mon-nyi-2026-04-12",
     "amount": 25044.636199999997,
     "ai_context": "\u274c SKIP  \nThe odds suggest the Canadiens are undervalued at 47%. The market may not reflect their true chances of winning."
+  },
+  {
+    "market": "Will the next Prime Minister of Hungary be P\u00e9ter Magyar?",
+    "market_slug": "will-the-next-prime-minister-of-hungary-be-pter-magyar",
+    "event_slug": "will-the-next-prime-minister-of-hungary-be-pter-magyar",
+    "wallet": "0x8676b10ce01d16a9419f495444c43d9713523e01",
+    "analysis": {
+      "score": 70,
+      "flags": [
+        "New wallet (0d old)",
+        "Large bet ($3,975)",
+        "Low activity (1 txns)"
+      ],
+      "amount": 3975.1499979999994,
+      "odds": 0.8789396297360449,
+      "raw_price": 0.8789396297360449,
+      "outcome": "Yes",
+      "potential_pnl": 547.5155680000003,
+      "pnl_multiplier": 0.137734568073021,
+      "wallet_age_days": 0,
+      "total_activities": 1
+    },
+    "timestamp": "2026-04-12T18:05:00.059035",
+    "trade_hash": "0x50ff7f49ade20579d7d64e2c3c72c9e5cf2cca03d5ec799fb7a471dfe85145c0",
+    "trade_timestamp": 1776016945,
+    "latency": null,
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "Yes",
+      "outcomeIndex": 0,
+      "normalized_position": "YES",
+      "side": "BUY",
+      "price": 0.8789396297360449,
+      "effective_price": 0.8789396297360449,
+      "size": 4522.665566,
+      "amount": 3975.1499979999994,
+      "potential_pnl": 547.5155680000003,
+      "pnl_multiplier": 0.137734568073021,
+      "is_no": false,
+      "slug": "will-the-next-prime-minister-of-hungary-be-pter-magyar",
+      "eventSlug": "next-prime-minister-of-hungary"
+    },
+    "irrationality": {
+      "irrationality_score": 35,
+      "flags": [
+        "Large mispricing edge (+56.3%)"
+      ],
+      "category": "other",
+      "category_info": {
+        "strength": "medium",
+        "typical_overpricing": 0.03,
+        "min_edge": 0.05
+      },
+      "is_irrational": true
+    },
+    "mispricing": {
+      "rational_estimate": 0.31578792594720895,
+      "market_price": 0.8789396297360449,
+      "edge": 0.5631517037888359,
+      "edge_percent": 56.31517037888359,
+      "min_edge_required": 0.03,
+      "is_mispriced": true,
+      "edge_quality": "STRONG",
+      "base_rate_class": "common",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "common",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "P\u00e9ter Magyar secures party nomination",
+          "P\u00e9ter Magyar gains significant public support",
+          "Opposition parties fail to unite against him"
+        ],
+        "weakest_link": "Opposition parties fail to unite against him"
+      },
+      "category": "politics_near",
+      "narrative_drivers": [
+        "Public sentiment towards current government",
+        "P\u00e9ter Magyar's political track record"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "CONFLICT",
+      "signal_emoji": "\u26a0\ufe0f",
+      "signal_strength": 70,
+      "interpretation": "Insider buying YES despite statistical overpricing",
+      "action_suggestion": "Requires manual analysis: insider may have real info OR is part of irrational crowd",
+      "insider_score": 70,
+      "insider_position": "YES",
+      "irrationality_score": 35,
+      "is_irrational": true,
+      "is_mispriced": true,
+      "edge": 0.5631517037888359,
+      "edge_percent": 56.31517037888359
+    },
+    "log_only": true,
+    "financial_analyst": {
+      "signal_quality": 46.0,
+      "stance": "WATCH_ONLY",
+      "edge_percent": 56.32,
+      "signal_strength": 70.0,
+      "insider_score": 70.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    }
   }
 ]
