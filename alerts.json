@@ -1,107 +1,5 @@
 [
   {
-    "market": "Trail Blazers vs. Hawks",
-    "market_slug": "nba-por-atl-2026",
-    "wallet": "0xeaee24e02b7ceea5b1848683e9cb92958b1b6b4d",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (2d old)",
-        "Large bet ($1,039)",
-        "Low activity (3 txns)"
-      ],
-      "amount": 1038.999999,
-      "odds": 0.6599999998856593,
-      "raw_price": 0.6599999998856593,
-      "outcome": "Hawks",
-      "potential_pnl": 535.242424,
-      "pnl_multiplier": 0.5151515154140054,
-      "wallet_age_days": 2,
-      "total_activities": 3
-    },
-    "timestamp": "2026-03-01T20:40:24.908902",
-    "trade_hash": "0xc155fd7899a000ebb461a206ea73ba4b28a137115949b95e45091173c22b1cc8",
-    "trade_timestamp": 1772397573,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Hawks",
-      "side": "BUY",
-      "price": 0.6599999998856593,
-      "effective_price": 0.6599999998856593,
-      "size": 1574.242423,
-      "amount": 1038.999999,
-      "potential_pnl": 535.242424,
-      "pnl_multiplier": 0.5151515154140054,
-      "is_no": false
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+38.8%)"
-      ],
-      "category": "sports",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.27199999997713187,
-      "market_price": 0.6599999998856593,
-      "edge": 0.3879999999085274,
-      "edge_percent": 38.79999999085274,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Trail Blazers perform exceptionally well",
-          "Hawks underperform significantly",
-          "Key players are injured or unavailable"
-        ],
-        "weakest_link": "Hawks underperform significantly"
-      },
-      "category": "sports",
-      "narrative_drivers": [
-        "team performance trends",
-        "injury reports"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "INSIDER_ONLY",
-      "signal_emoji": "\ud83d\udc41\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider activity detected, no clear mispricing",
-      "action_suggestion": "Monitor: insider signal only, no statistical edge",
-      "insider_score": 70,
-      "insider_position": "HAWKS",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.3879999999085274,
-      "edge_percent": 38.79999999085274
-    },
-    "financial_analyst": {
-      "signal_quality": 51.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 38.8,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    }
-  },
-  {
     "market": "Hezbollah strike on Israel by March 7?",
     "market_slug": "hezbollah-strike-on-israel-by-march-7",
     "wallet": "0x8b3ebc32a0d39de525dd2bb45ca08f0b35ff65e4",
@@ -34433,5 +34331,50 @@
     "market_slug": "lol-wb-blg-2026-04-12",
     "amount": 2002.4910999999997,
     "ai_context": "\u274c SKIP  \nThe odds at 89% suggest Bilibili Gaming is heavily favored, possibly indicating overvaluation. Market may be inefficient."
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x519d449fee8dcd36e25e41914d9e58614d6e5dcec022fd8c550d04335e32f225",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.515682,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x4c2da46b289847e3e8377c6f4ca3d520c620f8ae",
+      "side": "BUY",
+      "asset": "100297578629699403208665948730031291871216767534595550828919035864255991611215",
+      "conditionId": "0x518a5b030b205706b8ffe6bbad9bd3de59548348e5c0471827f5de21e513333c",
+      "size": 5000,
+      "price": 0.55,
+      "timestamp": 1775999199,
+      "title": "Strait of Hormuz traffic returns to normal by end of May?",
+      "slug": "strait-of-hormuz-traffic-returns-to-normal-by-end-of-may",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-ships-transit-the-strait-of-hormuz-on-any-day-in-march-ERARnetK0FJm.jpg",
+      "eventSlug": "strait-of-hormuz-traffic-returns-to-normal-by-end-of-may",
+      "outcome": "No",
+      "outcomeIndex": 1,
+      "name": "CryptoWhale",
+      "pseudonym": "Sleepy-Equality",
+      "bio": "",
+      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Screenshot_15_Black%20coffee_1705218136351.png",
+      "profileImageOptimized": "",
+      "transactionHash": "0x519d449fee8dcd36e25e41914d9e58614d6e5dcec022fd8c550d04335e32f225",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Strait of Hormuz traffic returns to normal by end of May?",
+    "market_slug": "strait-of-hormuz-traffic-returns-to-normal-by-end-of-may",
+    "amount": 2750.0,
+    "ai_context": "\u274c SKIP  \nThe odds of 55% suggest a close call; the market may not reflect the geopolitical complexities accurately."
   }
 ]
