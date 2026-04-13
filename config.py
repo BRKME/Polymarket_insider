@@ -15,10 +15,9 @@ CONFLICT_MIN_INSIDER_SCORE = 60        # Lowered from 100 (was almost impossible
 INSIDER_ONLY_REQUIRES_PRE_EVENT = False # Allow INSIDER_ONLY without latency (was True)
 
 # CONFLICT signal handling
-# "LOG_ONLY" = log but don't send Telegram alert (recommended — mispricing model has
-#              systematic bias: cap@50% + low base rates → always says YES overpriced)
-# "ALERT"    = send as Telegram alert (old behavior)
-CONFLICT_SIGNAL_MODE = "LOG_ONLY"
+# "ALERT"    = send Telegram alert (validated: 62% win rate on 8 resolved)
+# "LOG_ONLY" = log but don't send Telegram alert
+CONFLICT_SIGNAL_MODE = "ALERT"
 
 # Market Filtering
 BLOCK_15MIN_MARKETS = True  # Block HFT/bot markets
