@@ -1,21 +1,11 @@
 """
-AI Context Layer v3 — Factual context for trade alerts.
+AI Context Layer v4 — Web-search-powered trade analysis.
 
-GPT-4o-mini only (no web search — DDG blocked in GitHub Actions).
-Asks for GENERAL KNOWLEDGE context, not real-time stats.
+Uses gpt-4o-mini-search-preview: GPT searches the web before answering.
+For sports: checks current form, standings, injuries.
+For politics: checks latest polls, news.
 
-What GPT can reliably provide:
-- Sports: team tier (contender vs rebuilding), conference, general strength
-- Politics: candidate background, party dynamics
-- Crypto: project description, market cap tier
-- Geopolitics: situation background, key actors
-
-What it CANNOT provide (and shouldn't try):
-- Today's injury report, exact standings, live scores
-- Current poll numbers, exact vote counts
-- Real-time prices
-
-Cost: ~$0.002 per call. Only for alerts passing all filters.
+Cost: ~$0.025 per search call + token costs. Only for alerts passing all filters.
 """
 
 import re
@@ -77,44 +67,47 @@ IMPORTANT:
   If Thunder wins, each share pays $1. So 69% = the market price for that outcome.
 - Do NOT confuse sides. If "Magic @ 81%" — Magic IS the favorite at 81%, not the underdog.
 - Your job: decide if copying this specific bet is smart.
+- You have web search — USE IT to check current form, standings, recent results, injuries.
 
 Rules:
 - Start with ✅ COPY or ❌ SKIP
-- Then give 1-2 specific reasons in max 25 words
-- Consider: are the odds fair? Is this team/outcome likely? Is the market efficient?
-- Do NOT invent stats, W-L records, scores, or injury reports
-- If you don't know enough about the teams/topic, reply: NO_DATA"""
+- Then give 1-2 specific FACTUAL reasons in max 30 words
+- For sports: check recent form, standings, h2h, injuries
+- For politics: check latest polls, news developments
+- For crypto: check recent price action, news
+- If you find relevant facts, cite them briefly
+- If search returns nothing useful, say NO_DATA"""
 
 PROMPTS = {
     "sports": """Market: "{title}"
 Trader bet: {outcome} at {odds:.0f}% (paid {odds:.0f}¢ per share, wins $1 if {outcome} wins)
 Bet size: ${amount:,.0f}
 
-Should I copy this bet? Consider team strength, home/away, conference tier.""",
+Search for current form, recent results, standings, and injuries for both teams. Then decide: COPY or SKIP?""",
 
     "politics": """Market: "{title}"
 Trader bet: {outcome} at {odds:.0f}% (paid {odds:.0f}¢ per share, wins $1 if correct)
 Bet size: ${amount:,.0f}
 
-Should I copy this bet? Consider political landscape, incumbent dynamics, precedent.""",
+Search for latest polls, news developments, and expert analysis. Then decide: COPY or SKIP?""",
 
     "crypto": """Market: "{title}"
 Trader bet: {outcome} at {odds:.0f}% (paid {odds:.0f}¢ per share, wins $1 if correct)
 Bet size: ${amount:,.0f}
 
-Should I copy this bet? Consider project fundamentals, market conditions, volatility.""",
+Search for recent price action, news, and market sentiment. Then decide: COPY or SKIP?""",
 
     "geopolitics": """Market: "{title}"
 Trader bet: {outcome} at {odds:.0f}% (paid {odds:.0f}¢ per share, wins $1 if correct)
 Bet size: ${amount:,.0f}
 
-Should I copy this bet? Consider diplomatic trajectory, escalation risk, historical precedent.""",
+Search for latest diplomatic developments, news, and expert analysis. Then decide: COPY or SKIP?""",
 
     "other": """Market: "{title}"
 Trader bet: {outcome} at {odds:.0f}% (paid {odds:.0f}¢ per share, wins $1 if correct)
 Bet size: ${amount:,.0f}
 
-Should I copy this bet?""",
+Search for any relevant recent information. Then decide: COPY or SKIP?""",
 }
 
 
@@ -149,12 +142,15 @@ def generate_trade_context(
     try:
         client = OpenAI(api_key=OPENAI_API_KEY)
         response = client.chat.completions.create(
-            model="gpt-4o-mini",
+            model="gpt-4o-mini-search-preview",
+            web_search_options={
+                "search_context_size": "low",  # minimize cost
+            },
             messages=[
                 {"role": "system", "content": SYSTEM},
                 {"role": "user", "content": prompt},
             ],
-            max_tokens=80,
+            max_tokens=120,
             temperature=0.3,
         )
 
@@ -165,8 +161,8 @@ def generate_trade_context(
             logger.info(f"  AI context: NO_DATA for '{market_title[:50]}'")
             return None
 
-        if len(text) > 150:
-            text = text[:147] + "..."
+        if len(text) > 200:
+            text = text[:197] + "..."
 
         logger.info(f"  AI [{market_type}]: {text[:80]}")
         return text
