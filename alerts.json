@@ -6946,6 +6946,13 @@
       "signal_strength": 70.0,
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "resolution": {
+      "outcome": "Thunder",
+      "checked_at": "2026-04-13T20:09:29.373631+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 1141.09
     }
   },
   {
@@ -7051,6 +7058,13 @@
       "signal_strength": 70.0,
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "resolution": {
+      "outcome": "Thunder",
+      "checked_at": "2026-04-13T20:09:29.373695+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -1382.24
     }
   },
   {
@@ -7156,6 +7170,13 @@
       "signal_strength": 70.0,
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "resolution": {
+      "outcome": "Thunder",
+      "checked_at": "2026-04-13T20:09:31.749157+00:00",
+      "insider_win": null,
+      "model_correct": null,
+      "pnl": null
     }
   },
   {
@@ -7351,6 +7372,13 @@
       "signal_strength": 70.0,
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "resolution": {
+      "outcome": "Mavericks",
+      "checked_at": "2026-04-13T20:09:35.687359+00:00",
+      "insider_win": null,
+      "model_correct": null,
+      "pnl": null
     }
   },
   {
@@ -7646,6 +7674,13 @@
       "signal_strength": 70.0,
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "resolution": {
+      "outcome": "Thunder",
+      "checked_at": "2026-04-13T20:09:37.704449+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 1789.15
     }
   },
   {
@@ -7841,6 +7876,13 @@
       "signal_strength": 70.0,
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "resolution": {
+      "outcome": "Bucks",
+      "checked_at": "2026-04-13T20:09:41.696378+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 850.0
     }
   },
   {
@@ -7946,6 +7988,13 @@
       "signal_strength": 70.0,
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "resolution": {
+      "outcome": "No",
+      "checked_at": "2026-04-13T20:09:44.388658+00:00",
+      "insider_win": false,
+      "model_correct": true,
+      "pnl": -1499.05
     }
   },
   {
@@ -8231,6 +8280,13 @@
       "signal_strength": 70.0,
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "resolution": {
+      "outcome": "Hawks",
+      "checked_at": "2026-04-13T20:09:49.799909+00:00",
+      "insider_win": null,
+      "model_correct": null,
+      "pnl": null
     }
   },
   {
@@ -8336,6 +8392,13 @@
       "signal_strength": 70.0,
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "resolution": {
+      "outcome": "Pelicans",
+      "checked_at": "2026-04-13T20:09:52.438785+00:00",
+      "insider_win": null,
+      "model_correct": null,
+      "pnl": null
     }
   },
   {
@@ -8441,6 +8504,13 @@
       "signal_strength": 70.0,
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "resolution": {
+      "outcome": "Pelicans",
+      "checked_at": "2026-04-13T20:09:52.438841+00:00",
+      "insider_win": null,
+      "model_correct": null,
+      "pnl": null
     }
   },
   {
@@ -8546,6 +8616,13 @@
       "signal_strength": 70.0,
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "resolution": {
+      "outcome": "Pelicans",
+      "checked_at": "2026-04-13T20:09:52.438864+00:00",
+      "insider_win": null,
+      "model_correct": null,
+      "pnl": null
     }
   },
   {
@@ -8697,7 +8774,8 @@
       "signal_strength": 103.0,
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    }
+    },
+    "resolution_last_check": "2026-04-13T20:09:55.785825+00:00"
   },
   {
     "type": "TOP_TRADER",
@@ -9162,6 +9240,13 @@
       "signal_strength": 70.0,
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "resolution": {
+      "outcome": "Hornets",
+      "checked_at": "2026-04-13T20:10:02.545504+00:00",
+      "insider_win": null,
+      "model_correct": null,
+      "pnl": null
     }
   },
   {
@@ -9267,6 +9352,13 @@
       "signal_strength": 70.0,
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "resolution": {
+      "outcome": "Thunder",
+      "checked_at": "2026-04-13T20:10:05.254098+00:00",
+      "insider_win": null,
+      "model_correct": null,
+      "pnl": null
     }
   },
   {
@@ -9372,6 +9464,13 @@
       "signal_strength": 70.0,
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "resolution": {
+      "outcome": "Thunder",
+      "checked_at": "2026-04-13T20:10:05.254147+00:00",
+      "insider_win": null,
+      "model_correct": null,
+      "pnl": null
     }
   },
   {
@@ -9477,6 +9576,13 @@
       "signal_strength": 70.0,
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "resolution": {
+      "outcome": "Thunder",
+      "checked_at": "2026-04-13T20:10:05.254171+00:00",
+      "insider_win": null,
+      "model_correct": null,
+      "pnl": null
     }
   },
   {
@@ -9582,6 +9688,13 @@
       "signal_strength": 70.0,
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "resolution": {
+      "outcome": "Pistons",
+      "checked_at": "2026-04-13T20:10:07.987655+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 1352.03
     }
   },
   {
@@ -9687,6 +9800,13 @@
       "signal_strength": 70.0,
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "resolution": {
+      "outcome": "Pistons",
+      "checked_at": "2026-04-13T20:10:07.987700+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 1366.34
     }
   },
   {
@@ -10302,6 +10422,13 @@
       "signal_strength": 70.0,
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "resolution": {
+      "outcome": "TYLOO",
+      "checked_at": "2026-04-13T20:10:16.352695+00:00",
+      "insider_win": null,
+      "model_correct": null,
+      "pnl": null
     }
   },
   {
@@ -10587,6 +10714,13 @@
       "signal_strength": 70.0,
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "resolution": {
+      "outcome": "Over",
+      "checked_at": "2026-04-13T20:10:20.918178+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -1042.2
     }
   },
   {
@@ -10692,6 +10826,13 @@
       "signal_strength": 70.0,
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "resolution": {
+      "outcome": "Over",
+      "checked_at": "2026-04-13T20:10:20.918224+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -1139.99
     }
   },
   {
@@ -10797,6 +10938,13 @@
       "signal_strength": 70.0,
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "resolution": {
+      "outcome": "Over",
+      "checked_at": "2026-04-13T20:10:20.918251+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -1071.09
     }
   },
   {
@@ -10902,6 +11050,13 @@
       "signal_strength": 70.0,
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "resolution": {
+      "outcome": "Liverpool FC",
+      "checked_at": "2026-04-13T20:10:23.629673+00:00",
+      "insider_win": null,
+      "model_correct": null,
+      "pnl": null
     }
   },
   {
@@ -11322,6 +11477,13 @@
       "signal_strength": 70.0,
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "resolution": {
+      "outcome": "Pistons",
+      "checked_at": "2026-04-13T20:10:30.854710+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -1136.16
     }
   },
   {
@@ -11427,6 +11589,13 @@
       "signal_strength": 70.0,
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "resolution": {
+      "outcome": "Pistons",
+      "checked_at": "2026-04-13T20:10:30.854755+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -1078.92
     }
   },
   {
@@ -11532,6 +11701,13 @@
       "signal_strength": 70.0,
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "resolution": {
+      "outcome": "Pistons",
+      "checked_at": "2026-04-13T20:10:30.854780+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -1162.62
     }
   },
   {
@@ -11684,7 +11860,8 @@
       "signal_strength": 118.0,
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    }
+    },
+    "resolution_last_check": "2026-04-13T20:10:34.137668+00:00"
   },
   {
     "type": "TOP_TRADER",
@@ -11834,6 +12011,13 @@
       "signal_strength": 70.0,
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "resolution": {
+      "outcome": "Magic",
+      "checked_at": "2026-04-13T20:10:36.632717+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -1989.36
     }
   },
   {
@@ -11939,6 +12123,13 @@
       "signal_strength": 70.0,
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "resolution": {
+      "outcome": "Lakers",
+      "checked_at": "2026-04-13T20:10:39.281080+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -1191.36
     }
   },
   {
@@ -12044,6 +12235,13 @@
       "signal_strength": 70.0,
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "resolution": {
+      "outcome": "Magic",
+      "checked_at": "2026-04-13T20:10:41.678154+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -1696.84
     }
   },
   {
@@ -12149,6 +12347,13 @@
       "signal_strength": 70.0,
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "resolution": {
+      "outcome": "Magic",
+      "checked_at": "2026-04-13T20:10:41.678198+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 2397.16
     }
   },
   {
@@ -12704,6 +12909,13 @@
       "signal_strength": 70.0,
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "resolution": {
+      "outcome": "Celtics",
+      "checked_at": "2026-04-13T20:10:50.131960+00:00",
+      "insider_win": null,
+      "model_correct": null,
+      "pnl": null
     }
   },
   {
@@ -12809,6 +13021,13 @@
       "signal_strength": 70.0,
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "resolution": {
+      "outcome": "Celtics",
+      "checked_at": "2026-04-13T20:10:50.132013+00:00",
+      "insider_win": null,
+      "model_correct": null,
+      "pnl": null
     }
   },
   {
@@ -12914,6 +13133,13 @@
       "signal_strength": 70.0,
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "resolution": {
+      "outcome": "Celtics",
+      "checked_at": "2026-04-13T20:10:50.132038+00:00",
+      "insider_win": null,
+      "model_correct": null,
+      "pnl": null
     }
   },
   {
@@ -13064,6 +13290,13 @@
       "signal_strength": 70.0,
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "resolution": {
+      "outcome": "Pistons",
+      "checked_at": "2026-04-13T20:10:53.449661+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 1142.91
     }
   },
   {
@@ -13169,6 +13402,13 @@
       "signal_strength": 70.0,
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "resolution": {
+      "outcome": "Pistons",
+      "checked_at": "2026-04-13T20:10:53.449713+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 1138.83
     }
   },
   {
@@ -13274,6 +13514,13 @@
       "signal_strength": 70.0,
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "resolution": {
+      "outcome": "Pistons",
+      "checked_at": "2026-04-13T20:10:53.449739+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 1235.73
     }
   },
   {
@@ -13604,7 +13851,8 @@
       "signal_strength": 70.0,
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    }
+    },
+    "resolution_last_check": "2026-04-13T20:10:59.335243+00:00"
   },
   {
     "type": "TOP_TRADER",
@@ -13844,7 +14092,8 @@
       "signal_strength": 70.0,
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    }
+    },
+    "resolution_last_check": "2026-04-13T20:11:03.977022+00:00"
   },
   {
     "type": "TOP_TRADER",
@@ -13994,6 +14243,13 @@
       "signal_strength": 70.0,
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "resolution": {
+      "outcome": "Thunder",
+      "checked_at": "2026-04-13T20:11:07.290641+00:00",
+      "insider_win": null,
+      "model_correct": null,
+      "pnl": null
     }
   },
   {
@@ -14099,6 +14355,13 @@
       "signal_strength": 70.0,
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "resolution": {
+      "outcome": "Thunder",
+      "checked_at": "2026-04-13T20:11:07.290695+00:00",
+      "insider_win": null,
+      "model_correct": null,
+      "pnl": null
     }
   },
   {
@@ -14204,6 +14467,13 @@
       "signal_strength": 70.0,
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "resolution": {
+      "outcome": "Thunder",
+      "checked_at": "2026-04-13T20:11:07.290721+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 1272.15
     }
   },
   {
@@ -14849,6 +15119,13 @@
       "signal_strength": 70.0,
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "resolution": {
+      "outcome": "Thunder",
+      "checked_at": "2026-04-13T20:11:17.623842+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 1462.5
     }
   },
   {
@@ -14999,7 +15276,8 @@
       "signal_strength": 70.0,
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    }
+    },
+    "resolution_last_check": "2026-04-13T20:11:20.883843+00:00"
   },
   {
     "type": "TOP_TRADER",
@@ -15554,6 +15832,13 @@
       "signal_strength": 70.0,
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "resolution": {
+      "outcome": "Kings",
+      "checked_at": "2026-04-13T20:11:29.394541+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -1051.62
     }
   },
   {
@@ -15659,6 +15944,13 @@
       "signal_strength": 70.0,
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "resolution": {
+      "outcome": "Kings",
+      "checked_at": "2026-04-13T20:11:29.394618+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 1048.05
     }
   },
   {
@@ -15764,6 +16056,13 @@
       "signal_strength": 70.0,
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "resolution": {
+      "outcome": "Kings",
+      "checked_at": "2026-04-13T20:11:29.394645+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 1127.61
     }
   },
   {
@@ -15959,6 +16258,13 @@
       "signal_strength": 70.0,
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "resolution": {
+      "outcome": "Knicks",
+      "checked_at": "2026-04-13T20:11:33.386697+00:00",
+      "insider_win": null,
+      "model_correct": null,
+      "pnl": null
     }
   },
   {
@@ -16064,6 +16370,13 @@
       "signal_strength": 70.0,
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "resolution": {
+      "outcome": "Knicks",
+      "checked_at": "2026-04-13T20:11:33.386750+00:00",
+      "insider_win": null,
+      "model_correct": null,
+      "pnl": null
     }
   },
   {
@@ -16169,6 +16482,13 @@
       "signal_strength": 70.0,
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "resolution": {
+      "outcome": "Knicks",
+      "checked_at": "2026-04-13T20:11:33.386772+00:00",
+      "insider_win": null,
+      "model_correct": null,
+      "pnl": null
     }
   },
   {
@@ -16274,6 +16594,13 @@
       "signal_strength": 70.0,
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "resolution": {
+      "outcome": "Connecticut Huskies",
+      "checked_at": "2026-04-13T20:11:36.036864+00:00",
+      "insider_win": null,
+      "model_correct": null,
+      "pnl": null
     }
   },
   {
@@ -16424,6 +16751,13 @@
       "signal_strength": 70.0,
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "resolution": {
+      "outcome": "Suns",
+      "checked_at": "2026-04-13T20:11:39.330130+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -1506.6
     }
   },
   {
@@ -16529,6 +16863,13 @@
       "signal_strength": 70.0,
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "resolution": {
+      "outcome": "Suns",
+      "checked_at": "2026-04-13T20:11:39.330183+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -1526.58
     }
   },
   {
@@ -16634,6 +16975,13 @@
       "signal_strength": 70.0,
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "resolution": {
+      "outcome": "Suns",
+      "checked_at": "2026-04-13T20:11:39.330210+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -1443.42
     }
   },
   {
@@ -16739,6 +17087,13 @@
       "signal_strength": 70.0,
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "resolution": {
+      "outcome": "Suns",
+      "checked_at": "2026-04-13T20:11:41.716783+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 1314.5
     }
   },
   {
@@ -16844,6 +17199,13 @@
       "signal_strength": 70.0,
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "resolution": {
+      "outcome": "Suns",
+      "checked_at": "2026-04-13T20:11:41.716836+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -1443.92
     }
   },
   {
@@ -16949,6 +17311,13 @@
       "signal_strength": 70.0,
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "resolution": {
+      "outcome": "Suns",
+      "checked_at": "2026-04-13T20:11:41.716863+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -1001.0
     }
   },
   {
@@ -17054,6 +17423,13 @@
       "signal_strength": 70.0,
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "resolution": {
+      "outcome": "Timberwolves",
+      "checked_at": "2026-04-13T20:11:45.339425+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 2433.08
     }
   },
   {
@@ -17159,6 +17535,13 @@
       "signal_strength": 70.0,
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "resolution": {
+      "outcome": "Suns",
+      "checked_at": "2026-04-13T20:11:47.778399+00:00",
+      "insider_win": null,
+      "model_correct": null,
+      "pnl": null
     }
   },
   {
@@ -17264,6 +17647,13 @@
       "signal_strength": 70.0,
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "resolution": {
+      "outcome": "Suns",
+      "checked_at": "2026-04-13T20:11:47.778448+00:00",
+      "insider_win": null,
+      "model_correct": null,
+      "pnl": null
     }
   },
   {
@@ -17369,6 +17759,13 @@
       "signal_strength": 70.0,
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "resolution": {
+      "outcome": "Suns",
+      "checked_at": "2026-04-13T20:11:47.778471+00:00",
+      "insider_win": null,
+      "model_correct": null,
+      "pnl": null
     }
   },
   {
@@ -17609,6 +18006,13 @@
       "signal_strength": 70.0,
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "resolution": {
+      "outcome": "Suns",
+      "checked_at": "2026-04-13T20:11:52.148941+00:00",
+      "insider_win": null,
+      "model_correct": null,
+      "pnl": null
     }
   },
   {
@@ -17939,6 +18343,13 @@
       "signal_strength": 70.0,
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "resolution": {
+      "outcome": "Thunder",
+      "checked_at": "2026-04-13T20:11:57.399562+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 1736.56
     }
   },
   {
@@ -18044,6 +18455,13 @@
       "signal_strength": 70.0,
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "resolution": {
+      "outcome": "Pistons",
+      "checked_at": "2026-04-13T20:12:00.063172+00:00",
+      "insider_win": null,
+      "model_correct": null,
+      "pnl": null
     }
   },
   {
@@ -18149,6 +18567,13 @@
       "signal_strength": 70.0,
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "resolution": {
+      "outcome": "Pistons",
+      "checked_at": "2026-04-13T20:12:00.063222+00:00",
+      "insider_win": null,
+      "model_correct": null,
+      "pnl": null
     }
   },
   {
@@ -18389,6 +18814,13 @@
       "signal_strength": 70.0,
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "resolution": {
+      "outcome": "Nuggets",
+      "checked_at": "2026-04-13T20:12:03.926857+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -1911.99
     }
   },
   {
@@ -18768,7 +19200,8 @@
       "signal_strength": 80.0,
       "insider_score": 80.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    }
+    },
+    "resolution_last_check": "2026-04-13T20:12:09.295015+00:00"
   },
   {
     "type": "TOP_TRADER",
@@ -19018,6 +19451,13 @@
       "signal_strength": 75.0,
       "insider_score": 75.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "resolution": {
+      "outcome": "Hornets",
+      "checked_at": "2026-04-13T20:12:23.980820+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -3304.97
     }
   },
   {
@@ -19123,6 +19563,13 @@
       "signal_strength": 70.0,
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "resolution": {
+      "outcome": "Jets",
+      "checked_at": "2026-04-13T20:12:26.652690+00:00",
+      "insider_win": null,
+      "model_correct": null,
+      "pnl": null
     }
   },
   {
@@ -19283,7 +19730,8 @@
       "signal_strength": 110.0,
       "insider_score": 110.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    }
+    },
+    "resolution_last_check": "2026-04-13T20:12:27.330916+00:00"
   },
   {
     "market": "Bucks vs. Trail Blazers: O/U 225.5",
@@ -19388,6 +19836,13 @@
       "signal_strength": 70.0,
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "resolution": {
+      "outcome": "Trail Blazers",
+      "checked_at": "2026-04-13T20:12:29.993045+00:00",
+      "insider_win": null,
+      "model_correct": null,
+      "pnl": null
     }
   },
   {
@@ -19493,6 +19948,13 @@
       "signal_strength": 70.0,
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "resolution": {
+      "outcome": "Trail Blazers",
+      "checked_at": "2026-04-13T20:12:29.993105+00:00",
+      "insider_win": null,
+      "model_correct": null,
+      "pnl": null
     }
   },
   {
@@ -19598,6 +20060,13 @@
       "signal_strength": 70.0,
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "resolution": {
+      "outcome": "Trail Blazers",
+      "checked_at": "2026-04-13T20:12:29.993129+00:00",
+      "insider_win": null,
+      "model_correct": null,
+      "pnl": null
     }
   },
   {
@@ -19703,6 +20172,13 @@
       "signal_strength": 70.0,
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "resolution": {
+      "outcome": "Hawks",
+      "checked_at": "2026-04-13T20:12:32.617774+00:00",
+      "insider_win": null,
+      "model_correct": null,
+      "pnl": null
     }
   },
   {
@@ -19808,6 +20284,13 @@
       "signal_strength": 70.0,
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "resolution": {
+      "outcome": "Hawks",
+      "checked_at": "2026-04-13T20:12:32.617830+00:00",
+      "insider_win": null,
+      "model_correct": null,
+      "pnl": null
     }
   },
   {
@@ -20120,7 +20603,8 @@
       "signal_strength": 110.0,
       "insider_score": 110.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    }
+    },
+    "resolution_last_check": "2026-04-13T20:12:37.190873+00:00"
   },
   {
     "market": "Pelicans vs. Pistons: O/U 225.5",
@@ -20225,6 +20709,13 @@
       "signal_strength": 70.0,
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "resolution": {
+      "outcome": "Pistons",
+      "checked_at": "2026-04-13T20:12:40.220918+00:00",
+      "insider_win": null,
+      "model_correct": null,
+      "pnl": null
     }
   },
   {
@@ -20330,6 +20821,13 @@
       "signal_strength": 70.0,
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "resolution": {
+      "outcome": "Pistons",
+      "checked_at": "2026-04-13T20:12:40.220984+00:00",
+      "insider_win": null,
+      "model_correct": null,
+      "pnl": null
     }
   },
   {
@@ -20435,6 +20933,13 @@
       "signal_strength": 70.0,
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "resolution": {
+      "outcome": "Hornets",
+      "checked_at": "2026-04-13T20:12:42.903024+00:00",
+      "insider_win": null,
+      "model_correct": null,
+      "pnl": null
     }
   },
   {
@@ -20540,6 +21045,13 @@
       "signal_strength": 70.0,
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "resolution": {
+      "outcome": "Hornets",
+      "checked_at": "2026-04-13T20:12:42.903074+00:00",
+      "insider_win": null,
+      "model_correct": null,
+      "pnl": null
     }
   },
   {
@@ -20645,6 +21157,13 @@
       "signal_strength": 70.0,
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "resolution": {
+      "outcome": "Pistons",
+      "checked_at": "2026-04-13T20:12:42.903098+00:00",
+      "insider_win": null,
+      "model_correct": null,
+      "pnl": null
     }
   },
   {
@@ -20759,7 +21278,8 @@
       "signal_strength": 80.0,
       "insider_score": 80.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    }
+    },
+    "resolution_last_check": "2026-04-13T20:12:42.903113+00:00"
   },
   {
     "market": "Kharg Island no longer under Iranian control by March 31?",
@@ -21354,6 +21874,13 @@
       "signal_strength": 70.0,
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "resolution": {
+      "outcome": "Hornets",
+      "checked_at": "2026-04-13T20:12:47.968379+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 3589.49
     }
   },
   {
@@ -21514,7 +22041,8 @@
       "signal_strength": 125.0,
       "insider_score": 125.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    }
+    },
+    "resolution_last_check": "2026-04-13T20:12:51.232593+00:00"
   },
   {
     "type": "TOP_TRADER",
@@ -21799,6 +22327,13 @@
       "signal_strength": 70.0,
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "resolution": {
+      "outcome": "Lakers",
+      "checked_at": "2026-04-13T20:12:56.424411+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 6163.2
     }
   },
   {
@@ -21904,7 +22439,8 @@
       "signal_strength": 70.0,
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    }
+    },
+    "resolution_last_check": "2026-04-13T20:12:59.015586+00:00"
   },
   {
     "market": "Game Handicap: TOR (-1.5) vs Vancouver Surge (+1.5)",
@@ -22009,6 +22545,13 @@
       "signal_strength": 70.0,
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "resolution": {
+      "outcome": "Toronto KOI",
+      "checked_at": "2026-04-13T20:13:01.705192+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -1974.0
     }
   },
   {
@@ -22161,6 +22704,13 @@
       "signal_strength": 70.0,
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "resolution": {
+      "outcome": "Warriors",
+      "checked_at": "2026-04-13T20:13:05.037964+00:00",
+      "insider_win": null,
+      "model_correct": null,
+      "pnl": null
     }
   },
   {
@@ -22320,7 +22870,8 @@
       "signal_strength": 105.0,
       "insider_score": 105.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    }
+    },
+    "resolution_last_check": "2026-04-13T20:13:05.725783+00:00"
   },
   {
     "type": "TOP_TRADER",
@@ -22613,7 +23164,8 @@
       "signal_strength": 125.0,
       "insider_score": 85.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    }
+    },
+    "resolution_last_check": "2026-04-13T20:13:08.323867+00:00"
   },
   {
     "type": "TOP_TRADER",
@@ -23213,6 +23765,13 @@
       "signal_strength": 70.0,
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "resolution": {
+      "outcome": "Spurs",
+      "checked_at": "2026-04-13T20:13:16.835950+00:00",
+      "insider_win": null,
+      "model_correct": null,
+      "pnl": null
     }
   },
   {
@@ -23318,6 +23877,13 @@
       "signal_strength": 70.0,
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "resolution": {
+      "outcome": "Spurs",
+      "checked_at": "2026-04-13T20:13:16.836017+00:00",
+      "insider_win": null,
+      "model_correct": null,
+      "pnl": null
     }
   },
   {
@@ -23423,6 +23989,13 @@
       "signal_strength": 70.0,
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "resolution": {
+      "outcome": "Spurs",
+      "checked_at": "2026-04-13T20:13:16.836059+00:00",
+      "insider_win": null,
+      "model_correct": null,
+      "pnl": null
     }
   },
   {
@@ -23528,7 +24101,8 @@
       "signal_strength": 70.0,
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    }
+    },
+    "resolution_last_check": "2026-04-13T20:13:19.203459+00:00"
   },
   {
     "type": "TOP_TRADER",
@@ -23778,7 +24352,8 @@
       "signal_strength": 125.0,
       "insider_score": 85.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    }
+    },
+    "resolution_last_check": "2026-04-13T20:13:21.175175+00:00"
   },
   {
     "type": "TOP_TRADER",
@@ -24163,7 +24738,8 @@
       "signal_strength": 100.0,
       "insider_score": 100.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    }
+    },
+    "resolution_last_check": "2026-04-13T20:13:27.117963+00:00"
   },
   {
     "market": "Will there be between 0 and 10 average daily transits of the Strait of Hormuz on March 31?",
@@ -24278,7 +24854,8 @@
       "signal_strength": 133.0,
       "insider_score": 100.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    }
+    },
+    "resolution_last_check": "2026-04-13T20:13:27.118167+00:00"
   },
   {
     "market": "Will there be between 0 and 10 average daily transits of the Strait of Hormuz on March 31?",
@@ -24393,7 +24970,8 @@
       "signal_strength": 133.0,
       "insider_score": 100.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    }
+    },
+    "resolution_last_check": "2026-04-13T20:13:27.118178+00:00"
   },
   {
     "market": "Will Crude Oil (CL) hit (HIGH) $105 by end of March?",
@@ -24500,7 +25078,8 @@
       "signal_strength": 105.0,
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    }
+    },
+    "resolution_last_check": "2026-04-13T20:13:29.816114+00:00"
   },
   {
     "type": "TOP_TRADER",
@@ -24697,6 +25276,13 @@
       "signal_strength": 105.0,
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "resolution": {
+      "outcome": "Nuggets",
+      "checked_at": "2026-04-13T20:13:33.723275+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -1086.3
     }
   },
   {
@@ -24804,6 +25390,13 @@
       "signal_strength": 105.0,
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "resolution": {
+      "outcome": "Nuggets",
+      "checked_at": "2026-04-13T20:13:33.723334+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -1015.41
     }
   },
   {
@@ -24911,6 +25504,13 @@
       "signal_strength": 105.0,
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "resolution": {
+      "outcome": "Nuggets",
+      "checked_at": "2026-04-13T20:13:33.723361+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -1023.06
     }
   },
   {
@@ -25019,6 +25619,13 @@
       "signal_strength": 70.0,
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "resolution": {
+      "outcome": "Trail Blazers",
+      "checked_at": "2026-04-13T20:13:36.370688+00:00",
+      "insider_win": null,
+      "model_correct": null,
+      "pnl": null
     }
   },
   {
@@ -25127,6 +25734,13 @@
       "signal_strength": 70.0,
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "resolution": {
+      "outcome": "Trail Blazers",
+      "checked_at": "2026-04-13T20:13:36.370748+00:00",
+      "insider_win": null,
+      "model_correct": null,
+      "pnl": null
     }
   },
   {
@@ -25369,6 +25983,13 @@
       "signal_strength": 105.0,
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "resolution": {
+      "outcome": "Llaneros FC",
+      "checked_at": "2026-04-13T20:13:40.974066+00:00",
+      "insider_win": null,
+      "model_correct": null,
+      "pnl": null
     }
   },
   {
@@ -25747,6 +26368,13 @@
       "signal_strength": 70.0,
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "resolution": {
+      "outcome": "Hawks",
+      "checked_at": "2026-04-13T20:13:46.960166+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -2874.78
     }
   },
   {
@@ -25946,6 +26574,13 @@
       "signal_strength": 70.0,
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "resolution": {
+      "outcome": "9z",
+      "checked_at": "2026-04-13T20:13:50.858973+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 2275.48
     }
   },
   {
@@ -26053,6 +26688,13 @@
       "signal_strength": 105.0,
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "resolution": {
+      "outcome": "Heat",
+      "checked_at": "2026-04-13T20:13:53.507296+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 3099.04
     }
   },
   {
@@ -26160,6 +26802,13 @@
       "signal_strength": 105.0,
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "resolution": {
+      "outcome": "Heat",
+      "checked_at": "2026-04-13T20:13:55.948449+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 1828.67
     }
   },
   {
@@ -26635,7 +27284,8 @@
       "signal_strength": 125.0,
       "insider_score": 85.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    }
+    },
+    "resolution_last_check": "2026-04-13T20:14:03.897032+00:00"
   },
   {
     "market": "US x Iran ceasefire by April 7?",
@@ -26750,7 +27400,8 @@
       "signal_strength": 85.0,
       "insider_score": 85.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    }
+    },
+    "resolution_last_check": "2026-04-13T20:14:03.897231+00:00"
   },
   {
     "type": "TOP_TRADER",
@@ -26955,7 +27606,8 @@
       "signal_strength": 85.0,
       "insider_score": 85.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    }
+    },
+    "resolution_last_check": "2026-04-13T20:14:05.229464+00:00"
   },
   {
     "market": "Counter-Strike: G2 vs Team Nemesis (BO3) - Stake Ranked Episode 1 Playoffs",
@@ -27064,6 +27716,13 @@
       "signal_strength": 70.0,
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "resolution": {
+      "outcome": "G2",
+      "checked_at": "2026-04-13T20:14:07.992747+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 309.35
     }
   },
   {
@@ -27352,6 +28011,13 @@
       "signal_strength": 70.0,
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "resolution": {
+      "outcome": "Nuggets",
+      "checked_at": "2026-04-13T20:14:12.653048+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -24718.55
     }
   },
   {
@@ -27461,7 +28127,8 @@
       "signal_strength": 70.0,
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    }
+    },
+    "resolution_last_check": "2026-04-13T20:14:15.233526+00:00"
   },
   {
     "type": "TOP_TRADER",
@@ -27659,6 +28326,13 @@
       "signal_strength": 70.0,
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "resolution": {
+      "outcome": "Atlanta Braves",
+      "checked_at": "2026-04-13T20:14:19.170765+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 31075.75
     }
   },
   {
@@ -27767,6 +28441,13 @@
       "signal_strength": 70.0,
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "resolution": {
+      "outcome": "Atlanta Braves",
+      "checked_at": "2026-04-13T20:14:19.170823+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 6975.26
     }
   },
   {
@@ -27875,6 +28556,13 @@
       "signal_strength": 70.0,
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "resolution": {
+      "outcome": "Canadiens",
+      "checked_at": "2026-04-13T20:14:21.726483+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 2690.08
     }
   },
   {
@@ -28747,6 +29435,13 @@
       "signal_strength": 105.0,
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "resolution": {
+      "outcome": "Dione Barbosa",
+      "checked_at": "2026-04-13T20:14:33.509472+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 1190.98
     }
   },
   {
@@ -28989,6 +29684,13 @@
       "signal_strength": 105.0,
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "resolution": {
+      "outcome": "Michigan Wolverines",
+      "checked_at": "2026-04-13T20:14:36.812730+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 359.87
     }
   },
   {
@@ -29241,7 +29943,8 @@
       "signal_strength": 85.0,
       "insider_score": 85.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    }
+    },
+    "resolution_last_check": "2026-04-13T20:14:38.834958+00:00"
   },
   {
     "type": "TOP_TRADER",
@@ -29670,6 +30373,13 @@
       "signal_strength": 105.0,
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "resolution": {
+      "outcome": "Nuggets",
+      "checked_at": "2026-04-13T20:14:46.145174+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 426.24
     }
   },
   {
@@ -31396,6 +32106,13 @@
       "signal_strength": 105.0,
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "resolution": {
+      "outcome": "Philadelphia Phillies",
+      "checked_at": "2026-04-13T20:15:03.982149+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 2910.64
     }
   },
   {
@@ -31503,6 +32220,13 @@
       "signal_strength": 105.0,
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "resolution": {
+      "outcome": "Baltimore Orioles",
+      "checked_at": "2026-04-13T20:15:06.580715+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 2500.74
     }
   },
   {
@@ -31766,7 +32490,8 @@
       "signal_strength": 70.0,
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    }
+    },
+    "resolution_last_check": "2026-04-13T20:15:06.580776+00:00"
   },
   {
     "type": "TOP_TRADER",
@@ -31920,7 +32645,8 @@
       "signal_strength": 70.0,
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    }
+    },
+    "resolution_last_check": "2026-04-13T20:15:09.753335+00:00"
   },
   {
     "market": "Will the next Prime Minister of Hungary be P\u00e9ter Magyar?",
@@ -33171,7 +33897,8 @@
       "signal_strength": 70.0,
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    }
+    },
+    "resolution_last_check": "2026-04-13T20:15:17.909090+00:00"
   },
   {
     "type": "TOP_TRADER",
@@ -33618,6 +34345,13 @@
       "signal_strength": 70.0,
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "resolution": {
+      "outcome": "Columbus Crew",
+      "checked_at": "2026-04-13T20:15:22.956472+00:00",
+      "insider_win": null,
+      "model_correct": null,
+      "pnl": null
     }
   },
   {
@@ -33726,7 +34460,14 @@
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
     },
-    "ai_context": "\u274c SKIP  \nThe odds at 79% suggest the market may be overvaluing the Spurs; consider their recent performance and matchup history."
+    "ai_context": "\u274c SKIP  \nThe odds at 79% suggest the market may be overvaluing the Spurs; consider their recent performance and matchup history.",
+    "resolution": {
+      "outcome": "Nuggets",
+      "checked_at": "2026-04-13T20:15:40.345841+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -9914.5
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -34065,6 +34806,7 @@
       "signal_strength": 70.0,
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    }
+    },
+    "resolution_last_check": "2026-04-13T20:15:45.238405+00:00"
   }
 ]
