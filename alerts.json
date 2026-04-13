@@ -2,108 +2,6 @@
   {
     "market": "Magic vs. Timberwolves: O/U 226.5",
     "market_slug": "nba-orl-min-2026-03-07-total-226pt5",
-    "wallet": "0xaaab0f60f9c0aded1a2611dc0296fa6f5cc7d885",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($1,152)",
-        "Low activity (1 txns)"
-      ],
-      "amount": 1152.5,
-      "odds": 0.5,
-      "raw_price": 0.5,
-      "outcome": "Under",
-      "potential_pnl": 1152.5,
-      "pnl_multiplier": 1.0,
-      "wallet_age_days": 0,
-      "total_activities": 1
-    },
-    "timestamp": "2026-03-07T12:00:55.743936",
-    "trade_hash": "0xd719fee7d4b4f6ec16d9c761f103863b84f82c39b7d328beb61776de76ad3f29",
-    "trade_timestamp": 1772884783,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Under",
-      "side": "BUY",
-      "price": 0.5,
-      "effective_price": 0.5,
-      "size": 2305.0,
-      "amount": 1152.5,
-      "potential_pnl": 1152.5,
-      "pnl_multiplier": 1.0,
-      "is_no": false
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+26.0%)"
-      ],
-      "category": "sports",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.24,
-      "market_price": 0.5,
-      "edge": 0.26,
-      "edge_percent": 26.0,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Both teams score efficiently",
-          "Defensive strategies are ineffective",
-          "Game pace is fast"
-        ],
-        "weakest_link": "Defensive strategies are ineffective"
-      },
-      "category": "sports",
-      "narrative_drivers": [
-        "Recent offensive performances",
-        "Injury status of key players"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "INSIDER_ONLY",
-      "signal_emoji": "\ud83d\udc41\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider activity detected, no clear mispricing",
-      "action_suggestion": "Monitor: insider signal only, no statistical edge",
-      "insider_score": 70,
-      "insider_position": "UNDER",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.26,
-      "edge_percent": 26.0
-    },
-    "financial_analyst": {
-      "signal_quality": 51.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 26.0,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    }
-  },
-  {
-    "market": "Magic vs. Timberwolves: O/U 226.5",
-    "market_slug": "nba-orl-min-2026-03-07-total-226pt5",
     "wallet": "0x78ff4b238411f37be04cc35c7c9890bd0032925b",
     "analysis": {
       "score": 70,
@@ -33912,5 +33810,50 @@
     "market_slug": "lol-blg-jdg-2026-04-14",
     "amount": 1699.3112892,
     "ai_context": "\u274c SKIP  \nThe odds seem slightly low for Bilibili Gaming's chances; market may not reflect their true strength in this matchup."
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xf9cdd7e242ec8e4e1f7d82492fcf6ce46d17883f0810e5f6795c247f43b35f07",
+    "wallet": "0x6a72f61820b26b1fe4d956e17b6dc2a1ea3033ee",
+    "trader": {
+      "rank": 3,
+      "address": "0x6a72f61820b26b1fe4d956e17b6dc2a1ea3033ee",
+      "username": "kch123",
+      "profit": 12046708.246806102,
+      "volume": 281310471.65188605,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x6cbb4ad84f064f6aa197f3965f291a626ce1cf39",
+      "side": "BUY",
+      "asset": "91464516107556165907566387619157396733019262339196802152206657889196699256450",
+      "conditionId": "0xae6d3d20bc8f742922dc40880cd8a8671c10385a9912fa7cd670fba0643dfe96",
+      "size": 4876.543477,
+      "price": 0.4599999999138734,
+      "timestamp": 1776081449,
+      "title": "Will Rafael L\u00f3pez Aliaga win the 2026 Peruvian presidential election?",
+      "slug": "will-rafael-lpez-aliaga-win-the-2026-peruvian-presidential-election",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-rafael-lpez-aliaga-win-the-2026-peruvian-presidential-election-X72XjUcYKC0d.jpg",
+      "eventSlug": "peru-presidential-election-winner",
+      "outcome": "Yes",
+      "outcomeIndex": 0,
+      "name": "nickolasvitte",
+      "pseudonym": "Each-Lambkin",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xf9cdd7e242ec8e4e1f7d82492fcf6ce46d17883f0810e5f6795c247f43b35f07",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Will Rafael L\u00f3pez Aliaga win the 2026 Peruvian presidential election?",
+    "market_slug": "peru-presidential-election-winner",
+    "amount": 2243.209999,
+    "ai_context": "\u274c SKIP  \nThe odds seem low for a presidential candidate; market may undervalue stronger opponents or incumbents."
   }
 ]
