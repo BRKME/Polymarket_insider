@@ -1,210 +1,5 @@
 [
   {
-    "market": "Will Jesus Christ return before GTA VI?",
-    "market_slug": "will-jesus-christ-return-before-gta-vi-665",
-    "wallet": "0x20d63920177ae7e3996d397f5d3c5a1dc38abb8e",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($2,025)",
-        "Low activity (2 txns)"
-      ],
-      "amount": 2025.259388,
-      "odds": 0.4800000000758421,
-      "raw_price": 0.5199999999241579,
-      "outcome": "No",
-      "potential_pnl": 2194.0310030000005,
-      "pnl_multiplier": 1.0833333330041577,
-      "wallet_age_days": 0,
-      "total_activities": 2
-    },
-    "timestamp": "2026-03-07T19:19:29.528151",
-    "trade_hash": "0xb66b5d34a5e860e6fb96310b59c6b7f0b6a1ab621d7f26cf173c80142d292ca0",
-    "trade_timestamp": 1772910981,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "No",
-      "side": "BUY",
-      "price": 0.5199999999241579,
-      "effective_price": 0.4800000000758421,
-      "size": 4219.290391,
-      "amount": 2025.259388,
-      "potential_pnl": 2194.0310030000005,
-      "pnl_multiplier": 1.0833333330041577,
-      "is_no": true
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+41.2%)"
-      ],
-      "category": "other",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.10799999998483159,
-      "market_price": 0.5199999999241579,
-      "edge": 0.41199999993932634,
-      "edge_percent": 41.199999993932636,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "historically_near_zero",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "historically_near_zero",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Widespread belief in the imminent return of Jesus Christ",
-          "Significant global events interpreted as signs of the end times",
-          "Cultural or religious shifts prompting renewed interest in eschatology"
-        ],
-        "weakest_link": "Widespread belief in the imminent return of Jesus Christ"
-      },
-      "category": "other",
-      "narrative_drivers": [
-        "Cultural fascination with religious prophecies",
-        "Anticipation of major video game releases and their cultural impact"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "ALPHA",
-      "signal_emoji": "\ud83d\udd25",
-      "signal_strength": 105,
-      "interpretation": "Smart money (NO) confirms YES is overpriced",
-      "action_suggestion": "High conviction: insider + statistics aligned",
-      "insider_score": 70,
-      "insider_position": "NO",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.41199999993932634,
-      "edge_percent": 41.199999993932636
-    },
-    "financial_analyst": {
-      "signal_quality": 81.0,
-      "stance": "HIGH_CONVICTION",
-      "edge_percent": 41.2,
-      "signal_strength": 105.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "resolution_last_check": "2026-04-13T19:40:50.594542+00:00"
-  },
-  {
-    "market": "Will MrBeast's next video get 90 million or more views on week 1?",
-    "market_slug": "will-mrbeasts-next-video-get-90-million-or-more-views-on-week-1",
-    "wallet": "0x94fc0c95d002ed35c6b415d1afb8fc71ef5f26ac",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($2,419)",
-        "Low activity (1 txns)"
-      ],
-      "amount": 2419.099997,
-      "odds": 0.12139967438345003,
-      "raw_price": 0.12139967438345003,
-      "outcome": "Yes",
-      "potential_pnl": 17507.642057999998,
-      "pnl_multiplier": 7.237254383742616,
-      "wallet_age_days": 0,
-      "total_activities": 1
-    },
-    "timestamp": "2026-03-07T21:40:10.970599",
-    "trade_hash": "0x1ee3141fdb242dba6db515fe8f2e9e79fa6cf74665d59f68dfaa72ac17ed1fc6",
-    "trade_timestamp": 1772919475,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Yes",
-      "side": "BUY",
-      "price": 0.12139967438345003,
-      "effective_price": 0.12139967438345003,
-      "size": 19926.742055,
-      "amount": 2419.099997,
-      "potential_pnl": 17507.642057999998,
-      "pnl_multiplier": 7.237254383742616,
-      "is_no": false
-    },
-    "irrationality": {
-      "irrationality_score": 25,
-      "flags": [
-        "Longshot (12%) in medium bias category (other)"
-      ],
-      "category": "other",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": false
-    },
-    "mispricing": {
-      "rational_estimate": 0.08427993487669,
-      "market_price": 0.12139967438345003,
-      "edge": 0.037119739506760036,
-      "edge_percent": 3.7119739506760037,
-      "min_edge_required": 0.05,
-      "is_mispriced": false,
-      "edge_quality": "WEAK",
-      "base_rate_class": "occasional",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "occasional",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "MrBeast's current subscriber count and engagement levels",
-          "The video's content and its appeal to the audience",
-          "Timing of the release relative to competing content"
-        ],
-        "weakest_link": "The video's content and its appeal to the audience"
-      },
-      "category": "other",
-      "narrative_drivers": [
-        "Previous videos have reached high view counts quickly",
-        "Social media promotion and trends affecting viewership"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "INSIDER_ONLY",
-      "signal_emoji": "\ud83d\udc41\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider activity detected, no clear mispricing",
-      "action_suggestion": "Monitor: insider signal only, no statistical edge",
-      "insider_score": 70,
-      "insider_position": "YES",
-      "irrationality_score": 25,
-      "is_irrational": false,
-      "is_mispriced": false,
-      "edge": 0.037119739506760036,
-      "edge_percent": 3.7119739506760037
-    },
-    "financial_analyst": {
-      "signal_quality": 29.6,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 3.71,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    }
-  },
-  {
     "market": "US forces enter Iran by March 14?",
     "market_slug": "us-forces-enter-iran-by-march",
     "wallet": "0xf6f458a357a58eec16d767b3a78decda8b373144",
@@ -34808,5 +34603,93 @@
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
     },
     "resolution_last_check": "2026-04-13T20:15:45.238405+00:00"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x2204c1eb1f01d45227828a2b203fd7ba947a237f9c04c03847255c2e8cd8cf21",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.515682004,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x614dc8d3542c12103d2c6a3553fd761e391d1546",
+      "side": "BUY",
+      "asset": "6028886497886581703885519038544575652424891314006548499671409644310209928685",
+      "conditionId": "0xf616ba46f3bc1412a80824309a02b73ddbcd1a43a1f7a37aa161e54b812972d5",
+      "size": 4000,
+      "price": 0.695448025,
+      "timestamp": 1776112367,
+      "title": "Will Trump endorse an Israeli Ceasefire in Lebanon by April 30?",
+      "slug": "will-trump-endorse-an-israeli-ceasefire-in-lebanon-by-april-30",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-trump-endorse-an-israeli-ceasefire-in-lebanon-by-april-30-g8N1GvD6s0Qk.jpg",
+      "eventSlug": "will-trump-endorse-an-israeli-ceasefire-in-lebanon-by-april-30",
+      "outcome": "No",
+      "outcomeIndex": 1,
+      "name": "mr.ozi",
+      "pseudonym": "Determined-Valuable",
+      "bio": "Check out our PredictLab trading course and community with a Discord server ThePredictLab.xyz",
+      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Capture_2c5e68de-e9d9-41e8-b25d-2dcc67eefc45_1721219990648.PNG",
+      "profileImageOptimized": "",
+      "transactionHash": "0x2204c1eb1f01d45227828a2b203fd7ba947a237f9c04c03847255c2e8cd8cf21",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Will Trump endorse an Israeli Ceasefire in Lebanon by April 30?",
+    "market_slug": "will-trump-endorse-an-israeli-ceasefire-in-lebanon-by-april-30",
+    "amount": 2781.7921
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xbaa7c22c9f068e1a22db9281746aebb34324019a3a297ffab55554fd5f918b50",
+    "wallet": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+    "trader": {
+      "rank": 7,
+      "address": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+      "username": "RN1",
+      "profit": 7347034.519516817,
+      "volume": 408390366.16510105,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x045fd68758a188002c8117adba23b0d1fed8763c",
+      "side": "BUY",
+      "asset": "6891332970606741289335100527074286367980977023668114186582448812506868724310",
+      "conditionId": "0x4f5e5189fc6356d877b7518f452e16d2ab6f211d312a4fe8d404e9b2870e0daa",
+      "size": 1884.225305,
+      "price": 0.7977625854289386,
+      "timestamp": 1776112669,
+      "title": "Will Leeds United FC win on 2026-04-13?",
+      "slug": "epl-mun-lee-2026-04-13-lee",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Repetitive-markets/premier+league.jpg",
+      "eventSlug": "epl-mun-lee-2026-04-13",
+      "outcome": "Yes",
+      "outcomeIndex": 0,
+      "name": "kinzajs",
+      "pseudonym": "Expert-Workbench",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xbaa7c22c9f068e1a22db9281746aebb34324019a3a297ffab55554fd5f918b50",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Will Leeds United FC win on 2026-04-13?",
+    "market_slug": "epl-mun-lee-2026-04-13",
+    "amount": 1503.1644508474303
   }
 ]
