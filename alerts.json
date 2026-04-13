@@ -1,107 +1,5 @@
 [
   {
-    "market": "Will VfL Wolfsburg vs. Hamburger SV end in a draw?",
-    "market_slug": "bun-wol-hsv-2026-03-07-draw",
-    "wallet": "0x1cc4f3587dbf3482dc216181455148baba95803d",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (1d old)",
-        "Large bet ($1,519)",
-        "Low activity (4 txns)"
-      ],
-      "amount": 1519.0000000000002,
-      "odds": 0.28,
-      "raw_price": 0.28,
-      "outcome": "Yes",
-      "potential_pnl": 3906.0,
-      "pnl_multiplier": 2.571428571428571,
-      "wallet_age_days": 1,
-      "total_activities": 4
-    },
-    "timestamp": "2026-03-07T11:46:19.663858",
-    "trade_hash": "0x4458b700e0afc179dd66dfd3eaf768ebe0fcf3015b8a519af6343f5d9c1cc4f6",
-    "trade_timestamp": 1772883771,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Yes",
-      "side": "BUY",
-      "price": 0.28,
-      "effective_price": 0.28,
-      "size": 5425.0,
-      "amount": 1519.0000000000002,
-      "potential_pnl": 3906.0,
-      "pnl_multiplier": 2.571428571428571,
-      "is_no": false
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+16.4%)"
-      ],
-      "category": "sports",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.116,
-      "market_price": 0.28,
-      "edge": 0.16400000000000003,
-      "edge_percent": 16.400000000000002,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "occasional",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "occasional",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Both teams have similar form leading into the match",
-          "Defensive strategies are prioritized by both coaches",
-          "Key players are absent or underperforming"
-        ],
-        "weakest_link": "Key players are absent or underperforming"
-      },
-      "category": "sports",
-      "narrative_drivers": [
-        "Recent matches between the teams have ended in draws",
-        "Current league standings create pressure for both teams to secure at least a point"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "CONFLICT",
-      "signal_emoji": "\u26a0\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider buying YES despite statistical overpricing",
-      "action_suggestion": "Requires manual analysis: insider may have real info OR is part of irrational crowd",
-      "insider_score": 70,
-      "insider_position": "YES",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.16400000000000003,
-      "edge_percent": 16.400000000000002
-    },
-    "financial_analyst": {
-      "signal_quality": 45.6,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 16.4,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    }
-  },
-  {
     "market": "Magic vs. Timberwolves: O/U 226.5",
     "market_slug": "nba-orl-min-2026-03-07-total-226pt5",
     "wallet": "0xaaab0f60f9c0aded1a2611dc0296fa6f5cc7d885",
@@ -33969,5 +33867,50 @@
     "market_slug": "lol-sen-c9-2026-04-12",
     "amount": 7919.146307800001,
     "ai_context": "\u274c SKIP  \nThe odds of 13% suggest the market heavily favors Cloud9, indicating low confidence in Sentinels' chances to win."
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x67ce7d9e1768506889af3c1ef42a208e5a972ea8c8a52d300d14dd181e3eae67",
+    "wallet": "0x23786fdad0073692157c6d7dc81f281843a35fcb",
+    "trader": {
+      "rank": 13,
+      "address": "0x23786fdad0073692157c6d7dc81f281843a35fcb",
+      "username": "mikatrade77",
+      "profit": 5147998.544602999,
+      "volume": 10884765.388775,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x57f9afb94a70d5b5228499dad8d1d40feb7e895d",
+      "side": "BUY",
+      "asset": "35090372163336419211596922861916842540576702475504917410615506418154753526688",
+      "conditionId": "0xc1e48adcad84a779333821e207bd0384977386855afd3730f62b3e4c9cfd3ab8",
+      "size": 2498.98719,
+      "price": 0.68,
+      "timestamp": 1776077845,
+      "title": "LoL: Bilibili Gaming vs JD Gaming (BO3) - Esports World Cup China Qualifier Phase 2",
+      "slug": "lol-blg-jdg-2026-04-14",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/league-of-legends-61a4f083a6.png",
+      "eventSlug": "lol-blg-jdg-2026-04-14",
+      "outcome": "Bilibili Gaming",
+      "outcomeIndex": 0,
+      "name": "xhao1",
+      "pseudonym": "Shy-Pendant",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x67ce7d9e1768506889af3c1ef42a208e5a972ea8c8a52d300d14dd181e3eae67",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "LoL: Bilibili Gaming vs JD Gaming (BO3) - Esports World Cup China Qualifier Phase 2",
+    "market_slug": "lol-blg-jdg-2026-04-14",
+    "amount": 1699.3112892,
+    "ai_context": "\u274c SKIP  \nThe odds seem slightly low for Bilibili Gaming's chances; market may not reflect their true strength in this matchup."
   }
 ]
