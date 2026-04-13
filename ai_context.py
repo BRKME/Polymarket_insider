@@ -151,7 +151,6 @@ def generate_trade_context(
                 {"role": "user", "content": prompt},
             ],
             max_tokens=120,
-            temperature=0.3,
         )
 
         text = response.choices[0].message.content.strip()
