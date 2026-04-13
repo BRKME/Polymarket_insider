@@ -5,7 +5,7 @@ GAMMA_API_URL = "https://gamma-api.polymarket.com"
 DATA_API_URL = "https://data-api.polymarket.com"
 
 # Trading Thresholds
-MIN_BET_SIZE = 1000  # $1,000 minimum (serious bets only, blocks casual gambling)
+MIN_BET_SIZE = 1500  # $1,500 minimum (raised from $1K — INSIDER_ONLY at 49% was too noisy)
 ALERT_THRESHOLD = 70        # Score threshold for alerts (lowered from 80)
 MAX_ODDS_THRESHOLD = 0.95   # Block >95% odds (arbitrage territory)
 
