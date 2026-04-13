@@ -71,13 +71,44 @@ def save_stats(stats: Dict):
     temp.replace(STATS_PATH)
 
 
+def fetch_market_by_condition_id(condition_id: str) -> Optional[Dict]:
+    """Fetch market by conditionId — most reliable lookup for TOP_TRADER alerts."""
+    if not condition_id:
+        return None
+
+    url = f"{GAMMA_API_URL}/markets"
+    params = {"condition_id": condition_id, "limit": 1}
+
+    try:
+        time.sleep(API_DELAY)
+        resp = requests.get(url, params=params, timeout=15)
+        if resp.status_code == 200:
+            data = resp.json()
+            if data and len(data) > 0:
+                return data[0]
+    except Exception as e:
+        print(f"  ⚠️  API error for conditionId '{condition_id[:20]}': {e}")
+
+    # Fallback: try conditionId as query param name variation
+    for param_name in ["conditionId", "condition_id"]:
+        try:
+            time.sleep(API_DELAY)
+            resp = requests.get(url, params={param_name: condition_id, "limit": 1}, timeout=15)
+            if resp.status_code == 200:
+                data = resp.json()
+                if data and len(data) > 0:
+                    return data[0]
+        except:
+            pass
+
+    return None
+
+
 def fetch_market_by_slug(slug: str) -> Optional[Dict]:
     """Fetch market data from Gamma API by slug."""
     if not slug:
         return None
 
-    # Clean slug: remove trailing numeric suffixes
-    # e.g., "us-strikes-iran-by-feb-20-151-468-624..." → try with full slug first
     url = f"{GAMMA_API_URL}/markets"
     params = {"slug": slug, "limit": 1}
 
@@ -90,6 +121,19 @@ def fetch_market_by_slug(slug: str) -> Optional[Dict]:
                 return data[0]
     except Exception as e:
         print(f"  ⚠️  API error for slug '{slug[:40]}': {e}")
+
+    # Fallback: try event slug via events endpoint
+    try:
+        time.sleep(API_DELAY)
+        resp = requests.get(f"{GAMMA_API_URL}/events", params={"slug": slug, "limit": 1}, timeout=15)
+        if resp.status_code == 200:
+            events = resp.json()
+            if events and len(events) > 0:
+                markets = events[0].get("markets", [])
+                if markets:
+                    return markets[0]
+    except:
+        pass
 
     return None
 
@@ -173,11 +217,15 @@ def determine_resolution(market: Dict) -> Optional[str]:
 
 def check_insider_win(alert: Dict, resolution: str) -> Optional[bool]:
     """
-    Did the insider's bet win?
-    Returns True if position matches resolution, False otherwise, None if unclear.
+    Did the insider's/trader's bet win?
+    Handles both insider alerts (trade_data) and TOP_TRADER alerts (trade).
     """
+    # Extract position from either alert format
     trade_data = alert.get("trade_data", {})
-    outcome = trade_data.get("outcome", "Yes")
+    trade = alert.get("trade", {})
+    
+    # Get outcome: insider alerts use trade_data, TOP_TRADER uses trade
+    outcome = trade_data.get("outcome") or trade.get("outcome", "Yes")
     normalized = trade_data.get("normalized_position")  # YES or NO from detector
 
     position = str(outcome).strip()
@@ -185,32 +233,50 @@ def check_insider_win(alert: Dict, resolution: str) -> Optional[bool]:
 
     # 1. Binary resolution (Yes/No)
     if resolved.lower() in ("yes", "no"):
-        # Use normalized_position if available (handles Over→YES, Under→NO, teams)
         if normalized:
             return normalized.lower() == resolved.lower()
-        # Fallback: direct match
         if position.lower() in ("yes", "no"):
             return position.lower() == resolved.lower()
-        # Over/Under → YES/NO mapping
         if position.lower() == "over":
             return resolved.lower() == "yes"
         if position.lower() == "under":
             return resolved.lower() == "no"
-        # Can't determine (team name vs Yes/No)
         return None
 
     # 2. Named resolution (team/player name)
-    # Exact match
     if position.lower() == resolved.lower():
         return True
-    # Substring match (e.g., "Brady" in "Jennifer Brady")
     if position.lower() in resolved.lower() or resolved.lower() in position.lower():
         return True
-    # Position is binary but resolution is a name — mismatch
     if position.lower() in ("yes", "no", "over", "under"):
         return None
 
     return False
+
+
+def calculate_pnl(alert: Dict, insider_win: Optional[bool]) -> Optional[float]:
+    """Calculate P&L for a resolved alert."""
+    if insider_win is None:
+        return None
+    
+    # Get entry cost and effective odds
+    trade_data = alert.get("trade_data", {})
+    trade = alert.get("trade", {})
+    
+    amount = float(trade_data.get("amount", 0) or alert.get("amount", 0) or 0)
+    effective_odds = float(trade_data.get("effective_price", 0) or trade.get("price", 0) or 0)
+    
+    if amount <= 0 or effective_odds <= 0:
+        return None
+    
+    if insider_win:
+        # Win: payout = amount / effective_odds, profit = payout - amount
+        pnl = amount * (1.0 / effective_odds - 1.0)
+    else:
+        # Loss: lose entire amount
+        pnl = -amount
+    
+    return round(pnl, 2)
 
 
 def check_model_correct(alert: Dict, resolution: str) -> Optional[bool]:
@@ -286,21 +352,57 @@ def run_resolution_check():
     still_open = 0
     api_errors = 0
 
-    # De-duplicate by market slug to avoid redundant API calls
-    slug_cache: Dict[str, Optional[Dict]] = {}
+    # De-duplicate by market to avoid redundant API calls
+    lookup_cache: Dict[str, Optional[Dict]] = {}
 
     for i, alert in enumerate(unchecked):
+        # Extract all possible lookup keys
         slug = alert.get("market_slug", "")
+        event_slug = alert.get("event_slug", "")
         market_question = alert.get("market", "")
+        
+        # conditionId: different location for insider vs TOP_TRADER
+        condition_id = ""
+        trade_data = alert.get("trade_data", {})
+        trade = alert.get("trade", {})
+        if trade_data.get("conditionId"):
+            condition_id = trade_data["conditionId"]
+        elif trade.get("conditionId"):
+            condition_id = trade["conditionId"]
+        
+        # Also try slugs from trade_data
+        if not slug:
+            slug = trade_data.get("slug", "") or trade.get("slug", "")
+        if not event_slug:
+            event_slug = trade_data.get("eventSlug", "") or trade.get("eventSlug", "")
+
+        # Build cache key from best available identifier
+        cache_key = condition_id or slug or event_slug or market_question[:60]
+        
+        if not cache_key:
+            api_errors += 1
+            continue
 
         # Try cache first
-        if slug in slug_cache:
-            market_data = slug_cache[slug]
+        if cache_key in lookup_cache:
+            market_data = lookup_cache[cache_key]
         else:
-            market_data = fetch_market_by_slug(slug)
-            if not market_data:
+            market_data = None
+            
+            # Cascade: conditionId → slug → event_slug → question
+            if condition_id:
+                market_data = fetch_market_by_condition_id(condition_id)
+            
+            if not market_data and slug:
+                market_data = fetch_market_by_slug(slug)
+            
+            if not market_data and event_slug and event_slug != slug:
+                market_data = fetch_market_by_slug(event_slug)
+            
+            if not market_data and market_question:
                 market_data = fetch_market_by_question(market_question)
-            slug_cache[slug] = market_data
+            
+            lookup_cache[cache_key] = market_data
 
         if not market_data:
             api_errors += 1
@@ -312,6 +414,7 @@ def run_resolution_check():
             # Market is resolved!
             insider_win = check_insider_win(alert, resolution)
             model_correct = check_model_correct(alert, resolution)
+            pnl = calculate_pnl(alert, insider_win)
 
             # Store resolution in the alert itself
             alert["resolution"] = {
@@ -319,6 +422,7 @@ def run_resolution_check():
                 "checked_at": datetime.now(timezone.utc).isoformat(),
                 "insider_win": insider_win,
                 "model_correct": model_correct,
+                "pnl": pnl,
             }
 
             # Update global stats
@@ -335,6 +439,10 @@ def run_resolution_check():
             else:
                 stats["model_na"] += 1
 
+            # P&L tracking
+            if pnl is not None:
+                stats["total_pnl"] = round(stats.get("total_pnl", 0) + pnl, 2)
+
             # Update per-signal-type and per-category
             signal_type = alert.get("combined_signal", {}).get("signal_type", "UNKNOWN")
             category = alert.get("irrationality", {}).get("category", "unknown")
@@ -343,10 +451,13 @@ def run_resolution_check():
             update_by_bucket(stats, "by_category", category, insider_win, model_correct)
 
             newly_resolved += 1
-            position = alert.get("trade_data", {}).get("outcome", "?")
+            position = alert.get("trade_data", {}).get("outcome") or alert.get("trade", {}).get("outcome", "?")
+            amount = float(alert.get("trade_data", {}).get("amount", 0) or alert.get("amount", 0) or 0)
+            signal_type = alert.get("combined_signal", {}).get("signal_type") or alert.get("type", "?")
             win_str = "✅" if insider_win else ("❌" if insider_win is False else "❓")
-            print(f"  [{newly_resolved}] {market_question[:60]}")
-            print(f"       Position: {position} | Resolved: {resolution} | {win_str}")
+            pnl_str = f"${pnl:+,.0f}" if pnl is not None else "?"
+            print(f"  [{newly_resolved}] {market_question[:55]}")
+            print(f"       {signal_type} | {position} ${amount:,.0f} | Resolved: {resolution} | {win_str} {pnl_str}")
         else:
             still_open += 1
             # Mark as checked so we don't spam the API
@@ -392,6 +503,9 @@ def run_resolution_check():
     else:
         print(f"  INSIDER WIN RATE: no data yet")
 
+    total_pnl = stats.get("total_pnl", 0)
+    print(f"  CUMULATIVE P&L: ${total_pnl:+,.0f}")
+
     total_model = stats["model_correct"] + stats["model_wrong"]
     if total_model > 0:
         model_acc = stats["model_correct"] / total_model * 100
@@ -436,6 +550,9 @@ def send_resolution_summary(stats: Dict, newly_resolved: int):
         msg += f"{wins}W / {losses}L (of {determined} determined)"
         if undetermined > 0:
             msg += f"\n{undetermined} unmatched (sports/named markets)"
+        total_pnl = stats.get("total_pnl", 0)
+        if total_pnl != 0:
+            msg += f"\nP&L: ${total_pnl:+,.0f}"
     else:
         msg += "INSIDER WIN RATE: no data yet"
 
