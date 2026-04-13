@@ -1,117 +1,5 @@
 [
   {
-    "market": "US forces enter Iran by March 14?",
-    "market_slug": "us-forces-enter-iran-by-march",
-    "wallet": "0xf6f458a357a58eec16d767b3a78decda8b373144",
-    "analysis": {
-      "score": 110,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($4,797)",
-        "Low activity (2 txns)",
-        "Pre-event latency: 8744m"
-      ],
-      "amount": 4796.599999,
-      "odds": 0.20358238838291312,
-      "raw_price": 0.20358238838291312,
-      "outcome": "Yes",
-      "potential_pnl": 18764.377142,
-      "pnl_multiplier": 3.9120162502422584,
-      "wallet_age_days": 0,
-      "total_activities": 2
-    },
-    "timestamp": "2026-03-07T22:17:25.133921",
-    "trade_hash": "0x0d4b44a7f2c942cc70c75239068871b0e347cab728e27020cac79e3b8fd68f49",
-    "trade_timestamp": 1772921737,
-    "latency": {
-      "latency_seconds": 524663.0,
-      "latency_minutes": 8744.383333333333,
-      "is_pre_event": true,
-      "severity": "CRITICAL",
-      "trade_time": "2026-03-07T22:15:37+00:00",
-      "event_time": "2026-03-14T00:00:00+00:00"
-    },
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Yes",
-      "side": "BUY",
-      "price": 0.20358238838291312,
-      "effective_price": 0.20358238838291312,
-      "size": 23560.977141,
-      "amount": 4796.599999,
-      "potential_pnl": 18764.377142,
-      "pnl_multiplier": 3.9120162502422584,
-      "is_no": false
-    },
-    "irrationality": {
-      "irrationality_score": 55,
-      "flags": [
-        "Longshot (20%) in high bias category (geopolitics)",
-        "Category structurally prone to longshot bias",
-        "Significant mispricing edge (+13.9%)"
-      ],
-      "category": "geopolitics",
-      "category_info": {
-        "strength": "high",
-        "typical_overpricing": 0.05,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.06471647767658262,
-      "market_price": 0.20358238838291312,
-      "edge": 0.1388659107063305,
-      "edge_percent": 13.88659107063305,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "rare",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "rare",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Escalation of regional conflict necessitating US intervention",
-          "Political support within the US government for military action",
-          "Public sentiment favoring intervention in Iran"
-        ],
-        "weakest_link": "Public sentiment favoring intervention in Iran"
-      },
-      "category": "geopolitics",
-      "narrative_drivers": [
-        "Rising tensions between the US and Iran",
-        "Influence of domestic politics on foreign policy decisions"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "CONFLICT",
-      "signal_emoji": "\u26a0\ufe0f",
-      "signal_strength": 110,
-      "interpretation": "Insider buying YES despite statistical overpricing",
-      "action_suggestion": "Requires manual analysis: insider may have real info OR is part of irrational crowd",
-      "insider_score": 110,
-      "insider_position": "YES",
-      "irrationality_score": 55,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.1388659107063305,
-      "edge_percent": 13.88659107063305
-    },
-    "financial_analyst": {
-      "signal_quality": 51.8,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 13.89,
-      "signal_strength": 110.0,
-      "insider_score": 110.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    }
-  },
-  {
     "market": "Will Crude Oil (CL) hit (HIGH) $110 by end of March?",
     "market_slug": "will-crude-oil-cl-hit-high-110-by-end-of-march-732-945",
     "wallet": "0xa9865f94138dd1fc01eb17bf990560f2f2dc9a46",
@@ -34691,5 +34579,50 @@
     "market": "Will Leeds United FC win on 2026-04-13?",
     "market_slug": "epl-mun-lee-2026-04-13",
     "amount": 1503.1644508474303
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x161d99d4a0cb1ad45be71b0b30bbb7d5a1ea6df0bedc5f668beb3add3d8d3ce4",
+    "wallet": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
+    "trader": {
+      "rank": 16,
+      "address": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
+      "username": "GamblingIsAllYouNeed",
+      "profit": 4753931.944441266,
+      "volume": 342530406.534176,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xb45a797faa52b0fd8adc56d30382022b7b12192c",
+      "side": "BUY",
+      "asset": "73691806463420720108096872601745766111072824966413784241532045762310193326467",
+      "conditionId": "0x489fb508de0780b7361391bd92a668e028332e779c347a693f408010a59f9020",
+      "size": 110768.11,
+      "price": 0.42,
+      "timestamp": 1776118369,
+      "title": "Hurricanes vs. Flyers",
+      "slug": "nhl-car-phi-2026-04-13",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nhl.png",
+      "eventSlug": "nhl-car-phi-2026-04-13",
+      "outcome": "Hurricanes",
+      "outcomeIndex": 0,
+      "name": "bcda",
+      "pseudonym": "Pesky-Fedora",
+      "bio": "ref: gosports",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x161d99d4a0cb1ad45be71b0b30bbb7d5a1ea6df0bedc5f668beb3add3d8d3ce4",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Hurricanes vs. Flyers",
+    "market_slug": "nhl-car-phi-2026-04-13",
+    "amount": 46522.6062,
+    "ai_context": "## [Xfinity Mobile Arena](https://www.google.com/maps/search/Xfinity+Mobile+Arena?utm_source=openai)\n\n\n## NHL Schedule\n- Hurricanes @ Flyers on Monday, Apr 13, 2026 at 04:00 PM PDT\n\n\nThe Carolina H..."
   }
 ]
