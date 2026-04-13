@@ -33110,7 +33110,8 @@
     "market": "Strait of Hormuz traffic returns to normal by end of May?",
     "market_slug": "strait-of-hormuz-traffic-returns-to-normal-by-end-of-may",
     "amount": 2750.0,
-    "ai_context": "\u274c SKIP  \nThe odds of 55% suggest a close call; the market may not reflect the geopolitical complexities accurately."
+    "ai_context": "\u274c SKIP  \nThe odds of 55% suggest a close call; the market may not reflect the geopolitical complexities accurately.",
+    "resolution_last_check": "2026-04-13T07:55:30.972906+00:00"
   },
   {
     "market": "Will the next Prime Minister of Hungary be Viktor Orb\u00e1n?",
@@ -33218,7 +33219,8 @@
       "signal_strength": 70.0,
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    }
+    },
+    "resolution_last_check": "2026-04-13T07:55:30.972920+00:00"
   },
   {
     "market": "Will TISZA \u2013 Respect and Freedom Party (TISZA) win the most seats in the next Hungarian parliamentary election?",
@@ -33524,7 +33526,8 @@
       "signal_strength": 70.0,
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    }
+    },
+    "resolution_last_check": "2026-04-13T07:55:32.168977+00:00"
   },
   {
     "type": "TOP_TRADER",
