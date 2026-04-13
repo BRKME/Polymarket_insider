@@ -351,6 +351,7 @@ def run_resolution_check():
     newly_resolved = 0
     still_open = 0
     api_errors = 0
+    found_by_method = {"conditionId": 0, "slug": 0, "event_slug": 0, "question": 0}
 
     # De-duplicate by market to avoid redundant API calls
     lookup_cache: Dict[str, Optional[Dict]] = {}
@@ -388,24 +389,39 @@ def run_resolution_check():
             market_data = lookup_cache[cache_key]
         else:
             market_data = None
+            found_method = None
             
             # Cascade: conditionId → slug → event_slug → question
             if condition_id:
                 market_data = fetch_market_by_condition_id(condition_id)
+                if market_data:
+                    found_method = "conditionId"
             
             if not market_data and slug:
                 market_data = fetch_market_by_slug(slug)
+                if market_data:
+                    found_method = "slug"
             
             if not market_data and event_slug and event_slug != slug:
                 market_data = fetch_market_by_slug(event_slug)
+                if market_data:
+                    found_method = "event_slug"
             
             if not market_data and market_question:
                 market_data = fetch_market_by_question(market_question)
+                if market_data:
+                    found_method = "question"
             
             lookup_cache[cache_key] = market_data
+            if found_method:
+                found_by_method[found_method] = found_by_method.get(found_method, 0) + 1
 
         if not market_data:
             api_errors += 1
+            # Debug: show first 5 errors
+            if api_errors <= 5:
+                atype = alert.get("combined_signal", {}).get("signal_type") or alert.get("type", "?")
+                print(f"  ❌ NOT FOUND [{atype}]: cid={condition_id[:20]}, slug={slug[:30]}, q={market_question[:40]}")
             continue
 
         resolution = determine_resolution(market_data)
@@ -444,7 +460,7 @@ def run_resolution_check():
                 stats["total_pnl"] = round(stats.get("total_pnl", 0) + pnl, 2)
 
             # Update per-signal-type and per-category
-            signal_type = alert.get("combined_signal", {}).get("signal_type", "UNKNOWN")
+            signal_type = alert.get("combined_signal", {}).get("signal_type") or alert.get("type", "UNKNOWN")
             category = alert.get("irrationality", {}).get("category", "unknown")
 
             update_by_bucket(stats, "by_signal_type", signal_type, insider_win, model_correct)
@@ -460,6 +476,22 @@ def run_resolution_check():
             print(f"       {signal_type} | {position} ${amount:,.0f} | Resolved: {resolution} | {win_str} {pnl_str}")
         else:
             still_open += 1
+            # Debug: show first 5 still-open to check if they're actually resolved
+            if still_open <= 5:
+                closed = market_data.get("closed", False)
+                res_source = market_data.get("resolutionSource", "")
+                end_date = market_data.get("endDate", "")[:10]
+                outcomes = market_data.get("outcomes", [])
+                prices = market_data.get("outcomePrices", [])
+                if isinstance(outcomes, str):
+                    try: outcomes = json.loads(outcomes)
+                    except: pass
+                if isinstance(prices, str):
+                    try: prices = json.loads(prices)
+                    except: pass
+                print(f"  ⏳ STILL OPEN: {market_question[:50]}")
+                print(f"       closed={closed}, resSource={res_source[:30] if res_source else 'None'}, end={end_date}")
+                print(f"       outcomes={outcomes[:3]}, prices={str(prices)[:60]}")
             # Mark as checked so we don't spam the API
             alert.setdefault("resolution_last_check", datetime.now(timezone.utc).isoformat())
 
@@ -493,7 +525,8 @@ def run_resolution_check():
     print(f"[{datetime.now()}] ═══════════════════════════════")
     print(f"  Newly resolved: {newly_resolved}")
     print(f"  Still open: {still_open}")
-    print(f"  API errors: {api_errors}")
+    print(f"  API errors (not found): {api_errors}")
+    print(f"  Found by: {found_by_method}")
     print()
 
     total_resolved = stats["insider_wins"] + stats["insider_losses"]
