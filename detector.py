@@ -27,6 +27,8 @@ def detect_insider_trades():
     FIXES applied:
     - NO positions: correct amount, PnL, effective odds
     - Filters: crypto 3d window, market maker 0.97, political longshots accessible, 2028 regex
+    
+    Returns: (alerts, raw_trades, markets) tuple
     """
     # Initialize database on first run (with backup)
     init_database()
@@ -39,7 +41,7 @@ def detect_insider_trades():
         markets = get_all_priority_markets()
         if not markets:
             print(f"[{datetime.now()}] ⚠️  WARNING: No markets fetched, aborting")
-            return []
+            return [], [], []
         
         print(f"[{datetime.now()}] Found {len(markets)} active markets")
         
@@ -48,7 +50,7 @@ def detect_insider_trades():
         
         if not trades:
             print(f"[{datetime.now()}] ⚠️  WARNING: No trades fetched")
-            return []
+            return [], [], markets
         
         print(f"[{datetime.now()}] Analyzing {len(trades)} trades...")
         
@@ -451,10 +453,10 @@ def detect_insider_trades():
         print(f"[{datetime.now()}] Execution time: {execution_time:.1f}s")
         print(f"[{datetime.now()}] ════════════════════════════════")
         
-        return alerts
+        return alerts, trades, markets
         
     except Exception as e:
         print(f"[{datetime.now()}] ❌ FATAL ERROR in detect_insider_trades: {e}")
         import traceback
         traceback.print_exc()
-        return []
+        return [], [], []

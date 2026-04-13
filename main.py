@@ -332,7 +332,7 @@ def main():
     existing_alerts = load_alerts()
 
     # === GOAL 1 & 2: Insider detection + Irrational trades ===
-    new_alerts = detect_insider_trades()
+    new_alerts, raw_trades, markets = detect_insider_trades()
     insiders, irrational_copy_candidates = _split_by_goals(new_alerts)
     _print_goal_summary(insiders, irrational_copy_candidates)
 
@@ -434,6 +434,63 @@ def main():
         else:
             print(f"[{datetime.now()}] ❌ Failed to send top trader alert")
 
+    # === GOAL 4: Whale Watch ===
+    whale_sent = 0
+    try:
+        from whale_watch import analyze_whale_flows, format_whale_alert
+        
+        if raw_trades and markets:
+            whale_signals = analyze_whale_flows(raw_trades, markets)
+            
+            for signal in whale_signals[:3]:  # Max 3 whale alerts per run
+                # Dedup by market
+                whale_key = f"whale_{signal['condition_id']}_{signal['dominant_side']}"
+                if whale_key in tracked_hashes:
+                    continue
+                
+                # Generate AI context
+                try:
+                    from ai_context import generate_trade_context
+                    context = generate_trade_context(
+                        market_title=signal['market'],
+                        outcome=signal['dominant_side'],
+                        odds_pct=(signal.get('yes_price', 0.5) or 0.5) * 100,
+                        amount=signal['dominant_volume'],
+                    )
+                    if context:
+                        signal['ai_context'] = context
+                except Exception:
+                    pass
+                
+                # Send Telegram
+                msg = format_whale_alert(signal)
+                if signal.get('ai_context'):
+                    msg += f"\n🤖 AI\n→ {signal['ai_context']}"
+                
+                msg += f"\nPolymarket Insiders | {datetime.utcnow().strftime('%Y-%m-%d %H:%M')} UTC"
+                
+                try:
+                    token = os.getenv("TELEGRAM_BOT_TOKEN")
+                    chat_id = os.getenv("TELEGRAM_CHAT_ID")
+                    if token and chat_id:
+                        url = f"https://api.telegram.org/bot{token}/sendMessage"
+                        resp = requests.post(url, json={
+                            "chat_id": chat_id,
+                            "text": msg,
+                            "disable_web_page_preview": True,
+                        }, timeout=10)
+                        if resp.status_code == 200:
+                            tracked_hashes.add(whale_key)
+                            existing_alerts.append(signal)
+                            whale_sent += 1
+                            print(f"[{datetime.now()}] ✅ Whale alert sent: ${signal['dominant_volume']:,.0f} {signal['dominant_side']} on {signal['market'][:40]}")
+                except Exception as e:
+                    print(f"[{datetime.now()}] ❌ Whale alert failed: {e}")
+    except Exception as e:
+        print(f"[{datetime.now()}] ⚠️  Whale watch error: {e}")
+        import traceback
+        traceback.print_exc()
+
     tracked_data = {
         "wallets": list(tracked_wallets),
         "trade_hashes": list(tracked_hashes),
@@ -445,7 +502,7 @@ def main():
         f"[{datetime.now()}] Completed. "
         f"Insider signals: {len(insiders)}, copy candidates: {len(irrational_copy_candidates)}, "
         f"insider alerts sent: {sent_count}, log_only (CONFLICT): {log_only_count}, "
-        f"top trader alerts: {top_trader_sent}"
+        f"top trader alerts: {top_trader_sent}, whale alerts: {whale_sent}"
     )
 
     # === HEARTBEAT ===
