@@ -1,107 +1,5 @@
 [
   {
-    "market": "Magic vs. Timberwolves: O/U 226.5",
-    "market_slug": "nba-orl-min-2026-03-07-total-226pt5",
-    "wallet": "0x92239fa20401fa98664a3eb5d41fc52c92d5c94d",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($1,112)",
-        "Low activity (1 txns)"
-      ],
-      "amount": 1112.5,
-      "odds": 0.5,
-      "raw_price": 0.5,
-      "outcome": "Under",
-      "potential_pnl": 1112.5,
-      "pnl_multiplier": 1.0,
-      "wallet_age_days": 0,
-      "total_activities": 1
-    },
-    "timestamp": "2026-03-07T12:01:08.313399",
-    "trade_hash": "0xd54f91a0064ec8d788da47fe7bb128888b98a4b4a94fa2981e8655f9c28d617a",
-    "trade_timestamp": 1772884781,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Under",
-      "side": "BUY",
-      "price": 0.5,
-      "effective_price": 0.5,
-      "size": 2225.0,
-      "amount": 1112.5,
-      "potential_pnl": 1112.5,
-      "pnl_multiplier": 1.0,
-      "is_no": false
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+26.0%)"
-      ],
-      "category": "sports",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.24,
-      "market_price": 0.5,
-      "edge": 0.26,
-      "edge_percent": 26.0,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "both teams score efficiently",
-          "defensive performance is below average",
-          "game pace is high"
-        ],
-        "weakest_link": "defensive performance is below average"
-      },
-      "category": "sports",
-      "narrative_drivers": [
-        "offensive matchups",
-        "recent team performance"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "INSIDER_ONLY",
-      "signal_emoji": "\ud83d\udc41\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider activity detected, no clear mispricing",
-      "action_suggestion": "Monitor: insider signal only, no statistical edge",
-      "insider_score": 70,
-      "insider_position": "UNDER",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.26,
-      "edge_percent": 26.0
-    },
-    "financial_analyst": {
-      "signal_quality": 51.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 26.0,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    }
-  },
-  {
     "market": "Will Jesus Christ return before GTA VI?",
     "market_slug": "will-jesus-christ-return-before-gta-vi-665",
     "wallet": "0x20d63920177ae7e3996d397f5d3c5a1dc38abb8e",
@@ -33798,5 +33696,114 @@
     "market_slug": "nhl-car-phi-2026-04-13",
     "amount": 5079.999999,
     "ai_context": "\u274c SKIP  \nThe odds suggest the Hurricanes are underdogs, which may not reflect their actual strength or likelihood of winning."
+  },
+  {
+    "market": "Counter-Strike: FURIA vs Passion UA (BO3) - IEM Rio Group B",
+    "market_slug": "cs2-furia-pssnua-2026",
+    "event_slug": "cs2-furia-pssnua-2026",
+    "wallet": "0xd24cb20148ce4a4c994aa6e0664ee98e6a545809",
+    "analysis": {
+      "score": 70,
+      "flags": [
+        "New wallet (0d old)",
+        "Large bet ($66,649)",
+        "Low activity (1 txns)"
+      ],
+      "amount": 66648.87408360043,
+      "odds": 0.8599999999987151,
+      "raw_price": 0.8599999999987151,
+      "outcome": "FURIA",
+      "potential_pnl": 10849.816711399573,
+      "pnl_multiplier": 0.1627906976761558,
+      "wallet_age_days": 0,
+      "total_activities": 1
+    },
+    "timestamp": "2026-04-13T17:14:43.974261",
+    "trade_hash": "0x824695076ca0899ea196bada6e6189f2430738e277838a2b29b05cc678c8f874",
+    "trade_timestamp": 1776100099,
+    "latency": null,
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "FURIA",
+      "outcomeIndex": 0,
+      "normalized_position": "YES",
+      "side": "BUY",
+      "price": 0.8599999999987151,
+      "effective_price": 0.8599999999987151,
+      "size": 77498.690795,
+      "amount": 66648.87408360043,
+      "potential_pnl": 10849.816711399573,
+      "pnl_multiplier": 0.1627906976761558,
+      "is_no": false,
+      "slug": "cs2-furia-pssnua-2026",
+      "eventSlug": "cs2-furia-pssnua-2026-04-13"
+    },
+    "irrationality": {
+      "irrationality_score": 45,
+      "flags": [
+        "Crisis keyword detected ('strike')",
+        "Large mispricing edge (+54.8%)"
+      ],
+      "category": "sports",
+      "category_info": {
+        "strength": "medium",
+        "typical_overpricing": 0.03,
+        "min_edge": 0.05
+      },
+      "is_irrational": true
+    },
+    "mispricing": {
+      "rational_estimate": 0.31199999999974304,
+      "market_price": 0.8599999999987151,
+      "edge": 0.5479999999989721,
+      "edge_percent": 54.79999999989721,
+      "min_edge_required": 0.05,
+      "is_mispriced": true,
+      "edge_quality": "STRONG",
+      "base_rate_class": "common",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "common",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "FURIA's recent performance",
+          "Passion UA's team synergy",
+          "external factors like player health or roster changes"
+        ],
+        "weakest_link": "Passion UA's team synergy, as it can fluctuate and impact overall performance"
+      },
+      "category": "sports",
+      "narrative_drivers": [
+        "FURIA's historical dominance in the region",
+        "Passion UA's potential for upset victories"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "CONFLICT",
+      "signal_emoji": "\u26a0\ufe0f",
+      "signal_strength": 70,
+      "interpretation": "Insider buying YES despite statistical overpricing",
+      "action_suggestion": "Requires manual analysis: insider may have real info OR is part of irrational crowd",
+      "insider_score": 70,
+      "insider_position": "YES",
+      "irrationality_score": 45,
+      "is_irrational": true,
+      "is_mispriced": true,
+      "edge": 0.5479999999989721,
+      "edge_percent": 54.79999999989721
+    },
+    "log_only": true,
+    "financial_analyst": {
+      "signal_quality": 48.0,
+      "stance": "WATCH_ONLY",
+      "edge_percent": 54.8,
+      "signal_strength": 70.0,
+      "insider_score": 70.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    }
   }
 ]
