@@ -13,6 +13,7 @@ Without it, we cannot know if our signals are profitable.
 """
 
 import json
+import re
 import time
 import requests
 import os
@@ -371,14 +372,22 @@ def run_resolution_check():
         elif trade.get("conditionId"):
             condition_id = trade["conditionId"]
         
-        # Also try slugs from trade_data
-        if not slug:
-            slug = trade_data.get("slug", "") or trade.get("slug", "")
-        if not event_slug:
-            event_slug = trade_data.get("eventSlug", "") or trade.get("eventSlug", "")
+        # Collect ALL available slugs (some alerts have slug in multiple places)
+        all_slugs = []
+        for s in [slug, event_slug, 
+                  trade_data.get("slug", ""), trade_data.get("eventSlug", ""),
+                  trade.get("slug", ""), trade.get("eventSlug", "")]:
+            if s and s not in all_slugs:
+                all_slugs.append(s)
+        
+        # Also try slug with trailing numbers stripped (e.g., "nba-nyk-lal-2026-03-08-total-2" → "nba-nyk-lal-2026-03-08-total")
+        for s in list(all_slugs):
+            cleaned = re.sub(r'-\d{1,4}$', '', s)
+            if cleaned and cleaned != s and cleaned not in all_slugs:
+                all_slugs.append(cleaned)
 
         # Build cache key from best available identifier
-        cache_key = condition_id or slug or event_slug or market_question[:60]
+        cache_key = condition_id or (all_slugs[0] if all_slugs else "") or market_question[:60]
         
         if not cache_key:
             api_errors += 1
@@ -391,21 +400,18 @@ def run_resolution_check():
             market_data = None
             found_method = None
             
-            # Cascade: conditionId → slug → event_slug → question
+            # Cascade: conditionId → all slugs → question
             if condition_id:
                 market_data = fetch_market_by_condition_id(condition_id)
                 if market_data:
                     found_method = "conditionId"
             
-            if not market_data and slug:
-                market_data = fetch_market_by_slug(slug)
-                if market_data:
-                    found_method = "slug"
-            
-            if not market_data and event_slug and event_slug != slug:
-                market_data = fetch_market_by_slug(event_slug)
-                if market_data:
-                    found_method = "event_slug"
+            if not market_data:
+                for s in all_slugs:
+                    market_data = fetch_market_by_slug(s)
+                    if market_data:
+                        found_method = "slug"
+                        break
             
             if not market_data and market_question:
                 market_data = fetch_market_by_question(market_question)

@@ -360,6 +360,7 @@ def detect_insider_trades():
                                 "potential_pnl": econ.potential_profit,
                                 "pnl_multiplier": econ.pnl_multiplier,
                                 "is_no": econ.is_no,
+                                "conditionId": condition_id,
                                 "slug": market.get("slug"),
                                 "eventSlug": market.get("eventSlug") or trade.get("eventSlug")
                             },
