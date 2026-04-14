@@ -81,6 +81,7 @@ def detect_insider_trades():
         filtered_invalid_data = 0
         filtered_coordinated = 0
         filtered_weak_signal = 0
+        filtered_sports = 0
         pre_event_detected = 0
         error_count = 0
         
@@ -171,6 +172,41 @@ def detect_insider_trades():
                 trade_hash = trade.get("transactionHash", "")
                 if is_alert_sent(wallet_address, trade_hash):
                     filtered_duplicate += 1
+                    continue
+                
+                # ══════════════════════════════════════════
+                # FILTER: Skip sports/esports for insider detection
+                # Sports bettors aren't insiders — different patterns.
+                # TOP_TRADER copy-trading still tracks sports (separate flow).
+                # ══════════════════════════════════════════
+                market_title_lower = market.get("question", "").lower()
+                market_slug_lower = (market.get("slug", "") or "").lower()
+                
+                # Check slug first (most reliable)
+                is_sports = any(kw in market_slug_lower for kw in [
+                    'nba-', 'nfl-', 'nhl-', 'mlb-', 'epl-', 'mls-',
+                    'ufc-', 'ncaa', 'la-liga', 'serie-a', 'bundesliga',
+                    'lol-', 'cs2-', 'valorant-', 'dota-',
+                ])
+                
+                # Check title for esports (has ":" prefix pattern)
+                if not is_sports:
+                    for prefix in ['counter-strike:', 'lol:', 'dota 2:', 'valorant:',
+                                   'league of legends:', 'rainbow six:',
+                                   'call of duty:', 'rocket league:']:
+                        if prefix in market_title_lower:
+                            is_sports = True
+                            break
+                
+                # Check title for sports O/U and spread
+                if not is_sports:
+                    if re.search(r': o/u \d', market_title_lower):
+                        is_sports = True
+                    elif re.search(r'(will .+ win on \d{4}-\d{2}-\d{2})', market_title_lower):
+                        is_sports = True
+                
+                if is_sports:
+                    filtered_sports += 1
                     continue
                 
                 # Log high-value trades (show position type)
@@ -444,6 +480,7 @@ def detect_insider_trades():
         print(f"[{datetime.now()}]   - Market not found: {filtered_no_market}")
         print(f"[{datetime.now()}]   - Duplicate alerts: {filtered_duplicate}")
         print(f"[{datetime.now()}]   - Arbitrage/Short-term/Absurd: {filtered_by_rules}")
+        print(f"[{datetime.now()}]   - Sports/Esports: {filtered_sports}")
         print(f"[{datetime.now()}]   - Coordinated attacks: {filtered_coordinated}")
         print(f"[{datetime.now()}]   - Weak combined signals: {filtered_weak_signal}")
         print(f"[{datetime.now()}] ")
