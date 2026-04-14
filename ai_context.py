@@ -69,14 +69,12 @@ IMPORTANT:
 - Your job: decide if copying this specific bet is smart.
 - You have web search — USE IT to check current form, standings, recent results, injuries.
 
-Rules:
-- Start with ✅ COPY or ❌ SKIP
-- Then give 1-2 specific FACTUAL reasons in max 30 words
-- For sports: check recent form, standings, h2h, injuries
-- For politics: check latest polls, news developments
-- For crypto: check recent price action, news
-- If you find relevant facts, cite them briefly
-- If search returns nothing useful, say NO_DATA"""
+FORMAT RULES (STRICT):
+- PLAIN TEXT ONLY. No markdown, no headers, no links, no bullet points.
+- Start with ✅ COPY or ❌ SKIP on the first line
+- Then 1-2 sentences with specific factual reasons (max 40 words)
+- For sports: mention recent W-L record, standings position, or key injuries
+- If search returns nothing useful, reply: NO_DATA"""
 
 PROMPTS = {
     "sports": """Market: "{title}"
@@ -150,18 +148,27 @@ def generate_trade_context(
                 {"role": "system", "content": SYSTEM},
                 {"role": "user", "content": prompt},
             ],
-            max_tokens=120,
+            max_tokens=200,
         )
 
         text = response.choices[0].message.content.strip()
         text = text.strip('"').strip("'").strip()
+        
+        # Clean markdown and URL junk from search model output
+        text = re.sub(r'\[([^\]]+)\]\([^\)]+\)', r'\1', text)  # [text](url) → text
+        text = re.sub(r'#{1,3}\s*', '', text)                   # ## headers → plain
+        text = re.sub(r'https?://\S+', '', text)                # raw URLs
+        text = re.sub(r'\*\*([^*]+)\*\*', r'\1', text)          # **bold** → plain
+        text = re.sub(r'\n{2,}', '\n', text)                    # multi newlines
+        text = re.sub(r'^\s*[-•]\s*', '', text, flags=re.MULTILINE)  # bullet points
+        text = text.strip()
 
         if not text or "NO_DATA" in text or len(text) < 8:
             logger.info(f"  AI context: NO_DATA for '{market_title[:50]}'")
             return None
 
-        if len(text) > 200:
-            text = text[:197] + "..."
+        if len(text) > 250:
+            text = text[:247] + "..."
 
         logger.info(f"  AI [{market_type}]: {text[:80]}")
         return text
