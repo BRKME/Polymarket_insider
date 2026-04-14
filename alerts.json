@@ -1,210 +1,5 @@
 [
   {
-    "market": "Knicks vs. Lakers: O/U 228.5",
-    "market_slug": "nba-nyk-lal-2026-03-08-total-228pt5",
-    "wallet": "0x4062435dfc8b90326b78b1b7d1d5f1d33951655e",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($2,372)",
-        "Low activity (3 txns)"
-      ],
-      "amount": 2372.01,
-      "odds": 0.51,
-      "raw_price": 0.51,
-      "outcome": "Under",
-      "potential_pnl": 2278.9900000000002,
-      "pnl_multiplier": 0.9607843137254901,
-      "wallet_age_days": 0,
-      "total_activities": 3
-    },
-    "timestamp": "2026-03-08T11:35:06.752918",
-    "trade_hash": "0x8d97388197fcbeeeb077bb061ae5bd3645599d691b05ef7dc2f12094260d4edf",
-    "trade_timestamp": 1772969437,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Under",
-      "side": "BUY",
-      "price": 0.51,
-      "effective_price": 0.51,
-      "size": 4651.0,
-      "amount": 2372.01,
-      "potential_pnl": 2278.9900000000002,
-      "pnl_multiplier": 0.9607843137254901,
-      "is_no": false
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+26.8%)"
-      ],
-      "category": "sports",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.242,
-      "market_price": 0.51,
-      "edge": 0.268,
-      "edge_percent": 26.8,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Both teams have strong offensive performances",
-          "Defensive weaknesses from both teams",
-          "Game pace is fast with many possessions"
-        ],
-        "weakest_link": "Defensive weaknesses from both teams"
-      },
-      "category": "sports",
-      "narrative_drivers": [
-        "Recent scoring trends of both teams",
-        "Injury status of key players affecting scoring"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "INSIDER_ONLY",
-      "signal_emoji": "\ud83d\udc41\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider activity detected, no clear mispricing",
-      "action_suggestion": "Monitor: insider signal only, no statistical edge",
-      "insider_score": 70,
-      "insider_position": "UNDER",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.268,
-      "edge_percent": 26.8
-    },
-    "financial_analyst": {
-      "signal_quality": 51.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 26.8,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    }
-  },
-  {
-    "market": "Will L\u00ea Minh H\u01b0ng be the next Prime Minister of Vietnam?",
-    "market_slug": "will-l-minh-hng-be-the-next-prime-minister-of-vietnam",
-    "wallet": "0x24819a90bd0199170504166d823f3b7547d64ae4",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($1,684)",
-        "Low activity (4 txns)"
-      ],
-      "amount": 1684.152,
-      "odds": 0.904,
-      "raw_price": 0.096,
-      "outcome": "No",
-      "potential_pnl": 178.848,
-      "pnl_multiplier": 0.10619469026548672,
-      "wallet_age_days": 0,
-      "total_activities": 4
-    },
-    "timestamp": "2026-03-08T14:40:35.841183",
-    "trade_hash": "0xe8eebf7b4200b9ea0921db37e1e66ae6451927715b81b200e94c83c8058425a1",
-    "trade_timestamp": 1772980739,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "No",
-      "side": "SELL",
-      "price": 0.096,
-      "effective_price": 0.904,
-      "size": 1863.0,
-      "amount": 1684.152,
-      "potential_pnl": 178.848,
-      "pnl_multiplier": 0.10619469026548672,
-      "is_no": true
-    },
-    "irrationality": {
-      "irrationality_score": 33,
-      "flags": [
-        "Longshot (10%) in medium bias category (other)",
-        "Moderate mispricing edge (+5.7%)"
-      ],
-      "category": "other",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.039200000000000006,
-      "market_price": 0.096,
-      "edge": 0.056799999999999996,
-      "edge_percent": 5.68,
-      "min_edge_required": 0.03,
-      "is_mispriced": true,
-      "edge_quality": "MODERATE",
-      "base_rate_class": "rare",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "rare",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "L\u00ea Minh H\u01b0ng gains significant political support within the ruling party",
-          "Current Prime Minister steps down or is removed",
-          "Public sentiment shifts favorably towards L\u00ea Minh H\u01b0ng"
-        ],
-        "weakest_link": "Public sentiment shifts favorably towards L\u00ea Minh H\u01b0ng"
-      },
-      "category": "politics_near",
-      "narrative_drivers": [
-        "Internal party dynamics",
-        "Public opinion and media portrayal"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "ALPHA",
-      "signal_emoji": "\ud83d\udd25",
-      "signal_strength": 103,
-      "interpretation": "Smart money (NO) confirms YES is overpriced",
-      "action_suggestion": "High conviction: insider + statistics aligned",
-      "insider_score": 70,
-      "insider_position": "NO",
-      "irrationality_score": 33,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.056799999999999996,
-      "edge_percent": 5.68
-    },
-    "financial_analyst": {
-      "signal_quality": 64.1,
-      "stance": "SELECTIVE",
-      "edge_percent": 5.68,
-      "signal_strength": 103.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    }
-  },
-  {
     "market": "Will L\u00ea Minh H\u01b0ng be the next Prime Minister of Vietnam?",
     "market_slug": "will-l-minh-hng-be-the-next-prime-minister-of-vietnam",
     "wallet": "0x3507ba25957a1c75f1a76153d84f839ef6bd0cb4",
@@ -34527,5 +34322,95 @@
     "market_slug": "cs2-vit-g2-2026-04-14",
     "amount": 4759.29188,
     "ai_context": "\u2705 COPY\nVitality has a 10-match winning streak, including a 2-0 victory over G2 in February 2026. (cs2bet.io) They lead the head-to-head 5-3, with three consecutive wins. (strafe.com)"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xe85585f165c6f79765ceb3dfb84c7fbcf37fa88a2409c5e72390ce7d62678b7c",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.515682,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xd1acd3925d895de9aec98ff95f3a30c5279d08d5",
+      "side": "BUY",
+      "asset": "75262277240576503541125200255351734877619831936165222710769956674779076695947",
+      "conditionId": "0x781a06aa5779f97724b75ed8128aaf72c4a8955c893a6fefdc0efd7cb001c513",
+      "size": 14416.29,
+      "price": 0.39520645741726895,
+      "timestamp": 1776202114,
+      "title": "Will John Cornyn win the 2026 Texas Republican Primary?",
+      "slug": "will-john-cornyn-win-the-2026-republican-primary",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-john-cornyn-win-the-2026-republican-primary-OC0aknfn6l8H.jpg",
+      "eventSlug": "texas-republican-senate-primary-winner",
+      "outcome": "Yes",
+      "outcomeIndex": 0,
+      "name": "Kickstand7",
+      "pseudonym": "Informal-Bend",
+      "bio": "",
+      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/0x47bc4b50a8d0c4a07b22bfd949f9c6afb8aec043_c396c188-aff2-47b3-bf31-b7ea4a6a7ff2_1721230013186.png",
+      "profileImageOptimized": "",
+      "transactionHash": "0xe85585f165c6f79765ceb3dfb84c7fbcf37fa88a2409c5e72390ce7d62678b7c",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Will John Cornyn win the 2026 Texas Republican Primary?",
+    "market_slug": "texas-republican-senate-primary-winner",
+    "amount": 5697.410900000001,
+    "ai_context": "\u274c SKIP\nJohn Cornyn and Ken Paxton are heading to a runoff election on May 26, 2026, after neither secured over 50% in the initial primary. (cbsnews.com) Recent reports suggest former President Trump is expected to endorse Cornyn, potentially bolst..."
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xf203e53408dc3a683ca506e1b4942a5b101bf2487450794446948e93ccad44af",
+    "wallet": "0xe90bec87d9ef430f27f9dcfe72c34b76967d5da2",
+    "trader": {
+      "rank": 14,
+      "address": "0xe90bec87d9ef430f27f9dcfe72c34b76967d5da2",
+      "username": "gmanas",
+      "profit": 4955880.748692177,
+      "volume": 529047708.50599104,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x124e49a2e25eb900e9c8d056e557ff74a7126802",
+      "side": "BUY",
+      "asset": "16981057070127104784021100767214628656287900324629029346209036499232049280241",
+      "conditionId": "0x269dd3c999bd0e246bc1de38d39501a334ea594bc9d5cd1fb1496cad96701626",
+      "size": 3482.15,
+      "price": 0.83,
+      "timestamp": 1776202714,
+      "title": "Dota 2: Heroic vs South America Rejects (BO5) - DreamLeague South America Closed Qualifier Playoffs",
+      "slug": "dota2-heroic-sar1-2026-04-14",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/dota2-7ffacddb21.jpg",
+      "eventSlug": "dota2-heroic-sar1-2026-04-14",
+      "outcome": "Heroic",
+      "outcomeIndex": 0,
+      "name": "realrichbich",
+      "pseudonym": "Sweet-Parser",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xf203e53408dc3a683ca506e1b4942a5b101bf2487450794446948e93ccad44af",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Dota 2: Heroic vs South America Rejects (BO5) - DreamLeague South America Closed Qualifier Playoffs",
+    "market_slug": "dota2-heroic-sar1-2026-04-14",
+    "amount": 2890.1845,
+    "ai_context": "\u2705 COPY\nHeroic recently defeated South America Rejects 2-1 in the DreamLeague South America Closed Qualifier Playoffs on April 14, 2026. (strafe.com) In their last 10 matches, Heroic secured 5 wins, indicating strong performance. (strafe.com)"
   }
 ]
