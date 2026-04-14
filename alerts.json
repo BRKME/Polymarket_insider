@@ -2,108 +2,6 @@
   {
     "market": "Knicks vs. Lakers: O/U 228.5",
     "market_slug": "nba-nyk-lal-2026-03-08-total-228pt5",
-    "wallet": "0x139cd387fd13ef3b1a82a49ff3a7bd2bc4cf36db",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($2,390)",
-        "Low activity (4 txns)"
-      ],
-      "amount": 2389.86,
-      "odds": 0.51,
-      "raw_price": 0.51,
-      "outcome": "Under",
-      "potential_pnl": 2296.14,
-      "pnl_multiplier": 0.9607843137254901,
-      "wallet_age_days": 0,
-      "total_activities": 4
-    },
-    "timestamp": "2026-03-08T11:35:01.661339",
-    "trade_hash": "0x7b2f637dbbafe371e8d8848cc7c01ce74dce562175c2e3918d037a2080f29659",
-    "trade_timestamp": 1772969437,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Under",
-      "side": "BUY",
-      "price": 0.51,
-      "effective_price": 0.51,
-      "size": 4686.0,
-      "amount": 2389.86,
-      "potential_pnl": 2296.14,
-      "pnl_multiplier": 0.9607843137254901,
-      "is_no": false
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+26.8%)"
-      ],
-      "category": "sports",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.242,
-      "market_price": 0.51,
-      "edge": 0.268,
-      "edge_percent": 26.8,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Both teams have strong offensive performances",
-          "Defensive strategies are ineffective",
-          "Game pace is fast with high possessions"
-        ],
-        "weakest_link": "Defensive strategies are ineffective"
-      },
-      "category": "sports",
-      "narrative_drivers": [
-        "Recent scoring trends of both teams",
-        "Injury reports affecting key players"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "INSIDER_ONLY",
-      "signal_emoji": "\ud83d\udc41\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider activity detected, no clear mispricing",
-      "action_suggestion": "Monitor: insider signal only, no statistical edge",
-      "insider_score": 70,
-      "insider_position": "UNDER",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.268,
-      "edge_percent": 26.8
-    },
-    "financial_analyst": {
-      "signal_quality": 51.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 26.8,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    }
-  },
-  {
-    "market": "Knicks vs. Lakers: O/U 228.5",
-    "market_slug": "nba-nyk-lal-2026-03-08-total-228pt5",
     "wallet": "0x4062435dfc8b90326b78b1b7d1d5f1d33951655e",
     "analysis": {
       "score": 70,
@@ -34584,5 +34482,50 @@
     "market_slug": "cs2-ts7-fal2-2026-04-14",
     "amount": 5759.9968848,
     "ai_context": "\u274c SKIP\nTeam Spirit has a stronger recent form, with a 7-3 record in their last 10 matches, including a decisive 2-0 victory over Team Liquid. (cs2bet.io) In contrast, Team Falcons have a 7-3 record in their last 10 matches, but their recent perfor..."
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xfbc08068bd3bf42eed9ae68bab876012d56840d8c4b2cf49a559058018bf5b6f",
+    "wallet": "0x8119010a6e589062aa03583bb3f39ca632d9f887",
+    "trader": {
+      "rank": 8,
+      "address": "0x8119010a6e589062aa03583bb3f39ca632d9f887",
+      "username": "PrincessCaro",
+      "profit": 6083643.099591745,
+      "volume": 23520809.952867,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x91667e40b80c447050904b042f3b85d22fc6b479",
+      "side": "BUY",
+      "asset": "39591497022358833617100018520791220902829467999395793670959950115692499346807",
+      "conditionId": "0x2890bf2f8c3e7037602da4826d8ec9171fcb86ff7253f4b4f838f576581842c8",
+      "size": 5949.11485,
+      "price": 0.8,
+      "timestamp": 1776170891,
+      "title": "Counter-Strike: Vitality vs G2 - Map 1 Winner",
+      "slug": "cs2-vit-g2-2026-04-14-game1",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/counter-strike-image-16c415c538.png",
+      "eventSlug": "cs2-vit-g2-2026-04-14",
+      "outcome": "Vitality",
+      "outcomeIndex": 0,
+      "name": "BeraEnjoyer",
+      "pseudonym": "Bulky-Cowbell",
+      "bio": "",
+      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/GhLkl5eaQAAuZPx_a3f0822e-202a-49d7-a175-bfb9c198a34b_1738371145497.jpg",
+      "profileImageOptimized": "",
+      "transactionHash": "0xfbc08068bd3bf42eed9ae68bab876012d56840d8c4b2cf49a559058018bf5b6f",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Counter-Strike: Vitality vs G2 - Map 1 Winner",
+    "market_slug": "cs2-vit-g2-2026-04-14",
+    "amount": 4759.29188,
+    "ai_context": "\u2705 COPY\nVitality has a 10-match winning streak, including a 2-0 victory over G2 in February 2026. (cs2bet.io) They lead the head-to-head 5-3, with three consecutive wins. (strafe.com)"
   }
 ]
