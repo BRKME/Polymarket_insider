@@ -1,14 +1,14 @@
 {
-  "last_run": "2026-04-13T20:15:45.238422+00:00",
-  "total_checked": 1114,
-  "total_resolved": 102,
+  "last_run": "2026-04-14T07:23:03.286910+00:00",
+  "total_checked": 1472,
+  "total_resolved": 103,
   "total_unresolved": 0,
-  "insider_wins": 30,
+  "insider_wins": 31,
   "insider_losses": 26,
   "model_correct": 1,
   "model_wrong": 0,
-  "model_na": 101,
-  "total_pnl": 18015.95,
+  "model_na": 102,
+  "total_pnl": 28865.77,
   "by_signal_type": {
     "INSIDER_ONLY": {
       "total": 79,
@@ -19,12 +19,12 @@
       "model_na": 79
     },
     "CONFLICT": {
-      "total": 11,
-      "insider_wins": 5,
+      "total": 12,
+      "insider_wins": 6,
       "insider_losses": 3,
       "model_correct": 1,
       "model_wrong": 0,
-      "model_na": 10
+      "model_na": 11
     },
     "ALPHA": {
       "total": 12,
@@ -45,12 +45,12 @@
       "model_na": 34
     },
     "sports": {
-      "total": 66,
-      "insider_wins": 15,
+      "total": 67,
+      "insider_wins": 16,
       "insider_losses": 7,
       "model_correct": 0,
       "model_wrong": 0,
-      "model_na": 66
+      "model_na": 67
     },
     "politics_near": {
       "total": 1,
@@ -96,6 +96,16 @@
       "still_open": 356,
       "total_resolved": 102,
       "insider_wins": 30,
+      "insider_losses": 26,
+      "model_correct": 1,
+      "model_wrong": 0
+    },
+    {
+      "date": "2026-04-14",
+      "newly_resolved": 1,
+      "still_open": 357,
+      "total_resolved": 103,
+      "insider_wins": 31,
       "insider_losses": 26,
       "model_correct": 1,
       "model_wrong": 0

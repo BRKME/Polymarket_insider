@@ -34490,7 +34490,14 @@
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
     },
-    "resolution_last_check": "2026-04-13T20:15:45.238405+00:00"
+    "resolution_last_check": "2026-04-13T20:15:45.238405+00:00",
+    "resolution": {
+      "outcome": "FURIA",
+      "checked_at": "2026-04-14T07:23:02.060183+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 10849.82
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -34534,7 +34541,8 @@
     },
     "market": "Will Trump endorse an Israeli Ceasefire in Lebanon by April 30?",
     "market_slug": "will-trump-endorse-an-israeli-ceasefire-in-lebanon-by-april-30",
-    "amount": 2781.7921
+    "amount": 2781.7921,
+    "resolution_last_check": "2026-04-14T07:23:02.630774+00:00"
   },
   {
     "type": "TOP_TRADER",
@@ -34578,7 +34586,8 @@
     },
     "market": "Will Leeds United FC win on 2026-04-13?",
     "market_slug": "epl-mun-lee-2026-04-13",
-    "amount": 1503.1644508474303
+    "amount": 1503.1644508474303,
+    "resolution_last_check": "2026-04-14T07:23:03.286873+00:00"
   },
   {
     "type": "TOP_TRADER",
@@ -34623,6 +34632,7 @@
     "market": "Hurricanes vs. Flyers",
     "market_slug": "nhl-car-phi-2026-04-13",
     "amount": 46522.6062,
-    "ai_context": "## [Xfinity Mobile Arena](https://www.google.com/maps/search/Xfinity+Mobile+Arena?utm_source=openai)\n\n\n## NHL Schedule\n- Hurricanes @ Flyers on Monday, Apr 13, 2026 at 04:00 PM PDT\n\n\nThe Carolina H..."
+    "ai_context": "## [Xfinity Mobile Arena](https://www.google.com/maps/search/Xfinity+Mobile+Arena?utm_source=openai)\n\n\n## NHL Schedule\n- Hurricanes @ Flyers on Monday, Apr 13, 2026 at 04:00 PM PDT\n\n\nThe Carolina H...",
+    "resolution_last_check": "2026-04-14T07:23:03.286906+00:00"
   }
 ]
