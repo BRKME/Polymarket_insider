@@ -592,23 +592,22 @@ def format_top_trader_alert(alert: Dict) -> str:
     # Build correct URL
     url = build_polymarket_url(trade, alert)
     
-    # Determine verdict based on profit, rank, AND bet size
-    # A $190 bet from a $16M trader is noise, not a signal
+    # Determine conviction level based on profit, rank, AND bet size
     if amount < 1000:
-        verdict = "🔵 MONITOR"
-        verdict_note = f"Tiny bet (${amount:,.0f}) — noise, not conviction"
+        conviction = "LOW"
+        conviction_note = f"Tiny bet (${amount:,.0f}) — noise"
     elif amount < 3000:
-        verdict = "🔵 MONITOR"
-        verdict_note = f"Small bet (${amount:,.0f}) — low conviction"
+        conviction = "LOW"
+        conviction_note = f"Small bet (${amount:,.0f})"
     elif profit >= 1000000:
-        verdict = "🟢 STRONG COPY"
-        verdict_note = f"Elite trader (${profit/1000000:.1f}M profit) · ${amount:,.0f} bet"
+        conviction = "HIGH"
+        conviction_note = f"Elite trader (${profit/1000000:.1f}M profit) · ${amount:,.0f}"
     elif profit >= 100000:
-        verdict = "🟡 CONSIDER"
-        verdict_note = f"Solid trader (${profit/1000:.0f}K profit) · ${amount:,.0f} bet"
+        conviction = "MEDIUM"
+        conviction_note = f"Solid trader (${profit/1000:.0f}K profit) · ${amount:,.0f}"
     else:
-        verdict = "🔵 MONITOR"
-        verdict_note = "Track before copying"
+        conviction = "LOW"
+        conviction_note = "Track before copying"
     
     timestamp = datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M')
     
@@ -623,17 +622,33 @@ P&L: ${profit:,.0f} · Vol: ${volume/1000000:.1f}M
 
 MOVE
 {position} · ${amount:,.0f}
-Wallet: {wallet_short}"""
+Wallet: {wallet_short}
+Conviction: {conviction} ({conviction_note})"""
 
-    # AI Context (if available)
+    # AI Context → becomes the FINAL VERDICT
     ai_context = alert.get('ai_context')
     if ai_context:
-        message += f"\n\n🤖 AI\n→ {ai_context}"
+        # Extract COPY/SKIP from AI response
+        ai_upper = ai_context.upper()
+        if "COPY" in ai_upper and "SKIP" not in ai_upper:
+            ai_verdict = "🟢 COPY"
+        elif "SKIP" in ai_upper:
+            ai_verdict = "🔴 SKIP"
+        else:
+            ai_verdict = "🟡 UNCLEAR"
+        
+        message += f"\n\n🤖 AI VERDICT: {ai_verdict}\n{ai_context}"
+    else:
+        # No AI — use code-based verdict
+        if conviction == "HIGH":
+            ai_verdict = "🟢 COPY"
+        elif conviction == "MEDIUM":
+            ai_verdict = "🟡 CONSIDER"
+        else:
+            ai_verdict = "🔵 MONITOR"
+        message += f"\n\nVERDICT: {ai_verdict}"
 
     message += f"""
-
-VERDICT: {verdict}
-{verdict_note}
 
 🔗 {url}
 Polymarket Insiders | {timestamp} UTC"""
