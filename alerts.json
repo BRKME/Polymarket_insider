@@ -1,209 +1,5 @@
 [
   {
-    "market": "Will Crude Oil (CL) hit (HIGH) $110 by end of March?",
-    "market_slug": "will-crude-oil-cl-hit-high-110-by-end-of-march-732-945",
-    "wallet": "0xa9865f94138dd1fc01eb17bf990560f2f2dc9a46",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (1d old)",
-        "Large bet ($1,956)",
-        "Low activity (2 txns)"
-      ],
-      "amount": 1956.4775,
-      "odds": 0.7126825439034252,
-      "raw_price": 0.7126825439034252,
-      "outcome": "Yes",
-      "potential_pnl": 788.7524999999999,
-      "pnl_multiplier": 0.40314928231988356,
-      "wallet_age_days": 1,
-      "total_activities": 2
-    },
-    "timestamp": "2026-03-08T08:48:58.101724",
-    "trade_hash": "0x2966054e2f803668722ff4a51f0754eaf04dca161bfef2b3edcbd48efa86aa4f",
-    "trade_timestamp": 1772959419,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Yes",
-      "side": "SELL",
-      "price": 0.7126825439034252,
-      "effective_price": 0.7126825439034252,
-      "size": 2745.23,
-      "amount": 1956.4775,
-      "potential_pnl": 788.7524999999999,
-      "pnl_multiplier": 0.40314928231988356,
-      "is_no": false
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+49.8%)"
-      ],
-      "category": "other",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.21453650878068503,
-      "market_price": 0.7126825439034252,
-      "edge": 0.4981460351227402,
-      "edge_percent": 49.81460351227402,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "occasional",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "occasional",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Significant geopolitical tensions affecting oil supply",
-          "Unexpected disruptions in major oil-producing regions",
-          "Strong global economic recovery driving up demand"
-        ],
-        "weakest_link": "Unexpected disruptions in major oil-producing regions"
-      },
-      "category": "geopolitics",
-      "narrative_drivers": [
-        "Ongoing conflicts in oil-rich regions",
-        "Changes in OPEC production policies"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "CONFLICT",
-      "signal_emoji": "\u26a0\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider buying YES despite statistical overpricing",
-      "action_suggestion": "Requires manual analysis: insider may have real info OR is part of irrational crowd",
-      "insider_score": 70,
-      "insider_position": "YES",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.4981460351227402,
-      "edge_percent": 49.81460351227402
-    },
-    "financial_analyst": {
-      "signal_quality": 46.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 49.81,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    }
-  },
-  {
-    "market": "Knicks vs. Lakers: O/U 228.5",
-    "market_slug": "nba-nyk-lal-2026-03-08-total-228pt5",
-    "wallet": "0x7c83834dd1df7f591b5765e632a8a4ce2c4d5fc6",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($2,445)",
-        "Low activity (3 txns)"
-      ],
-      "amount": 2444.94,
-      "odds": 0.51,
-      "raw_price": 0.51,
-      "outcome": "Under",
-      "potential_pnl": 2349.06,
-      "pnl_multiplier": 0.9607843137254901,
-      "wallet_age_days": 0,
-      "total_activities": 3
-    },
-    "timestamp": "2026-03-08T11:34:57.587086",
-    "trade_hash": "0x573529d5182f40c2c57d21e75a6400c0eb5d414fe91226023ea34511229ea127",
-    "trade_timestamp": 1772969439,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Under",
-      "side": "BUY",
-      "price": 0.51,
-      "effective_price": 0.51,
-      "size": 4794.0,
-      "amount": 2444.94,
-      "potential_pnl": 2349.06,
-      "pnl_multiplier": 0.9607843137254901,
-      "is_no": false
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+26.8%)"
-      ],
-      "category": "sports",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.242,
-      "market_price": 0.51,
-      "edge": 0.268,
-      "edge_percent": 26.8,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Both teams have high-scoring offenses",
-          "Defensive strategies are ineffective",
-          "Game pace is fast"
-        ],
-        "weakest_link": "Defensive strategies are ineffective"
-      },
-      "category": "sports",
-      "narrative_drivers": [
-        "Recent performance trends of both teams",
-        "Injury reports affecting key players"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "INSIDER_ONLY",
-      "signal_emoji": "\ud83d\udc41\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider activity detected, no clear mispricing",
-      "action_suggestion": "Monitor: insider signal only, no statistical edge",
-      "insider_score": 70,
-      "insider_position": "UNDER",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.268,
-      "edge_percent": 26.8
-    },
-    "financial_analyst": {
-      "signal_quality": 51.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 26.8,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    }
-  },
-  {
     "market": "Knicks vs. Lakers: O/U 228.5",
     "market_slug": "nba-nyk-lal-2026-03-08-total-228pt5",
     "wallet": "0x139cd387fd13ef3b1a82a49ff3a7bd2bc4cf36db",
@@ -34634,5 +34430,159 @@
     "amount": 46522.6062,
     "ai_context": "## [Xfinity Mobile Arena](https://www.google.com/maps/search/Xfinity+Mobile+Arena?utm_source=openai)\n\n\n## NHL Schedule\n- Hurricanes @ Flyers on Monday, Apr 13, 2026 at 04:00 PM PDT\n\n\nThe Carolina H...",
     "resolution_last_check": "2026-04-14T07:23:03.286906+00:00"
+  },
+  {
+    "market": "LoL: Team WE vs Oh My God - Game 1 Winner",
+    "market_slug": "lol-we-omg-2026-04-13-game1",
+    "event_slug": "lol-we-omg-2026-04-13-game1",
+    "wallet": "0xa9684aed10e501e10c2cafc715ba5fc19e663166",
+    "analysis": {
+      "score": 70,
+      "flags": [
+        "New wallet (0d old)",
+        "Large bet ($5,769)",
+        "Low activity (3 txns)"
+      ],
+      "amount": 5769.44834918295,
+      "odds": 0.8244157977365135,
+      "raw_price": 0.8244157977365135,
+      "outcome": "Oh My God",
+      "potential_pnl": 1228.7779888170498,
+      "pnl_multiplier": 0.21298015242498278,
+      "wallet_age_days": 0,
+      "total_activities": 3
+    },
+    "timestamp": "2026-04-14T09:26:52.356820",
+    "trade_hash": "0x595216d3fa3a75bc5e364daa6641c3aff335b9f1a0fd5f10f5430496b179fe77",
+    "trade_timestamp": 1776158589,
+    "latency": null,
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "Oh My God",
+      "outcomeIndex": 1,
+      "normalized_position": "NO",
+      "side": "BUY",
+      "price": 0.8244157977365135,
+      "effective_price": 0.8244157977365135,
+      "size": 6998.226338,
+      "amount": 5769.44834918295,
+      "potential_pnl": 1228.7779888170498,
+      "pnl_multiplier": 0.21298015242498278,
+      "is_no": false,
+      "conditionId": "0x816e7720fb173c25b6f5623677a90494ca334328c9d2d12af5dc2cc021cbb52b",
+      "slug": "lol-we-omg-2026-04-13-game1",
+      "eventSlug": "lol-we-omg-2026-04-13"
+    },
+    "irrationality": {
+      "irrationality_score": 35,
+      "flags": [
+        "Large mispricing edge (+52.0%)"
+      ],
+      "category": "sports",
+      "category_info": {
+        "strength": "medium",
+        "typical_overpricing": 0.03,
+        "min_edge": 0.05
+      },
+      "is_irrational": true
+    },
+    "mispricing": {
+      "rational_estimate": 0.3048831595473027,
+      "market_price": 0.8244157977365135,
+      "edge": 0.5195326381892108,
+      "edge_percent": 51.95326381892108,
+      "min_edge_required": 0.05,
+      "is_mispriced": true,
+      "edge_quality": "STRONG",
+      "base_rate_class": "common",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "common",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "Team WE has a strong early game",
+          "Oh My God struggles with team coordination",
+          "Recent performance trends favor Team WE"
+        ],
+        "weakest_link": "Oh My God struggles with team coordination"
+      },
+      "category": "sports",
+      "narrative_drivers": [
+        "Team WE's recent winning streak",
+        "Fan sentiment favoring Team WE"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "ALPHA",
+      "signal_emoji": "\ud83d\udd25",
+      "signal_strength": 105,
+      "interpretation": "Smart money (NO) confirms YES is overpriced",
+      "action_suggestion": "High conviction: insider + statistics aligned",
+      "insider_score": 70,
+      "insider_position": "NO",
+      "irrationality_score": 35,
+      "is_irrational": true,
+      "is_mispriced": true,
+      "edge": 0.5195326381892108,
+      "edge_percent": 51.95326381892108
+    },
+    "financial_analyst": {
+      "signal_quality": 81.0,
+      "stance": "HIGH_CONVICTION",
+      "edge_percent": 51.95,
+      "signal_strength": 105.0,
+      "insider_score": 70.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "ai_context": "\u274c SKIP\nTeam WE has a 2-8 record in their last 10 matches, while Oh My God has a 6-4 record in the same period. Historically, Oh My God has a 75% win rate against Team WE. (bo3.gg)"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xc327d81deef011bf1104ffd8906a2205ea958809e830478633075a1c8c85b567",
+    "wallet": "0x23786fdad0073692157c6d7dc81f281843a35fcb",
+    "trader": {
+      "rank": 13,
+      "address": "0x23786fdad0073692157c6d7dc81f281843a35fcb",
+      "username": "mikatrade77",
+      "profit": 5147998.544602999,
+      "volume": 10884765.388775,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x183f8b17cfb09c9115d068b2da3033b54f4c85e3",
+      "side": "BUY",
+      "asset": "88916559874945038516743504246196679349860126783164531984411151187882361306988",
+      "conditionId": "0x0702c8eac2c1daf3bd4f5b5f91bf1db03e855ccdb4f094587e6b295bf1596d5b",
+      "size": 11999.99351,
+      "price": 0.48,
+      "timestamp": 1776159185,
+      "title": "Counter-Strike: Spirit vs Team Falcons (BO3) - IEM Rio Group A",
+      "slug": "cs2-ts7-fal2-2026-04-14",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/counter-strike-image-16c415c538.png",
+      "eventSlug": "cs2-ts7-fal2-2026-04-14",
+      "outcome": "Spirit",
+      "outcomeIndex": 0,
+      "name": "BetsAusmAudimax",
+      "pseudonym": "Ripe-Aquarium",
+      "bio": "Believe in something",
+      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-3295415-1987e320-3734-44d8-8fe3-f489f5103570.webp",
+      "profileImageOptimized": "",
+      "transactionHash": "0xc327d81deef011bf1104ffd8906a2205ea958809e830478633075a1c8c85b567",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Counter-Strike: Spirit vs Team Falcons (BO3) - IEM Rio Group A",
+    "market_slug": "cs2-ts7-fal2-2026-04-14",
+    "amount": 5759.9968848,
+    "ai_context": "\u274c SKIP\nTeam Spirit has a stronger recent form, with a 7-3 record in their last 10 matches, including a decisive 2-0 victory over Team Liquid. (cs2bet.io) In contrast, Team Falcons have a 7-3 record in their last 10 matches, but their recent perfor..."
   }
 ]
