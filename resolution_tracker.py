@@ -565,7 +565,8 @@ def run_resolution_check():
                 print(f"    {st}: {data['total']} alerts, no resolved data")
 
     # Send Telegram summary if there were new resolutions
-    if newly_resolved > 0 and TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID:
+    # Send daily summary (always — even without new resolutions)
+    if TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID:
         send_resolution_summary(stats, newly_resolved)
 
     return stats
