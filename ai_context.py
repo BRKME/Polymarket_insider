@@ -77,6 +77,9 @@ IMPORTANT:
 - The odds shown (e.g. "@ 48%") mean the trader PAID 48¢ per share. If that team wins, share pays $1.
 - Low odds (10-30%) = underdog bet. This is OFTEN the smart money play. Don't skip just because odds are low.
 - You have web search — USE IT to check current form, standings, recent results, injuries, polls.
+- NEVER say "no information available". Always search for team/player form, standings, recent W-L record.
+  Even if this specific match has no coverage, the teams have recent history you can find.
+- If you truly find zero relevant information after searching, reply: NO_DATA
 
 FORMAT (STRICT):
 - PLAIN TEXT ONLY. No markdown, no headers, no links, no bullet points.
