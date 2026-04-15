@@ -1,107 +1,5 @@
 [
   {
-    "market": "Knicks vs. Clippers",
-    "market_slug": "nba-nyk-lac-2026",
-    "wallet": "0x8aa04f4ce591fd86e59603efa1aa4cfca9f5ae70",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($1,111)",
-        "Low activity (1 txns)"
-      ],
-      "amount": 1110.8293,
-      "odds": 0.5598740467826236,
-      "raw_price": 0.5598740467826236,
-      "outcome": "Knicks",
-      "potential_pnl": 873.2407,
-      "pnl_multiplier": 0.7861160126042767,
-      "wallet_age_days": 0,
-      "total_activities": 1
-    },
-    "timestamp": "2026-03-09T14:11:41.586555",
-    "trade_hash": "0x329102cc5c3cf69b640ceaa1d6474c41aea9dfdadb1feb3b42c20b0dc03d1171",
-    "trade_timestamp": 1773065379,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Knicks",
-      "side": "BUY",
-      "price": 0.5598740467826236,
-      "effective_price": 0.5598740467826236,
-      "size": 1984.07,
-      "amount": 1110.8293,
-      "potential_pnl": 873.2407,
-      "pnl_multiplier": 0.7861160126042767,
-      "is_no": false
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+30.8%)"
-      ],
-      "category": "sports",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.2519748093565247,
-      "market_price": 0.5598740467826236,
-      "edge": 0.3078992374260989,
-      "edge_percent": 30.789923742609894,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Knicks maintain a strong performance",
-          "Clippers face significant injuries",
-          "Market sentiment shifts favorably towards Knicks"
-        ],
-        "weakest_link": "Clippers face significant injuries"
-      },
-      "category": "sports",
-      "narrative_drivers": [
-        "team performance fluctuations",
-        "injury impacts on key players"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "INSIDER_ONLY",
-      "signal_emoji": "\ud83d\udc41\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider activity detected, no clear mispricing",
-      "action_suggestion": "Monitor: insider signal only, no statistical edge",
-      "insider_score": 70,
-      "insider_position": "KNICKS",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.3078992374260989,
-      "edge_percent": 30.789923742609894
-    },
-    "financial_analyst": {
-      "signal_quality": 51.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 30.79,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    }
-  },
-  {
     "market": "LoL: Bilibili Gaming vs BNK FEARX (BO5) - First Stand Group A",
     "market_slug": "lol-blg-fox1-2026",
     "wallet": "0xbea2c79311175c5dffdf0e9f3b6ead503aa92662",
@@ -34172,5 +34070,50 @@
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
     },
     "ai_context": "\u274c SKIP\nTeam Falcons have a 2-5 record against Team Vitality, including a recent 3-2 loss in the IEM Melbourne 2025 final. (esports.gg) Their recent form shows 2 wins and 3 losses in the last 5 matches. (hotspawn.com)"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x6c7a3713c56cb68fb8d650140e20b53f49964db3844cae3988b87ee6b039dd55",
+    "wallet": "0x78b9ac44a6d7d7a076c14e0ad518b301b63c6b76",
+    "trader": {
+      "rank": 4,
+      "address": "0x78b9ac44a6d7d7a076c14e0ad518b301b63c6b76",
+      "username": "Len9311238",
+      "profit": 8709972.988069998,
+      "volume": 16402744.764626998,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x963137a0ba0b02ebf6f37710023cc1b0303289a1",
+      "side": "SELL",
+      "asset": "108328849585403053774019733340144141400637335615577475152002313365556548788276",
+      "conditionId": "0x0fa5d80f8f8fec384b629d60a47c8c669ff7e6ea469edb9f91ccfd030b7f56d7",
+      "size": 3500,
+      "price": 0.92,
+      "timestamp": 1776293994,
+      "title": "Will WTI Crude Oil (WTI) hit (HIGH) $130 in April?",
+      "slug": "will-wti-crude-oil-wti-hit-high-130-in-april",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/crude-oil-9a850ce2a2.png",
+      "eventSlug": "what-price-will-wti-hit-in-april-2026",
+      "outcome": "No",
+      "outcomeIndex": 1,
+      "name": "0x963137a0BA0B02EBf6F37710023Cc1B0303289A1-1764031525036",
+      "pseudonym": "Coordinated-Leather",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x6c7a3713c56cb68fb8d650140e20b53f49964db3844cae3988b87ee6b039dd55",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Will WTI Crude Oil (WTI) hit (HIGH) $130 in April?",
+    "market_slug": "what-price-will-wti-hit-in-april-2026",
+    "amount": 3220.0,
+    "ai_context": "\u274c SKIP\nAs of April 15, 2026, WTI crude oil prices have surged over 7%, surpassing $100 per barrel, following the collapse of U.S.-Iran peace talks and a vow by President Trump to impose a naval blockade on Iran and the Strait of Hormuz. (axios.com) This geopolitical tension has significantly impa..."
   }
 ]
