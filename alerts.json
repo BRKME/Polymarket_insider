@@ -1,107 +1,5 @@
 [
   {
-    "market": "76ers vs. Cavaliers: O/U 226.5",
-    "market_slug": "nba-phi-cle-2026-03-09-total-226pt5",
-    "wallet": "0x474e0c60fd6c590ef157b99cfd932a125fdd6d16",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($1,298)",
-        "Low activity (2 txns)"
-      ],
-      "amount": 1298.0,
-      "odds": 0.5,
-      "raw_price": 0.5,
-      "outcome": "Under",
-      "potential_pnl": 1298.0,
-      "pnl_multiplier": 1.0,
-      "wallet_age_days": 0,
-      "total_activities": 2
-    },
-    "timestamp": "2026-03-09T10:12:39.718494",
-    "trade_hash": "0x2c180f723c65a40f1877eaa8f7fb287b4dc9c41271121de6a703c89c285013ba",
-    "trade_timestamp": 1773051021,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Under",
-      "side": "BUY",
-      "price": 0.5,
-      "effective_price": 0.5,
-      "size": 2596.0,
-      "amount": 1298.0,
-      "potential_pnl": 1298.0,
-      "pnl_multiplier": 1.0,
-      "is_no": false
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+26.0%)"
-      ],
-      "category": "sports",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.24,
-      "market_price": 0.5,
-      "edge": 0.26,
-      "edge_percent": 26.0,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Both teams have high-scoring offenses",
-          "Defensive strategies are ineffective",
-          "Game pace is fast"
-        ],
-        "weakest_link": "Defensive strategies are ineffective"
-      },
-      "category": "sports",
-      "narrative_drivers": [
-        "Recent offensive performances",
-        "Injury reports affecting key players"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "INSIDER_ONLY",
-      "signal_emoji": "\ud83d\udc41\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider activity detected, no clear mispricing",
-      "action_suggestion": "Monitor: insider signal only, no statistical edge",
-      "insider_score": 70,
-      "insider_position": "UNDER",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.26,
-      "edge_percent": 26.0
-    },
-    "financial_analyst": {
-      "signal_quality": 51.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 26.0,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    }
-  },
-  {
     "market": "Knicks vs. Clippers",
     "market_slug": "nba-nyk-lac-2026",
     "wallet": "0x8aa04f4ce591fd86e59603efa1aa4cfca9f5ae70",
@@ -34164,5 +34062,115 @@
     "market_slug": "israel-x-hezbollah-ceasefire-by",
     "amount": 4999.999999,
     "ai_context": "\u274c SKIP\nDespite recent U.S.-mediated talks, Israel continues military operations against Hezbollah in southern Lebanon, and Hezbollah demands a ceasefire before engaging in direct negotiations. (apnews.com)"
+  },
+  {
+    "market": "Counter-Strike: Vitality vs Team Falcons - Map 1 Winner",
+    "market_slug": "cs2-vit-fal2-2026-04-15-game1",
+    "event_slug": "cs2-vit-fal2-2026-04-15-game1",
+    "wallet": "0xf6ff5d76f76e77df0ba009d6a45385252afd317e",
+    "analysis": {
+      "score": 70,
+      "flags": [
+        "New wallet (0d old)",
+        "Large bet ($9,709)",
+        "Low activity (1 txns)"
+      ],
+      "amount": 9708.964656618668,
+      "odds": 0.40509733586955704,
+      "raw_price": 0.40509733586955704,
+      "outcome": "Team Falcons",
+      "potential_pnl": 14258.027463381335,
+      "pnl_multiplier": 1.468542524115745,
+      "wallet_age_days": 0,
+      "total_activities": 1
+    },
+    "timestamp": "2026-04-15T18:46:49.389058",
+    "trade_hash": "0x80894e4d95bb19adfb42ca7142b5c19e6d20b9f61271a6d5a39621bd071b3bff",
+    "trade_timestamp": 1776278294,
+    "latency": null,
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "Team Falcons",
+      "outcomeIndex": 1,
+      "normalized_position": "NO",
+      "side": "BUY",
+      "price": 0.40509733586955704,
+      "effective_price": 0.40509733586955704,
+      "size": 23966.992120000003,
+      "amount": 9708.964656618668,
+      "potential_pnl": 14258.027463381335,
+      "pnl_multiplier": 1.468542524115745,
+      "is_no": false,
+      "conditionId": "0x4d1cb3b7e88d10107e5791cb99146017857e2684bda43b24c91665198fabc39b",
+      "slug": "cs2-vit-fal2-2026-04-15-game1",
+      "eventSlug": "cs2-vit-fal2-2026-04-15"
+    },
+    "irrationality": {
+      "irrationality_score": 45,
+      "flags": [
+        "Crisis keyword detected ('strike')",
+        "Large mispricing edge (+18.4%)"
+      ],
+      "category": "sports",
+      "category_info": {
+        "strength": "medium",
+        "typical_overpricing": 0.03,
+        "min_edge": 0.05
+      },
+      "is_irrational": true
+    },
+    "mispricing": {
+      "rational_estimate": 0.2210194671739114,
+      "market_price": 0.40509733586955704,
+      "edge": 0.18407786869564563,
+      "edge_percent": 18.407786869564564,
+      "min_edge_required": 0.05,
+      "is_mispriced": true,
+      "edge_quality": "STRONG",
+      "base_rate_class": "common",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "common",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "Vitality's recent performance",
+          "Team Falcons' historical matchups",
+          "Map-specific strategies and preferences"
+        ],
+        "weakest_link": "Team Falcons' ability to perform under pressure against top-tier teams"
+      },
+      "category": "sports",
+      "narrative_drivers": [
+        "team form and momentum",
+        "map pool advantages"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "ALPHA",
+      "signal_emoji": "\ud83d\udd25",
+      "signal_strength": 115,
+      "interpretation": "Smart money (NO) confirms YES is overpriced",
+      "action_suggestion": "High conviction: insider + statistics aligned",
+      "insider_score": 70,
+      "insider_position": "NO",
+      "irrationality_score": 45,
+      "is_irrational": true,
+      "is_mispriced": true,
+      "edge": 0.18407786869564563,
+      "edge_percent": 18.407786869564564
+    },
+    "financial_analyst": {
+      "signal_quality": 83.0,
+      "stance": "HIGH_CONVICTION",
+      "edge_percent": 18.41,
+      "signal_strength": 115.0,
+      "insider_score": 70.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "ai_context": "\u274c SKIP\nTeam Falcons have a 2-5 record against Team Vitality, including a recent 3-2 loss in the IEM Melbourne 2025 final. (esports.gg) Their recent form shows 2 wins and 3 losses in the last 5 matches. (hotspawn.com)"
   }
 ]
