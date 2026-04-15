@@ -1,107 +1,5 @@
 [
   {
-    "market": "Will L\u00ea Minh H\u01b0ng be the next Prime Minister of Vietnam?",
-    "market_slug": "will-l-minh-hng-be-the-next-prime-minister-of-vietnam",
-    "wallet": "0x3507ba25957a1c75f1a76153d84f839ef6bd0cb4",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($1,543)",
-        "Low activity (4 txns)"
-      ],
-      "amount": 1543.1280000000002,
-      "odds": 0.904,
-      "raw_price": 0.904,
-      "outcome": "Yes",
-      "potential_pnl": 163.87199999999999,
-      "pnl_multiplier": 0.1061946902654867,
-      "wallet_age_days": 0,
-      "total_activities": 4
-    },
-    "timestamp": "2026-03-08T14:40:46.524763",
-    "trade_hash": "0x552e37b6c5c88cba527682d8637b7847791240db272f630dcd7e94bc67f17e08",
-    "trade_timestamp": 1772980739,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Yes",
-      "side": "SELL",
-      "price": 0.904,
-      "effective_price": 0.904,
-      "size": 1707.0,
-      "amount": 1543.1280000000002,
-      "potential_pnl": 163.87199999999999,
-      "pnl_multiplier": 0.1061946902654867,
-      "is_no": false
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+70.3%)"
-      ],
-      "category": "other",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.20080000000000003,
-      "market_price": 0.904,
-      "edge": 0.7032,
-      "edge_percent": 70.32000000000001,
-      "min_edge_required": 0.03,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "rare",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "rare",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "L\u00ea Minh H\u01b0ng gains significant political support within the ruling party",
-          "Current Prime Minister resigns or is removed",
-          "Public sentiment shifts favorably towards L\u00ea Minh H\u01b0ng"
-        ],
-        "weakest_link": "Public sentiment shifts favorably towards L\u00ea Minh H\u01b0ng"
-      },
-      "category": "politics_near",
-      "narrative_drivers": [
-        "Political maneuvering within the Communist Party",
-        "Public perception of leadership qualities"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "CONFLICT",
-      "signal_emoji": "\u26a0\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider buying YES despite statistical overpricing",
-      "action_suggestion": "Requires manual analysis: insider may have real info OR is part of irrational crowd",
-      "insider_score": 70,
-      "insider_position": "YES",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.7032,
-      "edge_percent": 70.32000000000001
-    },
-    "financial_analyst": {
-      "signal_quality": 46.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 70.32,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    }
-  },
-  {
     "market": "76ers vs. Cavaliers: O/U 225.5",
     "market_slug": "nba-phi-cle-2026-03-09-total-225pt5",
     "wallet": "0x4617ec733b6ae9307db22ba0d71eda1e1ce10575",
@@ -34412,5 +34310,50 @@
     "market_slug": "dota2-heroic-sar1-2026-04-14",
     "amount": 2890.1845,
     "ai_context": "\u2705 COPY\nHeroic recently defeated South America Rejects 2-1 in the DreamLeague South America Closed Qualifier Playoffs on April 14, 2026. (strafe.com) In their last 10 matches, Heroic secured 5 wins, indicating strong performance. (strafe.com)"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x1e10e06aba30db61d4014e7e8b6df70b04860c75058912df0c2c557d19ed5bdd",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.515682004,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x5540e2ddc67964887b2d68bdbf87e414c6d60b5f",
+      "side": "SELL",
+      "asset": "94558029130559738235665301410719403479584011228569608674889886357288281903307",
+      "conditionId": "0xab73cf7e0dd664438a085adc05a78164b7714e66d9cf2cd5e4d7104feecd18a8",
+      "size": 5264.58,
+      "price": 0.624058671347002,
+      "timestamp": 1776215020,
+      "title": "Will CR Vasco da Gama win on 2026-04-14?",
+      "slug": "sud-vas-aud-2026-04-14-vas",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/sud.png",
+      "eventSlug": "sud-vas-aud-2026-04-14",
+      "outcome": "Yes",
+      "outcomeIndex": 0,
+      "name": "0x5540E2ddC67964887b2D68bdBf87e414c6d60B5F-1775219388099",
+      "pseudonym": "Dense-Rainbow",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x1e10e06aba30db61d4014e7e8b6df70b04860c75058912df0c2c557d19ed5bdd",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Will CR Vasco da Gama win on 2026-04-14?",
+    "market_slug": "sud-vas-aud-2026-04-14",
+    "amount": 3285.4067999999997,
+    "ai_context": "\u274c SKIP\nAs of April 15, 2026, the match between CR Vasco da Gama and Audax Italiano on April 14, 2026, has not yet occurred. Therefore, no factual information is available to support or contradict the trader's bet."
   }
 ]
