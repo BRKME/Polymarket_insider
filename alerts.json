@@ -9003,7 +9003,8 @@
       "signal_strength": 105.0,
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    }
+    },
+    "resolution_last_check": "2026-04-15T07:20:40.841501+00:00"
   },
   {
     "type": "TOP_TRADER",
@@ -33925,7 +33926,8 @@
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
     },
-    "ai_context": "\u274c SKIP\nTeam WE has a 2-8 record in their last 10 matches, while Oh My God has a 6-4 record in the same period. Historically, Oh My God has a 75% win rate against Team WE. (bo3.gg)"
+    "ai_context": "\u274c SKIP\nTeam WE has a 2-8 record in their last 10 matches, while Oh My God has a 6-4 record in the same period. Historically, Oh My God has a 75% win rate against Team WE. (bo3.gg)",
+    "resolution_last_check": "2026-04-15T07:23:32.694608+00:00"
   },
   {
     "type": "TOP_TRADER",
@@ -33970,7 +33972,8 @@
     "market": "Counter-Strike: Spirit vs Team Falcons (BO3) - IEM Rio Group A",
     "market_slug": "cs2-ts7-fal2-2026-04-14",
     "amount": 5759.9968848,
-    "ai_context": "\u274c SKIP\nTeam Spirit has a stronger recent form, with a 7-3 record in their last 10 matches, including a decisive 2-0 victory over Team Liquid. (cs2bet.io) In contrast, Team Falcons have a 7-3 record in their last 10 matches, but their recent perfor..."
+    "ai_context": "\u274c SKIP\nTeam Spirit has a stronger recent form, with a 7-3 record in their last 10 matches, including a decisive 2-0 victory over Team Liquid. (cs2bet.io) In contrast, Team Falcons have a 7-3 record in their last 10 matches, but their recent perfor...",
+    "resolution_last_check": "2026-04-15T07:23:33.319697+00:00"
   },
   {
     "type": "TOP_TRADER",
@@ -34015,7 +34018,8 @@
     "market": "Counter-Strike: Vitality vs G2 - Map 1 Winner",
     "market_slug": "cs2-vit-g2-2026-04-14",
     "amount": 4759.29188,
-    "ai_context": "\u2705 COPY\nVitality has a 10-match winning streak, including a 2-0 victory over G2 in February 2026. (cs2bet.io) They lead the head-to-head 5-3, with three consecutive wins. (strafe.com)"
+    "ai_context": "\u2705 COPY\nVitality has a 10-match winning streak, including a 2-0 victory over G2 in February 2026. (cs2bet.io) They lead the head-to-head 5-3, with three consecutive wins. (strafe.com)",
+    "resolution_last_check": "2026-04-15T07:23:33.949246+00:00"
   },
   {
     "type": "TOP_TRADER",
@@ -34060,7 +34064,8 @@
     "market": "Will John Cornyn win the 2026 Texas Republican Primary?",
     "market_slug": "texas-republican-senate-primary-winner",
     "amount": 5697.410900000001,
-    "ai_context": "\u274c SKIP\nJohn Cornyn and Ken Paxton are heading to a runoff election on May 26, 2026, after neither secured over 50% in the initial primary. (cbsnews.com) Recent reports suggest former President Trump is expected to endorse Cornyn, potentially bolst..."
+    "ai_context": "\u274c SKIP\nJohn Cornyn and Ken Paxton are heading to a runoff election on May 26, 2026, after neither secured over 50% in the initial primary. (cbsnews.com) Recent reports suggest former President Trump is expected to endorse Cornyn, potentially bolst...",
+    "resolution_last_check": "2026-04-15T07:23:34.489877+00:00"
   },
   {
     "type": "TOP_TRADER",
@@ -34105,7 +34110,8 @@
     "market": "Dota 2: Heroic vs South America Rejects (BO5) - DreamLeague South America Closed Qualifier Playoffs",
     "market_slug": "dota2-heroic-sar1-2026-04-14",
     "amount": 2890.1845,
-    "ai_context": "\u2705 COPY\nHeroic recently defeated South America Rejects 2-1 in the DreamLeague South America Closed Qualifier Playoffs on April 14, 2026. (strafe.com) In their last 10 matches, Heroic secured 5 wins, indicating strong performance. (strafe.com)"
+    "ai_context": "\u2705 COPY\nHeroic recently defeated South America Rejects 2-1 in the DreamLeague South America Closed Qualifier Playoffs on April 14, 2026. (strafe.com) In their last 10 matches, Heroic secured 5 wins, indicating strong performance. (strafe.com)",
+    "resolution_last_check": "2026-04-15T07:23:35.155893+00:00"
   },
   {
     "type": "TOP_TRADER",
@@ -34150,7 +34156,8 @@
     "market": "Will CR Vasco da Gama win on 2026-04-14?",
     "market_slug": "sud-vas-aud-2026-04-14",
     "amount": 3285.4067999999997,
-    "ai_context": "\u274c SKIP\nAs of April 15, 2026, the match between CR Vasco da Gama and Audax Italiano on April 14, 2026, has not yet occurred. Therefore, no factual information is available to support or contradict the trader's bet."
+    "ai_context": "\u274c SKIP\nAs of April 15, 2026, the match between CR Vasco da Gama and Audax Italiano on April 14, 2026, has not yet occurred. Therefore, no factual information is available to support or contradict the trader's bet.",
+    "resolution_last_check": "2026-04-15T07:23:35.700579+00:00"
   },
   {
     "type": "TOP_TRADER",
@@ -34195,7 +34202,8 @@
     "market": "Will Rafael L\u00f3pez Aliaga win the 2026 Peruvian presidential election?",
     "market_slug": "peru-presidential-election-winner",
     "amount": 1923.324,
-    "ai_context": "\u274c SKIP\nRafael L\u00f3pez Aliaga is currently in third place with 11.1% support, trailing Keiko Fujimori at 17.1% and Roberto S\u00e1nchez at 12.1%. The election is expected to go to a runoff, making his chances of winning uncertain. (en.wikipedia.org)"
+    "ai_context": "\u274c SKIP\nRafael L\u00f3pez Aliaga is currently in third place with 11.1% support, trailing Keiko Fujimori at 17.1% and Roberto S\u00e1nchez at 12.1%. The election is expected to go to a runoff, making his chances of winning uncertain. (en.wikipedia.org)",
+    "resolution_last_check": "2026-04-15T07:23:35.700822+00:00"
   },
   {
     "type": "WHALE_FLOW",
