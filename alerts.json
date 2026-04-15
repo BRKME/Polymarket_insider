@@ -1,107 +1,5 @@
 [
   {
-    "market": "Spread: Grizzlies (-1.5)",
-    "market_slug": "nba-mem-bkn-2026-03-09-spread-away-1pt5",
-    "wallet": "0xa09c050cc7f03437ae64cfce1a9fc780e5c24a3b",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($9,946)",
-        "Low activity (1 txns)"
-      ],
-      "amount": 9945.82,
-      "odds": 0.5,
-      "raw_price": 0.5,
-      "outcome": "Nets",
-      "potential_pnl": 9945.82,
-      "pnl_multiplier": 1.0,
-      "wallet_age_days": 0,
-      "total_activities": 1
-    },
-    "timestamp": "2026-03-09T10:12:24.181324",
-    "trade_hash": "0x04d527b82765b637daeb9628baadba7b68a8391c6d515d06571e32ab2a1a9cac",
-    "trade_timestamp": 1773050995,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Nets",
-      "side": "BUY",
-      "price": 0.5,
-      "effective_price": 0.5,
-      "size": 19891.64,
-      "amount": 9945.82,
-      "potential_pnl": 9945.82,
-      "pnl_multiplier": 1.0,
-      "is_no": false
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+26.0%)"
-      ],
-      "category": "other",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.24,
-      "market_price": 0.5,
-      "edge": 0.26,
-      "edge_percent": 26.0,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Grizzlies maintain player health",
-          "Grizzlies' home court advantage",
-          "Opponent's performance variability"
-        ],
-        "weakest_link": "Opponent's performance variability"
-      },
-      "category": "sports",
-      "narrative_drivers": [
-        "Grizzlies' recent performance trends",
-        "Injury reports of key players"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "INSIDER_ONLY",
-      "signal_emoji": "\ud83d\udc41\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider activity detected, no clear mispricing",
-      "action_suggestion": "Monitor: insider signal only, no statistical edge",
-      "insider_score": 70,
-      "insider_position": "NETS",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.26,
-      "edge_percent": 26.0
-    },
-    "financial_analyst": {
-      "signal_quality": 51.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 26.0,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    }
-  },
-  {
     "market": "76ers vs. Cavaliers: O/U 226.5",
     "market_slug": "nba-phi-cle-2026-03-09-total-226pt5",
     "wallet": "0x474e0c60fd6c590ef157b99cfd932a125fdd6d16",
@@ -34221,5 +34119,50 @@
     "yes_price": null,
     "strength": 81,
     "timestamp": "2026-04-15T06:22:36.495770"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x0966fb84311b157b1aa54e3220bfd9e995b5e41bae38f05b94130ebe54f207ff",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.515682,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xd7375270e4769d3cc31885773070a5f12d5bbe95",
+      "side": "BUY",
+      "asset": "36172824895065494892476382830390461688586069331066041394452647054163434117607",
+      "conditionId": "0x894a26116ec1e467d89955a029545e090bbc38713351e21971da5c1572056c25",
+      "size": 9735.933946,
+      "price": 0.5135614134948241,
+      "timestamp": 1776267242,
+      "title": "Israel x Hezbollah ceasefire by April 15, 2026?",
+      "slug": "israel-x-hezbollah-ceasefire-by-april-15-2026",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/israel+lebanon+dove+flags.png",
+      "eventSlug": "israel-x-hezbollah-ceasefire-by",
+      "outcome": "Yes",
+      "outcomeIndex": 0,
+      "name": "Fernandoinfante",
+      "pseudonym": "Embellished-Ginseng",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x0966fb84311b157b1aa54e3220bfd9e995b5e41bae38f05b94130ebe54f207ff",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Israel x Hezbollah ceasefire by April 15, 2026?",
+    "market_slug": "israel-x-hezbollah-ceasefire-by",
+    "amount": 4999.999999,
+    "ai_context": "\u274c SKIP\nDespite recent U.S.-mediated talks, Israel continues military operations against Hezbollah in southern Lebanon, and Hezbollah demands a ceasefire before engaging in direct negotiations. (apnews.com)"
   }
 ]
