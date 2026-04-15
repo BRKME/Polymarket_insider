@@ -158,6 +158,22 @@ def analyze_whale_flows(trades: List[Dict], markets: List[Dict]) -> List[Dict]:
         market = market_lookup.get(condition_id, {})
         market_question = market.get("question", "")
         
+        # Fallback: fetch from Gamma API if market not in local lookup
+        if not market_question or market_question == "Unknown market":
+            try:
+                import requests as req
+                import time as t
+                t.sleep(0.5)
+                resp = req.get("https://gamma-api.polymarket.com/markets", 
+                              params={"condition_id": condition_id, "limit": 1}, timeout=10)
+                if resp.status_code == 200:
+                    data = resp.json()
+                    if data and len(data) > 0:
+                        market = data[0]
+                        market_question = market.get("question", "")
+            except Exception:
+                pass
+        
         # Get current market price (YES price)
         yes_price = None
         try:
