@@ -157,7 +157,7 @@ def generate_trade_context(
                 {"role": "system", "content": SYSTEM},
                 {"role": "user", "content": prompt},
             ],
-            max_tokens=200,
+            max_tokens=250,
         )
 
         text = response.choices[0].message.content.strip()
@@ -176,8 +176,8 @@ def generate_trade_context(
             logger.info(f"  AI context: NO_DATA for '{market_title[:50]}'")
             return None
 
-        if len(text) > 250:
-            text = text[:247] + "..."
+        if len(text) > 300:
+            text = text[:297] + "..."
 
         logger.info(f"  AI [{market_type}]: {text[:80]}")
         return text
