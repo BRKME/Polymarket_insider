@@ -33959,7 +33959,8 @@
     "market": "Israel x Hezbollah ceasefire by April 15, 2026?",
     "market_slug": "israel-x-hezbollah-ceasefire-by",
     "amount": 4999.999999,
-    "ai_context": "\u274c SKIP\nDespite recent U.S.-mediated talks, Israel continues military operations against Hezbollah in southern Lebanon, and Hezbollah demands a ceasefire before engaging in direct negotiations. (apnews.com)"
+    "ai_context": "\u274c SKIP\nDespite recent U.S.-mediated talks, Israel continues military operations against Hezbollah in southern Lebanon, and Hezbollah demands a ceasefire before engaging in direct negotiations. (apnews.com)",
+    "resolution_last_check": "2026-04-16T07:24:07.568810+00:00"
   },
   {
     "market": "Counter-Strike: Vitality vs Team Falcons - Map 1 Winner",
@@ -34069,7 +34070,8 @@
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
     },
-    "ai_context": "\u274c SKIP\nTeam Falcons have a 2-5 record against Team Vitality, including a recent 3-2 loss in the IEM Melbourne 2025 final. (esports.gg) Their recent form shows 2 wins and 3 losses in the last 5 matches. (hotspawn.com)"
+    "ai_context": "\u274c SKIP\nTeam Falcons have a 2-5 record against Team Vitality, including a recent 3-2 loss in the IEM Melbourne 2025 final. (esports.gg) Their recent form shows 2 wins and 3 losses in the last 5 matches. (hotspawn.com)",
+    "resolution_last_check": "2026-04-16T07:24:08.214915+00:00"
   },
   {
     "type": "TOP_TRADER",
@@ -34114,6 +34116,7 @@
     "market": "Will WTI Crude Oil (WTI) hit (HIGH) $130 in April?",
     "market_slug": "what-price-will-wti-hit-in-april-2026",
     "amount": 3220.0,
-    "ai_context": "\u274c SKIP\nAs of April 15, 2026, WTI crude oil prices have surged over 7%, surpassing $100 per barrel, following the collapse of U.S.-Iran peace talks and a vow by President Trump to impose a naval blockade on Iran and the Strait of Hormuz. (axios.com) This geopolitical tension has significantly impa..."
+    "ai_context": "\u274c SKIP\nAs of April 15, 2026, WTI crude oil prices have surged over 7%, surpassing $100 per barrel, following the collapse of U.S.-Iran peace talks and a vow by President Trump to impose a naval blockade on Iran and the Strait of Hormuz. (axios.com) This geopolitical tension has significantly impa...",
+    "resolution_last_check": "2026-04-16T07:24:08.768775+00:00"
   }
 ]
