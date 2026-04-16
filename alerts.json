@@ -1,107 +1,5 @@
 [
   {
-    "market": "LoL: Bilibili Gaming vs BNK FEARX (BO5) - First Stand Group A",
-    "market_slug": "lol-blg-fox1-2026",
-    "wallet": "0xbea2c79311175c5dffdf0e9f3b6ead503aa92662",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($2,000)",
-        "Low activity (2 txns)"
-      ],
-      "amount": 1999.999998,
-      "odds": 0.6860259200254347,
-      "raw_price": 0.6860259200254347,
-      "outcome": "Bilibili Gaming",
-      "potential_pnl": 915.3417400000002,
-      "pnl_multiplier": 0.45767087045767096,
-      "wallet_age_days": 0,
-      "total_activities": 2
-    },
-    "timestamp": "2026-03-10T10:37:57.721995",
-    "trade_hash": "0x7bd71769cd73ede5438b8b2f36735c56470e4efa8cc0e2bcb2d13e11bed99945",
-    "trade_timestamp": 1773138989,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Bilibili Gaming",
-      "side": "BUY",
-      "price": 0.6860259200254347,
-      "effective_price": 0.6860259200254347,
-      "size": 2915.341738,
-      "amount": 1999.999998,
-      "potential_pnl": 915.3417400000002,
-      "pnl_multiplier": 0.45767087045767096,
-      "is_no": false
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+40.9%)"
-      ],
-      "category": "sports",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.2772051840050869,
-      "market_price": 0.6860259200254347,
-      "edge": 0.4088207360203478,
-      "edge_percent": 40.88207360203478,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Bilibili Gaming has a strong performance history in recent tournaments",
-          "BNK FEARX has shown weaknesses in their gameplay",
-          "Team morale and synergy are high for Bilibili Gaming"
-        ],
-        "weakest_link": "BNK FEARX has potential for unexpected performance improvements"
-      },
-      "category": "sports",
-      "narrative_drivers": [
-        "recent performance metrics of both teams",
-        "fan sentiment and support for Bilibili Gaming"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "INSIDER_ONLY",
-      "signal_emoji": "\ud83d\udc41\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider activity detected, no clear mispricing",
-      "action_suggestion": "Monitor: insider signal only, no statistical edge",
-      "insider_score": 70,
-      "insider_position": "BILIBILI GAMING",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.4088207360203478,
-      "edge_percent": 40.88207360203478
-    },
-    "financial_analyst": {
-      "signal_quality": 51.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 40.88,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    }
-  },
-  {
     "market": "Spread: Pistons (-15.5)",
     "market_slug": "nba-det-bkn-2026-03-10-spread-away-15pt5",
     "wallet": "0xd23c26e64b46f220b58a2af5f3a2cb53cf4cd954",
@@ -34118,5 +34016,23 @@
     "amount": 3220.0,
     "ai_context": "\u274c SKIP\nAs of April 15, 2026, WTI crude oil prices have surged over 7%, surpassing $100 per barrel, following the collapse of U.S.-Iran peace talks and a vow by President Trump to impose a naval blockade on Iran and the Strait of Hormuz. (axios.com) This geopolitical tension has significantly impa...",
     "resolution_last_check": "2026-04-16T07:24:08.768775+00:00"
+  },
+  {
+    "type": "WHALE_FLOW",
+    "condition_id": "0x4facfa3150428543f07e44af64e6b8f553a45cb4b5c9ca3bf7ced9c8a2d70387",
+    "market": "Russia-Ukraine Ceasefire before GTA VI?",
+    "market_slug": "russia-ukraine-ceasefire-before-gta-vi-554",
+    "event_slug": "",
+    "dominant_side": "YES",
+    "dominant_volume": 71257.0,
+    "total_volume": 71257.0,
+    "imbalance_pct": 100.0,
+    "unique_wallets": 22,
+    "trade_count": 32,
+    "max_single_trade": 64221.0,
+    "yes_price": 0.545,
+    "strength": 74,
+    "timestamp": "2026-04-16T11:55:05.673495",
+    "ai_context": "\u274c SKIP\nThe Russia-Ukraine conflict remains unresolved, with recent ceasefires failing due to mutual violations. GTA VI is confirmed for release on November 19, 2026. (apnews.com)"
   }
 ]
