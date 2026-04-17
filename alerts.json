@@ -2,108 +2,6 @@
   {
     "market": "76ers vs. Pistons: O/U 220.5",
     "market_slug": "nba-phi-det-2026-03-12-total-220pt5",
-    "wallet": "0x96d303d0675ceee8f6ff74f1522af5108c84ab05",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($1,757)",
-        "Low activity (1 txns)"
-      ],
-      "amount": 1757.46,
-      "odds": 0.51,
-      "raw_price": 0.51,
-      "outcome": "Under",
-      "potential_pnl": 1688.54,
-      "pnl_multiplier": 0.9607843137254901,
-      "wallet_age_days": 0,
-      "total_activities": 1
-    },
-    "timestamp": "2026-03-12T11:54:53.258831",
-    "trade_hash": "0x808089b6ca8ed3ffb6d1edf6dc5b6fcbc099d0d40eddb2ba4be017df1d294569",
-    "trade_timestamp": 1773316127,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Under",
-      "side": "BUY",
-      "price": 0.51,
-      "effective_price": 0.51,
-      "size": 3446.0,
-      "amount": 1757.46,
-      "potential_pnl": 1688.54,
-      "pnl_multiplier": 0.9607843137254901,
-      "is_no": false
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+26.8%)"
-      ],
-      "category": "sports",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.242,
-      "market_price": 0.51,
-      "edge": 0.268,
-      "edge_percent": 26.8,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Both teams have high offensive efficiency",
-          "Both teams have low defensive efficiency",
-          "Game pace is fast"
-        ],
-        "weakest_link": "Both teams have low defensive efficiency"
-      },
-      "category": "sports",
-      "narrative_drivers": [
-        "Recent scoring trends of both teams",
-        "Injury status of key players"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "INSIDER_ONLY",
-      "signal_emoji": "\ud83d\udc41\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider activity detected, no clear mispricing",
-      "action_suggestion": "Monitor: insider signal only, no statistical edge",
-      "insider_score": 70,
-      "insider_position": "UNDER",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.268,
-      "edge_percent": 26.8
-    },
-    "financial_analyst": {
-      "signal_quality": 51.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 26.8,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    }
-  },
-  {
-    "market": "76ers vs. Pistons: O/U 220.5",
-    "market_slug": "nba-phi-det-2026-03-12-total-220pt5",
     "wallet": "0x2e2cd607c6c6309801823cc17c11162b3d195992",
     "analysis": {
       "score": 70,
@@ -33649,5 +33547,50 @@
     "market_slug": "euroleague-dubai-valencia-2026-04-17",
     "amount": 3599.1,
     "ai_context": "\u274c SKIP\nBC Dubai has a 0% win rate against Valencia, losing their only previous encounter 80-78 on October 30, 2025. (livescores.biz) In their last five matches, BC Dubai has won two and lost three, including a recent 85-69 defeat to Anadolu Efes on April 10, 2026. (betexplorer.com) Valencia, on t..."
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xccfe5114594298842bc70eca6a382d0daab2de191c4b8489eb671f877d3ada09",
+    "wallet": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+    "trader": {
+      "rank": 7,
+      "address": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+      "username": "RN1",
+      "profit": 7289831.062845959,
+      "volume": 425645124.952893,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x8fd93d7e517b9d98c4897908afefd2d7a8b4544a",
+      "side": "BUY",
+      "asset": "56443710706308391689314329971471018996044196245748252657002726431850335195583",
+      "conditionId": "0x89683dabd991296af86ff5eb1fa5b2a67cca45c4e76601c2383f3dd80ff5c45e",
+      "size": 3339.2308239999998,
+      "price": 0.7422929311702039,
+      "timestamp": 1776460306,
+      "title": "Tallahassee: Daniil Glinka vs Jack Kennedy",
+      "slug": "atp-glinka-kennedy-2026-04-17",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/atp-tour-b4390c4fb8.jpg",
+      "eventSlug": "atp-glinka-kennedy-2026-04-17",
+      "outcome": "Daniil Glinka",
+      "outcomeIndex": 0,
+      "name": "BaltazarGombka",
+      "pseudonym": "Separate-Evidence",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xccfe5114594298842bc70eca6a382d0daab2de191c4b8489eb671f877d3ada09",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Tallahassee: Daniil Glinka vs Jack Kennedy",
+    "market_slug": "atp-glinka-kennedy-2026-04-17",
+    "amount": 2478.6874362008552,
+    "ai_context": "\u2705 COPY\nDaniil Glinka, ranked No. 177, has a 66.7% win rate in 2026, including a Challenger title in Drummondville. Jack Kennedy, ranked No. 856, is a 17-year-old with limited professional experience. Glinka's higher ranking and experience suggest an advantage. (tennisstats.com)"
   }
 ]
