@@ -1,211 +1,5 @@
 [
   {
-    "market": "Will L\u00ea Minh H\u01b0ng be the next Prime Minister of Vietnam?",
-    "market_slug": "will-l-minh-hng-be-the-next-prime-minister-of-vietnam",
-    "wallet": "0x6cc61b8b06caaa7c30f60fc19555cbc9d0477b8b",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($3,028)",
-        "Low activity (2 txns)"
-      ],
-      "amount": 3028.455065,
-      "odds": 0.8590252917771979,
-      "raw_price": 0.14097470822280206,
-      "outcome": "No",
-      "potential_pnl": 496.99999899999995,
-      "pnl_multiplier": 0.1641100786813226,
-      "wallet_age_days": 0,
-      "total_activities": 2
-    },
-    "timestamp": "2026-03-12T03:32:24.585733",
-    "trade_hash": "0x77d49f16b7571b083e1e2e183b3c45faa0ff0f4b94bc11c6e8594ae8ef62dfe0",
-    "trade_timestamp": 1773286027,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "No",
-      "side": "BUY",
-      "price": 0.14097470822280206,
-      "effective_price": 0.8590252917771979,
-      "size": 3525.455064,
-      "amount": 3028.455065,
-      "potential_pnl": 496.99999899999995,
-      "pnl_multiplier": 0.1641100786813226,
-      "is_no": true
-    },
-    "irrationality": {
-      "irrationality_score": 33,
-      "flags": [
-        "Longshot (14%) in medium bias category (other)",
-        "Moderate mispricing edge (+9.3%)"
-      ],
-      "category": "other",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.04819494164456042,
-      "market_price": 0.14097470822280206,
-      "edge": 0.09277976657824163,
-      "edge_percent": 9.277976657824164,
-      "min_edge_required": 0.03,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "rare",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "rare",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "L\u00ea Minh H\u01b0ng gains significant political support within the ruling party",
-          "L\u00ea Minh H\u01b0ng is nominated as a candidate for Prime Minister",
-          "The current Prime Minister resigns or is removed from office"
-        ],
-        "weakest_link": "L\u00ea Minh H\u01b0ng gaining significant political support within the ruling party"
-      },
-      "category": "politics_near",
-      "narrative_drivers": [
-        "Internal party dynamics and power struggles",
-        "Public perception and approval ratings of current leadership"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "ALPHA",
-      "signal_emoji": "\ud83d\udd25",
-      "signal_strength": 103,
-      "interpretation": "Smart money (NO) confirms YES is overpriced",
-      "action_suggestion": "High conviction: insider + statistics aligned",
-      "insider_score": 70,
-      "insider_position": "NO",
-      "irrationality_score": 33,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.09277976657824163,
-      "edge_percent": 9.277976657824164
-    },
-    "financial_analyst": {
-      "signal_quality": 69.5,
-      "stance": "SELECTIVE",
-      "edge_percent": 9.28,
-      "signal_strength": 103.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    }
-  },
-  {
-    "market": "Will L\u00ea Minh H\u01b0ng be the next Prime Minister of Vietnam?",
-    "market_slug": "will-l-minh-hng-be-the-next-prime-minister-of-vietnam",
-    "wallet": "0x6cc61b8b06caaa7c30f60fc19555cbc9d0477b8b",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($3,835)",
-        "Low activity (2 txns)"
-      ],
-      "amount": 3835.31437,
-      "odds": 0.8846681102124246,
-      "raw_price": 0.1153318897875754,
-      "outcome": "No",
-      "potential_pnl": 499.999999,
-      "pnl_multiplier": 0.1303674094908679,
-      "wallet_age_days": 0,
-      "total_activities": 2
-    },
-    "timestamp": "2026-03-12T03:32:30.542020",
-    "trade_hash": "0xc78c01ee10f999e572610449184540d0d3c05c9b33cdc3f52f79e1ddfe60f11b",
-    "trade_timestamp": 1773285983,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "No",
-      "side": "BUY",
-      "price": 0.1153318897875754,
-      "effective_price": 0.8846681102124246,
-      "size": 4335.314369,
-      "amount": 3835.31437,
-      "potential_pnl": 499.999999,
-      "pnl_multiplier": 0.1303674094908679,
-      "is_no": true
-    },
-    "irrationality": {
-      "irrationality_score": 33,
-      "flags": [
-        "Longshot (12%) in medium bias category (other)",
-        "Moderate mispricing edge (+7.2%)"
-      ],
-      "category": "other",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.043066377957515084,
-      "market_price": 0.1153318897875754,
-      "edge": 0.07226551183006032,
-      "edge_percent": 7.226551183006031,
-      "min_edge_required": 0.03,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "rare",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "rare",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "L\u00ea Minh H\u01b0ng gains significant political support within the ruling party",
-          "Current Prime Minister steps down or is removed from office",
-          "Public sentiment shifts favorably towards L\u00ea Minh H\u01b0ng"
-        ],
-        "weakest_link": "Public sentiment shifts favorably towards L\u00ea Minh H\u01b0ng"
-      },
-      "category": "politics_near",
-      "narrative_drivers": [
-        "Internal party dynamics and leadership struggles",
-        "Public perception of government performance and leadership"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "ALPHA",
-      "signal_emoji": "\ud83d\udd25",
-      "signal_strength": 103,
-      "interpretation": "Smart money (NO) confirms YES is overpriced",
-      "action_suggestion": "High conviction: insider + statistics aligned",
-      "insider_score": 70,
-      "insider_position": "NO",
-      "irrationality_score": 33,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.07226551183006032,
-      "edge_percent": 7.226551183006031
-    },
-    "financial_analyst": {
-      "signal_quality": 66.4,
-      "stance": "SELECTIVE",
-      "edge_percent": 7.23,
-      "signal_strength": 103.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    }
-  },
-  {
     "market": "76ers vs. Pistons: O/U 220.5",
     "market_slug": "nba-phi-det-2026-03-12-total-220pt5",
     "wallet": "0x96d303d0675ceee8f6ff74f1522af5108c84ab05",
@@ -33701,5 +33495,159 @@
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
     },
     "ai_context": "\u2705 COPY\nVitality has a strong head-to-head record against Natus Vincere, with 15 wins and 0 losses in recent encounters. (strafe.com)"
+  },
+  {
+    "market": "Will WTI Crude Oil (WTI) hit (LOW) $80 in April?",
+    "market_slug": "will-wti-crude-oil-wti-hit-low-80-in-april-167-519-314",
+    "event_slug": "will-wti-crude-oil-wti-hit-low-80-in-april-167-519-314",
+    "wallet": "0x2f468d00bef9f7638cf227172d540f22da3c4baa",
+    "analysis": {
+      "score": 70,
+      "flags": [
+        "New wallet (0d old)",
+        "Large bet ($49,249)",
+        "Low activity (5 txns)"
+      ],
+      "amount": 49249.12634286171,
+      "odds": 0.8784965118171834,
+      "raw_price": 0.8784965118171834,
+      "outcome": "Yes",
+      "potential_pnl": 6811.570177138288,
+      "pnl_multiplier": 0.138308446929954,
+      "wallet_age_days": 0,
+      "total_activities": 5
+    },
+    "timestamp": "2026-04-17T17:57:27.240235",
+    "trade_hash": "0x645a706a26d176d9eec81e09a7aee366195e5002fa0bc9fed86f8424f0d770b0",
+    "trade_timestamp": 1776448206,
+    "latency": null,
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "Yes",
+      "outcomeIndex": 0,
+      "normalized_position": "YES",
+      "side": "BUY",
+      "price": 0.8784965118171834,
+      "effective_price": 0.8784965118171834,
+      "size": 56060.69652,
+      "amount": 49249.12634286171,
+      "potential_pnl": 6811.570177138288,
+      "pnl_multiplier": 0.138308446929954,
+      "is_no": false,
+      "conditionId": "0x05ccbc3b7861349dc2fc0ce2c2bca9fd9671675171d7070abdf087ba1d7f085b",
+      "slug": "will-wti-crude-oil-wti-hit-low-80-in-april-167-519-314",
+      "eventSlug": "what-price-will-wti-hit-in-april-2026"
+    },
+    "irrationality": {
+      "irrationality_score": 35,
+      "flags": [
+        "Large mispricing edge (+62.5%)"
+      ],
+      "category": "other",
+      "category_info": {
+        "strength": "medium",
+        "typical_overpricing": 0.03,
+        "min_edge": 0.05
+      },
+      "is_irrational": true
+    },
+    "mispricing": {
+      "rational_estimate": 0.2536993023634367,
+      "market_price": 0.8784965118171834,
+      "edge": 0.6247972094537466,
+      "edge_percent": 62.47972094537466,
+      "min_edge_required": 0.06,
+      "is_mispriced": true,
+      "edge_quality": "STRONG",
+      "base_rate_class": "occasional",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "occasional",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "Global economic slowdown affecting oil demand",
+          "Geopolitical tensions disrupting supply",
+          "Significant changes in OPEC production levels"
+        ],
+        "weakest_link": "Global economic slowdown affecting oil demand"
+      },
+      "category": "macro",
+      "narrative_drivers": [
+        "Increased inflation leading to reduced consumer spending",
+        "Escalation of conflicts in oil-producing regions"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "CONFLICT",
+      "signal_emoji": "\u26a0\ufe0f",
+      "signal_strength": 70,
+      "interpretation": "Insider buying YES despite statistical overpricing",
+      "action_suggestion": "Requires manual analysis: insider may have real info OR is part of irrational crowd",
+      "insider_score": 70,
+      "insider_position": "YES",
+      "irrationality_score": 35,
+      "is_irrational": true,
+      "is_mispriced": true,
+      "edge": 0.6247972094537466,
+      "edge_percent": 62.47972094537466
+    },
+    "financial_analyst": {
+      "signal_quality": 46.0,
+      "stance": "WATCH_ONLY",
+      "edge_percent": 62.48,
+      "signal_strength": 70.0,
+      "insider_score": 70.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "ai_context": "\u274c SKIP\nWTI Crude Oil prices have been consistently above $80 in April 2026, with no significant downward trend observed."
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xb3f722e958bfa914c2c6d4bd44d3de163ed929e2949bf041d270889ebcb17012",
+    "wallet": "0x78b9ac44a6d7d7a076c14e0ad518b301b63c6b76",
+    "trader": {
+      "rank": 4,
+      "address": "0x78b9ac44a6d7d7a076c14e0ad518b301b63c6b76",
+      "username": "Len9311238",
+      "profit": 8709972.988069998,
+      "volume": 16402744.764627,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x95de701f84f0f0fc958736024c3040332829c9b2",
+      "side": "BUY",
+      "asset": "115296334647864493366247463042583275463304398998426776887940494614765578739118",
+      "conditionId": "0x46ca893c1fd16b52719e7a275a1d446d53cf00a3b93e3251be39e25ffde10774",
+      "size": 7998,
+      "price": 0.45,
+      "timestamp": 1776448598,
+      "title": "BC Dubai vs. Valencia",
+      "slug": "euroleague-dubai-valencia-2026-04-17",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/euroleague-basketball-8fab4f41ec.png",
+      "eventSlug": "euroleague-dubai-valencia-2026-04-17",
+      "outcome": "BC Dubai",
+      "outcomeIndex": 0,
+      "name": "Tir-1",
+      "pseudonym": "Testy-Dozen",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xb3f722e958bfa914c2c6d4bd44d3de163ed929e2949bf041d270889ebcb17012",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "BC Dubai vs. Valencia",
+    "market_slug": "euroleague-dubai-valencia-2026-04-17",
+    "amount": 3599.1,
+    "ai_context": "\u274c SKIP\nBC Dubai has a 0% win rate against Valencia, losing their only previous encounter 80-78 on October 30, 2025. (livescores.biz) In their last five matches, BC Dubai has won two and lost three, including a recent 85-69 defeat to Anadolu Efes on April 10, 2026. (betexplorer.com) Valencia, on t..."
   }
 ]
