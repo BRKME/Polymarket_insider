@@ -1,107 +1,5 @@
 [
   {
-    "market": "Spread: Raptors (-2.5)",
-    "market_slug": "nba-tor-nop-2026-03-11-spread-away-2pt5",
-    "wallet": "0x9fa0cd5e73033a9ba221fa7ed8a0c7a9d8fc7667",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($1,099)",
-        "Low activity (1 txns)"
-      ],
-      "amount": 1099.2,
-      "odds": 0.48,
-      "raw_price": 0.48,
-      "outcome": "Raptors",
-      "potential_pnl": 1190.8000000000002,
-      "pnl_multiplier": 1.0833333333333335,
-      "wallet_age_days": 0,
-      "total_activities": 1
-    },
-    "timestamp": "2026-03-11T14:11:32.738431",
-    "trade_hash": "0x35163e43a9255a9abde5c1903143539c006cd1ba64860d57f605ed9485016bd4",
-    "trade_timestamp": 1773238189,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Raptors",
-      "side": "BUY",
-      "price": 0.48,
-      "effective_price": 0.48,
-      "size": 2290.0,
-      "amount": 1099.2,
-      "potential_pnl": 1190.8000000000002,
-      "pnl_multiplier": 1.0833333333333335,
-      "is_no": false
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+24.4%)"
-      ],
-      "category": "other",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.236,
-      "market_price": 0.48,
-      "edge": 0.244,
-      "edge_percent": 24.4,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Raptors maintain player health",
-          "Raptors perform well against spread",
-          "Opponent's performance variability"
-        ],
-        "weakest_link": "Opponent's performance variability"
-      },
-      "category": "sports",
-      "narrative_drivers": [
-        "team performance trends",
-        "injury reports"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "INSIDER_ONLY",
-      "signal_emoji": "\ud83d\udc41\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider activity detected, no clear mispricing",
-      "action_suggestion": "Monitor: insider signal only, no statistical edge",
-      "insider_score": 70,
-      "insider_position": "RAPTORS",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.244,
-      "edge_percent": 24.4
-    },
-    "financial_analyst": {
-      "signal_quality": 51.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 24.4,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    }
-  },
-  {
     "market": "Spread: Knicks (-14.5)",
     "market_slug": "nba-nyk-uta-2026-03-11-spread-away-14pt5",
     "wallet": "0x4fee279cfb6eb5b01c0aac25fece01fb73589f33",
@@ -33866,5 +33764,50 @@
     "strength": 72,
     "timestamp": "2026-04-16T22:09:10.771348",
     "ai_context": "\u274c SKIP\nThe Orthodox Easter ceasefire between Russia and Ukraine collapsed, with both sides accusing each other of violations, including drone strikes. Prediction markets assign a 1.4% probability to a ceasefire by April 30, 2026, indicating minimal near-term peace prospects. (agenticnews.site)"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x268e16d827b8b51dad2490acae8d1834294ba84f1983384913eb5790d540d433",
+    "wallet": "0x885783760858e1bd5dd09a3c3f916cfa251ac270",
+    "trader": {
+      "rank": 12,
+      "address": "0x885783760858e1bd5dd09a3c3f916cfa251ac270",
+      "username": "BetTom42",
+      "profit": 5642135.735356,
+      "volume": 11212839.523402998,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x8bd82332873dfc8a80bd5c14b5051b8500f212df",
+      "side": "BUY",
+      "asset": "83247781037352156539108067944461291821683755894607244160607042790356561625563",
+      "conditionId": "0xd5d9fc47718bd553592d126b1fa5e87183d27f3936975b0c04cc0f2dec1f1bb4",
+      "size": 2298.850569,
+      "price": 0.86999999998695,
+      "timestamp": 1776384052,
+      "title": "Will the Democratic Party control the House after the 2026 Midterm elections?",
+      "slug": "will-the-democratic-party-control-the-house-after-the-2026-midterm-elections",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-the-democratic-party-control-the-senate-after-the-2026-midterm-elections-JJ9h02JGR09z.png",
+      "eventSlug": "which-party-will-win-the-house-in-2026",
+      "outcome": "Yes",
+      "outcomeIndex": 0,
+      "name": "Overlord36912",
+      "pseudonym": "Coordinated-Act",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x268e16d827b8b51dad2490acae8d1834294ba84f1983384913eb5790d540d433",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Will the Democratic Party control the House after the 2026 Midterm elections?",
+    "market_slug": "which-party-will-win-the-house-in-2026",
+    "amount": 1999.9999950000001,
+    "ai_context": "\u2705 COPY\nRecent polls indicate a Democratic lead in the 2026 congressional elections, with a 7-point advantage over Republicans. (yougov.com)\nAdditionally, historical patterns show the president's party often loses seats in midterm elections, suggesting a potential Democratic gain. (vegasinsider.com)"
   }
 ]
