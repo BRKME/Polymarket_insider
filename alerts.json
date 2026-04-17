@@ -1,107 +1,5 @@
 [
   {
-    "market": "Spread: Knicks (-14.5)",
-    "market_slug": "nba-nyk-uta-2026-03-11-spread-away-14pt5",
-    "wallet": "0x4fee279cfb6eb5b01c0aac25fece01fb73589f33",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($1,176)",
-        "Low activity (1 txns)"
-      ],
-      "amount": 1176.0,
-      "odds": 0.49,
-      "raw_price": 0.49,
-      "outcome": "Knicks",
-      "potential_pnl": 1224.0,
-      "pnl_multiplier": 1.0408163265306123,
-      "wallet_age_days": 0,
-      "total_activities": 1
-    },
-    "timestamp": "2026-03-11T15:57:37.206746",
-    "trade_hash": "0x56d7f891adc6d8032337e0eac403711f01aed1157be39f55cb1e4b571c421ae9",
-    "trade_timestamp": 1773244527,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Knicks",
-      "side": "BUY",
-      "price": 0.49,
-      "effective_price": 0.49,
-      "size": 2400.0,
-      "amount": 1176.0,
-      "potential_pnl": 1224.0,
-      "pnl_multiplier": 1.0408163265306123,
-      "is_no": false
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+25.2%)"
-      ],
-      "category": "other",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.238,
-      "market_price": 0.49,
-      "edge": 0.252,
-      "edge_percent": 25.2,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Knicks maintain a strong offensive performance",
-          "Opposing team struggles defensively",
-          "Injuries to key players on the opposing team"
-        ],
-        "weakest_link": "Opposing team struggles defensively"
-      },
-      "category": "sports",
-      "narrative_drivers": [
-        "Knicks' recent performance trends",
-        "Public sentiment around the Knicks' potential"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "INSIDER_ONLY",
-      "signal_emoji": "\ud83d\udc41\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider activity detected, no clear mispricing",
-      "action_suggestion": "Monitor: insider signal only, no statistical edge",
-      "insider_score": 70,
-      "insider_position": "KNICKS",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.252,
-      "edge_percent": 25.2
-    },
-    "financial_analyst": {
-      "signal_quality": 51.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 25.2,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    }
-  },
-  {
     "market": "Knicks vs. Jazz: O/U 229.5",
     "market_slug": "nba-nyk-uta-2026-03-11-total-229pt5",
     "wallet": "0xbe30ca541dc580f921f2a6ca8903825d2c519b00",
@@ -33809,5 +33707,50 @@
     "market_slug": "which-party-will-win-the-house-in-2026",
     "amount": 1999.9999950000001,
     "ai_context": "\u2705 COPY\nRecent polls indicate a Democratic lead in the 2026 congressional elections, with a 7-point advantage over Republicans. (yougov.com)\nAdditionally, historical patterns show the president's party often loses seats in midterm elections, suggesting a potential Democratic gain. (vegasinsider.com)"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xd2d377a87dbed5770731640b36010fcb25693657c1241a8828bb65dc1d1a044d",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.515682004,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xead152b855effa6b5b5837f53b24c0756830c76a",
+      "side": "BUY",
+      "asset": "17566424595767178460789983678533560473370931916006378116768315765609618397568",
+      "conditionId": "0xbae558b7842eea7e1897618ca33da728dbae0415880a4593bd13a712f45b1d9f",
+      "size": 2094.46734,
+      "price": 0.8,
+      "timestamp": 1776399658,
+      "title": "Will FC Internazionale Milano win on 2026-04-17?",
+      "slug": "sea-int-cag-2026-04-17-int",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Serie-A-Logo.png",
+      "eventSlug": "sea-int-cag-2026-04-17",
+      "outcome": "Yes",
+      "outcomeIndex": 0,
+      "name": "elkmonkey",
+      "pseudonym": "Unconscious-Penguin",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xd2d377a87dbed5770731640b36010fcb25693657c1241a8828bb65dc1d1a044d",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Will FC Internazionale Milano win on 2026-04-17?",
+    "market_slug": "sea-int-cag-2026-04-17",
+    "amount": 1675.5738720000002,
+    "ai_context": "\u2705 COPY\nFC Internazionale Milano is leading Serie A with 24 wins, 3 draws, and 5 losses, placing them first out of 20 teams. (footystats.org) They have a strong home record of 12 wins, 2 draws, and 2 losses. (footystats.org) Their upcoming match against Cagliari Calcio is scheduled for April 17, 2..."
   }
 ]
