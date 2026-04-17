@@ -1,114 +1,5 @@
 [
   {
-    "market": "Will Bayer 04 Leverkusen win on 2026-03-17?",
-    "market_slug": "ucl-ars-lev-2026-03-17-lev",
-    "wallet": "0x790e8a6d067a0dab20de637b38add04f75080e43",
-    "analysis": {
-      "score": 80,
-      "flags": [
-        "New wallet (3d old)",
-        "Large bet ($1,500)",
-        "Pre-event latency: 7492m"
-      ],
-      "amount": 1500.0000000000002,
-      "odds": 0.11254943030292117,
-      "raw_price": 0.11254943030292117,
-      "outcome": "Yes",
-      "potential_pnl": 11827.4775,
-      "pnl_multiplier": 7.8849849999999995,
-      "wallet_age_days": 3,
-      "total_activities": 47
-    },
-    "timestamp": "2026-03-11T19:09:21.086562",
-    "trade_hash": "0x33a1617566772efb286140397605a52460d4661680929dd0876c9dd3b148e3a5",
-    "trade_timestamp": 1773256073,
-    "latency": {
-      "latency_seconds": 449527.0,
-      "latency_minutes": 7492.116666666667,
-      "is_pre_event": true,
-      "severity": "CRITICAL",
-      "trade_time": "2026-03-11T19:07:53+00:00",
-      "event_time": "2026-03-17T00:00:00+00:00"
-    },
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Yes",
-      "side": "BUY",
-      "price": 0.11254943030292117,
-      "effective_price": 0.11254943030292117,
-      "size": 13327.4775,
-      "amount": 1500.0000000000002,
-      "potential_pnl": 11827.4775,
-      "pnl_multiplier": 7.8849849999999995,
-      "is_no": false
-    },
-    "irrationality": {
-      "irrationality_score": 25,
-      "flags": [
-        "Longshot (11%) in medium bias category (politics_near)"
-      ],
-      "category": "politics_near",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.02,
-        "min_edge": 0.03
-      },
-      "is_irrational": false
-    },
-    "mispricing": {
-      "rational_estimate": 0.08250988606058424,
-      "market_price": 0.11254943030292117,
-      "edge": 0.03003954424233693,
-      "edge_percent": 3.003954424233693,
-      "min_edge_required": 0.05,
-      "is_mispriced": false,
-      "edge_quality": "WEAK",
-      "base_rate_class": "occasional",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "occasional",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "team form leading up to the match",
-          "injury status of key players",
-          "performance against similar opponents"
-        ],
-        "weakest_link": "injury status of key players"
-      },
-      "category": "sports",
-      "narrative_drivers": [
-        "team's current league standing",
-        "historical performance in similar matches"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "INSIDER_ONLY",
-      "signal_emoji": "\ud83d\udc41\ufe0f",
-      "signal_strength": 80,
-      "interpretation": "Insider activity detected, no clear mispricing",
-      "action_suggestion": "Monitor: insider signal only, no statistical edge",
-      "insider_score": 80,
-      "insider_position": "YES",
-      "irrationality_score": 25,
-      "is_irrational": false,
-      "is_mispriced": false,
-      "edge": 0.03003954424233693,
-      "edge_percent": 3.003954424233693
-    },
-    "financial_analyst": {
-      "signal_quality": 30.5,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 3.0,
-      "signal_strength": 80.0,
-      "insider_score": 80.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    }
-  },
-  {
     "market": "Will L\u00ea Minh H\u01b0ng be the next Prime Minister of Vietnam?",
     "market_slug": "will-l-minh-hng-be-the-next-prime-minister-of-vietnam",
     "wallet": "0x6cc61b8b06caaa7c30f60fc19555cbc9d0477b8b",
@@ -33700,5 +33591,115 @@
     "market_slug": "iran-agrees-to-surrender-enriched-uranium-stockpile-by",
     "amount": 1600.0,
     "ai_context": "\u274c SKIP\nRecent U.S. proposals demand a 20-year moratorium on uranium enrichment and the surrender of existing stockpiles, but Iran has historically rejected such concessions. (axios.com)"
+  },
+  {
+    "market": "Counter-Strike: Vitality vs Natus Vincere (BO3) - IEM Rio Playoffs",
+    "market_slug": "cs2-vit-navi-2026",
+    "event_slug": "cs2-vit-navi-2026",
+    "wallet": "0xc8a0c73b3f0dbd5b5775305a492aabeee86c6f8b",
+    "analysis": {
+      "score": 70,
+      "flags": [
+        "New wallet (0d old)",
+        "Large bet ($7,169)",
+        "Low activity (3 txns)"
+      ],
+      "amount": 7168.625157401248,
+      "odds": 0.7399999999836124,
+      "raw_price": 0.7399999999836124,
+      "outcome": "Vitality",
+      "potential_pnl": 2518.706136598752,
+      "pnl_multiplier": 0.35135135138127754,
+      "wallet_age_days": 0,
+      "total_activities": 3
+    },
+    "timestamp": "2026-04-17T17:05:29.555810",
+    "trade_hash": "0xc9d71bb53b3afcbf30edfe93ae7f64024bab0231740751d0b3c4d8dffb01bdfa",
+    "trade_timestamp": 1776445368,
+    "latency": null,
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "Vitality",
+      "outcomeIndex": 0,
+      "normalized_position": "YES",
+      "side": "BUY",
+      "price": 0.7399999999836124,
+      "effective_price": 0.7399999999836124,
+      "size": 9687.331294,
+      "amount": 7168.625157401248,
+      "potential_pnl": 2518.706136598752,
+      "pnl_multiplier": 0.35135135138127754,
+      "is_no": false,
+      "conditionId": "0x06b9ca38f6b28e7fb3b60c037be1e89dda7a54de279cdc33bea1be29d95f84e0",
+      "slug": "cs2-vit-navi-2026",
+      "eventSlug": "cs2-vit-navi-2026-04-17"
+    },
+    "irrationality": {
+      "irrationality_score": 45,
+      "flags": [
+        "Crisis keyword detected ('strike')",
+        "Large mispricing edge (+45.2%)"
+      ],
+      "category": "sports",
+      "category_info": {
+        "strength": "medium",
+        "typical_overpricing": 0.03,
+        "min_edge": 0.05
+      },
+      "is_irrational": true
+    },
+    "mispricing": {
+      "rational_estimate": 0.2879999999967225,
+      "market_price": 0.7399999999836124,
+      "edge": 0.45199999998688994,
+      "edge_percent": 45.199999998688995,
+      "min_edge_required": 0.05,
+      "is_mispriced": true,
+      "edge_quality": "STRONG",
+      "base_rate_class": "common",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "common",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "Vitality maintains current form",
+          "Natus Vincere underperforms",
+          "Map selection favors Vitality"
+        ],
+        "weakest_link": "Natus Vincere underperforms"
+      },
+      "category": "sports",
+      "narrative_drivers": [
+        "recent performance trends",
+        "team roster changes"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "CONFLICT",
+      "signal_emoji": "\u26a0\ufe0f",
+      "signal_strength": 70,
+      "interpretation": "Insider buying YES despite statistical overpricing",
+      "action_suggestion": "Requires manual analysis: insider may have real info OR is part of irrational crowd",
+      "insider_score": 70,
+      "insider_position": "YES",
+      "irrationality_score": 45,
+      "is_irrational": true,
+      "is_mispriced": true,
+      "edge": 0.45199999998688994,
+      "edge_percent": 45.199999998688995
+    },
+    "financial_analyst": {
+      "signal_quality": 48.0,
+      "stance": "WATCH_ONLY",
+      "edge_percent": 45.2,
+      "signal_strength": 70.0,
+      "insider_score": 70.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "ai_context": "\u2705 COPY\nVitality has a strong head-to-head record against Natus Vincere, with 15 wins and 0 losses in recent encounters. (strafe.com)"
   }
 ]
