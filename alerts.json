@@ -33625,7 +33625,8 @@
     "yes_price": 0.545,
     "strength": 74,
     "timestamp": "2026-04-16T11:55:05.673495",
-    "ai_context": "\u274c SKIP\nThe Russia-Ukraine conflict remains unresolved, with recent ceasefires failing due to mutual violations. GTA VI is confirmed for release on November 19, 2026. (apnews.com)"
+    "ai_context": "\u274c SKIP\nThe Russia-Ukraine conflict remains unresolved, with recent ceasefires failing due to mutual violations. GTA VI is confirmed for release on November 19, 2026. (apnews.com)",
+    "resolution_last_check": "2026-04-17T07:25:23.059388+00:00"
   },
   {
     "type": "WHALE_FLOW",
@@ -33643,7 +33644,8 @@
     "yes_price": 0.545,
     "strength": 75,
     "timestamp": "2026-04-16T20:38:07.596840",
-    "ai_context": "\u274c SKIP\nThe Russia-Ukraine ceasefire has been fragile, with violations reported during the Orthodox Easter truce. Additionally, prediction markets assign a low probability to a ceasefire by April 30, 2026, indicating skepticism about near-term peace prospects. (polymarket.com)"
+    "ai_context": "\u274c SKIP\nThe Russia-Ukraine ceasefire has been fragile, with violations reported during the Orthodox Easter truce. Additionally, prediction markets assign a low probability to a ceasefire by April 30, 2026, indicating skepticism about near-term peace prospects. (polymarket.com)",
+    "resolution_last_check": "2026-04-17T07:25:23.059614+00:00"
   },
   {
     "type": "WHALE_FLOW",
@@ -33661,7 +33663,8 @@
     "yes_price": 0.545,
     "strength": 72,
     "timestamp": "2026-04-16T22:09:10.771348",
-    "ai_context": "\u274c SKIP\nThe Orthodox Easter ceasefire between Russia and Ukraine collapsed, with both sides accusing each other of violations, including drone strikes. Prediction markets assign a 1.4% probability to a ceasefire by April 30, 2026, indicating minimal near-term peace prospects. (agenticnews.site)"
+    "ai_context": "\u274c SKIP\nThe Orthodox Easter ceasefire between Russia and Ukraine collapsed, with both sides accusing each other of violations, including drone strikes. Prediction markets assign a 1.4% probability to a ceasefire by April 30, 2026, indicating minimal near-term peace prospects. (agenticnews.site)",
+    "resolution_last_check": "2026-04-17T07:25:23.059623+00:00"
   },
   {
     "type": "TOP_TRADER",
@@ -33706,7 +33709,8 @@
     "market": "Will the Democratic Party control the House after the 2026 Midterm elections?",
     "market_slug": "which-party-will-win-the-house-in-2026",
     "amount": 1999.9999950000001,
-    "ai_context": "\u2705 COPY\nRecent polls indicate a Democratic lead in the 2026 congressional elections, with a 7-point advantage over Republicans. (yougov.com)\nAdditionally, historical patterns show the president's party often loses seats in midterm elections, suggesting a potential Democratic gain. (vegasinsider.com)"
+    "ai_context": "\u2705 COPY\nRecent polls indicate a Democratic lead in the 2026 congressional elections, with a 7-point advantage over Republicans. (yougov.com)\nAdditionally, historical patterns show the president's party often loses seats in midterm elections, suggesting a potential Democratic gain. (vegasinsider.com)",
+    "resolution_last_check": "2026-04-17T07:25:23.845542+00:00"
   },
   {
     "type": "TOP_TRADER",
@@ -33751,6 +33755,7 @@
     "market": "Will FC Internazionale Milano win on 2026-04-17?",
     "market_slug": "sea-int-cag-2026-04-17",
     "amount": 1675.5738720000002,
-    "ai_context": "\u2705 COPY\nFC Internazionale Milano is leading Serie A with 24 wins, 3 draws, and 5 losses, placing them first out of 20 teams. (footystats.org) They have a strong home record of 12 wins, 2 draws, and 2 losses. (footystats.org) Their upcoming match against Cagliari Calcio is scheduled for April 17, 2..."
+    "ai_context": "\u2705 COPY\nFC Internazionale Milano is leading Serie A with 24 wins, 3 draws, and 5 losses, placing them first out of 20 teams. (footystats.org) They have a strong home record of 12 wins, 2 draws, and 2 losses. (footystats.org) Their upcoming match against Cagliari Calcio is scheduled for April 17, 2...",
+    "resolution_last_check": "2026-04-17T07:25:24.616605+00:00"
   }
 ]
