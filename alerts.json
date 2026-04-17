@@ -1,107 +1,5 @@
 [
   {
-    "market": "Knicks vs. Jazz: O/U 229.5",
-    "market_slug": "nba-nyk-uta-2026-03-11-total-229pt5",
-    "wallet": "0xbe30ca541dc580f921f2a6ca8903825d2c519b00",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($1,873)",
-        "Low activity (1 txns)"
-      ],
-      "amount": 1872.78,
-      "odds": 0.49,
-      "raw_price": 0.49,
-      "outcome": "Under",
-      "potential_pnl": 1949.22,
-      "pnl_multiplier": 1.0408163265306123,
-      "wallet_age_days": 0,
-      "total_activities": 1
-    },
-    "timestamp": "2026-03-11T16:41:50.157931",
-    "trade_hash": "0xb862c9b0c349147048021a503f1486a928f5ed7fd739dd0c61f3c94828be029b",
-    "trade_timestamp": 1773247271,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Under",
-      "side": "BUY",
-      "price": 0.49,
-      "effective_price": 0.49,
-      "size": 3822.0,
-      "amount": 1872.78,
-      "potential_pnl": 1949.22,
-      "pnl_multiplier": 1.0408163265306123,
-      "is_no": false
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+25.2%)"
-      ],
-      "category": "sports",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.238,
-      "market_price": 0.49,
-      "edge": 0.252,
-      "edge_percent": 25.2,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Both teams have high-scoring offenses",
-          "Defensive strategies are less effective than usual",
-          "Game pace is faster than average"
-        ],
-        "weakest_link": "Defensive strategies are less effective than usual"
-      },
-      "category": "sports",
-      "narrative_drivers": [
-        "Recent performance of both teams suggests offensive strength",
-        "Injuries or absences affecting defensive players"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "INSIDER_ONLY",
-      "signal_emoji": "\ud83d\udc41\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider activity detected, no clear mispricing",
-      "action_suggestion": "Monitor: insider signal only, no statistical edge",
-      "insider_score": 70,
-      "insider_position": "UNDER",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.252,
-      "edge_percent": 25.2
-    },
-    "financial_analyst": {
-      "signal_quality": 51.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 25.2,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    }
-  },
-  {
     "market": "Will Bayer 04 Leverkusen win on 2026-03-17?",
     "market_slug": "ucl-ars-lev-2026-03-17-lev",
     "wallet": "0x790e8a6d067a0dab20de637b38add04f75080e43",
@@ -33757,5 +33655,50 @@
     "amount": 1675.5738720000002,
     "ai_context": "\u2705 COPY\nFC Internazionale Milano is leading Serie A with 24 wins, 3 draws, and 5 losses, placing them first out of 20 teams. (footystats.org) They have a strong home record of 12 wins, 2 draws, and 2 losses. (footystats.org) Their upcoming match against Cagliari Calcio is scheduled for April 17, 2...",
     "resolution_last_check": "2026-04-17T07:25:24.616605+00:00"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x7f89050ca00736835eee2d8784412758645a71ec14460f024ab3c165a307cec2",
+    "wallet": "0x885783760858e1bd5dd09a3c3f916cfa251ac270",
+    "trader": {
+      "rank": 12,
+      "address": "0x885783760858e1bd5dd09a3c3f916cfa251ac270",
+      "username": "BetTom42",
+      "profit": 5642135.735356,
+      "volume": 11212839.523403,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x801dbe416065cfa8ecffeae526eeb37f393fd8e0",
+      "side": "BUY",
+      "asset": "70530382817944476125648239982318905983026944956853105853882601665630375614463",
+      "conditionId": "0xe846dd72f8a654ef137a3e23a88226400b42cc0ca817ab4390a615860e08cafa",
+      "size": 2000,
+      "price": 0.8,
+      "timestamp": 1776442590,
+      "title": "Iran agrees to surrender enriched uranium stockpile by December 31, 2026?",
+      "slug": "iran-agrees-to-surrender-enriched-uranium-stockpile-by-december-31-2026",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/iran-agrees-to-end-enrichment-of-uranium-before-july-G-riWTpXuKoj.jpg",
+      "eventSlug": "iran-agrees-to-surrender-enriched-uranium-stockpile-by",
+      "outcome": "Yes",
+      "outcomeIndex": 0,
+      "name": "Niseko",
+      "pseudonym": "Mushy-Buck",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x7f89050ca00736835eee2d8784412758645a71ec14460f024ab3c165a307cec2",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Iran agrees to surrender enriched uranium stockpile by December 31, 2026?",
+    "market_slug": "iran-agrees-to-surrender-enriched-uranium-stockpile-by",
+    "amount": 1600.0,
+    "ai_context": "\u274c SKIP\nRecent U.S. proposals demand a 20-year moratorium on uranium enrichment and the surrender of existing stockpiles, but Iran has historically rejected such concessions. (axios.com)"
   }
 ]
