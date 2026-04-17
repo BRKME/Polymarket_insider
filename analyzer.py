@@ -4,7 +4,7 @@ import re
 from functools import lru_cache
 import trade_economics
 from config import (
-    MIN_BET_SIZE, NEW_WALLET_DAYS_HIGH, NEW_WALLET_DAYS_LOW,
+    MIN_BET_SIZE, NEW_WALLET_DAYS_HIGH, NEW_WALLET_DAYS_LOW, NEW_WALLET_DAYS_MED,
     LOW_ACTIVITY_THRESHOLD, LOW_ODDS_THRESHOLD, TIME_TO_RESOLVE_HOURS, SCORES,
     BLOCK_15MIN_MARKETS, BLOCK_SHORT_PRICE_PREDICTIONS, MAX_ODDS_THRESHOLD
 )
@@ -26,6 +26,8 @@ def calculate_wallet_age_score(first_activity_timestamp: int) -> int:
         return SCORES["wallet_age_high"]
     elif age_days < NEW_WALLET_DAYS_LOW:
         return SCORES["wallet_age_low"]
+    elif age_days < NEW_WALLET_DAYS_MED:
+        return SCORES.get("wallet_age_med", 10)
     return 0
 
 # ══════════════════════════════════════════════════════════════════
@@ -405,7 +407,10 @@ def calculate_score(trade: Dict, wallet_data: Dict, market: Dict) -> Dict:
     if wallet_age_score > 0:
         age_days = calculate_wallet_age_days(wallet_data.get("first_activity_timestamp"))
         score += wallet_age_score
-        flags.append(f"New wallet ({age_days}d old)")
+        if age_days < NEW_WALLET_DAYS_LOW:
+            flags.append(f"New wallet ({age_days}d old)")
+        else:
+            flags.append(f"Recent wallet ({age_days}d old)")
         print(f"     Wallet age: {age_days}d → +{wallet_age_score} pts")
     else:
         age_days = calculate_wallet_age_days(wallet_data.get("first_activity_timestamp"))

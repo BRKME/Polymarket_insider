@@ -185,10 +185,9 @@ def is_trade_suspicious(trade: Dict, market: Dict) -> bool:
         if amount < 1000:
             return False
         
-        # FILTER 2: Odds filter (conviction without certainty)
-        # Skip coin flips (45-55%) AND near-certain bets (>95% = usually arbs)
-        if 0.45 <= price <= 0.55:
-            return False
+        # FILTER 2: Skip near-certain bets (>95% = usually arbs)
+        # Removed coin-flip filter (0.45-0.55) — insiders often bet when
+        # market is still at 50/50 before information moves the price
         if price > 0.95:  # >95% odds = arbitrage territory
             return False
         

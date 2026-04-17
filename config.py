@@ -26,7 +26,8 @@ BLOCK_SHORT_PRICE_PREDICTIONS = True  # Block <24h price arbitrage
 # Wallet Analysis Criteria
 NEW_WALLET_DAYS_HIGH = 3    # Very new wallet (40 points)
 NEW_WALLET_DAYS_LOW = 7     # New wallet (20 points)
-LOW_ACTIVITY_THRESHOLD = 5  # Low transaction count
+NEW_WALLET_DAYS_MED = 14    # Recent wallet (10 points)
+LOW_ACTIVITY_THRESHOLD = 20  # Low transaction count (raised from 5 — Gujarat wallet at 17txns missed by 10pts)
 LOW_ODDS_THRESHOLD = 0.10   # Against trend: odds < 10%
 TIME_TO_RESOLVE_HOURS = 24  # Close to deadline
 
@@ -34,6 +35,7 @@ TIME_TO_RESOLVE_HOURS = 24  # Close to deadline
 SCORES = {
     "wallet_age_high": 40,
     "wallet_age_low": 20,
+    "wallet_age_med": 10,
     "against_trend": 25,
     "large_bet": 20,
     "timing": 15,

@@ -242,6 +242,12 @@ def scan_top_traders(tracked_hashes: set) -> List[Dict]:
         alerts = []
         total_trades_found = 0
         traders_with_trades = 0
+        # Debug counters
+        tt_dedup = 0
+        tt_extreme_odds = 0
+        tt_small = 0
+        tt_crypto = 0
+        tt_low_roi = 0
         
         for address, trader_info in list(top_wallets.items())[:20]:  # Limit to top 20 to avoid rate limits
             trades = fetch_trader_recent_trades(address, minutes_back=60)  # Increased to 60 min
@@ -255,6 +261,7 @@ def scan_top_traders(tracked_hashes: set) -> List[Dict]:
                 
                 # Skip if already alerted
                 if trade_hash in tracked_hashes:
+                    tt_dedup += 1
                     continue
                 
                 # ══════════════════════════════════════════
@@ -271,9 +278,11 @@ def scan_top_traders(tracked_hashes: set) -> List[Dict]:
                 
                 # Skip extreme odds (97%+ or 3%-) - near zero profit potential
                 if effective_odds >= 0.97 or effective_odds <= 0.03:
+                    tt_extreme_odds += 1
                     continue
                 
                 if cost < 1500:  # Skip small trades (filter noise from top traders)
+                    tt_small += 1
                     continue
                 
                 # Skip daily crypto/price markets
@@ -281,6 +290,7 @@ def scan_top_traders(tracked_hashes: set) -> List[Dict]:
                 title_lower = market_name.lower()
                 
                 if 'up or down' in title_lower:
+                    tt_crypto += 1
                     continue
                 
                 crypto_kw = ['bitcoin', 'ethereum', 'solana', 'btc', 'eth', 'crypto']
@@ -288,10 +298,12 @@ def scan_top_traders(tracked_hashes: set) -> List[Dict]:
                             'dip to', 'hit', 'drop to', 'fall to', 'rise to',
                             'reach', 'crash']
                 if any(k in title_lower for k in crypto_kw) and any(k in title_lower for k in price_kw):
+                    tt_crypto += 1
                     continue
                 
                 # Skip low ROI trades (>93% odds)
                 if effective_odds >= 0.93:
+                    tt_low_roi += 1
                     continue
                 market_slug = trade.get('eventSlug', '') or trade.get('slug', '') or trade.get('market', {}).get('slug', '')
                 
@@ -309,6 +321,7 @@ def scan_top_traders(tracked_hashes: set) -> List[Dict]:
                 print(f"[{datetime.now()}] 👑 Top trader #{trader_info['rank']} trade: ${cost:,.0f} {outcome} @ {effective_odds*100:.0f}% on {market_name[:50]}")
         
         print(f"[{datetime.now()}] 🎯 Goal #3: {traders_with_trades}/20 traders had trades, {total_trades_found} total trades, {len(alerts)} alerts")
+        print(f"[{datetime.now()}]   Filtered: dedup={tt_dedup}, extreme_odds={tt_extreme_odds}, small(<$1.5K)={tt_small}, crypto={tt_crypto}, low_roi(>93%)={tt_low_roi}")
         return alerts
         
     except Exception as e:
