@@ -281,7 +281,7 @@ def scan_top_traders(tracked_hashes: set) -> List[Dict]:
                     tt_extreme_odds += 1
                     continue
                 
-                if cost < 1500:  # Skip small trades (filter noise from top traders)
+                if cost < 1000:  # Skip small trades (match MIN_BET_SIZE)
                     tt_small += 1
                     continue
                 
@@ -459,6 +459,7 @@ def main():
                 # Dedup by market
                 whale_key = f"whale_{signal['condition_id']}_{signal['dominant_side']}"
                 if whale_key in tracked_hashes:
+                    print(f"[{datetime.now()}] 🐋 Whale dedup: {signal['market'][:40]} already alerted")
                     continue
                 
                 # Generate AI context
@@ -472,8 +473,8 @@ def main():
                     )
                     if context:
                         signal['ai_context'] = context
-                except Exception:
-                    pass
+                except Exception as e:
+                    print(f"[{datetime.now()}] ⚠️  Whale AI skipped: {e}")
                 
                 # Send Telegram
                 msg = format_whale_alert(signal)
@@ -481,6 +482,8 @@ def main():
                     msg += f"\n🤖 AI\n→ {signal['ai_context']}"
                 
                 msg += f"\nPolymarket Insiders | {datetime.utcnow().strftime('%Y-%m-%d %H:%M')} UTC"
+                
+                print(f"[{datetime.now()}] 🐋 Sending whale alert ({len(msg)} chars)...")
                 
                 try:
                     token = os.getenv("TELEGRAM_BOT_TOKEN")
@@ -497,6 +500,10 @@ def main():
                             existing_alerts.append(signal)
                             whale_sent += 1
                             print(f"[{datetime.now()}] ✅ Whale alert sent: ${signal['dominant_volume']:,.0f} {signal['dominant_side']} on {signal['market'][:40]}")
+                        else:
+                            print(f"[{datetime.now()}] ❌ Whale Telegram error: {resp.status_code} {resp.text[:100]}")
+                    else:
+                        print(f"[{datetime.now()}] ❌ Whale: missing TELEGRAM_BOT_TOKEN or CHAT_ID")
                 except Exception as e:
                     print(f"[{datetime.now()}] ❌ Whale alert failed: {e}")
     except Exception as e:
