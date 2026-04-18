@@ -2,108 +2,6 @@
   {
     "market": "Suns vs. Raptors: O/U 218.5",
     "market_slug": "nba-phx-tor-2026-03-13-total-218pt5",
-    "wallet": "0xc756725ef0de18e645d25b1b414c089b2cd6d19f",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($1,459)",
-        "Low activity (1 txns)"
-      ],
-      "amount": 1459.22,
-      "odds": 0.49,
-      "raw_price": 0.49,
-      "outcome": "Under",
-      "potential_pnl": 1518.7800000000002,
-      "pnl_multiplier": 1.0408163265306123,
-      "wallet_age_days": 0,
-      "total_activities": 1
-    },
-    "timestamp": "2026-03-13T13:37:37.835811",
-    "trade_hash": "0x363cb2dfd54c26e38b0cf717abafa152e6c762c75da995d4b327c3f2a32c65ed",
-    "trade_timestamp": 1773408911,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Under",
-      "side": "BUY",
-      "price": 0.49,
-      "effective_price": 0.49,
-      "size": 2978.0,
-      "amount": 1459.22,
-      "potential_pnl": 1518.7800000000002,
-      "pnl_multiplier": 1.0408163265306123,
-      "is_no": false
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+25.2%)"
-      ],
-      "category": "sports",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.238,
-      "market_price": 0.49,
-      "edge": 0.252,
-      "edge_percent": 25.2,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Both teams have high-scoring offenses",
-          "Defensive strategies are ineffective",
-          "Game pace is fast"
-        ],
-        "weakest_link": "Defensive strategies are ineffective"
-      },
-      "category": "sports",
-      "narrative_drivers": [
-        "Recent offensive performances",
-        "Injuries affecting defensive players"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "INSIDER_ONLY",
-      "signal_emoji": "\ud83d\udc41\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider activity detected, no clear mispricing",
-      "action_suggestion": "Monitor: insider signal only, no statistical edge",
-      "insider_score": 70,
-      "insider_position": "UNDER",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.252,
-      "edge_percent": 25.2
-    },
-    "financial_analyst": {
-      "signal_quality": 51.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 25.2,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    }
-  },
-  {
-    "market": "Suns vs. Raptors: O/U 218.5",
-    "market_slug": "nba-phx-tor-2026-03-13-total-218pt5",
     "wallet": "0x027b07e66d668fa0d470b56630724002e5664f1d",
     "analysis": {
       "score": 70,
@@ -33129,5 +33027,50 @@
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
     },
     "ai_context": "\u2705 COPY\nKT Rolster has secured five consecutive victories in the LCK 2026 season, including a 2-0 sweep over T1 and a 2-1 win against Dplus KIA. (bo3.gg)"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xf7f5bf8796d766c9f36ee42f80078b1e61d9de79b2aff6b1af2e712954458ce1",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.515682004,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xead152b855effa6b5b5837f53b24c0756830c76a",
+      "side": "BUY",
+      "asset": "16877913317868379354955145929070255923673030240898003277779432512567125838321",
+      "conditionId": "0xee8ae51d1b60b54488b1d5aa21b3cee61fae232649791857d309e4b84246bcf9",
+      "size": 3662.42,
+      "price": 0.52,
+      "timestamp": 1776508628,
+      "title": "Will Club Atl\u00e9tico de Madrid win on 2026-04-18?",
+      "slug": "cdr-atm-rso-2026-04-18-atm",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/copa-del-ray-c8d5e1b076.png",
+      "eventSlug": "cdr-atm-rso-2026-04-18",
+      "outcome": "Yes",
+      "outcomeIndex": 0,
+      "name": "elkmonkey",
+      "pseudonym": "Unconscious-Penguin",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xf7f5bf8796d766c9f36ee42f80078b1e61d9de79b2aff6b1af2e712954458ce1",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Will Club Atl\u00e9tico de Madrid win on 2026-04-18?",
+    "market_slug": "cdr-atm-rso-2026-04-18",
+    "amount": 1904.4584000000002,
+    "ai_context": "\u274c SKIP\nAtl\u00e9tico Madrid is scheduled to play Real Sociedad in the Copa del Rey final on April 18, 2026, at 9:00 PM local time in Sevilla. (elpais.com) The trader's bet on Atl\u00e9tico Madrid winning at 52% odds is based on this upcoming match. Given the high stakes of a final and the competitive natur..."
   }
 ]
