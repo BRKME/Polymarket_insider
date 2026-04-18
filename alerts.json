@@ -1596,7 +1596,8 @@
       "signal_strength": 103.0,
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    }
+    },
+    "resolution_last_check": "2026-04-18T06:57:23.183564+00:00"
   },
   {
     "type": "TOP_TRADER",
@@ -32666,7 +32667,8 @@
     "market": "Iran agrees to surrender enriched uranium stockpile by December 31, 2026?",
     "market_slug": "iran-agrees-to-surrender-enriched-uranium-stockpile-by",
     "amount": 1600.0,
-    "ai_context": "\u274c SKIP\nRecent U.S. proposals demand a 20-year moratorium on uranium enrichment and the surrender of existing stockpiles, but Iran has historically rejected such concessions. (axios.com)"
+    "ai_context": "\u274c SKIP\nRecent U.S. proposals demand a 20-year moratorium on uranium enrichment and the surrender of existing stockpiles, but Iran has historically rejected such concessions. (axios.com)",
+    "resolution_last_check": "2026-04-18T07:01:11.355341+00:00"
   },
   {
     "market": "Counter-Strike: Vitality vs Natus Vincere (BO3) - IEM Rio Playoffs",
@@ -32776,7 +32778,8 @@
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
     },
-    "ai_context": "\u2705 COPY\nVitality has a strong head-to-head record against Natus Vincere, with 15 wins and 0 losses in recent encounters. (strafe.com)"
+    "ai_context": "\u2705 COPY\nVitality has a strong head-to-head record against Natus Vincere, with 15 wins and 0 losses in recent encounters. (strafe.com)",
+    "resolution_last_check": "2026-04-18T07:01:11.997762+00:00"
   },
   {
     "market": "Will WTI Crude Oil (WTI) hit (LOW) $80 in April?",
@@ -32885,7 +32888,8 @@
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
     },
-    "ai_context": "\u274c SKIP\nWTI Crude Oil prices have been consistently above $80 in April 2026, with no significant downward trend observed."
+    "ai_context": "\u274c SKIP\nWTI Crude Oil prices have been consistently above $80 in April 2026, with no significant downward trend observed.",
+    "resolution_last_check": "2026-04-18T07:01:12.643563+00:00"
   },
   {
     "type": "TOP_TRADER",
@@ -32930,7 +32934,8 @@
     "market": "BC Dubai vs. Valencia",
     "market_slug": "euroleague-dubai-valencia-2026-04-17",
     "amount": 3599.1,
-    "ai_context": "\u274c SKIP\nBC Dubai has a 0% win rate against Valencia, losing their only previous encounter 80-78 on October 30, 2025. (livescores.biz) In their last five matches, BC Dubai has won two and lost three, including a recent 85-69 defeat to Anadolu Efes on April 10, 2026. (betexplorer.com) Valencia, on t..."
+    "ai_context": "\u274c SKIP\nBC Dubai has a 0% win rate against Valencia, losing their only previous encounter 80-78 on October 30, 2025. (livescores.biz) In their last five matches, BC Dubai has won two and lost three, including a recent 85-69 defeat to Anadolu Efes on April 10, 2026. (betexplorer.com) Valencia, on t...",
+    "resolution_last_check": "2026-04-18T07:01:13.291965+00:00"
   },
   {
     "type": "TOP_TRADER",
@@ -32975,7 +32980,8 @@
     "market": "Tallahassee: Daniil Glinka vs Jack Kennedy",
     "market_slug": "atp-glinka-kennedy-2026-04-17",
     "amount": 2478.6874362008552,
-    "ai_context": "\u2705 COPY\nDaniil Glinka, ranked No. 177, has a 66.7% win rate in 2026, including a Challenger title in Drummondville. Jack Kennedy, ranked No. 856, is a 17-year-old with limited professional experience. Glinka's higher ranking and experience suggest an advantage. (tennisstats.com)"
+    "ai_context": "\u2705 COPY\nDaniil Glinka, ranked No. 177, has a 66.7% win rate in 2026, including a Challenger title in Drummondville. Jack Kennedy, ranked No. 856, is a 17-year-old with limited professional experience. Glinka's higher ranking and experience suggest an advantage. (tennisstats.com)",
+    "resolution_last_check": "2026-04-18T07:01:13.942704+00:00"
   },
   {
     "type": "TOP_TRADER",
@@ -33020,7 +33026,8 @@
     "market": "Atlanta Braves vs. Philadelphia Phillies",
     "market_slug": "mlb-atl-phi-2026-04-17",
     "amount": 1845.31328,
-    "ai_context": "\u274c SKIP\nThe Atlanta Braves have a 12-7 record this season, while the Philadelphia Phillies are 8-10. The Braves have won both recent matchups against the Phillies, including a 3-2 victory on March 18, 2026. (oddsindex.com) Additionally, the Braves have a slightly better overall head-to-head record..."
+    "ai_context": "\u274c SKIP\nThe Atlanta Braves have a 12-7 record this season, while the Philadelphia Phillies are 8-10. The Braves have won both recent matchups against the Phillies, including a 3-2 victory on March 18, 2026. (oddsindex.com) Additionally, the Braves have a slightly better overall head-to-head record...",
+    "resolution_last_check": "2026-04-18T07:01:14.591230+00:00"
   },
   {
     "type": "TOP_TRADER",
@@ -33065,7 +33072,8 @@
     "market": "Rockets vs. Lakers",
     "market_slug": "nba-hou-lal-2026-04-18",
     "amount": 2402.225,
-    "ai_context": "NBA Schedule\nLakers (LAL) @ Rockets (HOU) on Wednesday, Mar 18, 2026 at 06:30 PM PDT. Final score: LAL 124 - HOU 116\nRockets @ Lakers on Saturday, Apr 18, 2026 at 05:30 PM PDT\nThe Los Angeles Lakers have a 4-2 record against the Houston Rockets over the past two years. (statmuse.com) In their mos..."
+    "ai_context": "NBA Schedule\nLakers (LAL) @ Rockets (HOU) on Wednesday, Mar 18, 2026 at 06:30 PM PDT. Final score: LAL 124 - HOU 116\nRockets @ Lakers on Saturday, Apr 18, 2026 at 05:30 PM PDT\nThe Los Angeles Lakers have a 4-2 record against the Houston Rockets over the past two years. (statmuse.com) In their mos...",
+    "resolution_last_check": "2026-04-18T07:01:15.225508+00:00"
   },
   {
     "type": "TOP_TRADER",
@@ -33110,7 +33118,8 @@
     "market": "Warriors vs. Suns",
     "market_slug": "nba-gsw-phx-2026-04-17",
     "amount": 4597.457923003601,
-    "ai_context": "\u274c SKIP\nThe Suns have a 1-3 record against the Warriors this season, including a 95-133 loss on April 9, 2025. (basketballstats.net) Additionally, the Suns have lost 5 of their last 8 games. (freetips.com)"
+    "ai_context": "\u274c SKIP\nThe Suns have a 1-3 record against the Warriors this season, including a 95-133 loss on April 9, 2025. (basketballstats.net) Additionally, the Suns have lost 5 of their last 8 games. (freetips.com)",
+    "resolution_last_check": "2026-04-18T07:01:15.795335+00:00"
   },
   {
     "type": "WHALE_FLOW",
@@ -33128,7 +33137,8 @@
     "yes_price": 0.545,
     "strength": 100,
     "timestamp": "2026-04-18T04:03:32.468934",
-    "ai_context": "\u274c SKIP\nThe Russia-Ukraine ceasefire was a brief 32-hour truce during Orthodox Easter, which collapsed with both sides accusing each other of violations. (polymarket.com) Prediction markets assign a 1.4% probability to a ceasefire by April 30, 2026, indicating minimal near-term peace prospects. (a..."
+    "ai_context": "\u274c SKIP\nThe Russia-Ukraine ceasefire was a brief 32-hour truce during Orthodox Easter, which collapsed with both sides accusing each other of violations. (polymarket.com) Prediction markets assign a 1.4% probability to a ceasefire by April 30, 2026, indicating minimal near-term peace prospects. (a...",
+    "resolution_last_check": "2026-04-18T07:01:15.795666+00:00"
   },
   {
     "type": "TOP_TRADER",
@@ -33173,7 +33183,8 @@
     "market": "Will Angers SCO win on 2026-04-18?",
     "market_slug": "fl1-ang-hac-2026-04-18",
     "amount": 12690.252396133383,
-    "ai_context": "\u2705 COPY\nAngers SCO has lost their last five matches, including a 5-1 defeat to Lens and a 2-0 loss to Nice. (foxsports.com)\nLe Havre AC has also been winless in their last five games, with a 3-2 loss to Paris FC and a 0-0 draw against Lyon. (foxsports.com)\nBoth teams have struggled recently, but A..."
+    "ai_context": "\u2705 COPY\nAngers SCO has lost their last five matches, including a 5-1 defeat to Lens and a 2-0 loss to Nice. (foxsports.com)\nLe Havre AC has also been winless in their last five games, with a 3-2 loss to Paris FC and a 0-0 draw against Lyon. (foxsports.com)\nBoth teams have struggled recently, but A...",
+    "resolution_last_check": "2026-04-18T07:01:16.426629+00:00"
   },
   {
     "type": "TOP_TRADER",
@@ -33218,6 +33229,7 @@
     "market": "Will Le Havre AC win on 2026-04-18?",
     "market_slug": "fl1-ang-hac-2026-04-18",
     "amount": 4763.612076599999,
-    "ai_context": "\u274c SKIP\nLe Havre AC has been in poor form recently, with four consecutive losses and two draws in their last six matches. Their most recent match was a 1-1 draw against Auxerre on April 5, 2026. (espn.com)"
+    "ai_context": "\u274c SKIP\nLe Havre AC has been in poor form recently, with four consecutive losses and two draws in their last six matches. Their most recent match was a 1-1 draw against Auxerre on April 5, 2026. (espn.com)",
+    "resolution_last_check": "2026-04-18T07:01:17.066120+00:00"
   }
 ]
