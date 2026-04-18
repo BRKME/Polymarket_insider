@@ -1,51 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0x0a34aef2179e97548cd9b0abe789225ca3183687e0ce8009f3ce61b329871983",
-    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-    "trader": {
-      "rank": 1,
-      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-      "username": "Theo4",
-      "profit": 22053933.752321757,
-      "volume": 43013258.51568201,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x6d3c5bd13984b2de47c3a88ddc455309aab3d294",
-      "side": "SELL",
-      "asset": "23908744235029436668032187407696757858496393436364928402129538177797433532204",
-      "conditionId": "0x1ebce1a078e88ce3b05e46d6c67f3e0b4a49b5a9ec362ec59c8ad3324c42f233",
-      "size": 10000,
-      "price": 0.67,
-      "timestamp": 1773507441,
-      "title": "Will SSC Napoli win on 2026-03-14?",
-      "slug": "sea-nap-lec-2026-03-14-nap",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Serie-A-Logo.png",
-      "eventSlug": "sea-nap-lec-2026-03-14",
-      "outcome": "Yes",
-      "outcomeIndex": 0,
-      "name": "VeryLucky888",
-      "pseudonym": "Scornful-West",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x0a34aef2179e97548cd9b0abe789225ca3183687e0ce8009f3ce61b329871983",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Will SSC Napoli win on 2026-03-14?",
-    "market_slug": "sea-nap-lec-2026-03-14",
-    "amount": 6700.0,
-    "resolution_last_check": "2026-04-13T19:41:43.997155+00:00"
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0x7d52e0e8d93310ce50c92d4e41eb83f5f5b0f115452e6e7cf1e114b59109d4f8",
     "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
     "trader": {
@@ -32762,5 +32717,50 @@
     "market_slug": "fl1-lil-ogc-2026-04-18-more-markets",
     "amount": 1181.4286902403474,
     "ai_context": "\u274c SKIP \u2014 Lille OSC's strong home form and Nice's poor away record suggest both teams are likely to score.\nLille OSC has won four of their last five Ligue 1 games, including a 4-0 victory at Toulouse, and have conceded only 14 goals in 14 home matches this season. OGC Nice, on the other hand, have won just three of their 14 away games in Ligue 1 this season, with 10 losses. (betbrain.com) Given these statistics, it's reasonable to expect both teams to score in this match."
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xfddd26ae65b9e6511da7cd150055b7d3f4038cb89b2e870c56068f0b8321b30b",
+    "wallet": "0x1f2dd6d473f3e824cd2f8a89d9c69fb96f6ad0cf",
+    "trader": {
+      "rank": 2,
+      "address": "0x1f2dd6d473f3e824cd2f8a89d9c69fb96f6ad0cf",
+      "username": "Fredi9999",
+      "profit": 16619506.631730152,
+      "volume": 76611316.90515402,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x93f6f199a8f1aa4a4a16f875bc45c13f58054814",
+      "side": "BUY",
+      "asset": "77907943569351511256344011172651442863615065095583988492195678440403992588829",
+      "conditionId": "0x95dfb017742da9c3d5bfe40730d2e94cb78c0ec146484a9ac8ac8dd9675ce92c",
+      "size": 8784.4,
+      "price": 0.4,
+      "timestamp": 1776540712,
+      "title": "Counter-Strike: FURIA vs Vitality - Map 2 Winner",
+      "slug": "cs2-furia-vit-2026-04-18-game2",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/counter-strike-image-16c415c538.png",
+      "eventSlug": "cs2-furia-vit-2026-04-18",
+      "outcome": "FURIA",
+      "outcomeIndex": 0,
+      "name": "Valui",
+      "pseudonym": "General-Lollipop",
+      "bio": "Only value bets",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xfddd26ae65b9e6511da7cd150055b7d3f4038cb89b2e870c56068f0b8321b30b",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Counter-Strike: FURIA vs Vitality - Map 2 Winner",
+    "market_slug": "cs2-furia-vit-2026-04-18",
+    "amount": 3513.76,
+    "ai_context": "\u274c SKIP \u2014 Vitality has a superior head-to-head record and recent form against FURIA.\nVitality leads the head-to-head 5-3 and recently defeated FURIA 3-1 in the IEM Krakow 2026 grand final. (tips.gg) Additionally, Vitality has won 9 of their last 10 matches, while FURIA has won 7 of their last 10. (cs2bet.io) Given these factors, the bet on FURIA is not supported by the facts."
   }
 ]
