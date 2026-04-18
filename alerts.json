@@ -1,209 +1,5 @@
 [
   {
-    "market": "Spread: Rockets (-7.5)",
-    "market_slug": "nba-nop-hou-2026-03-13-spread-home-7pt5",
-    "wallet": "0xb449651abe04a8eb378d22c758887100d123ad68",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($1,976)",
-        "Low activity (3 txns)"
-      ],
-      "amount": 1975.8400000000001,
-      "odds": 0.53,
-      "raw_price": 0.53,
-      "outcome": "Pelicans",
-      "potential_pnl": 1752.1599999999999,
-      "pnl_multiplier": 0.8867924528301886,
-      "wallet_age_days": 0,
-      "total_activities": 3
-    },
-    "timestamp": "2026-03-13T08:23:58.813493",
-    "trade_hash": "0x96df89044c43d2a63eecc16d3c80e45e6ae358174125970ea5c7113e2b19d69f",
-    "trade_timestamp": 1773389955,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Pelicans",
-      "side": "BUY",
-      "price": 0.53,
-      "effective_price": 0.53,
-      "size": 3728.0,
-      "amount": 1975.8400000000001,
-      "potential_pnl": 1752.1599999999999,
-      "pnl_multiplier": 0.8867924528301886,
-      "is_no": false
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+28.4%)"
-      ],
-      "category": "other",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.246,
-      "market_price": 0.53,
-      "edge": 0.28400000000000003,
-      "edge_percent": 28.400000000000002,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Rockets' key players perform at peak level",
-          "Opposing team has significant injuries",
-          "Home court advantage favors Rockets"
-        ],
-        "weakest_link": "Opposing team has significant injuries"
-      },
-      "category": "sports",
-      "narrative_drivers": [
-        "Rockets' recent performance trends",
-        "Public sentiment around the team's chances"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "INSIDER_ONLY",
-      "signal_emoji": "\ud83d\udc41\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider activity detected, no clear mispricing",
-      "action_suggestion": "Monitor: insider signal only, no statistical edge",
-      "insider_score": 70,
-      "insider_position": "PELICANS",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.28400000000000003,
-      "edge_percent": 28.400000000000002
-    },
-    "financial_analyst": {
-      "signal_quality": 51.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 28.4,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    }
-  },
-  {
-    "market": "Spread: Rockets (-7.5)",
-    "market_slug": "nba-nop-hou-2026-03-13-spread-home-7pt5",
-    "wallet": "0xe2f01eda99dd66bbd841bf69a6b5b62a8ee68b05",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($2,340)",
-        "Low activity (3 txns)"
-      ],
-      "amount": 2339.9500000000003,
-      "odds": 0.53,
-      "raw_price": 0.53,
-      "outcome": "Pelicans",
-      "potential_pnl": 2075.05,
-      "pnl_multiplier": 0.8867924528301886,
-      "wallet_age_days": 0,
-      "total_activities": 3
-    },
-    "timestamp": "2026-03-13T08:24:03.600762",
-    "trade_hash": "0xbf0726fedb278fc3bc219fdc79dbefd0f1007fe276c4ad8707fea3c05549af7a",
-    "trade_timestamp": 1773389955,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Pelicans",
-      "side": "BUY",
-      "price": 0.53,
-      "effective_price": 0.53,
-      "size": 4415.0,
-      "amount": 2339.9500000000003,
-      "potential_pnl": 2075.05,
-      "pnl_multiplier": 0.8867924528301886,
-      "is_no": false
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+28.4%)"
-      ],
-      "category": "other",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.246,
-      "market_price": 0.53,
-      "edge": 0.28400000000000003,
-      "edge_percent": 28.400000000000002,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Rockets perform well at home",
-          "Key players on the opposing team are injured",
-          "Recent performance trends favor the Rockets"
-        ],
-        "weakest_link": "Key players on the opposing team are injured"
-      },
-      "category": "sports",
-      "narrative_drivers": [
-        "Rockets' recent form",
-        "Public sentiment towards the Rockets"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "INSIDER_ONLY",
-      "signal_emoji": "\ud83d\udc41\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider activity detected, no clear mispricing",
-      "action_suggestion": "Monitor: insider signal only, no statistical edge",
-      "insider_score": 70,
-      "insider_position": "PELICANS",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.28400000000000003,
-      "edge_percent": 28.400000000000002
-    },
-    "financial_analyst": {
-      "signal_quality": 51.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 28.4,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    }
-  },
-  {
     "market": "Timberwolves vs. Warriors: O/U 227.5",
     "market_slug": "nba-min-gsw-2026-03-13-total-227pt5",
     "wallet": "0xfaa2bde02ebef4cec23e23fb5b775b04f7837abf",
@@ -33478,5 +33274,68 @@
     "market_slug": "nba-hou-lal-2026-04-18",
     "amount": 2402.225,
     "ai_context": "NBA Schedule\nLakers (LAL) @ Rockets (HOU) on Wednesday, Mar 18, 2026 at 06:30 PM PDT. Final score: LAL 124 - HOU 116\nRockets @ Lakers on Saturday, Apr 18, 2026 at 05:30 PM PDT\nThe Los Angeles Lakers have a 4-2 record against the Houston Rockets over the past two years. (statmuse.com) In their mos..."
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x3b3e06cfbe125c9e3bb46c7a4f0d929b8ce32b0eaa388a330bee8b156d6f18c8",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.515682004,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xd5eb1a00aef5b814f54f9dff7fb8a6556650a8ee",
+      "side": "BUY",
+      "asset": "71605231222505832481661629540705063397390747980537417961159193338092342802430",
+      "conditionId": "0x6930e1f825759849d39cd627214bcd1735aa640a84ee84030f3933de507880d8",
+      "size": 5408.774028000001,
+      "price": 0.8499999998527578,
+      "timestamp": 1776484316,
+      "title": "Warriors vs. Suns",
+      "slug": "nba-gsw-phx-2026-04-17",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
+      "eventSlug": "nba-gsw-phx-2026-04-17",
+      "outcome": "Suns",
+      "outcomeIndex": 1,
+      "name": "reinok41",
+      "pseudonym": "Well-Off-Tog",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x3b3e06cfbe125c9e3bb46c7a4f0d929b8ce32b0eaa388a330bee8b156d6f18c8",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Warriors vs. Suns",
+    "market_slug": "nba-gsw-phx-2026-04-17",
+    "amount": 4597.457923003601,
+    "ai_context": "\u274c SKIP\nThe Suns have a 1-3 record against the Warriors this season, including a 95-133 loss on April 9, 2025. (basketballstats.net) Additionally, the Suns have lost 5 of their last 8 games. (freetips.com)"
+  },
+  {
+    "type": "WHALE_FLOW",
+    "condition_id": "0x8666fd4c10a01066aded35d2cd0607252bcaf5fb78a9839be5bb6cc563f706b2",
+    "market": "Russia-Ukraine Ceasefire before GTA VI?",
+    "market_slug": "russia-ukraine-ceasefire-before-gta-vi-554",
+    "event_slug": "",
+    "dominant_side": "YES",
+    "dominant_volume": 266067.0,
+    "total_volume": 266067.0,
+    "imbalance_pct": 100.0,
+    "unique_wallets": 37,
+    "trade_count": 58,
+    "max_single_trade": 251415.0,
+    "yes_price": 0.545,
+    "strength": 100,
+    "timestamp": "2026-04-18T04:03:32.468934",
+    "ai_context": "\u274c SKIP\nThe Russia-Ukraine ceasefire was a brief 32-hour truce during Orthodox Easter, which collapsed with both sides accusing each other of violations. (polymarket.com) Prediction markets assign a 1.4% probability to a ceasefire by April 30, 2026, indicating minimal near-term peace prospects. (a..."
   }
 ]
