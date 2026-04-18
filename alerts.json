@@ -2,108 +2,6 @@
   {
     "market": "Spread: Rockets (-7.5)",
     "market_slug": "nba-nop-hou-2026-03-13-spread-home-7pt5",
-    "wallet": "0x3180d6bb60420e0303ba04ef741f3ee40accb045",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($2,250)",
-        "Low activity (3 txns)"
-      ],
-      "amount": 2249.85,
-      "odds": 0.53,
-      "raw_price": 0.53,
-      "outcome": "Pelicans",
-      "potential_pnl": 1995.1499999999996,
-      "pnl_multiplier": 0.8867924528301886,
-      "wallet_age_days": 0,
-      "total_activities": 3
-    },
-    "timestamp": "2026-03-13T08:23:51.883548",
-    "trade_hash": "0xdd5f0e836f3f4e16fe417c4e378077448c51f20df5fd18e576839b8e88d85af5",
-    "trade_timestamp": 1773389959,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Pelicans",
-      "side": "BUY",
-      "price": 0.53,
-      "effective_price": 0.53,
-      "size": 4245.0,
-      "amount": 2249.85,
-      "potential_pnl": 1995.1499999999996,
-      "pnl_multiplier": 0.8867924528301886,
-      "is_no": false
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+28.4%)"
-      ],
-      "category": "other",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.246,
-      "market_price": 0.53,
-      "edge": 0.28400000000000003,
-      "edge_percent": 28.400000000000002,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Rockets perform well at home",
-          "Opponent struggles against spread",
-          "Key players remain healthy"
-        ],
-        "weakest_link": "Opponent struggles against spread"
-      },
-      "category": "sports",
-      "narrative_drivers": [
-        "Rockets' recent performance trends",
-        "Public sentiment on team strength"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "INSIDER_ONLY",
-      "signal_emoji": "\ud83d\udc41\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider activity detected, no clear mispricing",
-      "action_suggestion": "Monitor: insider signal only, no statistical edge",
-      "insider_score": 70,
-      "insider_position": "PELICANS",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.28400000000000003,
-      "edge_percent": 28.400000000000002
-    },
-    "financial_analyst": {
-      "signal_quality": 51.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 28.4,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    }
-  },
-  {
-    "market": "Spread: Rockets (-7.5)",
-    "market_slug": "nba-nop-hou-2026-03-13-spread-home-7pt5",
     "wallet": "0xb449651abe04a8eb378d22c758887100d123ad68",
     "analysis": {
       "score": 70,
@@ -33535,5 +33433,50 @@
     "market_slug": "mlb-atl-phi-2026-04-17",
     "amount": 1845.31328,
     "ai_context": "\u274c SKIP\nThe Atlanta Braves have a 12-7 record this season, while the Philadelphia Phillies are 8-10. The Braves have won both recent matchups against the Phillies, including a 3-2 victory on March 18, 2026. (oddsindex.com) Additionally, the Braves have a slightly better overall head-to-head record..."
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x5e77281059b9eb7c349966cf440fe2e45aa55c55f6b1f6c87a8befd5b85cd0f1",
+    "wallet": "0xd0c042c08f755ff940249f62745e82d356345565",
+    "trader": {
+      "rank": 16,
+      "address": "0xd0c042c08f755ff940249f62745e82d356345565",
+      "username": "alexmulti",
+      "profit": 4804855.613376001,
+      "volume": 9949068.653841998,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x5fe0c26ab86beee51a32e726559b8fadace5d994",
+      "side": "BUY",
+      "asset": "48821129411922030205570488861222488985923634925778304973221905773806454510743",
+      "conditionId": "0x620f2c522eae638610cfa0e24189f09123a52d5914c3d3bdb3a04ee7813b7246",
+      "size": 6863.5,
+      "price": 0.35,
+      "timestamp": 1776470510,
+      "title": "Rockets vs. Lakers",
+      "slug": "nba-hou-lal-2026-04-18",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
+      "eventSlug": "nba-hou-lal-2026-04-18",
+      "outcome": "Lakers",
+      "outcomeIndex": 1,
+      "name": "RocketScientist",
+      "pseudonym": "Quick-Diffuse",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x5e77281059b9eb7c349966cf440fe2e45aa55c55f6b1f6c87a8befd5b85cd0f1",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Rockets vs. Lakers",
+    "market_slug": "nba-hou-lal-2026-04-18",
+    "amount": 2402.225,
+    "ai_context": "NBA Schedule\nLakers (LAL) @ Rockets (HOU) on Wednesday, Mar 18, 2026 at 06:30 PM PDT. Final score: LAL 124 - HOU 116\nRockets @ Lakers on Saturday, Apr 18, 2026 at 05:30 PM PDT\nThe Los Angeles Lakers have a 4-2 record against the Houston Rockets over the past two years. (statmuse.com) In their mos..."
   }
 ]
