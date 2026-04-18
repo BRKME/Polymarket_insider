@@ -1,312 +1,5 @@
 [
   {
-    "market": "Knicks vs. Pacers: O/U 227.5",
-    "market_slug": "nba-nyk-ind-2026-03-13-total-227pt5",
-    "wallet": "0x55f3a72a6d35b730ba9602cc1a8d6d6227c7d5aa",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($1,197)",
-        "Low activity (2 txns)"
-      ],
-      "amount": 1196.6399999999999,
-      "odds": 0.48,
-      "raw_price": 0.48,
-      "outcome": "Under",
-      "potential_pnl": 1296.3600000000001,
-      "pnl_multiplier": 1.0833333333333335,
-      "wallet_age_days": 0,
-      "total_activities": 2
-    },
-    "timestamp": "2026-03-13T14:25:22.617388",
-    "trade_hash": "0x7a55c7e91832838402e24b15eb6d415cd8c5a6303bbad272a944f2011d9658fa",
-    "trade_timestamp": 1773411701,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Under",
-      "side": "BUY",
-      "price": 0.48,
-      "effective_price": 0.48,
-      "size": 2493.0,
-      "amount": 1196.6399999999999,
-      "potential_pnl": 1296.3600000000001,
-      "pnl_multiplier": 1.0833333333333335,
-      "is_no": false
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+24.4%)"
-      ],
-      "category": "sports",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.236,
-      "market_price": 0.48,
-      "edge": 0.244,
-      "edge_percent": 24.4,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Both teams score efficiently",
-          "Defensive lapses by both teams",
-          "Game pace is fast"
-        ],
-        "weakest_link": "Defensive lapses by both teams"
-      },
-      "category": "sports",
-      "narrative_drivers": [
-        "Recent scoring trends of both teams",
-        "Injury status of key offensive players"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "INSIDER_ONLY",
-      "signal_emoji": "\ud83d\udc41\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider activity detected, no clear mispricing",
-      "action_suggestion": "Monitor: insider signal only, no statistical edge",
-      "insider_score": 70,
-      "insider_position": "UNDER",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.244,
-      "edge_percent": 24.4
-    },
-    "financial_analyst": {
-      "signal_quality": 51.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 24.4,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    }
-  },
-  {
-    "market": "Games Total: O/U 2.5",
-    "market_slug": "val-pr1-g21-2026-03-13-total-games-2pt5",
-    "wallet": "0xeafb91b8bb7c0b8dd2cda8e68988045ee0461897",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($2,346)",
-        "Low activity (1 txns)"
-      ],
-      "amount": 2345.54,
-      "odds": 0.46,
-      "raw_price": 0.46,
-      "outcome": "Under",
-      "potential_pnl": 2753.46,
-      "pnl_multiplier": 1.173913043478261,
-      "wallet_age_days": 0,
-      "total_activities": 1
-    },
-    "timestamp": "2026-03-13T17:02:25.982952",
-    "trade_hash": "0xc5c1760b29f5e2d12f324cc1e1e7844f43844662c6a0bf779dc443e1777b0baf",
-    "trade_timestamp": 1773421043,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Under",
-      "side": "BUY",
-      "price": 0.46,
-      "effective_price": 0.46,
-      "size": 5099.0,
-      "amount": 2345.54,
-      "potential_pnl": 2753.46,
-      "pnl_multiplier": 1.173913043478261,
-      "is_no": false
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+22.8%)"
-      ],
-      "category": "other",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.23199999999999998,
-      "market_price": 0.46,
-      "edge": 0.22800000000000004,
-      "edge_percent": 22.800000000000004,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Both teams have strong offensive capabilities",
-          "Weather conditions favor scoring",
-          "Refereeing decisions do not hinder scoring"
-        ],
-        "weakest_link": "Weather conditions favor scoring"
-      },
-      "category": "sports",
-      "narrative_drivers": [
-        "Recent high-scoring games",
-        "Injury reports affecting key defensive players"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "INSIDER_ONLY",
-      "signal_emoji": "\ud83d\udc41\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider activity detected, no clear mispricing",
-      "action_suggestion": "Monitor: insider signal only, no statistical edge",
-      "insider_score": 70,
-      "insider_position": "UNDER",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.22800000000000004,
-      "edge_percent": 22.800000000000004
-    },
-    "financial_analyst": {
-      "signal_quality": 51.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 22.8,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    }
-  },
-  {
-    "market": "Counter-Strike: EYEBALLERS vs Liquid (BO3) - Roman Imperium Cup Playoffs",
-    "market_slug": "cs2-eye-tl1-2026",
-    "wallet": "0x697821bebfdd65cc472da1e302b90b430dd09897",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($2,794)",
-        "Low activity (1 txns)"
-      ],
-      "amount": 2794.39,
-      "odds": 0.636015104388566,
-      "raw_price": 0.636015104388566,
-      "outcome": "Liquid",
-      "potential_pnl": 1599.2006250000002,
-      "pnl_multiplier": 0.5722897036562542,
-      "wallet_age_days": 0,
-      "total_activities": 1
-    },
-    "timestamp": "2026-03-14T10:50:55.261158",
-    "trade_hash": "0xcc008e0534692be39c32ec621d5312187ff0c4e8d113ff8d112c0037555fb320",
-    "trade_timestamp": 1773485185,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Liquid",
-      "side": "BUY",
-      "price": 0.636015104388566,
-      "effective_price": 0.636015104388566,
-      "size": 4393.590625,
-      "amount": 2794.39,
-      "potential_pnl": 1599.2006250000002,
-      "pnl_multiplier": 0.5722897036562542,
-      "is_no": false
-    },
-    "irrationality": {
-      "irrationality_score": 45,
-      "flags": [
-        "Crisis keyword detected ('strike')",
-        "Large mispricing edge (+36.9%)"
-      ],
-      "category": "sports",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.2672030208777132,
-      "market_price": 0.636015104388566,
-      "edge": 0.3688120835108528,
-      "edge_percent": 36.881208351085284,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "EYEBALLERS perform exceptionally well in the match",
-          "Liquid underperform due to internal issues",
-          "External factors such as player injuries or unexpected events"
-        ],
-        "weakest_link": "Liquid underperform due to internal issues"
-      },
-      "category": "sports",
-      "narrative_drivers": [
-        "Recent performance trends of both teams",
-        "Fan sentiment and support for EYEBALLERS"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "INSIDER_ONLY",
-      "signal_emoji": "\ud83d\udc41\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider activity detected, no clear mispricing",
-      "action_suggestion": "Monitor: insider signal only, no statistical edge",
-      "insider_score": 70,
-      "insider_position": "LIQUID",
-      "irrationality_score": 45,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.3688120835108528,
-      "edge_percent": 36.881208351085284
-    },
-    "financial_analyst": {
-      "signal_quality": 53.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 36.88,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    }
-  },
-  {
     "type": "TOP_TRADER",
     "trade_hash": "0x41e833aaf15ad9587ba43d971959ca75e43433fe03560bd3661bb759bd0ab70b",
     "wallet": "0xdb27bf2ac5d428a9c63dbc914611036855a6c56e",
@@ -33024,5 +32717,204 @@
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
     },
     "ai_context": "\u274c SKIP\nRecent diplomatic efforts, including a proposed $20 billion deal for Iran to surrender its enriched uranium stockpile, indicate a move away from military action. (axios.com)"
+  },
+  {
+    "market": "Barcelona Open: Andrey Rublev vs Hamad Medjedovic",
+    "market_slug": "atp-rublev-medjedo-2026",
+    "event_slug": "atp-rublev-medjedo-2026",
+    "wallet": "0xde1d31dafca37c89fb7aebc4371cfe54be3d44a6",
+    "analysis": {
+      "score": 70,
+      "flags": [
+        "New wallet (0d old)",
+        "Large bet ($1,082)",
+        "Low activity (11 txns)"
+      ],
+      "amount": 1082.273954175189,
+      "odds": 0.4688111344047801,
+      "raw_price": 0.4688111344047801,
+      "outcome": "Hamad Medjedovic",
+      "potential_pnl": 1226.276066824811,
+      "pnl_multiplier": 1.1330551401464406,
+      "wallet_age_days": 0,
+      "total_activities": 11
+    },
+    "timestamp": "2026-04-18T12:28:52.922027",
+    "trade_hash": "0x30c30691ccfd159a2ee237538ecbabff422db6f54c9bad84a2ea0302e85a6e14",
+    "trade_timestamp": 1776514744,
+    "latency": null,
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "Hamad Medjedovic",
+      "outcomeIndex": 1,
+      "normalized_position": "NO",
+      "side": "BUY",
+      "price": 0.4688111344047801,
+      "effective_price": 0.4688111344047801,
+      "size": 2308.550021,
+      "amount": 1082.273954175189,
+      "potential_pnl": 1226.276066824811,
+      "pnl_multiplier": 1.1330551401464406,
+      "is_no": false,
+      "conditionId": "0xaf37946bd95986f60b5c0339e8669982062f5da922d9c2dde82411b0077c8dd4",
+      "slug": "atp-rublev-medjedo-2026",
+      "eventSlug": "atp-rublev-medjedo-2026-04-18"
+    },
+    "irrationality": {
+      "irrationality_score": 35,
+      "flags": [
+        "Large mispricing edge (+23.5%)"
+      ],
+      "category": "sports",
+      "category_info": {
+        "strength": "medium",
+        "typical_overpricing": 0.03,
+        "min_edge": 0.05
+      },
+      "is_irrational": true
+    },
+    "mispricing": {
+      "rational_estimate": 0.23376222688095602,
+      "market_price": 0.4688111344047801,
+      "edge": 0.2350489075238241,
+      "edge_percent": 23.50489075238241,
+      "min_edge_required": 0.05,
+      "is_mispriced": true,
+      "edge_quality": "STRONG",
+      "base_rate_class": "common",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "common",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "Rublev performs at peak level",
+          "Medjedovic struggles with pressure",
+          "External factors favor Rublev (e.g., weather, crowd)"
+        ],
+        "weakest_link": "Medjedovic struggles with pressure"
+      },
+      "category": "sports",
+      "narrative_drivers": [
+        "Rublev's recent form",
+        "Medjedovic's inexperience in high-stakes matches"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "ALPHA",
+      "signal_emoji": "\ud83d\udd25",
+      "signal_strength": 105,
+      "interpretation": "Smart money (NO) confirms YES is overpriced",
+      "action_suggestion": "High conviction: insider + statistics aligned",
+      "insider_score": 70,
+      "insider_position": "NO",
+      "irrationality_score": 35,
+      "is_irrational": true,
+      "is_mispriced": true,
+      "edge": 0.2350489075238241,
+      "edge_percent": 23.50489075238241
+    },
+    "financial_analyst": {
+      "signal_quality": 81.0,
+      "stance": "HIGH_CONVICTION",
+      "edge_percent": 23.5,
+      "signal_strength": 105.0,
+      "insider_score": 70.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "ai_context": "\u274c SKIP\nHamad Medjedovic has reached the semifinals of the Barcelona Open, defeating Nuno Borges 7-6, 6-2, and Alex de Minaur in the previous round. (cadenaser.com)\nHowever, Andrey Rublev, ranked 15th, has a more extensive professional record and has advanced to the semifinals by defeating Tomas M..."
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x5eb54cdf91c54f165cbaf115896189be3974aab55b9b52bf081b92ed63ffec75",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.515682004,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x9ac2536ed93f8fe8ce91d9662b03bcbb19ccbe3d",
+      "side": "SELL",
+      "asset": "108233603819467706476318984012158651931658302669301887462181073562758483842092",
+      "conditionId": "0x9b6fef249040fd17e9c107955b37ac2c3e923509b6b0ff01cc463a331ddeb894",
+      "size": 77481.6,
+      "price": 0.15800873033081403,
+      "timestamp": 1776514930,
+      "title": "Will France win the 2026 FIFA World Cup?",
+      "slug": "will-france-win-the-2026-fifa-world-cup-924",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-france-win-the-2026-fifa-world-cup-924-HpDpNpZGzhE6.png",
+      "eventSlug": "2026-fifa-world-cup-winner-595",
+      "outcome": "Yes",
+      "outcomeIndex": 0,
+      "name": "",
+      "pseudonym": "",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x5eb54cdf91c54f165cbaf115896189be3974aab55b9b52bf081b92ed63ffec75",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Will France win the 2026 FIFA World Cup?",
+    "market_slug": "2026-fifa-world-cup-winner-595",
+    "amount": 12242.769240000001,
+    "ai_context": "\u274c SKIP\nFrance's recent form is strong, having qualified for the 2026 World Cup with an undefeated record in UEFA Group D. However, the team faces challenges, including the loss of forward Hugo Ekitike due to a serious injury. (vanguardngr.com) Additionally, France is placed in a tough group along..."
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x48aa71f6c86d6c081156183c2e0a178420a8df5f8d5f7103ae5e10a579694686",
+    "wallet": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
+    "trader": {
+      "rank": 15,
+      "address": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
+      "username": "GamblingIsAllYouNeed",
+      "profit": 4830061.640747434,
+      "volume": 356806733.346093,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x0a26054fe174697bf6be759c4b600fdb830d1851",
+      "side": "BUY",
+      "asset": "68417895622249591412564746824152838944901340867431611094993477537411313673344",
+      "conditionId": "0xaf37946bd95986f60b5c0339e8669982062f5da922d9c2dde82411b0077c8dd4",
+      "size": 7639.213762,
+      "price": 0.6475980200484229,
+      "timestamp": 1776515532,
+      "title": "Barcelona Open: Andrey Rublev vs Hamad Medjedovic",
+      "slug": "atp-rublev-medjedo-2026-04-18",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/atp-tour-b4390c4fb8.jpg",
+      "eventSlug": "atp-rublev-medjedo-2026-04-18",
+      "outcome": "Hamad Medjedovic",
+      "outcomeIndex": 1,
+      "name": "BrevanHoward",
+      "pseudonym": "Cloudy-Leaker",
+      "bio": "",
+      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-510465-f88d1f31-e75b-4dcc-a6b9-b6e1a99b0191.png",
+      "profileImageOptimized": "",
+      "transactionHash": "0x48aa71f6c86d6c081156183c2e0a178420a8df5f8d5f7103ae5e10a579694686",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Barcelona Open: Andrey Rublev vs Hamad Medjedovic",
+    "market_slug": "atp-rublev-medjedo-2026-04-18",
+    "amount": 4947.139706997865,
+    "ai_context": "\u274c SKIP\nHamad Medjedovic has reached the semifinals of the Barcelona Open, defeating Nuno Borges 7-6, 6-2, and Alex de Mi\u00f1aur in the second round. (cadenaser.com) However, Andrey Rublev, ranked 15th, has a more extensive professional record and has advanced to the semifinals by defeating Tomas Mac..."
   }
 ]
