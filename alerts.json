@@ -1,107 +1,5 @@
 [
   {
-    "market": "Suns vs. Raptors: O/U 218.5",
-    "market_slug": "nba-phx-tor-2026-03-13-total-218pt5",
-    "wallet": "0x2aa9619a31243e078a28617e71f5176b738c8fca",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($1,341)",
-        "Low activity (2 txns)"
-      ],
-      "amount": 1340.8359,
-      "odds": 0.51,
-      "raw_price": 0.51,
-      "outcome": "Over",
-      "potential_pnl": 1288.2540999999999,
-      "pnl_multiplier": 0.9607843137254901,
-      "wallet_age_days": 0,
-      "total_activities": 2
-    },
-    "timestamp": "2026-03-13T13:37:46.302229",
-    "trade_hash": "0xa3d636e4bd2771e7918176b2e86eac0107f1806b913d78a380814b93577745d0",
-    "trade_timestamp": 1773408911,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Over",
-      "side": "BUY",
-      "price": 0.51,
-      "effective_price": 0.51,
-      "size": 2629.09,
-      "amount": 1340.8359,
-      "potential_pnl": 1288.2540999999999,
-      "pnl_multiplier": 0.9607843137254901,
-      "is_no": false
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+26.8%)"
-      ],
-      "category": "sports",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.242,
-      "market_price": 0.51,
-      "edge": 0.268,
-      "edge_percent": 26.8,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Both teams have strong offensive performances",
-          "Defensive weaknesses from both teams",
-          "Game pace favors high scoring"
-        ],
-        "weakest_link": "Defensive weaknesses from both teams"
-      },
-      "category": "sports",
-      "narrative_drivers": [
-        "Recent scoring trends of both teams",
-        "Injury status of key players affecting scoring"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "INSIDER_ONLY",
-      "signal_emoji": "\ud83d\udc41\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider activity detected, no clear mispricing",
-      "action_suggestion": "Monitor: insider signal only, no statistical edge",
-      "insider_score": 70,
-      "insider_position": "OVER",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.268,
-      "edge_percent": 26.8
-    },
-    "financial_analyst": {
-      "signal_quality": 51.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 26.8,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    }
-  },
-  {
     "market": "Knicks vs. Pacers: O/U 227.5",
     "market_slug": "nba-nyk-ind-2026-03-13-total-227pt5",
     "wallet": "0x55f3a72a6d35b730ba9602cc1a8d6d6227c7d5aa",
@@ -33015,5 +32913,116 @@
     "market_slug": "iran-x-israelus-conflict-ends-by",
     "amount": 3724.6937000000003,
     "ai_context": "\u274c SKIP\nAs of April 18, 2026, the conflict between Iran, Israel, and the United States remains ongoing, with no clear resolution in sight. Recent diplomatic efforts, including a proposed $20 billion deal between the U.S. and Iran, have not yet led to a cessation of hostilities. (axios.com)"
+  },
+  {
+    "market": "Will the U.S. invade Iran before 2027?",
+    "market_slug": "will-the-us-invade-iran-before-2027",
+    "event_slug": "will-the-us-invade-iran-before-2027",
+    "wallet": "0xdb7776fa35eee723840b30a71160bc6d155dbfc2",
+    "analysis": {
+      "score": 70,
+      "flags": [
+        "New wallet (0d old)",
+        "Large bet ($9,884)",
+        "Low activity (1 txns)"
+      ],
+      "amount": 9884.149999,
+      "odds": 0.2645892900073647,
+      "raw_price": 0.2645892900073647,
+      "outcome": "Yes",
+      "potential_pnl": 27472.426295999998,
+      "pnl_multiplier": 2.77944247090336,
+      "wallet_age_days": 0,
+      "total_activities": 1
+    },
+    "timestamp": "2026-04-18T11:52:42.570951",
+    "trade_hash": "0x8500912269e31db3b7bb61e549d71c0ab02d9e7f1beff326afcfb74adf8b1e37",
+    "trade_timestamp": 1776512600,
+    "latency": null,
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "Yes",
+      "outcomeIndex": 0,
+      "normalized_position": "YES",
+      "side": "BUY",
+      "price": 0.2645892900073647,
+      "effective_price": 0.2645892900073647,
+      "size": 37356.576295,
+      "amount": 9884.149999,
+      "potential_pnl": 27472.426295999998,
+      "pnl_multiplier": 2.77944247090336,
+      "is_no": false,
+      "conditionId": "0x5db999fad322cea2914535aae5517060c3f80ad6d8c0231cde2124a434d16846",
+      "slug": "will-the-us-invade-iran-before-2027",
+      "eventSlug": "will-the-us-invade-iran-before-2027"
+    },
+    "irrationality": {
+      "irrationality_score": 65,
+      "flags": [
+        "Longshot (26%) in high bias category (geopolitics)",
+        "Category structurally prone to longshot bias",
+        "Large mispricing edge (+18.8%)"
+      ],
+      "category": "geopolitics",
+      "category_info": {
+        "strength": "high",
+        "typical_overpricing": 0.05,
+        "min_edge": 0.05
+      },
+      "is_irrational": true
+    },
+    "mispricing": {
+      "rational_estimate": 0.07691785800147294,
+      "market_price": 0.2645892900073647,
+      "edge": 0.18767143200589176,
+      "edge_percent": 18.767143200589175,
+      "min_edge_required": 0.05,
+      "is_mispriced": true,
+      "edge_quality": "STRONG",
+      "base_rate_class": "rare",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "rare",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "Escalation of regional tensions involving Iran",
+          "Support from key allies for military action",
+          "Domestic political climate favoring intervention"
+        ],
+        "weakest_link": "Domestic political climate favoring intervention"
+      },
+      "category": "geopolitics",
+      "narrative_drivers": [
+        "Increased Iranian nuclear activity",
+        "U.S. response to Iranian influence in the region"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "CONFLICT",
+      "signal_emoji": "\u26a0\ufe0f",
+      "signal_strength": 70,
+      "interpretation": "Insider buying YES despite statistical overpricing",
+      "action_suggestion": "Requires manual analysis: insider may have real info OR is part of irrational crowd",
+      "insider_score": 70,
+      "insider_position": "YES",
+      "irrationality_score": 65,
+      "is_irrational": true,
+      "is_mispriced": true,
+      "edge": 0.18767143200589176,
+      "edge_percent": 18.767143200589175
+    },
+    "financial_analyst": {
+      "signal_quality": 52.0,
+      "stance": "WATCH_ONLY",
+      "edge_percent": 18.77,
+      "signal_strength": 70.0,
+      "insider_score": 70.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "ai_context": "\u274c SKIP\nRecent diplomatic efforts, including a proposed $20 billion deal for Iran to surrender its enriched uranium stockpile, indicate a move away from military action. (axios.com)"
   }
 ]
