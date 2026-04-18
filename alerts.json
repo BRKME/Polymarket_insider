@@ -1,51 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0x41e833aaf15ad9587ba43d971959ca75e43433fe03560bd3661bb759bd0ab70b",
-    "wallet": "0xdb27bf2ac5d428a9c63dbc914611036855a6c56e",
-    "trader": {
-      "rank": 9,
-      "address": "0xdb27bf2ac5d428a9c63dbc914611036855a6c56e",
-      "username": "DrPufferfish",
-      "profit": 5930657.142345107,
-      "volume": 207370505.65727097,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x797255f4701331610041687268d246071343594f",
-      "side": "BUY",
-      "asset": "61918351525266368144491942093593650711768658828622730755963270233988351275979",
-      "conditionId": "0x056e5327893e1488134b69ef7bff7c600219227939211974645e1f6ac1da0735",
-      "size": 2408.679022,
-      "price": 0.8095723756421705,
-      "timestamp": 1773500539,
-      "title": "Counter-Strike: Natus Vincere vs FUT Esports (BO3) - ESL Pro League Playoffs",
-      "slug": "cs2-navi-fut-2026-03-14",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/counter-strike-image-16c415c538.png",
-      "eventSlug": "cs2-navi-fut-2026-03-14",
-      "outcome": "Natus Vincere",
-      "outcomeIndex": 0,
-      "name": "1337zzz1337",
-      "pseudonym": "Guilty-Aide",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x41e833aaf15ad9587ba43d971959ca75e43433fe03560bd3661bb759bd0ab70b",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Unknown market",
-    "market_slug": "",
-    "amount": 1949.9999979999998,
-    "resolution_last_check": "2026-04-13T19:41:36.695158+00:00"
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0xaa368e04ae2014a78fc85b480d232e4081f08d407ecd95fd7c4c74a376c6d0dd",
     "wallet": "0xdb27bf2ac5d428a9c63dbc914611036855a6c56e",
     "trader": {
@@ -32916,5 +32871,50 @@
     "market_slug": "atp-rublev-medjedo-2026-04-18",
     "amount": 4947.139706997865,
     "ai_context": "\u274c SKIP\nHamad Medjedovic has reached the semifinals of the Barcelona Open, defeating Nuno Borges 7-6, 6-2, and Alex de Mi\u00f1aur in the second round. (cadenaser.com) However, Andrey Rublev, ranked 15th, has a more extensive professional record and has advanced to the semifinals by defeating Tomas Mac..."
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x11f8c122f279930dfea01d30c11b65b76a64b6af68ef666df81055ca66380a91",
+    "wallet": "0xdb27bf2ac5d428a9c63dbc914611036855a6c56e",
+    "trader": {
+      "rank": 15,
+      "address": "0xdb27bf2ac5d428a9c63dbc914611036855a6c56e",
+      "username": "DrPufferfish",
+      "profit": 4806777.788558641,
+      "volume": 237026669.23025098,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x5561aeddd9f5ce7159beaffcaaf92479c749984e",
+      "side": "BUY",
+      "asset": "13727914381995794862271416309043013213357546494173257119615675730526927792371",
+      "conditionId": "0x9401136deff961e96a3b2715aadcf30c8faf207a707ff8dcbc67e6e42c90d71a",
+      "size": 1977.87341,
+      "price": 0.54,
+      "timestamp": 1776528742,
+      "title": "Will there be a run scored in the first inning?: Cincinnati Reds vs. Minnesota Twins",
+      "slug": "mlb-cin-min-2026-04-18-nrfi",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Repetitive-markets/MLB.jpg",
+      "eventSlug": "mlb-cin-min-2026-04-18",
+      "outcome": "No",
+      "outcomeIndex": 1,
+      "name": "JHIKy98ijhgjk",
+      "pseudonym": "Upbeat-Disposer",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x11f8c122f279930dfea01d30c11b65b76a64b6af68ef666df81055ca66380a91",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Will there be a run scored in the first inning?: Cincinnati Reds vs. Minnesota Twins",
+    "market_slug": "mlb-cin-min-2026-04-18",
+    "amount": 1068.0516414,
+    "ai_context": "\u274c SKIP \u2014 The available data indicates that the Cincinnati Reds have scored in the first inning in several games this season, suggesting a higher likelihood of a run being scored in the first inning.\nIn their game against the Los Angeles Angels on April 11, 2026, the Reds scored 4 runs in the first inning. (statmuse.com) Additionally, in their game against the Miami Marlins on April 8, 2026, they scored 2 runs in the first inning. (statmuse."
   }
 ]
