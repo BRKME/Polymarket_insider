@@ -1,96 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0x01242ecee739e953b4824f448a707db1e394fafb473fef777974634875696dc7",
-    "wallet": "0x8119010a6e589062aa03583bb3f39ca632d9f887",
-    "trader": {
-      "rank": 7,
-      "address": "0x8119010a6e589062aa03583bb3f39ca632d9f887",
-      "username": "PrincessCaro",
-      "profit": 6083643.099591745,
-      "volume": 23520809.952866998,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0xc94a8dfd7ab2e06c4ec8ca42832dcbd5ca7acfca",
-      "side": "BUY",
-      "asset": "66615266624359354060400093448369771789228282833780928627869485822387307717041",
-      "conditionId": "0xc34af25221919b98a6c1a743f76cb5f2dca39eccaff88327adb160cf8e4ce2a9",
-      "size": 1402.631577,
-      "price": 0.37999999981463417,
-      "timestamp": 1773507741,
-      "title": "Magic vs. Heat",
-      "slug": "nba-orl-mia-2026-03-14",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
-      "eventSlug": "nba-orl-mia-2026-03-14",
-      "outcome": "Magic",
-      "outcomeIndex": 0,
-      "name": "aninooo",
-      "pseudonym": "Vital-Respite",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x01242ecee739e953b4824f448a707db1e394fafb473fef777974634875696dc7",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Magic vs. Heat",
-    "market_slug": "nba-orl-mia-2026-03-14",
-    "amount": 532.9999990000001,
-    "resolution_last_check": "2026-04-13T19:41:45.298252+00:00"
-  },
-  {
-    "type": "TOP_TRADER",
-    "trade_hash": "0x85e1fa6b9164d92054f4fd6602662f6339dfe06fee7ab83da371e72a67ea716d",
-    "wallet": "0x8119010a6e589062aa03583bb3f39ca632d9f887",
-    "trader": {
-      "rank": 7,
-      "address": "0x8119010a6e589062aa03583bb3f39ca632d9f887",
-      "username": "PrincessCaro",
-      "profit": 6083643.099591745,
-      "volume": 23520809.952866998,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0xd4d96e332b3a71000a4e1538df805790c77dbdd5",
-      "side": "BUY",
-      "asset": "51603557647605526784272094285656249935467020057355371392584885347569984808630",
-      "conditionId": "0x3bc69cb672591e4fcd2ef856b64b219a906e15d4601b50066ac81a446574dfaf",
-      "size": 754.064,
-      "price": 0.999,
-      "timestamp": 1773507741,
-      "title": "Will Cape Verde win the 2026 FIFA World Cup?",
-      "slug": "will-cape-verde-win-the-2026-fifa-world-cup",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-cape-verde-win-the-2026-fifa-world-cup-3ZMQE_Hk7WJ4.jpg",
-      "eventSlug": "2026-fifa-world-cup-winner-595",
-      "outcome": "No",
-      "outcomeIndex": 1,
-      "name": "rgfbhgv",
-      "pseudonym": "Used-Fiction",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x85e1fa6b9164d92054f4fd6602662f6339dfe06fee7ab83da371e72a67ea716d",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Will Cape Verde win the 2026 FIFA World Cup?",
-    "market_slug": "2026-fifa-world-cup-winner-595",
-    "amount": 753.309936,
-    "resolution_last_check": "2026-04-13T19:41:45.948781+00:00"
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0x8d8cd8bfe5de0130cd25aab85f9ece89f0821de4e37788f4120b186d6768f305",
     "wallet": "0xe90bec87d9ef430f27f9dcfe72c34b76967d5da2",
     "trader": {
@@ -32735,5 +32645,95 @@
     "strength": 71,
     "timestamp": "2026-04-18T21:59:03.877074",
     "ai_context": "\u274c SKIP \u2014 The trader's bet on a Russia-Ukraine ceasefire before the release of GTA VI is not supported by current developments.\nThe 32-hour ceasefire during Orthodox Easter in April 2026 collapsed, with both sides accusing each other of numerous violations, including drone strikes and assaults. (apnews.com) Prediction markets assign a mere 1.4% probability to a ceasefire by April 30, 2026, reflecting skepticism about near-term peace prospects. (agenticnews."
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xfc6f5cabb1c0c4830bf9427478d4a20804ce9da36d4b56137eebd02c0bad45d2",
+    "wallet": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+    "trader": {
+      "rank": 8,
+      "address": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+      "username": "swisstony",
+      "profit": 6098912.751368258,
+      "volume": 669538036.064275,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xa38a455bbdd4b68486548b7e19da99903f4f821d",
+      "side": "BUY",
+      "asset": "17221653526634631713542340088525342372585561796004831914246354179817667843372",
+      "conditionId": "0xc3b013589ee4dca8c7c86608e6d07f51a5bd21698dfe3be0ee17068469b54d9a",
+      "size": 3644.9546,
+      "price": 0.31,
+      "timestamp": 1776550880,
+      "title": "Hawks vs. Knicks",
+      "slug": "nba-atl-nyk-2026-04-18",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
+      "eventSlug": "nba-atl-nyk-2026-04-18",
+      "outcome": "Hawks",
+      "outcomeIndex": 0,
+      "name": "takeormake",
+      "pseudonym": "Scary-Fannypack",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xfc6f5cabb1c0c4830bf9427478d4a20804ce9da36d4b56137eebd02c0bad45d2",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Hawks vs. Knicks",
+    "market_slug": "nba-atl-nyk-2026-04-18",
+    "amount": 1129.935926,
+    "ai_context": "\u274c SKIP \u2014 Recent performance and head-to-head record favor the Knicks.\nThe Hawks have a 46-36 record, while the Knicks lead the season series 2-1. In their most recent matchup on April 6, 2026, the Knicks defeated the Hawks 108-105. (landofbasketball.com) Additionally, the Knicks have a superior overall record of 53-29. (espn.com) Given these factors, the facts do not support the bet on the Hawks."
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x107094bcf01c895aeded9bc383264a513d776278928a77f283c4d8502ce408a7",
+    "wallet": "0xdb27bf2ac5d428a9c63dbc914611036855a6c56e",
+    "trader": {
+      "rank": 16,
+      "address": "0xdb27bf2ac5d428a9c63dbc914611036855a6c56e",
+      "username": "DrPufferfish",
+      "profit": 4689245.308178619,
+      "volume": 237745456.09956098,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x092b02c318fdad19d178ad136f0d2eadbaf8614e",
+      "side": "BUY",
+      "asset": "62215702615064250648522511617669814036665588850014458413356062805785768471619",
+      "conditionId": "0x3eb5ecb2b363d33606c1d61899f7891ad98231a2c4f52d5858adac1721eb53b8",
+      "size": 2647.7450599999997,
+      "price": 0.559025171830176,
+      "timestamp": 1776551180,
+      "title": "LoL: Sentinels vs FlyQuest - Game 2 Winner",
+      "slug": "lol-sen-fly-2026-04-18-game2",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/league-of-legends-61a4f083a6.png",
+      "eventSlug": "lol-sen-fly-2026-04-18",
+      "outcome": "FlyQuest",
+      "outcomeIndex": 1,
+      "name": "Bilouchee",
+      "pseudonym": "Meek-Civilisation",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x107094bcf01c895aeded9bc383264a513d776278928a77f283c4d8502ce408a7",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "LoL: Sentinels vs FlyQuest - Game 2 Winner",
+    "market_slug": "lol-sen-fly-2026-04-18",
+    "amount": 1480.1561371289995,
+    "ai_context": "\u2705 COPY \u2014 FlyQuest has a superior recent form and head-to-head record against Sentinels.\nFlyQuest has won 4 of their last 10 matches, while Sentinels have won only 3 of their last 10. (strafe.com) Additionally, FlyQuest has a 100% win rate against Sentinels in their previous encounters. (tvevents.org) Therefore, the facts support the bet on FlyQuest."
   }
 ]
