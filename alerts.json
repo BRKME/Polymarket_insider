@@ -1,205 +1,5 @@
 [
   {
-    "market": "Will Anthropic have the best AI model at the end of March 2026?",
-    "market_slug": "will-anthropic-have-the-best-ai-model-at-the-end-of-march-2026-437",
-    "wallet": "0x4c4ed674fde7dc998036b3ae92445d00fcdb297b",
-    "analysis": {
-      "score": 80,
-      "flags": [
-        "New wallet (3d old)",
-        "Large bet ($1,292)",
-        "Pre-event latency: 7685m"
-      ],
-      "amount": 1291.6989600000002,
-      "odds": 0.8976427633270558,
-      "raw_price": 0.8976427633270558,
-      "outcome": "Yes",
-      "potential_pnl": 147.29103999999995,
-      "pnl_multiplier": 0.11402892203304082,
-      "wallet_age_days": 3,
-      "total_activities": 79
-    },
-    "timestamp": "2026-03-14T16:00:20.501101",
-    "trade_hash": "0xc9cb8d2e6a8d7486a157fd1bf5df4ee5962e1ded64ea81f620b3ee1ba8ab7f9b",
-    "trade_timestamp": 1773503699,
-    "latency": {
-      "latency_seconds": 461101.0,
-      "latency_minutes": 7685.016666666666,
-      "is_pre_event": true,
-      "severity": "CRITICAL",
-      "trade_time": "2026-03-14T15:54:59+00:00",
-      "event_time": "2026-03-20T00:00:00+00:00"
-    },
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Yes",
-      "side": "BUY",
-      "price": 0.8976427633270558,
-      "effective_price": 0.8976427633270558,
-      "size": 1438.99,
-      "amount": 1291.6989600000002,
-      "potential_pnl": 147.29103999999995,
-      "pnl_multiplier": 0.11402892203304082,
-      "is_no": false
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+57.8%)"
-      ],
-      "category": "politics_near",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.02,
-        "min_edge": 0.03
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.31952855266541114,
-      "market_price": 0.8976427633270558,
-      "edge": 0.5781142106616447,
-      "edge_percent": 57.81142106616447,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 4,
-        "conditions": [
-          "Anthropic successfully develops a superior AI model compared to competitors",
-          "Sustained funding and resources for research and development",
-          "Attraction and retention of top AI talent",
-          "Positive regulatory environment for AI development"
-        ],
-        "weakest_link": "Sustained funding and resources for research and development"
-      },
-      "category": "other",
-      "narrative_drivers": [
-        "Advancements in AI technology and research",
-        "Competitive landscape among AI companies"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "CONFLICT",
-      "signal_emoji": "\u26a0\ufe0f",
-      "signal_strength": 80,
-      "interpretation": "Insider buying YES despite statistical overpricing",
-      "action_suggestion": "Requires manual analysis: insider may have real info OR is part of irrational crowd",
-      "insider_score": 80,
-      "insider_position": "YES",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.5781142106616447,
-      "edge_percent": 57.81142106616447
-    },
-    "financial_analyst": {
-      "signal_quality": 48.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 57.81,
-      "signal_strength": 80.0,
-      "insider_score": 80.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    }
-  },
-  {
-    "type": "TOP_TRADER",
-    "trade_hash": "0x028ba0dab0668c0675e28956bdcf3b92d3205fa17eb05a1ab75570b1bb0f43f0",
-    "wallet": "0xd235973291b2b75ff4070e9c0b01728c520b0f29",
-    "trader": {
-      "rank": 5,
-      "address": "0xd235973291b2b75ff4070e9c0b01728c520b0f29",
-      "username": "zxgngl",
-      "profit": 7807265.5892408835,
-      "volume": 40551790.621846996,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0xf828161eee129d0247f6a495865b351e13b68333",
-      "side": "SELL",
-      "asset": "57817609187638877082051374086608861977598876793124526827718549020543647406808",
-      "conditionId": "0xa7a9755e95e3809cd57814a2e32bcae9c752f5403a5eef12c6cc509ea10b1c9e",
-      "size": 640,
-      "price": 0.997,
-      "timestamp": 1773504139,
-      "title": "Will Ethereum reach $4,000 in March?",
-      "slug": "will-ethereum-reach-4000-in-march-2026",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/ETH+fullsize.jpg",
-      "eventSlug": "what-price-will-ethereum-hit-in-march-2026",
-      "outcome": "No",
-      "outcomeIndex": 1,
-      "name": "",
-      "pseudonym": "",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x028ba0dab0668c0675e28956bdcf3b92d3205fa17eb05a1ab75570b1bb0f43f0",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Unknown market",
-    "market_slug": "",
-    "amount": 638.08,
-    "resolution_last_check": "2026-04-13T19:41:41.315916+00:00"
-  },
-  {
-    "type": "TOP_TRADER",
-    "trade_hash": "0xf71ce50cd41e6dee70484ae17e97354a642817a55a63e96d26be604084e4fee5",
-    "wallet": "0xd235973291b2b75ff4070e9c0b01728c520b0f29",
-    "trader": {
-      "rank": 5,
-      "address": "0xd235973291b2b75ff4070e9c0b01728c520b0f29",
-      "username": "zxgngl",
-      "profit": 7807265.5892408835,
-      "volume": 40551790.621846996,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0xa1f39b9b21a7bfb0f540cf106b92e240c7b7d99c",
-      "side": "BUY",
-      "asset": "64715255265350276455528904166659085905931463485895976894214990203363945196710",
-      "conditionId": "0x9cb958783f93bd62c5beb7c82909e498069d20cf1e5b9034c6f675aa4f37aba8",
-      "size": 2040.816325,
-      "price": 0.4899999998775,
-      "timestamp": 1773504139,
-      "title": "Spread: 76ers (-8.5)",
-      "slug": "nba-bkn-phi-2026-03-14-spread-home-8pt5",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
-      "eventSlug": "nba-bkn-phi-2026-03-14",
-      "outcome": "Nets",
-      "outcomeIndex": 1,
-      "name": "facai86868",
-      "pseudonym": "Sunny-Survival",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0xf71ce50cd41e6dee70484ae17e97354a642817a55a63e96d26be604084e4fee5",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Unknown market",
-    "market_slug": "",
-    "amount": 999.999999,
-    "resolution_last_check": "2026-04-13T19:41:41.964288+00:00"
-  },
-  {
     "type": "TOP_TRADER",
     "trade_hash": "0xa457a2010d2388bcdd7780a47b9ad90e7c7835fc7297e33e32c2aea6f4f43f67",
     "wallet": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
@@ -32916,5 +32716,113 @@
     "market_slug": "cs2-furia-vit-2026-04-18",
     "amount": 1173.3600012142078,
     "ai_context": "\u274c SKIP \u2014 Vitality's recent form and head-to-head record favor them over FURIA.\nVitality has a 9-1 record in their last 10 matches, including a 2-0 victory over NAVI in the quarterfinals. (cs2bet.io) FURIA has shown resilience, notably overcoming NAVI after a 3-13 loss on Mirage to win 2-1. (hltv.org) However, Vitality's consistent performance and strong head-to-head record make them the favored team in this matchup."
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x95597034db2556286bb22a772e2c2eee14df4b892a37c9d293244986ec10a6c5",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.515682004,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x5d1d9cfd66ee3068c2a8a57dedf1e1b006dcafd2",
+      "side": "BUY",
+      "asset": "101707776312993433788247578166605474286576082916033807919279395386959077302104",
+      "conditionId": "0xd0fd76b4a90073854a9c27362d7bd1c54fe1acfd28d85b93e67de6cd5c19e69f",
+      "size": 2543.448716,
+      "price": 0.7799999998112799,
+      "timestamp": 1776534762,
+      "title": "Raptors vs. Cavaliers",
+      "slug": "nba-tor-cle-2026-04-18",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
+      "eventSlug": "nba-tor-cle-2026-04-18",
+      "outcome": "Cavaliers",
+      "outcomeIndex": 1,
+      "name": "",
+      "pseudonym": "",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x95597034db2556286bb22a772e2c2eee14df4b892a37c9d293244986ec10a6c5",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Raptors vs. Cavaliers",
+    "market_slug": "nba-tor-cle-2026-04-18",
+    "amount": 1983.8899979999999,
+    "ai_context": "\u274c SKIP \u2014 The Cavaliers have struggled against the Raptors this season, losing all three regular-season matchups. In the 2025-2026 regular season, the Raptors defeated the Cavaliers in all three encounters: 136-101 on November 1, 126-113 on November 13, and 112-101 on November 24. (oddsshark.com) Additionally, the Cavaliers have faced significant injury challenges, utilizing 41 different starting lineups throughout the season, more than any other Eastern Conference playoff team. (axios."
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x03299204fd270ca18ef780c748fb223e90d116caa1c3bc46d9242f56789a3f46",
+    "wallet": "0xd235973291b2b75ff4070e9c0b01728c520b0f29",
+    "trader": {
+      "rank": 5,
+      "address": "0xd235973291b2b75ff4070e9c0b01728c520b0f29",
+      "username": "zxgngl",
+      "profit": 7807265.589240883,
+      "volume": 40551790.62184699,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x1d7ab6473e55405bb5bc62cb3377a6d37989b22f",
+      "side": "BUY",
+      "asset": "63607136635141849577323095401348239344725937578509063590083452995393076912711",
+      "conditionId": "0x84355255438feacd3e194197f86dafdca8d6e92a11904577166fa026b8febb87",
+      "size": 3940,
+      "price": 0.5,
+      "timestamp": 1776535060,
+      "title": "New York Mets vs. Chicago Cubs: O/U 8.5",
+      "slug": "mlb-nym-chc-2026-04-18-total-8pt5",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Repetitive-markets/MLB.jpg",
+      "eventSlug": "mlb-nym-chc-2026-04-18",
+      "outcome": "Over",
+      "outcomeIndex": 0,
+      "name": "Garyg9870",
+      "pseudonym": "Accurate-Pitcher",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x03299204fd270ca18ef780c748fb223e90d116caa1c3bc46d9242f56789a3f46",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "New York Mets vs. Chicago Cubs: O/U 8.5",
+    "market_slug": "mlb-nym-chc-2026-04-18",
+    "amount": 1970.0,
+    "ai_context": "\u274c SKIP \u2014 The Mets' recent offensive struggles and the Cubs' strong home performance suggest a low-scoring game.\nThe Mets have lost nine consecutive games, including a 4-12 record in their last 16 games. In their recent games, the Mets have scored an average of 1.8 runs over the last five games and 2.1 runs over the last ten games. The Cubs have scored an average of 7.6 runs over the last five games and 6.2 runs over the last ten games."
+  },
+  {
+    "type": "WHALE_FLOW",
+    "condition_id": "0xd0fd76b4a90073854a9c27362d7bd1c54fe1acfd28d85b93e67de6cd5c19e69f",
+    "market": "Russia-Ukraine Ceasefire before GTA VI?",
+    "market_slug": "russia-ukraine-ceasefire-before-gta-vi-554",
+    "event_slug": "",
+    "dominant_side": "YES",
+    "dominant_volume": 84600.0,
+    "total_volume": 84600.0,
+    "imbalance_pct": 100.0,
+    "unique_wallets": 45,
+    "trade_count": 69,
+    "max_single_trade": 58336.0,
+    "yes_price": 0.535,
+    "strength": 76,
+    "timestamp": "2026-04-18T18:11:04.499513",
+    "ai_context": "\u274c SKIP \u2014 Recent developments indicate a low likelihood of a Russia-Ukraine ceasefire before the release of GTA VI.\nThe 32-hour Orthodox Easter ceasefire in April 2026 collapsed quickly, with both sides accusing each other of violations, highlighting deep-seated distrust. Prediction markets assign only a 1.4% probability to a ceasefire by April 30, 2026, reflecting skepticism about near-term peace prospects. (agenticnews."
   }
 ]
