@@ -83,11 +83,15 @@ IMPORTANT:
 
 FORMAT (STRICT):
 - PLAIN TEXT ONLY. No markdown, no headers, no links, no bullet points.
-- Line 1: ✅ COPY or ❌ SKIP
-- Then 2-3 sentences with specific factual reasons (max 60 words)
+- Line 1: ✅ COPY or ❌ SKIP — followed by ONE sentence explaining WHY (the key reason)
+- Then 1-2 sentences with supporting facts, stats, sources
 - Cite source in parentheses if found
 - End with a clear conclusion — do NOT leave sentences unfinished
-- If search returns nothing useful, reply: NO_DATA"""
+- If search returns nothing useful, reply: NO_DATA
+
+EXAMPLE FORMAT:
+✅ COPY — Medjedovic has beaten two seeded players this week and is in strong form.
+He defeated Borges 7-6, 6-2 and de Miñaur 6-4, 6-3 to reach the semifinals. (cadenaser.com) Rublev has struggled on clay this season with a 3-4 record. Value at 65%."""
 
 PROMPTS = {
     "sports": """Market: "{title}"
