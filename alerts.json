@@ -1,107 +1,5 @@
 [
   {
-    "market": "Spread: Cavaliers (-11.5)",
-    "market_slug": "nba-cle-dal-2026-03-13-spread-away-11pt5",
-    "wallet": "0xaa960bcd319e40352d2245a114018c8a764bacbf",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($1,321)",
-        "Low activity (2 txns)"
-      ],
-      "amount": 1321.24,
-      "odds": 0.58,
-      "raw_price": 0.58,
-      "outcome": "Cavaliers",
-      "potential_pnl": 956.7600000000001,
-      "pnl_multiplier": 0.7241379310344829,
-      "wallet_age_days": 0,
-      "total_activities": 2
-    },
-    "timestamp": "2026-03-13T12:27:12.658269",
-    "trade_hash": "0xaa297aafedf4726cb393f7331287a7e1e19b791da9765280ec92207b5c65d4bc",
-    "trade_timestamp": 1773404705,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Cavaliers",
-      "side": "BUY",
-      "price": 0.58,
-      "effective_price": 0.58,
-      "size": 2278.0,
-      "amount": 1321.24,
-      "potential_pnl": 956.7600000000001,
-      "pnl_multiplier": 0.7241379310344829,
-      "is_no": false
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+32.4%)"
-      ],
-      "category": "other",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.256,
-      "market_price": 0.58,
-      "edge": 0.32399999999999995,
-      "edge_percent": 32.4,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Cavaliers maintain strong home court advantage",
-          "Key players perform at or above average",
-          "Opponent struggles with defense"
-        ],
-        "weakest_link": "Opponent struggles with defense"
-      },
-      "category": "sports",
-      "narrative_drivers": [
-        "Cavaliers' recent performance trends",
-        "Injury status of key players"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "INSIDER_ONLY",
-      "signal_emoji": "\ud83d\udc41\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider activity detected, no clear mispricing",
-      "action_suggestion": "Monitor: insider signal only, no statistical edge",
-      "insider_score": 70,
-      "insider_position": "CAVALIERS",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.32399999999999995,
-      "edge_percent": 32.4
-    },
-    "financial_analyst": {
-      "signal_quality": 51.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 32.4,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    }
-  },
-  {
     "market": "Suns vs. Raptors: O/U 218.5",
     "market_slug": "nba-phx-tor-2026-03-13-total-218pt5",
     "wallet": "0xc756725ef0de18e645d25b1b414c089b2cd6d19f",
@@ -33122,5 +33020,114 @@
     "market_slug": "dota2-ts8-vg-2026-04-18",
     "amount": 1685.550615,
     "ai_context": "\u274c SKIP\nTeam Spirit has won 1 of their last 5 matches and is currently ranked 6 in the Strafe Dota 2 World Rankings, while Vici Gaming has won 4 of their last 5 matches and is currently ranked 14. (strafe.com)\nAdditionally, Vici Gaming has a 3-1 head-to-head record against Team Spirit, including a..."
+  },
+  {
+    "market": "LoL: DN SOOPers vs KT Rolster (BO3) - LCK Rounds 1-2",
+    "market_slug": "lol-dnf-kt-2026",
+    "event_slug": "lol-dnf-kt-2026",
+    "wallet": "0x19ef48085b5286a2e4bcf9572c7aa306adf0c4c6",
+    "analysis": {
+      "score": 70,
+      "flags": [
+        "New wallet (0d old)",
+        "Large bet ($2,766)",
+        "Low activity (1 txns)"
+      ],
+      "amount": 2766.0408829000507,
+      "odds": 0.8299999999970146,
+      "raw_price": 0.8299999999970146,
+      "outcome": "KT Rolster",
+      "potential_pnl": 566.5384940999493,
+      "pnl_multiplier": 0.2048192771127674,
+      "wallet_age_days": 0,
+      "total_activities": 1
+    },
+    "timestamp": "2026-04-18T09:59:07.382041",
+    "trade_hash": "0xdddbf4587be9e9fd613df5c458471262b19ded1c69801c27603a76531c23fc5c",
+    "trade_timestamp": 1776506012,
+    "latency": null,
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "KT Rolster",
+      "outcomeIndex": 1,
+      "normalized_position": "NO",
+      "side": "BUY",
+      "price": 0.8299999999970146,
+      "effective_price": 0.8299999999970146,
+      "size": 3332.579377,
+      "amount": 2766.0408829000507,
+      "potential_pnl": 566.5384940999493,
+      "pnl_multiplier": 0.2048192771127674,
+      "is_no": false,
+      "conditionId": "0x33293f5194ba63e95724eac1d86f6be26251145712281d4807428b52e21e9a55",
+      "slug": "lol-dnf-kt-2026",
+      "eventSlug": "lol-dnf-kt-2026-04-18"
+    },
+    "irrationality": {
+      "irrationality_score": 35,
+      "flags": [
+        "Large mispricing edge (+52.4%)"
+      ],
+      "category": "sports",
+      "category_info": {
+        "strength": "medium",
+        "typical_overpricing": 0.03,
+        "min_edge": 0.05
+      },
+      "is_irrational": true
+    },
+    "mispricing": {
+      "rational_estimate": 0.3059999999994029,
+      "market_price": 0.8299999999970146,
+      "edge": 0.5239999999976117,
+      "edge_percent": 52.39999999976117,
+      "min_edge_required": 0.05,
+      "is_mispriced": true,
+      "edge_quality": "STRONG",
+      "base_rate_class": "common",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "common",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "DN SOOPers must secure a strong early game advantage",
+          "KT Rolster must make significant strategic errors",
+          "Player performance from DN SOOPers must exceed expectations"
+        ],
+        "weakest_link": "KT Rolster must make significant strategic errors"
+      },
+      "category": "sports",
+      "narrative_drivers": [
+        "Recent performance trends of both teams",
+        "Fan sentiment and support for DN SOOPers"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "ALPHA",
+      "signal_emoji": "\ud83d\udd25",
+      "signal_strength": 105,
+      "interpretation": "Smart money (NO) confirms YES is overpriced",
+      "action_suggestion": "High conviction: insider + statistics aligned",
+      "insider_score": 70,
+      "insider_position": "NO",
+      "irrationality_score": 35,
+      "is_irrational": true,
+      "is_mispriced": true,
+      "edge": 0.5239999999976117,
+      "edge_percent": 52.39999999976117
+    },
+    "financial_analyst": {
+      "signal_quality": 81.0,
+      "stance": "HIGH_CONVICTION",
+      "edge_percent": 52.4,
+      "signal_strength": 105.0,
+      "insider_score": 70.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "ai_context": "\u2705 COPY\nKT Rolster has secured five consecutive victories in the LCK 2026 season, including a 2-0 sweep over T1 and a 2-1 win against Dplus KIA. (bo3.gg)"
   }
 ]
