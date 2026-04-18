@@ -1,203 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0xa457a2010d2388bcdd7780a47b9ad90e7c7835fc7297e33e32c2aea6f4f43f67",
-    "wallet": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
-    "trader": {
-      "rank": 12,
-      "address": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
-      "username": "RN1",
-      "profit": 5508349.537842194,
-      "volume": 256087173.314408,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x7a46461485f11d87e052478f289107d06920ab25",
-      "side": "BUY",
-      "asset": "109687659091032593005758651408024211875079361601128910605877731084341190532149",
-      "conditionId": "0x202f8a3b6c091248dd95762e115fb5d13e2e74e08a837ad06040ba171be17f74",
-      "size": 1800,
-      "price": 0.68,
-      "timestamp": 1773504441,
-      "title": "LoL: Frites Esports Club vs S2G Esports - Game 1 Winner",
-      "slug": "lol-fec-s2g-2026-03-14-game1",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/league-of-legends-61a4f083a6.png",
-      "eventSlug": "lol-fec-s2g-2026-03-14",
-      "outcome": "S2G Esports",
-      "outcomeIndex": 1,
-      "name": "Mario7979",
-      "pseudonym": "Beloved-Plea",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0xa457a2010d2388bcdd7780a47b9ad90e7c7835fc7297e33e32c2aea6f4f43f67",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Unknown market",
-    "market_slug": "",
-    "amount": 1224.0,
-    "resolution_last_check": "2026-04-13T19:41:42.622887+00:00"
-  },
-  {
-    "type": "TOP_TRADER",
-    "trade_hash": "0x2dc5d0e1d8ab7d262a457a601e667e1e226a1031a972c621e00b2a2502b948d3",
-    "wallet": "0x16f91db2592924cfed6e03b7e5cb5bb1e32299e3",
-    "trader": {
-      "rank": 20,
-      "address": "0x16f91db2592924cfed6e03b7e5cb5bb1e32299e3",
-      "username": "Jenzigo",
-      "profit": 4049827.0941029997,
-      "volume": 9457725.034338009,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x2df9846123020b713df044c2de80658ad2eceffb",
-      "side": "BUY",
-      "asset": "77380687248235165829626529947585403336717643793859834077265401852756749653222",
-      "conditionId": "0x9bb4aa05c25fab72f939e1ef11c167366fea872a3400f9efdcbed0c5139ecb4c",
-      "size": 700,
-      "price": 0.992,
-      "timestamp": 1773504739,
-      "title": "Will Crude Oil (CL) hit (LOW) $45 by end of March?",
-      "slug": "will-crude-oil-cl-hit-low-45-by-end-of-march-524-288-596-421-318-497-667",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/crude-oil-9a850ce2a2.png",
-      "eventSlug": "will-crude-oil-cl-hit-by-end-of-march",
-      "outcome": "No",
-      "outcomeIndex": 1,
-      "name": "0x2df9846123020B713DF044C2de80658ad2ecEffb-1764940894320",
-      "pseudonym": "Swift-Stuff",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x2dc5d0e1d8ab7d262a457a601e667e1e226a1031a972c621e00b2a2502b948d3",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Unknown market",
-    "market_slug": "",
-    "amount": 694.4,
-    "resolution_last_check": "2026-04-13T19:41:43.315155+00:00"
-  },
-  {
-    "market": "Will L\u00ea Minh H\u01b0ng be the next Prime Minister of Vietnam?",
-    "market_slug": "will-l-minh-hng-be-the-next-prime-minister-of-vietnam",
-    "event_slug": "will-l-minh-hng-be-the-next-prime-minister-of-vietnam",
-    "wallet": "0x6d4a67f9d5ef3f1fe8366e18bb36885da6fc3288",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($1,397)",
-        "Low activity (1 txns)"
-      ],
-      "amount": 1396.765746,
-      "odds": 0.8763933786266689,
-      "raw_price": 0.12360662137333112,
-      "outcome": "No",
-      "potential_pnl": 196.999999,
-      "pnl_multiplier": 0.14104011325031449,
-      "wallet_age_days": 0,
-      "total_activities": 1
-    },
-    "timestamp": "2026-03-14T16:32:54.368102",
-    "trade_hash": "0x02ce46edd4a1d1b589b26bbd301ef729f98019ea8507e71cec2b7eb7cfe110de",
-    "trade_timestamp": 1773505613,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "No",
-      "side": "BUY",
-      "price": 0.12360662137333112,
-      "effective_price": 0.8763933786266689,
-      "size": 1593.765745,
-      "amount": 1396.765746,
-      "potential_pnl": 196.999999,
-      "pnl_multiplier": 0.14104011325031449,
-      "is_no": true,
-      "slug": "will-l-minh-hng-be-the-next-prime-minister-of-vietnam",
-      "eventSlug": "next-prime-minister-of-vietnam"
-    },
-    "irrationality": {
-      "irrationality_score": 33,
-      "flags": [
-        "Longshot (12%) in medium bias category (other)",
-        "Moderate mispricing edge (+7.9%)"
-      ],
-      "category": "other",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.04472132427466623,
-      "market_price": 0.12360662137333112,
-      "edge": 0.07888529709866489,
-      "edge_percent": 7.888529709866489,
-      "min_edge_required": 0.03,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "rare",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "rare",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "L\u00ea Minh H\u01b0ng gains significant political support within the ruling party",
-          "Current Prime Minister steps down or is replaced",
-          "Public sentiment shifts favorably towards L\u00ea Minh H\u01b0ng"
-        ],
-        "weakest_link": "Public sentiment shifts favorably towards L\u00ea Minh H\u01b0ng"
-      },
-      "category": "politics_near",
-      "narrative_drivers": [
-        "Internal party dynamics and leadership contests",
-        "Public perception of L\u00ea Minh H\u01b0ng's policies and capabilities"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "ALPHA",
-      "signal_emoji": "\ud83d\udd25",
-      "signal_strength": 103,
-      "interpretation": "Smart money (NO) confirms YES is overpriced",
-      "action_suggestion": "High conviction: insider + statistics aligned",
-      "insider_score": 70,
-      "insider_position": "NO",
-      "irrationality_score": 33,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.07888529709866489,
-      "edge_percent": 7.888529709866489
-    },
-    "financial_analyst": {
-      "signal_quality": 67.4,
-      "stance": "SELECTIVE",
-      "edge_percent": 7.89,
-      "signal_strength": 103.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "resolution_last_check": "2026-04-18T06:57:23.183564+00:00"
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0x0a34aef2179e97548cd9b0abe789225ca3183687e0ce8009f3ce61b329871983",
     "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
     "trader": {
@@ -32824,5 +32627,140 @@
     "strength": 76,
     "timestamp": "2026-04-18T18:11:04.499513",
     "ai_context": "\u274c SKIP \u2014 Recent developments indicate a low likelihood of a Russia-Ukraine ceasefire before the release of GTA VI.\nThe 32-hour Orthodox Easter ceasefire in April 2026 collapsed quickly, with both sides accusing each other of violations, highlighting deep-seated distrust. Prediction markets assign only a 1.4% probability to a ceasefire by April 30, 2026, reflecting skepticism about near-term peace prospects. (agenticnews."
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xe4600d371fc116d7e5736f3d1c3f85ea1175c86780ab0b7dabc5c8f2c864caff",
+    "wallet": "0x94f199fb7789f1aef7fff6b758d6b375100f4c7a",
+    "trader": {
+      "rank": 11,
+      "address": "0x94f199fb7789f1aef7fff6b758d6b375100f4c7a",
+      "username": "KeyTransporter",
+      "profit": 5711459.802519929,
+      "volume": 20086062.154324993,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xad72ffe37df00548959c2f86f0333e7c958e4f5e",
+      "side": "BUY",
+      "asset": "42368626351643526931841193481245305050813282850576775209505340532531778096419",
+      "conditionId": "0x80849eb1750171941094121693220888edbc5aa9de017ca5f2ace548511cbcd2",
+      "size": 1833.928,
+      "price": 0.89,
+      "timestamp": 1776538614,
+      "title": "First Blood in Game 2?",
+      "slug": "lol-g2-sk-2026-04-18-game2-first-blood",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/league-of-legends-61a4f083a6.png",
+      "eventSlug": "lol-g2-sk-2026-04-18",
+      "outcome": "SK Gaming",
+      "outcomeIndex": 1,
+      "name": "KING7777777",
+      "pseudonym": "Troubled-Transparency",
+      "bio": "777",
+      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-3533082-96897c83-a8e0-4d15-80d7-ba9de2d48280.jpg",
+      "profileImageOptimized": "",
+      "transactionHash": "0xe4600d371fc116d7e5736f3d1c3f85ea1175c86780ab0b7dabc5c8f2c864caff",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "First Blood in Game 2?",
+    "market_slug": "lol-g2-sk-2026-04-18",
+    "amount": 1632.1959200000001,
+    "ai_context": "\u274c SKIP \u2014 SK Gaming's recent performance and statistics do not support a high likelihood of securing First Blood in Game 2.\nIn the LEC 2026 Versus Season, SK Gaming has a First Blood rate of 72.7%, which is below the league average of 73%. (gol.gg) Additionally, their overall win rate in the season is 27.3%, indicating a challenging season. (sheepesports.com) Given these factors, betting on SK Gaming to secure First Blood in Game 2 is not supported by current statistics."
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xca19eb86a519ed223696fa323800b674f83ba44aa030bed426393c0e5ec5c485",
+    "wallet": "0x94f199fb7789f1aef7fff6b758d6b375100f4c7a",
+    "trader": {
+      "rank": 11,
+      "address": "0x94f199fb7789f1aef7fff6b758d6b375100f4c7a",
+      "username": "KeyTransporter",
+      "profit": 5711459.802519929,
+      "volume": 20086062.154324993,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xad72ffe37df00548959c2f86f0333e7c958e4f5e",
+      "side": "BUY",
+      "asset": "42368626351643526931841193481245305050813282850576775209505340532531778096419",
+      "conditionId": "0x80849eb1750171941094121693220888edbc5aa9de017ca5f2ace548511cbcd2",
+      "size": 3836.378,
+      "price": 0.7445938954992241,
+      "timestamp": 1776538614,
+      "title": "First Blood in Game 2?",
+      "slug": "lol-g2-sk-2026-04-18-game2-first-blood",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/league-of-legends-61a4f083a6.png",
+      "eventSlug": "lol-g2-sk-2026-04-18",
+      "outcome": "SK Gaming",
+      "outcomeIndex": 1,
+      "name": "KING7777777",
+      "pseudonym": "Troubled-Transparency",
+      "bio": "777",
+      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-3533082-96897c83-a8e0-4d15-80d7-ba9de2d48280.jpg",
+      "profileImageOptimized": "",
+      "transactionHash": "0xca19eb86a519ed223696fa323800b674f83ba44aa030bed426393c0e5ec5c485",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "First Blood in Game 2?",
+    "market_slug": "lol-g2-sk-2026-04-18",
+    "amount": 2856.543639627522,
+    "ai_context": "\u274c SKIP \u2014 SK Gaming's recent performance and first blood statistics do not support a 74% chance of winning first blood in Game 2.\nIn the 2025 season, SK Gaming had a 20% win rate when securing first blood, winning 3 out of 15 matches. Additionally, their overall win rate for the same period was 18%, with a 4-18 record. (loltv.gg) These statistics indicate that SK Gaming is unlikely to secure first blood in Game 2."
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xd669e62099345eda72ba55bd23abf5a92d606fafbe88ffcc722909e88254814e",
+    "wallet": "0x16f91db2592924cfed6e03b7e5cb5bb1e32299e3",
+    "trader": {
+      "rank": 20,
+      "address": "0x16f91db2592924cfed6e03b7e5cb5bb1e32299e3",
+      "username": "Jenzigo",
+      "profit": 4049827.0941029997,
+      "volume": 9457725.034338009,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x0a26054fe174697bf6be759c4b600fdb830d1851",
+      "side": "BUY",
+      "asset": "83043745873099391422493722846733091644759325408485860734642177409354231235378",
+      "conditionId": "0x12808d37fe61cde6d6d6ed93af95f2f1177a0ea0020f49a7407c701af39a1d61",
+      "size": 2440.311685,
+      "price": 0.48413024348582234,
+      "timestamp": 1776538910,
+      "title": "Lille OSC vs. OGC Nice: Both Teams to Score",
+      "slug": "fl1-lil-ogc-2026-04-18-btts",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/league-fl1.png",
+      "eventSlug": "fl1-lil-ogc-2026-04-18-more-markets",
+      "outcome": "No",
+      "outcomeIndex": 1,
+      "name": "BrevanHoward",
+      "pseudonym": "Cloudy-Leaker",
+      "bio": "",
+      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-510465-f88d1f31-e75b-4dcc-a6b9-b6e1a99b0191.png",
+      "profileImageOptimized": "",
+      "transactionHash": "0xd669e62099345eda72ba55bd23abf5a92d606fafbe88ffcc722909e88254814e",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Lille OSC vs. OGC Nice: Both Teams to Score",
+    "market_slug": "fl1-lil-ogc-2026-04-18-more-markets",
+    "amount": 1181.4286902403474,
+    "ai_context": "\u274c SKIP \u2014 Lille OSC's strong home form and Nice's poor away record suggest both teams are likely to score.\nLille OSC has won four of their last five Ligue 1 games, including a 4-0 victory at Toulouse, and have conceded only 14 goals in 14 home matches this season. OGC Nice, on the other hand, have won just three of their 14 away games in Ligue 1 this season, with 10 losses. (betbrain.com) Given these statistics, it's reasonable to expect both teams to score in this match."
   }
 ]
