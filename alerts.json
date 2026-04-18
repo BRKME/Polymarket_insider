@@ -1,211 +1,5 @@
 [
   {
-    "market": "Timberwolves vs. Warriors: O/U 227.5",
-    "market_slug": "nba-min-gsw-2026-03-13-total-227pt5",
-    "wallet": "0x5b1d82e56e8a63cb21089d6eb699f33113c20d57",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (1d old)",
-        "Large bet ($2,308)",
-        "Low activity (3 txns)"
-      ],
-      "amount": 2307.93,
-      "odds": 0.57,
-      "raw_price": 0.57,
-      "outcome": "Under",
-      "potential_pnl": 1741.0700000000002,
-      "pnl_multiplier": 0.7543859649122808,
-      "wallet_age_days": 1,
-      "total_activities": 3
-    },
-    "timestamp": "2026-03-13T11:29:13.077550",
-    "trade_hash": "0xc18dccfa3d4d255a23817eed156eb52d503a8dc92ed155d5256a22d4ac5e5a23",
-    "trade_timestamp": 1773401225,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Under",
-      "side": "BUY",
-      "price": 0.57,
-      "effective_price": 0.57,
-      "size": 4049.0,
-      "amount": 2307.93,
-      "potential_pnl": 1741.0700000000002,
-      "pnl_multiplier": 0.7543859649122808,
-      "is_no": false
-    },
-    "irrationality": {
-      "irrationality_score": 50,
-      "flags": [
-        "Category structurally prone to longshot bias",
-        "Crisis keyword detected ('war')",
-        "Large mispricing edge (+31.6%)"
-      ],
-      "category": "geopolitics",
-      "category_info": {
-        "strength": "high",
-        "typical_overpricing": 0.05,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.254,
-      "market_price": 0.57,
-      "edge": 0.31599999999999995,
-      "edge_percent": 31.599999999999994,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Both teams have high-scoring offenses",
-          "Defensive performance is below average",
-          "Game pace is fast"
-        ],
-        "weakest_link": "Defensive performance is below average"
-      },
-      "category": "sports",
-      "narrative_drivers": [
-        "Recent high-scoring games by both teams",
-        "Injuries affecting defensive players"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "INSIDER_ONLY",
-      "signal_emoji": "\ud83d\udc41\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider activity detected, no clear mispricing",
-      "action_suggestion": "Monitor: insider signal only, no statistical edge",
-      "insider_score": 70,
-      "insider_position": "UNDER",
-      "irrationality_score": 50,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.31599999999999995,
-      "edge_percent": 31.599999999999994
-    },
-    "financial_analyst": {
-      "signal_quality": 54.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 31.6,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    }
-  },
-  {
-    "market": "Spread: Cavaliers (-11.5)",
-    "market_slug": "nba-cle-dal-2026-03-13-spread-away-11pt5",
-    "wallet": "0xa7fb2b87b7d3301c3b7dd91317dac5c8a5a5ea35",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($1,068)",
-        "Low activity (2 txns)"
-      ],
-      "amount": 1067.78,
-      "odds": 0.58,
-      "raw_price": 0.58,
-      "outcome": "Cavaliers",
-      "potential_pnl": 773.2200000000001,
-      "pnl_multiplier": 0.7241379310344829,
-      "wallet_age_days": 0,
-      "total_activities": 2
-    },
-    "timestamp": "2026-03-13T12:27:03.614046",
-    "trade_hash": "0x41861c0689e48ea3cdbc4a139d5ae2db72c0dd03530ec9811d3bda0d8b4d3ff3",
-    "trade_timestamp": 1773404705,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Cavaliers",
-      "side": "BUY",
-      "price": 0.58,
-      "effective_price": 0.58,
-      "size": 1841.0,
-      "amount": 1067.78,
-      "potential_pnl": 773.2200000000001,
-      "pnl_multiplier": 0.7241379310344829,
-      "is_no": false
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+32.4%)"
-      ],
-      "category": "other",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.256,
-      "market_price": 0.58,
-      "edge": 0.32399999999999995,
-      "edge_percent": 32.4,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Cavaliers maintain a strong home court advantage",
-          "Cavaliers' key players perform at or above expectations",
-          "Opponent struggles with injuries or poor performance"
-        ],
-        "weakest_link": "Opponent struggles with injuries or poor performance"
-      },
-      "category": "sports",
-      "narrative_drivers": [
-        "Cavaliers' recent performance trends",
-        "Public perception of Cavaliers as a dominant team"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "INSIDER_ONLY",
-      "signal_emoji": "\ud83d\udc41\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider activity detected, no clear mispricing",
-      "action_suggestion": "Monitor: insider signal only, no statistical edge",
-      "insider_score": 70,
-      "insider_position": "CAVALIERS",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.32399999999999995,
-      "edge_percent": 32.4
-    },
-    "financial_analyst": {
-      "signal_quality": 51.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 32.4,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    }
-  },
-  {
     "market": "Spread: Cavaliers (-11.5)",
     "market_slug": "nba-cle-dal-2026-03-13-spread-away-11pt5",
     "wallet": "0x1f2d8ddcec9a560b121b16bfac2fba3a50779cdf",
@@ -33231,5 +33025,159 @@
     "amount": 4763.612076599999,
     "ai_context": "\u274c SKIP\nLe Havre AC has been in poor form recently, with four consecutive losses and two draws in their last six matches. Their most recent match was a 1-1 draw against Auxerre on April 5, 2026. (espn.com)",
     "resolution_last_check": "2026-04-18T07:01:17.066120+00:00"
+  },
+  {
+    "market": "Map Handicap: VIT (-1.5) vs FURIA (+1.5)",
+    "market_slug": "cs2-furia-vit-2026-04-18-map-handicap-home-1pt5",
+    "event_slug": "cs2-furia-vit-2026-04-18-map-handicap-home-1pt5",
+    "wallet": "0x3059404e586f3849b04663d1807c0232ac93fcff",
+    "analysis": {
+      "score": 70,
+      "flags": [
+        "New wallet (1d old)",
+        "Large bet ($4,903)",
+        "Low activity (3 txns)"
+      ],
+      "amount": 4902.926803339844,
+      "odds": 0.563450549078851,
+      "raw_price": 0.563450549078851,
+      "outcome": "FURIA",
+      "potential_pnl": 3798.6829676601556,
+      "pnl_multiplier": 0.7747786414173093,
+      "wallet_age_days": 1,
+      "total_activities": 3
+    },
+    "timestamp": "2026-04-18T08:27:51.626966",
+    "trade_hash": "0x2a64b17759d13751de6777a15e04f0ce590b83feb1cba6589f2492bb8acc20b1",
+    "trade_timestamp": 1776500252,
+    "latency": null,
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "FURIA",
+      "outcomeIndex": 1,
+      "normalized_position": "NO",
+      "side": "BUY",
+      "price": 0.563450549078851,
+      "effective_price": 0.563450549078851,
+      "size": 8701.609771,
+      "amount": 4902.926803339844,
+      "potential_pnl": 3798.6829676601556,
+      "pnl_multiplier": 0.7747786414173093,
+      "is_no": false,
+      "conditionId": "0x14c06312bee8cc7c37685d03b616eb1d454b4fb8f5bfa8ef5eb573fd9280abb7",
+      "slug": "cs2-furia-vit-2026-04-18-map-handicap-home-1pt5",
+      "eventSlug": "cs2-furia-vit-2026-04-18"
+    },
+    "irrationality": {
+      "irrationality_score": 35,
+      "flags": [
+        "Large mispricing edge (+31.1%)"
+      ],
+      "category": "sports",
+      "category_info": {
+        "strength": "medium",
+        "typical_overpricing": 0.03,
+        "min_edge": 0.05
+      },
+      "is_irrational": true
+    },
+    "mispricing": {
+      "rational_estimate": 0.25269010981577017,
+      "market_price": 0.563450549078851,
+      "edge": 0.3107604392630808,
+      "edge_percent": 31.076043926308078,
+      "min_edge_required": 0.05,
+      "is_mispriced": true,
+      "edge_quality": "STRONG",
+      "base_rate_class": "common",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "common",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "VIT maintains consistent performance",
+          "FURIA underperforms relative to expectations",
+          "external factors (e.g., meta changes, player health) favor VIT"
+        ],
+        "weakest_link": "FURIA underperforms relative to expectations"
+      },
+      "category": "sports",
+      "narrative_drivers": [
+        "recent team performance trends",
+        "historical matchups between VIT and FURIA"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "ALPHA",
+      "signal_emoji": "\ud83d\udd25",
+      "signal_strength": 105,
+      "interpretation": "Smart money (NO) confirms YES is overpriced",
+      "action_suggestion": "High conviction: insider + statistics aligned",
+      "insider_score": 70,
+      "insider_position": "NO",
+      "irrationality_score": 35,
+      "is_irrational": true,
+      "is_mispriced": true,
+      "edge": 0.3107604392630808,
+      "edge_percent": 31.076043926308078
+    },
+    "financial_analyst": {
+      "signal_quality": 81.0,
+      "stance": "HIGH_CONVICTION",
+      "edge_percent": 31.08,
+      "signal_strength": 105.0,
+      "insider_score": 70.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "ai_context": "\u274c SKIP\nFURIA lost 1-3 to Vitality in the IEM Krak\u00f3w grand final on February 8, 2026. (escorenews.com)"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x120d0c51babefdc15e7a642eeeb4f186d4130269829f4d841aa86fc02712f4a9",
+    "wallet": "0xd235973291b2b75ff4070e9c0b01728c520b0f29",
+    "trader": {
+      "rank": 5,
+      "address": "0xd235973291b2b75ff4070e9c0b01728c520b0f29",
+      "username": "zxgngl",
+      "profit": 7807265.5892408835,
+      "volume": 40551790.62184699,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x8f04167129929f0065859ad7a7d10921e4407994",
+      "side": "SELL",
+      "asset": "77893140510362582253172593084218413010407941075415081594586195705930819989216",
+      "conditionId": "0x924a2942747dd75703321a7c8d809c68f6a514c3b0f2a2e64274e02310634669",
+      "size": 13152.89,
+      "price": 0.39,
+      "timestamp": 1776500822,
+      "title": "Strait of Hormuz traffic returns to normal by end of April?",
+      "slug": "strait-of-hormuz-traffic-returns-to-normal-by-april-30",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-ships-transit-the-strait-of-hormuz-on-any-day-in-march-ERARnetK0FJm.jpg",
+      "eventSlug": "strait-of-hormuz-traffic-returns-to-normal-by-april-30",
+      "outcome": "Yes",
+      "outcomeIndex": 0,
+      "name": "Properdin",
+      "pseudonym": "Wary-Dose",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x120d0c51babefdc15e7a642eeeb4f186d4130269829f4d841aa86fc02712f4a9",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Strait of Hormuz traffic returns to normal by end of April?",
+    "market_slug": "strait-of-hormuz-traffic-returns-to-normal-by-april-30",
+    "amount": 5129.6271,
+    "ai_context": "\u274c SKIP\nThe Strait of Hormuz remains under significant disruption due to ongoing U.S. and Iranian military actions, with vessel transits below 10% of pre-conflict averages. (polymarket.com)"
   }
 ]
