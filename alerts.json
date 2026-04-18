@@ -1,96 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0x7d52e0e8d93310ce50c92d4e41eb83f5f5b0f115452e6e7cf1e114b59109d4f8",
-    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-    "trader": {
-      "rank": 1,
-      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-      "username": "Theo4",
-      "profit": 22053933.752321757,
-      "volume": 43013258.51568201,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x3b5c629f114098b0dee345fb78b7a3a013c7126e",
-      "side": "BUY",
-      "asset": "38994064194073482228229509993277184534677234863592159586324882995065445332711",
-      "conditionId": "0x25ae0b3ce0af14431a45ce7f36f7f07f5ea0fc8a0fa8051a9ed61db5ceeb79c1",
-      "size": 3472.27,
-      "price": 0.7,
-      "timestamp": 1773507441,
-      "title": "Will Arsenal FC win on 2026-03-14?",
-      "slug": "epl-ars-eve-2026-03-14-ars",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Repetitive-markets/premier+league.jpg",
-      "eventSlug": "epl-ars-eve-2026-03-14",
-      "outcome": "Yes",
-      "outcomeIndex": 0,
-      "name": "SMCAOMCRL",
-      "pseudonym": "Majestic-Hyena",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x7d52e0e8d93310ce50c92d4e41eb83f5f5b0f115452e6e7cf1e114b59109d4f8",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Will Arsenal FC win on 2026-03-14?",
-    "market_slug": "epl-ars-eve-2026-03-14",
-    "amount": 2430.589,
-    "resolution_last_check": "2026-04-13T19:41:44.645695+00:00"
-  },
-  {
-    "type": "TOP_TRADER",
-    "trade_hash": "0xf6804c842c2fbfa1ddd59bdeea6d61dd5b05d55107e9d1fac45b2c33cba31fb9",
-    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-    "trader": {
-      "rank": 1,
-      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-      "username": "Theo4",
-      "profit": 22053933.752321757,
-      "volume": 43013258.51568201,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x6d3c5bd13984b2de47c3a88ddc455309aab3d294",
-      "side": "SELL",
-      "asset": "23908744235029436668032187407696757858496393436364928402129538177797433532204",
-      "conditionId": "0x1ebce1a078e88ce3b05e46d6c67f3e0b4a49b5a9ec362ec59c8ad3324c42f233",
-      "size": 3000,
-      "price": 0.67,
-      "timestamp": 1773507441,
-      "title": "Will SSC Napoli win on 2026-03-14?",
-      "slug": "sea-nap-lec-2026-03-14-nap",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Serie-A-Logo.png",
-      "eventSlug": "sea-nap-lec-2026-03-14",
-      "outcome": "Yes",
-      "outcomeIndex": 0,
-      "name": "VeryLucky888",
-      "pseudonym": "Scornful-West",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0xf6804c842c2fbfa1ddd59bdeea6d61dd5b05d55107e9d1fac45b2c33cba31fb9",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Will SSC Napoli win on 2026-03-14?",
-    "market_slug": "sea-nap-lec-2026-03-14",
-    "amount": 2010.0000000000002,
-    "resolution_last_check": "2026-04-13T19:41:44.645713+00:00"
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0x01242ecee739e953b4824f448a707db1e394fafb473fef777974634875696dc7",
     "wallet": "0x8119010a6e589062aa03583bb3f39ca632d9f887",
     "trader": {
@@ -32762,5 +32672,68 @@
     "market_slug": "cs2-furia-vit-2026-04-18",
     "amount": 3513.76,
     "ai_context": "\u274c SKIP \u2014 Vitality has a superior head-to-head record and recent form against FURIA.\nVitality leads the head-to-head 5-3 and recently defeated FURIA 3-1 in the IEM Krakow 2026 grand final. (tips.gg) Additionally, Vitality has won 9 of their last 10 matches, while FURIA has won 7 of their last 10. (cs2bet.io) Given these factors, the bet on FURIA is not supported by the facts."
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x271c406d020ca39f9113a9fde392fcd8bef4ae5873943db90864e12b5dcc714b",
+    "wallet": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
+    "trader": {
+      "rank": 17,
+      "address": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
+      "username": "GamblingIsAllYouNeed",
+      "profit": 4657935.773497051,
+      "volume": 360413915.585498,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x47a83fb1debcd11cc93f3bbbf5aeb3a5caeb52f9",
+      "side": "BUY",
+      "asset": "1626182374709232167907168616126625968959634718101234029008605067345753997994",
+      "conditionId": "0xcbc3a1f313d2012b461b55309e3b8baee458c9c94a6db0006d0f2a394fa09980",
+      "size": 5122.509650000001,
+      "price": 0.53,
+      "timestamp": 1776549378,
+      "title": "Wild vs. Stars",
+      "slug": "nhl-min-dal-2026-04-18",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nhl.png",
+      "eventSlug": "nhl-min-dal-2026-04-18",
+      "outcome": "Stars",
+      "outcomeIndex": 1,
+      "name": "JuicySlots",
+      "pseudonym": "Oily-Physical",
+      "bio": "youtube/@JuicySlots - the realest high stakes gamba content",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x271c406d020ca39f9113a9fde392fcd8bef4ae5873943db90864e12b5dcc714b",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Wild vs. Stars",
+    "market_slug": "nhl-min-dal-2026-04-18",
+    "amount": 2714.9301145000004,
+    "ai_context": "\u274c SKIP \u2014 Recent head-to-head results and injuries do not favor the Stars.\nIn their last 10 meetings, the Stars lead 5-3, but the Wild have won 2 of the last 3 games. Additionally, the Wild have been performing well recently, winning 7 of their last 10 games. The Stars are also dealing with the potential absence of key center Roope Hintz due to injury. (rantsports.com)\nGiven these factors, the facts do not support the bet on the Stars."
+  },
+  {
+    "type": "WHALE_FLOW",
+    "condition_id": "0x22138ac97cfb6f04b3a7560225684d6f821e5e470b876de18b7d3d23f7cf7736",
+    "market": "Russia-Ukraine Ceasefire before GTA VI?",
+    "market_slug": "russia-ukraine-ceasefire-before-gta-vi-554",
+    "event_slug": "",
+    "dominant_side": "YES",
+    "dominant_volume": 59297.0,
+    "total_volume": 59297.0,
+    "imbalance_pct": 100.0,
+    "unique_wallets": 39,
+    "trade_count": 45,
+    "max_single_trade": 52598.0,
+    "yes_price": 0.535,
+    "strength": 71,
+    "timestamp": "2026-04-18T21:59:03.877074",
+    "ai_context": "\u274c SKIP \u2014 The trader's bet on a Russia-Ukraine ceasefire before the release of GTA VI is not supported by current developments.\nThe 32-hour ceasefire during Orthodox Easter in April 2026 collapsed, with both sides accusing each other of numerous violations, including drone strikes and assaults. (apnews.com) Prediction markets assign a mere 1.4% probability to a ceasefire by April 30, 2026, reflecting skepticism about near-term peace prospects. (agenticnews."
   }
 ]
