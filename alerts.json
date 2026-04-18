@@ -1,95 +1,5 @@
 [
   {
-    "type": "TOP_TRADER",
-    "trade_hash": "0x6441ea6e6509371eee9e82ce594ec6cfa909277a074d081b0e8078b238530d00",
-    "wallet": "0xdb27bf2ac5d428a9c63dbc914611036855a6c56e",
-    "trader": {
-      "rank": 9,
-      "address": "0xdb27bf2ac5d428a9c63dbc914611036855a6c56e",
-      "username": "DrPufferfish",
-      "profit": 5929636.811514213,
-      "volume": 207381131.84704196,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x204f72f35326db932158cba6adff0b9a1da95e14",
-      "side": "BUY",
-      "asset": "21481513434957951470354179752999472975927720761536541086327227757236107211668",
-      "conditionId": "0xc69700750371973efc10a74f50e831958a4d07456a86ecd670d7bfc59db9c6a5",
-      "size": 2075,
-      "price": 0.51,
-      "timestamp": 1773502039,
-      "title": "Will Eintracht Frankfurt win on 2026-03-14?",
-      "slug": "bun-ein-hei-2026-03-14-ein",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/league-bun.jpg",
-      "eventSlug": "bun-ein-hei-2026-03-14",
-      "outcome": "Yes",
-      "outcomeIndex": 0,
-      "name": "swisstony",
-      "pseudonym": "Frail-Possible",
-      "bio": "loincloth chic",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x6441ea6e6509371eee9e82ce594ec6cfa909277a074d081b0e8078b238530d00",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Unknown market",
-    "market_slug": "",
-    "amount": 1058.25,
-    "resolution_last_check": "2026-04-13T19:41:38.016266+00:00"
-  },
-  {
-    "type": "TOP_TRADER",
-    "trade_hash": "0x079e3f270e69ada764840f6f7fe5c05634fd9460e5024aee95fa98b99632ce24",
-    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-    "trader": {
-      "rank": 1,
-      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-      "username": "Theo4",
-      "profit": 22053933.752321757,
-      "volume": 43013258.515682004,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x66fbe4344c1a9f6029a4e40ffd5ca7848e189f72",
-      "side": "BUY",
-      "asset": "31986650000416570392848394072350508621537097683008229139707876246259885743284",
-      "conditionId": "0x026952b400f7d3553bfba75f48e968162f2960817ca83ebefa47a75177db7ff8",
-      "size": 1960.784312,
-      "price": 0.5099999999388,
-      "timestamp": 1773502941,
-      "title": "Dota 2: BetBoom Team vs Team Yandex - Game 2 Winner",
-      "slug": "dota2-bb4-ty-2026-03-14-game2",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/dota2-7ffacddb21.jpg",
-      "eventSlug": "dota2-bb4-ty-2026-03-14",
-      "outcome": "BetBoom Team",
-      "outcomeIndex": 0,
-      "name": "bobbythedestroyer",
-      "pseudonym": "Incredible-Integer",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x079e3f270e69ada764840f6f7fe5c05634fd9460e5024aee95fa98b99632ce24",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Unknown market",
-    "market_slug": "",
-    "amount": 999.9999989999999,
-    "resolution_last_check": "2026-04-13T19:41:38.700320+00:00"
-  },
-  {
     "market": "Will Anthropic have the best AI model at the end of March 2026?",
     "market_slug": "will-anthropic-have-the-best-ai-model-at-the-end-of-march-2026-437",
     "wallet": "0x4c4ed674fde7dc998036b3ae92445d00fcdb297b",
@@ -32916,5 +32826,95 @@
     "market_slug": "iran-x-israelus-conflict-ends-by",
     "amount": 1666.0,
     "ai_context": "\u274c SKIP \u2014 The conflict between Iran, Israel, and the U.S. is ongoing, with no resolution by April 15.\nAs of April 18, 2026, Iran has reimposed restrictions on the Strait of Hormuz and fired on vessels, escalating tensions. Diplomatic efforts, including mediation by Pakistan, have not led to a ceasefire. U.S. President Donald Trump has indicated that the war is \"very close to over,\" but no official end has been declared. (apnews."
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xad08902914f38df8f3a839983b046c642adbab0d7fa5358009dd64eb46192863",
+    "wallet": "0xd235973291b2b75ff4070e9c0b01728c520b0f29",
+    "trader": {
+      "rank": 5,
+      "address": "0xd235973291b2b75ff4070e9c0b01728c520b0f29",
+      "username": "zxgngl",
+      "profit": 7807265.589240883,
+      "volume": 40551790.62184699,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xd16201ba67a40915b3176272911b9e44aba30d24",
+      "side": "BUY",
+      "asset": "105258950184760667183270532698300577038854468209447726738073081448087675682025",
+      "conditionId": "0xd0fd76b4a90073854a9c27362d7bd1c54fe1acfd28d85b93e67de6cd5c19e69f",
+      "size": 3974.9946,
+      "price": 0.28,
+      "timestamp": 1776533246,
+      "title": "Raptors vs. Cavaliers",
+      "slug": "nba-tor-cle-2026-04-18",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
+      "eventSlug": "nba-tor-cle-2026-04-18",
+      "outcome": "Raptors",
+      "outcomeIndex": 0,
+      "name": "0xD16201ba67A40915b3176272911b9e44aBa30d24-1763774387576",
+      "pseudonym": "Utter-Enquiry",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xad08902914f38df8f3a839983b046c642adbab0d7fa5358009dd64eb46192863",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Raptors vs. Cavaliers",
+    "market_slug": "nba-tor-cle-2026-04-18",
+    "amount": 1112.9984880000002,
+    "ai_context": "NBA Schedule\nRaptors (TOR) @ Cavaliers (CLE) on Saturday, Apr 18, 2026 at 10:00 AM PDT. Current score: TOR 29 - CLE 27\n\u274c SKIP \u2014 The Raptors have a 13-13 record since February 20, 2026, and have been inconsistent.\nThe Raptors have a 13-13 record between February 20 and April 14, 2026. (statmuse.com) They have been inconsistent, with recent wins against the Brooklyn Nets (136-101) and the Miami Heat (128-114), but also a loss to the New York Knicks (95-112). (espn."
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xfc0e4fa55695bb595dfee7cb3756a7fb7636b28e4200b6d1a6e060b160292a3b",
+    "wallet": "0xdb27bf2ac5d428a9c63dbc914611036855a6c56e",
+    "trader": {
+      "rank": 15,
+      "address": "0xdb27bf2ac5d428a9c63dbc914611036855a6c56e",
+      "username": "DrPufferfish",
+      "profit": 4811703.457554187,
+      "volume": 237578993.65140694,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x1d5c087a82ba920af944000c0b6751c949f94f26",
+      "side": "BUY",
+      "asset": "59698704882728158662523758761473724746570734996071360489352908480191928332047",
+      "conditionId": "0x4b46ec50c153aca45399170668a38a5fe392f9c9ef8661c9db1338e87e6a1383",
+      "size": 4512.923084,
+      "price": 0.2599999998613333,
+      "timestamp": 1776533546,
+      "title": "Counter-Strike: FURIA vs Vitality (BO3) - IEM Rio Playoffs",
+      "slug": "cs2-furia-vit-2026-04-18",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/counter-strike-image-16c415c538.png",
+      "eventSlug": "cs2-furia-vit-2026-04-18",
+      "outcome": "FURIA",
+      "outcomeIndex": 0,
+      "name": "beldewoute",
+      "pseudonym": "Slippery-Tuna",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xfc0e4fa55695bb595dfee7cb3756a7fb7636b28e4200b6d1a6e060b160292a3b",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Counter-Strike: FURIA vs Vitality (BO3) - IEM Rio Playoffs",
+    "market_slug": "cs2-furia-vit-2026-04-18",
+    "amount": 1173.3600012142078,
+    "ai_context": "\u274c SKIP \u2014 Vitality's recent form and head-to-head record favor them over FURIA.\nVitality has a 9-1 record in their last 10 matches, including a 2-0 victory over NAVI in the quarterfinals. (cs2bet.io) FURIA has shown resilience, notably overcoming NAVI after a 3-13 loss on Mirage to win 2-1. (hltv.org) However, Vitality's consistent performance and strong head-to-head record make them the favored team in this matchup."
   }
 ]
