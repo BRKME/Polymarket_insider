@@ -1,51 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0xaa368e04ae2014a78fc85b480d232e4081f08d407ecd95fd7c4c74a376c6d0dd",
-    "wallet": "0xdb27bf2ac5d428a9c63dbc914611036855a6c56e",
-    "trader": {
-      "rank": 9,
-      "address": "0xdb27bf2ac5d428a9c63dbc914611036855a6c56e",
-      "username": "DrPufferfish",
-      "profit": 5929636.811514213,
-      "volume": 207381131.84704196,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0xc7b9cabba03195c07d007304198fb39f285b30b5",
-      "side": "BUY",
-      "asset": "24880818617132598688829402716541764724600685149042631991938921403533284241164",
-      "conditionId": "0xc094fd60c0a09ba0df48a086ef91e12390fa8777fcd9cb63c154e9622cb1d497",
-      "size": 1782.202,
-      "price": 0.999,
-      "timestamp": 1773502039,
-      "title": "Will the Memphis Grizzlies win the 2026 NBA Finals?",
-      "slug": "will-the-memphis-grizzlies-win-the-2026-nba-finals",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nba-finals-points-leader-7g2ZEZvMXxLb.jpg",
-      "eventSlug": "2026-nba-champion",
-      "outcome": "No",
-      "outcomeIndex": 1,
-      "name": "fhbnbmn",
-      "pseudonym": "Rowdy-Video",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0xaa368e04ae2014a78fc85b480d232e4081f08d407ecd95fd7c4c74a376c6d0dd",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Unknown market",
-    "market_slug": "",
-    "amount": 1780.419798,
-    "resolution_last_check": "2026-04-13T19:41:37.345032+00:00"
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0x6441ea6e6509371eee9e82ce594ec6cfa909277a074d081b0e8078b238530d00",
     "wallet": "0xdb27bf2ac5d428a9c63dbc914611036855a6c56e",
     "trader": {
@@ -32916,5 +32871,50 @@
     "market_slug": "mlb-cin-min-2026-04-18",
     "amount": 1068.0516414,
     "ai_context": "\u274c SKIP \u2014 The available data indicates that the Cincinnati Reds have scored in the first inning in several games this season, suggesting a higher likelihood of a run being scored in the first inning.\nIn their game against the Los Angeles Angels on April 11, 2026, the Reds scored 4 runs in the first inning. (statmuse.com) Additionally, in their game against the Miami Marlins on April 8, 2026, they scored 2 runs in the first inning. (statmuse."
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xb8fc91c1a5b5f71db3e7b5a329dd35418689e9c7748105f075bf71e6e6550f32",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.515682004,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x05ab749a8554fb7c852238c271d384bae6798145",
+      "side": "BUY",
+      "asset": "91851388830923641218615793149765322805282194001900444983744404881757241655792",
+      "conditionId": "0x5c2e6aef8af5931e9bfa3750364626d754531d2fada2885d45c356b175962a25",
+      "size": 2000,
+      "price": 0.833,
+      "timestamp": 1776531144,
+      "title": "Iran x Israel/US conflict ends by April 15?",
+      "slug": "iran-x-israelus-conflict-ends-by-april-15-618-586-982",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/iran-x-israel-conflict-ends-by-next-friday-3FmhGylfITaT.jpg",
+      "eventSlug": "iran-x-israelus-conflict-ends-by",
+      "outcome": "Yes",
+      "outcomeIndex": 0,
+      "name": "SeniorLaghetto",
+      "pseudonym": "Rusty-Fava",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xb8fc91c1a5b5f71db3e7b5a329dd35418689e9c7748105f075bf71e6e6550f32",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Iran x Israel/US conflict ends by April 15?",
+    "market_slug": "iran-x-israelus-conflict-ends-by",
+    "amount": 1666.0,
+    "ai_context": "\u274c SKIP \u2014 The conflict between Iran, Israel, and the U.S. is ongoing, with no resolution by April 15.\nAs of April 18, 2026, Iran has reimposed restrictions on the Strait of Hormuz and fired on vessels, escalating tensions. Diplomatic efforts, including mediation by Pakistan, have not led to a ceasefire. U.S. President Donald Trump has indicated that the war is \"very close to over,\" but no official end has been declared. (apnews."
   }
 ]
