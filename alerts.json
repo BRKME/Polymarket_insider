@@ -2,108 +2,6 @@
   {
     "market": "Suns vs. Raptors: O/U 218.5",
     "market_slug": "nba-phx-tor-2026-03-13-total-218pt5",
-    "wallet": "0x027b07e66d668fa0d470b56630724002e5664f1d",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($1,297)",
-        "Low activity (1 txns)"
-      ],
-      "amount": 1296.54,
-      "odds": 0.49,
-      "raw_price": 0.49,
-      "outcome": "Under",
-      "potential_pnl": 1349.46,
-      "pnl_multiplier": 1.0408163265306123,
-      "wallet_age_days": 0,
-      "total_activities": 1
-    },
-    "timestamp": "2026-03-13T13:37:42.041868",
-    "trade_hash": "0x6aa75b682b0d1f3027868575f7505e68123dfbc97bb0ea4741827b7259b9375b",
-    "trade_timestamp": 1773408911,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Under",
-      "side": "BUY",
-      "price": 0.49,
-      "effective_price": 0.49,
-      "size": 2646.0,
-      "amount": 1296.54,
-      "potential_pnl": 1349.46,
-      "pnl_multiplier": 1.0408163265306123,
-      "is_no": false
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+25.2%)"
-      ],
-      "category": "sports",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.238,
-      "market_price": 0.49,
-      "edge": 0.252,
-      "edge_percent": 25.2,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Both teams have high offensive efficiency",
-          "Defensive strategies are lax",
-          "Pace of play is fast"
-        ],
-        "weakest_link": "Defensive strategies are lax"
-      },
-      "category": "sports",
-      "narrative_drivers": [
-        "Recent scoring trends of both teams",
-        "Injuries affecting key players"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "INSIDER_ONLY",
-      "signal_emoji": "\ud83d\udc41\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider activity detected, no clear mispricing",
-      "action_suggestion": "Monitor: insider signal only, no statistical edge",
-      "insider_score": 70,
-      "insider_position": "UNDER",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.252,
-      "edge_percent": 25.2
-    },
-    "financial_analyst": {
-      "signal_quality": 51.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 25.2,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    }
-  },
-  {
-    "market": "Suns vs. Raptors: O/U 218.5",
-    "market_slug": "nba-phx-tor-2026-03-13-total-218pt5",
     "wallet": "0x2aa9619a31243e078a28617e71f5176b738c8fca",
     "analysis": {
       "score": 70,
@@ -33072,5 +32970,50 @@
     "market_slug": "cdr-atm-rso-2026-04-18",
     "amount": 1904.4584000000002,
     "ai_context": "\u274c SKIP\nAtl\u00e9tico Madrid is scheduled to play Real Sociedad in the Copa del Rey final on April 18, 2026, at 9:00 PM local time in Sevilla. (elpais.com) The trader's bet on Atl\u00e9tico Madrid winning at 52% odds is based on this upcoming match. Given the high stakes of a final and the competitive natur..."
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xedae61918f81ba56305e7f07cca0e2e0a3f461cd11645b8595cea2d0a089a392",
+    "wallet": "0xe90bec87d9ef430f27f9dcfe72c34b76967d5da2",
+    "trader": {
+      "rank": 14,
+      "address": "0xe90bec87d9ef430f27f9dcfe72c34b76967d5da2",
+      "username": "gmanas",
+      "profit": 4955880.748692177,
+      "volume": 529047708.505991,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xb89f5425341719d298dc2f5b9a92374f5fde1c44",
+      "side": "SELL",
+      "asset": "103971336418419351548990142781195320713490282483637854831265186666012554199721",
+      "conditionId": "0xa6ddb7146f48a12dbf73456d654211b01d7493829932c31b7fe85d82120d338f",
+      "size": 4093.07,
+      "price": 0.91,
+      "timestamp": 1776511630,
+      "title": "Iran x Israel/US conflict ends by April 30?",
+      "slug": "iran-x-israelus-conflict-ends-by-april-30-766-662-668-546",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/iran-x-israel-conflict-ends-by-next-friday-3FmhGylfITaT.jpg",
+      "eventSlug": "iran-x-israelus-conflict-ends-by",
+      "outcome": "Yes",
+      "outcomeIndex": 0,
+      "name": "iusedtowritepoetryforaliving",
+      "pseudonym": "Impartial-Harmonize",
+      "bio": "Push my cheek into the stone uh-oh, oh, oh-oh",
+      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-5049500-da4fdbbb-d0f2-40f6-890a-1308771300f6.webp",
+      "profileImageOptimized": "",
+      "transactionHash": "0xedae61918f81ba56305e7f07cca0e2e0a3f461cd11645b8595cea2d0a089a392",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Iran x Israel/US conflict ends by April 30?",
+    "market_slug": "iran-x-israelus-conflict-ends-by",
+    "amount": 3724.6937000000003,
+    "ai_context": "\u274c SKIP\nAs of April 18, 2026, the conflict between Iran, Israel, and the United States remains ongoing, with no clear resolution in sight. Recent diplomatic efforts, including a proposed $20 billion deal between the U.S. and Iran, have not yet led to a cessation of hostilities. (axios.com)"
   }
 ]
