@@ -2,214 +2,6 @@
   {
     "market": "Timberwolves vs. Warriors: O/U 227.5",
     "market_slug": "nba-min-gsw-2026-03-13-total-227pt5",
-    "wallet": "0xfaa2bde02ebef4cec23e23fb5b775b04f7837abf",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (1d old)",
-        "Large bet ($1,435)",
-        "Low activity (4 txns)"
-      ],
-      "amount": 1435.2599999999998,
-      "odds": 0.57,
-      "raw_price": 0.57,
-      "outcome": "Under",
-      "potential_pnl": 1082.74,
-      "pnl_multiplier": 0.7543859649122808,
-      "wallet_age_days": 1,
-      "total_activities": 4
-    },
-    "timestamp": "2026-03-13T11:29:02.874004",
-    "trade_hash": "0xcd5d4dcc60203059f0b7c8f68ca036f9b85c54a10bbef17b07be3af670519510",
-    "trade_timestamp": 1773401233,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Under",
-      "side": "BUY",
-      "price": 0.57,
-      "effective_price": 0.57,
-      "size": 2518.0,
-      "amount": 1435.2599999999998,
-      "potential_pnl": 1082.74,
-      "pnl_multiplier": 0.7543859649122808,
-      "is_no": false
-    },
-    "irrationality": {
-      "irrationality_score": 50,
-      "flags": [
-        "Category structurally prone to longshot bias",
-        "Crisis keyword detected ('war')",
-        "Large mispricing edge (+31.6%)"
-      ],
-      "category": "geopolitics",
-      "category_info": {
-        "strength": "high",
-        "typical_overpricing": 0.05,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.254,
-      "market_price": 0.57,
-      "edge": 0.31599999999999995,
-      "edge_percent": 31.599999999999994,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Both teams score efficiently",
-          "Defensive lapses from both teams",
-          "Favorable officiating leading to free throws"
-        ],
-        "weakest_link": "Defensive lapses from both teams"
-      },
-      "category": "sports",
-      "narrative_drivers": [
-        "Recent offensive performances",
-        "Injury status of key players"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "INSIDER_ONLY",
-      "signal_emoji": "\ud83d\udc41\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider activity detected, no clear mispricing",
-      "action_suggestion": "Monitor: insider signal only, no statistical edge",
-      "insider_score": 70,
-      "insider_position": "UNDER",
-      "irrationality_score": 50,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.31599999999999995,
-      "edge_percent": 31.599999999999994
-    },
-    "financial_analyst": {
-      "signal_quality": 54.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 31.6,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    }
-  },
-  {
-    "market": "Timberwolves vs. Warriors: O/U 227.5",
-    "market_slug": "nba-min-gsw-2026-03-13-total-227pt5",
-    "wallet": "0x5f667876039bd260198495a30f0a3f74ed51ea74",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($2,478)",
-        "Low activity (3 txns)"
-      ],
-      "amount": 2477.79,
-      "odds": 0.57,
-      "raw_price": 0.57,
-      "outcome": "Under",
-      "potential_pnl": 1869.2100000000003,
-      "pnl_multiplier": 0.7543859649122808,
-      "wallet_age_days": 0,
-      "total_activities": 3
-    },
-    "timestamp": "2026-03-13T11:29:07.321892",
-    "trade_hash": "0xbe6c6013f654065b9c3062960f6bbdcd8d7b66dba51acbf9a5f9e5be5f74dc23",
-    "trade_timestamp": 1773401229,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Under",
-      "side": "BUY",
-      "price": 0.57,
-      "effective_price": 0.57,
-      "size": 4347.0,
-      "amount": 2477.79,
-      "potential_pnl": 1869.2100000000003,
-      "pnl_multiplier": 0.7543859649122808,
-      "is_no": false
-    },
-    "irrationality": {
-      "irrationality_score": 50,
-      "flags": [
-        "Category structurally prone to longshot bias",
-        "Crisis keyword detected ('war')",
-        "Large mispricing edge (+31.6%)"
-      ],
-      "category": "geopolitics",
-      "category_info": {
-        "strength": "high",
-        "typical_overpricing": 0.05,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.254,
-      "market_price": 0.57,
-      "edge": 0.31599999999999995,
-      "edge_percent": 31.599999999999994,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Both teams maintain high offensive efficiency",
-          "Defensive lapses from both teams",
-          "Favorable refereeing leading to more free throws"
-        ],
-        "weakest_link": "Favorable refereeing leading to more free throws"
-      },
-      "category": "sports",
-      "narrative_drivers": [
-        "Recent offensive performances of both teams",
-        "Injury status of key players affecting scoring"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "INSIDER_ONLY",
-      "signal_emoji": "\ud83d\udc41\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider activity detected, no clear mispricing",
-      "action_suggestion": "Monitor: insider signal only, no statistical edge",
-      "insider_score": 70,
-      "insider_position": "UNDER",
-      "irrationality_score": 50,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.31599999999999995,
-      "edge_percent": 31.599999999999994
-    },
-    "financial_analyst": {
-      "signal_quality": 54.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 31.6,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    }
-  },
-  {
-    "market": "Timberwolves vs. Warriors: O/U 227.5",
-    "market_slug": "nba-min-gsw-2026-03-13-total-227pt5",
     "wallet": "0x5b1d82e56e8a63cb21089d6eb699f33113c20d57",
     "analysis": {
       "score": 70,
@@ -33337,5 +33129,95 @@
     "strength": 100,
     "timestamp": "2026-04-18T04:03:32.468934",
     "ai_context": "\u274c SKIP\nThe Russia-Ukraine ceasefire was a brief 32-hour truce during Orthodox Easter, which collapsed with both sides accusing each other of violations. (polymarket.com) Prediction markets assign a 1.4% probability to a ceasefire by April 30, 2026, indicating minimal near-term peace prospects. (a..."
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xee41b50e167d48277f87aeb4d74ca6d69820d7ad72988659f123b2fa330a12d6",
+    "wallet": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
+    "trader": {
+      "rank": 15,
+      "address": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
+      "username": "GamblingIsAllYouNeed",
+      "profit": 4821228.346765014,
+      "volume": 355791515.751391,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+      "side": "BUY",
+      "asset": "87488841036973318864749522248690511074273561148888457035035900480466706823160",
+      "conditionId": "0x08f7b2dfad2bbc5e71d6596b43d623cc27d5de3b53a1356c7ecb967da29d8e47",
+      "size": 17825.213793000003,
+      "price": 0.711927079445009,
+      "timestamp": 1776490318,
+      "title": "Will Angers SCO win on 2026-04-18?",
+      "slug": "fl1-ang-hac-2026-04-18-ang",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/league-fl1.png",
+      "eventSlug": "fl1-ang-hac-2026-04-18",
+      "outcome": "No",
+      "outcomeIndex": 1,
+      "name": "swisstony",
+      "pseudonym": "Frail-Possible",
+      "bio": "loincloth chic",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xee41b50e167d48277f87aeb4d74ca6d69820d7ad72988659f123b2fa330a12d6",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Will Angers SCO win on 2026-04-18?",
+    "market_slug": "fl1-ang-hac-2026-04-18",
+    "amount": 12690.252396133383,
+    "ai_context": "\u2705 COPY\nAngers SCO has lost their last five matches, including a 5-1 defeat to Lens and a 2-0 loss to Nice. (foxsports.com)\nLe Havre AC has also been winless in their last five games, with a 3-2 loss to Paris FC and a 0-0 draw against Lyon. (foxsports.com)\nBoth teams have struggled recently, but A..."
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x7419aa45af406f81be5cb2f036f2a26047684cb0e99220d4298aea962733e75e",
+    "wallet": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
+    "trader": {
+      "rank": 15,
+      "address": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
+      "username": "GamblingIsAllYouNeed",
+      "profit": 4821228.346765014,
+      "volume": 355791515.751391,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+      "side": "BUY",
+      "asset": "52377921670390914144517996973735620309655866356828593783294523734710866279732",
+      "conditionId": "0xd0189289278568afefe6648fbec7f4178c534f387749264c3149ad3970f60e54",
+      "size": 12214.38994,
+      "price": 0.39,
+      "timestamp": 1776490318,
+      "title": "Will Le Havre AC win on 2026-04-18?",
+      "slug": "fl1-ang-hac-2026-04-18-hac",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/league-fl1.png",
+      "eventSlug": "fl1-ang-hac-2026-04-18",
+      "outcome": "Yes",
+      "outcomeIndex": 0,
+      "name": "swisstony",
+      "pseudonym": "Frail-Possible",
+      "bio": "loincloth chic",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x7419aa45af406f81be5cb2f036f2a26047684cb0e99220d4298aea962733e75e",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Will Le Havre AC win on 2026-04-18?",
+    "market_slug": "fl1-ang-hac-2026-04-18",
+    "amount": 4763.612076599999,
+    "ai_context": "\u274c SKIP\nLe Havre AC has been in poor form recently, with four consecutive losses and two draws in their last six matches. Their most recent match was a 1-1 draw against Auxerre on April 5, 2026. (espn.com)"
   }
 ]
