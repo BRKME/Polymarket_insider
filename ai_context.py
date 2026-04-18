@@ -84,8 +84,9 @@ IMPORTANT:
 FORMAT (STRICT):
 - PLAIN TEXT ONLY. No markdown, no headers, no links, no bullet points.
 - Line 1: ✅ COPY or ❌ SKIP
-- Line 2-3: 1-2 sentences with specific factual reasons (max 40 words)
+- Then 2-3 sentences with specific factual reasons (max 60 words)
 - Cite source in parentheses if found
+- End with a clear conclusion — do NOT leave sentences unfinished
 - If search returns nothing useful, reply: NO_DATA"""
 
 PROMPTS = {
@@ -160,7 +161,7 @@ def generate_trade_context(
                 {"role": "system", "content": SYSTEM},
                 {"role": "user", "content": prompt},
             ],
-            max_tokens=250,
+            max_tokens=350,
         )
 
         text = response.choices[0].message.content.strip()
@@ -179,8 +180,13 @@ def generate_trade_context(
             logger.info(f"  AI context: NO_DATA for '{market_title[:50]}'")
             return None
 
-        if len(text) > 300:
-            text = text[:297] + "..."
+        if len(text) > 500:
+            # Cut at last sentence boundary
+            cut = text[:500].rfind('.')
+            if cut > 200:
+                text = text[:cut+1]
+            else:
+                text = text[:497] + "..."
 
         logger.info(f"  AI [{market_type}]: {text[:80]}")
         return text
