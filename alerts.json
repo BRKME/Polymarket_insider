@@ -1,51 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0x31974433d8f2660fecd43131112be4d6ca105ed6f88d8671fda79a8b4c0bbc28",
-    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-    "trader": {
-      "rank": 1,
-      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-      "username": "Theo4",
-      "profit": 22053933.752321757,
-      "volume": 43013258.515682004,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x204f72f35326db932158cba6adff0b9a1da95e14",
-      "side": "BUY",
-      "asset": "15162940195700466492227588419141991660641252233925421799929240899420017257649",
-      "conditionId": "0x1ebce1a078e88ce3b05e46d6c67f3e0b4a49b5a9ec362ec59c8ad3324c42f233",
-      "size": 1174.91,
-      "price": 0.6,
-      "timestamp": 1773508943,
-      "title": "Will SSC Napoli win on 2026-03-14?",
-      "slug": "sea-nap-lec-2026-03-14-nap",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Serie-A-Logo.png",
-      "eventSlug": "sea-nap-lec-2026-03-14",
-      "outcome": "No",
-      "outcomeIndex": 1,
-      "name": "swisstony",
-      "pseudonym": "Frail-Possible",
-      "bio": "loincloth chic",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x31974433d8f2660fecd43131112be4d6ca105ed6f88d8671fda79a8b4c0bbc28",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Will SSC Napoli win on 2026-03-14?",
-    "market_slug": "sea-nap-lec-2026-03-14",
-    "amount": 704.946,
-    "resolution_last_check": "2026-04-13T19:41:47.868669+00:00"
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0xde8e4b37e71bc196f8d7fd80a66decbe72de79dbbc350eb4de87318aace67cd0",
     "wallet": "0xd235973291b2b75ff4070e9c0b01728c520b0f29",
     "trader": {
@@ -32772,5 +32727,50 @@
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
     },
     "ai_context": "\u274c SKIP \u2014 Gilbert Burns is on a four-fight losing streak and has suffered significant injuries recently.\nBurns has lost his last four fights, including a first-round TKO to Michael Morales on May 17, 2025. He has also sustained multiple shoulder tears, a torn trapezius, and a neck sprain. (ufc.com)\nGiven his recent performance and injury history, betting on Burns at 30% odds is not supported by the facts."
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x63230bf52609ec1e89639ebddce97842c0dd5e6fbf0b85a3e62b86cc3366d82b",
+    "wallet": "0x885783760858e1bd5dd09a3c3f916cfa251ac270",
+    "trader": {
+      "rank": 12,
+      "address": "0x885783760858e1bd5dd09a3c3f916cfa251ac270",
+      "username": "BetTom42",
+      "profit": 5642135.735356,
+      "volume": 11212839.523403,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x1d2efa184454366ad3e79f3395d25396c20b896d",
+      "side": "BUY",
+      "asset": "52038203309076648603436926339899621870263023287068754145601032783358261883630",
+      "conditionId": "0x139bac2d99b8db2a357d0bca461cce8a65b50a8602cc50aa52a46cc329a677c1",
+      "size": 2865.76652,
+      "price": 0.38,
+      "timestamp": 1776575790,
+      "title": "Total Kills Over/Under 27.5 in Game 1?",
+      "slug": "lol-tes-ig1-2026-04-19-game1-kill-over-27pt5",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/league-of-legends-61a4f083a6.png",
+      "eventSlug": "lol-tes-ig1-2026-04-19",
+      "outcome": "Under",
+      "outcomeIndex": 1,
+      "name": "huli3882",
+      "pseudonym": "Famous-Stonework",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x63230bf52609ec1e89639ebddce97842c0dd5e6fbf0b85a3e62b86cc3366d82b",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Total Kills Over/Under 27.5 in Game 1?",
+    "market_slug": "lol-tes-ig1-2026-04-19",
+    "amount": 1088.9912776,
+    "ai_context": "\u274c SKIP \u2014 The average total kills per game in recent League of Legends matches is around 27, making the under bet less favorable.\nIn the LTA Sul tournament, the average kills per game was 27. (blazetrends.com) Additionally, in a 24-game winning streak, G2 averaged nearly 20 kills per game. (dotesports.com) These statistics suggest that the total kills per game are typically close to 27, making the under bet less favorable."
   }
 ]
