@@ -1,51 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0x728c4f56632a7407789506854faa32b88a6b9630a7f0d531735058ea80bb551e",
-    "wallet": "0xd235973291b2b75ff4070e9c0b01728c520b0f29",
-    "trader": {
-      "rank": 5,
-      "address": "0xd235973291b2b75ff4070e9c0b01728c520b0f29",
-      "username": "zxgngl",
-      "profit": 7807265.589240883,
-      "volume": 40551790.62184699,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x94379d1db8799dad247a11edc34ff19c09cae75f",
-      "side": "SELL",
-      "asset": "102559817034631022221500208641784929295731053857601013029449249654006364919935",
-      "conditionId": "0x257b18205f908aef01ef2d1d50e6fea7d29cf5486fe04031d8b101394476faed",
-      "size": 1583,
-      "price": 0.995,
-      "timestamp": 1773509243,
-      "title": "Will there be no change in Fed interest rates after the March 2026 meeting?",
-      "slug": "will-there-be-no-change-in-fed-interest-rates-after-the-march-2026-meeting",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/jerome+powell+glasses1.png",
-      "eventSlug": "fed-decision-in-march-885",
-      "outcome": "Yes",
-      "outcomeIndex": 0,
-      "name": "MirAsifRodeni",
-      "pseudonym": "Upset-Suede",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x728c4f56632a7407789506854faa32b88a6b9630a7f0d531735058ea80bb551e",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Will there be no change in Fed interest rates after the March 2026 meeting?",
-    "market_slug": "fed-decision-in-march-885",
-    "amount": 1575.085,
-    "resolution_last_check": "2026-04-13T19:41:49.833320+00:00"
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0xecb16e782dcc69f6f48d7f30de2b01213bd3dfd59e97097e6c550eb7ce20292f",
     "wallet": "0xd235973291b2b75ff4070e9c0b01728c520b0f29",
     "trader": {
@@ -32803,5 +32758,50 @@
     "amount": 2168.980000004935,
     "ai_context": "\u274c SKIP \u2014 The Minnesota Twins have a recent losing streak and injuries that may impact their performance.\nThe Twins have lost their last two games against the Reds, with scores of 2-1 on April 17 and 5-4 on April 18. Injuries include Cody Laweryson (15-Day IL, forearm), Royce Lewis (10-Day IL, knee), David Festa (60-Day IL, shoulder), Travis Adams (15-Day IL, tricep), and Pablo Lopez (60-Day IL, elbow). (sports.yahoo.",
     "resolution_last_check": "2026-04-19T07:11:46.160985+00:00"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x8b8ae75d33363def2fccffe6f52b1ca55dc3c1e2fed4f30f3558c78c02075faa",
+    "wallet": "0xd0c042c08f755ff940249f62745e82d356345565",
+    "trader": {
+      "rank": 15,
+      "address": "0xd0c042c08f755ff940249f62745e82d356345565",
+      "username": "alexmulti",
+      "profit": 4804855.613376001,
+      "volume": 9949068.653841998,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x8e5c0cc55cda93d6cae14becb3b738a44dcaa68a",
+      "side": "BUY",
+      "asset": "17672950353917556724323355261458951468235130062273241703548640979565238082018",
+      "conditionId": "0x6c31c73a5447ef744d271098ce51594afa5a521fe367c07f7138c868703d693f",
+      "size": 1593.736196,
+      "price": 0.6902020558739949,
+      "timestamp": 1776588996,
+      "title": "US x Iran diplomatic meeting by April 21, 2026?",
+      "slug": "us-x-iran-diplomatic-meeting-by-april-21-2026",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/us-x-iran-meeting-by-9btZGbUg-ikA.jpg",
+      "eventSlug": "us-x-iran-diplomatic-meeting-by-329",
+      "outcome": "No",
+      "outcomeIndex": 1,
+      "name": "cocos228",
+      "pseudonym": "Triangular-Tulip",
+      "bio": "I am just a coco",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x8b8ae75d33363def2fccffe6f52b1ca55dc3c1e2fed4f30f3558c78c02075faa",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "US x Iran diplomatic meeting by April 21, 2026?",
+    "market_slug": "us-x-iran-diplomatic-meeting-by-329",
+    "amount": 1099.9999990000001,
+    "ai_context": "\u274c SKIP \u2014 Recent developments indicate a high likelihood of a US-Iran diplomatic meeting by April 21, 2026.\nOn April 18, 2026, President Trump convened a White House Situation Room meeting to address a renewed crisis surrounding the Strait of Hormuz and ongoing negotiations with Iran. The urgency stems from an expiring ceasefire in three days and the absence of a scheduled next round of talks."
   }
 ]
