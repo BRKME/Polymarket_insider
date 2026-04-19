@@ -1,51 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0x75db1fe8da70ec2ddbf73b6af4a8b143a6c02fbd3078bb94a958214c3b6d725b",
-    "wallet": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
-    "trader": {
-      "rank": 12,
-      "address": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
-      "username": "RN1",
-      "profit": 5513951.158555053,
-      "volume": 257420261.27832302,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x937bcac3a8a30c07d827ad0550c3fe3a6756bfab",
-      "side": "BUY",
-      "asset": "10795238741362457315085773077268735074514566536591536870560037208911789795583",
-      "conditionId": "0xdfd780958dfcbfe6af4ee70a4a1028b2bb4bb2c0950f08e89d46bd54b93281f1",
-      "size": 1110,
-      "price": 0.998,
-      "timestamp": 1773511643,
-      "title": "Will the highest temperature in Atlanta be between 68-69\u00b0F on March 14?",
-      "slug": "highest-temperature-in-atlanta-on-march-14-2026-68-69f",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/highest-temperature-in-atlanta-on-december-5--dClj_prA8Ny.jpg",
-      "eventSlug": "highest-temperature-in-atlanta-on-march-14-2026",
-      "outcome": "No",
-      "outcomeIndex": 1,
-      "name": "bhuumi",
-      "pseudonym": "Abandoned-Pipe",
-      "bio": "",
-      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-5690244-4ce74489-c332-4d0f-8a98-7a8f336d96fa.webp",
-      "profileImageOptimized": "",
-      "transactionHash": "0x75db1fe8da70ec2ddbf73b6af4a8b143a6c02fbd3078bb94a958214c3b6d725b",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Will the highest temperature in Atlanta be between 68-69\u00b0F on March 14?",
-    "market_slug": "highest-temperature-in-atlanta-on-march-14-2026",
-    "amount": 1107.78,
-    "resolution_last_check": "2026-04-13T19:41:56.448987+00:00"
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0xacb6c217228c62dd0649cb1d6a99eb420a9420f66b30a5dd3203344a62be3429",
     "wallet": "0x16f91db2592924cfed6e03b7e5cb5bb1e32299e3",
     "trader": {
@@ -32821,5 +32776,50 @@
     "market_slug": "por-spo-ben-2026-04-19",
     "amount": 1477.5,
     "ai_context": "\u274c SKIP \u2014 The trader's bet on Sporting CP not winning on April 19, 2026, is not supported by recent performance and head-to-head statistics.\nSporting CP has demonstrated strong form, winning 16 of their last 21 matches across all competitions, including notable victories over PSG and a dramatic comeback against Bodo/Glimt. (techradar.com) In their most recent league match on April 11, 2026, they secured a 1-0 away victory against Estrela. (espn."
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x09408ee8a36a66c1469bcbc630aa00f5d1f6b2fb81b78046b5b127fd3f470122",
+    "wallet": "0x94f199fb7789f1aef7fff6b758d6b375100f4c7a",
+    "trader": {
+      "rank": 11,
+      "address": "0x94f199fb7789f1aef7fff6b758d6b375100f4c7a",
+      "username": "KeyTransporter",
+      "profit": 5711459.802519929,
+      "volume": 20086062.154324993,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xfe787d2da716d60e8acff57fb87eb13cd4d10319",
+      "side": "BUY",
+      "asset": "4791567048491574173993165446666256209660521602487304170590950292402594200873",
+      "conditionId": "0x14b1e3fed1ad6a77c7bf2f2582b048d1a558ab1c192a46e5f4d6584a63e4f547",
+      "size": 3591.66961,
+      "price": 0.49986562014929875,
+      "timestamp": 1776630418,
+      "title": "Los Angeles Dodgers vs. Colorado Rockies: O/U 9.5",
+      "slug": "mlb-lad-col-2026-04-19-total-9pt5",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Repetitive-markets/MLB.jpg",
+      "eventSlug": "mlb-lad-col-2026-04-19",
+      "outcome": "Under",
+      "outcomeIndex": 1,
+      "name": "ferrariChampions2026",
+      "pseudonym": "Glaring-Salt",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x09408ee8a36a66c1469bcbc630aa00f5d1f6b2fb81b78046b5b127fd3f470122",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Los Angeles Dodgers vs. Colorado Rockies: O/U 9.5",
+    "market_slug": "mlb-lad-col-2026-04-19",
+    "amount": 1795.3521569740399,
+    "ai_context": "MLB Schedule\nDodgers (LAD) @ Rockies (COL) on Sunday, Apr 19, 2026 at 12:10 PM PDT. Current score: LAD 3 - COL 2\n\u274c SKIP \u2014 The facts do not support the bet on the Under.\nIn the 2026 season, the Los Angeles Dodgers have an average of 5.8 runs per game, leading the league, while the Colorado Rockies average 4 runs per game. In their most recent game on April 17, 2026, the Dodgers scored 7 runs against the Rockies. Additionally, the starting pitchers for today's game are Roki Sasaki (0-2, 6."
   }
 ]
