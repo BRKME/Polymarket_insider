@@ -1,51 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0x32aa6345f169e0820abd39f697f62239fec9b30b98da58989f8e6fbd2cf23296",
-    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-    "trader": {
-      "rank": 1,
-      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-      "username": "Theo4",
-      "profit": 22053933.752321757,
-      "volume": 43013258.515682004,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x2b9bc671f53325d5dc95884a1877fcf30ad80a88",
-      "side": "BUY",
-      "asset": "67257241906349232705880054817671247803154024437556078414309396160231441958063",
-      "conditionId": "0x4d4bceee5f59f75230c6438f69fc913a6da7afa4098ce0734655045c02a730fc",
-      "size": 517.006,
-      "price": 0.992,
-      "timestamp": 1773513745,
-      "title": "Will Josh Hawley win the 2028 Republican presidential nomination?",
-      "slug": "will-josh-hawley-win-the-2028-republican-presidential-nomination",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Josh_Hawley.png",
-      "eventSlug": "republican-presidential-nominee-2028",
-      "outcome": "No",
-      "outcomeIndex": 1,
-      "name": "XiliX",
-      "pseudonym": "Ashamed-Surgeon",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x32aa6345f169e0820abd39f697f62239fec9b30b98da58989f8e6fbd2cf23296",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Will Josh Hawley win the 2028 Republican presidential nomination?",
-    "market_slug": "republican-presidential-nominee-2028",
-    "amount": 512.869952,
-    "resolution_last_check": "2026-04-13T19:41:57.123654+00:00"
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0xfb087e5372ebfb24bf75f1e6e183dfa8ffc7356791c43554c345983f40f53b98",
     "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
     "trader": {
@@ -32821,5 +32776,114 @@
     "market_slug": "nba-orl-det-2026-04-19",
     "amount": 1953.1999996135723,
     "ai_context": "\u274c SKIP \u2014 The facts do not support the bet on the Magic.\nThe Detroit Pistons finished the regular season with a 60-22 record, securing the top seed in the Eastern Conference, while the Orlando Magic had a 45-37 record, placing them 8th in the conference. (espn.com) In their most recent matchup on April 6, 2026, the Pistons defeated the Magic 123-107. (espn.com) Additionally, the Pistons have a 73-61 all-time head-to-head record against the Magic. (sports-reference."
+  },
+  {
+    "market": "Magic vs. Pistons",
+    "market_slug": "nba-orl-det-2026",
+    "event_slug": "nba-orl-det-2026",
+    "wallet": "0x6232ef387ddb1438d7f97a117d117b7834617078",
+    "analysis": {
+      "score": 70,
+      "flags": [
+        "New wallet (1d old)",
+        "Large bet ($1,329)",
+        "Low activity (12 txns)"
+      ],
+      "amount": 1329.426455505775,
+      "odds": 0.44999999988348266,
+      "raw_price": 0.44999999988348266,
+      "outcome": "Magic",
+      "potential_pnl": 1624.8545574942248,
+      "pnl_multiplier": 1.2222222227976163,
+      "wallet_age_days": 1,
+      "total_activities": 12
+    },
+    "timestamp": "2026-04-19T23:02:55.218037",
+    "trade_hash": "0xae3fc011625bb9168a48209116023dfdb317fdb44f4e2794c4a47b9d5794644d",
+    "trade_timestamp": 1776639356,
+    "latency": null,
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "Magic",
+      "outcomeIndex": 0,
+      "normalized_position": "YES",
+      "side": "BUY",
+      "price": 0.44999999988348266,
+      "effective_price": 0.44999999988348266,
+      "size": 2954.281013,
+      "amount": 1329.426455505775,
+      "potential_pnl": 1624.8545574942248,
+      "pnl_multiplier": 1.2222222227976163,
+      "is_no": false,
+      "conditionId": "0x26f8bdecc52885d6f88b50dc32c71ce02384a877216df6ff799c2bdf0995194c",
+      "slug": "nba-orl-det-2026",
+      "eventSlug": "nba-orl-det-2026-04-19"
+    },
+    "irrationality": {
+      "irrationality_score": 35,
+      "flags": [
+        "Large mispricing edge (+22.0%)"
+      ],
+      "category": "sports",
+      "category_info": {
+        "strength": "medium",
+        "typical_overpricing": 0.03,
+        "min_edge": 0.05
+      },
+      "is_irrational": true
+    },
+    "mispricing": {
+      "rational_estimate": 0.2299999999766965,
+      "market_price": 0.44999999988348266,
+      "edge": 0.21999999990678615,
+      "edge_percent": 21.999999990678614,
+      "min_edge_required": 0.05,
+      "is_mispriced": true,
+      "edge_quality": "STRONG",
+      "base_rate_class": "common",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "common",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "Magic's key players remain healthy",
+          "Pistons underperform relative to expectations",
+          "Magic improve their overall team chemistry"
+        ],
+        "weakest_link": "Pistons underperform relative to expectations"
+      },
+      "category": "sports",
+      "narrative_drivers": [
+        "Magic's recent performance trends",
+        "Pistons' roster changes and injuries"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "CONFLICT",
+      "signal_emoji": "\u26a0\ufe0f",
+      "signal_strength": 70,
+      "interpretation": "Insider buying YES despite statistical overpricing",
+      "action_suggestion": "Requires manual analysis: insider may have real info OR is part of irrational crowd",
+      "insider_score": 70,
+      "insider_position": "YES",
+      "irrationality_score": 35,
+      "is_irrational": true,
+      "is_mispriced": true,
+      "edge": 0.21999999990678615,
+      "edge_percent": 21.999999990678614
+    },
+    "financial_analyst": {
+      "signal_quality": 46.0,
+      "stance": "WATCH_ONLY",
+      "edge_percent": 22.0,
+      "signal_strength": 70.0,
+      "insider_score": 70.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "ai_context": "\u274c SKIP \u2014 The Magic have struggled recently and face a strong Pistons team in the playoffs.\nIn their last five games, the Magic have a 2-3 record, including a loss to the Pistons on April 6, 2026. (espn.com) The Pistons finished the regular season with a 60-22 record, the best in the Eastern Conference. (cbssports.com) Additionally, the Magic's Jonathan Isaac is out with a knee injury. (espn.com) Given these factors, the bet on the Magic is not supported by the current facts."
   }
 ]
