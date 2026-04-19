@@ -1,96 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0xde8e4b37e71bc196f8d7fd80a66decbe72de79dbbc350eb4de87318aace67cd0",
-    "wallet": "0xd235973291b2b75ff4070e9c0b01728c520b0f29",
-    "trader": {
-      "rank": 5,
-      "address": "0xd235973291b2b75ff4070e9c0b01728c520b0f29",
-      "username": "zxgngl",
-      "profit": 7807265.589240883,
-      "volume": 40551790.62184699,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x6e82b93eb57b01a63027bd0c6d2f3f04934a752c",
-      "side": "BUY",
-      "asset": "110102705199530588976777616718115948005824665233400132417374621750887344831757",
-      "conditionId": "0x61600d487069f99e775307a0655c1a79f26e4fc6d8d1ba66790c64d78d0beba2",
-      "size": 108742.59,
-      "price": 0.02986947873873521,
-      "timestamp": 1773509243,
-      "title": "Will Jon Ossoff win the 2028 US Presidential Election?",
-      "slug": "will-jon-ossoff-win-the-2028-us-presidential-election",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/jon+ossoff.png",
-      "eventSlug": "presidential-election-winner-2028",
-      "outcome": "Yes",
-      "outcomeIndex": 0,
-      "name": "DLEK",
-      "pseudonym": "",
-      "bio": "",
-      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-98406-294c54ac-7146-40a9-945e-66a4cda327ae.webp",
-      "profileImageOptimized": "",
-      "transactionHash": "0xde8e4b37e71bc196f8d7fd80a66decbe72de79dbbc350eb4de87318aace67cd0",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Will Jon Ossoff win the 2028 US Presidential Election?",
-    "market_slug": "presidential-election-winner-2028",
-    "amount": 3248.08448,
-    "resolution_last_check": "2026-04-13T19:41:48.513706+00:00"
-  },
-  {
-    "type": "TOP_TRADER",
-    "trade_hash": "0x82764f4a5c675fea5d605ff0b6baff73c97a02275f263d21e1fec289e0fc1a8e",
-    "wallet": "0xd235973291b2b75ff4070e9c0b01728c520b0f29",
-    "trader": {
-      "rank": 5,
-      "address": "0xd235973291b2b75ff4070e9c0b01728c520b0f29",
-      "username": "zxgngl",
-      "profit": 7807265.589240883,
-      "volume": 40551790.62184699,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x001a1800ec97fce52447fdba012e175f003c1fb9",
-      "side": "BUY",
-      "asset": "82016408300844083136892154954670393243281615616367017991268811364266264867308",
-      "conditionId": "0x07a23624331a91c7b83b0845ee0a74dba5f4ae4e6e38c9211dfe0d5f067794f8",
-      "size": 1245,
-      "price": 0.48,
-      "timestamp": 1773509243,
-      "title": "Wizards vs. Celtics: O/U 231.5",
-      "slug": "nba-was-bos-2026-03-14-total-231pt5",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
-      "eventSlug": "nba-was-bos-2026-03-14",
-      "outcome": "Under",
-      "outcomeIndex": 1,
-      "name": "panguan061",
-      "pseudonym": "Stupendous-Rheumatism",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x82764f4a5c675fea5d605ff0b6baff73c97a02275f263d21e1fec289e0fc1a8e",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Wizards vs. Celtics: O/U 231.5",
-    "market_slug": "nba-was-bos-2026-03-14",
-    "amount": 597.6,
-    "resolution_last_check": "2026-04-13T19:41:49.186035+00:00"
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0x728c4f56632a7407789506854faa32b88a6b9630a7f0d531735058ea80bb551e",
     "wallet": "0xd235973291b2b75ff4070e9c0b01728c520b0f29",
     "trader": {
@@ -32772,5 +32682,95 @@
     "market_slug": "lol-tes-ig1-2026-04-19",
     "amount": 1088.9912776,
     "ai_context": "\u274c SKIP \u2014 The average total kills per game in recent League of Legends matches is around 27, making the under bet less favorable.\nIn the LTA Sul tournament, the average kills per game was 27. (blazetrends.com) Additionally, in a 24-game winning streak, G2 averaged nearly 20 kills per game. (dotesports.com) These statistics suggest that the total kills per game are typically close to 27, making the under bet less favorable."
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x328ee28df4c956d53c5fb6ded2c8451857fb8c102b9c65e363712a877ecf45b7",
+    "wallet": "0x78b9ac44a6d7d7a076c14e0ad518b301b63c6b76",
+    "trader": {
+      "rank": 4,
+      "address": "0x78b9ac44a6d7d7a076c14e0ad518b301b63c6b76",
+      "username": "Len9311238",
+      "profit": 8709972.988069998,
+      "volume": 16402744.764626998,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xbf4d202382ba5702721a8c43126f5f08163733ed",
+      "side": "BUY",
+      "asset": "112998834930140849739317686306046962022222428099467375077336504369963794934957",
+      "conditionId": "0xbbc6689d0f6d57ea42168836712237c7308b3e0118c8914d31b6126d0f3254c5",
+      "size": 1630.19,
+      "price": 0.85,
+      "timestamp": 1776581494,
+      "title": "US x Iran permanent peace deal by April 22, 2026?",
+      "slug": "us-x-iran-permanent-peace-deal-by-april-22-2026",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/us-x-iran-permanent-peace-deal-by-yYlzv70Hi7j9.jpg",
+      "eventSlug": "us-x-iran-permanent-peace-deal-by",
+      "outcome": "No",
+      "outcomeIndex": 1,
+      "name": "duhuabook",
+      "pseudonym": "Required-Spit",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x328ee28df4c956d53c5fb6ded2c8451857fb8c102b9c65e363712a877ecf45b7",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "US x Iran permanent peace deal by April 22, 2026?",
+    "market_slug": "us-x-iran-permanent-peace-deal-by",
+    "amount": 1385.6615,
+    "ai_context": "\u274c SKIP \u2014 Recent diplomatic developments indicate a potential for a US-Iran peace deal by April 22, 2026.\nThe US and Iran have engaged in multiple rounds of negotiations, with both sides expressing a commitment to resolving key issues. (Reuters) Experts suggest that a deal is plausible within the given timeframe. Given these developments, the trader's bet on \"No\" appears to be unsupported by current facts."
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xdee0940b14265122ca1c7993bbcba3fc0bb36407c4cf084b8452560ef4e43206",
+    "wallet": "0xdb27bf2ac5d428a9c63dbc914611036855a6c56e",
+    "trader": {
+      "rank": 19,
+      "address": "0xdb27bf2ac5d428a9c63dbc914611036855a6c56e",
+      "username": "DrPufferfish",
+      "profit": 4510839.9505533585,
+      "volume": 238864054.88238296,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x38f0b76ed812c24166a4f6293f991ac4b9972768",
+      "side": "BUY",
+      "asset": "63155556627658377304669702597008366742603592247228146964005884784601420399060",
+      "conditionId": "0x9059a7783af038d5b7a177876ecaea2810f14c37473e802fbb4e2446b2d7e436",
+      "size": 4092.4150950000003,
+      "price": 0.5299999999156818,
+      "timestamp": 1776582092,
+      "title": "Cincinnati Reds vs. Minnesota Twins",
+      "slug": "mlb-cin-min-2026-04-19",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Repetitive-markets/MLB.jpg",
+      "eventSlug": "mlb-cin-min-2026-04-19",
+      "outcome": "Minnesota Twins",
+      "outcomeIndex": 1,
+      "name": "initial77a",
+      "pseudonym": "Motionless-Peer",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xdee0940b14265122ca1c7993bbcba3fc0bb36407c4cf084b8452560ef4e43206",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Cincinnati Reds vs. Minnesota Twins",
+    "market_slug": "mlb-cin-min-2026-04-19",
+    "amount": 2168.980000004935,
+    "ai_context": "\u274c SKIP \u2014 The Minnesota Twins have a recent losing streak and injuries that may impact their performance.\nThe Twins have lost their last two games against the Reds, with scores of 2-1 on April 17 and 5-4 on April 18. Injuries include Cody Laweryson (15-Day IL, forearm), Royce Lewis (10-Day IL, knee), David Festa (60-Day IL, shoulder), Travis Adams (15-Day IL, tricep), and Pablo Lopez (60-Day IL, elbow). (sports.yahoo."
   }
 ]
