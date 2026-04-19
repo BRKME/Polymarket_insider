@@ -1,51 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0xbe27fbd4dd19a8b376b2e313c0c9e6fac6868ced75d643869a979b7c66056d59",
-    "wallet": "0x204f72f35326db932158cba6adff0b9a1da95e14",
-    "trader": {
-      "rank": 13,
-      "address": "0x204f72f35326db932158cba6adff0b9a1da95e14",
-      "username": "swisstony",
-      "profit": 5203903.2060777275,
-      "volume": 530048728.464979,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x98dfacc5ff8db7c42b56d0d7cceae05b47fa935a",
-      "side": "BUY",
-      "asset": "26376781271946282014525630058612486676221584995655328605829769157666212198653",
-      "conditionId": "0x1de39250613609a4b0bb415148b0e7173f641de9aa9bfa7a5ab324a6c339c2ba",
-      "size": 1305,
-      "price": 0.99,
-      "timestamp": 1773509543,
-      "title": "Will Hyperliquid dip to $20 in March?",
-      "slug": "will-hyperliquid-dip-to-20-in-march",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/hyperliquid-up-or-down-on-may-22-Fyo58T8HF0AC.jpg",
-      "eventSlug": "what-price-will-hyperliquid-hit-in-march",
-      "outcome": "No",
-      "outcomeIndex": 1,
-      "name": "mexicola",
-      "pseudonym": "Jealous-Pimple",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0xbe27fbd4dd19a8b376b2e313c0c9e6fac6868ced75d643869a979b7c66056d59",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Will Hyperliquid dip to $20 in March?",
-    "market_slug": "what-price-will-hyperliquid-hit-in-march",
-    "amount": 1291.95,
-    "resolution_last_check": "2026-04-13T19:41:50.499913+00:00"
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0x6c6e2aba1ddb40640284d415ac645fb150a8f1482e80cf83c944b07aec14f544",
     "wallet": "0x204f72f35326db932158cba6adff0b9a1da95e14",
     "trader": {
@@ -32776,5 +32731,50 @@
     "strength": 79,
     "timestamp": "2026-04-19T13:12:19.520619",
     "ai_context": "\u274c SKIP \u2014 The trader's bet on a Russia-Ukraine ceasefire before the release of GTA VI is unsupported by current developments.\nThe 32-hour Orthodox Easter ceasefire from April 11 to 12, 2026, collapsed rapidly, with both sides accusing each other of violations, including drone attacks. This brief truce underscores the deep-seated distrust and ongoing hostilities between Russia and Ukraine. Prediction markets reflect this skepticism, assigning only a 1."
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xdbc5918b34ade3ff37dd3eba1d2d0b83e98cf8db8350f5b7d216db09c169472c",
+    "wallet": "0xd235973291b2b75ff4070e9c0b01728c520b0f29",
+    "trader": {
+      "rank": 5,
+      "address": "0xd235973291b2b75ff4070e9c0b01728c520b0f29",
+      "username": "zxgngl",
+      "profit": 7807265.5892408835,
+      "volume": 40551790.62184699,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x3f975d4186c87b3b4a39997cc37e71cc70ca4059",
+      "side": "BUY",
+      "asset": "51561501851177237085104015162795355178563009242924296214051729651645864006212",
+      "conditionId": "0x445eba7653ea7e18d4a43e6b6ba0fdc578e9e7bac1a309c6cec82bbd4686984f",
+      "size": 5247.084,
+      "price": 0.42,
+      "timestamp": 1776607304,
+      "title": "Dota 2: Team Spirit vs Team Falcons - Game 2 Winner",
+      "slug": "dota2-ts8-flc-2026-04-19-game2",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/dota2-7ffacddb21.jpg",
+      "eventSlug": "dota2-ts8-flc-2026-04-19",
+      "outcome": "Team Spirit",
+      "outcomeIndex": 0,
+      "name": "adfhgasdfhadfhadseerrr",
+      "pseudonym": "Wide-Sprout",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xdbc5918b34ade3ff37dd3eba1d2d0b83e98cf8db8350f5b7d216db09c169472c",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Dota 2: Team Spirit vs Team Falcons - Game 2 Winner",
+    "market_slug": "dota2-ts8-flc-2026-04-19",
+    "amount": 2203.77528,
+    "ai_context": "\u274c SKIP \u2014 Team Spirit's recent form and head-to-head record against Team Falcons do not support this bet.\nIn their most recent encounter on March 23, 2026, Team Falcons defeated Team Spirit 2-0 in the ESL One Group B stage. (liveesportss.com) Additionally, Team Spirit has struggled recently, losing four of their last five matches, including a 2-1 defeat to GamerLegion on April 9, 2026. (strafe.com) Given these factors, the facts contradict the bet on Team Spirit."
   }
 ]
