@@ -1,51 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0xacb6c217228c62dd0649cb1d6a99eb420a9420f66b30a5dd3203344a62be3429",
-    "wallet": "0x16f91db2592924cfed6e03b7e5cb5bb1e32299e3",
-    "trader": {
-      "rank": 20,
-      "address": "0x16f91db2592924cfed6e03b7e5cb5bb1e32299e3",
-      "username": "Jenzigo",
-      "profit": 4049827.0941029997,
-      "volume": 9457725.034338009,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x01c78f8873c0c86d6b6b92ff627e3802237ee995",
-      "side": "BUY",
-      "asset": "65107413243926488023479269111195358219087194251948719321390217956437918610949",
-      "conditionId": "0x25ae0b3ce0af14431a45ce7f36f7f07f5ea0fc8a0fa8051a9ed61db5ceeb79c1",
-      "size": 2105.26,
-      "price": 0.39,
-      "timestamp": 1773511943,
-      "title": "Will Arsenal FC win on 2026-03-14?",
-      "slug": "epl-ars-eve-2026-03-14-ars",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Repetitive-markets/premier+league.jpg",
-      "eventSlug": "epl-ars-eve-2026-03-14",
-      "outcome": "No",
-      "outcomeIndex": 1,
-      "name": "Lilybaeum",
-      "pseudonym": "Outlying-Recall",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0xacb6c217228c62dd0649cb1d6a99eb420a9420f66b30a5dd3203344a62be3429",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Will Arsenal FC win on 2026-03-14?",
-    "market_slug": "epl-ars-eve-2026-03-14",
-    "amount": 821.0514000000001,
-    "resolution_last_check": "2026-04-13T19:41:56.449008+00:00"
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0x32aa6345f169e0820abd39f697f62239fec9b30b98da58989f8e6fbd2cf23296",
     "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
     "trader": {
@@ -32821,5 +32776,50 @@
     "market_slug": "mlb-lad-col-2026-04-19",
     "amount": 1795.3521569740399,
     "ai_context": "MLB Schedule\nDodgers (LAD) @ Rockies (COL) on Sunday, Apr 19, 2026 at 12:10 PM PDT. Current score: LAD 3 - COL 2\n\u274c SKIP \u2014 The facts do not support the bet on the Under.\nIn the 2026 season, the Los Angeles Dodgers have an average of 5.8 runs per game, leading the league, while the Colorado Rockies average 4 runs per game. In their most recent game on April 17, 2026, the Dodgers scored 7 runs against the Rockies. Additionally, the starting pitchers for today's game are Roki Sasaki (0-2, 6."
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x89be1074c74414408a66faf3c6426a114ccf9b4fcc7718bf7ed03d0bb1ddc18a",
+    "wallet": "0xd235973291b2b75ff4070e9c0b01728c520b0f29",
+    "trader": {
+      "rank": 5,
+      "address": "0xd235973291b2b75ff4070e9c0b01728c520b0f29",
+      "username": "zxgngl",
+      "profit": 7807265.5892408835,
+      "volume": 40551790.62184699,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x9b1e0334569aa1768a07705a859686aad58e82c9",
+      "side": "BUY",
+      "asset": "97804210893963020586687533468818827724707609516642272119083089513236590377033",
+      "conditionId": "0x26f8bdecc52885d6f88b50dc32c71ce02384a877216df6ff799c2bdf0995194c",
+      "size": 8878.181819000001,
+      "price": 0.2199999999362,
+      "timestamp": 1776637626,
+      "title": "Magic vs. Pistons",
+      "slug": "nba-orl-det-2026-04-19",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
+      "eventSlug": "nba-orl-det-2026-04-19",
+      "outcome": "Magic",
+      "outcomeIndex": 0,
+      "name": "FullPicks1",
+      "pseudonym": "Metallic-Container",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x89be1074c74414408a66faf3c6426a114ccf9b4fcc7718bf7ed03d0bb1ddc18a",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Magic vs. Pistons",
+    "market_slug": "nba-orl-det-2026-04-19",
+    "amount": 1953.1999996135723,
+    "ai_context": "\u274c SKIP \u2014 The facts do not support the bet on the Magic.\nThe Detroit Pistons finished the regular season with a 60-22 record, securing the top seed in the Eastern Conference, while the Orlando Magic had a 45-37 record, placing them 8th in the conference. (espn.com) In their most recent matchup on April 6, 2026, the Pistons defeated the Magic 123-107. (espn.com) Additionally, the Pistons have a 73-61 all-time head-to-head record against the Magic. (sports-reference."
   }
 ]
