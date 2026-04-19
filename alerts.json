@@ -1,51 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0xecb16e782dcc69f6f48d7f30de2b01213bd3dfd59e97097e6c550eb7ce20292f",
-    "wallet": "0xd235973291b2b75ff4070e9c0b01728c520b0f29",
-    "trader": {
-      "rank": 5,
-      "address": "0xd235973291b2b75ff4070e9c0b01728c520b0f29",
-      "username": "zxgngl",
-      "profit": 7807265.589240883,
-      "volume": 40551790.62184699,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0xc6ae4cdece4be7f21b747eb11f6eaaa37972afe9",
-      "side": "BUY",
-      "asset": "23908744235029436668032187407696757858496393436364928402129538177797433532204",
-      "conditionId": "0x1ebce1a078e88ce3b05e46d6c67f3e0b4a49b5a9ec362ec59c8ad3324c42f233",
-      "size": 2631.578946,
-      "price": 0.3799999998176,
-      "timestamp": 1773509243,
-      "title": "Will SSC Napoli win on 2026-03-14?",
-      "slug": "sea-nap-lec-2026-03-14-nap",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Serie-A-Logo.png",
-      "eventSlug": "sea-nap-lec-2026-03-14",
-      "outcome": "Yes",
-      "outcomeIndex": 0,
-      "name": "RoadTo1MillionUsd",
-      "pseudonym": "Kosher-Wrong",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0xecb16e782dcc69f6f48d7f30de2b01213bd3dfd59e97097e6c550eb7ce20292f",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Will SSC Napoli win on 2026-03-14?",
-    "market_slug": "sea-nap-lec-2026-03-14",
-    "amount": 999.9999990000001,
-    "resolution_last_check": "2026-04-13T19:41:49.833339+00:00"
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0xbe27fbd4dd19a8b376b2e313c0c9e6fac6868ced75d643869a979b7c66056d59",
     "wallet": "0x204f72f35326db932158cba6adff0b9a1da95e14",
     "trader": {
@@ -32803,5 +32758,23 @@
     "market_slug": "us-x-iran-diplomatic-meeting-by-329",
     "amount": 1099.9999990000001,
     "ai_context": "\u274c SKIP \u2014 Recent developments indicate a high likelihood of a US-Iran diplomatic meeting by April 21, 2026.\nOn April 18, 2026, President Trump convened a White House Situation Room meeting to address a renewed crisis surrounding the Strait of Hormuz and ongoing negotiations with Iran. The urgency stems from an expiring ceasefire in three days and the absence of a scheduled next round of talks."
+  },
+  {
+    "type": "WHALE_FLOW",
+    "condition_id": "0xcc02ec8059f1a6a877b29d1de039027768cb7d8989d0bb390abe2c459d2ff560",
+    "market": "Russia-Ukraine Ceasefire before GTA VI?",
+    "market_slug": "russia-ukraine-ceasefire-before-gta-vi-554",
+    "event_slug": "",
+    "dominant_side": "YES",
+    "dominant_volume": 108719.0,
+    "total_volume": 115269.0,
+    "imbalance_pct": 94.3,
+    "unique_wallets": 9,
+    "trade_count": 14,
+    "max_single_trade": 108152.0,
+    "yes_price": 0.535,
+    "strength": 79,
+    "timestamp": "2026-04-19T13:12:19.520619",
+    "ai_context": "\u274c SKIP \u2014 The trader's bet on a Russia-Ukraine ceasefire before the release of GTA VI is unsupported by current developments.\nThe 32-hour Orthodox Easter ceasefire from April 11 to 12, 2026, collapsed rapidly, with both sides accusing each other of violations, including drone attacks. This brief truce underscores the deep-seated distrust and ongoing hostilities between Russia and Ukraine. Prediction markets reflect this skepticism, assigning only a 1."
   }
 ]
