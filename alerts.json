@@ -1,96 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0x6c6e2aba1ddb40640284d415ac645fb150a8f1482e80cf83c944b07aec14f544",
-    "wallet": "0x204f72f35326db932158cba6adff0b9a1da95e14",
-    "trader": {
-      "rank": 13,
-      "address": "0x204f72f35326db932158cba6adff0b9a1da95e14",
-      "username": "swisstony",
-      "profit": 5203903.2060777275,
-      "volume": 530048728.464979,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x8f53d63b8ad39cda2ddaba5c526a0d7c3eade7f8",
-      "side": "BUY",
-      "asset": "34698986821161564964962345431723645135539519380467061026166704508502688672466",
-      "conditionId": "0xb072272b19d54ed55e5f9eb11f4e43c533f89d068079ad944cdc6cee0065ad0e",
-      "size": 3709.74629,
-      "price": 0.887392220560722,
-      "timestamp": 1773509543,
-      "title": "Will Racing Club de Lens win on 2026-03-14?",
-      "slug": "fl1-lor-rcl-2026-03-14-rcl",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/league-fl1.png",
-      "eventSlug": "fl1-lor-rcl-2026-03-14",
-      "outcome": "No",
-      "outcomeIndex": 1,
-      "name": "cryptohippie97",
-      "pseudonym": "Growling-Transcript",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x6c6e2aba1ddb40640284d415ac645fb150a8f1482e80cf83c944b07aec14f544",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Will Racing Club de Lens win on 2026-03-14?",
-    "market_slug": "fl1-lor-rcl-2026-03-14",
-    "amount": 3291.9999980000002,
-    "resolution_last_check": "2026-04-13T19:41:51.155957+00:00"
-  },
-  {
-    "type": "TOP_TRADER",
-    "trade_hash": "0x8d6b3fc69b859add67025e18f1e6e949dc340dbaea7cc337bb770c622157572e",
-    "wallet": "0xdb27bf2ac5d428a9c63dbc914611036855a6c56e",
-    "trader": {
-      "rank": 9,
-      "address": "0xdb27bf2ac5d428a9c63dbc914611036855a6c56e",
-      "username": "DrPufferfish",
-      "profit": 5928629.56148703,
-      "volume": 207419854.28716898,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x046c97f59f7067cd328467128c7a481742cd2a9c",
-      "side": "BUY",
-      "asset": "85413987627013463537299403775624784764986290375706333816888341570797481393421",
-      "conditionId": "0xbf86e797bbc7416a74a90123ce6781bf4fc76bd25a64bf0b94153e5f1d52a1d5",
-      "size": 2005.182922,
-      "price": 0.8198753230753877,
-      "timestamp": 1773510743,
-      "title": "Santiago: Thiago Monteiro vs Genaro Alberto Olivieri",
-      "slug": "atp-monteir-olivier-2026-03-14",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/atp-tour-b4390c4fb8.jpg",
-      "eventSlug": "atp-monteir-olivier-2026-03-14",
-      "outcome": "Genaro Alberto Olivieri",
-      "outcomeIndex": 1,
-      "name": "Icarus-",
-      "pseudonym": "Winding-Argument",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x8d6b3fc69b859add67025e18f1e6e949dc340dbaea7cc337bb770c622157572e",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Santiago: Thiago Monteiro vs Genaro Alberto Olivieri",
-    "market_slug": "atp-monteir-olivier-2026-03-14",
-    "amount": 1643.9999959999998,
-    "resolution_last_check": "2026-04-13T19:41:51.805349+00:00"
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0x531457abe7e2b354fdb17bd87ffb51071251d17c806446116aae37972fc7a5c6",
     "wallet": "0xdb27bf2ac5d428a9c63dbc914611036855a6c56e",
     "trader": {
@@ -32776,5 +32686,95 @@
     "market_slug": "dota2-ts8-flc-2026-04-19",
     "amount": 2203.77528,
     "ai_context": "\u274c SKIP \u2014 Team Spirit's recent form and head-to-head record against Team Falcons do not support this bet.\nIn their most recent encounter on March 23, 2026, Team Falcons defeated Team Spirit 2-0 in the ESL One Group B stage. (liveesportss.com) Additionally, Team Spirit has struggled recently, losing four of their last five matches, including a 2-1 defeat to GamerLegion on April 9, 2026. (strafe.com) Given these factors, the facts contradict the bet on Team Spirit."
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xbf39bb48d1baae3f2b62fc3d36f4791fd0ef6be723c95e05d53952819d5fd6da",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.515682004,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xdee9a2891310eacffd6be33b6a4bc40eaee2c110",
+      "side": "SELL",
+      "asset": "27920002996973199228327240346473823413267163615922276963563002657649183923755",
+      "conditionId": "0x5789957af6a44b02ffa274babda7d09068cb95b337223179582a6b07e27a5281",
+      "size": 3399.22,
+      "price": 0.7138167873806344,
+      "timestamp": 1776609106,
+      "title": "Barcelona Open: Andrey Rublev vs Arthur Fils",
+      "slug": "atp-rublev-fils-2026-04-19",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/atp-tour-b4390c4fb8.jpg",
+      "eventSlug": "atp-rublev-fils-2026-04-19",
+      "outcome": "Arthur Fils",
+      "outcomeIndex": 1,
+      "name": "GRANOTA",
+      "pseudonym": "Valuable-Automaton",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xbf39bb48d1baae3f2b62fc3d36f4791fd0ef6be723c95e05d53952819d5fd6da",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Barcelona Open: Andrey Rublev vs Arthur Fils",
+    "market_slug": "atp-rublev-fils-2026-04-19",
+    "amount": 2426.4202999999998,
+    "ai_context": "\u274c SKIP \u2014 Arthur Fils has shown strong form recently, but Andrey Rublev has a superior head-to-head record and has been in good form this season.\nIn their two previous encounters, Rublev leads 1-0 on hard court, while Fils leads 1-0 on clay. (barcelonaopenbancsabadell.com) Rublev has reached the final of the 2026 Barcelona Open, defeating Hamad Medjedovic 3-6, 6-2, 6-2 in the semifinals. (cadenaser.com) Fils has also been impressive, defeating Lorenzo Musetti 6-3, 6-4 in the quarterfinals."
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x4d306b71ffaa9e305ed04c28a175050504362bffb2fe066a17df92cf2abad91d",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.515682004,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x3e8514e65fa28f3e033bc49b99a9e755fb259b0b",
+      "side": "BUY",
+      "asset": "26111794005185428028326799951801147443274488254664810886214858224306660558345",
+      "conditionId": "0xc7094db568258141ea3dc892caf9f81c7e8991b757c6aa067335f410d3aeeb8e",
+      "size": 6556.6666749999995,
+      "price": 0.4499999999625,
+      "timestamp": 1776609106,
+      "title": "Spread: FC Bayern M\u00fcnchen (-1.5)",
+      "slug": "bun-bay-stu-2026-04-19-spread-home-1pt5",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/league-bun.jpg",
+      "eventSlug": "bun-bay-stu-2026-04-19-more-markets",
+      "outcome": "FC Bayern M\u00fcnchen",
+      "outcomeIndex": 0,
+      "name": "",
+      "pseudonym": "",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x4d306b71ffaa9e305ed04c28a175050504362bffb2fe066a17df92cf2abad91d",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Spread: FC Bayern M\u00fcnchen (-1.5)",
+    "market_slug": "bun-bay-stu-2026-04-19-more-markets",
+    "amount": 2950.500003504125,
+    "ai_context": "\u274c SKIP \u2014 FC Bayern M\u00fcnchen's recent form and injury concerns suggest they may struggle to cover a -1.5 spread.\nIn their last five matches, Bayern has a 3-2 record, including a 5-0 victory over FC St. Pauli on April 11. However, they have been dealing with significant injuries:\nHarry Kane suffered an ankle injury in late March, sidelining him for several weeks. (sportsdunia.com)\nWisdom Mike sustained a hip muscle injury in mid-March, expected to keep him out for up to four months. (goal."
   }
 ]
