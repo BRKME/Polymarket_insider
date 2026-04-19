@@ -1,51 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0x531457abe7e2b354fdb17bd87ffb51071251d17c806446116aae37972fc7a5c6",
-    "wallet": "0xdb27bf2ac5d428a9c63dbc914611036855a6c56e",
-    "trader": {
-      "rank": 9,
-      "address": "0xdb27bf2ac5d428a9c63dbc914611036855a6c56e",
-      "username": "DrPufferfish",
-      "profit": 5928629.56148703,
-      "volume": 207419854.28716898,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0xd0e77a638c0b0ddeef9a59db053d596d63fab14f",
-      "side": "BUY",
-      "asset": "110869774625647847297483294625719024865442757690993620922476091681122575065947",
-      "conditionId": "0x5d4fbc606c90f11cf2217a86939df08e705348572acba2fcccc792ef8b7c1c4b",
-      "size": 5263,
-      "price": 0.34,
-      "timestamp": 1773510743,
-      "title": "Hornets vs. Spurs",
-      "slug": "nba-cha-sas-2026-03-14",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
-      "eventSlug": "nba-cha-sas-2026-03-14",
-      "outcome": "Hornets",
-      "outcomeIndex": 0,
-      "name": "PleaseBro",
-      "pseudonym": "Determined-Play",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x531457abe7e2b354fdb17bd87ffb51071251d17c806446116aae37972fc7a5c6",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Hornets vs. Spurs",
-    "market_slug": "nba-cha-sas-2026-03-14",
-    "amount": 1789.42,
-    "resolution_last_check": "2026-04-13T19:41:52.464339+00:00"
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0x219cf2a62d3ebc3c9b29325f2f7c08726e58a8f29a34a5b9c9b0d51520541e5c",
     "wallet": "0xdb27bf2ac5d428a9c63dbc914611036855a6c56e",
     "trader": {
@@ -32776,5 +32731,23 @@
     "market_slug": "bun-bay-stu-2026-04-19-more-markets",
     "amount": 2950.500003504125,
     "ai_context": "\u274c SKIP \u2014 FC Bayern M\u00fcnchen's recent form and injury concerns suggest they may struggle to cover a -1.5 spread.\nIn their last five matches, Bayern has a 3-2 record, including a 5-0 victory over FC St. Pauli on April 11. However, they have been dealing with significant injuries:\nHarry Kane suffered an ankle injury in late March, sidelining him for several weeks. (sportsdunia.com)\nWisdom Mike sustained a hip muscle injury in mid-March, expected to keep him out for up to four months. (goal."
+  },
+  {
+    "type": "WHALE_FLOW",
+    "condition_id": "0x77bc9c2360be35cf5fb4274ae5ffb4cb898e61c06490dc0f8607af5f2162add2",
+    "market": "Russia-Ukraine Ceasefire before GTA VI?",
+    "market_slug": "russia-ukraine-ceasefire-before-gta-vi-554",
+    "event_slug": "",
+    "dominant_side": "YES",
+    "dominant_volume": 171363.0,
+    "total_volume": 171363.0,
+    "imbalance_pct": 100.0,
+    "unique_wallets": 9,
+    "trade_count": 9,
+    "max_single_trade": 170982.0,
+    "yes_price": 0.535,
+    "strength": 94,
+    "timestamp": "2026-04-19T16:41:22.548863",
+    "ai_context": "\u274c SKIP \u2014 The trader's bet on a Russia-Ukraine ceasefire before the release of GTA VI is unsupported by current developments.\nThe 32-hour Orthodox Easter ceasefire from April 11 to 12, 2026, collapsed rapidly, with both sides accusing each other of violations, including drone attacks. This brief truce underscores the deep-seated distrust and ongoing hostilities between Russia and Ukraine. Prediction markets reflect this skepticism, assigning only a 1."
   }
 ]
