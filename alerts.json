@@ -1,96 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0x85664516f1cf41f9d140a5d0bad256854ad0ea7ee6c926a79e60d26e4283a9ae",
-    "wallet": "0x78b9ac44a6d7d7a076c14e0ad518b301b63c6b76",
-    "trader": {
-      "rank": 4,
-      "address": "0x78b9ac44a6d7d7a076c14e0ad518b301b63c6b76",
-      "username": "Len9311238",
-      "profit": 8709972.988069998,
-      "volume": 16402744.764626998,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0xd106952ebf30a3125affd8a23b6c1f30c35fc79c",
-      "side": "BUY",
-      "asset": "63122922322829694953022986094683228506728480541563434685829692181976875224010",
-      "conditionId": "0x1813f5f26f269a677d6d72a5502d2f0f008426374a6ecaef982717574f29bc16",
-      "size": 3255.16,
-      "price": 0.8,
-      "timestamp": 1773511343,
-      "title": "Bucks vs. Hawks",
-      "slug": "nba-mil-atl-2026-03-14",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
-      "eventSlug": "nba-mil-atl-2026-03-14",
-      "outcome": "Hawks",
-      "outcomeIndex": 1,
-      "name": "Herdonia",
-      "pseudonym": "Unkempt-Image",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x85664516f1cf41f9d140a5d0bad256854ad0ea7ee6c926a79e60d26e4283a9ae",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Bucks vs. Hawks",
-    "market_slug": "nba-mil-atl-2026-03-14",
-    "amount": 2604.128,
-    "resolution_last_check": "2026-04-13T19:41:55.791760+00:00"
-  },
-  {
-    "type": "TOP_TRADER",
-    "trade_hash": "0x0d7b90b65f2eecbdc38c465627367a8b7d8660ebc7693d33a588eb691bfb7c30",
-    "wallet": "0x78b9ac44a6d7d7a076c14e0ad518b301b63c6b76",
-    "trader": {
-      "rank": 4,
-      "address": "0x78b9ac44a6d7d7a076c14e0ad518b301b63c6b76",
-      "username": "Len9311238",
-      "profit": 8709972.988069998,
-      "volume": 16402744.764626998,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0xd106952ebf30a3125affd8a23b6c1f30c35fc79c",
-      "side": "BUY",
-      "asset": "63122922322829694953022986094683228506728480541563434685829692181976875224010",
-      "conditionId": "0x1813f5f26f269a677d6d72a5502d2f0f008426374a6ecaef982717574f29bc16",
-      "size": 3207.87,
-      "price": 0.8,
-      "timestamp": 1773511343,
-      "title": "Bucks vs. Hawks",
-      "slug": "nba-mil-atl-2026-03-14",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
-      "eventSlug": "nba-mil-atl-2026-03-14",
-      "outcome": "Hawks",
-      "outcomeIndex": 1,
-      "name": "Herdonia",
-      "pseudonym": "Unkempt-Image",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x0d7b90b65f2eecbdc38c465627367a8b7d8660ebc7693d33a588eb691bfb7c30",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Bucks vs. Hawks",
-    "market_slug": "nba-mil-atl-2026-03-14",
-    "amount": 2566.2960000000003,
-    "resolution_last_check": "2026-04-13T19:41:55.791764+00:00"
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0x75db1fe8da70ec2ddbf73b6af4a8b143a6c02fbd3078bb94a958214c3b6d725b",
     "wallet": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
     "trader": {
@@ -32749,5 +32659,167 @@
     "market_slug": "nba-phx-okc-2026-04-19",
     "amount": 17852.6453,
     "ai_context": "\u274c SKIP \u2014 Recent games and injury reports suggest a high-scoring matchup, making the Under bet less likely to succeed. In their last game on April 12, 2026, the Suns defeated the Thunder 135-103, totaling 238 points. (espn.com) For the upcoming game on April 19, 2026, the Thunder have ruled out forward Thomas Sorber due to a knee injury, but star players Shai Gilgeous-Alexander and Chet Holmgren are expected to play. (sports1340.iheart."
+  },
+  {
+    "market": "Trump announces end of military operations against Iran by April 21st?",
+    "market_slug": "trump-announces-end-of-military-operations-against-iran-by-april-21st",
+    "event_slug": "trump-announces-end-of-military-operations-against-iran-by-april-21st",
+    "wallet": "0x162f6fff88a52864f2ecc9833e58089d5254798d",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "Against trend (9.0% effective odds)",
+        "Large bet ($1,158)",
+        "Pre-event latency: 1734m"
+      ],
+      "amount": 1157.9678999999999,
+      "odds": 0.09,
+      "raw_price": 0.09,
+      "outcome": "Yes",
+      "potential_pnl": 11708.3421,
+      "pnl_multiplier": 10.111111111111112,
+      "wallet_age_days": 80,
+      "total_activities": 100
+    },
+    "timestamp": "2026-04-19T19:12:24.462431",
+    "trade_hash": "0x02f1e3a904576035c9d3b116a45fc2026cf3036c5fe398972f3607b7713626f9",
+    "trade_timestamp": 1776625536,
+    "latency": {
+      "latency_seconds": 104064.0,
+      "latency_minutes": 1734.4,
+      "is_pre_event": true,
+      "severity": "CRITICAL",
+      "trade_time": "2026-04-19T19:05:36+00:00",
+      "event_time": "2026-04-21T00:00:00+00:00"
+    },
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "Yes",
+      "outcomeIndex": 0,
+      "normalized_position": "YES",
+      "side": "BUY",
+      "price": 0.09,
+      "effective_price": 0.09,
+      "size": 12866.31,
+      "amount": 1157.9678999999999,
+      "potential_pnl": 11708.3421,
+      "pnl_multiplier": 10.111111111111112,
+      "is_no": false,
+      "conditionId": "0x1507c50c86fb307e4f1acd9d740b2be66d98773f90d161e94907d8ef2c5699b3",
+      "slug": "trump-announces-end-of-military-operations-against-iran-by-april-21st",
+      "eventSlug": "trump-announces-end-of-military-operations-against-iran-by"
+    },
+    "irrationality": {
+      "irrationality_score": 40,
+      "flags": [
+        "Longshot (9%) in high bias category (geopolitics)",
+        "Category structurally prone to longshot bias"
+      ],
+      "category": "geopolitics",
+      "category_info": {
+        "strength": "high",
+        "typical_overpricing": 0.05,
+        "min_edge": 0.05
+      },
+      "is_irrational": true
+    },
+    "mispricing": {
+      "rational_estimate": 0.041999999999999996,
+      "market_price": 0.09,
+      "edge": 0.048,
+      "edge_percent": 4.8,
+      "min_edge_required": 0.05,
+      "is_mispriced": false,
+      "edge_quality": "WEAK",
+      "base_rate_class": "rare",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "rare",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "Political pressure from Congress to reduce military involvement",
+          "Significant diplomatic negotiations leading to a ceasefire",
+          "Public support for ending military operations"
+        ],
+        "weakest_link": "Significant diplomatic negotiations leading to a ceasefire"
+      },
+      "category": "geopolitics",
+      "narrative_drivers": [
+        "Shifts in U.S. foreign policy under the current administration",
+        "Increased domestic opposition to military engagements"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "INSIDER_ONLY",
+      "signal_emoji": "\ud83d\udc41\ufe0f",
+      "signal_strength": 85,
+      "interpretation": "Insider activity detected, no clear mispricing",
+      "action_suggestion": "Monitor: insider signal only, no statistical edge",
+      "insider_score": 85,
+      "insider_position": "YES",
+      "irrationality_score": 40,
+      "is_irrational": true,
+      "is_mispriced": false,
+      "edge": 0.048,
+      "edge_percent": 4.8
+    },
+    "financial_analyst": {
+      "signal_quality": 37.2,
+      "stance": "WATCH_ONLY",
+      "edge_percent": 4.8,
+      "signal_strength": 85.0,
+      "insider_score": 85.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "ai_context": "\u274c SKIP \u2014 Recent developments indicate that military operations against Iran are ongoing, with no official announcement of their conclusion by April 21st.\nAs of April 19, 2026, President Trump has not publicly declared the end of military operations against Iran. The U.S. initiated military action on February 28, 2026, targeting Iranian assets. A two-week suspension of airstrikes was confirmed around April 8, amid signals of nearing completion."
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x5f7dc54a69416540ee8492867e53420bfc005a0f4a416da5c7e2a79b2827fd7a",
+    "wallet": "0x78b9ac44a6d7d7a076c14e0ad518b301b63c6b76",
+    "trader": {
+      "rank": 4,
+      "address": "0x78b9ac44a6d7d7a076c14e0ad518b301b63c6b76",
+      "username": "Len9311238",
+      "profit": 8709972.988069998,
+      "volume": 16402744.764627,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x73c5701afdefba2814193168448b2992306b2f80",
+      "side": "BUY",
+      "asset": "54137688483729496254431977962686656900587663012552110744254959141290742991093",
+      "conditionId": "0xc59b9d44282b40ca363edf955489956e5439433a44822d4f5c93f5fd1254c8ad",
+      "size": 2955,
+      "price": 0.5,
+      "timestamp": 1776625916,
+      "title": "Will Sporting CP win on 2026-04-19?",
+      "slug": "por-spo-ben-2026-04-19-spo",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/liga-portugal-18a39e1e8d.png",
+      "eventSlug": "por-spo-ben-2026-04-19",
+      "outcome": "No",
+      "outcomeIndex": 1,
+      "name": "n.magas",
+      "pseudonym": "Bad-Documentation",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x5f7dc54a69416540ee8492867e53420bfc005a0f4a416da5c7e2a79b2827fd7a",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Will Sporting CP win on 2026-04-19?",
+    "market_slug": "por-spo-ben-2026-04-19",
+    "amount": 1477.5,
+    "ai_context": "\u274c SKIP \u2014 The trader's bet on Sporting CP not winning on April 19, 2026, is not supported by recent performance and head-to-head statistics.\nSporting CP has demonstrated strong form, winning 16 of their last 21 matches across all competitions, including notable victories over PSG and a dramatic comeback against Bodo/Glimt. (techradar.com) In their most recent league match on April 11, 2026, they secured a 1-0 away victory against Estrela. (espn."
   }
 ]
