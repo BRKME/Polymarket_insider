@@ -1,51 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0x219cf2a62d3ebc3c9b29325f2f7c08726e58a8f29a34a5b9c9b0d51520541e5c",
-    "wallet": "0xdb27bf2ac5d428a9c63dbc914611036855a6c56e",
-    "trader": {
-      "rank": 9,
-      "address": "0xdb27bf2ac5d428a9c63dbc914611036855a6c56e",
-      "username": "DrPufferfish",
-      "profit": 5928629.56148703,
-      "volume": 207419854.28716898,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x0eedcaba1be15492fa8a93ed9d52195953e464c2",
-      "side": "BUY",
-      "asset": "73644540400340051100413239419397966976965664001220634024759989419358258209918",
-      "conditionId": "0x7595bcd5544f75ae557c0dbc7649e06814e2d72600a5fd55eddc8a1e6a26db8e",
-      "size": 5555.555554,
-      "price": 0.2699999998956,
-      "timestamp": 1773510743,
-      "title": "Will Chelsea FC vs. Newcastle United FC end in a draw?",
-      "slug": "epl-che-new-2026-03-14-draw",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Repetitive-markets/premier+league.jpg",
-      "eventSlug": "epl-che-new-2026-03-14",
-      "outcome": "Yes",
-      "outcomeIndex": 0,
-      "name": "CGUPO",
-      "pseudonym": "Chilly-Payee",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x219cf2a62d3ebc3c9b29325f2f7c08726e58a8f29a34a5b9c9b0d51520541e5c",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Will Chelsea FC vs. Newcastle United FC end in a draw?",
-    "market_slug": "epl-che-new-2026-03-14",
-    "amount": 1499.9999989999997,
-    "resolution_last_check": "2026-04-13T19:41:53.125869+00:00"
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0x901dd2581deaa7ce0ad6ae2b8d6f4867119fa71d588011274ee51fcff1f9e5e7",
     "wallet": "0x006cc834cc092684f1b56626e23bedb3835c16ea",
     "trader": {
@@ -32749,5 +32704,50 @@
     "strength": 94,
     "timestamp": "2026-04-19T16:41:22.548863",
     "ai_context": "\u274c SKIP \u2014 The trader's bet on a Russia-Ukraine ceasefire before the release of GTA VI is unsupported by current developments.\nThe 32-hour Orthodox Easter ceasefire from April 11 to 12, 2026, collapsed rapidly, with both sides accusing each other of violations, including drone attacks. This brief truce underscores the deep-seated distrust and ongoing hostilities between Russia and Ukraine. Prediction markets reflect this skepticism, assigning only a 1."
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xc2c53088a39d9cc6e3ac0919bde775c4234c856946523d16d395bee5da3a07a3",
+    "wallet": "0xd0c042c08f755ff940249f62745e82d356345565",
+    "trader": {
+      "rank": 15,
+      "address": "0xd0c042c08f755ff940249f62745e82d356345565",
+      "username": "alexmulti",
+      "profit": 4804855.613376001,
+      "volume": 9949068.653841998,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xdcfe226446603f6a998e9a4679a837166f1644b5",
+      "side": "BUY",
+      "asset": "89144856792027055013069866655268879244970151273087155300074137907136304795959",
+      "conditionId": "0xe41a4bfecb31b79546ec2614500fd8153a4be16a86f6c2693c18e1ac73560743",
+      "size": 1270.2823,
+      "price": 0.8,
+      "timestamp": 1776621412,
+      "title": "LoL: Team Heretics vs Movistar KOI - Game 2 Winner",
+      "slug": "lol-th-mkoi-2026-04-19-game2",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/league-of-legends-61a4f083a6.png",
+      "eventSlug": "lol-th-mkoi-2026-04-19",
+      "outcome": "Movistar KOI",
+      "outcomeIndex": 1,
+      "name": "TheGoldenDeer",
+      "pseudonym": "Common-Fat",
+      "bio": "",
+      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-3410761-286fa8cf-1c9c-43b7-986f-e9cba37fe29a.jpg",
+      "profileImageOptimized": "",
+      "transactionHash": "0xc2c53088a39d9cc6e3ac0919bde775c4234c856946523d16d395bee5da3a07a3",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "LoL: Team Heretics vs Movistar KOI - Game 2 Winner",
+    "market_slug": "lol-th-mkoi-2026-04-19",
+    "amount": 1016.2258400000001,
+    "ai_context": "\u274c SKIP \u2014 Recent head-to-head results and current form do not support Movistar KOI's strong performance.\nTeam Heretics has a 5-0 head-to-head record against Movistar KOI, including a 1-0 victory on February 2, 2026. (strafe.com) Additionally, Team Heretics has shown improvement with a 3-2 record in their last five matches, while Movistar KOI has a 2-3 record in their last five matches. (bo3.gg) Given these factors, the bet on Movistar KOI is not supported by the available data."
   }
 ]
