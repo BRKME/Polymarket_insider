@@ -1,51 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0x728db180ea1d36cd50c10eccf6e68760a7fe97e5da65f1f739e858f749c16aff",
-    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-    "trader": {
-      "rank": 1,
-      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-      "username": "Theo4",
-      "profit": 22053933.752321757,
-      "volume": 43013258.515682004,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0xefbb277c49e92bf109425fdd636156050954d067",
-      "side": "SELL",
-      "asset": "34220741429594258097073024559653293456941151791855242282623448356444769966538",
-      "conditionId": "0x0d7df475442dc327a13f0f5e8e46bebb22b1814b9707aa08b1188265616cc37c",
-      "size": 1354.6,
-      "price": 0.999,
-      "timestamp": 1773516747,
-      "title": "Will Chelsea FC win on 2026-03-14?",
-      "slug": "epl-che-new-2026-03-14-che",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Repetitive-markets/premier+league.jpg",
-      "eventSlug": "epl-che-new-2026-03-14",
-      "outcome": "No",
-      "outcomeIndex": 1,
-      "name": "Canadaaa",
-      "pseudonym": "Empty-Sky",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x728db180ea1d36cd50c10eccf6e68760a7fe97e5da65f1f739e858f749c16aff",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Will Chelsea FC win on 2026-03-14?",
-    "market_slug": "epl-che-new-2026-03-14",
-    "amount": 1353.2454,
-    "resolution_last_check": "2026-04-13T19:42:01.801899+00:00"
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0xeb735741ec4051d34416295d364ccff3096e94ccb75e9a23a1120dd5c71ed209",
     "wallet": "0x885783760858e1bd5dd09a3c3f916cfa251ac270",
     "trader": {
@@ -32976,5 +32931,114 @@
     "market_slug": "nba-tor-cle-2026-04-20",
     "amount": 22178.906603,
     "ai_context": "\u274c SKIP \u2014 The Over bet is not supported by recent game totals and team scoring patterns.\nIn their last game on April 18, 2026, the Cleveland Cavaliers defeated the Toronto Raptors 126-113, resulting in a total of 239 points. However, the Raptors have a season record of 34 overs and 49 unders, indicating a tendency towards unders. Additionally, the Cavaliers have a season record of 41 overs and 42 unders, suggesting a balanced approach to overs and unders."
+  },
+  {
+    "market": "Will Ivan Cepeda Castro win the 2026 Colombian presidential election?",
+    "market_slug": "will-ivan-cepeda-castro-win-the-2026-colombian-presidential-election",
+    "event_slug": "will-ivan-cepeda-castro-win-the-2026-colombian-presidential-election",
+    "wallet": "0xba7a8089fec0d9475b9426a15d10994df4a73be9",
+    "analysis": {
+      "score": 70,
+      "flags": [
+        "New wallet (0d old)",
+        "Large bet ($2,211)",
+        "Low activity (2 txns)"
+      ],
+      "amount": 2210.857681,
+      "odds": 0.3246078225202321,
+      "raw_price": 0.6753921774797679,
+      "outcome": "No",
+      "potential_pnl": 4599.999999,
+      "pnl_multiplier": 2.0806404856052785,
+      "wallet_age_days": 0,
+      "total_activities": 2
+    },
+    "timestamp": "2026-04-20T20:26:32.429276",
+    "trade_hash": "0xffe675550383e7d6177fcfaab7e5ec9df61b15e75701bc1abbe848077fc9b421",
+    "trade_timestamp": 1776716398,
+    "latency": null,
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "No",
+      "outcomeIndex": 1,
+      "normalized_position": "NO",
+      "side": "BUY",
+      "price": 0.6753921774797679,
+      "effective_price": 0.3246078225202321,
+      "size": 6810.85768,
+      "amount": 2210.857681,
+      "potential_pnl": 4599.999999,
+      "pnl_multiplier": 2.0806404856052785,
+      "is_no": true,
+      "conditionId": "0x0fb006e0c06caa4db12f7e30ec8c2483d658f83eb57b2ee8eb478e39beca3dfd",
+      "slug": "will-ivan-cepeda-castro-win-the-2026-colombian-presidential-election",
+      "eventSlug": "colombia-presidential-election"
+    },
+    "irrationality": {
+      "irrationality_score": 35,
+      "flags": [
+        "Large mispricing edge (+40.0%)"
+      ],
+      "category": "politics_near",
+      "category_info": {
+        "strength": "medium",
+        "typical_overpricing": 0.02,
+        "min_edge": 0.03
+      },
+      "is_irrational": true
+    },
+    "mispricing": {
+      "rational_estimate": 0.27507843549595357,
+      "market_price": 0.6753921774797679,
+      "edge": 0.4003137419838143,
+      "edge_percent": 40.03137419838143,
+      "min_edge_required": 0.03,
+      "is_mispriced": true,
+      "edge_quality": "STRONG",
+      "base_rate_class": "common",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "common",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "Strong support from key political factions",
+          "Effective campaign strategy and funding",
+          "Ability to address major national issues"
+        ],
+        "weakest_link": "Ability to address major national issues"
+      },
+      "category": "politics_near",
+      "narrative_drivers": [
+        "Public perception of Ivan Cepeda's political experience",
+        "Current socio-economic conditions in Colombia"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "ALPHA",
+      "signal_emoji": "\ud83d\udd25",
+      "signal_strength": 105,
+      "interpretation": "Smart money (NO) confirms YES is overpriced",
+      "action_suggestion": "High conviction: insider + statistics aligned",
+      "insider_score": 70,
+      "insider_position": "NO",
+      "irrationality_score": 35,
+      "is_irrational": true,
+      "is_mispriced": true,
+      "edge": 0.4003137419838143,
+      "edge_percent": 40.03137419838143
+    },
+    "financial_analyst": {
+      "signal_quality": 81.0,
+      "stance": "HIGH_CONVICTION",
+      "edge_percent": 40.03,
+      "signal_strength": 105.0,
+      "insider_score": 70.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "ai_context": "\u2705 COPY \u2014 Recent polls indicate Iv\u00e1n Cepeda Castro leads the 2026 Colombian presidential race.\nA December 2025 Invamer survey showed Cepeda at 31.9% support, ahead of Abelardo de la Espriella (18.2%) and Sergio Fajardo (8.5%). (justiceforcolombia.org) Additionally, a March 2026 Guarumo/EcoAnal\u00edtica poll placed Cepeda at 37.5%, leading de la Espriella (20.2%) and Paloma Valencia (19.9%). (en.wikipedia."
   }
 ]
