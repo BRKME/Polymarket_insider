@@ -1,51 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0xfb087e5372ebfb24bf75f1e6e183dfa8ffc7356791c43554c345983f40f53b98",
-    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-    "trader": {
-      "rank": 1,
-      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-      "username": "Theo4",
-      "profit": 22053933.752321757,
-      "volume": 43013258.515682004,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x0c84d454825e9f42619497f6158b4753cd43a8ed",
-      "side": "BUY",
-      "asset": "49245549336290031579679695778378824875023636927679960174066912313036743279237",
-      "conditionId": "0x4de57496404e5e63c2d1d16a4875d7b18a40e2004990003dc6ea1c35e9912002",
-      "size": 2380.952379,
-      "price": 0.4199999999244,
-      "timestamp": 1773513743,
-      "title": "Will Manchester City FC win on 2026-03-14?",
-      "slug": "epl-wes-mac-2026-03-14-mac",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Repetitive-markets/premier+league.jpg",
-      "eventSlug": "epl-wes-mac-2026-03-14",
-      "outcome": "No",
-      "outcomeIndex": 1,
-      "name": "ff3364",
-      "pseudonym": "Flimsy-Horizon",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0xfb087e5372ebfb24bf75f1e6e183dfa8ffc7356791c43554c345983f40f53b98",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Will Manchester City FC win on 2026-03-14?",
-    "market_slug": "epl-wes-mac-2026-03-14",
-    "amount": 999.999999,
-    "resolution_last_check": "2026-04-13T19:41:57.792391+00:00"
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0x4ccadffdd72e1e292822b5a5d3f5f968711ff7c76fc14d657700c9dab4d5b6a7",
     "wallet": "0xdc876e6873772d38716fda7f2452a78d426d7ab6",
     "trader": {
@@ -32885,5 +32840,50 @@
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
     },
     "ai_context": "\u274c SKIP \u2014 The Magic have struggled recently and face a strong Pistons team in the playoffs.\nIn their last five games, the Magic have a 2-3 record, including a loss to the Pistons on April 6, 2026. (espn.com) The Pistons finished the regular season with a 60-22 record, the best in the Eastern Conference. (cbssports.com) Additionally, the Magic's Jonathan Isaac is out with a knee injury. (espn.com) Given these factors, the bet on the Magic is not supported by the current facts."
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xbce19f45cc5f41899c05163075ca108b1ba264f7d3b3059c2b09e607f7795e37",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.515682004,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x602785cdf56a03221130d3d42a577ac6cf444320",
+      "side": "BUY",
+      "asset": "36360778859582936457992180914344060943891630808101475617748695120796794052033",
+      "conditionId": "0x35ef824e54f36f5ca1677f3b42b3e584d2b787dca85c0899508d470217055143",
+      "size": 4635.504620000001,
+      "price": 0.53,
+      "timestamp": 1776647232,
+      "title": "Detroit Tigers vs. Boston Red Sox: O/U 8.5",
+      "slug": "mlb-det-bos-2026-04-20-total-8pt5",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Repetitive-markets/MLB.jpg",
+      "eventSlug": "mlb-det-bos-2026-04-20",
+      "outcome": "Under",
+      "outcomeIndex": 1,
+      "name": "lpcapital1",
+      "pseudonym": "Willing-Malnutrition",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xbce19f45cc5f41899c05163075ca108b1ba264f7d3b3059c2b09e607f7795e37",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Detroit Tigers vs. Boston Red Sox: O/U 8.5",
+    "market_slug": "mlb-det-bos-2026-04-20",
+    "amount": 2456.8174486000003,
+    "ai_context": "\u274c SKIP \u2014 Recent games indicate a trend toward higher-scoring outcomes.\nIn the past three games between the Detroit Tigers and the Boston Red Sox, the scores were 1-0, 4-1, and 6-2, all favoring the Tigers. The upcoming game features starting pitchers Jack Flaherty (0-1, 5.14 ERA) and Sonny Gray (2-1, 4.43 ERA), both with ERAs above 4.00, suggesting potential for more runs."
   }
 ]
