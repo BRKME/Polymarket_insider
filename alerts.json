@@ -1,51 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0x501bb4ba9ba92da3a3bd921ddeeb6a89360b50aee286d2426761b4e9bd25e93f",
-    "wallet": "0x885783760858e1bd5dd09a3c3f916cfa251ac270",
-    "trader": {
-      "rank": 11,
-      "address": "0x885783760858e1bd5dd09a3c3f916cfa251ac270",
-      "username": "BetTom42",
-      "profit": 5642135.735356,
-      "volume": 11212839.523402998,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0xf33c72c503231d5cb92ed191a59688c6d4a54c38",
-      "side": "BUY",
-      "asset": "104310686213836683567040090563385010068371618645775975297525226302352062873023",
-      "conditionId": "0x22748eda34a92b30beff5b475f0753bf26d10791c46260aed38549da4b821ffa",
-      "size": 1000,
-      "price": 0.659,
-      "timestamp": 1773515547,
-      "title": "LoL: Team Phantasma vs BOMBA Team - Game 2 Winner",
-      "slug": "lol-tp2-bombat-2026-03-14-game2",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/league-of-legends-61a4f083a6.png",
-      "eventSlug": "lol-tp2-bombat-2026-03-14",
-      "outcome": "Team Phantasma",
-      "outcomeIndex": 0,
-      "name": "849waga9wpfj4wa8fj449wa8fljwaf94wal9f8fj4a",
-      "pseudonym": "Large-Indication",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x501bb4ba9ba92da3a3bd921ddeeb6a89360b50aee286d2426761b4e9bd25e93f",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "LoL: Team Phantasma vs BOMBA Team - Game 2 Winner",
-    "market_slug": "lol-tp2-bombat-2026-03-14",
-    "amount": 659.0,
-    "resolution_last_check": "2026-04-13T19:42:01.145084+00:00"
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0x728db180ea1d36cd50c10eccf6e68760a7fe97e5da65f1f739e858f749c16aff",
     "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
     "trader": {
@@ -32976,5 +32931,50 @@
     "market_slug": "bab-el-mandeb-strait-effectively-closed-by",
     "amount": 1725.219998,
     "ai_context": "\u274c SKIP \u2014 Recent threats from the Houthis and Iran suggest a potential closure of the Bab al-Mandeb Strait by April 30, 2026.\nOn April 19, 2026, Houthi official Hussein al-Ezzi warned that the group might close the Bab al-Mandeb Strait if certain actions continue, stating, \"If Sanaa decides to close the Bab al-Mandeb, then all of mankind and jinn will be utterly powerless to open it.\" (tbsnews."
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xb073b0b262cafd586c48ffd4cae7abc33c4b1cfeff8449dc03f763214a988ba9",
+    "wallet": "0x863134d00841b2e200492805a01e1e2f5defaa53",
+    "trader": {
+      "rank": 6,
+      "address": "0x863134d00841b2e200492805a01e1e2f5defaa53",
+      "username": "RepTrump",
+      "profit": 7532409.671579,
+      "volume": 13983231.103425,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x6ade597c0e2b43c0bf3542cada8a5e330d73f5b0",
+      "side": "BUY",
+      "asset": "32891455339241868054388168946860588153889618534070667579262884347478433125807",
+      "conditionId": "0xb2e0dbfed10e17fee30e8767071ec45f52c5288a3bdd249ec8f232d7235f8b0e",
+      "size": 45263.0747,
+      "price": 0.49,
+      "timestamp": 1776714166,
+      "title": "Raptors vs. Cavaliers: O/U 222.5",
+      "slug": "nba-tor-cle-2026-04-20-total-222pt5",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
+      "eventSlug": "nba-tor-cle-2026-04-20",
+      "outcome": "Over",
+      "outcomeIndex": 0,
+      "name": "TheOnlyHuman",
+      "pseudonym": "Vital-Boy",
+      "bio": "",
+      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-3880352-2c848d1c-d674-41af-a677-157d83998b8b.gif",
+      "profileImageOptimized": "",
+      "transactionHash": "0xb073b0b262cafd586c48ffd4cae7abc33c4b1cfeff8449dc03f763214a988ba9",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Raptors vs. Cavaliers: O/U 222.5",
+    "market_slug": "nba-tor-cle-2026-04-20",
+    "amount": 22178.906603,
+    "ai_context": "\u274c SKIP \u2014 The Over bet is not supported by recent game totals and team scoring patterns.\nIn their last game on April 18, 2026, the Cleveland Cavaliers defeated the Toronto Raptors 126-113, resulting in a total of 239 points. However, the Raptors have a season record of 34 overs and 49 unders, indicating a tendency towards unders. Additionally, the Cavaliers have a season record of 41 overs and 42 unders, suggesting a balanced approach to overs and unders."
   }
 ]
