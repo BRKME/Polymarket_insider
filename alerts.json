@@ -1,141 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0x25d5e0382d5e561cc7200428a92c16054e7effc2eacfa2dea14ff7745c5de8da",
-    "wallet": "0x885783760858e1bd5dd09a3c3f916cfa251ac270",
-    "trader": {
-      "rank": 11,
-      "address": "0x885783760858e1bd5dd09a3c3f916cfa251ac270",
-      "username": "BetTom42",
-      "profit": 5642135.735356,
-      "volume": 11212839.523402998,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x8b374c3846fd063165dcfaff985ad48f051278bd",
-      "side": "BUY",
-      "asset": "57216272564529548464686463691236811991956032201293786790337952253964682584376",
-      "conditionId": "0xd595eb9b81885ff018738300c79047e3ec89e87294424f57a29a7fa9162bf116",
-      "size": 1163,
-      "price": 0.898,
-      "timestamp": 1773515547,
-      "title": "Will Trump acquire Greenland before 2027?",
-      "slug": "will-trump-acquire-greenland-before-2027",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-trump-acquire-greenland-in-2025-5ZDkcIGhdBMW.jpg",
-      "eventSlug": "will-trump-acquire-greenland-before-2027",
-      "outcome": "No",
-      "outcomeIndex": 1,
-      "name": "0x8B374c3846Fd063165dCfafF985AD48f051278Bd-1751058813721",
-      "pseudonym": "Plastic-Filter",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x25d5e0382d5e561cc7200428a92c16054e7effc2eacfa2dea14ff7745c5de8da",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Will Trump acquire Greenland before 2027?",
-    "market_slug": "will-trump-acquire-greenland-before-2027",
-    "amount": 1044.374,
-    "resolution_last_check": "2026-04-13T19:41:59.781084+00:00"
-  },
-  {
-    "type": "TOP_TRADER",
-    "trade_hash": "0x603ab4794e9bd24ddee2f9b19ca6057fddaa4cf2fad077b89b743903a0068ea3",
-    "wallet": "0x885783760858e1bd5dd09a3c3f916cfa251ac270",
-    "trader": {
-      "rank": 11,
-      "address": "0x885783760858e1bd5dd09a3c3f916cfa251ac270",
-      "username": "BetTom42",
-      "profit": 5642135.735356,
-      "volume": 11212839.523402998,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x199c0fc1a9d0d8f81dba600627c18c4e21257d79",
-      "side": "BUY",
-      "asset": "57216272564529548464686463691236811991956032201293786790337952253964682584376",
-      "conditionId": "0xd595eb9b81885ff018738300c79047e3ec89e87294424f57a29a7fa9162bf116",
-      "size": 1195,
-      "price": 0.898,
-      "timestamp": 1773515547,
-      "title": "Will Trump acquire Greenland before 2027?",
-      "slug": "will-trump-acquire-greenland-before-2027",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-trump-acquire-greenland-in-2025-5ZDkcIGhdBMW.jpg",
-      "eventSlug": "will-trump-acquire-greenland-before-2027",
-      "outcome": "No",
-      "outcomeIndex": 1,
-      "name": "amethyst513sabrina",
-      "pseudonym": "Rotating-Pension",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x603ab4794e9bd24ddee2f9b19ca6057fddaa4cf2fad077b89b743903a0068ea3",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Will Trump acquire Greenland before 2027?",
-    "market_slug": "will-trump-acquire-greenland-before-2027",
-    "amount": 1073.1100000000001,
-    "resolution_last_check": "2026-04-13T19:41:59.781103+00:00"
-  },
-  {
-    "type": "TOP_TRADER",
-    "trade_hash": "0x652d71072ad7e22068d264e3142463f4a663a26d7d316d478f0373495a1cc927",
-    "wallet": "0x885783760858e1bd5dd09a3c3f916cfa251ac270",
-    "trader": {
-      "rank": 11,
-      "address": "0x885783760858e1bd5dd09a3c3f916cfa251ac270",
-      "username": "BetTom42",
-      "profit": 5642135.735356,
-      "volume": 11212839.523402998,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0xdf7c41ed782c7a9f67dae5ff22fa3f80b5e7288f",
-      "side": "BUY",
-      "asset": "16292998164437715433662093684375597033753256461863698881684021795789375814500",
-      "conditionId": "0x12ca08f950bb13cefe9c9daf2ff8cd406aa322cc1b1711dc9c6108c20f6fa83c",
-      "size": 951,
-      "price": 0.987,
-      "timestamp": 1773515547,
-      "title": "Will Adam Scott win the 2026 Masters tournament?",
-      "slug": "will-adam-scott-win-the-2026-masters-tournament",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-adam-scott-win-the-2026-masters-tournament-XrUqTEaeOK2x.png",
-      "eventSlug": "the-masters-winner",
-      "outcome": "No",
-      "outcomeIndex": 1,
-      "name": "0xDF7c41ed782c7a9f67daE5Ff22fa3F80b5e7288f-1749091271696",
-      "pseudonym": "Messy-Batting",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x652d71072ad7e22068d264e3142463f4a663a26d7d316d478f0373495a1cc927",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Will Adam Scott win the 2026 Masters tournament?",
-    "market_slug": "the-masters-winner",
-    "amount": 938.637,
-    "resolution_last_check": "2026-04-13T19:42:00.484370+00:00"
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0x501bb4ba9ba92da3a3bd921ddeeb6a89360b50aee286d2426761b4e9bd25e93f",
     "wallet": "0x885783760858e1bd5dd09a3c3f916cfa251ac270",
     "trader": {
@@ -32905,5 +32770,211 @@
     "amount": 1017.64,
     "ai_context": "\u274c SKIP \u2014 The Cavaliers have struggled against the Raptors, losing all three regular-season matchups this season.\nIn the 2025-2026 regular season, the Cavaliers lost all three games against the Raptors, with scores of 108-131 on February 13, 132-126 on January 10, and 122-108 on November 25. (basketballstats.net)\nAdditionally, the Cavaliers have been plagued by injuries, using 41 different starting lineups during the regular season, more than any other Eastern Conference playoff team. (axios.",
     "resolution_last_check": "2026-04-20T07:55:43.063109+00:00"
+  },
+  {
+    "market": "Will Aston Villa FC win on 2026-04-25?",
+    "market_slug": "epl-ful-ast-2026-04-25-ast",
+    "event_slug": "epl-ful-ast-2026-04-25-ast",
+    "wallet": "0x2a91d128f5dc0b0f3e095e2c63c7ccd4ef91c6b1",
+    "analysis": {
+      "score": 70,
+      "flags": [
+        "Recent wallet (13d old)",
+        "Large bet ($1,069)",
+        "Pre-event latency: 6197m"
+      ],
+      "amount": 1069.3835027999999,
+      "odds": 0.36,
+      "raw_price": 0.36,
+      "outcome": "Yes",
+      "potential_pnl": 1901.1262272,
+      "pnl_multiplier": 1.777777777777778,
+      "wallet_age_days": 13,
+      "total_activities": 100
+    },
+    "timestamp": "2026-04-20T16:47:25.728436",
+    "trade_hash": "0x077db0551bda744dc4b20421a66ec9b3cef28cf8d7f502f4492c5261ba478d45",
+    "trade_timestamp": 1776703364,
+    "latency": {
+      "latency_seconds": 371836.0,
+      "latency_minutes": 6197.266666666666,
+      "is_pre_event": true,
+      "severity": "CRITICAL",
+      "trade_time": "2026-04-20T16:42:44+00:00",
+      "event_time": "2026-04-25T00:00:00+00:00"
+    },
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "Yes",
+      "outcomeIndex": 0,
+      "normalized_position": "YES",
+      "side": "BUY",
+      "price": 0.36,
+      "effective_price": 0.36,
+      "size": 2970.5097299999998,
+      "amount": 1069.3835027999999,
+      "potential_pnl": 1901.1262272,
+      "pnl_multiplier": 1.777777777777778,
+      "is_no": false,
+      "conditionId": "0x69be0b5f106e1a4712cef705c73d94d73ae11570fb2cd4fe7979bf2a40e8f0c1",
+      "slug": "epl-ful-ast-2026-04-25-ast",
+      "eventSlug": "epl-ful-ast-2026-04-25"
+    },
+    "irrationality": {
+      "irrationality_score": 35,
+      "flags": [
+        "Large mispricing edge (+22.8%)"
+      ],
+      "category": "politics_near",
+      "category_info": {
+        "strength": "medium",
+        "typical_overpricing": 0.02,
+        "min_edge": 0.03
+      },
+      "is_irrational": true
+    },
+    "mispricing": {
+      "rational_estimate": 0.132,
+      "market_price": 0.36,
+      "edge": 0.22799999999999998,
+      "edge_percent": 22.799999999999997,
+      "min_edge_required": 0.05,
+      "is_mispriced": true,
+      "edge_quality": "STRONG",
+      "base_rate_class": "occasional",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "occasional",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "Aston Villa's current form leading up to the match",
+          "Injury status of key players",
+          "Performance of the opposing team on that date"
+        ],
+        "weakest_link": "Injury status of key players"
+      },
+      "category": "sports",
+      "narrative_drivers": [
+        "Recent performance trends",
+        "Fan sentiment and support"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "CONFLICT",
+      "signal_emoji": "\u26a0\ufe0f",
+      "signal_strength": 70,
+      "interpretation": "Insider buying YES despite statistical overpricing",
+      "action_suggestion": "Requires manual analysis: insider may have real info OR is part of irrational crowd",
+      "insider_score": 70,
+      "insider_position": "YES",
+      "irrationality_score": 35,
+      "is_irrational": true,
+      "is_mispriced": true,
+      "edge": 0.22799999999999998,
+      "edge_percent": 22.799999999999997
+    },
+    "financial_analyst": {
+      "signal_quality": 46.0,
+      "stance": "WATCH_ONLY",
+      "edge_percent": 22.8,
+      "signal_strength": 70.0,
+      "insider_score": 70.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "ai_context": "\u274c SKIP \u2014 Recent form and injuries suggest Aston Villa may struggle against Fulham.\nAston Villa has been inconsistent recently, with a 1-1 draw against Nottingham Forest on April 12 and a 3-1 loss to Bologna on April 9. Additionally, key midfielders John McGinn, Youri Tielemans, and Boubacar Kamara have been sidelined due to injuries. Fulham, on the other hand, has been performing well, currently sitting 7th in the Premier League with 45 points."
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xb1b795acf44740931aff08666bbc31c4aa41eebf5019f7c41fae85d2a46b25cd",
+    "wallet": "0x1f2dd6d473f3e824cd2f8a89d9c69fb96f6ad0cf",
+    "trader": {
+      "rank": 2,
+      "address": "0x1f2dd6d473f3e824cd2f8a89d9c69fb96f6ad0cf",
+      "username": "Fredi9999",
+      "profit": 16619506.631730152,
+      "volume": 76611316.90515402,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+      "side": "BUY",
+      "asset": "83290657081690107322851115647468292626987529747655743349306928357452379205359",
+      "conditionId": "0xb6121a8d389333726ee7d7754994f7d1fb7d87300d708eefbd650262c4f44e62",
+      "size": 8272.3725,
+      "price": 0.7,
+      "timestamp": 1776703658,
+      "title": "Madrid Open, Qualification: Henrique Rocha vs Jan Choinski",
+      "slug": "atp-rocha-choinsk-2026-04-20",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/atp-tour-b4390c4fb8.jpg",
+      "eventSlug": "atp-rocha-choinsk-2026-04-20",
+      "outcome": "Henrique Rocha",
+      "outcomeIndex": 0,
+      "name": "RN1",
+      "pseudonym": "Scary-Edible",
+      "bio": "",
+      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1567750-84001aec-310a-470f-9584-67dfcaa61267.png",
+      "profileImageOptimized": "",
+      "transactionHash": "0xb1b795acf44740931aff08666bbc31c4aa41eebf5019f7c41fae85d2a46b25cd",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Madrid Open, Qualification: Henrique Rocha vs Jan Choinski",
+    "market_slug": "atp-rocha-choinsk-2026-04-20",
+    "amount": 5790.660749999999,
+    "ai_context": "\u274c SKIP \u2014 The facts do not support the bet on Henrique Rocha.\nHenrique Rocha has a 60.3% win rate over the past 52 weeks, with a 6-4 record in his last 10 matches. Jan Choinski has a 59.4% win rate over the past 52 weeks, with a 4-6 record in his last 10 matches. In their most recent encounter in September 2025, Rocha defeated Choinski 6-1, 6-4 on clay. (tennisratio."
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x8876cf6c65bbe890a9bb20d72a2c3621a7e2cde313eae2024f62d37e99e2f80b",
+    "wallet": "0x1f2dd6d473f3e824cd2f8a89d9c69fb96f6ad0cf",
+    "trader": {
+      "rank": 2,
+      "address": "0x1f2dd6d473f3e824cd2f8a89d9c69fb96f6ad0cf",
+      "username": "Fredi9999",
+      "profit": 16619506.631730152,
+      "volume": 76611316.90515402,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xb4f2592e67c333e73c923547cfe05e768180e5fa",
+      "side": "BUY",
+      "asset": "84582313335492225037882788013498040721657815470535256827405672153879869687298",
+      "conditionId": "0xcd26bdb63b81dfcc5482c42e9372c8a46091b1de1123d2afefb83df83fe859fd",
+      "size": 1938.449437,
+      "price": 0.8899999995202351,
+      "timestamp": 1776703658,
+      "title": "Bab el-Mandeb Strait effectively closed by April 30?",
+      "slug": "bab-el-mandeb-strait-effectively-closed-by-april-30",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/bab-el-mandeb-strait-effectively-closed-by-end-of-april-Y8A7Ig2p8X2K.jpg",
+      "eventSlug": "bab-el-mandeb-strait-effectively-closed-by",
+      "outcome": "No",
+      "outcomeIndex": 1,
+      "name": "M2sx92kljs42",
+      "pseudonym": "Smoggy-Sunglasses",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x8876cf6c65bbe890a9bb20d72a2c3621a7e2cde313eae2024f62d37e99e2f80b",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Bab el-Mandeb Strait effectively closed by April 30?",
+    "market_slug": "bab-el-mandeb-strait-effectively-closed-by",
+    "amount": 1725.219998,
+    "ai_context": "\u274c SKIP \u2014 Recent threats from the Houthis and Iran suggest a potential closure of the Bab al-Mandeb Strait by April 30, 2026.\nOn April 19, 2026, Houthi official Hussein al-Ezzi warned that the group might close the Bab al-Mandeb Strait if certain actions continue, stating, \"If Sanaa decides to close the Bab al-Mandeb, then all of mankind and jinn will be utterly powerless to open it.\" (tbsnews."
   }
 ]
