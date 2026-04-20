@@ -1,51 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0xeb735741ec4051d34416295d364ccff3096e94ccb75e9a23a1120dd5c71ed209",
-    "wallet": "0x885783760858e1bd5dd09a3c3f916cfa251ac270",
-    "trader": {
-      "rank": 11,
-      "address": "0x885783760858e1bd5dd09a3c3f916cfa251ac270",
-      "username": "BetTom42",
-      "profit": 5642135.735356,
-      "volume": 11212839.523403,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x64db84746e703cc03e24b31d0ff248e36cc189bb",
-      "side": "BUY",
-      "asset": "38397507750621893057346880033441136112987238933685677349709401910643842844855",
-      "conditionId": "0x9352c559e9648ab4cab236087b64ca85c5b7123a4c7d9d7d4efde4a39c18056f",
-      "size": 3151.333332,
-      "price": 0.26999999979691136,
-      "timestamp": 1773517345,
-      "title": "Will the Iranian regime fall by June 30?",
-      "slug": "will-the-iranian-regime-fall-by-june-30",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-the-iranian-regime-fall-in-2025-YLXIniTmQs4q.png",
-      "eventSlug": "will-the-iranian-regime-fall-by-june-30",
-      "outcome": "Yes",
-      "outcomeIndex": 0,
-      "name": "TrumpFollower752x",
-      "pseudonym": "Flickering-Value",
-      "bio": "",
-      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-5156028-487599af-6102-4be2-9f3b-71c9ed581614.jpg",
-      "profileImageOptimized": "",
-      "transactionHash": "0xeb735741ec4051d34416295d364ccff3096e94ccb75e9a23a1120dd5c71ed209",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Will the Iranian regime fall by June 30?",
-    "market_slug": "will-the-iranian-regime-fall-by-june-30",
-    "amount": 850.859999,
-    "resolution_last_check": "2026-04-13T19:42:02.370780+00:00"
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0xbbab0b7bc806193ade6e94a5e4b7fcdb9c18396b7d3969fbf4765c833ffef10e",
     "wallet": "0x16f91db2592924cfed6e03b7e5cb5bb1e32299e3",
     "trader": {
@@ -33040,5 +32995,23 @@
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
     },
     "ai_context": "\u2705 COPY \u2014 Recent polls indicate Iv\u00e1n Cepeda Castro leads the 2026 Colombian presidential race.\nA December 2025 Invamer survey showed Cepeda at 31.9% support, ahead of Abelardo de la Espriella (18.2%) and Sergio Fajardo (8.5%). (justiceforcolombia.org) Additionally, a March 2026 Guarumo/EcoAnal\u00edtica poll placed Cepeda at 37.5%, leading de la Espriella (20.2%) and Paloma Valencia (19.9%). (en.wikipedia."
+  },
+  {
+    "type": "WHALE_FLOW",
+    "condition_id": "0x45b6509d2504a671940c7c9967e56122bb30a4823b7d06bdad03d4f5a1021ea8",
+    "market": "Russia-Ukraine Ceasefire before GTA VI?",
+    "market_slug": "russia-ukraine-ceasefire-before-gta-vi-554",
+    "event_slug": "",
+    "dominant_side": "YES",
+    "dominant_volume": 81884.0,
+    "total_volume": 81884.0,
+    "imbalance_pct": 100.0,
+    "unique_wallets": 18,
+    "trade_count": 21,
+    "max_single_trade": 81168.0,
+    "yes_price": 0.535,
+    "strength": 76,
+    "timestamp": "2026-04-20T22:48:24.837112",
+    "ai_context": "\u274c SKIP \u2014 The trader's bet on a Russia-Ukraine ceasefire before the release of GTA VI is unsupported by current developments.\nThe 32-hour Orthodox Easter ceasefire in April 2026 collapsed quickly, with both sides accusing each other of violations, highlighting deep-seated distrust. Prediction markets assign a mere 1.4% probability to a ceasefire by April 30, 2026, reflecting skepticism about near-term peace prospects. (agenticnews."
   }
 ]
