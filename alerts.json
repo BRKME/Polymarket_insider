@@ -1,96 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0x4ccadffdd72e1e292822b5a5d3f5f968711ff7c76fc14d657700c9dab4d5b6a7",
-    "wallet": "0xdc876e6873772d38716fda7f2452a78d426d7ab6",
-    "trader": {
-      "rank": 18,
-      "address": "0xdc876e6873772d38716fda7f2452a78d426d7ab6",
-      "username": "432614799197",
-      "profit": 4544164.198078621,
-      "volume": 185485956.8620829,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x3e5b23e9f71b2a2edcd5629d3f948f12f591073b",
-      "side": "BUY",
-      "asset": "72656506786460378316387284276713856836841708169262528054985577978493419440428",
-      "conditionId": "0xce9a5fa30fe74e323b4a8f15afbb0b7a41a537aa880779ddf7dee22223b2f34a",
-      "size": 709.82,
-      "price": 0.978,
-      "timestamp": 1773514343,
-      "title": "Will Donald Trump win the 2028 US Presidential Election?",
-      "slug": "will-donald-trump-win-the-2028-us-presidential-election",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-donald-trump-win-the-2028-us-presidential-election-4gVusUQRi_GG.png",
-      "eventSlug": "presidential-election-winner-2028",
-      "outcome": "No",
-      "outcomeIndex": 1,
-      "name": "beenraping",
-      "pseudonym": "",
-      "bio": "make money sometimes",
-      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-110893-a602433b-e536-4d68-a24c-aea69b03bc4e.gif",
-      "profileImageOptimized": "",
-      "transactionHash": "0x4ccadffdd72e1e292822b5a5d3f5f968711ff7c76fc14d657700c9dab4d5b6a7",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Will Donald Trump win the 2028 US Presidential Election?",
-    "market_slug": "presidential-election-winner-2028",
-    "amount": 694.20396,
-    "resolution_last_check": "2026-04-13T19:41:58.460305+00:00"
-  },
-  {
-    "type": "TOP_TRADER",
-    "trade_hash": "0xa6c74bf5c9364f789cf18e267f35a49eb7099f1d58db631d750a304e722915e0",
-    "wallet": "0x1f2dd6d473f3e824cd2f8a89d9c69fb96f6ad0cf",
-    "trader": {
-      "rank": 2,
-      "address": "0x1f2dd6d473f3e824cd2f8a89d9c69fb96f6ad0cf",
-      "username": "Fredi9999",
-      "profit": 16619506.63173015,
-      "volume": 76611316.905154,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x3e73934b881659aa25a4f08bc8ab9067295bc4ec",
-      "side": "BUY",
-      "asset": "84154807193993320804234241686770276310233716339450749037375431570535699225801",
-      "conditionId": "0xc7fbdd5cf0a2dec10684002a814a97579415c16ac211ae19be541986f46fc794",
-      "size": 771.08,
-      "price": 0.99,
-      "timestamp": 1773515245,
-      "title": "Toronto FC vs. New York Red Bulls: O/U 1.5",
-      "slug": "mls-tor-nyr-2026-03-14-total-1pt5",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/mls-soccer-all-star-game-winner-r8__FzcgT9JC.png",
-      "eventSlug": "mls-tor-nyr-2026-03-14-more-markets",
-      "outcome": "Over",
-      "outcomeIndex": 0,
-      "name": "0xc1dA8SO23a3D915E7FcA367bbBFSO4E74DSO27A",
-      "pseudonym": "Negligible-Certification",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0xa6c74bf5c9364f789cf18e267f35a49eb7099f1d58db631d750a304e722915e0",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Toronto FC vs. New York Red Bulls: O/U 1.5",
-    "market_slug": "mls-tor-nyr-2026-03-14-more-markets",
-    "amount": 763.3692,
-    "resolution_last_check": "2026-04-13T19:41:59.124737+00:00"
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0x25d5e0382d5e561cc7200428a92c16054e7effc2eacfa2dea14ff7745c5de8da",
     "wallet": "0x885783760858e1bd5dd09a3c3f916cfa251ac270",
     "trader": {
@@ -32885,5 +32795,95 @@
     "market_slug": "mlb-det-bos-2026-04-20",
     "amount": 2456.8174486000003,
     "ai_context": "\u274c SKIP \u2014 Recent games indicate a trend toward higher-scoring outcomes.\nIn the past three games between the Detroit Tigers and the Boston Red Sox, the scores were 1-0, 4-1, and 6-2, all favoring the Tigers. The upcoming game features starting pitchers Jack Flaherty (0-1, 5.14 ERA) and Sonny Gray (2-1, 4.43 ERA), both with ERAs above 4.00, suggesting potential for more runs."
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xa9dd61357b490078238e5a309523c6e0ccf68b9763a38a716a37a455951c0a8b",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.51568201,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x796134216a4928b0b90a44e2ecfa4a14585c1b1c",
+      "side": "BUY",
+      "asset": "6005972457090582655555851246372121423132040521133483121964584085867525214875",
+      "conditionId": "0x7eceae72d7d7b3e175fa872c728526e6fec4714288a4bda91fe818e298e69a6f",
+      "size": 3183.404393,
+      "price": 0.9109744267416421,
+      "timestamp": 1776658940,
+      "title": "Will WTI Crude Oil (WTI) hit (HIGH) $120 in April?",
+      "slug": "will-wti-crude-oil-wti-hit-high-120-in-april",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/crude-oil-9a850ce2a2.png",
+      "eventSlug": "what-price-will-wti-hit-in-april-2026",
+      "outcome": "No",
+      "outcomeIndex": 1,
+      "name": "Yang-H",
+      "pseudonym": "Odd-Pub",
+      "bio": "GO",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xa9dd61357b490078238e5a309523c6e0ccf68b9763a38a716a37a455951c0a8b",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Will WTI Crude Oil (WTI) hit (HIGH) $120 in April?",
+    "market_slug": "what-price-will-wti-hit-in-april-2026",
+    "amount": 2899.999992,
+    "ai_context": "\u274c SKIP \u2014 Recent geopolitical tensions and market forecasts indicate WTI Crude Oil prices may exceed $120 in April.\nAs of April 17, 2026, WTI crude oil is trading near $87.40, maintaining a bearish bias below key moving averages. (trading.robotfx.org) However, on April 19, 2026, oil prices surged by approximately 6% following a renewed U.S.-Iran conflict, with WTI climbing to $89.77 per barrel. (axios.com) Additionally, an April 1, 2026, forecast projected WTI prices to range between $68."
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x24d371f839de8ee2090ed4801d0db9ad209c06f5d15173c92438e0e8c056e9d7",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.51568201,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x53757615de1c42b83f893b79d4241a009dc2aeea",
+      "side": "BUY",
+      "asset": "91471666705230345078061017574966430664965792586647040080155282554963550319087",
+      "conditionId": "0xda955a9e3195606bd9d83753436220b8eab99bb856ade6f532a576dd417b964e",
+      "size": 1339,
+      "price": 0.76,
+      "timestamp": 1776658940,
+      "title": "Raptors vs. Cavaliers",
+      "slug": "nba-tor-cle-2026-04-20",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
+      "eventSlug": "nba-tor-cle-2026-04-20",
+      "outcome": "Cavaliers",
+      "outcomeIndex": 1,
+      "name": "",
+      "pseudonym": "",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x24d371f839de8ee2090ed4801d0db9ad209c06f5d15173c92438e0e8c056e9d7",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Raptors vs. Cavaliers",
+    "market_slug": "nba-tor-cle-2026-04-20",
+    "amount": 1017.64,
+    "ai_context": "\u274c SKIP \u2014 The Cavaliers have struggled against the Raptors, losing all three regular-season matchups this season.\nIn the 2025-2026 regular season, the Cavaliers lost all three games against the Raptors, with scores of 108-131 on February 13, 132-126 on January 10, and 122-108 on November 25. (basketballstats.net)\nAdditionally, the Cavaliers have been plagued by injuries, using 41 different starting lineups during the regular season, more than any other Eastern Conference playoff team. (axios."
   }
 ]
