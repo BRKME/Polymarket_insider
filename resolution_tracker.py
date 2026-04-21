@@ -78,29 +78,27 @@ def fetch_market_by_condition_id(condition_id: str) -> Optional[Dict]:
         return None
 
     url = f"{GAMMA_API_URL}/markets"
-    params = {"condition_id": condition_id, "limit": 1}
-
-    try:
-        time.sleep(API_DELAY)
-        resp = requests.get(url, params=params, timeout=15)
-        if resp.status_code == 200:
-            data = resp.json()
-            if data and len(data) > 0:
-                return data[0]
-    except Exception as e:
-        print(f"  ⚠️  API error for conditionId '{condition_id[:20]}': {e}")
-
-    # Fallback: try conditionId as query param name variation
-    for param_name in ["conditionId", "condition_id"]:
+    
+    for param_name in ["condition_id", "conditionId"]:
         try:
             time.sleep(API_DELAY)
             resp = requests.get(url, params={param_name: condition_id, "limit": 1}, timeout=15)
             if resp.status_code == 200:
                 data = resp.json()
                 if data and len(data) > 0:
-                    return data[0]
-        except:
-            pass
+                    market = data[0]
+                    # VALIDATE: returned conditionId must match requested
+                    # Gamma API ignores unknown condition_id params and returns default market
+                    returned_cid = market.get("conditionId", "")
+                    if returned_cid and condition_id.lower().startswith(returned_cid.lower()[:20]):
+                        return market
+                    elif returned_cid and returned_cid.lower().startswith(condition_id.lower()[:20]):
+                        return market
+                    else:
+                        # API returned wrong market — ignore silently
+                        continue
+        except Exception as e:
+            print(f"  ⚠️  API error for conditionId '{condition_id[:20]}': {e}")
 
     return None
 
@@ -423,11 +421,37 @@ def run_resolution_check():
                 found_by_method[found_method] = found_by_method.get(found_method, 0) + 1
 
         if not market_data:
-            api_errors += 1
-            # Debug: show first 5 errors
-            if api_errors <= 5:
-                atype = alert.get("combined_signal", {}).get("signal_type") or alert.get("type", "?")
-                print(f"  ❌ NOT FOUND [{atype}]: cid={condition_id[:20]}, slug={slug[:30]}, q={market_question[:40]}")
+            # Check if this is an old market with a past date
+            # e.g., "nba-orl-mia-2026-03-14" or "Will X win on 2026-03-15"
+            all_text = ' '.join(all_slugs) + ' ' + market_question
+            date_match = re.search(r'(\d{4}-\d{2}-\d{2})', all_text)
+            market_date = None
+            if date_match:
+                try:
+                    market_date = datetime.strptime(date_match.group(1), "%Y-%m-%d")
+                except:
+                    pass
+            
+            # If market date is >7 days ago, mark as expired (API removed it)
+            if market_date and (datetime.utcnow() - market_date).days > 7:
+                alert["resolution"] = {
+                    "outcome": "EXPIRED",
+                    "checked_at": datetime.now(timezone.utc).isoformat(),
+                    "insider_win": None,
+                    "model_correct": None,
+                    "pnl": None,
+                    "note": f"Market removed from API. Date: {date_match.group(1)}"
+                }
+                stats["total_resolved"] += 1
+                stats["model_na"] = stats.get("model_na", 0) + 1
+                newly_resolved += 1
+                if newly_resolved <= 5:
+                    print(f"  ⏰ EXPIRED: {market_question[:50]} ({date_match.group(1)})")
+            else:
+                api_errors += 1
+                if api_errors <= 5:
+                    atype = alert.get("combined_signal", {}).get("signal_type") or alert.get("type", "?")
+                    print(f"  ❌ NOT FOUND [{atype}]: cid={condition_id[:20]}, q={market_question[:40]}")
             continue
 
         resolution = determine_resolution(market_data)
