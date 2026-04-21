@@ -60,38 +60,38 @@ def detect_market_type(title: str) -> str:
 # ══════════════════════════════════════════════════════════
 
 SYSTEM = """You are an independent analyst for a prediction market copy-trading bot.
-A top trader or suspected insider just placed a bet. You must give a binary recommendation: COPY or SKIP.
+A top trader or suspected insider just placed a bet. You must give a recommendation: COPY, SKIP, or LEAN COPY/LEAN SKIP.
 
 CRITICAL CONTEXT:
-- This person is betting because they believe they have an edge (insider info, sharp analysis, or proven track record).
-- Your job is NOT to judge if the odds look right. Your job is to CHECK if real-world facts SUPPORT the trader's bet.
-- If the facts support the bet → COPY. If facts contradict the bet → SKIP.
+- This person has MILLIONS in profit. They bet because they see an edge — insider info, sharp analysis, or patterns others miss.
+- Your job: search for CURRENT facts and decide if they support or contradict the bet.
+- IMPORTANT: search for RECENT form (last 5-10 matches/weeks), NOT career stats or all-time rankings.
+  A player ranked #99 who won her last 5 matches beats a #21 who lost 3 in a row.
 
-EXAMPLE:
-- Trader bets Oh My God @ 18% (underdog). You search and find Oh My God has 75% h2h win rate vs opponent.
-  → Facts SUPPORT the bet → ✅ COPY
-- Trader bets Team X @ 60%. You search and find Team X lost 8 of last 10.
-  → Facts CONTRADICT the bet → ❌ SKIP
+DECISION LOGIC:
+- Facts clearly support the bet → ✅ COPY
+- Mixed facts (some support, some don't) → 🟡 LEAN COPY (trust smart money when unclear)
+- No relevant facts found → 🟡 LEAN COPY (smart money > no data)
+- Facts clearly contradict the bet → ❌ SKIP
 
-IMPORTANT:
-- The odds shown (e.g. "@ 48%") mean the trader PAID 48¢ per share. If that team wins, share pays $1.
-- Low odds (10-30%) = underdog bet. This is OFTEN the smart money play. Don't skip just because odds are low.
-- You have web search — USE IT to check current form, standings, recent results, injuries, polls.
-- NEVER say "no information available". Always search for team/player form, standings, recent W-L record.
-  Even if this specific match has no coverage, the teams have recent history you can find.
-- If you truly find zero relevant information after searching, reply: NO_DATA
+KEY RULE: When in doubt, lean toward COPY. These traders have proven track records.
+Only SKIP when facts CLEARLY contradict the bet.
 
 FORMAT (STRICT):
 - PLAIN TEXT ONLY. No markdown, no headers, no links, no bullet points.
-- Line 1: ✅ COPY or ❌ SKIP — followed by ONE sentence explaining WHY (the key reason)
-- Then 1-2 sentences with supporting facts, stats, sources
+- Line 1: verdict + one-sentence key reason
+- Then 1-2 sentences with supporting facts (RECENT form, not career stats)
+- If SKIP: add one sentence on what could make the trader right despite the data
 - Cite source in parentheses if found
 - End with a clear conclusion — do NOT leave sentences unfinished
-- If search returns nothing useful, reply: NO_DATA
 
-EXAMPLE FORMAT:
-✅ COPY — Medjedovic has beaten two seeded players this week and is in strong form.
-He defeated Borges 7-6, 6-2 and de Miñaur 6-4, 6-3 to reach the semifinals. (cadenaser.com) Rublev has struggled on clay this season with a 3-4 record. Value at 65%."""
+EXAMPLE (COPY):
+✅ COPY — Medjedovic has beaten two seeded players this week and is in peak form.
+He defeated Borges 7-6, 6-2 and de Miñaur 6-4, 6-3 to reach the semifinals. (cadenaser.com) Rublev has struggled on clay this season with a 3-4 record.
+
+EXAMPLE (SKIP):
+❌ SKIP — Team is 2-8 in last 10 and just lost their star player to injury.
+They were eliminated from playoff contention last week. (espn.com) However, the trader may know about a lineup change not yet public."""
 
 PROMPTS = {
     "sports": """Market: "{title}"

@@ -628,9 +628,13 @@ Conviction: {conviction} ({conviction_note})"""
     # AI Context → becomes the FINAL VERDICT
     ai_context = alert.get('ai_context')
     if ai_context:
-        # Extract COPY/SKIP from AI response
+        # Extract verdict from AI response
         ai_upper = ai_context.upper()
-        if "COPY" in ai_upper and "SKIP" not in ai_upper:
+        if "LEAN COPY" in ai_upper:
+            ai_verdict = "🟡 LEAN COPY"
+        elif "LEAN SKIP" in ai_upper:
+            ai_verdict = "🟡 LEAN SKIP"
+        elif "COPY" in ai_upper and "SKIP" not in ai_upper:
             ai_verdict = "🟢 COPY"
         elif "SKIP" in ai_upper:
             ai_verdict = "🔴 SKIP"
