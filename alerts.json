@@ -1,51 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0x598a9ac3240900c50043b66c48c26aa8b26a9fbe7e529f0f177fefa60107fd42",
-    "wallet": "0x94f199fb7789f1aef7fff6b758d6b375100f4c7a",
-    "trader": {
-      "rank": 10,
-      "address": "0x94f199fb7789f1aef7fff6b758d6b375100f4c7a",
-      "username": "KeyTransporter",
-      "profit": 5711459.802519929,
-      "volume": 20086062.154324997,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x4133bcbad1d9c41de776646696f41c34d0a65e70",
-      "side": "BUY",
-      "asset": "82800638025904309087579734586058289663668396199701874902606714160037753969982",
-      "conditionId": "0xfb2502ea04ff6b3f5dda76a6777beffe58557b1690dfebed0c3dae96588b62e8",
-      "size": 1822.84,
-      "price": 0.78,
-      "timestamp": 1773518247,
-      "title": "Will West Ham United FC vs. Manchester City FC end in a draw?",
-      "slug": "epl-wes-mac-2026-03-14-draw",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Repetitive-markets/premier+league.jpg",
-      "eventSlug": "epl-wes-mac-2026-03-14",
-      "outcome": "No",
-      "outcomeIndex": 1,
-      "name": "EF203F2IPFC2ICP20W-CP3",
-      "pseudonym": "Bogus-Fix",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x598a9ac3240900c50043b66c48c26aa8b26a9fbe7e529f0f177fefa60107fd42",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Will West Ham United FC vs. Manchester City FC end in a draw?",
-    "market_slug": "epl-wes-mac-2026-03-14",
-    "amount": 1421.8152,
-    "resolution_last_check": "2026-04-13T19:42:04.382666+00:00"
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0xe4018a59b56c89c131c7cd1cd4fb3696894b4e18df0999154a539371c7ffc6aa",
     "wallet": "0x94f199fb7789f1aef7fff6b758d6b375100f4c7a",
     "trader": {
@@ -33019,5 +32974,50 @@
     "market_slug": "cricipl-sun-del-2026-04-21",
     "amount": 8504.449848,
     "ai_context": "\u2705 COPY \u2014 Sunrisers Hyderabad have won three of their last five matches and have a slight edge in head-to-head record against Delhi Capitals.\nIn their recent matches, Sunrisers Hyderabad secured victories against Chennai Super Kings and Rajasthan Royals, while Delhi Capitals have had mixed results. Historically, Sunrisers Hyderabad lead the head-to-head with 13 wins to Delhi Capitals' 12. (ipl."
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x7f3a2e1a7da618427fc6b856312e8cd7e686388e923a005dcec78e0d73b26845",
+    "wallet": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+    "trader": {
+      "rank": 8,
+      "address": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+      "username": "swisstony",
+      "profit": 6150971.772435201,
+      "volume": 677042281.3743856,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xf3b9f432bf4d7599d3fb3dc59845894786aa27d0",
+      "side": "BUY",
+      "asset": "16735391771285941445401615956052324743124272348274952820359859379638645997506",
+      "conditionId": "0xceb6dfaa2cf5abc9d47ebc867b984a7715104944249274e8a483a2e17473e5f5",
+      "size": 3799.969458,
+      "price": 0.7368480270559059,
+      "timestamp": 1776789812,
+      "title": "US x Iran permanent peace deal by April 30, 2026?",
+      "slug": "us-x-iran-permanent-peace-deal-by-april-30-2026",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/us-x-iran-permanent-peace-deal-by-yYlzv70Hi7j9.jpg",
+      "eventSlug": "us-x-iran-permanent-peace-deal-by",
+      "outcome": "No",
+      "outcomeIndex": 1,
+      "name": "DataRules",
+      "pseudonym": "Lovable-Item",
+      "bio": "",
+      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-3219500-27fd6437-0435-4c39-bb09-3bf15787196d.png",
+      "profileImageOptimized": "",
+      "transactionHash": "0x7f3a2e1a7da618427fc6b856312e8cd7e686388e923a005dcec78e0d73b26845",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "US x Iran permanent peace deal by April 30, 2026?",
+    "market_slug": "us-x-iran-permanent-peace-deal-by",
+    "amount": 2799.9999980000002,
+    "ai_context": "\u274c SKIP \u2014 Recent developments indicate that a permanent peace deal between the U.S. and Iran by April 30, 2026, is unlikely.\nAs of April 21, 2026, the ceasefire between the U.S. and Iran is nearing its expiration, with no meeting between the parties having occurred yet. President Trump has claimed that a peace deal would be signed imminently in Islamabad, with Vice President Vance en route, but tensions remain high, and no agreement has been reached."
   }
 ]
