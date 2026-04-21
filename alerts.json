@@ -1,96 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0xe4018a59b56c89c131c7cd1cd4fb3696894b4e18df0999154a539371c7ffc6aa",
-    "wallet": "0x94f199fb7789f1aef7fff6b758d6b375100f4c7a",
-    "trader": {
-      "rank": 10,
-      "address": "0x94f199fb7789f1aef7fff6b758d6b375100f4c7a",
-      "username": "KeyTransporter",
-      "profit": 5711459.802519929,
-      "volume": 20086062.154324997,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x83b985ca1e92d9acdb406d38796a8bf776f1b664",
-      "side": "BUY",
-      "asset": "114507466536734360808195115190160357255467689128176113085692265197019898971527",
-      "conditionId": "0x29283b56d3eec6d1d89fff51793d9d2e01579d2379b1d3e9ebda175d3561e809",
-      "size": 1177.676766,
-      "price": 0.989999999711296,
-      "timestamp": 1773518247,
-      "title": "Will Phil Murphy win the 2028 Democratic presidential nomination?",
-      "slug": "will-phil-murphy-win-the-2028-democratic-presidential-nomination-611",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-phil-murphy-win-the-2028-democratic-presidential-nomination-611-TSpDwU2ocX34.png",
-      "eventSlug": "democratic-presidential-nominee-2028",
-      "outcome": "No",
-      "outcomeIndex": 1,
-      "name": "dub46",
-      "pseudonym": "Failing-Chalk",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0xe4018a59b56c89c131c7cd1cd4fb3696894b4e18df0999154a539371c7ffc6aa",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Will Phil Murphy win the 2028 Democratic presidential nomination?",
-    "market_slug": "democratic-presidential-nominee-2028",
-    "amount": 1165.899998,
-    "resolution_last_check": "2026-04-13T19:42:05.116825+00:00"
-  },
-  {
-    "type": "TOP_TRADER",
-    "trade_hash": "0x62778ec3455f1df81a3917b92952878938b76777db8ea72da5001e0d82b33ad3",
-    "wallet": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
-    "trader": {
-      "rank": 19,
-      "address": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
-      "username": "GamblingIsAllYouNeed",
-      "profit": 4292586.197710635,
-      "volume": 259930551.75703698,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x204f72f35326db932158cba6adff0b9a1da95e14",
-      "side": "BUY",
-      "asset": "62233081945229542959312590495352867487240970876170774788121008465910294870644",
-      "conditionId": "0x27af71087e96b58cddb51303a40caed06e2dfd366dff3733ac8cb7a350e5fc89",
-      "size": 3462,
-      "price": 0.24,
-      "timestamp": 1773518547,
-      "title": "Will Real Madrid CF win on 2026-03-14?",
-      "slug": "lal-rea-elc-2026-03-14-rea",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/league-lal.png",
-      "eventSlug": "lal-rea-elc-2026-03-14",
-      "outcome": "No",
-      "outcomeIndex": 1,
-      "name": "swisstony",
-      "pseudonym": "Frail-Possible",
-      "bio": "loincloth chic",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x62778ec3455f1df81a3917b92952878938b76777db8ea72da5001e0d82b33ad3",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Will Real Madrid CF win on 2026-03-14?",
-    "market_slug": "lal-rea-elc-2026-03-14",
-    "amount": 830.88,
-    "resolution_last_check": "2026-04-13T19:42:05.825581+00:00"
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0x4b0fa9c52e838870d404b61ed4bc0d263061a4ec045ee0cf8fbed72b99cb18aa",
     "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
     "trader": {
@@ -33019,5 +32929,95 @@
     "market_slug": "us-x-iran-permanent-peace-deal-by",
     "amount": 2799.9999980000002,
     "ai_context": "\u274c SKIP \u2014 Recent developments indicate that a permanent peace deal between the U.S. and Iran by April 30, 2026, is unlikely.\nAs of April 21, 2026, the ceasefire between the U.S. and Iran is nearing its expiration, with no meeting between the parties having occurred yet. President Trump has claimed that a peace deal would be signed imminently in Islamabad, with Vice President Vance en route, but tensions remain high, and no agreement has been reached."
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x1ed8efcb99d91bd44946d11af0f7c83f284e7768d0111bb8de2f26ecc6991317",
+    "wallet": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+    "trader": {
+      "rank": 8,
+      "address": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+      "username": "swisstony",
+      "profit": 6153517.213109369,
+      "volume": 677123204.3766011,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x8bc2f8994458800d9c4dbd1d4507b32e4f7a4c80",
+      "side": "SELL",
+      "asset": "17113131665310798308927761594870676097353344152530813961903530338543535226902",
+      "conditionId": "0x0b0d79642357dff9e6bad23ab32e24b412b6aab2ae367c3b0d581f4f9d088ced",
+      "size": 2471.2,
+      "price": 0.47,
+      "timestamp": 1776793412,
+      "title": "Madrid Open, Qualification: Anastasia Potapova vs Sinja Kraus",
+      "slug": "wta-potapov-kraus-2026-04-21",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/wta-logo-41f331bdf1.png",
+      "eventSlug": "wta-potapov-kraus-2026-04-21",
+      "outcome": "Sinja Kraus",
+      "outcomeIndex": 1,
+      "name": "0x8Bc2f8994458800d9C4DBD1d4507b32e4F7a4C80-1758128210877",
+      "pseudonym": "Sour-Basket",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x1ed8efcb99d91bd44946d11af0f7c83f284e7768d0111bb8de2f26ecc6991317",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Madrid Open, Qualification: Anastasia Potapova vs Sinja Kraus",
+    "market_slug": "wta-potapov-kraus-2026-04-21",
+    "amount": 1161.464,
+    "ai_context": "\u274c SKIP \u2014 Sinja Kraus has a lower career-high ranking and fewer titles compared to Anastasia Potapova.\nAnastasia Potapova has a career-high singles ranking of No. 21 and has won three WTA Tour singles titles. (en.wikipedia.org) Sinja Kraus's highest singles ranking is No. 99, and she has won one WTA 125 singles title and 13 ITF singles titles. (en.wikipedia.org) Given these disparities, the facts do not support the bet on Sinja Kraus."
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x75834aef4bb72339544ff78f5e32423d13d88821ab545ca94480c90b8579a914",
+    "wallet": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+    "trader": {
+      "rank": 8,
+      "address": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+      "username": "swisstony",
+      "profit": 6153517.213109369,
+      "volume": 677123204.3766011,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x820a0e91fdf03907ff7d05d0145f9d326f16ca12",
+      "side": "BUY",
+      "asset": "56033932936536509778970470569202312611917586169061546647708101057312068327080",
+      "conditionId": "0x645fc0720f6bcb74688891e054ee5664637b6ddac8fd39ea0533fdbd5e09a365",
+      "size": 9915.91,
+      "price": 0.49,
+      "timestamp": 1776793412,
+      "title": "Madrid Open: Raphael Collignon vs Matteo Berrettini",
+      "slug": "atp-collign-berrett-2026-04-22",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/atp-tour-b4390c4fb8.jpg",
+      "eventSlug": "atp-collign-berrett-2026-04-22",
+      "outcome": "Matteo Berrettini",
+      "outcomeIndex": 1,
+      "name": "MrClaude11",
+      "pseudonym": "Zesty-Doubter",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x75834aef4bb72339544ff78f5e32423d13d88821ab545ca94480c90b8579a914",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Madrid Open: Raphael Collignon vs Matteo Berrettini",
+    "market_slug": "atp-collign-berrett-2026-04-22",
+    "amount": 4858.7959,
+    "ai_context": "\u2705 COPY \u2014 Berrettini's recent form and head-to-head record support this bet.\nMatteo Berrettini has won his last 11 singles matches, including a 6-3, 6-4 victory over Raphael Collignon in the 2025 Davis Cup. (en.wikipedia.org) He also reached the round of 16 in Monte Carlo recently. (thestatszone.com) While Berrettini has faced injury challenges, his current form and past performance against Collignon suggest a strong chance of winning."
   }
 ]
