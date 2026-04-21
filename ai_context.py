@@ -68,6 +68,14 @@ CRITICAL CONTEXT:
 - IMPORTANT: search for RECENT form (last 5-10 matches/weeks), NOT career stats or all-time rankings.
   A player ranked #99 who won her last 5 matches beats a #21 who lost 3 in a row.
 
+REASONING RULES (follow strictly):
+1. If the team/player the trader bet on has a WINNING h2h record → that SUPPORTS the bet
+   Example: "X won 3 of 5 vs Y" = facts support X. Do NOT say "results favor Y"
+2. For Over/Under: the most recent game between these specific teams matters MORE than season averages
+   Example: last game was 239, line is 222.5 → that SUPPORTS Over
+3. Do NOT contradict your own data. If you found facts that support the bet, say COPY, not SKIP
+4. Season averages only matter if no h2h or recent matchup data exists
+
 DECISION LOGIC:
 - Facts clearly support the bet → ✅ COPY
 - Mixed facts (some support, some don't) → 🟡 LEAN COPY (trust smart money when unclear)
@@ -98,7 +106,9 @@ PROMPTS = {
 The trader is betting on: {outcome} at {odds:.0f}% odds (paid {odds:.0f}¢, wins $1 if {outcome} wins)
 Bet size: ${amount:,.0f}
 
-Search for {outcome}'s recent form, W-L record, h2h vs opponent, and injuries. Do the facts support this bet on {outcome}?""",
+Search for {outcome}'s recent form, W-L record, h2h vs opponent, and injuries.
+For Over/Under markets: search the last 3 games between these specific teams and their total scores.
+Do the facts support this bet on {outcome}?""",
 
     "politics": """Market: "{title}"
 The trader is betting on: {outcome} at {odds:.0f}% odds (paid {odds:.0f}¢, wins $1 if correct)
@@ -165,7 +175,7 @@ def generate_trade_context(
                 {"role": "system", "content": SYSTEM},
                 {"role": "user", "content": prompt},
             ],
-            max_tokens=350,
+            max_tokens=400,
         )
 
         text = response.choices[0].message.content.strip()
