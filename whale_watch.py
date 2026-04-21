@@ -18,7 +18,7 @@ import trade_economics
 
 
 # Thresholds
-MIN_FLOW_TOTAL = 50000       # $50K+ total directional flow
+MIN_FLOW_TOTAL = 20000       # $20K+ total directional flow (was $50K — only caught 1 market)
 MIN_IMBALANCE = 0.65         # 65%+ of volume on one side
 MIN_UNIQUE_WALLETS = 2       # At least 2 wallets (not just one whale)
 MAX_ODDS_THRESHOLD = 0.93    # Skip near-certain markets
@@ -194,12 +194,12 @@ def analyze_whale_flows(trades: List[Dict], markets: List[Dict]) -> List[Dict]:
         if yes_price and (yes_price > MAX_ODDS_THRESHOLD or yes_price < (1 - MAX_ODDS_THRESHOLD)):
             continue
         
-        # Strength score
+        # Strength score (scaled for $20K+ threshold)
         strength = 0
-        strength += min(40, int(dominant_volume / 5000))  # Up to 40 for volume
+        strength += min(40, int(dominant_volume / 2000))  # Up to 40 for volume ($80K+)
         strength += min(20, len(dominant_wallets) * 5)     # Up to 20 for wallet diversity
         strength += int(dominant_pct * 30)                  # Up to 30 for imbalance
-        if flow["max_single_trade"] > 10000:
+        if flow["max_single_trade"] > 5000:
             strength += 10                                  # Bonus for big single trade
         strength = min(100, strength)
         
