@@ -1,319 +1,5 @@
 [
   {
-    "market": "Spread: Thunder (-9.5)",
-    "market_slug": "nba-min-okc-2026-03-15-spread-home-9pt5",
-    "event_slug": "nba-min-okc-2026-03-15-spread-home-9pt5",
-    "wallet": "0x67d550fb3d9facb1d6b317512715b236d597566e",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($1,382)",
-        "Low activity (1 txns)"
-      ],
-      "amount": 1382.24,
-      "odds": 0.53,
-      "raw_price": 0.53,
-      "outcome": "Timberwolves",
-      "potential_pnl": 1225.76,
-      "pnl_multiplier": 0.8867924528301886,
-      "wallet_age_days": 0,
-      "total_activities": 1
-    },
-    "timestamp": "2026-03-15T11:53:52.170498",
-    "trade_hash": "0x54dc1cff7d9c40a376e1a14193c9426db59a276c8b0a5e4aa495f37fb6493c90",
-    "trade_timestamp": 1773575535,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Timberwolves",
-      "side": "BUY",
-      "price": 0.53,
-      "effective_price": 0.53,
-      "size": 2608.0,
-      "amount": 1382.24,
-      "potential_pnl": 1225.76,
-      "pnl_multiplier": 0.8867924528301886,
-      "is_no": false,
-      "slug": "nba-min-okc-2026-03-15-spread-home-9pt5",
-      "eventSlug": "nba-min-okc-2026-03-15"
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+28.4%)"
-      ],
-      "category": "other",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.246,
-      "market_price": 0.53,
-      "edge": 0.28400000000000003,
-      "edge_percent": 28.400000000000002,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Thunder's offensive performance",
-          "Opponent's defensive weaknesses",
-          "Injury status of key players"
-        ],
-        "weakest_link": "Injury status of key players"
-      },
-      "category": "sports",
-      "narrative_drivers": [
-        "Recent performance trends of the Thunder",
-        "Public sentiment and betting patterns"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "INSIDER_ONLY",
-      "signal_emoji": "\ud83d\udc41\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider activity detected, no clear mispricing",
-      "action_suggestion": "Monitor: insider signal only, no statistical edge",
-      "insider_score": 70,
-      "insider_position": "TIMBERWOLVES",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.28400000000000003,
-      "edge_percent": 28.400000000000002
-    },
-    "financial_analyst": {
-      "signal_quality": 51.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 28.4,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "resolution": {
-      "outcome": "Thunder",
-      "checked_at": "2026-04-13T20:09:29.373695+00:00",
-      "insider_win": false,
-      "model_correct": null,
-      "pnl": -1382.24
-    }
-  },
-  {
-    "market": "Timberwolves vs. Thunder: O/U 225.5",
-    "market_slug": "nba-min-okc-2026-03-15-total-225pt5",
-    "event_slug": "nba-min-okc-2026-03-15-total-225pt5",
-    "wallet": "0x278a3752453dfed76a4ad463dc4275730cac2245",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($2,185)",
-        "Low activity (2 txns)"
-      ],
-      "amount": 2184.52,
-      "odds": 0.52,
-      "raw_price": 0.52,
-      "outcome": "Over",
-      "potential_pnl": 2016.4799999999998,
-      "pnl_multiplier": 0.923076923076923,
-      "wallet_age_days": 0,
-      "total_activities": 2
-    },
-    "timestamp": "2026-03-15T13:03:58.834379",
-    "trade_hash": "0xb1110eee2ce0b9d593cb82e3e92c95e2d1dd585a43e042f83933623c67a5225a",
-    "trade_timestamp": 1773579511,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Over",
-      "side": "BUY",
-      "price": 0.52,
-      "effective_price": 0.52,
-      "size": 4201.0,
-      "amount": 2184.52,
-      "potential_pnl": 2016.4799999999998,
-      "pnl_multiplier": 0.923076923076923,
-      "is_no": false,
-      "slug": "nba-min-okc-2026-03-15-total-225pt5",
-      "eventSlug": "nba-min-okc-2026-03-15"
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+27.6%)"
-      ],
-      "category": "sports",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.244,
-      "market_price": 0.52,
-      "edge": 0.276,
-      "edge_percent": 27.6,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "both teams score efficiently",
-          "defensive lapses by both teams",
-          "overtime or high-scoring quarters"
-        ],
-        "weakest_link": "defensive lapses by both teams"
-      },
-      "category": "sports",
-      "narrative_drivers": [
-        "recent offensive performances",
-        "injuries affecting team defenses"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "INSIDER_ONLY",
-      "signal_emoji": "\ud83d\udc41\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider activity detected, no clear mispricing",
-      "action_suggestion": "Monitor: insider signal only, no statistical edge",
-      "insider_score": 70,
-      "insider_position": "OVER",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.276,
-      "edge_percent": 27.6
-    },
-    "financial_analyst": {
-      "signal_quality": 51.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 27.6,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "resolution": {
-      "outcome": "Thunder",
-      "checked_at": "2026-04-13T20:09:31.749157+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null
-    }
-  },
-  {
-    "type": "TOP_TRADER",
-    "trade_hash": "0xbf78ac8c2c0a512cfbf40fa0a33f648f0177252df95a7d562341dd4a99150b00",
-    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-    "trader": {
-      "rank": 1,
-      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-      "username": "Theo4",
-      "profit": 22053933.752321757,
-      "volume": 43013258.515682004,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x19e27eeb3641ae664e77dbb80c86021f048ece3c",
-      "side": "BUY",
-      "asset": "52329571098135195493236924978587281942850163317674259330191354073396046690110",
-      "conditionId": "0x87505068f788d6fe956b3d182d2cc6537f1e65ad8d64529f37bb3f300b780ff9",
-      "size": 12163.16,
-      "price": 0.35917474570752994,
-      "timestamp": 1773579769,
-      "title": "Will RCD Mallorca win on 2026-03-15?",
-      "slug": "lal-mal-esp-2026-03-15-mal",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/league-lal.png",
-      "eventSlug": "lal-mal-esp-2026-03-15",
-      "outcome": "Yes",
-      "outcomeIndex": 0,
-      "name": "loserforever10",
-      "pseudonym": "Shrill-Picturesque",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0xbf78ac8c2c0a512cfbf40fa0a33f648f0177252df95a7d562341dd4a99150b00",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Will RCD Mallorca win on 2026-03-15?",
-    "market_slug": "lal-mal-esp-2026-03-15",
-    "amount": 4368.6999,
-    "resolution_last_check": "2026-04-13T19:42:13.004453+00:00"
-  },
-  {
-    "type": "TOP_TRADER",
-    "trade_hash": "0x0385d21588903134b898daba933450eece094b7487891903886a786ffcc8f9b6",
-    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-    "trader": {
-      "rank": 1,
-      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-      "username": "Theo4",
-      "profit": 22053933.752321757,
-      "volume": 43013258.51568201,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x0b79ec091819b05dc86ff14a9b074e181654b400",
-      "side": "BUY",
-      "asset": "58229761249940950038002935478358286851735279378786458024611929797195551773462",
-      "conditionId": "0xea9cae2d80f3adc75f627599c96f9d25b39105c15343763ed545807b9de837f5",
-      "size": 2061.855666,
-      "price": 0.9699999999903,
-      "timestamp": 1773584273,
-      "title": "Bitcoin Up or Down - March 15, 10:15AM-10:20AM ET",
-      "slug": "btc-updown-5m-1773584100",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/BTC+fullsize.png",
-      "eventSlug": "btc-updown-5m-1773584100",
-      "outcome": "Down",
-      "outcomeIndex": 1,
-      "name": "ultraxion",
-      "pseudonym": "Lively-Pathology",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x0385d21588903134b898daba933450eece094b7487891903886a786ffcc8f9b6",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Bitcoin Up or Down - March 15, 10:15AM-10:20AM ET",
-    "market_slug": "btc-updown-5m-1773584100",
-    "amount": 1999.9999959999998,
-    "resolution_last_check": "2026-04-13T19:42:13.703550+00:00"
-  },
-  {
     "market": "Mavericks vs. Cavaliers: O/U 235.5",
     "market_slug": "nba-dal-cle-2026-03-15-total-235pt5",
     "event_slug": "nba-dal-cle-2026-03-15-total-235pt5",
@@ -32898,5 +32584,350 @@
     "market_slug": "us-x-iran-ceasefire-extended-by",
     "amount": 3417.4986,
     "ai_context": "\u274c SKIP \u2014 Recent developments indicate a ceasefire extension is unlikely, but the trader may have access to information not yet public. On April 21, 2026, President Trump announced the extension of the ceasefire with Iran without setting a new deadline, aiming to give diplomacy more time to succeed. (axios."
+  },
+  {
+    "market": "Will England win the 2026 FIFA World Cup?",
+    "market_slug": "will-england-win-the-2026-fifa-world-cup-937",
+    "event_slug": "will-england-win-the-2026-fifa-world-cup-937",
+    "wallet": "0x6550e0ab4b57fe8840a71087262bcac102f0e2ea",
+    "analysis": {
+      "score": 70,
+      "flags": [
+        "New wallet (0d old)",
+        "Large bet ($1,822)",
+        "Low activity (10 txns)"
+      ],
+      "amount": 1822.4999990000001,
+      "odds": 0.1109999999520675,
+      "raw_price": 0.1109999999520675,
+      "outcome": "Yes",
+      "potential_pnl": 14596.418918,
+      "pnl_multiplier": 8.009009012899318,
+      "wallet_age_days": 0,
+      "total_activities": 10
+    },
+    "timestamp": "2026-04-21T22:03:43.513032",
+    "trade_hash": "0xb25f099de5c4a3c679765a4787e28fba324cb321917df05089012b973cc0ad44",
+    "trade_timestamp": 1776808638,
+    "latency": null,
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "Yes",
+      "outcomeIndex": 0,
+      "normalized_position": "YES",
+      "side": "BUY",
+      "price": 0.1109999999520675,
+      "effective_price": 0.1109999999520675,
+      "size": 16418.918917,
+      "amount": 1822.4999990000001,
+      "potential_pnl": 14596.418918,
+      "pnl_multiplier": 8.009009012899318,
+      "is_no": false,
+      "conditionId": "0x375409bc5eeeff961e82b479caeccc20f33d15738e5bce1186d628aa3d9dfb1f",
+      "slug": "will-england-win-the-2026-fifa-world-cup-937",
+      "eventSlug": "2026-fifa-world-cup-winner-595"
+    },
+    "irrationality": {
+      "irrationality_score": 25,
+      "flags": [
+        "Longshot (11%) in medium bias category (sports)"
+      ],
+      "category": "sports",
+      "category_info": {
+        "strength": "medium",
+        "typical_overpricing": 0.03,
+        "min_edge": 0.05
+      },
+      "is_irrational": false
+    },
+    "mispricing": {
+      "rational_estimate": 0.0821999999904135,
+      "market_price": 0.1109999999520675,
+      "edge": 0.028799999961654,
+      "edge_percent": 2.8799999961653997,
+      "min_edge_required": 0.05,
+      "is_mispriced": false,
+      "edge_quality": "WEAK",
+      "base_rate_class": "occasional",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "occasional",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "Strong performance in qualifying matches",
+          "Key players remaining healthy and in form",
+          "Effective management and strategy during the tournament"
+        ],
+        "weakest_link": "Strong performance in qualifying matches"
+      },
+      "category": "sports",
+      "narrative_drivers": [
+        "Historical performance in international tournaments",
+        "Emergence of young talent in the national team"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "INSIDER_ONLY",
+      "signal_emoji": "\ud83d\udc41\ufe0f",
+      "signal_strength": 70,
+      "interpretation": "Insider activity detected, no clear mispricing",
+      "action_suggestion": "Monitor: insider signal only, no statistical edge",
+      "insider_score": 70,
+      "insider_position": "YES",
+      "irrationality_score": 25,
+      "is_irrational": false,
+      "is_mispriced": false,
+      "edge": 0.028799999961654,
+      "edge_percent": 2.8799999961653997
+    },
+    "financial_analyst": {
+      "signal_quality": 28.3,
+      "stance": "WATCH_ONLY",
+      "edge_percent": 2.88,
+      "signal_strength": 70.0,
+      "insider_score": 70.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "ai_context": "\u2705 COPY \u2014 England's recent form and qualification performance support the bet on them winning the 2026 FIFA World Cup.\nUnder manager Thomas Tuchel, England secured their place in the tournament with a dominant qualifying run, winning all eight matches and conceding no goals. Their 5-0 victory over Latvia in October 2025 confirmed their qualification. (fifa."
+  },
+  {
+    "market": "Will France win the 2026 FIFA World Cup?",
+    "market_slug": "will-france-win-the-2026-fifa-world-cup-924",
+    "event_slug": "will-france-win-the-2026-fifa-world-cup-924",
+    "wallet": "0x6550e0ab4b57fe8840a71087262bcac102f0e2ea",
+    "analysis": {
+      "score": 70,
+      "flags": [
+        "New wallet (0d old)",
+        "Large bet ($2,643)",
+        "Low activity (10 txns)"
+      ],
+      "amount": 2643.499999,
+      "odds": 0.1616777679406966,
+      "raw_price": 0.1616777679406966,
+      "outcome": "Yes",
+      "potential_pnl": 13706.923641000001,
+      "pnl_multiplier": 5.18514229097225,
+      "wallet_age_days": 0,
+      "total_activities": 10
+    },
+    "timestamp": "2026-04-21T22:03:47.058429",
+    "trade_hash": "0xcda9643956e0c04bf145d521dd6a9a02326d073d6c9e18b49e7df54e29d53ece",
+    "trade_timestamp": 1776808626,
+    "latency": null,
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "Yes",
+      "outcomeIndex": 0,
+      "normalized_position": "YES",
+      "side": "BUY",
+      "price": 0.1616777679406966,
+      "effective_price": 0.1616777679406966,
+      "size": 16350.42364,
+      "amount": 2643.499999,
+      "potential_pnl": 13706.923641000001,
+      "pnl_multiplier": 5.18514229097225,
+      "is_no": false,
+      "conditionId": "0x9b6fef249040fd17e9c107955b37ac2c3e923509b6b0ff01cc463a331ddeb894",
+      "slug": "will-france-win-the-2026-fifa-world-cup-924",
+      "eventSlug": "2026-fifa-world-cup-winner-595"
+    },
+    "irrationality": {
+      "irrationality_score": 18,
+      "flags": [
+        "Moderate mispricing edge (+6.9%)"
+      ],
+      "category": "sports",
+      "category_info": {
+        "strength": "medium",
+        "typical_overpricing": 0.03,
+        "min_edge": 0.05
+      },
+      "is_irrational": false
+    },
+    "mispricing": {
+      "rational_estimate": 0.09233555358813933,
+      "market_price": 0.1616777679406966,
+      "edge": 0.06934221435255727,
+      "edge_percent": 6.934221435255727,
+      "min_edge_required": 0.05,
+      "is_mispriced": true,
+      "edge_quality": "MODERATE",
+      "base_rate_class": "occasional",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "occasional",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "Strong performance in qualifying matches",
+          "Key players remain healthy and in form",
+          "Effective coaching and strategy during the tournament"
+        ],
+        "weakest_link": "Strong performance in qualifying matches"
+      },
+      "category": "sports",
+      "narrative_drivers": [
+        "Historical performance in World Cups",
+        "Emerging young talent in the French squad"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "CONFLICT",
+      "signal_emoji": "\u26a0\ufe0f",
+      "signal_strength": 70,
+      "interpretation": "Insider buying YES despite statistical overpricing",
+      "action_suggestion": "Requires manual analysis: insider may have real info OR is part of irrational crowd",
+      "insider_score": 70,
+      "insider_position": "YES",
+      "irrationality_score": 18,
+      "is_irrational": false,
+      "is_mispriced": true,
+      "edge": 0.06934221435255727,
+      "edge_percent": 6.934221435255727
+    },
+    "financial_analyst": {
+      "signal_quality": 28.0,
+      "stance": "WATCH_ONLY",
+      "edge_percent": 6.93,
+      "signal_strength": 70.0,
+      "insider_score": 70.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "ai_context": "\u2705 COPY \u2014 France's recent form and strong squad support their World Cup prospects.\nFrance secured their World Cup spot with an undefeated qualifying campaign, including a decisive 4-0 victory over Ukraine on November 14, 2025. (fifa.com) They lead the FIFA rankings as of April 2026, surpassing Spain and Argentina. (inside.fifa.com) However, forward Hugo Ekitike will miss the World Cup due to a serious injury sustained in April 2026. (vanguardngr."
+  },
+  {
+    "market": "Will Spain win the 2026 FIFA World Cup?",
+    "market_slug": "will-spain-win-the-2026-fifa-world-cup-963",
+    "event_slug": "will-spain-win-the-2026-fifa-world-cup-963",
+    "wallet": "0x6550e0ab4b57fe8840a71087262bcac102f0e2ea",
+    "analysis": {
+      "score": 70,
+      "flags": [
+        "New wallet (0d old)",
+        "Large bet ($2,660)",
+        "Low activity (10 txns)"
+      ],
+      "amount": 2659.929999,
+      "odds": 0.16232343516295186,
+      "raw_price": 0.16232343516295186,
+      "outcome": "Yes",
+      "potential_pnl": 13726.674907,
+      "pnl_multiplier": 5.160539905997729,
+      "wallet_age_days": 0,
+      "total_activities": 10
+    },
+    "timestamp": "2026-04-21T22:03:50.805835",
+    "trade_hash": "0xfe1ff8868295311f5b3b1400907a175efb71a9e3297a5f7e4730e29f5546a492",
+    "trade_timestamp": 1776808608,
+    "latency": null,
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "Yes",
+      "outcomeIndex": 0,
+      "normalized_position": "YES",
+      "side": "BUY",
+      "price": 0.16232343516295186,
+      "effective_price": 0.16232343516295186,
+      "size": 16386.604906,
+      "amount": 2659.929999,
+      "potential_pnl": 13726.674907,
+      "pnl_multiplier": 5.160539905997729,
+      "is_no": false,
+      "conditionId": "0x7976b8dbacf9077eb1453a62bcefd6ab2df199acd28aad276ff0d920d6992892",
+      "slug": "will-spain-win-the-2026-fifa-world-cup-963",
+      "eventSlug": "2026-fifa-world-cup-winner-595"
+    },
+    "irrationality": {
+      "irrationality_score": 18,
+      "flags": [
+        "Moderate mispricing edge (+7.0%)"
+      ],
+      "category": "sports",
+      "category_info": {
+        "strength": "medium",
+        "typical_overpricing": 0.03,
+        "min_edge": 0.05
+      },
+      "is_irrational": false
+    },
+    "mispricing": {
+      "rational_estimate": 0.09246468703259036,
+      "market_price": 0.16232343516295186,
+      "edge": 0.0698587481303615,
+      "edge_percent": 6.985874813036149,
+      "min_edge_required": 0.05,
+      "is_mispriced": true,
+      "edge_quality": "MODERATE",
+      "base_rate_class": "occasional",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "occasional",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "Strong performance in qualifying matches",
+          "Key players remain healthy and in form",
+          "Effective coaching and strategy during the tournament"
+        ],
+        "weakest_link": "Strong performance in qualifying matches"
+      },
+      "category": "sports",
+      "narrative_drivers": [
+        "Recent improvements in team performance",
+        "Historical success in international tournaments"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "CONFLICT",
+      "signal_emoji": "\u26a0\ufe0f",
+      "signal_strength": 70,
+      "interpretation": "Insider buying YES despite statistical overpricing",
+      "action_suggestion": "Requires manual analysis: insider may have real info OR is part of irrational crowd",
+      "insider_score": 70,
+      "insider_position": "YES",
+      "irrationality_score": 18,
+      "is_irrational": false,
+      "is_mispriced": true,
+      "edge": 0.0698587481303615,
+      "edge_percent": 6.985874813036149
+    },
+    "financial_analyst": {
+      "signal_quality": 28.1,
+      "stance": "WATCH_ONLY",
+      "edge_percent": 6.99,
+      "signal_strength": 70.0,
+      "insider_score": 70.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "ai_context": "\u2705 COPY \u2014 Spain's recent form and squad strength support their World Cup prospects.\nSpain is ranked No. 1 in the FIFA/Coca-Cola Men's World Ranking and is among the World Cup favorites. (fifa.com) They are unbeaten in 31 competitive matches, matching Italy's all-time record. (fifa.com) The squad includes rising stars like Lamine Yamal, who was instrumental in their Euro 2024 victory. (fourfourtwo."
+  },
+  {
+    "type": "WHALE_FLOW",
+    "condition_id": "0x8fd7aeb52bfb7e36c8e1b74cc5ae345650d9bd49a61775620829c14bc04b2135",
+    "market": "Russia-Ukraine Ceasefire before GTA VI?",
+    "market_slug": "russia-ukraine-ceasefire-before-gta-vi-554",
+    "event_slug": "",
+    "dominant_side": "YES",
+    "dominant_volume": 52029.0,
+    "total_volume": 52029.0,
+    "imbalance_pct": 100.0,
+    "unique_wallets": 33,
+    "trade_count": 50,
+    "max_single_trade": 48900.0,
+    "yes_price": 0.535,
+    "strength": 86,
+    "timestamp": "2026-04-21T22:16:31.624926",
+    "ai_context": "\u274c SKIP \u2014 Recent developments indicate a lack of progress toward a lasting Russia-Ukraine ceasefire before the release of GTA VI.\nThe 32-hour Orthodox Easter ceasefire, which began on April 11, 2026, collapsed rapidly, with both sides accusing each other of numerous violations, including drone strikes and assaults. This underscores the persistent mutual distrust and ongoing hostilities between Russia and Ukraine. (polymarket.com)\nAdditionally, prediction markets assign a mere 1."
   }
 ]
