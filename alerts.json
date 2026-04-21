@@ -1,51 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0x9226f3ab4555bf0c174af3f430d719745f1277e8e07eeacfa1b19a6bd3c557d6",
-    "wallet": "0x16f91db2592924cfed6e03b7e5cb5bb1e32299e3",
-    "trader": {
-      "rank": 20,
-      "address": "0x16f91db2592924cfed6e03b7e5cb5bb1e32299e3",
-      "username": "Jenzigo",
-      "profit": 4049827.0941029997,
-      "volume": 9457725.03433801,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x92cf7a97f6b7183d705d8884313e9de3488ade6b",
-      "side": "SELL",
-      "asset": "33955781353214392337231265891840750509546891570180968521335335401684072357362",
-      "conditionId": "0x298157e618b5729dafd742eec9b21e040a13da0bb09ff1fa4492360c347e3824",
-      "size": 2763.81,
-      "price": 0.998,
-      "timestamp": 1773517647,
-      "title": "Will the Utah Jazz win the 2026 NBA Finals?",
-      "slug": "will-the-utah-jazz-win-the-2026-nba-finals",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nba-finals-points-leader-7g2ZEZvMXxLb.jpg",
-      "eventSlug": "2026-nba-champion",
-      "outcome": "No",
-      "outcomeIndex": 1,
-      "name": "circuitChoctaw",
-      "pseudonym": "French-Making",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x9226f3ab4555bf0c174af3f430d719745f1277e8e07eeacfa1b19a6bd3c557d6",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Will the Utah Jazz win the 2026 NBA Finals?",
-    "market_slug": "2026-nba-champion",
-    "amount": 2758.28238,
-    "resolution_last_check": "2026-04-13T19:42:03.731339+00:00"
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0x598a9ac3240900c50043b66c48c26aa8b26a9fbe7e529f0f177fefa60107fd42",
     "wallet": "0x94f199fb7789f1aef7fff6b758d6b375100f4c7a",
     "trader": {
@@ -33019,5 +32974,50 @@
     "market_slug": "dota2-xtreme-vg-2026-04-21",
     "amount": 39210.1772353,
     "ai_context": "\u274c SKIP \u2014 Recent head-to-head results favor Vici Gaming, indicating a potential upset.\nIn their last five encounters, Xtreme Gaming has won three times, while Vici Gaming has secured two victories. Notably, Vici Gaming won the most recent match on March 11, 2026, with a 2-1 scoreline. (cyberscore.live) Additionally, Vici Gaming has demonstrated a 63% win rate over the past month, suggesting improved form. (bo3."
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x4e7ce0d2e876846783c8e270174a6b18997c7bf1955881ab0c48e41c1e8ff358",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.515682004,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x7d92fd69504bfd391162e1442cb784c0af408676",
+      "side": "BUY",
+      "asset": "97993387429885580606362120312086527159525797874512102308707305257405959881007",
+      "conditionId": "0xd41eb0fded36a8cba2aabe8479640a31237fa34d1cbec37b055f71603454ea2c",
+      "size": 10499.3208,
+      "price": 0.81,
+      "timestamp": 1776786204,
+      "title": "Indian Premier League: Sunrisers Hyderabad vs Delhi Capitals",
+      "slug": "cricipl-sun-del-2026-04-21",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/cricket-ball-a0b0bf2dc9.png",
+      "eventSlug": "cricipl-sun-del-2026-04-21",
+      "outcome": "Sunrisers Hyderabad",
+      "outcomeIndex": 0,
+      "name": "mikesports",
+      "pseudonym": "Aromatic-Standard",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x4e7ce0d2e876846783c8e270174a6b18997c7bf1955881ab0c48e41c1e8ff358",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Indian Premier League: Sunrisers Hyderabad vs Delhi Capitals",
+    "market_slug": "cricipl-sun-del-2026-04-21",
+    "amount": 8504.449848,
+    "ai_context": "\u2705 COPY \u2014 Sunrisers Hyderabad have won three of their last five matches and have a slight edge in head-to-head record against Delhi Capitals.\nIn their recent matches, Sunrisers Hyderabad secured victories against Chennai Super Kings and Rajasthan Royals, while Delhi Capitals have had mixed results. Historically, Sunrisers Hyderabad lead the head-to-head with 13 wins to Delhi Capitals' 12. (ipl."
   }
 ]
