@@ -2,7 +2,7 @@ import json
 import os
 import requests
 from pathlib import Path
-from datetime import datetime
+from datetime import datetime, timedelta
 from typing import Dict, List, Tuple
 
 from detector import detect_insider_trades
@@ -449,18 +449,40 @@ def main():
 
     # === GOAL 4: Whale Watch ===
     whale_sent = 0
+    whale_cooldown = {}
+    whale_cooldown_path = Path("whale_cooldown.json")
     try:
         from whale_watch import analyze_whale_flows, format_whale_alert
         
         if raw_trades and markets:
             whale_signals = analyze_whale_flows(raw_trades, markets)
             
+            # Load whale cooldown (prevent same market alerting more than once per 24h)
+            try:
+                if whale_cooldown_path.exists():
+                    with open(whale_cooldown_path) as f:
+                        whale_cooldown = json.load(f)
+                else:
+                    whale_cooldown = {}
+            except:
+                whale_cooldown = {}
+            
             for signal in whale_signals[:3]:  # Max 3 whale alerts per run
-                # Dedup by market
+                # Dedup by market — 24h cooldown
                 whale_key = f"whale_{signal['condition_id']}_{signal['dominant_side']}"
+                
+                # Check tracked_hashes (within-run dedup)
                 if whale_key in tracked_hashes:
-                    print(f"[{datetime.now()}] 🐋 Whale dedup: {signal['market'][:40]} already alerted")
+                    print(f"[{datetime.now()}] 🐋 Whale dedup (hash): {signal['market'][:40]}")
                     continue
+                
+                # Check 24h cooldown
+                last_sent = whale_cooldown.get(whale_key)
+                if last_sent:
+                    hours_ago = (datetime.utcnow() - datetime.fromisoformat(last_sent)).total_seconds() / 3600
+                    if hours_ago < 24:
+                        print(f"[{datetime.now()}] 🐋 Whale cooldown ({hours_ago:.0f}h ago): {signal['market'][:40]}")
+                        continue
                 
                 # Generate AI context
                 try:
@@ -497,6 +519,7 @@ def main():
                         }, timeout=10)
                         if resp.status_code == 200:
                             tracked_hashes.add(whale_key)
+                            whale_cooldown[whale_key] = datetime.utcnow().isoformat()
                             existing_alerts.append(signal)
                             whale_sent += 1
                             print(f"[{datetime.now()}] ✅ Whale alert sent: ${signal['dominant_volume']:,.0f} {signal['dominant_side']} on {signal['market'][:40]}")
@@ -510,6 +533,15 @@ def main():
         print(f"[{datetime.now()}] ⚠️  Whale watch error: {e}")
         import traceback
         traceback.print_exc()
+    
+    # Save whale cooldown (clean entries older than 7 days)
+    try:
+        cutoff = (datetime.utcnow() - timedelta(days=7)).isoformat()
+        whale_cooldown = {k: v for k, v in whale_cooldown.items() if v > cutoff}
+        with open(whale_cooldown_path, "w") as f:
+            json.dump(whale_cooldown, f, indent=2)
+    except Exception:
+        pass
 
     tracked_data = {
         "wallets": list(tracked_wallets),
