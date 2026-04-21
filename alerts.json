@@ -1,162 +1,5 @@
 [
   {
-    "type": "TOP_TRADER",
-    "trade_hash": "0xc242a88ec6620643be06f642ded3e86d35e83dc55d294f9ea2470d49bb420bb7",
-    "wallet": "0xe90bec87d9ef430f27f9dcfe72c34b76967d5da2",
-    "trader": {
-      "rank": 15,
-      "address": "0xe90bec87d9ef430f27f9dcfe72c34b76967d5da2",
-      "username": "gmanas",
-      "profit": 5016784.7538586855,
-      "volume": 529047708.50599104,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x7c93b791d698fc4c02099f57a87dd70d6bc8f0f6",
-      "side": "SELL",
-      "asset": "89413703435662076766671780767668367664284824115908819707674538237103927401639",
-      "conditionId": "0x5d4fbc606c90f11cf2217a86939df08e705348572acba2fcccc792ef8b7c1c4b",
-      "size": 3833.96,
-      "price": 0.999,
-      "timestamp": 1773532953,
-      "title": "Hornets vs. Spurs",
-      "slug": "nba-cha-sas-2026-03-14",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
-      "eventSlug": "nba-cha-sas-2026-03-14",
-      "outcome": "Spurs",
-      "outcomeIndex": 1,
-      "name": "0x7c93b791d698fC4C02099F57a87DD70d6BC8f0F6-1767540586100",
-      "pseudonym": "Aggressive-Runaway",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0xc242a88ec6620643be06f642ded3e86d35e83dc55d294f9ea2470d49bb420bb7",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Hornets vs. Spurs",
-    "market_slug": "nba-cha-sas-2026-03-14",
-    "amount": 3830.12604,
-    "resolution_last_check": "2026-04-13T19:42:08.559050+00:00"
-  },
-  {
-    "market": "Spread: Thunder (-9.5)",
-    "market_slug": "nba-min-okc-2026-03-15-spread-home-9pt5",
-    "event_slug": "nba-min-okc-2026-03-15-spread-home-9pt5",
-    "wallet": "0xb8ecd932bd3b3cb64647dbfeb036688d22532268",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($1,012)",
-        "Low activity (1 txns)"
-      ],
-      "amount": 1011.91,
-      "odds": 0.47,
-      "raw_price": 0.47,
-      "outcome": "Thunder",
-      "potential_pnl": 1141.0900000000001,
-      "pnl_multiplier": 1.1276595744680853,
-      "wallet_age_days": 0,
-      "total_activities": 1
-    },
-    "timestamp": "2026-03-15T11:53:48.953053",
-    "trade_hash": "0x22294f3d70b9ca6b007614e237d312b2fd30932dacd8c4d720ed4ee32576ac80",
-    "trade_timestamp": 1773575535,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Thunder",
-      "side": "BUY",
-      "price": 0.47,
-      "effective_price": 0.47,
-      "size": 2153.0,
-      "amount": 1011.91,
-      "potential_pnl": 1141.0900000000001,
-      "pnl_multiplier": 1.1276595744680853,
-      "is_no": false,
-      "slug": "nba-min-okc-2026-03-15-spread-home-9pt5",
-      "eventSlug": "nba-min-okc-2026-03-15"
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+23.6%)"
-      ],
-      "category": "other",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.23399999999999999,
-      "market_price": 0.47,
-      "edge": 0.236,
-      "edge_percent": 23.599999999999998,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Thunder's key players perform at their peak",
-          "Opposing team struggles with injuries",
-          "Home court advantage for Thunder"
-        ],
-        "weakest_link": "Opposing team struggles with injuries"
-      },
-      "category": "sports",
-      "narrative_drivers": [
-        "Thunder's recent performance trends",
-        "Public sentiment towards Thunder's chances"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "INSIDER_ONLY",
-      "signal_emoji": "\ud83d\udc41\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider activity detected, no clear mispricing",
-      "action_suggestion": "Monitor: insider signal only, no statistical edge",
-      "insider_score": 70,
-      "insider_position": "THUNDER",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.236,
-      "edge_percent": 23.599999999999998
-    },
-    "financial_analyst": {
-      "signal_quality": 51.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 23.6,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "resolution": {
-      "outcome": "Thunder",
-      "checked_at": "2026-04-13T20:09:29.373631+00:00",
-      "insider_win": true,
-      "model_correct": null,
-      "pnl": 1141.09
-    }
-  },
-  {
     "market": "Spread: Thunder (-9.5)",
     "market_slug": "nba-min-okc-2026-03-15-spread-home-9pt5",
     "event_slug": "nba-min-okc-2026-03-15-spread-home-9pt5",
@@ -32965,5 +32808,95 @@
     "strength": 72,
     "timestamp": "2026-04-21T19:59:55.747517",
     "ai_context": "\u274c SKIP \u2014 Recent developments indicate a lack of significant progress toward a Russia-Ukraine ceasefire before the scheduled release of GTA VI.\nThe 32-hour Orthodox Easter ceasefire, which began on April 11, 2026, was marred by mutual accusations of violations, including drone attacks, leading to its collapse. Prediction markets assign a mere 1.4% probability to an official ceasefire by April 30, 2026, reflecting skepticism about near-term peace prospects. (agenticnews."
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x6c7c30c74f3505bc8d90ee177f7b67e873c1f33d41601702bfcf709126643997",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.515682004,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x2974bd0059e48f215c391882976e0f1b4c8c9c23",
+      "side": "BUY",
+      "asset": "1910830010387565971650098373488592514702818137344973088263643820608151819241",
+      "conditionId": "0x5db999fad322cea2914535aae5517060c3f80ad6d8c0231cde2124a434d16846",
+      "size": 22222.222221,
+      "price": 0.7199999999946,
+      "timestamp": 1776806628,
+      "title": "Will the U.S. invade Iran before 2027?",
+      "slug": "will-the-us-invade-iran-before-2027",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-the-us-invade-iran-in-2025-0Eh3J0ku_Fbj.jpg",
+      "eventSlug": "will-the-us-invade-iran-before-2027",
+      "outcome": "No",
+      "outcomeIndex": 1,
+      "name": "65765757",
+      "pseudonym": "Crowded-Distance",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x6c7c30c74f3505bc8d90ee177f7b67e873c1f33d41601702bfcf709126643997",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Will the U.S. invade Iran before 2027?",
+    "market_slug": "will-the-us-invade-iran-before-2027",
+    "amount": 15999.999999,
+    "ai_context": "\u2705 COPY \u2014 Recent diplomatic efforts and military actions suggest the U.S. is not planning an invasion of Iran before 2027.\nOn April 21, 2026, President Trump extended the ceasefire with Iran indefinitely to allow more time for diplomatic negotiations, aiming to prevent a return to war. (axios.com) Additionally, U.S. and Iranian negotiators are making progress toward a framework agreement to end the ongoing war, with in-person talks anticipated soon. (axios.com) While the U.S."
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x497cede2dab736279dadbea304aac1ead7f5846f3f8d81a8cf6d339554db8a99",
+    "wallet": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+    "trader": {
+      "rank": 8,
+      "address": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+      "username": "swisstony",
+      "profit": 6176370.9949712455,
+      "volume": 678469238.0499935,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x162f6fff88a52864f2ecc9833e58089d5254798d",
+      "side": "SELL",
+      "asset": "112949579642994822332239156097368280383415337833623203846956122649136191732252",
+      "conditionId": "0xc0be7b1f19f9b658778c2be7e6bc67596a00f347ab64392d0f5d387534c7c3b4",
+      "size": 6000,
+      "price": 0.5695831,
+      "timestamp": 1776806930,
+      "title": "US x Iran ceasefire extended by April 21, 2026?",
+      "slug": "will-the-us-x-iran-ceasefire-be-extended-by-april-21-2026-365",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/us-x-iran-ceasefire-by-Cgmx3GCuOwjs.jpg",
+      "eventSlug": "us-x-iran-ceasefire-extended-by",
+      "outcome": "No",
+      "outcomeIndex": 1,
+      "name": "Valen9",
+      "pseudonym": "Angry-Evaluation",
+      "bio": "PredictFolio-6300",
+      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-5572855-7eff0907-10c0-4fae-8f10-8a2c733813a1.png",
+      "profileImageOptimized": "",
+      "transactionHash": "0x497cede2dab736279dadbea304aac1ead7f5846f3f8d81a8cf6d339554db8a99",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "US x Iran ceasefire extended by April 21, 2026?",
+    "market_slug": "us-x-iran-ceasefire-extended-by",
+    "amount": 3417.4986,
+    "ai_context": "\u274c SKIP \u2014 Recent developments indicate a ceasefire extension is unlikely, but the trader may have access to information not yet public. On April 21, 2026, President Trump announced the extension of the ceasefire with Iran without setting a new deadline, aiming to give diplomacy more time to succeed. (axios."
   }
 ]
