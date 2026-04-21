@@ -1,51 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0xbbab0b7bc806193ade6e94a5e4b7fcdb9c18396b7d3969fbf4765c833ffef10e",
-    "wallet": "0x16f91db2592924cfed6e03b7e5cb5bb1e32299e3",
-    "trader": {
-      "rank": 20,
-      "address": "0x16f91db2592924cfed6e03b7e5cb5bb1e32299e3",
-      "username": "Jenzigo",
-      "profit": 4049827.0941029997,
-      "volume": 9457725.03433801,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0xf68a281980f8c13828e84e147e3822381d6e5b1b",
-      "side": "BUY",
-      "asset": "41812155496900816044824504754141171010671068079781007506998777856072250533281",
-      "conditionId": "0xcd84d6e0058f2c83f5f9b560163504fbe37ca9367511ca44d76aa64b3845f545",
-      "size": 2487.36,
-      "price": 0.38,
-      "timestamp": 1773517647,
-      "title": "Avalanche vs. Jets",
-      "slug": "nhl-col-wpg-2026-03-14",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nhl.png",
-      "eventSlug": "nhl-col-wpg-2026-03-14",
-      "outcome": "Jets",
-      "outcomeIndex": 1,
-      "name": "tutedefore",
-      "pseudonym": "Corrupt-Poisoning",
-      "bio": "",
-      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-2123373-2afb1873-478c-4079-9d7b-229444e83c4c.webp",
-      "profileImageOptimized": "",
-      "transactionHash": "0xbbab0b7bc806193ade6e94a5e4b7fcdb9c18396b7d3969fbf4765c833ffef10e",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Avalanche vs. Jets",
-    "market_slug": "nhl-col-wpg-2026-03-14",
-    "amount": 945.1968,
-    "resolution_last_check": "2026-04-13T19:42:03.071809+00:00"
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0x9226f3ab4555bf0c174af3f430d719745f1277e8e07eeacfa1b19a6bd3c557d6",
     "wallet": "0x16f91db2592924cfed6e03b7e5cb5bb1e32299e3",
     "trader": {
@@ -33019,5 +32974,50 @@
     "timestamp": "2026-04-20T22:48:24.837112",
     "ai_context": "\u274c SKIP \u2014 The trader's bet on a Russia-Ukraine ceasefire before the release of GTA VI is unsupported by current developments.\nThe 32-hour Orthodox Easter ceasefire in April 2026 collapsed quickly, with both sides accusing each other of violations, highlighting deep-seated distrust. Prediction markets assign a mere 1.4% probability to a ceasefire by April 30, 2026, reflecting skepticism about near-term peace prospects. (agenticnews.",
     "resolution_last_check": "2026-04-21T07:26:33.750817+00:00"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x7f5957a98a0a0e4cfb53941df2079a93225f2d5b98c757a6c16d693a13509134",
+    "wallet": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+    "trader": {
+      "rank": 7,
+      "address": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+      "username": "RN1",
+      "profit": 7491364.173736479,
+      "volume": 441213460.978336,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xe015b5a2a299167be835a2fd1e86f09c49e06ffd",
+      "side": "BUY",
+      "asset": "23182911290223834042794430279266916210568992138474120534940628261400096080351",
+      "conditionId": "0x034bfa62ac1ffa3ac05ef14e780aca8bcf1e27e1dcede87f531eff644bc8b727",
+      "size": 58522.65259,
+      "price": 0.67,
+      "timestamp": 1776771494,
+      "title": "Dota 2: Xtreme Gaming vs Vici Gaming - Game 2 Winner",
+      "slug": "dota2-xtreme-vg-2026-04-21-game2",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/dota2-7ffacddb21.jpg",
+      "eventSlug": "dota2-xtreme-vg-2026-04-21",
+      "outcome": "Xtreme Gaming",
+      "outcomeIndex": 0,
+      "name": "TAIWANNUMBERONE",
+      "pseudonym": "",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x7f5957a98a0a0e4cfb53941df2079a93225f2d5b98c757a6c16d693a13509134",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Dota 2: Xtreme Gaming vs Vici Gaming - Game 2 Winner",
+    "market_slug": "dota2-xtreme-vg-2026-04-21",
+    "amount": 39210.1772353,
+    "ai_context": "\u274c SKIP \u2014 Recent head-to-head results favor Vici Gaming, indicating a potential upset.\nIn their last five encounters, Xtreme Gaming has won three times, while Vici Gaming has secured two victories. Notably, Vici Gaming won the most recent match on March 11, 2026, with a 2-1 scoreline. (cyberscore.live) Additionally, Vici Gaming has demonstrated a 63% win rate over the past month, suggesting improved form. (bo3."
   }
 ]
