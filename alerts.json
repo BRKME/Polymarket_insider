@@ -1,110 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0xc08ef1a28eb5157a46338218fe0df351c316f7183d3e6d37a32f330dc6cfb049",
-    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-    "trader": {
-      "rank": 1,
-      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-      "username": "Theo4",
-      "profit": 22053933.752321757,
-      "volume": 43013258.51568201,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x479e330b07822ee28e20bac5e504f1b7c6b591c3",
-      "side": "BUY",
-      "asset": "49199458578674299280518325446666793632087135647583739482099632115201280158865",
-      "conditionId": "0xa6e7b22c7450fbccf515ac7da064b6b6d1c76f187a626a6e6be5126e04c64e67",
-      "size": 3846.839868,
-      "price": 0.77986089880048,
-      "timestamp": 1773587573,
-      "title": "Will Manchester United FC win on 2026-03-15?",
-      "slug": "epl-mun-ast-2026-03-15-mun",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Repetitive-markets/premier+league.jpg",
-      "eventSlug": "epl-mun-ast-2026-03-15",
-      "outcome": "Yes",
-      "outcomeIndex": 0,
-      "name": "0x479E330b07822EE28e20bAC5e504f1b7c6B591C3-1768820092692",
-      "pseudonym": "Exalted-Evocation",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0xc08ef1a28eb5157a46338218fe0df351c316f7183d3e6d37a32f330dc6cfb049",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Will Manchester United FC win on 2026-03-15?",
-    "market_slug": "epl-mun-ast-2026-03-15",
-    "amount": 2999.999997,
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-22T07:20:44.047168+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-15 >7 days ago, removed from API"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
-    "trade_hash": "0x0a1a289f2a59e566080835ffccd4fcaeff29ed08547a1a131c35e393ec528efe",
-    "wallet": "0xd235973291b2b75ff4070e9c0b01728c520b0f29",
-    "trader": {
-      "rank": 5,
-      "address": "0xd235973291b2b75ff4070e9c0b01728c520b0f29",
-      "username": "zxgngl",
-      "profit": 7807265.589240883,
-      "volume": 40551790.62184699,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x4d3079bd4c73bc0e8f7d9f64a9f64fadbd17a42d",
-      "side": "BUY",
-      "asset": "50947979716330774820484087653326950609056789630398194284446965277750862971707",
-      "conditionId": "0xa05263ffc69a0f2aeac881f727c3b691ca0d3d6e51831176f9068de838c6dcd7",
-      "size": 28000,
-      "price": 0.49,
-      "timestamp": 1773587871,
-      "title": "Will V\u00e5lerenga Fotball win on 2026-03-15?",
-      "slug": "nor-vif-san-2026-03-15-vif",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/norwegian-elite-2078e62a98.jpg",
-      "eventSlug": "nor-vif-san-2026-03-15",
-      "outcome": "Yes",
-      "outcomeIndex": 0,
-      "name": "gransaaa",
-      "pseudonym": "Feisty-Mention",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x0a1a289f2a59e566080835ffccd4fcaeff29ed08547a1a131c35e393ec528efe",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Will V\u00e5lerenga Fotball win on 2026-03-15?",
-    "market_slug": "nor-vif-san-2026-03-15",
-    "amount": 13720.0,
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-22T07:20:44.047183+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-15 >7 days ago, removed from API"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0x517aa7fd0d60cf876563de019e344c7ee4e824a5619f0eebbf4376695c81d236",
     "wallet": "0xd235973291b2b75ff4070e9c0b01728c520b0f29",
     "trader": {
@@ -34555,5 +34451,161 @@
     "strength": 62,
     "timestamp": "2026-04-22T15:55:33.515091",
     "ai_context": "\u274c SKIP \u2014 Recent developments indicate a lack of progress toward a lasting ceasefire before GTA VI's release.\nThe 32-hour Orthodox Easter ceasefire in April 2026 collapsed quickly, with both sides accusing each other of violations. Prediction markets assign a mere 1.4% probability to a ceasefire by April 30, 2026, reflecting deep skepticism about near-term peace prospects. (agenticnews.site) Given that GTA VI is scheduled for release on November 19, 2026, (thegta-6."
+  },
+  {
+    "market": "Madrid Open: Karolina Pliskova vs Sinja Kraus",
+    "market_slug": "wta-pliskov-kraus-2026",
+    "event_slug": "wta-pliskov-kraus-2026",
+    "wallet": "0xf1fa0c20cd9cafd19cd69d231e0a81ac7c102a96",
+    "analysis": {
+      "score": 70,
+      "flags": [
+        "New wallet (0d old)",
+        "Large bet ($8,165)",
+        "Low activity (17 txns)"
+      ],
+      "amount": 8165.259634574627,
+      "odds": 0.672377244212811,
+      "raw_price": 0.672377244212811,
+      "outcome": "Sinja Kraus",
+      "potential_pnl": 3978.6070784253725,
+      "pnl_multiplier": 0.48726032685825793,
+      "wallet_age_days": 0,
+      "total_activities": 17
+    },
+    "timestamp": "2026-04-22T16:41:59.724680",
+    "trade_hash": "0x9365710e40257083e41805fabf4666fa0b56f073ef40c42d7bc59406434e38b3",
+    "trade_timestamp": 1776875588,
+    "latency": null,
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "Sinja Kraus",
+      "outcomeIndex": 1,
+      "normalized_position": "NO",
+      "side": "BUY",
+      "price": 0.672377244212811,
+      "effective_price": 0.672377244212811,
+      "size": 12143.866713,
+      "amount": 8165.259634574627,
+      "potential_pnl": 3978.6070784253725,
+      "pnl_multiplier": 0.48726032685825793,
+      "is_no": false,
+      "conditionId": "0xed778b99024f7c64033d300e4b2936230b848449f6b270befa356fafeeef02e1",
+      "slug": "wta-pliskov-kraus-2026",
+      "eventSlug": "wta-pliskov-kraus-2026-04-22"
+    },
+    "irrationality": {
+      "irrationality_score": 35,
+      "flags": [
+        "Large mispricing edge (+39.8%)"
+      ],
+      "category": "sports",
+      "category_info": {
+        "strength": "medium",
+        "typical_overpricing": 0.03,
+        "min_edge": 0.05
+      },
+      "is_irrational": true
+    },
+    "mispricing": {
+      "rational_estimate": 0.2744754488425622,
+      "market_price": 0.672377244212811,
+      "edge": 0.3979017953702488,
+      "edge_percent": 39.790179537024876,
+      "min_edge_required": 0.05,
+      "is_mispriced": true,
+      "edge_quality": "STRONG",
+      "base_rate_class": "common",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "common",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "Pliskova maintains her current form",
+          "Kraus performs below expectations",
+          "External factors (injuries, weather) do not favor Kraus"
+        ],
+        "weakest_link": "Kraus performs below expectations"
+      },
+      "category": "sports",
+      "narrative_drivers": [
+        "Pliskova's recent performance",
+        "Kraus's potential for upsets"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "ALPHA",
+      "signal_emoji": "\ud83d\udd25",
+      "signal_strength": 105,
+      "interpretation": "Smart money (NO) confirms YES is overpriced",
+      "action_suggestion": "High conviction: insider + statistics aligned",
+      "insider_score": 70,
+      "insider_position": "NO",
+      "irrationality_score": 35,
+      "is_irrational": true,
+      "is_mispriced": true,
+      "edge": 0.3979017953702488,
+      "edge_percent": 39.790179537024876
+    },
+    "financial_analyst": {
+      "signal_quality": 81.0,
+      "stance": "HIGH_CONVICTION",
+      "edge_percent": 39.79,
+      "signal_strength": 105.0,
+      "insider_score": 70.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "ai_context": "\u274c SKIP \u2014 Pliskova has a 1-0 head-to-head record against Kraus and is favored by most analysts.\nIn their only previous encounter at the 2024 Transylvania Open, Pliskova won 6-4, 7-6(6). (matchstat.com) Analysts predict Pliskova to win, citing her experience and recent form. (thestatszone.com) However, the trader may have access to insider information or insights not publicly available.",
+    "ai_verdict": "SKIP"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xb78549ba595be9ea7320c2000895856f98963faeec20f8ee63688c70604a7a20",
+    "wallet": "0x8119010a6e589062aa03583bb3f39ca632d9f887",
+    "trader": {
+      "rank": 9,
+      "address": "0x8119010a6e589062aa03583bb3f39ca632d9f887",
+      "username": "PrincessCaro",
+      "profit": 6083643.099591745,
+      "volume": 23520809.952867,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+      "side": "SELL",
+      "asset": "31062424711512692006020739080107835937486891530482606016617407912657737343039",
+      "conditionId": "0x0a10ac084c43ed7847c73851a3070d1c43ab1b7009c6d291e06c2bfa573a8ec6",
+      "size": 2356.15,
+      "price": 0.74,
+      "timestamp": 1776876264,
+      "title": "Madrid Open: Benjamin Bonzi vs Titouan Droguet",
+      "slug": "atp-bonzi-droguet-2026-04-22",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/atp-tour-b4390c4fb8.jpg",
+      "eventSlug": "atp-bonzi-droguet-2026-04-22",
+      "outcome": "Titouan Droguet",
+      "outcomeIndex": 1,
+      "name": "tradecraft",
+      "pseudonym": "Slow-Escape",
+      "bio": "",
+      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1439403-31bec8e6-a9d5-45d6-8c20-964f07c7fdb2.webp",
+      "profileImageOptimized": "",
+      "transactionHash": "0xb78549ba595be9ea7320c2000895856f98963faeec20f8ee63688c70604a7a20",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Madrid Open: Benjamin Bonzi vs Titouan Droguet",
+    "market_slug": "atp-bonzi-droguet-2026-04-22",
+    "amount": 1743.5510000000002,
+    "ai_context": "\u274c SKIP \u2014 Benjamin Bonzi has a perfect 1-0 head-to-head record against Titouan Droguet.\nTheir most recent encounter was in June 2024 at the Ilkley Challenger, where Bonzi won 7-6(5), 6-4. (tennisratio.com) Additionally, Bonzi has a higher ATP ranking of No. 104 compared to Droguet's No. 113. (tennisstats.com) However, Droguet has been in better recent form, with a 52-25 record over the past 52 weeks, compared to Bonzi's 29-24 record. (tennisratio.",
+    "ai_verdict": "SKIP"
   }
 ]
