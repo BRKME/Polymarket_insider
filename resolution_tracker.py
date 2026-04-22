@@ -28,7 +28,7 @@ ALERTS_PATH = Path("alerts.json")
 STATS_PATH = Path("resolution_stats.json")
 
 # Rate limiting
-API_DELAY = 0.5  # seconds between API calls
+API_DELAY = 0.3  # seconds between API calls (reduced from 0.5)
 
 
 def load_alerts() -> List[Dict]:
@@ -350,12 +350,56 @@ def run_resolution_check():
     newly_resolved = 0
     still_open = 0
     api_errors = 0
+    expired_count = 0
     found_by_method = {"conditionId": 0, "slug": 0, "event_slug": 0, "question": 0}
 
+    # ══════════════════════════════════════════
+    # PHASE 1: Mark expired markets (no API calls needed)
+    # Sports markets with dates >7 days ago that won't be in API
+    # ══════════════════════════════════════════
+    remaining = []
+    for alert in unchecked:
+        market_question = alert.get("market", "")
+        slug = alert.get("market_slug", "")
+        td = alert.get("trade_data", {})
+        tr = alert.get("trade", {})
+        all_text = ' '.join(filter(None, [
+            slug, td.get("slug", ""), td.get("eventSlug", ""),
+            tr.get("slug", ""), tr.get("eventSlug", ""), market_question
+        ]))
+        
+        date_match = re.search(r'(\d{4}-\d{2}-\d{2})', all_text)
+        if date_match:
+            try:
+                market_date = datetime.strptime(date_match.group(1), "%Y-%m-%d")
+                if (datetime.utcnow() - market_date).days > 7:
+                    alert["resolution"] = {
+                        "outcome": "EXPIRED",
+                        "checked_at": datetime.now(timezone.utc).isoformat(),
+                        "insider_win": None,
+                        "model_correct": None,
+                        "pnl": None,
+                        "note": f"Market date {date_match.group(1)} >7 days ago, removed from API"
+                    }
+                    stats["total_resolved"] += 1
+                    stats["model_na"] = stats.get("model_na", 0) + 1
+                    expired_count += 1
+                    newly_resolved += 1
+                    continue
+            except:
+                pass
+        remaining.append(alert)
+    
+    if expired_count > 0:
+        print(f"[{datetime.now()}] ⏰ Pre-expired {expired_count} dated markets (>7 days old, no API needed)")
+
+    # ══════════════════════════════════════════
+    # PHASE 2: Check remaining via API
+    # ══════════════════════════════════════════
     # De-duplicate by market to avoid redundant API calls
     lookup_cache: Dict[str, Optional[Dict]] = {}
 
-    for i, alert in enumerate(unchecked):
+    for i, alert in enumerate(remaining):
         # Extract all possible lookup keys
         slug = alert.get("market_slug", "")
         event_slug = alert.get("event_slug", "")
@@ -421,37 +465,10 @@ def run_resolution_check():
                 found_by_method[found_method] = found_by_method.get(found_method, 0) + 1
 
         if not market_data:
-            # Check if this is an old market with a past date
-            # e.g., "nba-orl-mia-2026-03-14" or "Will X win on 2026-03-15"
-            all_text = ' '.join(all_slugs) + ' ' + market_question
-            date_match = re.search(r'(\d{4}-\d{2}-\d{2})', all_text)
-            market_date = None
-            if date_match:
-                try:
-                    market_date = datetime.strptime(date_match.group(1), "%Y-%m-%d")
-                except:
-                    pass
-            
-            # If market date is >7 days ago, mark as expired (API removed it)
-            if market_date and (datetime.utcnow() - market_date).days > 7:
-                alert["resolution"] = {
-                    "outcome": "EXPIRED",
-                    "checked_at": datetime.now(timezone.utc).isoformat(),
-                    "insider_win": None,
-                    "model_correct": None,
-                    "pnl": None,
-                    "note": f"Market removed from API. Date: {date_match.group(1)}"
-                }
-                stats["total_resolved"] += 1
-                stats["model_na"] = stats.get("model_na", 0) + 1
-                newly_resolved += 1
-                if newly_resolved <= 5:
-                    print(f"  ⏰ EXPIRED: {market_question[:50]} ({date_match.group(1)})")
-            else:
-                api_errors += 1
-                if api_errors <= 5:
-                    atype = alert.get("combined_signal", {}).get("signal_type") or alert.get("type", "?")
-                    print(f"  ❌ NOT FOUND [{atype}]: cid={condition_id[:20]}, q={market_question[:40]}")
+            api_errors += 1
+            if api_errors <= 5:
+                atype = alert.get("combined_signal", {}).get("signal_type") or alert.get("type", "?")
+                print(f"  ❌ NOT FOUND [{atype}]: cid={condition_id[:20]}, q={market_question[:40]}")
             continue
 
         resolution = determine_resolution(market_data)
@@ -495,6 +512,11 @@ def run_resolution_check():
 
             update_by_bucket(stats, "by_signal_type", signal_type, insider_win, model_correct)
             update_by_bucket(stats, "by_category", category, insider_win, model_correct)
+            
+            # Track AI verdict accuracy
+            ai_verdict = alert.get("ai_verdict", "NONE")
+            if ai_verdict != "NONE":
+                update_by_bucket(stats, "by_ai_verdict", ai_verdict, insider_win, model_correct)
 
             newly_resolved += 1
             position = alert.get("trade_data", {}).get("outcome") or alert.get("trade", {}).get("outcome", "?")
@@ -588,6 +610,16 @@ def run_resolution_check():
             else:
                 print(f"    {st}: {data['total']} alerts, no resolved data")
 
+    # Per AI verdict
+    if stats.get("by_ai_verdict"):
+        print()
+        print("  BY AI VERDICT:")
+        for v, data in sorted(stats["by_ai_verdict"].items()):
+            total = data["insider_wins"] + data["insider_losses"]
+            if total > 0:
+                wr = data["insider_wins"] / total * 100
+                print(f"    AI_{v}: {data['insider_wins']}/{total} ({wr:.1f}% win rate)")
+
     # Send Telegram summary if there were new resolutions
     # Send daily summary (always — even without new resolutions)
     if TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID:
@@ -633,6 +665,19 @@ def send_resolution_summary(stats: Dict, newly_resolved: int):
 
     if breakdowns:
         msg += "\n\n" + "\n".join(breakdowns)
+
+    # AI verdict breakdown
+    by_ai = stats.get("by_ai_verdict", {})
+    ai_parts = []
+    for v in ["COPY", "LEAN_COPY", "LEAN_SKIP", "SKIP"]:
+        data = by_ai.get(v, {})
+        w = data.get("insider_wins", 0)
+        l = data.get("insider_losses", 0)
+        t = w + l
+        if t >= 2:
+            ai_parts.append(f"  AI_{v}: {w}W/{l}L ({w/t*100:.0f}%)")
+    if ai_parts:
+        msg += "\n\n🤖 AI ACCURACY:\n" + "\n".join(ai_parts)
 
     # Model accuracy — only show if meaningful sample
     total_model = stats["model_correct"] + stats["model_wrong"]

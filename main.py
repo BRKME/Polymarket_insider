@@ -11,6 +11,22 @@ from top_traders import get_tracked_wallets, fetch_trader_recent_trades
 import trade_economics
 
 
+def extract_ai_verdict(ai_context: str) -> str:
+    """Extract COPY/SKIP verdict from AI response text."""
+    if not ai_context:
+        return "NONE"
+    upper = ai_context.upper()
+    if "LEAN COPY" in upper:
+        return "LEAN_COPY"
+    elif "LEAN SKIP" in upper:
+        return "LEAN_SKIP"
+    elif "COPY" in upper and "SKIP" not in upper:
+        return "COPY"
+    elif "SKIP" in upper:
+        return "SKIP"
+    return "UNCLEAR"
+
+
 def send_heartbeat(stats: Dict) -> None:
     """
     Send a lightweight status ping to Telegram after each cycle.
@@ -390,6 +406,7 @@ def main():
             )
             if context:
                 alert['ai_context'] = context
+                alert['ai_verdict'] = extract_ai_verdict(context)
                 print(f"[{datetime.now()}] 🤖 AI: {context[:80]}")
         except Exception as e:
             print(f"[{datetime.now()}] ⚠️  AI skipped: {e}")
@@ -434,6 +451,7 @@ def main():
             )
             if context:
                 alert['ai_context'] = context
+                alert['ai_verdict'] = extract_ai_verdict(context)
                 print(f"[{datetime.now()}] 🤖 AI: {context[:80]}")
         except Exception as e:
             print(f"[{datetime.now()}] ⚠️  AI skipped: {e}")
