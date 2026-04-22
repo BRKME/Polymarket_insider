@@ -1,51 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0x0a1a289f2a59e566080835ffccd4fcaeff29ed08547a1a131c35e393ec528efe",
-    "wallet": "0xd235973291b2b75ff4070e9c0b01728c520b0f29",
-    "trader": {
-      "rank": 5,
-      "address": "0xd235973291b2b75ff4070e9c0b01728c520b0f29",
-      "username": "zxgngl",
-      "profit": 7807265.589240883,
-      "volume": 40551790.62184699,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x4d3079bd4c73bc0e8f7d9f64a9f64fadbd17a42d",
-      "side": "BUY",
-      "asset": "50947979716330774820484087653326950609056789630398194284446965277750862971707",
-      "conditionId": "0xa05263ffc69a0f2aeac881f727c3b691ca0d3d6e51831176f9068de838c6dcd7",
-      "size": 28000,
-      "price": 0.49,
-      "timestamp": 1773587871,
-      "title": "Will V\u00e5lerenga Fotball win on 2026-03-15?",
-      "slug": "nor-vif-san-2026-03-15-vif",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/norwegian-elite-2078e62a98.jpg",
-      "eventSlug": "nor-vif-san-2026-03-15",
-      "outcome": "Yes",
-      "outcomeIndex": 0,
-      "name": "gransaaa",
-      "pseudonym": "Feisty-Mention",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x0a1a289f2a59e566080835ffccd4fcaeff29ed08547a1a131c35e393ec528efe",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Will V\u00e5lerenga Fotball win on 2026-03-15?",
-    "market_slug": "nor-vif-san-2026-03-15",
-    "amount": 13720.0,
-    "resolution_last_check": "2026-04-13T19:42:16.957876+00:00"
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0x517aa7fd0d60cf876563de019e344c7ee4e824a5619f0eebbf4376695c81d236",
     "wallet": "0xd235973291b2b75ff4070e9c0b01728c520b0f29",
     "trader": {
@@ -32808,5 +32763,50 @@
     "strength": 85,
     "timestamp": "2026-04-21T23:36:34.843354",
     "ai_context": "\u274c SKIP \u2014 Recent developments indicate a lack of progress toward a lasting ceasefire before the scheduled release of GTA VI.\nThe 32-hour Orthodox Easter ceasefire between Russia and Ukraine, which began on April 11, 2026, collapsed shortly after its expiration, with both sides accusing each other of violations. (en.wikipedia.org) Prediction markets assign a mere 1.4% probability to an official ceasefire by April 30, 2026, reflecting widespread skepticism about near-term peace prospects."
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x7190e41c9042173a61306827a45d9241d4928d3ca1de7349c454dadcfc990b0b",
+    "wallet": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+    "trader": {
+      "rank": 7,
+      "address": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+      "username": "RN1",
+      "profit": 7415490.533393074,
+      "volume": 444902799.10547405,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x0340fcffce4d0d00670212d44f364535e6e56907",
+      "side": "BUY",
+      "asset": "6005972457090582655555851246372121423132040521133483121964584085867525214875",
+      "conditionId": "0x7eceae72d7d7b3e175fa872c728526e6fec4714288a4bda91fe818e298e69a6f",
+      "size": 3060.034927,
+      "price": 0.9119999997186442,
+      "timestamp": 1776831542,
+      "title": "Will WTI Crude Oil (WTI) hit (HIGH) $120 in April?",
+      "slug": "will-wti-crude-oil-wti-hit-high-120-in-april",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/crude-oil-9a850ce2a2.png",
+      "eventSlug": "what-price-will-wti-hit-in-april-2026",
+      "outcome": "No",
+      "outcomeIndex": 1,
+      "name": "0x0340FcFfce4d0d00670212d44F364535E6E56907-1764744261318",
+      "pseudonym": "Shadowy-Sanction",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x7190e41c9042173a61306827a45d9241d4928d3ca1de7349c454dadcfc990b0b",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Will WTI Crude Oil (WTI) hit (HIGH) $120 in April?",
+    "market_slug": "what-price-will-wti-hit-in-april-2026",
+    "amount": 2790.7518525630417,
+    "ai_context": "\u2705 COPY \u2014 Recent market data and forecasts indicate WTI Crude Oil prices are unlikely to reach $120 in April 2026.\nAs of April 15, 2026, WTI Crude Oil futures were trading at $91.29 per barrel, with forecasts for April averaging around $92.80 per barrel. (forecasts.org) Additionally, a forecast from April 1, 2026, projected WTI Crude Oil prices to range between $68.00 and $78.00 per barrel in April 2026. (oilpriceapi."
   }
 ]
