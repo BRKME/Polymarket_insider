@@ -1,231 +1,5 @@
 [
   {
-    "market": "Spread: Thunder (-9.5)",
-    "market_slug": "nba-min-okc-2026-03-15-spread-home-9pt5",
-    "event_slug": "nba-min-okc-2026-03-15-spread-home-9pt5",
-    "wallet": "0xb8ecd932bd3b3cb64647dbfeb036688d22532268",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($1,012)",
-        "Low activity (1 txns)"
-      ],
-      "amount": 1011.91,
-      "odds": 0.47,
-      "raw_price": 0.47,
-      "outcome": "Thunder",
-      "potential_pnl": 1141.0900000000001,
-      "pnl_multiplier": 1.1276595744680853,
-      "wallet_age_days": 0,
-      "total_activities": 1
-    },
-    "timestamp": "2026-03-15T11:53:48.953053",
-    "trade_hash": "0x22294f3d70b9ca6b007614e237d312b2fd30932dacd8c4d720ed4ee32576ac80",
-    "trade_timestamp": 1773575535,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Thunder",
-      "side": "BUY",
-      "price": 0.47,
-      "effective_price": 0.47,
-      "size": 2153.0,
-      "amount": 1011.91,
-      "potential_pnl": 1141.0900000000001,
-      "pnl_multiplier": 1.1276595744680853,
-      "is_no": false,
-      "slug": "nba-min-okc-2026-03-15-spread-home-9pt5",
-      "eventSlug": "nba-min-okc-2026-03-15"
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+23.6%)"
-      ],
-      "category": "other",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.23399999999999999,
-      "market_price": 0.47,
-      "edge": 0.236,
-      "edge_percent": 23.599999999999998,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Thunder's key players perform at their peak",
-          "Opposing team struggles with injuries",
-          "Home court advantage for Thunder"
-        ],
-        "weakest_link": "Opposing team struggles with injuries"
-      },
-      "category": "sports",
-      "narrative_drivers": [
-        "Thunder's recent performance trends",
-        "Public sentiment towards Thunder's chances"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "INSIDER_ONLY",
-      "signal_emoji": "\ud83d\udc41\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider activity detected, no clear mispricing",
-      "action_suggestion": "Monitor: insider signal only, no statistical edge",
-      "insider_score": 70,
-      "insider_position": "THUNDER",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.236,
-      "edge_percent": 23.599999999999998
-    },
-    "financial_analyst": {
-      "signal_quality": 51.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 23.6,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-22T07:20:44.047067+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-15 >7 days ago, removed from API"
-    }
-  },
-  {
-    "market": "Spread: Thunder (-9.5)",
-    "market_slug": "nba-min-okc-2026-03-15-spread-home-9pt5",
-    "event_slug": "nba-min-okc-2026-03-15-spread-home-9pt5",
-    "wallet": "0x67d550fb3d9facb1d6b317512715b236d597566e",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($1,382)",
-        "Low activity (1 txns)"
-      ],
-      "amount": 1382.24,
-      "odds": 0.53,
-      "raw_price": 0.53,
-      "outcome": "Timberwolves",
-      "potential_pnl": 1225.76,
-      "pnl_multiplier": 0.8867924528301886,
-      "wallet_age_days": 0,
-      "total_activities": 1
-    },
-    "timestamp": "2026-03-15T11:53:52.170498",
-    "trade_hash": "0x54dc1cff7d9c40a376e1a14193c9426db59a276c8b0a5e4aa495f37fb6493c90",
-    "trade_timestamp": 1773575535,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Timberwolves",
-      "side": "BUY",
-      "price": 0.53,
-      "effective_price": 0.53,
-      "size": 2608.0,
-      "amount": 1382.24,
-      "potential_pnl": 1225.76,
-      "pnl_multiplier": 0.8867924528301886,
-      "is_no": false,
-      "slug": "nba-min-okc-2026-03-15-spread-home-9pt5",
-      "eventSlug": "nba-min-okc-2026-03-15"
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+28.4%)"
-      ],
-      "category": "other",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.246,
-      "market_price": 0.53,
-      "edge": 0.28400000000000003,
-      "edge_percent": 28.400000000000002,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Thunder's offensive performance",
-          "Opponent's defensive weaknesses",
-          "Injury status of key players"
-        ],
-        "weakest_link": "Injury status of key players"
-      },
-      "category": "sports",
-      "narrative_drivers": [
-        "Recent performance trends of the Thunder",
-        "Public sentiment and betting patterns"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "INSIDER_ONLY",
-      "signal_emoji": "\ud83d\udc41\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider activity detected, no clear mispricing",
-      "action_suggestion": "Monitor: insider signal only, no statistical edge",
-      "insider_score": 70,
-      "insider_position": "TIMBERWOLVES",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.28400000000000003,
-      "edge_percent": 28.400000000000002
-    },
-    "financial_analyst": {
-      "signal_quality": 51.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 28.4,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-22T07:20:44.047087+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-15 >7 days ago, removed from API"
-    }
-  },
-  {
     "market": "Timberwolves vs. Thunder: O/U 225.5",
     "market_slug": "nba-min-okc-2026-03-15-total-225pt5",
     "event_slug": "nba-min-okc-2026-03-15-total-225pt5",
@@ -34890,5 +34664,97 @@
     "strength": 75,
     "timestamp": "2026-04-22T08:15:24.864643",
     "ai_context": "\u274c SKIP \u2014 Recent developments indicate a low likelihood of a Russia-Ukraine ceasefire before the release of GTA VI.\nThe 32-hour Orthodox Easter ceasefire in April 2026 collapsed quickly, with both sides accusing each other of violations. Prediction markets assign only a 1.4% probability to a ceasefire by April 30, 2026, reflecting skepticism about near-term peace prospects. (agenticnews.site) GTA VI is scheduled for release on November 19, 2026. (thegta-6."
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x2599d53034a39eb06b142a7882c6048d492b48d615d35335c7616ea14639dfc2",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.515682,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xd5d75539d4914aadfafd042c10141e5f45e44952",
+      "side": "BUY",
+      "asset": "56231474151770057648855426299021396541474371449092934400587810748856711049761",
+      "conditionId": "0x924a2942747dd75703321a7c8d809c68f6a514c3b0f2a2e64274e02310634669",
+      "size": 2890.022221,
+      "price": 0.8999999996885837,
+      "timestamp": 1776851052,
+      "title": "Strait of Hormuz traffic returns to normal by end of April?",
+      "slug": "strait-of-hormuz-traffic-returns-to-normal-by-april-30",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-ships-transit-the-strait-of-hormuz-on-any-day-in-march-ERARnetK0FJm.jpg",
+      "eventSlug": "strait-of-hormuz-traffic-returns-to-normal-by-april-30",
+      "outcome": "No",
+      "outcomeIndex": 1,
+      "name": "Trippy.",
+      "pseudonym": "Another-Photograph-Activist",
+      "bio": "Just learned psychotrading.",
+      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-6579121-50a5030b-77c5-4014-a754-305f60b4b549.png",
+      "profileImageOptimized": "",
+      "transactionHash": "0x2599d53034a39eb06b142a7882c6048d492b48d615d35335c7616ea14639dfc2",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Strait of Hormuz traffic returns to normal by end of April?",
+    "market_slug": "strait-of-hormuz-traffic-returns-to-normal-by-april-30",
+    "amount": 2601.019998,
+    "ai_context": "\u274c SKIP \u2014 Recent developments indicate that the Strait of Hormuz remains closed, with no clear timeline for reopening.\nOn April 18, 2026, Iran announced the closure of the Strait of Hormuz, intensifying tensions with the United States. The UN reported a 95% drop in daily vessel transits over the past few months. (axios.com) Additionally, prediction markets reflect skepticism about a near-term resolution, with the \"No\" side priced at 88.5%. (prediction.",
+    "ai_verdict": "SKIP"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xcde6609d4d90fc7e6ebcd6bc4614e5078ba7807c5d5e2514d50b0df2eec8cca6",
+    "wallet": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
+    "trader": {
+      "rank": 17,
+      "address": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
+      "username": "GamblingIsAllYouNeed",
+      "profit": 4547428.385813171,
+      "volume": 369316471.30595905,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xf7c2664cb29240811d6a89dd3960ebbc03a79b8d",
+      "side": "BUY",
+      "asset": "78004485512230691363950395810630533336261603660897031050583371775426460723417",
+      "conditionId": "0xc55c934d4570040df226ab2c53b1f2e401a267c33045f44f8052aa38b05ab11f",
+      "size": 6200.008874,
+      "price": 0.529999999949115,
+      "timestamp": 1776851650,
+      "title": "Dota 2: South America Rejects vs MOUZ - Game 1 Winner",
+      "slug": "dota2-sar1-mouz-2026-04-22-game1",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/dota2-7ffacddb21.jpg",
+      "eventSlug": "dota2-sar1-mouz-2026-04-22",
+      "outcome": "MOUZ",
+      "outcomeIndex": 1,
+      "name": "spartachio",
+      "pseudonym": "Moist-Barium",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xcde6609d4d90fc7e6ebcd6bc4614e5078ba7807c5d5e2514d50b0df2eec8cca6",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Dota 2: South America Rejects vs MOUZ - Game 1 Winner",
+    "market_slug": "dota2-sar1-mouz-2026-04-22",
+    "amount": 3286.004702904512,
+    "ai_context": "\u2705 COPY \u2014 MOUZ has a strong recent performance, including a 2-1 victory over Virtus.pro on April 21, 2026. (bo3.gg)\nMOUZ has won 2 of their last 5 matches, including a 2-1 victory over Virtus.pro on April 21, 2026. (bo3.gg)\nSouth America Rejects has won 4 of their last 5 matches, including a 2-0 victory over Power Rangers on April 21, 2026. (tips.gg)\nWhile South America Rejects has a strong recent record, MOUZ's recent win against Virtus.pro suggests they are in good form.",
+    "ai_verdict": "COPY"
   }
 ]
