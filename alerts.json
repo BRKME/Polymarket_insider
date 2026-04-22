@@ -1,56 +1,5 @@
 [
   {
-    "type": "TOP_TRADER",
-    "trade_hash": "0x0385d21588903134b898daba933450eece094b7487891903886a786ffcc8f9b6",
-    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-    "trader": {
-      "rank": 1,
-      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-      "username": "Theo4",
-      "profit": 22053933.752321757,
-      "volume": 43013258.51568201,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x0b79ec091819b05dc86ff14a9b074e181654b400",
-      "side": "BUY",
-      "asset": "58229761249940950038002935478358286851735279378786458024611929797195551773462",
-      "conditionId": "0xea9cae2d80f3adc75f627599c96f9d25b39105c15343763ed545807b9de837f5",
-      "size": 2061.855666,
-      "price": 0.9699999999903,
-      "timestamp": 1773584273,
-      "title": "Bitcoin Up or Down - March 15, 10:15AM-10:20AM ET",
-      "slug": "btc-updown-5m-1773584100",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/BTC+fullsize.png",
-      "eventSlug": "btc-updown-5m-1773584100",
-      "outcome": "Down",
-      "outcomeIndex": 1,
-      "name": "ultraxion",
-      "pseudonym": "Lively-Pathology",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x0385d21588903134b898daba933450eece094b7487891903886a786ffcc8f9b6",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Bitcoin Up or Down - March 15, 10:15AM-10:20AM ET",
-    "market_slug": "btc-updown-5m-1773584100",
-    "amount": 1999.9999959999998,
-    "resolution": {
-      "outcome": "Down",
-      "checked_at": "2026-04-22T07:20:45.859568+00:00",
-      "insider_win": true,
-      "model_correct": null,
-      "pnl": 61.86
-    }
-  },
-  {
     "market": "Mavericks vs. Cavaliers: O/U 235.5",
     "market_slug": "nba-dal-cle-2026-03-15-total-235pt5",
     "event_slug": "nba-dal-cle-2026-03-15-total-235pt5",
@@ -34655,5 +34604,51 @@
     "strength": 70,
     "timestamp": "2026-04-22T11:57:09.003013",
     "ai_context": "\u274c SKIP \u2014 Recent developments indicate a lack of progress toward a lasting ceasefire before the release of GTA VI.\nThe 32-hour Orthodox Easter truce in April 2026 collapsed quickly, with both sides accusing each other of violations. Prediction markets assign a mere 1.4% probability to a ceasefire by April 30, 2026, reflecting skepticism about near-term peace prospects. (agenticnews.site) Given that GTA VI is scheduled for release on November 19, 2026, (thegta-6."
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xb0d7ea1328d62953d2a60bd632e4830b99c5ab2d5d0e07abda552adee373912c",
+    "wallet": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+    "trader": {
+      "rank": 7,
+      "address": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+      "username": "RN1",
+      "profit": 7371989.153193929,
+      "volume": 446043547.09828377,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xe734e7bf7cfb9e464681f71822f6c2f6be514f0c",
+      "side": "BUY",
+      "asset": "70864498837909304673347902458025849576188725084547259491384143083098151011359",
+      "conditionId": "0x35d8c42a467d4e485ffba50c5d2d984ed0793f4935319ca923b494798051c8ef",
+      "size": 12384.62984,
+      "price": 0.18873015625,
+      "timestamp": 1776862156,
+      "title": "Will WTI Crude Oil (WTI) hit (HIGH) $110 in April?",
+      "slug": "will-wti-crude-oil-wti-hit-high-110-in-april",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/crude-oil-9a850ce2a2.png",
+      "eventSlug": "what-price-will-wti-hit-in-april-2026",
+      "outcome": "Yes",
+      "outcomeIndex": 0,
+      "name": "boyau",
+      "pseudonym": "Frozen-Antler",
+      "bio": "Tg",
+      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-6142404-4a26f787-169f-4eac-ad75-b638832f118c.webp",
+      "profileImageOptimized": "",
+      "transactionHash": "0xb0d7ea1328d62953d2a60bd632e4830b99c5ab2d5d0e07abda552adee373912c",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Will WTI Crude Oil (WTI) hit (HIGH) $110 in April?",
+    "market_slug": "what-price-will-wti-hit-in-april-2026",
+    "amount": 2337.3531248016125,
+    "ai_context": "\u274c SKIP \u2014 WTI Crude Oil has not reached $110 in April 2026, and recent forecasts suggest it may not do so.\nAs of April 21, 2026, WTI Crude Oil was trading at $89.77, with a 6% increase following U.S.-Iran tensions. (axios.com) A forecast from April 6, 2026, anticipated an uptrend with a target price of $120, but this has not materialized. (youtube.com) Given the current price and market forecasts, reaching $110 by the end of April appears unlikely.",
+    "ai_verdict": "SKIP"
   }
 ]
