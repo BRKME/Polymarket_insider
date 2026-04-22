@@ -1,170 +1,5 @@
 [
   {
-    "type": "TOP_TRADER",
-    "trade_hash": "0x9fdcbe86dcb4bd8ad610f2335fc063a21cef9d5acf55e50158cf93e01dcefb56",
-    "wallet": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
-    "trader": {
-      "rank": 12,
-      "address": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
-      "username": "RN1",
-      "profit": 5563718.1300163055,
-      "volume": 263669701.18810004,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0xb45a797faa52b0fd8adc56d30382022b7b12192c",
-      "side": "BUY",
-      "asset": "29938514184970414348155694778671980817991099472183324339505529775105034074937",
-      "conditionId": "0x81672be3a86cb59edbdf292fa223d2a74703eb4e3f0bf570587bcae830928822",
-      "size": 17362.55,
-      "price": 0.41,
-      "timestamp": 1773606479,
-      "title": "Jazz vs. Kings",
-      "slug": "nba-uta-sac-2026-03-15",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
-      "eventSlug": "nba-uta-sac-2026-03-15",
-      "outcome": "Jazz",
-      "outcomeIndex": 0,
-      "name": "bcda",
-      "pseudonym": "Pesky-Fedora",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x9fdcbe86dcb4bd8ad610f2335fc063a21cef9d5acf55e50158cf93e01dcefb56",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Jazz vs. Kings",
-    "market_slug": "nba-uta-sac-2026-03-15",
-    "amount": 7118.6455,
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-22T07:20:44.047237+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-15 >7 days ago, removed from API"
-    }
-  },
-  {
-    "market": "Pacers vs. Bucks",
-    "market_slug": "nba-ind-mil-2026",
-    "event_slug": "nba-ind-mil-2026",
-    "wallet": "0xf191cd550623fac328501e75dee7eea4f1de5b58",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($1,650)",
-        "Low activity (1 txns)"
-      ],
-      "amount": 1650.0,
-      "odds": 0.66,
-      "raw_price": 0.66,
-      "outcome": "Bucks",
-      "potential_pnl": 849.9999999999998,
-      "pnl_multiplier": 0.515151515151515,
-      "wallet_age_days": 0,
-      "total_activities": 1
-    },
-    "timestamp": "2026-03-15T20:49:29.081382",
-    "trade_hash": "0xa6c2288e831f192300aa6d222e29a598e9910d3703f6b219a133918e97f5e734",
-    "trade_timestamp": 1773607419,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Bucks",
-      "side": "BUY",
-      "price": 0.66,
-      "effective_price": 0.66,
-      "size": 2500.0,
-      "amount": 1650.0,
-      "potential_pnl": 849.9999999999998,
-      "pnl_multiplier": 0.515151515151515,
-      "is_no": false,
-      "slug": "nba-ind-mil-2026",
-      "eventSlug": "nba-ind-mil-2026-03-15"
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+38.8%)"
-      ],
-      "category": "sports",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.272,
-      "market_price": 0.66,
-      "edge": 0.388,
-      "edge_percent": 38.800000000000004,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Pacers maintain key player health",
-          "Bucks perform consistently well",
-          "External factors (e.g., injuries to other teams) favor the Pacers"
-        ],
-        "weakest_link": "External factors (e.g., injuries to other teams) favor the Pacers"
-      },
-      "category": "sports",
-      "narrative_drivers": [
-        "Team performance trends",
-        "Injury reports and player availability"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "INSIDER_ONLY",
-      "signal_emoji": "\ud83d\udc41\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider activity detected, no clear mispricing",
-      "action_suggestion": "Monitor: insider signal only, no statistical edge",
-      "insider_score": 70,
-      "insider_position": "BUCKS",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.388,
-      "edge_percent": 38.800000000000004
-    },
-    "financial_analyst": {
-      "signal_quality": 51.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 38.8,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-22T07:20:44.047249+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-15 >7 days ago, removed from API"
-    }
-  },
-  {
     "market": "Will Matt Fitzpatrick win the 2026 THE PLAYERS Championship?",
     "market_slug": "2026-the-players-championship-winner-matt-fitzpatrick-win",
     "event_slug": "2026-the-players-championship-winner-matt-fitzpatrick-win",
@@ -34435,5 +34270,69 @@
     "strength": 71,
     "timestamp": "2026-04-22T21:43:00.902722",
     "ai_context": "\u274c SKIP \u2014 Recent developments indicate a lack of significant progress toward a lasting Russia-Ukraine ceasefire before the scheduled release of GTA VI.\nThe 32-hour Orthodox Easter ceasefire in April 2026 was marred by mutual accusations of violations, with Ukraine reporting 469 breaches by Russia, primarily involving drone attacks. Following the truce, full-scale fighting resumed immediately across multiple sectors of the frontline. (en.wikipedia."
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xcb6d788fe320b9ee51fe2349b21dc64dddea1972b3656abf0b81cf8a1bbea531",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.515682004,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x03b876c12bdcba1bde02d664a4ae20b2aed1b4ae",
+      "side": "BUY",
+      "asset": "59418831337376891710233638567616024233546127823202746547149782307301327249117",
+      "conditionId": "0xa307aded137a5e0b59d685f02b75b7aac53ddc21ec728c6e4cf9e5b999709635",
+      "size": 8143.333342,
+      "price": 0.2399999999184,
+      "timestamp": 1776899078,
+      "title": "Magic vs. Pistons",
+      "slug": "nba-orl-det-2026-04-22",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
+      "eventSlug": "nba-orl-det-2026-04-22",
+      "outcome": "Magic",
+      "outcomeIndex": 0,
+      "name": "0x03b876C12BDCba1BdE02D664a4aE20B2aEd1b4aE-1758035857861",
+      "pseudonym": "Spotless-Clause",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xcb6d788fe320b9ee51fe2349b21dc64dddea1972b3656abf0b81cf8a1bbea531",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Magic vs. Pistons",
+    "market_slug": "nba-orl-det-2026-04-22",
+    "amount": 1954.4000014155038,
+    "ai_context": "\u2705 COPY \u2014 Magic's recent form and head-to-head record support the bet.\nThe Magic have won 2 of the last 3 matchups against the Pistons, including a decisive 123-107 victory on April 6, 2026. In Game 1 of the current playoff series on April 19, 2026, the Magic secured a 112-101 win, with forwards Paolo Banchero and Franz Wagner combining for 42 points. (axios.com)\nGiven the Magic's recent successes against the Pistons, the trader's bet on the Magic at 24% odds appears well-supported.",
+    "ai_verdict": "COPY"
+  },
+  {
+    "type": "WHALE_FLOW",
+    "condition_id": "0xb814f5d642ef1a02f61c4a058d1c096b9dc6d9eac0f4526906a71a916a3ce071",
+    "market": "Russia-Ukraine Ceasefire before GTA VI?",
+    "market_slug": "russia-ukraine-ceasefire-before-gta-vi-554",
+    "event_slug": "",
+    "dominant_side": "NO",
+    "dominant_volume": 52291.0,
+    "total_volume": 52346.0,
+    "imbalance_pct": 99.9,
+    "unique_wallets": 45,
+    "trade_count": 117,
+    "max_single_trade": 28013.0,
+    "yes_price": 0.535,
+    "strength": 85,
+    "timestamp": "2026-04-22T23:16:43.776010",
+    "ai_context": "\u2705 COPY \u2014 Recent developments indicate a low likelihood of a Russia-Ukraine ceasefire before the release of GTA VI.\nThe 32-hour Orthodox Easter ceasefire in April 2026 collapsed rapidly, with both sides accusing each other of violations, highlighting deep-seated distrust. Prediction markets assign only a 1.4% probability to an official ceasefire by April 30, 2026, reflecting skepticism about near-term peace prospects. (agenticnews."
   }
 ]
