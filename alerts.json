@@ -1,233 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0x517aa7fd0d60cf876563de019e344c7ee4e824a5619f0eebbf4376695c81d236",
-    "wallet": "0xd235973291b2b75ff4070e9c0b01728c520b0f29",
-    "trader": {
-      "rank": 5,
-      "address": "0xd235973291b2b75ff4070e9c0b01728c520b0f29",
-      "username": "zxgngl",
-      "profit": 7807265.589240883,
-      "volume": 40551790.62184699,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x4133bcbad1d9c41de776646696f41c34d0a65e70",
-      "side": "BUY",
-      "asset": "49199458578674299280518325446666793632087135647583739482099632115201280158865",
-      "conditionId": "0xa6e7b22c7450fbccf515ac7da064b6b6d1c76f187a626a6e6be5126e04c64e67",
-      "size": 5482.89,
-      "price": 0.76,
-      "timestamp": 1773587871,
-      "title": "Will Manchester United FC win on 2026-03-15?",
-      "slug": "epl-mun-ast-2026-03-15-mun",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Repetitive-markets/premier+league.jpg",
-      "eventSlug": "epl-mun-ast-2026-03-15",
-      "outcome": "Yes",
-      "outcomeIndex": 0,
-      "name": "EF203F2IPFC2ICP20W-CP3",
-      "pseudonym": "Bogus-Fix",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x517aa7fd0d60cf876563de019e344c7ee4e824a5619f0eebbf4376695c81d236",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Will Manchester United FC win on 2026-03-15?",
-    "market_slug": "epl-mun-ast-2026-03-15",
-    "amount": 4166.9964,
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-22T07:20:44.047196+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-15 >7 days ago, removed from API"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
-    "trade_hash": "0x27077fc0c06bced726f03c48cdd09e1e548e461319d2e349efa17f2ddcf44c7f",
-    "wallet": "0x863134d00841b2e200492805a01e1e2f5defaa53",
-    "trader": {
-      "rank": 6,
-      "address": "0x863134d00841b2e200492805a01e1e2f5defaa53",
-      "username": "RepTrump",
-      "profit": 7532409.671579,
-      "volume": 13983231.103425002,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x204f72f35326db932158cba6adff0b9a1da95e14",
-      "side": "BUY",
-      "asset": "60203334973257272102706335341054306862744031971487285043273692886903476022862",
-      "conditionId": "0xfcf1bbdfebe8a787f165e324b06706bf6cf55d9fc65f025d9fd532911eb14ec3",
-      "size": 2465,
-      "price": 0.83,
-      "timestamp": 1773589671,
-      "title": "Will RC Strasbourg Alsace vs. Paris FC end in a draw?",
-      "slug": "fl1-str-pfc-2026-03-15-draw",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/league-fl1.png",
-      "eventSlug": "fl1-str-pfc-2026-03-15",
-      "outcome": "Yes",
-      "outcomeIndex": 0,
-      "name": "swisstony",
-      "pseudonym": "Frail-Possible",
-      "bio": "loincloth chic",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x27077fc0c06bced726f03c48cdd09e1e548e461319d2e349efa17f2ddcf44c7f",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Will RC Strasbourg Alsace vs. Paris FC end in a draw?",
-    "market_slug": "fl1-str-pfc-2026-03-15",
-    "amount": 2045.9499999999998,
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-22T07:20:44.047208+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-15 >7 days ago, removed from API"
-    }
-  },
-  {
-    "market": "Spread: Thunder (-9.5)",
-    "market_slug": "nba-min-okc-2026-03-15-spread-home-9pt5",
-    "event_slug": "nba-min-okc-2026-03-15-spread-home-9pt5",
-    "wallet": "0x37c1874a60d348903594a96703e0507c518fc53a",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (5d old)",
-        "Large bet ($1,296)",
-        "Top trader #37 ($2,302,628 profit)"
-      ],
-      "amount": 1295.5908,
-      "odds": 0.42,
-      "raw_price": 0.42,
-      "outcome": "Thunder",
-      "potential_pnl": 1789.1492000000003,
-      "pnl_multiplier": 1.3809523809523812,
-      "wallet_age_days": 5,
-      "total_activities": 100
-    },
-    "timestamp": "2026-03-15T15:59:50.514046",
-    "trade_hash": "0xbbd7aba99292938b211b388180dfd2468d1ce5d66ecb20b1ed715f055a0d21a9",
-    "trade_timestamp": 1773590041,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": {
-      "rank": 37,
-      "address": "0x37c1874a60d348903594a96703e0507c518fc53a",
-      "username": "CemeterySun",
-      "profit": 2302628.0563966744,
-      "volume": 21380700.67014,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade_data": {
-      "outcome": "Thunder",
-      "side": "BUY",
-      "price": 0.42,
-      "effective_price": 0.42,
-      "size": 3084.74,
-      "amount": 1295.5908,
-      "potential_pnl": 1789.1492000000003,
-      "pnl_multiplier": 1.3809523809523812,
-      "is_no": false,
-      "slug": "nba-min-okc-2026-03-15-spread-home-9pt5",
-      "eventSlug": "nba-min-okc-2026-03-15"
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+19.6%)"
-      ],
-      "category": "other",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.22399999999999998,
-      "market_price": 0.42,
-      "edge": 0.196,
-      "edge_percent": 19.6,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Thunder cover the spread",
-          "Opponent's performance is below expectations",
-          "Injuries or absences impact game outcome"
-        ],
-        "weakest_link": "Opponent's performance is below expectations"
-      },
-      "category": "sports",
-      "narrative_drivers": [
-        "Team performance trends",
-        "Injury reports and player availability"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "INSIDER_ONLY",
-      "signal_emoji": "\ud83d\udc41\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider activity detected, no clear mispricing",
-      "action_suggestion": "Monitor: insider signal only, no statistical edge",
-      "insider_score": 70,
-      "insider_position": "THUNDER",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.196,
-      "edge_percent": 19.6
-    },
-    "financial_analyst": {
-      "signal_quality": 51.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 19.6,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-22T07:20:44.047220+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-15 >7 days ago, removed from API"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0xea91beed77056c8b6255ae2cf9881f9f0fc825f67c3f0c5e44f1823e24b278f1",
     "wallet": "0x8119010a6e589062aa03583bb3f39ca632d9f887",
     "trader": {
@@ -34607,5 +34380,87 @@
     "amount": 1743.5510000000002,
     "ai_context": "\u274c SKIP \u2014 Benjamin Bonzi has a perfect 1-0 head-to-head record against Titouan Droguet.\nTheir most recent encounter was in June 2024 at the Ilkley Challenger, where Bonzi won 7-6(5), 6-4. (tennisratio.com) Additionally, Bonzi has a higher ATP ranking of No. 104 compared to Droguet's No. 113. (tennisstats.com) However, Droguet has been in better recent form, with a 52-25 record over the past 52 weeks, compared to Bonzi's 29-24 record. (tennisratio.",
     "ai_verdict": "SKIP"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x2994cb70e89d13ccc362b61579fff378895d6b81f6d389c4361170da42f8b3f8",
+    "wallet": "0x8119010a6e589062aa03583bb3f39ca632d9f887",
+    "trader": {
+      "rank": 9,
+      "address": "0x8119010a6e589062aa03583bb3f39ca632d9f887",
+      "username": "PrincessCaro",
+      "profit": 6083643.099591745,
+      "volume": 23520809.952867,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xb16999ad3226b15a53517d2374544b6f28b71d6f",
+      "side": "BUY",
+      "asset": "59418831337376891710233638567616024233546127823202746547149782307301327249117",
+      "conditionId": "0xa307aded137a5e0b59d685f02b75b7aac53ddc21ec728c6e4cf9e5b999709635",
+      "size": 5595.962393,
+      "price": 0.21999999988481767,
+      "timestamp": 1776883466,
+      "title": "Magic vs. Pistons",
+      "slug": "nba-orl-det-2026-04-22",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
+      "eventSlug": "nba-orl-det-2026-04-22",
+      "outcome": "Magic",
+      "outcomeIndex": 0,
+      "name": "0xB16999Ad3226b15A53517D2374544b6F28B71D6f-1734230760141",
+      "pseudonym": "Criminal-Triad",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x2994cb70e89d13ccc362b61579fff378895d6b81f6d389c4361170da42f8b3f8",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Magic vs. Pistons",
+    "market_slug": "nba-orl-det-2026-04-22",
+    "amount": 1231.1117258154438,
+    "ai_context": "\u2705 COPY \u2014 Magic's recent form and head-to-head record support the bet.\nThe Magic have won 4 of the last 6 matchups against the Pistons, including a 112-101 victory in Game 1 of the current playoff series. (statz.ai)\nAdditionally, the Magic have a 7-7 record over the past 30 days, indicating consistent performance. (statmuse.com)\nGiven these factors, the trader's bet on the Magic at 22% odds appears well-supported.",
+    "ai_verdict": "COPY"
+  },
+  {
+    "type": "WHALE_FLOW",
+    "condition_id": "0x836dadd95dcbbe5ac59e5817abd8d1555c7eecee44d8d1b2271396d175f95138",
+    "market": "Russia-Ukraine Ceasefire before GTA VI?",
+    "market_slug": "russia-ukraine-ceasefire-before-gta-vi-554",
+    "event_slug": "",
+    "dominant_side": "YES",
+    "dominant_volume": 79867.0,
+    "total_volume": 79867.0,
+    "imbalance_pct": 100.0,
+    "unique_wallets": 3,
+    "trade_count": 3,
+    "max_single_trade": 79623.0,
+    "yes_price": 0.535,
+    "strength": 94,
+    "timestamp": "2026-04-22T18:54:30.363242",
+    "ai_context": "\u274c SKIP \u2014 Recent developments indicate a lack of progress toward a lasting ceasefire before the scheduled release of GTA VI.\nThe 32-hour Orthodox Easter ceasefire between Russia and Ukraine, which began on April 11, 2026, was marred by mutual accusations of violations, including drone attacks. Ukrainian President Volodymyr Zelenskyy expressed hope for an extension beyond the holiday, but full-scale fighting resumed immediately after the truce expired on April 13, 2026. (aljazeera."
+  },
+  {
+    "type": "WHALE_FLOW",
+    "condition_id": "0x7ccb4c08e1052111d6472cad3f839990567bcf3eb090b05330b80d6a5da06c3f",
+    "market": "Russia-Ukraine Ceasefire before GTA VI?",
+    "market_slug": "russia-ukraine-ceasefire-before-gta-vi-554",
+    "event_slug": "",
+    "dominant_side": "YES",
+    "dominant_volume": 38400.0,
+    "total_volume": 38560.0,
+    "imbalance_pct": 99.6,
+    "unique_wallets": 6,
+    "trade_count": 8,
+    "max_single_trade": 18690.0,
+    "yes_price": 0.535,
+    "strength": 78,
+    "timestamp": "2026-04-22T18:54:29.695515",
+    "ai_context": "\u274c SKIP \u2014 Recent developments indicate a lack of significant progress toward a lasting Russia-Ukraine ceasefire before the release of GTA VI.\nThe 32-hour Orthodox Easter ceasefire in April 2026 collapsed quickly, with both sides accusing each other of violations, highlighting persistent distrust and ongoing hostilities. (polymarket.com) Additionally, prediction markets assign only a 1.4% probability to an official ceasefire by April 30, 2026, reflecting skepticism about near-term peace prospects."
   }
 ]
