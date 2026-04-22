@@ -1,51 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0xea91beed77056c8b6255ae2cf9881f9f0fc825f67c3f0c5e44f1823e24b278f1",
-    "wallet": "0x8119010a6e589062aa03583bb3f39ca632d9f887",
-    "trader": {
-      "rank": 7,
-      "address": "0x8119010a6e589062aa03583bb3f39ca632d9f887",
-      "username": "PrincessCaro",
-      "profit": 6083643.099591745,
-      "volume": 23520809.95286701,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0xde17f7144fbd0eddb2679132c10ff5e74b120988",
-      "side": "BUY",
-      "asset": "53871780365151386629226515608960369445542635482908110928489429430123093522377",
-      "conditionId": "0xd32f73b7d90cd18287e48b11ff855bee97543ad87ab38ef3fffde06504e5c2bd",
-      "size": 4130.71,
-      "price": 0.64,
-      "timestamp": 1773597171,
-      "title": "Will Bitcoin reach $75,000 in March?",
-      "slug": "will-bitcoin-reach-75k-in-march-2026",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/BTC+fullsize.png",
-      "eventSlug": "what-price-will-bitcoin-hit-in-march-2026",
-      "outcome": "Yes",
-      "outcomeIndex": 0,
-      "name": "0xdE17f7144fbD0eddb2679132C10ff5e74B120988-1772205225932",
-      "pseudonym": "Attentive-Silica",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0xea91beed77056c8b6255ae2cf9881f9f0fc825f67c3f0c5e44f1823e24b278f1",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Will Bitcoin reach $75,000 in March?",
-    "market_slug": "what-price-will-bitcoin-hit-in-march-2026",
-    "amount": 2643.6544,
-    "resolution_last_check": "2026-04-22T07:20:47.653745+00:00"
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0x9fdcbe86dcb4bd8ad610f2335fc063a21cef9d5acf55e50158cf93e01dcefb56",
     "wallet": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
     "trader": {
@@ -34462,5 +34417,23 @@
     "strength": 78,
     "timestamp": "2026-04-22T18:54:29.695515",
     "ai_context": "\u274c SKIP \u2014 Recent developments indicate a lack of significant progress toward a lasting Russia-Ukraine ceasefire before the release of GTA VI.\nThe 32-hour Orthodox Easter ceasefire in April 2026 collapsed quickly, with both sides accusing each other of violations, highlighting persistent distrust and ongoing hostilities. (polymarket.com) Additionally, prediction markets assign only a 1.4% probability to an official ceasefire by April 30, 2026, reflecting skepticism about near-term peace prospects."
+  },
+  {
+    "type": "WHALE_FLOW",
+    "condition_id": "0xda9243da774d9bcd9bd73cfda75f7cffc2be99af858c69d47ecf09cc9ab7629d",
+    "market": "Russia-Ukraine Ceasefire before GTA VI?",
+    "market_slug": "russia-ukraine-ceasefire-before-gta-vi-554",
+    "event_slug": "",
+    "dominant_side": "YES",
+    "dominant_volume": 25115.0,
+    "total_volume": 25715.0,
+    "imbalance_pct": 97.7,
+    "unique_wallets": 12,
+    "trade_count": 22,
+    "max_single_trade": 22793.0,
+    "yes_price": 0.535,
+    "strength": 71,
+    "timestamp": "2026-04-22T21:43:00.902722",
+    "ai_context": "\u274c SKIP \u2014 Recent developments indicate a lack of significant progress toward a lasting Russia-Ukraine ceasefire before the scheduled release of GTA VI.\nThe 32-hour Orthodox Easter ceasefire in April 2026 was marred by mutual accusations of violations, with Ukraine reporting 469 breaches by Russia, primarily involving drone attacks. Following the truce, full-scale fighting resumed immediately across multiple sectors of the frontline. (en.wikipedia."
   }
 ]
