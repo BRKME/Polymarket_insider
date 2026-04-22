@@ -1,170 +1,5 @@
 [
   {
-    "market": "Timberwolves vs. Thunder: O/U 225.5",
-    "market_slug": "nba-min-okc-2026-03-15-total-225pt5",
-    "event_slug": "nba-min-okc-2026-03-15-total-225pt5",
-    "wallet": "0x278a3752453dfed76a4ad463dc4275730cac2245",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($2,185)",
-        "Low activity (2 txns)"
-      ],
-      "amount": 2184.52,
-      "odds": 0.52,
-      "raw_price": 0.52,
-      "outcome": "Over",
-      "potential_pnl": 2016.4799999999998,
-      "pnl_multiplier": 0.923076923076923,
-      "wallet_age_days": 0,
-      "total_activities": 2
-    },
-    "timestamp": "2026-03-15T13:03:58.834379",
-    "trade_hash": "0xb1110eee2ce0b9d593cb82e3e92c95e2d1dd585a43e042f83933623c67a5225a",
-    "trade_timestamp": 1773579511,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Over",
-      "side": "BUY",
-      "price": 0.52,
-      "effective_price": 0.52,
-      "size": 4201.0,
-      "amount": 2184.52,
-      "potential_pnl": 2016.4799999999998,
-      "pnl_multiplier": 0.923076923076923,
-      "is_no": false,
-      "slug": "nba-min-okc-2026-03-15-total-225pt5",
-      "eventSlug": "nba-min-okc-2026-03-15"
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+27.6%)"
-      ],
-      "category": "sports",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.244,
-      "market_price": 0.52,
-      "edge": 0.276,
-      "edge_percent": 27.6,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "both teams score efficiently",
-          "defensive lapses by both teams",
-          "overtime or high-scoring quarters"
-        ],
-        "weakest_link": "defensive lapses by both teams"
-      },
-      "category": "sports",
-      "narrative_drivers": [
-        "recent offensive performances",
-        "injuries affecting team defenses"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "INSIDER_ONLY",
-      "signal_emoji": "\ud83d\udc41\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider activity detected, no clear mispricing",
-      "action_suggestion": "Monitor: insider signal only, no statistical edge",
-      "insider_score": 70,
-      "insider_position": "OVER",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.276,
-      "edge_percent": 27.6
-    },
-    "financial_analyst": {
-      "signal_quality": 51.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 27.6,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-22T07:20:44.047103+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-15 >7 days ago, removed from API"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
-    "trade_hash": "0xbf78ac8c2c0a512cfbf40fa0a33f648f0177252df95a7d562341dd4a99150b00",
-    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-    "trader": {
-      "rank": 1,
-      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-      "username": "Theo4",
-      "profit": 22053933.752321757,
-      "volume": 43013258.515682004,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x19e27eeb3641ae664e77dbb80c86021f048ece3c",
-      "side": "BUY",
-      "asset": "52329571098135195493236924978587281942850163317674259330191354073396046690110",
-      "conditionId": "0x87505068f788d6fe956b3d182d2cc6537f1e65ad8d64529f37bb3f300b780ff9",
-      "size": 12163.16,
-      "price": 0.35917474570752994,
-      "timestamp": 1773579769,
-      "title": "Will RCD Mallorca win on 2026-03-15?",
-      "slug": "lal-mal-esp-2026-03-15-mal",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/league-lal.png",
-      "eventSlug": "lal-mal-esp-2026-03-15",
-      "outcome": "Yes",
-      "outcomeIndex": 0,
-      "name": "loserforever10",
-      "pseudonym": "Shrill-Picturesque",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0xbf78ac8c2c0a512cfbf40fa0a33f648f0177252df95a7d562341dd4a99150b00",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Will RCD Mallorca win on 2026-03-15?",
-    "market_slug": "lal-mal-esp-2026-03-15",
-    "amount": 4368.6999,
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-22T07:20:44.047117+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-15 >7 days ago, removed from API"
-    }
-  },
-  {
     "type": "TOP_TRADER",
     "trade_hash": "0x0385d21588903134b898daba933450eece094b7487891903886a786ffcc8f9b6",
     "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
@@ -34756,5 +34591,69 @@
     "amount": 3286.004702904512,
     "ai_context": "\u2705 COPY \u2014 MOUZ has a strong recent performance, including a 2-1 victory over Virtus.pro on April 21, 2026. (bo3.gg)\nMOUZ has won 2 of their last 5 matches, including a 2-1 victory over Virtus.pro on April 21, 2026. (bo3.gg)\nSouth America Rejects has won 4 of their last 5 matches, including a 2-0 victory over Power Rangers on April 21, 2026. (tips.gg)\nWhile South America Rejects has a strong recent record, MOUZ's recent win against Virtus.pro suggests they are in good form.",
     "ai_verdict": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x7ce6a8269311ba51a5ef55295ab9f1c6ab2998924255d9ac1c82eb5c3f2ba2b5",
+    "wallet": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+    "trader": {
+      "rank": 7,
+      "address": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+      "username": "RN1",
+      "profit": 7378865.850865024,
+      "volume": 445869547.2197669,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xf0d5eb1cbe7350f1f896ade6c172e6700414c665",
+      "side": "BUY",
+      "asset": "110959653450933276250915064669875552310439627880508793089816880777942697720191",
+      "conditionId": "0x1d2787cb8aed975d092b2799ed6f4083e9445f7420cdc09e9d47e7d54356c6cd",
+      "size": 2215.97,
+      "price": 0.82,
+      "timestamp": 1776858554,
+      "title": "US x Iran ceasefire extended by April 22, 2026?",
+      "slug": "us-x-iran-ceasefire-extended-by-april-22-2026",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/us-x-iran-ceasefire-by-Cgmx3GCuOwjs.jpg",
+      "eventSlug": "us-x-iran-ceasefire-extended-by",
+      "outcome": "No",
+      "outcomeIndex": 1,
+      "name": "yen4u",
+      "pseudonym": "Key-Sovereignty",
+      "bio": "",
+      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-6949826-4cc07b96-61fb-489e-9643-a134dd6a0b50.webp",
+      "profileImageOptimized": "",
+      "transactionHash": "0x7ce6a8269311ba51a5ef55295ab9f1c6ab2998924255d9ac1c82eb5c3f2ba2b5",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "US x Iran ceasefire extended by April 22, 2026?",
+    "market_slug": "us-x-iran-ceasefire-extended-by",
+    "amount": 1817.0953999999997,
+    "ai_context": "\u2705 COPY \u2014 Recent developments indicate a ceasefire extension is likely.\nOn April 21, 2026, President Trump announced an indefinite extension of the ceasefire with Iran, citing internal divisions within the Iranian government as a key factor. The decision, made shortly before the ceasefire was due to expire, came after a national security meeting and marked a reversal of Trump\u2019s earlier statements against extending the truce.",
+    "ai_verdict": "COPY"
+  },
+  {
+    "type": "WHALE_FLOW",
+    "condition_id": "0xff1cb2ae5368bfcf6e602290d33a836046951635fadb0384bf7b4c946d829b37",
+    "market": "Russia-Ukraine Ceasefire before GTA VI?",
+    "market_slug": "russia-ukraine-ceasefire-before-gta-vi-554",
+    "event_slug": "",
+    "dominant_side": "YES",
+    "dominant_volume": 20101.0,
+    "total_volume": 20101.0,
+    "imbalance_pct": 100.0,
+    "unique_wallets": 23,
+    "trade_count": 48,
+    "max_single_trade": 5144.0,
+    "yes_price": 0.535,
+    "strength": 70,
+    "timestamp": "2026-04-22T11:57:09.003013",
+    "ai_context": "\u274c SKIP \u2014 Recent developments indicate a lack of progress toward a lasting ceasefire before the release of GTA VI.\nThe 32-hour Orthodox Easter truce in April 2026 collapsed quickly, with both sides accusing each other of violations. Prediction markets assign a mere 1.4% probability to a ceasefire by April 30, 2026, reflecting skepticism about near-term peace prospects. (agenticnews.site) Given that GTA VI is scheduled for release on November 19, 2026, (thegta-6."
   }
 ]
