@@ -1,57 +1,5 @@
 [
   {
-    "type": "TOP_TRADER",
-    "trade_hash": "0xc242a88ec6620643be06f642ded3e86d35e83dc55d294f9ea2470d49bb420bb7",
-    "wallet": "0xe90bec87d9ef430f27f9dcfe72c34b76967d5da2",
-    "trader": {
-      "rank": 15,
-      "address": "0xe90bec87d9ef430f27f9dcfe72c34b76967d5da2",
-      "username": "gmanas",
-      "profit": 5016784.7538586855,
-      "volume": 529047708.50599104,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x7c93b791d698fc4c02099f57a87dd70d6bc8f0f6",
-      "side": "SELL",
-      "asset": "89413703435662076766671780767668367664284824115908819707674538237103927401639",
-      "conditionId": "0x5d4fbc606c90f11cf2217a86939df08e705348572acba2fcccc792ef8b7c1c4b",
-      "size": 3833.96,
-      "price": 0.999,
-      "timestamp": 1773532953,
-      "title": "Hornets vs. Spurs",
-      "slug": "nba-cha-sas-2026-03-14",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
-      "eventSlug": "nba-cha-sas-2026-03-14",
-      "outcome": "Spurs",
-      "outcomeIndex": 1,
-      "name": "0x7c93b791d698fC4C02099F57a87DD70d6BC8f0F6-1767540586100",
-      "pseudonym": "Aggressive-Runaway",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0xc242a88ec6620643be06f642ded3e86d35e83dc55d294f9ea2470d49bb420bb7",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Hornets vs. Spurs",
-    "market_slug": "nba-cha-sas-2026-03-14",
-    "amount": 3830.12604,
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-22T07:20:44.047021+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-14 >7 days ago, removed from API"
-    }
-  },
-  {
     "market": "Spread: Thunder (-9.5)",
     "market_slug": "nba-min-okc-2026-03-15-spread-home-9pt5",
     "event_slug": "nba-min-okc-2026-03-15-spread-home-9pt5",
@@ -34924,5 +34872,23 @@
     "timestamp": "2026-04-21T19:59:55.747517",
     "ai_context": "\u274c SKIP \u2014 Recent developments indicate a lack of significant progress toward a Russia-Ukraine ceasefire before the scheduled release of GTA VI.\nThe 32-hour Orthodox Easter ceasefire, which began on April 11, 2026, was marred by mutual accusations of violations, including drone attacks, leading to its collapse. Prediction markets assign a mere 1.4% probability to an official ceasefire by April 30, 2026, reflecting skepticism about near-term peace prospects. (agenticnews.",
     "resolution_last_check": "2026-04-22T07:24:26.868213+00:00"
+  },
+  {
+    "type": "WHALE_FLOW",
+    "condition_id": "0x3596f8bdc433535988dc32d41591d98053683849b3b757a9a6a2abfa9e842876",
+    "market": "Russia-Ukraine Ceasefire before GTA VI?",
+    "market_slug": "russia-ukraine-ceasefire-before-gta-vi-554",
+    "event_slug": "",
+    "dominant_side": "YES",
+    "dominant_volume": 30213.0,
+    "total_volume": 30213.0,
+    "imbalance_pct": 100.0,
+    "unique_wallets": 6,
+    "trade_count": 9,
+    "max_single_trade": 10020.0,
+    "yes_price": 0.535,
+    "strength": 75,
+    "timestamp": "2026-04-22T08:15:24.864643",
+    "ai_context": "\u274c SKIP \u2014 Recent developments indicate a low likelihood of a Russia-Ukraine ceasefire before the release of GTA VI.\nThe 32-hour Orthodox Easter ceasefire in April 2026 collapsed quickly, with both sides accusing each other of violations. Prediction markets assign only a 1.4% probability to a ceasefire by April 30, 2026, reflecting skepticism about near-term peace prospects. (agenticnews.site) GTA VI is scheduled for release on November 19, 2026. (thegta-6."
   }
 ]
