@@ -1,118 +1,5 @@
 [
   {
-    "market": "Mavericks vs. Pelicans: O/U 239.5",
-    "market_slug": "nba-dal-nop-2026-03-16-total-239pt5",
-    "event_slug": "nba-dal-nop-2026-03-16-total-239pt5",
-    "wallet": "0xb84a93b4739475786eee74e4de71e789458d5918",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($1,314)",
-        "Low activity (2 txns)"
-      ],
-      "amount": 1313.9385,
-      "odds": 0.51,
-      "raw_price": 0.51,
-      "outcome": "Under",
-      "potential_pnl": 1262.4115,
-      "pnl_multiplier": 0.9607843137254901,
-      "wallet_age_days": 0,
-      "total_activities": 2
-    },
-    "timestamp": "2026-03-16T13:48:16.116540",
-    "trade_hash": "0xfac46e8d45140739e14193d6aaaea40adc409d5ce9ffb7e01c1ebedeae9de869",
-    "trade_timestamp": 1773668707,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Under",
-      "side": "BUY",
-      "price": 0.51,
-      "effective_price": 0.51,
-      "size": 2576.35,
-      "amount": 1313.9385,
-      "potential_pnl": 1262.4115,
-      "pnl_multiplier": 0.9607843137254901,
-      "is_no": false,
-      "slug": "nba-dal-nop-2026-03-16-total-239pt5",
-      "eventSlug": "nba-dal-nop-2026-03-16"
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+26.8%)"
-      ],
-      "category": "sports",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.242,
-      "market_price": 0.51,
-      "edge": 0.268,
-      "edge_percent": 26.8,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Both teams have high offensive efficiency",
-          "Both teams have poor defensive performance",
-          "The game pace is fast"
-        ],
-        "weakest_link": "The game pace is fast"
-      },
-      "category": "sports",
-      "narrative_drivers": [
-        "Recent performance trends of both teams",
-        "Injury reports affecting key players"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "INSIDER_ONLY",
-      "signal_emoji": "\ud83d\udc41\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider activity detected, no clear mispricing",
-      "action_suggestion": "Monitor: insider signal only, no statistical edge",
-      "insider_score": 70,
-      "insider_position": "UNDER",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.268,
-      "edge_percent": 26.8
-    },
-    "financial_analyst": {
-      "signal_quality": 51.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 26.8,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-22T07:20:44.047333+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-16 >7 days ago, removed from API"
-    }
-  },
-  {
     "type": "TOP_TRADER",
     "trade_hash": "0x26014f48a94b3a617bf18fc4862f634a1141d1a2901db8f4bc9c858bbadd520e",
     "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
@@ -33978,5 +33865,23 @@
     "amount": 2104.999999,
     "ai_context": "\u2705 COPY \u2014 Aurora has a favorable head-to-head record against Heroic, winning 6 out of 12 encounters.\nIn their most recent match on December 13, 2025, Aurora defeated Heroic 2-1. (egamersworld.com) Additionally, Aurora has shown strong recent form, securing victories in their last five matches, including wins against PARIVISION and 1w Team. (egamersworld.com)\nGiven Aurora's positive head-to-head record and recent strong performances, the trader's bet on Aurora is supported by the available data.",
     "ai_verdict": "COPY"
+  },
+  {
+    "type": "WHALE_FLOW",
+    "condition_id": "0x615fc52443db6c13cf807a33a10df6fa5b700b44d42f56935d7d9a6445672cb9",
+    "market": "Russia-Ukraine Ceasefire before GTA VI?",
+    "market_slug": "russia-ukraine-ceasefire-before-gta-vi-554",
+    "event_slug": "",
+    "dominant_side": "YES",
+    "dominant_volume": 23138.0,
+    "total_volume": 23138.0,
+    "imbalance_pct": 100.0,
+    "unique_wallets": 3,
+    "trade_count": 5,
+    "max_single_trade": 11563.0,
+    "yes_price": 0.525,
+    "strength": 66,
+    "timestamp": "2026-04-23T15:36:50.856713",
+    "ai_context": "\u274c SKIP \u2014 Recent developments indicate a lack of significant progress toward a Russia-Ukraine ceasefire before the release of GTA VI.\nThe 32-hour Orthodox Easter ceasefire in April 2026 collapsed quickly, with both sides accusing each other of violations, highlighting deep-seated distrust. Prediction markets assign a mere 1.4% probability to a ceasefire by April 30, 2026, reflecting skepticism about near-term peace prospects. (agenticnews."
   }
 ]
