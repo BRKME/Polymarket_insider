@@ -317,8 +317,8 @@ def scan_top_traders(tracked_hashes: set) -> List[Dict]:
                     tt_crypto += 1
                     continue
                 
-                # Skip low ROI trades (>93% odds)
-                if effective_odds >= 0.93:
+                # Skip low ROI trades (>90% odds — longshot bias)
+                if effective_odds >= 0.90:
                     tt_low_roi += 1
                     continue
                 market_slug = trade.get('eventSlug', '') or trade.get('slug', '') or trade.get('market', {}).get('slug', '')

@@ -22,7 +22,7 @@ MIN_FLOW_TOTAL = 10000       # $10K+ total directional flow (was $20K — only R
 MIN_IMBALANCE = 0.65         # 65%+ of volume on one side
 MIN_UNIQUE_WALLETS = 2       # At least 2 wallets
 MIN_SINGLE_WHALE = 8000      # OR: single trade $8K+ (one big whale = signal even if alone)
-MAX_ODDS_THRESHOLD = 0.93    # Skip near-certain markets
+MAX_ODDS_THRESHOLD = 0.90    # Skip near-certain markets (longshot bias)
 
 # Markets to skip (same as detector)
 SKIP_KEYWORDS = [

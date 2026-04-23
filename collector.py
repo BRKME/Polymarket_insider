@@ -188,7 +188,7 @@ def is_trade_suspicious(trade: Dict, market: Dict) -> bool:
         # FILTER 2: Skip near-certain bets (>95% = usually arbs)
         # Removed coin-flip filter (0.45-0.55) — insiders often bet when
         # market is still at 50/50 before information moves the price
-        if price > 0.95:  # >95% odds = arbitrage territory
+        if price > 0.90:  # >90% odds = longshot bias territory (SSRN research)
             return False
         
         # Trade passes all filters

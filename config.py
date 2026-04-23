@@ -7,7 +7,7 @@ DATA_API_URL = "https://data-api.polymarket.com"
 # Trading Thresholds
 MIN_BET_SIZE = 1000  # $1,000 minimum (median insider bet = $1,447, $1500 cuts 57%)
 ALERT_THRESHOLD = 70        # Score threshold for alerts (lowered from 80)
-MAX_ODDS_THRESHOLD = 0.95   # Block >95% odds (arbitrage territory)
+MAX_ODDS_THRESHOLD = 0.90   # Block >90% odds (favorite-longshot bias, SSRN #6443103)
 
 # Combined signal gating (RELAXED for more signals)
 COMBINED_SIGNAL_MIN_STRENGTH = 50      # Lowered from 80 (was too strict)
