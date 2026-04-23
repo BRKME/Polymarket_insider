@@ -1,58 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0x3bf9c861b87ea40e4cabeae28ee5b3f7875033cbecc83697be63424065d6b111",
-    "wallet": "0x1f2dd6d473f3e824cd2f8a89d9c69fb96f6ad0cf",
-    "trader": {
-      "rank": 2,
-      "address": "0x1f2dd6d473f3e824cd2f8a89d9c69fb96f6ad0cf",
-      "username": "Fredi9999",
-      "profit": 16619506.63173015,
-      "volume": 76611316.90515402,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
-      "side": "BUY",
-      "asset": "50574567645727124635653196810032330622350265808688675376294694711594635702125",
-      "conditionId": "0xd277196552fc532d3aa80aad1e84e293b57f8bc24499d86ff703cc14ab71713c",
-      "size": 1700,
-      "price": 0.95,
-      "timestamp": 1773610679,
-      "title": "Mavericks vs. Cavaliers",
-      "slug": "nba-dal-cle-2026-03-15",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
-      "eventSlug": "nba-dal-cle-2026-03-15",
-      "outcome": "Mavericks",
-      "outcomeIndex": 0,
-      "name": "curie",
-      "pseudonym": "Illiterate-Counterforce",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x3bf9c861b87ea40e4cabeae28ee5b3f7875033cbecc83697be63424065d6b111",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Mavericks vs. Cavaliers",
-    "market_slug": "nba-dal-cle-2026-03-15",
-    "amount": 1615.0,
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-22T07:20:44.047267+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-15 >7 days ago, removed from API"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0xeea83f630c393fe8e32c204b5025ac1779290eb1cf654389aabca05edafb1245",
     "wallet": "0x204f72f35326db932158cba6adff0b9a1da95e14",
     "trader": {
@@ -34268,5 +34216,23 @@
     "amount": 4650.7172,
     "ai_context": "\u2705 COPY \u2014 Recent developments indicate a de-escalation in U.S.-Iran tensions, suggesting an invasion is unlikely before 2027.\nOn April 21, 2026, President Trump announced an indefinite extension of the ceasefire with Iran, citing internal divisions within the Iranian government as a key factor. This decision followed a period of heightened tensions, including Iran's closure of the Strait of Hormuz and the U.S. naval blockade of Iranian ports. Additionally, U.S.",
     "ai_verdict": "COPY"
+  },
+  {
+    "type": "WHALE_FLOW",
+    "condition_id": "0xc637ae2f8d5c241d44b93950a422bbd0988a872abb2d6f4f4c4e895681af5f29",
+    "market": "Russia-Ukraine Ceasefire before GTA VI?",
+    "market_slug": "russia-ukraine-ceasefire-before-gta-vi-554",
+    "event_slug": "",
+    "dominant_side": "YES",
+    "dominant_volume": 73304.0,
+    "total_volume": 73304.0,
+    "imbalance_pct": 100.0,
+    "unique_wallets": 25,
+    "trade_count": 30,
+    "max_single_trade": 52207.0,
+    "yes_price": 0.535,
+    "strength": 96,
+    "timestamp": "2026-04-23T06:32:25.775027",
+    "ai_context": "\u2705 COPY \u2014 Recent developments indicate a potential ceasefire in the Russia-Ukraine conflict before the release of GTA VI.\nOn April 10, 2026, Russian President Vladimir Putin announced a 32-hour ceasefire for Orthodox Easter, which Ukraine agreed to honor. However, both nations reported violations during this period, and full-scale fighting resumed immediately after the truce expired on April 13. (aljazeera."
   }
 ]
