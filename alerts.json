@@ -29107,7 +29107,14 @@
     "market_slug": "what-price-will-wti-hit-in-april-2026",
     "amount": 3220.0,
     "ai_context": "\u274c SKIP\nAs of April 15, 2026, WTI crude oil prices have surged over 7%, surpassing $100 per barrel, following the collapse of U.S.-Iran peace talks and a vow by President Trump to impose a naval blockade on Iran and the Strait of Hormuz. (axios.com) This geopolitical tension has significantly impa...",
-    "resolution_last_check": "2026-04-22T07:22:37.594363+00:00"
+    "resolution_last_check": "2026-04-22T07:22:37.594363+00:00",
+    "resolution": {
+      "outcome": "No",
+      "checked_at": "2026-04-23T07:24:24.930190+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 280.0
+    }
   },
   {
     "type": "WHALE_FLOW",
@@ -29535,7 +29542,14 @@
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
     },
     "ai_context": "\u274c SKIP\nWTI Crude Oil prices have been consistently above $80 in April 2026, with no significant downward trend observed.",
-    "resolution_last_check": "2026-04-22T07:22:47.869643+00:00"
+    "resolution_last_check": "2026-04-22T07:22:47.869643+00:00",
+    "resolution": {
+      "outcome": "No",
+      "checked_at": "2026-04-23T07:24:30.966197+00:00",
+      "insider_win": false,
+      "model_correct": true,
+      "pnl": -49249.13
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -32733,7 +32747,14 @@
     "market_slug": "what-price-will-wti-hit-in-april-2026",
     "amount": 2899.999992,
     "ai_context": "\u274c SKIP \u2014 Recent geopolitical tensions and market forecasts indicate WTI Crude Oil prices may exceed $120 in April.\nAs of April 17, 2026, WTI crude oil is trading near $87.40, maintaining a bearish bias below key moving averages. (trading.robotfx.org) However, on April 19, 2026, oil prices surged by approximately 6% following a renewed U.S.-Iran conflict, with WTI climbing to $89.77 per barrel. (axios.com) Additionally, an April 1, 2026, forecast projected WTI prices to range between $68.",
-    "resolution_last_check": "2026-04-22T07:24:07.244601+00:00"
+    "resolution_last_check": "2026-04-22T07:24:07.244601+00:00",
+    "resolution": {
+      "outcome": "No",
+      "checked_at": "2026-04-23T07:24:43.752572+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 283.4
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -33629,7 +33650,8 @@
     "yes_price": 0.535,
     "strength": 75,
     "timestamp": "2026-04-22T08:15:24.864643",
-    "ai_context": "\u274c SKIP \u2014 Recent developments indicate a low likelihood of a Russia-Ukraine ceasefire before the release of GTA VI.\nThe 32-hour Orthodox Easter ceasefire in April 2026 collapsed quickly, with both sides accusing each other of violations. Prediction markets assign only a 1.4% probability to a ceasefire by April 30, 2026, reflecting skepticism about near-term peace prospects. (agenticnews.site) GTA VI is scheduled for release on November 19, 2026. (thegta-6."
+    "ai_context": "\u274c SKIP \u2014 Recent developments indicate a low likelihood of a Russia-Ukraine ceasefire before the release of GTA VI.\nThe 32-hour Orthodox Easter ceasefire in April 2026 collapsed quickly, with both sides accusing each other of violations. Prediction markets assign only a 1.4% probability to a ceasefire by April 30, 2026, reflecting skepticism about near-term peace prospects. (agenticnews.site) GTA VI is scheduled for release on November 19, 2026. (thegta-6.",
+    "resolution_last_check": "2026-04-23T07:24:51.125152+00:00"
   },
   {
     "type": "TOP_TRADER",
@@ -33675,7 +33697,8 @@
     "market_slug": "strait-of-hormuz-traffic-returns-to-normal-by-april-30",
     "amount": 2601.019998,
     "ai_context": "\u274c SKIP \u2014 Recent developments indicate that the Strait of Hormuz remains closed, with no clear timeline for reopening.\nOn April 18, 2026, Iran announced the closure of the Strait of Hormuz, intensifying tensions with the United States. The UN reported a 95% drop in daily vessel transits over the past few months. (axios.com) Additionally, prediction markets reflect skepticism about a near-term resolution, with the \"No\" side priced at 88.5%. (prediction.",
-    "ai_verdict": "SKIP"
+    "ai_verdict": "SKIP",
+    "resolution_last_check": "2026-04-23T07:24:51.125159+00:00"
   },
   {
     "type": "TOP_TRADER",
@@ -33721,7 +33744,14 @@
     "market_slug": "dota2-sar1-mouz-2026-04-22",
     "amount": 3286.004702904512,
     "ai_context": "\u2705 COPY \u2014 MOUZ has a strong recent performance, including a 2-1 victory over Virtus.pro on April 21, 2026. (bo3.gg)\nMOUZ has won 2 of their last 5 matches, including a 2-1 victory over Virtus.pro on April 21, 2026. (bo3.gg)\nSouth America Rejects has won 4 of their last 5 matches, including a 2-0 victory over Power Rangers on April 21, 2026. (tips.gg)\nWhile South America Rejects has a strong recent record, MOUZ's recent win against Virtus.pro suggests they are in good form.",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution": {
+      "outcome": "South America Rejects",
+      "checked_at": "2026-04-23T07:24:52.658132+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -3286.0
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -33767,7 +33797,8 @@
     "market_slug": "us-x-iran-ceasefire-extended-by",
     "amount": 1817.0953999999997,
     "ai_context": "\u2705 COPY \u2014 Recent developments indicate a ceasefire extension is likely.\nOn April 21, 2026, President Trump announced an indefinite extension of the ceasefire with Iran, citing internal divisions within the Iranian government as a key factor. The decision, made shortly before the ceasefire was due to expire, came after a national security meeting and marked a reversal of Trump\u2019s earlier statements against extending the truce.",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution_last_check": "2026-04-23T07:24:54.257949+00:00"
   },
   {
     "type": "WHALE_FLOW",
@@ -33785,7 +33816,8 @@
     "yes_price": 0.535,
     "strength": 70,
     "timestamp": "2026-04-22T11:57:09.003013",
-    "ai_context": "\u274c SKIP \u2014 Recent developments indicate a lack of progress toward a lasting ceasefire before the release of GTA VI.\nThe 32-hour Orthodox Easter truce in April 2026 collapsed quickly, with both sides accusing each other of violations. Prediction markets assign a mere 1.4% probability to a ceasefire by April 30, 2026, reflecting skepticism about near-term peace prospects. (agenticnews.site) Given that GTA VI is scheduled for release on November 19, 2026, (thegta-6."
+    "ai_context": "\u274c SKIP \u2014 Recent developments indicate a lack of progress toward a lasting ceasefire before the release of GTA VI.\nThe 32-hour Orthodox Easter truce in April 2026 collapsed quickly, with both sides accusing each other of violations. Prediction markets assign a mere 1.4% probability to a ceasefire by April 30, 2026, reflecting skepticism about near-term peace prospects. (agenticnews.site) Given that GTA VI is scheduled for release on November 19, 2026, (thegta-6.",
+    "resolution_last_check": "2026-04-23T07:24:54.257989+00:00"
   },
   {
     "type": "TOP_TRADER",
@@ -33831,7 +33863,14 @@
     "market_slug": "what-price-will-wti-hit-in-april-2026",
     "amount": 2337.3531248016125,
     "ai_context": "\u274c SKIP \u2014 WTI Crude Oil has not reached $110 in April 2026, and recent forecasts suggest it may not do so.\nAs of April 21, 2026, WTI Crude Oil was trading at $89.77, with a 6% increase following U.S.-Iran tensions. (axios.com) A forecast from April 6, 2026, anticipated an uptrend with a target price of $120, but this has not materialized. (youtube.com) Given the current price and market forecasts, reaching $110 by the end of April appears unlikely.",
-    "ai_verdict": "SKIP"
+    "ai_verdict": "SKIP",
+    "resolution": {
+      "outcome": "No",
+      "checked_at": "2026-04-23T07:24:55.645724+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -2337.35
+    }
   },
   {
     "type": "WHALE_FLOW",
@@ -33849,7 +33888,8 @@
     "yes_price": 0.535,
     "strength": 62,
     "timestamp": "2026-04-22T15:55:33.515091",
-    "ai_context": "\u274c SKIP \u2014 Recent developments indicate a lack of progress toward a lasting ceasefire before GTA VI's release.\nThe 32-hour Orthodox Easter ceasefire in April 2026 collapsed quickly, with both sides accusing each other of violations. Prediction markets assign a mere 1.4% probability to a ceasefire by April 30, 2026, reflecting deep skepticism about near-term peace prospects. (agenticnews.site) Given that GTA VI is scheduled for release on November 19, 2026, (thegta-6."
+    "ai_context": "\u274c SKIP \u2014 Recent developments indicate a lack of progress toward a lasting ceasefire before GTA VI's release.\nThe 32-hour Orthodox Easter ceasefire in April 2026 collapsed quickly, with both sides accusing each other of violations. Prediction markets assign a mere 1.4% probability to a ceasefire by April 30, 2026, reflecting deep skepticism about near-term peace prospects. (agenticnews.site) Given that GTA VI is scheduled for release on November 19, 2026, (thegta-6.",
+    "resolution_last_check": "2026-04-23T07:24:55.645776+00:00"
   },
   {
     "market": "Madrid Open: Karolina Pliskova vs Sinja Kraus",
@@ -33959,7 +33999,14 @@
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
     },
     "ai_context": "\u274c SKIP \u2014 Pliskova has a 1-0 head-to-head record against Kraus and is favored by most analysts.\nIn their only previous encounter at the 2024 Transylvania Open, Pliskova won 6-4, 7-6(6). (matchstat.com) Analysts predict Pliskova to win, citing her experience and recent form. (thestatszone.com) However, the trader may have access to insider information or insights not publicly available.",
-    "ai_verdict": "SKIP"
+    "ai_verdict": "SKIP",
+    "resolution": {
+      "outcome": "Karolina Pliskova",
+      "checked_at": "2026-04-23T07:24:58.158684+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -8165.26
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -34005,7 +34052,14 @@
     "market_slug": "atp-bonzi-droguet-2026-04-22",
     "amount": 1743.5510000000002,
     "ai_context": "\u274c SKIP \u2014 Benjamin Bonzi has a perfect 1-0 head-to-head record against Titouan Droguet.\nTheir most recent encounter was in June 2024 at the Ilkley Challenger, where Bonzi won 7-6(5), 6-4. (tennisratio.com) Additionally, Bonzi has a higher ATP ranking of No. 104 compared to Droguet's No. 113. (tennisstats.com) However, Droguet has been in better recent form, with a 52-25 record over the past 52 weeks, compared to Bonzi's 29-24 record. (tennisratio.",
-    "ai_verdict": "SKIP"
+    "ai_verdict": "SKIP",
+    "resolution": {
+      "outcome": "Benjamin Bonzi",
+      "checked_at": "2026-04-23T07:24:59.881422+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -1743.55
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -34051,7 +34105,14 @@
     "market_slug": "nba-orl-det-2026-04-22",
     "amount": 1231.1117258154438,
     "ai_context": "\u2705 COPY \u2014 Magic's recent form and head-to-head record support the bet.\nThe Magic have won 4 of the last 6 matchups against the Pistons, including a 112-101 victory in Game 1 of the current playoff series. (statz.ai)\nAdditionally, the Magic have a 7-7 record over the past 30 days, indicating consistent performance. (statmuse.com)\nGiven these factors, the trader's bet on the Magic at 22% odds appears well-supported.",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution": {
+      "outcome": "Magic",
+      "checked_at": "2026-04-23T07:25:01.522962+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 4364.85
+    }
   },
   {
     "type": "WHALE_FLOW",
@@ -34069,7 +34130,8 @@
     "yes_price": 0.535,
     "strength": 94,
     "timestamp": "2026-04-22T18:54:30.363242",
-    "ai_context": "\u274c SKIP \u2014 Recent developments indicate a lack of progress toward a lasting ceasefire before the scheduled release of GTA VI.\nThe 32-hour Orthodox Easter ceasefire between Russia and Ukraine, which began on April 11, 2026, was marred by mutual accusations of violations, including drone attacks. Ukrainian President Volodymyr Zelenskyy expressed hope for an extension beyond the holiday, but full-scale fighting resumed immediately after the truce expired on April 13, 2026. (aljazeera."
+    "ai_context": "\u274c SKIP \u2014 Recent developments indicate a lack of progress toward a lasting ceasefire before the scheduled release of GTA VI.\nThe 32-hour Orthodox Easter ceasefire between Russia and Ukraine, which began on April 11, 2026, was marred by mutual accusations of violations, including drone attacks. Ukrainian President Volodymyr Zelenskyy expressed hope for an extension beyond the holiday, but full-scale fighting resumed immediately after the truce expired on April 13, 2026. (aljazeera.",
+    "resolution_last_check": "2026-04-23T07:25:01.523012+00:00"
   },
   {
     "type": "WHALE_FLOW",
@@ -34087,7 +34149,8 @@
     "yes_price": 0.535,
     "strength": 78,
     "timestamp": "2026-04-22T18:54:29.695515",
-    "ai_context": "\u274c SKIP \u2014 Recent developments indicate a lack of significant progress toward a lasting Russia-Ukraine ceasefire before the release of GTA VI.\nThe 32-hour Orthodox Easter ceasefire in April 2026 collapsed quickly, with both sides accusing each other of violations, highlighting persistent distrust and ongoing hostilities. (polymarket.com) Additionally, prediction markets assign only a 1.4% probability to an official ceasefire by April 30, 2026, reflecting skepticism about near-term peace prospects."
+    "ai_context": "\u274c SKIP \u2014 Recent developments indicate a lack of significant progress toward a lasting Russia-Ukraine ceasefire before the release of GTA VI.\nThe 32-hour Orthodox Easter ceasefire in April 2026 collapsed quickly, with both sides accusing each other of violations, highlighting persistent distrust and ongoing hostilities. (polymarket.com) Additionally, prediction markets assign only a 1.4% probability to an official ceasefire by April 30, 2026, reflecting skepticism about near-term peace prospects.",
+    "resolution_last_check": "2026-04-23T07:25:01.523019+00:00"
   },
   {
     "type": "WHALE_FLOW",
@@ -34105,7 +34168,8 @@
     "yes_price": 0.535,
     "strength": 71,
     "timestamp": "2026-04-22T21:43:00.902722",
-    "ai_context": "\u274c SKIP \u2014 Recent developments indicate a lack of significant progress toward a lasting Russia-Ukraine ceasefire before the scheduled release of GTA VI.\nThe 32-hour Orthodox Easter ceasefire in April 2026 was marred by mutual accusations of violations, with Ukraine reporting 469 breaches by Russia, primarily involving drone attacks. Following the truce, full-scale fighting resumed immediately across multiple sectors of the frontline. (en.wikipedia."
+    "ai_context": "\u274c SKIP \u2014 Recent developments indicate a lack of significant progress toward a lasting Russia-Ukraine ceasefire before the scheduled release of GTA VI.\nThe 32-hour Orthodox Easter ceasefire in April 2026 was marred by mutual accusations of violations, with Ukraine reporting 469 breaches by Russia, primarily involving drone attacks. Following the truce, full-scale fighting resumed immediately across multiple sectors of the frontline. (en.wikipedia.",
+    "resolution_last_check": "2026-04-23T07:25:01.523024+00:00"
   },
   {
     "type": "TOP_TRADER",
@@ -34151,7 +34215,14 @@
     "market_slug": "nba-orl-det-2026-04-22",
     "amount": 1954.4000014155038,
     "ai_context": "\u2705 COPY \u2014 Magic's recent form and head-to-head record support the bet.\nThe Magic have won 2 of the last 3 matchups against the Pistons, including a decisive 123-107 victory on April 6, 2026. In Game 1 of the current playoff series on April 19, 2026, the Magic secured a 112-101 win, with forwards Paolo Banchero and Franz Wagner combining for 42 points. (axios.com)\nGiven the Magic's recent successes against the Pistons, the trader's bet on the Magic at 24% odds appears well-supported.",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution": {
+      "outcome": "Magic",
+      "checked_at": "2026-04-23T07:25:01.523040+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 6188.93
+    }
   },
   {
     "type": "WHALE_FLOW",
@@ -34169,7 +34240,8 @@
     "yes_price": 0.535,
     "strength": 85,
     "timestamp": "2026-04-22T23:16:43.776010",
-    "ai_context": "\u2705 COPY \u2014 Recent developments indicate a low likelihood of a Russia-Ukraine ceasefire before the release of GTA VI.\nThe 32-hour Orthodox Easter ceasefire in April 2026 collapsed rapidly, with both sides accusing each other of violations, highlighting deep-seated distrust. Prediction markets assign only a 1.4% probability to an official ceasefire by April 30, 2026, reflecting skepticism about near-term peace prospects. (agenticnews."
+    "ai_context": "\u2705 COPY \u2014 Recent developments indicate a low likelihood of a Russia-Ukraine ceasefire before the release of GTA VI.\nThe 32-hour Orthodox Easter ceasefire in April 2026 collapsed rapidly, with both sides accusing each other of violations, highlighting deep-seated distrust. Prediction markets assign only a 1.4% probability to an official ceasefire by April 30, 2026, reflecting skepticism about near-term peace prospects. (agenticnews.",
+    "resolution_last_check": "2026-04-23T07:25:01.523055+00:00"
   },
   {
     "type": "TOP_TRADER",
@@ -34215,7 +34287,8 @@
     "market_slug": "will-the-us-invade-iran-before-2027",
     "amount": 4650.7172,
     "ai_context": "\u2705 COPY \u2014 Recent developments indicate a de-escalation in U.S.-Iran tensions, suggesting an invasion is unlikely before 2027.\nOn April 21, 2026, President Trump announced an indefinite extension of the ceasefire with Iran, citing internal divisions within the Iranian government as a key factor. This decision followed a period of heightened tensions, including Iran's closure of the Strait of Hormuz and the U.S. naval blockade of Iranian ports. Additionally, U.S.",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution_last_check": "2026-04-23T07:25:01.523062+00:00"
   },
   {
     "type": "WHALE_FLOW",
@@ -34233,6 +34306,7 @@
     "yes_price": 0.535,
     "strength": 96,
     "timestamp": "2026-04-23T06:32:25.775027",
-    "ai_context": "\u2705 COPY \u2014 Recent developments indicate a potential ceasefire in the Russia-Ukraine conflict before the release of GTA VI.\nOn April 10, 2026, Russian President Vladimir Putin announced a 32-hour ceasefire for Orthodox Easter, which Ukraine agreed to honor. However, both nations reported violations during this period, and full-scale fighting resumed immediately after the truce expired on April 13. (aljazeera."
+    "ai_context": "\u2705 COPY \u2014 Recent developments indicate a potential ceasefire in the Russia-Ukraine conflict before the release of GTA VI.\nOn April 10, 2026, Russian President Vladimir Putin announced a 32-hour ceasefire for Orthodox Easter, which Ukraine agreed to honor. However, both nations reported violations during this period, and full-scale fighting resumed immediately after the truce expired on April 13. (aljazeera.",
+    "resolution_last_check": "2026-04-23T07:25:01.523066+00:00"
   }
 ]
