@@ -28,6 +28,7 @@ MAX_ODDS_THRESHOLD = 0.93    # Skip near-certain markets
 SKIP_KEYWORDS = [
     '15m', '15 min', '15-min', 'updown', 'up or down',
     'up/down', 'bitcoin up or down', 'eth up or down',
+    'before gta vi', 'before gta 6',  # permanent high-volume market, not a signal
 ]
 
 
