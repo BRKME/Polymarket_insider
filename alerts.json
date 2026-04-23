@@ -1,231 +1,5 @@
 [
   {
-    "market": "Magic vs. Hawks: O/U 229.5",
-    "market_slug": "nba-orl-atl-2026-03-16-total-229pt5",
-    "event_slug": "nba-orl-atl-2026-03-16-total-229pt5",
-    "wallet": "0x615cacc891ee28869212a8cbac01f8304c41b09d",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($1,207)",
-        "Low activity (2 txns)"
-      ],
-      "amount": 1207.2,
-      "odds": 0.48,
-      "raw_price": 0.48,
-      "outcome": "Under",
-      "potential_pnl": 1307.8000000000002,
-      "pnl_multiplier": 1.0833333333333335,
-      "wallet_age_days": 0,
-      "total_activities": 2
-    },
-    "timestamp": "2026-03-16T12:04:59.682155",
-    "trade_hash": "0x7441336fffb8e2cade2c3521f82f476faa8a9cd93899f8ef92dbc6f73f7d4c82",
-    "trade_timestamp": 1773662335,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Under",
-      "side": "BUY",
-      "price": 0.48,
-      "effective_price": 0.48,
-      "size": 2515.0,
-      "amount": 1207.2,
-      "potential_pnl": 1307.8000000000002,
-      "pnl_multiplier": 1.0833333333333335,
-      "is_no": false,
-      "slug": "nba-orl-atl-2026-03-16-total-229pt5",
-      "eventSlug": "nba-orl-atl-2026-03-16"
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+24.4%)"
-      ],
-      "category": "sports",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.236,
-      "market_price": 0.48,
-      "edge": 0.244,
-      "edge_percent": 24.4,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Both teams score efficiently",
-          "Defensive strategies are ineffective",
-          "Game pace is fast"
-        ],
-        "weakest_link": "Defensive strategies are ineffective"
-      },
-      "category": "sports",
-      "narrative_drivers": [
-        "Recent offensive performances",
-        "Injury status of key players"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "INSIDER_ONLY",
-      "signal_emoji": "\ud83d\udc41\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider activity detected, no clear mispricing",
-      "action_suggestion": "Monitor: insider signal only, no statistical edge",
-      "insider_score": 70,
-      "insider_position": "UNDER",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.244,
-      "edge_percent": 24.4
-    },
-    "financial_analyst": {
-      "signal_quality": 51.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 24.4,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-22T07:20:44.047302+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-16 >7 days ago, removed from API"
-    }
-  },
-  {
-    "market": "Mavericks vs. Pelicans: O/U 239.5",
-    "market_slug": "nba-dal-nop-2026-03-16-total-239pt5",
-    "event_slug": "nba-dal-nop-2026-03-16-total-239pt5",
-    "wallet": "0xa634e0eaf2980073ebe08837183279f5f67cb1ba",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($1,288)",
-        "Low activity (2 txns)"
-      ],
-      "amount": 1287.9285,
-      "odds": 0.51,
-      "raw_price": 0.51,
-      "outcome": "Under",
-      "potential_pnl": 1237.4215,
-      "pnl_multiplier": 0.9607843137254901,
-      "wallet_age_days": 0,
-      "total_activities": 2
-    },
-    "timestamp": "2026-03-16T13:48:09.436977",
-    "trade_hash": "0x70f4910ab40074830bf36b73772ddeb4a9a8a7ca64330415587e29dd0ef4d786",
-    "trade_timestamp": 1773668707,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Under",
-      "side": "BUY",
-      "price": 0.51,
-      "effective_price": 0.51,
-      "size": 2525.35,
-      "amount": 1287.9285,
-      "potential_pnl": 1237.4215,
-      "pnl_multiplier": 0.9607843137254901,
-      "is_no": false,
-      "slug": "nba-dal-nop-2026-03-16-total-239pt5",
-      "eventSlug": "nba-dal-nop-2026-03-16"
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+26.8%)"
-      ],
-      "category": "sports",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.242,
-      "market_price": 0.51,
-      "edge": 0.268,
-      "edge_percent": 26.8,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Both teams score efficiently",
-          "Defensive lapses from both teams",
-          "High pace of play"
-        ],
-        "weakest_link": "Defensive lapses from both teams"
-      },
-      "category": "sports",
-      "narrative_drivers": [
-        "Recent offensive performances",
-        "Injury status of key players"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "INSIDER_ONLY",
-      "signal_emoji": "\ud83d\udc41\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider activity detected, no clear mispricing",
-      "action_suggestion": "Monitor: insider signal only, no statistical edge",
-      "insider_score": 70,
-      "insider_position": "UNDER",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.268,
-      "edge_percent": 26.8
-    },
-    "financial_analyst": {
-      "signal_quality": 51.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 26.8,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-22T07:20:44.047313+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-16 >7 days ago, removed from API"
-    }
-  },
-  {
     "market": "Mavericks vs. Pelicans: O/U 239.5",
     "market_slug": "nba-dal-nop-2026-03-16-total-239pt5",
     "event_slug": "nba-dal-nop-2026-03-16-total-239pt5",
@@ -34235,5 +34009,41 @@
     "strength": 63,
     "timestamp": "2026-04-23T10:07:55.238453",
     "ai_context": "\u274c SKIP \u2014 Recent developments indicate a lack of progress toward a Russia-Ukraine ceasefire before the GTA VI release date.\nThe Orthodox Easter ceasefire in April 2026 was short-lived, with both sides accusing each other of violations. Prediction markets assign a mere 1.4% probability to a ceasefire by April 30, 2026, reflecting skepticism about near-term peace prospects. (agenticnews.site) Given that GTA VI is scheduled for release on November 19, 2026, (thegta-6."
+  },
+  {
+    "type": "WHALE_FLOW",
+    "condition_id": "0x58154442c4f96d98355ab38a4d1e0e0b86d019fc2cc09e87426dd2acd1833c6e",
+    "market": "Russia-Ukraine Ceasefire before GTA VI?",
+    "market_slug": "russia-ukraine-ceasefire-before-gta-vi-554",
+    "event_slug": "",
+    "dominant_side": "YES",
+    "dominant_volume": 37461.0,
+    "total_volume": 37461.0,
+    "imbalance_pct": 100.0,
+    "unique_wallets": 7,
+    "trade_count": 7,
+    "max_single_trade": 37216.0,
+    "yes_price": 0.535,
+    "strength": 78,
+    "timestamp": "2026-04-23T11:12:06.001884",
+    "ai_context": "\u274c SKIP \u2014 Recent developments indicate a lack of significant progress toward a Russia-Ukraine ceasefire before the release of GTA VI.\nThe 32-hour Orthodox Easter ceasefire in April 2026 collapsed quickly, with both sides accusing each other of violations, including drone attacks. Prediction markets assign a mere 1.4% probability to a ceasefire by April 30, 2026, reflecting skepticism about near-term peace prospects. (agenticnews."
+  },
+  {
+    "type": "WHALE_FLOW",
+    "condition_id": "0xa6959d23df63e51f9c643a164623f3895cd0d66012b0056f040c5c666cfff302",
+    "market": "Russia-Ukraine Ceasefire before GTA VI?",
+    "market_slug": "russia-ukraine-ceasefire-before-gta-vi-554",
+    "event_slug": "",
+    "dominant_side": "YES",
+    "dominant_volume": 24705.0,
+    "total_volume": 24705.0,
+    "imbalance_pct": 100.0,
+    "unique_wallets": 7,
+    "trade_count": 9,
+    "max_single_trade": 22341.0,
+    "yes_price": 0.53,
+    "strength": 72,
+    "timestamp": "2026-04-23T11:12:05.347898",
+    "ai_context": "\u274c SKIP \u2014 Recent developments indicate a low likelihood of a Russia-Ukraine ceasefire before the release of GTA VI.\nThe 32-hour Orthodox Easter ceasefire in April 2026 collapsed quickly, with both sides accusing each other of violations. Prediction markets assign only a 1.4% probability to a ceasefire by April 30, 2026, reflecting skepticism about near-term peace prospects. (agenticnews.site) GTA VI is confirmed to release on November 19, 2026. (thegta-6."
   }
 ]
