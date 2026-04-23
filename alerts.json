@@ -1,117 +1,5 @@
 [
   {
-    "market": "Will Matt Fitzpatrick win the 2026 THE PLAYERS Championship?",
-    "market_slug": "2026-the-players-championship-winner-matt-fitzpatrick-win",
-    "event_slug": "2026-the-players-championship-winner-matt-fitzpatrick-win",
-    "wallet": "0xe5ebef8e455c9344a96706beb3c1aa69878ac512",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($1,499)",
-        "Low activity (3 txns)"
-      ],
-      "amount": 1499.049999,
-      "odds": 0.48867684742465706,
-      "raw_price": 0.48867684742465706,
-      "outcome": "Yes",
-      "potential_pnl": 1568.5191050000003,
-      "pnl_multiplier": 1.046342087352885,
-      "wallet_age_days": 0,
-      "total_activities": 3
-    },
-    "timestamp": "2026-03-15T21:05:06.688269",
-    "trade_hash": "0xf834f64610eb983b37eb193114dac6c12966f806d15ffa978c5cfe071d084a6a",
-    "trade_timestamp": 1773608623,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Yes",
-      "side": "BUY",
-      "price": 0.48867684742465706,
-      "effective_price": 0.48867684742465706,
-      "size": 3067.569104,
-      "amount": 1499.049999,
-      "potential_pnl": 1568.5191050000003,
-      "pnl_multiplier": 1.046342087352885,
-      "is_no": false,
-      "slug": "2026-the-players-championship-winner-matt-fitzpatrick-win",
-      "eventSlug": "2026-the-players-championship-winner"
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+33.1%)"
-      ],
-      "category": "politics_near",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.02,
-        "min_edge": 0.03
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.15773536948493141,
-      "market_price": 0.48867684742465706,
-      "edge": 0.3309414779397256,
-      "edge_percent": 33.09414779397256,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "occasional",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "occasional",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Matt Fitzpatrick maintains peak performance leading up to the tournament",
-          "Fitzpatrick avoids significant injuries in the years prior",
-          "Course conditions favor Fitzpatrick's playing style during the tournament"
-        ],
-        "weakest_link": "Fitzpatrick avoids significant injuries in the years prior"
-      },
-      "category": "sports",
-      "narrative_drivers": [
-        "Fitzpatrick's recent performance in major tournaments",
-        "Public perception and media coverage of Fitzpatrick leading up to the event"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "CONFLICT",
-      "signal_emoji": "\u26a0\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider buying YES despite statistical overpricing",
-      "action_suggestion": "Requires manual analysis: insider may have real info OR is part of irrational crowd",
-      "insider_score": 70,
-      "insider_position": "YES",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.3309414779397256,
-      "edge_percent": 33.09414779397256
-    },
-    "financial_analyst": {
-      "signal_quality": 46.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 33.09,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "resolution": {
-      "outcome": "No",
-      "checked_at": "2026-04-22T07:20:49.469411+00:00",
-      "insider_win": false,
-      "model_correct": true,
-      "pnl": -1499.05
-    }
-  },
-  {
     "type": "TOP_TRADER",
     "trade_hash": "0x3bf9c861b87ea40e4cabeae28ee5b3f7875033cbecc83697be63424065d6b111",
     "wallet": "0x1f2dd6d473f3e824cd2f8a89d9c69fb96f6ad0cf",
@@ -34334,5 +34222,51 @@
     "strength": 85,
     "timestamp": "2026-04-22T23:16:43.776010",
     "ai_context": "\u2705 COPY \u2014 Recent developments indicate a low likelihood of a Russia-Ukraine ceasefire before the release of GTA VI.\nThe 32-hour Orthodox Easter ceasefire in April 2026 collapsed rapidly, with both sides accusing each other of violations, highlighting deep-seated distrust. Prediction markets assign only a 1.4% probability to an official ceasefire by April 30, 2026, reflecting skepticism about near-term peace prospects. (agenticnews."
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x1503b3db399dcd3c3300ef10277e6f84613db84ee21169fb0a0b9164e9c8a0c2",
+    "wallet": "0xefbc5fec8d7b0acdc8911bdd9a98d6964308f9a2",
+    "trader": {
+      "rank": 20,
+      "address": "0xefbc5fec8d7b0acdc8911bdd9a98d6964308f9a2",
+      "username": "reachingthesky",
+      "profit": 3742635.156562068,
+      "volume": 13750266.834776,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x81d131a7b47d012ac448c165a41b152ecf9b4e30",
+      "side": "SELL",
+      "asset": "1910830010387565971650098373488592514702818137344973088263643820608151819241",
+      "conditionId": "0x5db999fad322cea2914535aae5517060c3f80ad6d8c0231cde2124a434d16846",
+      "size": 6839.29,
+      "price": 0.68,
+      "timestamp": 1776902682,
+      "title": "Will the U.S. invade Iran before 2027?",
+      "slug": "will-the-us-invade-iran-before-2027",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-the-us-invade-iran-in-2025-0Eh3J0ku_Fbj.jpg",
+      "eventSlug": "will-the-us-invade-iran-before-2027",
+      "outcome": "No",
+      "outcomeIndex": 1,
+      "name": "Kurald-Galain",
+      "pseudonym": "Brilliant-Perpendicular",
+      "bio": "",
+      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-3062322-73846e30-3392-4f01-b446-eef3a82eb307.webp",
+      "profileImageOptimized": "",
+      "transactionHash": "0x1503b3db399dcd3c3300ef10277e6f84613db84ee21169fb0a0b9164e9c8a0c2",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Will the U.S. invade Iran before 2027?",
+    "market_slug": "will-the-us-invade-iran-before-2027",
+    "amount": 4650.7172,
+    "ai_context": "\u2705 COPY \u2014 Recent developments indicate a de-escalation in U.S.-Iran tensions, suggesting an invasion is unlikely before 2027.\nOn April 21, 2026, President Trump announced an indefinite extension of the ceasefire with Iran, citing internal divisions within the Iranian government as a key factor. This decision followed a period of heightened tensions, including Iran's closure of the Strait of Hormuz and the U.S. naval blockade of Iranian ports. Additionally, U.S.",
+    "ai_verdict": "COPY"
   }
 ]
