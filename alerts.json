@@ -1,58 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0x1a424fa917df3b297c9504455975d56c660353cde0cf26b1f8e7ea608d2be191",
-    "wallet": "0xd235973291b2b75ff4070e9c0b01728c520b0f29",
-    "trader": {
-      "rank": 5,
-      "address": "0xd235973291b2b75ff4070e9c0b01728c520b0f29",
-      "username": "zxgngl",
-      "profit": 7807265.589240883,
-      "volume": 40551790.62184699,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0xd106952ebf30a3125affd8a23b6c1f30c35fc79c",
-      "side": "BUY",
-      "asset": "73430689641666162570208609687376950474748567262949087092171303688003662051888",
-      "conditionId": "0x9a400ea146eef3ab1671863b09968236bb1bacc9393d7f0b38285b66f9a355b5",
-      "size": 6546.15,
-      "price": 0.75,
-      "timestamp": 1773698315,
-      "title": "Mavericks vs. Pelicans",
-      "slug": "nba-dal-nop-2026-03-16",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
-      "eventSlug": "nba-dal-nop-2026-03-16",
-      "outcome": "Pelicans",
-      "outcomeIndex": 1,
-      "name": "Herdonia",
-      "pseudonym": "Unkempt-Image",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x1a424fa917df3b297c9504455975d56c660353cde0cf26b1f8e7ea608d2be191",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Mavericks vs. Pelicans",
-    "market_slug": "nba-dal-nop-2026-03-16",
-    "amount": 4909.612499999999,
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-22T07:20:44.047358+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-16 >7 days ago, removed from API"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0x57360d37173cd45f17032527b5330b791404604d9494cd8c97330f97d86b80cf",
     "wallet": "0xd235973291b2b75ff4070e9c0b01728c520b0f29",
     "trader": {
@@ -33760,5 +33708,51 @@
     "strength": 63,
     "timestamp": "2026-04-23T18:14:48.004313",
     "ai_context": "\u274c SKIP \u2014 Recent developments indicate a lack of significant progress toward a Russia-Ukraine ceasefire before the release of GTA VI.\nThe 32-hour Orthodox Easter ceasefire in April 2026 was marred by mutual accusations of violations, leading to its collapse and the resumption of hostilities. (en.wikipedia.org) Prediction markets reflect this skepticism, assigning only a 1.4% probability to an official ceasefire by April 30, 2026. (agenticnews."
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xc23d57598a4fc73a2cae715cdc9af0a81af1dd486e58d08434f36f75f4af877d",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.51568201,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xf201a19b43471261a3c1ba9247335d55270e527e",
+      "side": "BUY",
+      "asset": "108047490230136338219621572688330309640298697620178941428450782210635534046865",
+      "conditionId": "0x109122119f2d163ab37f77aab9f1acbae47169b9f5535577105eea082c50be9b",
+      "size": 2950.5,
+      "price": 0.45,
+      "timestamp": 1776972038,
+      "title": "LoL: FlyQuest vs Sentinels - Game 2 Winner",
+      "slug": "lol-fly-sen-2026-04-23-game2",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/league-of-legends-61a4f083a6.png",
+      "eventSlug": "lol-fly-sen-2026-04-23",
+      "outcome": "Sentinels",
+      "outcomeIndex": 1,
+      "name": "0xF201A19b43471261A3c1Ba9247335d55270e527e-1763824114616",
+      "pseudonym": "Dearest-Urge",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xc23d57598a4fc73a2cae715cdc9af0a81af1dd486e58d08434f36f75f4af877d",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "LoL: FlyQuest vs Sentinels - Game 2 Winner",
+    "market_slug": "lol-fly-sen-2026-04-23",
+    "amount": 1327.7250000000001,
+    "ai_context": "\u2705 COPY \u2014 Sentinels have shown recent improvement, including a 2-1 victory over FlyQuest on April 18, 2026.\nIn their last five matches, Sentinels have secured three wins, including a 2-0 victory over Disguised on April 15, 2026. (strafe.com) In contrast, FlyQuest has won only one of their last five matches, with their most recent loss being a 2-1 defeat to Sentinels on April 18, 2026. (lolactus.",
+    "ai_verdict": "COPY"
   }
 ]
