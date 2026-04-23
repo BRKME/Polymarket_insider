@@ -1,165 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0x26014f48a94b3a617bf18fc4862f634a1141d1a2901db8f4bc9c858bbadd520e",
-    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-    "trader": {
-      "rank": 1,
-      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-      "username": "Theo4",
-      "profit": 22053933.752321757,
-      "volume": 43013258.51568201,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0xbddf61af533ff524d27154e589d2d7a81510c684",
-      "side": "BUY",
-      "asset": "59196182479127058424522393851593000749354988996797395494656019696578345043239",
-      "conditionId": "0xaeec946d09b533cfef35473f0b406275273409721eef2b2cb309de9f4a93140e",
-      "size": 20537.68,
-      "price": 0.5,
-      "timestamp": 1773691113,
-      "title": "Spread: Hawks (-3.5)",
-      "slug": "nba-orl-atl-2026-03-16-spread-home-3pt5",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
-      "eventSlug": "nba-orl-atl-2026-03-16",
-      "outcome": "Magic",
-      "outcomeIndex": 1,
-      "name": "Countryside",
-      "pseudonym": "Unique-Congressperson",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x26014f48a94b3a617bf18fc4862f634a1141d1a2901db8f4bc9c858bbadd520e",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Spread: Hawks (-3.5)",
-    "market_slug": "nba-orl-atl-2026-03-16",
-    "amount": 10268.84,
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-22T07:20:44.047343+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-16 >7 days ago, removed from API"
-    }
-  },
-  {
-    "market": "Backpack FDV above $200M one day after launch?",
-    "market_slug": "backpack-fdv-above-200m-one-day-after-launch-327-787",
-    "event_slug": "backpack-fdv-above-200m-one-day-after-launch-327-787",
-    "wallet": "0x42ff47e378a1dffce490270025add63368e8a422",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($1,088)",
-        "Low activity (1 txns)"
-      ],
-      "amount": 1087.5,
-      "odds": 0.87,
-      "raw_price": 0.13,
-      "outcome": "No",
-      "potential_pnl": 162.5,
-      "pnl_multiplier": 0.14942528735632185,
-      "wallet_age_days": 0,
-      "total_activities": 1
-    },
-    "timestamp": "2026-03-16T21:24:49.850894",
-    "trade_hash": "0x5cb535fe73ae40612125f891d0fe4747a243445712c1c377b6569b4a3e7d3b4f",
-    "trade_timestamp": 1773696145,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "No",
-      "side": "BUY",
-      "price": 0.13,
-      "effective_price": 0.87,
-      "size": 1250.0,
-      "amount": 1087.5,
-      "potential_pnl": 162.5,
-      "pnl_multiplier": 0.14942528735632185,
-      "is_no": true,
-      "slug": "backpack-fdv-above-200m-one-day-after-launch-327-787",
-      "eventSlug": "backpack-fdv-above-one-day-after-launch"
-    },
-    "irrationality": {
-      "irrationality_score": 33,
-      "flags": [
-        "Longshot (13%) in medium bias category (other)",
-        "Moderate mispricing edge (+8.4%)"
-      ],
-      "category": "other",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.046000000000000006,
-      "market_price": 0.13,
-      "edge": 0.08399999999999999,
-      "edge_percent": 8.399999999999999,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "MODERATE",
-      "base_rate_class": "rare",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "rare",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Strong initial demand for the Backpack FDV product",
-          "Effective marketing and community engagement",
-          "Positive sentiment in the broader crypto market"
-        ],
-        "weakest_link": "Strong initial demand for the Backpack FDV product"
-      },
-      "category": "crypto",
-      "narrative_drivers": [
-        "Speculation on the novelty and utility of the product",
-        "Influence of social media and community endorsements"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "ALPHA",
-      "signal_emoji": "\ud83d\udd25",
-      "signal_strength": 103,
-      "interpretation": "Smart money (NO) confirms YES is overpriced",
-      "action_suggestion": "High conviction: insider + statistics aligned",
-      "insider_score": 70,
-      "insider_position": "NO",
-      "irrationality_score": 33,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.08399999999999999,
-      "edge_percent": 8.399999999999999
-    },
-    "financial_analyst": {
-      "signal_quality": 68.2,
-      "stance": "SELECTIVE",
-      "edge_percent": 8.4,
-      "signal_strength": 103.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "resolution_last_check": "2026-04-22T07:20:53.051581+00:00"
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0x1a424fa917df3b297c9504455975d56c660353cde0cf26b1f8e7ea608d2be191",
     "wallet": "0xd235973291b2b75ff4070e9c0b01728c520b0f29",
     "trader": {
@@ -33883,5 +33724,41 @@
     "strength": 66,
     "timestamp": "2026-04-23T15:36:50.856713",
     "ai_context": "\u274c SKIP \u2014 Recent developments indicate a lack of significant progress toward a Russia-Ukraine ceasefire before the release of GTA VI.\nThe 32-hour Orthodox Easter ceasefire in April 2026 collapsed quickly, with both sides accusing each other of violations, highlighting deep-seated distrust. Prediction markets assign a mere 1.4% probability to a ceasefire by April 30, 2026, reflecting skepticism about near-term peace prospects. (agenticnews."
+  },
+  {
+    "type": "WHALE_FLOW",
+    "condition_id": "0x803169fab8468f5863266968d8b6bd28aa6ba78f94d343bc3caa68677c24bd1e",
+    "market": "Russia-Ukraine Ceasefire before GTA VI?",
+    "market_slug": "russia-ukraine-ceasefire-before-gta-vi-554",
+    "event_slug": "",
+    "dominant_side": "YES",
+    "dominant_volume": 15198.0,
+    "total_volume": 15198.0,
+    "imbalance_pct": 100.0,
+    "unique_wallets": 10,
+    "trade_count": 10,
+    "max_single_trade": 14757.0,
+    "yes_price": 0.525,
+    "strength": 75,
+    "timestamp": "2026-04-23T18:14:48.587580",
+    "ai_context": "\u274c SKIP \u2014 Recent developments indicate a lack of significant progress toward a lasting Russia-Ukraine ceasefire before the scheduled release of GTA VI.\nThe 32-hour Orthodox Easter ceasefire in April 2026 was marred by mutual violations, with both Russia and Ukraine accusing each other of breaches, including drone attacks. This short-lived truce underscores the persistent distrust and ongoing hostilities between the two nations. (aljazeera.com)\nAdditionally, prediction markets assign a mere 1."
+  },
+  {
+    "type": "WHALE_FLOW",
+    "condition_id": "0x7febcd6728753347be73dae0a5dd7c459a5a459cb863090891712d32b9365c5a",
+    "market": "Russia-Ukraine Ceasefire before GTA VI?",
+    "market_slug": "russia-ukraine-ceasefire-before-gta-vi-554",
+    "event_slug": "",
+    "dominant_side": "YES",
+    "dominant_volume": 10829.0,
+    "total_volume": 15970.0,
+    "imbalance_pct": 67.8,
+    "unique_wallets": 16,
+    "trade_count": 16,
+    "max_single_trade": 9781.0,
+    "yes_price": 0.525,
+    "strength": 63,
+    "timestamp": "2026-04-23T18:14:48.004313",
+    "ai_context": "\u274c SKIP \u2014 Recent developments indicate a lack of significant progress toward a Russia-Ukraine ceasefire before the release of GTA VI.\nThe 32-hour Orthodox Easter ceasefire in April 2026 was marred by mutual accusations of violations, leading to its collapse and the resumption of hostilities. (en.wikipedia.org) Prediction markets reflect this skepticism, assigning only a 1.4% probability to an official ceasefire by April 30, 2026. (agenticnews."
   }
 ]
