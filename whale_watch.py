@@ -18,9 +18,10 @@ import trade_economics
 
 
 # Thresholds
-MIN_FLOW_TOTAL = 20000       # $20K+ total directional flow (was $50K — only caught 1 market)
+MIN_FLOW_TOTAL = 10000       # $10K+ total directional flow (was $20K — only Russia-Ukraine triggered)
 MIN_IMBALANCE = 0.65         # 65%+ of volume on one side
-MIN_UNIQUE_WALLETS = 2       # At least 2 wallets (not just one whale)
+MIN_UNIQUE_WALLETS = 2       # At least 2 wallets
+MIN_SINGLE_WHALE = 8000      # OR: single trade $8K+ (one big whale = signal even if alone)
 MAX_ODDS_THRESHOLD = 0.93    # Skip near-certain markets
 
 # Markets to skip (same as detector)
@@ -150,8 +151,10 @@ def analyze_whale_flows(trades: List[Dict], markets: List[Dict]) -> List[Dict]:
         else:
             continue  # No strong imbalance
         
-        # Need at least 2 wallets (one whale is already caught by detector)
-        if len(dominant_wallets) < MIN_UNIQUE_WALLETS:
+        # Need at least 2 wallets OR one massive single trade
+        has_multiple_wallets = len(dominant_wallets) >= MIN_UNIQUE_WALLETS
+        has_single_whale = flow["max_single_trade"] >= MIN_SINGLE_WHALE
+        if not has_multiple_wallets and not has_single_whale:
             continue
         
         # Get market data
@@ -194,13 +197,15 @@ def analyze_whale_flows(trades: List[Dict], markets: List[Dict]) -> List[Dict]:
         if yes_price and (yes_price > MAX_ODDS_THRESHOLD or yes_price < (1 - MAX_ODDS_THRESHOLD)):
             continue
         
-        # Strength score (scaled for $20K+ threshold)
+        # Strength score (scaled for $10K+ threshold)
         strength = 0
-        strength += min(40, int(dominant_volume / 2000))  # Up to 40 for volume ($80K+)
+        strength += min(40, int(dominant_volume / 1000))  # Up to 40 for volume ($40K+)
         strength += min(20, len(dominant_wallets) * 5)     # Up to 20 for wallet diversity
-        strength += int(dominant_pct * 30)                  # Up to 30 for imbalance
+        strength += int(dominant_pct * 20)                  # Up to 20 for imbalance
         if flow["max_single_trade"] > 5000:
             strength += 10                                  # Bonus for big single trade
+        if has_multiple_wallets and has_single_whale:
+            strength += 10                                  # Bonus: coordinated + big
         strength = min(100, strength)
         
         signal = {
