@@ -178,6 +178,11 @@ def analyze_whale_flows(trades: List[Dict], markets: List[Dict]) -> List[Dict]:
             except Exception:
                 pass
         
+        # Skip blacklisted markets (checked on final market name, not trade title)
+        SKIP_MARKETS = ['gta vi', 'gta 6', 'before gta']
+        if market_question and any(kw in market_question.lower() for kw in SKIP_MARKETS):
+            continue
+        
         # Get current market price (YES price)
         yes_price = None
         try:
