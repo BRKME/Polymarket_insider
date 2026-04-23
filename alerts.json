@@ -1,160 +1,5 @@
 [
   {
-    "type": "TOP_TRADER",
-    "trade_hash": "0xeea83f630c393fe8e32c204b5025ac1779290eb1cf654389aabca05edafb1245",
-    "wallet": "0x204f72f35326db932158cba6adff0b9a1da95e14",
-    "trader": {
-      "rank": 13,
-      "address": "0x204f72f35326db932158cba6adff0b9a1da95e14",
-      "username": "swisstony",
-      "profit": 5504796.126363945,
-      "volume": 542071869.665497,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x204f72f35326db932158cba6adff0b9a1da95e14",
-      "side": "BUY",
-      "asset": "90071801684636083398271715498223621894709449110269798531671548679991177475234",
-      "conditionId": "0xd4c218c12c05c564c13afc72a3e99b52529aff64c3f55175b98d5501b704076c",
-      "size": 6155,
-      "price": 0.84,
-      "timestamp": 1773616081,
-      "title": "Will Coritiba FBC win on 2026-03-15?",
-      "slug": "bra-cor-cre-2026-03-15-cor",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/brasilerirao-image-52ef283574.png",
-      "eventSlug": "bra-cor-cre-2026-03-15",
-      "outcome": "Yes",
-      "outcomeIndex": 0,
-      "name": "swisstony",
-      "pseudonym": "Frail-Possible",
-      "bio": "loincloth chic",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0xeea83f630c393fe8e32c204b5025ac1779290eb1cf654389aabca05edafb1245",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Will Coritiba FBC win on 2026-03-15?",
-    "market_slug": "bra-cor-cre-2026-03-15",
-    "amount": 5170.2,
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-22T07:20:44.047277+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-15 >7 days ago, removed from API"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
-    "trade_hash": "0x7f1ce483a72909f7d5f2e0e2e8c24786295cd056df0ad310d1006a81cc13ce0a",
-    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-    "trader": {
-      "rank": 1,
-      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-      "username": "Theo4",
-      "profit": 22053933.752321757,
-      "volume": 43013258.51568201,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x6ade597c0e2b43c0bf3542cada8a5e330d73f5b0",
-      "side": "BUY",
-      "asset": "31218995787757592150682687098269291857896143833113429627320248318392649066334",
-      "conditionId": "0x58921ff5a49d1d2b13e6a4d4d8b6a6ab5a532cd86d9c36a951c785f9e99f689e",
-      "size": 10000,
-      "price": 0.5,
-      "timestamp": 1773619083,
-      "title": "Spread: Knicks (-14.5)",
-      "slug": "nba-gsw-nyk-2026-03-15-spread-home-14pt5",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
-      "eventSlug": "nba-gsw-nyk-2026-03-15",
-      "outcome": "Warriors",
-      "outcomeIndex": 1,
-      "name": "TheOnlyHuman",
-      "pseudonym": "Vital-Boy",
-      "bio": "",
-      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-3880352-2c848d1c-d674-41af-a677-157d83998b8b.gif",
-      "profileImageOptimized": "",
-      "transactionHash": "0x7f1ce483a72909f7d5f2e0e2e8c24786295cd056df0ad310d1006a81cc13ce0a",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Spread: Knicks (-14.5)",
-    "market_slug": "nba-gsw-nyk-2026-03-15",
-    "amount": 5000.0,
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-22T07:20:44.047287+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-15 >7 days ago, removed from API"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
-    "trade_hash": "0x1f2230750fdf8973a96e6ab4362568c51bc21b0d8d8341efc74965db9ba0d41c",
-    "wallet": "0xd235973291b2b75ff4070e9c0b01728c520b0f29",
-    "trader": {
-      "rank": 5,
-      "address": "0xd235973291b2b75ff4070e9c0b01728c520b0f29",
-      "username": "zxgngl",
-      "profit": 7807265.589240883,
-      "volume": 40551790.62184698,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0xe8c964006c7cb6f19cc09b564dfa4a61cb850c0c",
-      "side": "BUY",
-      "asset": "98708532867680481207948754953486276901371999075437019970312557812356677883783",
-      "conditionId": "0xb4ef1d530bb7836d45232fff4f6348e5d3586cc55d37e4b86fd86810ae319382",
-      "size": 3554.46,
-      "price": 0.5056358490459872,
-      "timestamp": 1773626285,
-      "title": "Bitcoin Up or Down - March 15, 10:00PM-10:05PM ET",
-      "slug": "btc-updown-5m-1773626400",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/BTC+fullsize.png",
-      "eventSlug": "btc-updown-5m-1773626400",
-      "outcome": "Up",
-      "outcomeIndex": 0,
-      "name": "Kitchaa",
-      "pseudonym": "Legal-Barley",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x1f2230750fdf8973a96e6ab4362568c51bc21b0d8d8341efc74965db9ba0d41c",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Bitcoin Up or Down - March 15, 10:00PM-10:05PM ET",
-    "market_slug": "btc-updown-5m-1773626400",
-    "amount": 1797.2623999999998,
-    "resolution": {
-      "outcome": "Up",
-      "checked_at": "2026-04-22T07:20:51.245310+00:00",
-      "insider_win": true,
-      "model_correct": null,
-      "pnl": 1757.2
-    }
-  },
-  {
     "market": "Magic vs. Hawks: O/U 229.5",
     "market_slug": "nba-orl-atl-2026-03-16-total-229pt5",
     "event_slug": "nba-orl-atl-2026-03-16-total-229pt5",
@@ -34308,5 +34153,87 @@
     "timestamp": "2026-04-23T06:32:25.775027",
     "ai_context": "\u2705 COPY \u2014 Recent developments indicate a potential ceasefire in the Russia-Ukraine conflict before the release of GTA VI.\nOn April 10, 2026, Russian President Vladimir Putin announced a 32-hour ceasefire for Orthodox Easter, which Ukraine agreed to honor. However, both nations reported violations during this period, and full-scale fighting resumed immediately after the truce expired on April 13. (aljazeera.",
     "resolution_last_check": "2026-04-23T07:25:01.523066+00:00"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x2bc8da293571c799294f87a2d9eb4b45be057ee2a10ef6ff64009b0c0b2b9da6",
+    "wallet": "0xe9ad918c7678cd38b12603a762e638a5d1ee7091",
+    "trader": {
+      "rank": 10,
+      "address": "0xe9ad918c7678cd38b12603a762e638a5d1ee7091",
+      "username": "walletmobile",
+      "profit": 5942685.45339684,
+      "volume": 32196692.075936034,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x02571ed3bfa4162c80b288310745503275a822b2",
+      "side": "SELL",
+      "asset": "43039489606620012356637526705255798725566831498132376180838488246982982629742",
+      "conditionId": "0x348e242d17cacf0c0c9455c8238d0d5bfb5f42f7faf7e54aa0547f0e09543253",
+      "size": 2000,
+      "price": 0.9,
+      "timestamp": 1776938392,
+      "title": "Madrid Open: Belinda Bencic vs Petra Marcinko",
+      "slug": "wta-bencic-marcink-2026-04-23",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/wta-logo-41f331bdf1.png",
+      "eventSlug": "wta-bencic-marcink-2026-04-23",
+      "outcome": "Belinda Bencic",
+      "outcomeIndex": 0,
+      "name": "kkkkkkmoji",
+      "pseudonym": "Good-Natured-Announcement",
+      "bio": "",
+      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-3421351-a281d01d-a9b8-448d-a53c-046f3bbaf770.webp",
+      "profileImageOptimized": "",
+      "transactionHash": "0x2bc8da293571c799294f87a2d9eb4b45be057ee2a10ef6ff64009b0c0b2b9da6",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Madrid Open: Belinda Bencic vs Petra Marcinko",
+    "market_slug": "wta-bencic-marcink-2026-04-23",
+    "amount": 1800.0,
+    "ai_context": "\u2705 COPY \u2014 Belinda Bencic has a strong recent record and a favorable head-to-head against Petra Marcinko.\nBencic has a 14-5 singles record in 2026, including a win over Marie Bouzkova and a close loss to Linda Noskova in the Billie Jean King Cup. (espn.com) She has also reached the quarterfinals in both Miami and Charleston. (thestatszone.com) Marcinko, on the other hand, has a 57-26 record over the past 52 weeks but has not faced Bencic before. (tennisratio.",
+    "ai_verdict": "COPY"
+  },
+  {
+    "type": "WHALE_FLOW",
+    "condition_id": "0x0116eca70c05363c322fda4cb3aa8e4745dfcf235087667a1d8b775bbe8c3c01",
+    "market": "Russia-Ukraine Ceasefire before GTA VI?",
+    "market_slug": "russia-ukraine-ceasefire-before-gta-vi-554",
+    "event_slug": "",
+    "dominant_side": "YES",
+    "dominant_volume": 64501.0,
+    "total_volume": 64501.0,
+    "imbalance_pct": 100.0,
+    "unique_wallets": 2,
+    "trade_count": 4,
+    "max_single_trade": 32250.0,
+    "yes_price": 0.525,
+    "strength": 82,
+    "timestamp": "2026-04-23T10:07:55.863338",
+    "ai_context": "\u274c SKIP \u2014 Recent developments indicate a lack of significant progress toward a lasting Russia-Ukraine ceasefire before the release of GTA VI.\nThe 32-hour Orthodox Easter ceasefire in April 2026 was marred by mutual violations, with both sides accusing each other of breaches, leading to its collapse and the resumption of hostilities. (en.wikipedia.org) Prediction markets reflect this skepticism, assigning only a 1.4% probability to an official ceasefire by April 30, 2026. (agenticnews."
+  },
+  {
+    "type": "WHALE_FLOW",
+    "condition_id": "0xbd453205df81fff36a41a667cd6cb846a52c5f425c21e4b15496a771777d3d66",
+    "market": "Russia-Ukraine Ceasefire before GTA VI?",
+    "market_slug": "russia-ukraine-ceasefire-before-gta-vi-554",
+    "event_slug": "",
+    "dominant_side": "YES",
+    "dominant_volume": 26534.0,
+    "total_volume": 26534.0,
+    "imbalance_pct": 100.0,
+    "unique_wallets": 47,
+    "trade_count": 77,
+    "max_single_trade": 3526.0,
+    "yes_price": 0.525,
+    "strength": 63,
+    "timestamp": "2026-04-23T10:07:55.238453",
+    "ai_context": "\u274c SKIP \u2014 Recent developments indicate a lack of progress toward a Russia-Ukraine ceasefire before the GTA VI release date.\nThe Orthodox Easter ceasefire in April 2026 was short-lived, with both sides accusing each other of violations. Prediction markets assign a mere 1.4% probability to a ceasefire by April 30, 2026, reflecting skepticism about near-term peace prospects. (agenticnews.site) Given that GTA VI is scheduled for release on November 19, 2026, (thegta-6."
   }
 ]
