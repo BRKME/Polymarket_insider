@@ -1,118 +1,5 @@
 [
   {
-    "market": "Heat vs. Hornets: O/U 233.5",
-    "market_slug": "nba-mia-cha-2026-03-17-total-233pt5",
-    "event_slug": "nba-mia-cha-2026-03-17-total-233pt5",
-    "wallet": "0xd954638b980290b8061f29e9ed6300f4ef275982",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($2,647)",
-        "Low activity (3 txns)"
-      ],
-      "amount": 2646.98,
-      "odds": 0.49,
-      "raw_price": 0.49,
-      "outcome": "Under",
-      "potential_pnl": 2755.02,
-      "pnl_multiplier": 1.0408163265306123,
-      "wallet_age_days": 0,
-      "total_activities": 3
-    },
-    "timestamp": "2026-03-17T11:50:43.029836",
-    "trade_hash": "0x7f80857efd5e3d687e8afeab4244032bd07326413e0a48ec4f32f020305645a6",
-    "trade_timestamp": 1773748035,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Under",
-      "side": "BUY",
-      "price": 0.49,
-      "effective_price": 0.49,
-      "size": 5402.0,
-      "amount": 2646.98,
-      "potential_pnl": 2755.02,
-      "pnl_multiplier": 1.0408163265306123,
-      "is_no": false,
-      "slug": "nba-mia-cha-2026-03-17-total-233pt5",
-      "eventSlug": "nba-mia-cha-2026-03-17"
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+25.2%)"
-      ],
-      "category": "sports",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.238,
-      "market_price": 0.49,
-      "edge": 0.252,
-      "edge_percent": 25.2,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Both teams score efficiently",
-          "Defensive lapses from both teams",
-          "Overtime or high-scoring quarters"
-        ],
-        "weakest_link": "Defensive lapses from both teams"
-      },
-      "category": "sports",
-      "narrative_drivers": [
-        "Recent offensive performances",
-        "Injury reports affecting key players"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "INSIDER_ONLY",
-      "signal_emoji": "\ud83d\udc41\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider activity detected, no clear mispricing",
-      "action_suggestion": "Monitor: insider signal only, no statistical edge",
-      "insider_score": 70,
-      "insider_position": "UNDER",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.252,
-      "edge_percent": 25.2
-    },
-    "financial_analyst": {
-      "signal_quality": 51.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 25.2,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-22T07:20:44.047429+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-17 >7 days ago, removed from API"
-    }
-  },
-  {
     "market": "Thunder vs. Magic: O/U 223.5",
     "market_slug": "nba-okc-orl-2026-03-17-total-223pt5",
     "event_slug": "nba-okc-orl-2026-03-17-total-223pt5",
@@ -33775,5 +33662,51 @@
     "amount": 3172.6616,
     "ai_context": "\u274c SKIP \u2014 Recent diplomatic developments indicate significant challenges in reaching a permanent peace deal by May 31, 2026.\nOn April 12, 2026, U.S.-Iran negotiations in Pakistan ended without an agreement after 21 hours of discussions, with both sides failing to bridge significant differences. (axios.com) Additionally, on April 18, 2026, Iran announced the closure of the Strait of Hormuz and fired on oil tankers, escalating tensions with the United States. (axios.",
     "ai_verdict": "SKIP"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xde317668177a470c9f7bc0705b7ae151a08fe58fbe98ae0a3def64f51f7cf1a6",
+    "wallet": "0x16f91db2592924cfed6e03b7e5cb5bb1e32299e3",
+    "trader": {
+      "rank": 19,
+      "address": "0x16f91db2592924cfed6e03b7e5cb5bb1e32299e3",
+      "username": "Jenzigo",
+      "profit": 4049827.0941029997,
+      "volume": 9457725.034338009,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x22f9c2f4358bd6fbc4ab20fd8ca62006b11af814",
+      "side": "SELL",
+      "asset": "8984239429162644330344697475702099997822159172761082810204278771255168843754",
+      "conditionId": "0x61e29e101898c1d572a46d355b0a34ca7b29553c2d1784c01589fb484c43aa3a",
+      "size": 3312.23,
+      "price": 0.4201509557005401,
+      "timestamp": 1777040946,
+      "title": "Madrid Open: Cameron Norrie vs Tomas Machac",
+      "slug": "atp-norrie-machac-2026-04-24",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/atp-tour-b4390c4fb8.jpg",
+      "eventSlug": "atp-norrie-machac-2026-04-24",
+      "outcome": "Cameron Norrie",
+      "outcomeIndex": 0,
+      "name": "fffuiu",
+      "pseudonym": "Colorful-Domain",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xde317668177a470c9f7bc0705b7ae151a08fe58fbe98ae0a3def64f51f7cf1a6",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Madrid Open: Cameron Norrie vs Tomas Machac",
+    "market_slug": "atp-norrie-machac-2026-04-24",
+    "amount": 1391.6366,
+    "ai_context": "\u2705 COPY \u2014 Norrie has a 2-0 head-to-head record against Machac and is in solid form.\nNorrie has won their two previous encounters, including a three-set victory on clay in Geneva last year. (thestatszone.com) In his last five matches, Norrie has a 3-2 record, with recent wins over Stan Wawrinka and Miomir Kecmanovic. (betexplorer.com) Machac has a 4-2 record in his last six matches, with a recent win over Francisco Comesana. (sportytrader.com)",
+    "ai_verdict": "COPY"
   }
 ]
