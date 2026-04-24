@@ -3,119 +3,6 @@
     "market": "Spread: Pistons (-18.5)",
     "market_slug": "nba-det-was-2026-03-17-spread-away-18pt5",
     "event_slug": "nba-det-was-2026-03-17-spread-away-18pt5",
-    "wallet": "0x2d73e36dfd44cca926a1cee87dad8383498d38f9",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($1,199)",
-        "Low activity (3 txns)"
-      ],
-      "amount": 1198.97,
-      "odds": 0.47,
-      "raw_price": 0.47,
-      "outcome": "Pistons",
-      "potential_pnl": 1352.0300000000002,
-      "pnl_multiplier": 1.1276595744680853,
-      "wallet_age_days": 0,
-      "total_activities": 3
-    },
-    "timestamp": "2026-03-17T14:01:43.592308",
-    "trade_hash": "0x62109385ef7341f370f6c3df63caab4adb867d0ea7b65c1aef8ef7f4a493af05",
-    "trade_timestamp": 1773755899,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Pistons",
-      "side": "BUY",
-      "price": 0.47,
-      "effective_price": 0.47,
-      "size": 2551.0,
-      "amount": 1198.97,
-      "potential_pnl": 1352.0300000000002,
-      "pnl_multiplier": 1.1276595744680853,
-      "is_no": false,
-      "slug": "nba-det-was-2026-03-17-spread-away-18pt5",
-      "eventSlug": "nba-det-was-2026-03-17"
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+23.6%)"
-      ],
-      "category": "other",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.23399999999999999,
-      "market_price": 0.47,
-      "edge": 0.236,
-      "edge_percent": 23.599999999999998,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Pistons must outperform their average performance",
-          "The opposing team must underperform",
-          "Injuries or absences of key players on the opposing team"
-        ],
-        "weakest_link": "The opposing team must underperform"
-      },
-      "category": "sports",
-      "narrative_drivers": [
-        "Team performance trends",
-        "Injury reports and player availability"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "INSIDER_ONLY",
-      "signal_emoji": "\ud83d\udc41\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider activity detected, no clear mispricing",
-      "action_suggestion": "Monitor: insider signal only, no statistical edge",
-      "insider_score": 70,
-      "insider_position": "PISTONS",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.236,
-      "edge_percent": 23.599999999999998
-    },
-    "financial_analyst": {
-      "signal_quality": 51.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 23.6,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-22T07:20:44.047473+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-17 >7 days ago, removed from API"
-    }
-  },
-  {
-    "market": "Spread: Pistons (-18.5)",
-    "market_slug": "nba-det-was-2026-03-17-spread-away-18pt5",
-    "event_slug": "nba-det-was-2026-03-17-spread-away-18pt5",
     "wallet": "0xbad6188424886bcb0696dcb971407d93b6fef54c",
     "analysis": {
       "score": 70,
@@ -33506,6 +33393,52 @@
     "market_slug": "dota2-liquid-bb4-2026-04-24",
     "amount": 1422.6537018033841,
     "ai_context": "\u2705 COPY \u2014 BetBoom Team has a recent 2-0 victory over Team Liquid and has been in strong form.\nIn their most recent encounter during the group stage of the current tournament, BetBoom Team defeated Team Liquid 2-0, demonstrating superior map control and preventing Liquid's star player, Nisha, from performing optimally. (scores24.live) Additionally, BetBoom Team has won 9 of their last 10 matches, indicating strong recent form. (strafe.",
+    "ai_verdict": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x805ca535364ba576e34c8369d592b9324395481482e932fc5cfb26fe45555085",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.515682,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x74e6c1260ac5448c00eb63e1f6894ecd090c99e8",
+      "side": "BUY",
+      "asset": "51403696226678951197581898561863796846994016290127405301714285241600263355827",
+      "conditionId": "0xe6770972b8d072a4064980d7105180ed7977361c47570529fd582e6dd3041277",
+      "size": 1658,
+      "price": 0.8867792521109771,
+      "timestamp": 1777053858,
+      "title": "Will the criminal investigation into Jerome Powell be dropped by April 30?",
+      "slug": "will-the-criminal-investigation-into-jerome-powell-be-dropped-by-april-30-918",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/trump-drops-powell-investigation-by-january-31-XL7DXWE5-zON.jpg",
+      "eventSlug": "trump-drops-powell-investigation-by",
+      "outcome": "Yes",
+      "outcomeIndex": 0,
+      "name": "manchot",
+      "pseudonym": "Criminal-Raisin",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x805ca535364ba576e34c8369d592b9324395481482e932fc5cfb26fe45555085",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Will the criminal investigation into Jerome Powell be dropped by April 30?",
+    "market_slug": "trump-drops-powell-investigation-by",
+    "amount": 1470.28,
+    "ai_context": "\u2705 COPY \u2014 The Department of Justice has dropped its criminal investigation into Jerome Powell, making the trader's bet on the investigation being dropped by April 30 correct.\nOn April 24, 2026, U.S. Attorney Jeanine Pirro announced the closure of the investigation into Powell, which had focused on alleged cost overruns in the Federal Reserve's building renovation project.",
     "ai_verdict": "COPY"
   }
 ]
