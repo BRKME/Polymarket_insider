@@ -1,58 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0x99de7c8434955e911adfe94f3376778855880c020ed429f73fa9f9e410cdbfa1",
-    "wallet": "0xd235973291b2b75ff4070e9c0b01728c520b0f29",
-    "trader": {
-      "rank": 5,
-      "address": "0xd235973291b2b75ff4070e9c0b01728c520b0f29",
-      "username": "zxgngl",
-      "profit": 7807265.589240883,
-      "volume": 40551790.62184699,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0xd106952ebf30a3125affd8a23b6c1f30c35fc79c",
-      "side": "BUY",
-      "asset": "73430689641666162570208609687376950474748567262949087092171303688003662051888",
-      "conditionId": "0x9a400ea146eef3ab1671863b09968236bb1bacc9393d7f0b38285b66f9a355b5",
-      "size": 5433.87,
-      "price": 0.75,
-      "timestamp": 1773698315,
-      "title": "Mavericks vs. Pelicans",
-      "slug": "nba-dal-nop-2026-03-16",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
-      "eventSlug": "nba-dal-nop-2026-03-16",
-      "outcome": "Pelicans",
-      "outcomeIndex": 1,
-      "name": "Herdonia",
-      "pseudonym": "Unkempt-Image",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x99de7c8434955e911adfe94f3376778855880c020ed429f73fa9f9e410cdbfa1",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Mavericks vs. Pelicans",
-    "market_slug": "nba-dal-nop-2026-03-16",
-    "amount": 4075.4025,
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-22T07:20:44.047386+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-16 >7 days ago, removed from API"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0x3c82ee8325c042be7fa26e5a9e5b545f2ce11610e2809292c66be353a0c089d6",
     "wallet": "0x8119010a6e589062aa03583bb3f39ca632d9f887",
     "trader": {
@@ -33741,6 +33689,52 @@
     "market_slug": "nba-nyk-atl-2026-04-23",
     "amount": 2307.4346286,
     "ai_context": "\u2705 COPY \u2014 Knicks have won 2 of the last 3 matchups against the Hawks, including a recent 113-102 victory on April 18, 2026. (covers.com)\nNBA Schedule\nKnicks (NYK) @ Hawks (ATL) on Monday, Apr 06, 2026 at 04:00 PM PDT. Final score: NYK 108 - ATL 105\nHawks (ATL) @ Knicks (NYK) on Saturday, Apr 18, 2026 at 03:00 PM PDT. Final score: ATL 102 - NYK 113\nHawks (ATL) @ Knicks (NYK) on Monday, Apr 20, 2026 at 05:00 PM PDT.",
+    "ai_verdict": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x09d8990d0bdf86bed4337cded63b818e9a6a6200e9fba119ba70a2ee610798e6",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.51568201,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x0eb75bf6f54794a83bd26095811f30b530161f17",
+      "side": "SELL",
+      "asset": "92430469735954963360049025962310229515467044409334320200786108488083599918032",
+      "conditionId": "0xc637ae2f8d5c241d44b93950a422bbd0988a872abb2d6f4f4c4e895681af5f29",
+      "size": 70414.29,
+      "price": 0.16758628113696808,
+      "timestamp": 1776989028,
+      "title": "Knicks vs. Hawks",
+      "slug": "nba-nyk-atl-2026-04-23",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
+      "eventSlug": "nba-nyk-atl-2026-04-23",
+      "outcome": "Knicks",
+      "outcomeIndex": 0,
+      "name": "elshark206",
+      "pseudonym": "Untried-Android",
+      "bio": "All glory to GOD praisethelordjesuschrist",
+      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-5838103-f07161f5-62c8-4041-a834-5e418d7f280e.webp",
+      "profileImageOptimized": "",
+      "transactionHash": "0x09d8990d0bdf86bed4337cded63b818e9a6a6200e9fba119ba70a2ee610798e6",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Knicks vs. Hawks",
+    "market_slug": "nba-nyk-atl-2026-04-23",
+    "amount": 11800.469,
+    "ai_context": "\u2705 COPY \u2014 Knicks have won 3 of the last 4 matchups against the Hawks, including a recent 113-102 victory on April 18, 2026.\nNBA Schedule\nKnicks (NYK) @ Hawks (ATL) on Monday, Apr 06, 2026 at 04:00 PM PDT. Final score: NYK 108 - ATL 105\nHawks (ATL) @ Knicks (NYK) on Saturday, Apr 18, 2026 at 03:00 PM PDT. Final score: ATL 102 - NYK 113\nHawks (ATL) @ Knicks (NYK) on Monday, Apr 20, 2026 at 05:00 PM PDT.",
     "ai_verdict": "COPY"
   }
 ]
