@@ -33379,7 +33379,14 @@
     "market_slug": "wta-bencic-marcink-2026-04-23",
     "amount": 1800.0,
     "ai_context": "\u2705 COPY \u2014 Belinda Bencic has a strong recent record and a favorable head-to-head against Petra Marcinko.\nBencic has a 14-5 singles record in 2026, including a win over Marie Bouzkova and a close loss to Linda Noskova in the Billie Jean King Cup. (espn.com) She has also reached the quarterfinals in both Miami and Charleston. (thestatszone.com) Marcinko, on the other hand, has a 57-26 record over the past 52 weeks but has not faced Bencic before. (tennisratio.",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution": {
+      "outcome": "Belinda Bencic",
+      "checked_at": "2026-04-24T07:51:35.525717+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 200.0
+    }
   },
   {
     "type": "WHALE_FLOW",
@@ -33397,7 +33404,8 @@
     "yes_price": 0.525,
     "strength": 82,
     "timestamp": "2026-04-23T10:07:55.863338",
-    "ai_context": "\u274c SKIP \u2014 Recent developments indicate a lack of significant progress toward a lasting Russia-Ukraine ceasefire before the release of GTA VI.\nThe 32-hour Orthodox Easter ceasefire in April 2026 was marred by mutual violations, with both sides accusing each other of breaches, leading to its collapse and the resumption of hostilities. (en.wikipedia.org) Prediction markets reflect this skepticism, assigning only a 1.4% probability to an official ceasefire by April 30, 2026. (agenticnews."
+    "ai_context": "\u274c SKIP \u2014 Recent developments indicate a lack of significant progress toward a lasting Russia-Ukraine ceasefire before the release of GTA VI.\nThe 32-hour Orthodox Easter ceasefire in April 2026 was marred by mutual violations, with both sides accusing each other of breaches, leading to its collapse and the resumption of hostilities. (en.wikipedia.org) Prediction markets reflect this skepticism, assigning only a 1.4% probability to an official ceasefire by April 30, 2026. (agenticnews.",
+    "resolution_last_check": "2026-04-24T07:51:35.525767+00:00"
   },
   {
     "type": "WHALE_FLOW",
@@ -33415,7 +33423,8 @@
     "yes_price": 0.525,
     "strength": 63,
     "timestamp": "2026-04-23T10:07:55.238453",
-    "ai_context": "\u274c SKIP \u2014 Recent developments indicate a lack of progress toward a Russia-Ukraine ceasefire before the GTA VI release date.\nThe Orthodox Easter ceasefire in April 2026 was short-lived, with both sides accusing each other of violations. Prediction markets assign a mere 1.4% probability to a ceasefire by April 30, 2026, reflecting skepticism about near-term peace prospects. (agenticnews.site) Given that GTA VI is scheduled for release on November 19, 2026, (thegta-6."
+    "ai_context": "\u274c SKIP \u2014 Recent developments indicate a lack of progress toward a Russia-Ukraine ceasefire before the GTA VI release date.\nThe Orthodox Easter ceasefire in April 2026 was short-lived, with both sides accusing each other of violations. Prediction markets assign a mere 1.4% probability to a ceasefire by April 30, 2026, reflecting skepticism about near-term peace prospects. (agenticnews.site) Given that GTA VI is scheduled for release on November 19, 2026, (thegta-6.",
+    "resolution_last_check": "2026-04-24T07:51:35.525773+00:00"
   },
   {
     "type": "WHALE_FLOW",
@@ -33433,7 +33442,8 @@
     "yes_price": 0.535,
     "strength": 78,
     "timestamp": "2026-04-23T11:12:06.001884",
-    "ai_context": "\u274c SKIP \u2014 Recent developments indicate a lack of significant progress toward a Russia-Ukraine ceasefire before the release of GTA VI.\nThe 32-hour Orthodox Easter ceasefire in April 2026 collapsed quickly, with both sides accusing each other of violations, including drone attacks. Prediction markets assign a mere 1.4% probability to a ceasefire by April 30, 2026, reflecting skepticism about near-term peace prospects. (agenticnews."
+    "ai_context": "\u274c SKIP \u2014 Recent developments indicate a lack of significant progress toward a Russia-Ukraine ceasefire before the release of GTA VI.\nThe 32-hour Orthodox Easter ceasefire in April 2026 collapsed quickly, with both sides accusing each other of violations, including drone attacks. Prediction markets assign a mere 1.4% probability to a ceasefire by April 30, 2026, reflecting skepticism about near-term peace prospects. (agenticnews.",
+    "resolution_last_check": "2026-04-24T07:51:35.525777+00:00"
   },
   {
     "type": "WHALE_FLOW",
@@ -33451,7 +33461,8 @@
     "yes_price": 0.53,
     "strength": 72,
     "timestamp": "2026-04-23T11:12:05.347898",
-    "ai_context": "\u274c SKIP \u2014 Recent developments indicate a low likelihood of a Russia-Ukraine ceasefire before the release of GTA VI.\nThe 32-hour Orthodox Easter ceasefire in April 2026 collapsed quickly, with both sides accusing each other of violations. Prediction markets assign only a 1.4% probability to a ceasefire by April 30, 2026, reflecting skepticism about near-term peace prospects. (agenticnews.site) GTA VI is confirmed to release on November 19, 2026. (thegta-6."
+    "ai_context": "\u274c SKIP \u2014 Recent developments indicate a low likelihood of a Russia-Ukraine ceasefire before the release of GTA VI.\nThe 32-hour Orthodox Easter ceasefire in April 2026 collapsed quickly, with both sides accusing each other of violations. Prediction markets assign only a 1.4% probability to a ceasefire by April 30, 2026, reflecting skepticism about near-term peace prospects. (agenticnews.site) GTA VI is confirmed to release on November 19, 2026. (thegta-6.",
+    "resolution_last_check": "2026-04-24T07:51:35.525780+00:00"
   },
   {
     "type": "TOP_TRADER",
@@ -33497,7 +33508,14 @@
     "market_slug": "dota2-aur1-heroic-2026-04-23",
     "amount": 2104.999999,
     "ai_context": "\u2705 COPY \u2014 Aurora has a favorable head-to-head record against Heroic, winning 6 out of 12 encounters.\nIn their most recent match on December 13, 2025, Aurora defeated Heroic 2-1. (egamersworld.com) Additionally, Aurora has shown strong recent form, securing victories in their last five matches, including wins against PARIVISION and 1w Team. (egamersworld.com)\nGiven Aurora's positive head-to-head record and recent strong performances, the trader's bet on Aurora is supported by the available data.",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution": {
+      "outcome": "Over",
+      "checked_at": "2026-04-24T07:51:37.882491+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -2105.0
+    }
   },
   {
     "type": "WHALE_FLOW",
@@ -33515,7 +33533,8 @@
     "yes_price": 0.525,
     "strength": 66,
     "timestamp": "2026-04-23T15:36:50.856713",
-    "ai_context": "\u274c SKIP \u2014 Recent developments indicate a lack of significant progress toward a Russia-Ukraine ceasefire before the release of GTA VI.\nThe 32-hour Orthodox Easter ceasefire in April 2026 collapsed quickly, with both sides accusing each other of violations, highlighting deep-seated distrust. Prediction markets assign a mere 1.4% probability to a ceasefire by April 30, 2026, reflecting skepticism about near-term peace prospects. (agenticnews."
+    "ai_context": "\u274c SKIP \u2014 Recent developments indicate a lack of significant progress toward a Russia-Ukraine ceasefire before the release of GTA VI.\nThe 32-hour Orthodox Easter ceasefire in April 2026 collapsed quickly, with both sides accusing each other of violations, highlighting deep-seated distrust. Prediction markets assign a mere 1.4% probability to a ceasefire by April 30, 2026, reflecting skepticism about near-term peace prospects. (agenticnews.",
+    "resolution_last_check": "2026-04-24T07:51:37.882537+00:00"
   },
   {
     "type": "WHALE_FLOW",
@@ -33533,7 +33552,8 @@
     "yes_price": 0.525,
     "strength": 75,
     "timestamp": "2026-04-23T18:14:48.587580",
-    "ai_context": "\u274c SKIP \u2014 Recent developments indicate a lack of significant progress toward a lasting Russia-Ukraine ceasefire before the scheduled release of GTA VI.\nThe 32-hour Orthodox Easter ceasefire in April 2026 was marred by mutual violations, with both Russia and Ukraine accusing each other of breaches, including drone attacks. This short-lived truce underscores the persistent distrust and ongoing hostilities between the two nations. (aljazeera.com)\nAdditionally, prediction markets assign a mere 1."
+    "ai_context": "\u274c SKIP \u2014 Recent developments indicate a lack of significant progress toward a lasting Russia-Ukraine ceasefire before the scheduled release of GTA VI.\nThe 32-hour Orthodox Easter ceasefire in April 2026 was marred by mutual violations, with both Russia and Ukraine accusing each other of breaches, including drone attacks. This short-lived truce underscores the persistent distrust and ongoing hostilities between the two nations. (aljazeera.com)\nAdditionally, prediction markets assign a mere 1.",
+    "resolution_last_check": "2026-04-24T07:51:37.882543+00:00"
   },
   {
     "type": "WHALE_FLOW",
@@ -33551,7 +33571,8 @@
     "yes_price": 0.525,
     "strength": 63,
     "timestamp": "2026-04-23T18:14:48.004313",
-    "ai_context": "\u274c SKIP \u2014 Recent developments indicate a lack of significant progress toward a Russia-Ukraine ceasefire before the release of GTA VI.\nThe 32-hour Orthodox Easter ceasefire in April 2026 was marred by mutual accusations of violations, leading to its collapse and the resumption of hostilities. (en.wikipedia.org) Prediction markets reflect this skepticism, assigning only a 1.4% probability to an official ceasefire by April 30, 2026. (agenticnews."
+    "ai_context": "\u274c SKIP \u2014 Recent developments indicate a lack of significant progress toward a Russia-Ukraine ceasefire before the release of GTA VI.\nThe 32-hour Orthodox Easter ceasefire in April 2026 was marred by mutual accusations of violations, leading to its collapse and the resumption of hostilities. (en.wikipedia.org) Prediction markets reflect this skepticism, assigning only a 1.4% probability to an official ceasefire by April 30, 2026. (agenticnews.",
+    "resolution_last_check": "2026-04-24T07:51:37.882547+00:00"
   },
   {
     "type": "TOP_TRADER",
@@ -33597,7 +33618,14 @@
     "market_slug": "lol-fly-sen-2026-04-23",
     "amount": 1327.7250000000001,
     "ai_context": "\u2705 COPY \u2014 Sentinels have shown recent improvement, including a 2-1 victory over FlyQuest on April 18, 2026.\nIn their last five matches, Sentinels have secured three wins, including a 2-0 victory over Disguised on April 15, 2026. (strafe.com) In contrast, FlyQuest has won only one of their last five matches, with their most recent loss being a 2-1 defeat to Sentinels on April 18, 2026. (lolactus.",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution": {
+      "outcome": "Sentinels",
+      "checked_at": "2026-04-24T07:51:39.913368+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 1622.78
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -33643,7 +33671,14 @@
     "market_slug": "nba-nyk-atl-2026-04-23",
     "amount": 1070.954028,
     "ai_context": "\u2705 COPY \u2014 Knicks have won 2 of the last 3 matchups against the Hawks, including a recent 113-102 victory on April 18, 2026. (covers.com)\nNBA Schedule\nKnicks (NYK) @ Hawks (ATL) on Monday, Apr 06, 2026 at 04:00 PM PDT. Final score: NYK 108 - ATL 105\nHawks (ATL) @ Knicks (NYK) on Saturday, Apr 18, 2026 at 03:00 PM PDT. Final score: ATL 102 - NYK 113\nHawks (ATL) @ Knicks (NYK) on Monday, Apr 20, 2026 at 05:00 PM PDT.",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution": {
+      "outcome": "Hawks",
+      "checked_at": "2026-04-24T07:51:42.031517+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -1070.95
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -33689,7 +33724,14 @@
     "market_slug": "nba-nyk-atl-2026-04-23",
     "amount": 2307.4346286,
     "ai_context": "\u2705 COPY \u2014 Knicks have won 2 of the last 3 matchups against the Hawks, including a recent 113-102 victory on April 18, 2026. (covers.com)\nNBA Schedule\nKnicks (NYK) @ Hawks (ATL) on Monday, Apr 06, 2026 at 04:00 PM PDT. Final score: NYK 108 - ATL 105\nHawks (ATL) @ Knicks (NYK) on Saturday, Apr 18, 2026 at 03:00 PM PDT. Final score: ATL 102 - NYK 113\nHawks (ATL) @ Knicks (NYK) on Monday, Apr 20, 2026 at 05:00 PM PDT.",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution": {
+      "outcome": "Hawks",
+      "checked_at": "2026-04-24T07:51:42.031572+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -2307.43
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -33735,6 +33777,13 @@
     "market_slug": "nba-nyk-atl-2026-04-23",
     "amount": 11800.469,
     "ai_context": "\u2705 COPY \u2014 Knicks have won 3 of the last 4 matchups against the Hawks, including a recent 113-102 victory on April 18, 2026.\nNBA Schedule\nKnicks (NYK) @ Hawks (ATL) on Monday, Apr 06, 2026 at 04:00 PM PDT. Final score: NYK 108 - ATL 105\nHawks (ATL) @ Knicks (NYK) on Saturday, Apr 18, 2026 at 03:00 PM PDT. Final score: ATL 102 - NYK 113\nHawks (ATL) @ Knicks (NYK) on Monday, Apr 20, 2026 at 05:00 PM PDT.",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution": {
+      "outcome": "Hawks",
+      "checked_at": "2026-04-24T07:51:42.031595+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -11800.47
+    }
   }
 ]
