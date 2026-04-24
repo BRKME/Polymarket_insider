@@ -1,170 +1,5 @@
 [
   {
-    "market": "Spread: Pistons (-18.5)",
-    "market_slug": "nba-det-was-2026-03-17-spread-away-18pt5",
-    "event_slug": "nba-det-was-2026-03-17-spread-away-18pt5",
-    "wallet": "0xbad6188424886bcb0696dcb971407d93b6fef54c",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($1,212)",
-        "Low activity (3 txns)"
-      ],
-      "amount": 1211.6599999999999,
-      "odds": 0.47,
-      "raw_price": 0.47,
-      "outcome": "Pistons",
-      "potential_pnl": 1366.3400000000001,
-      "pnl_multiplier": 1.1276595744680853,
-      "wallet_age_days": 0,
-      "total_activities": 3
-    },
-    "timestamp": "2026-03-17T14:01:48.795299",
-    "trade_hash": "0x2c0f1ae97e846b20b92ff51b2f668b5bca097465c34913e4d551a049454fe115",
-    "trade_timestamp": 1773755899,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Pistons",
-      "side": "BUY",
-      "price": 0.47,
-      "effective_price": 0.47,
-      "size": 2578.0,
-      "amount": 1211.6599999999999,
-      "potential_pnl": 1366.3400000000001,
-      "pnl_multiplier": 1.1276595744680853,
-      "is_no": false,
-      "slug": "nba-det-was-2026-03-17-spread-away-18pt5",
-      "eventSlug": "nba-det-was-2026-03-17"
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+23.6%)"
-      ],
-      "category": "other",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.23399999999999999,
-      "market_price": 0.47,
-      "edge": 0.236,
-      "edge_percent": 23.599999999999998,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Pistons perform exceptionally well",
-          "Opposing team underperforms",
-          "Injuries to key players on opposing team"
-        ],
-        "weakest_link": "Opposing team underperforms"
-      },
-      "category": "sports",
-      "narrative_drivers": [
-        "Pistons' recent performance trends",
-        "Public sentiment on team dynamics"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "INSIDER_ONLY",
-      "signal_emoji": "\ud83d\udc41\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider activity detected, no clear mispricing",
-      "action_suggestion": "Monitor: insider signal only, no statistical edge",
-      "insider_score": 70,
-      "insider_position": "PISTONS",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.236,
-      "edge_percent": 23.599999999999998
-    },
-    "financial_analyst": {
-      "signal_quality": 51.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 23.6,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-22T07:20:44.047483+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-17 >7 days ago, removed from API"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
-    "trade_hash": "0xb9e649f105c637422dfa641a013af84f984067def06dadab1009fe53f144df46",
-    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-    "trader": {
-      "rank": 1,
-      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-      "username": "Theo4",
-      "profit": 22053933.752321757,
-      "volume": 43013258.515682,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x8bee1c25494657af1ee36e31d25def0ef8680ca9",
-      "side": "BUY",
-      "asset": "72425682246575925701740850168767204929147408094914968980431475888298613010788",
-      "conditionId": "0xc1ff545fc923fadc12fa8b24f33daa633f9d65a93e8e711ddcd2fec9263d2ef5",
-      "size": 6062,
-      "price": 0.49,
-      "timestamp": 1773759539,
-      "title": "Pistons vs. Wizards: O/U 233.5",
-      "slug": "nba-det-was-2026-03-17-total-233pt5",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
-      "eventSlug": "nba-det-was-2026-03-17",
-      "outcome": "Over",
-      "outcomeIndex": 0,
-      "name": "",
-      "pseudonym": "",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0xb9e649f105c637422dfa641a013af84f984067def06dadab1009fe53f144df46",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Pistons vs. Wizards: O/U 233.5",
-    "market_slug": "nba-det-was-2026-03-17",
-    "amount": 2970.38,
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-22T07:20:44.047494+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-17 >7 days ago, removed from API"
-    }
-  },
-  {
     "type": "TOP_TRADER",
     "trade_hash": "0x51a44be188f19465d138fd1c51079d98ed540864cc58af7bef50ff405bb7f080",
     "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
@@ -33439,6 +33274,98 @@
     "market_slug": "trump-drops-powell-investigation-by",
     "amount": 1470.28,
     "ai_context": "\u2705 COPY \u2014 The Department of Justice has dropped its criminal investigation into Jerome Powell, making the trader's bet on the investigation being dropped by April 30 correct.\nOn April 24, 2026, U.S. Attorney Jeanine Pirro announced the closure of the investigation into Powell, which had focused on alleged cost overruns in the Federal Reserve's building renovation project.",
+    "ai_verdict": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x068ffbdc28359f6f0655701afe800aae0ef7ab410a2e8e5f5d32272b6acd2961",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.515682,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x06001a8f2ac37c2a14c9aef2158a02836238bf98",
+      "side": "BUY",
+      "asset": "68334296101317084508110321846428419803730172504905491101462521035782680441181",
+      "conditionId": "0xe208a07bd71069b04e3b89de92f71da8b155d45dc2e527dc46c3ceb2a63b307b",
+      "size": 3890.749681,
+      "price": 0.514039751456321,
+      "timestamp": 1777071264,
+      "title": "US x Iran diplomatic meeting by April 27, 2026?",
+      "slug": "us-x-iran-diplomatic-meeting-by-april-27-2026",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/us-x-iran-meeting-by-9btZGbUg-ikA.jpg",
+      "eventSlug": "us-x-iran-diplomatic-meeting-by-329",
+      "outcome": "Yes",
+      "outcomeIndex": 0,
+      "name": "guywithaids",
+      "pseudonym": "Parallel-Listening",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x068ffbdc28359f6f0655701afe800aae0ef7ab410a2e8e5f5d32272b6acd2961",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "US x Iran diplomatic meeting by April 27, 2026?",
+    "market_slug": "us-x-iran-diplomatic-meeting-by-329",
+    "amount": 1999.999999,
+    "ai_context": "\u2705 COPY \u2014 Recent developments indicate a high likelihood of a US-Iran diplomatic meeting by April 27, 2026.\nU.S. envoys Steve Witkoff and Jared Kushner are scheduled to meet Iranian Foreign Minister Abbas Araghchi in Pakistan to re-energize diplomatic efforts. This follows earlier indirect talks and a fragile ceasefire in the region. (axios.",
+    "ai_verdict": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x397504986c2e4ebb1b2df0f216a698f5aff68cc5df49624296b46288d9f14503",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.515682,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x9495425feeb0c250accb89275c97587011b19a27",
+      "side": "BUY",
+      "asset": "104123900799293244779679961621251742767421357537763086849299756449506167823943",
+      "conditionId": "0x4ff6c0c6fe50795ca617b890e31d1e00caa02f399ccd7fcc513534f0f79ce020",
+      "size": 4479.16,
+      "price": 0.48,
+      "timestamp": 1777071264,
+      "title": "Detroit Tigers vs. Cincinnati Reds",
+      "slug": "mlb-det-cin-2026-04-24",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Repetitive-markets/MLB.jpg",
+      "eventSlug": "mlb-det-cin-2026-04-24",
+      "outcome": "Cincinnati Reds",
+      "outcomeIndex": 1,
+      "name": "LaBradfordSmith22",
+      "pseudonym": "Distant-Traditionalism",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x397504986c2e4ebb1b2df0f216a698f5aff68cc5df49624296b46288d9f14503",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Detroit Tigers vs. Cincinnati Reds",
+    "market_slug": "mlb-det-cin-2026-04-24",
+    "amount": 2149.9968,
+    "ai_context": "\u2705 COPY \u2014 The Cincinnati Reds have a strong recent performance and a favorable head-to-head record against the Detroit Tigers.\nThe Reds are 6-3 in their last nine games, including a series sweep against the Minnesota Twins and a series win over the Tampa Bay Rays. They lead the National League Central with a 16-9 record. (scoresandstats.com) In their most recent matchup on June 15, 2025, the Reds defeated the Tigers 8-4. (champsorchumps.",
     "ai_verdict": "COPY"
   }
 ]
