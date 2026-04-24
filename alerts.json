@@ -1,50 +1,5 @@
 [
   {
-    "type": "TOP_TRADER",
-    "trade_hash": "0xc15b73c6b0a0d89e7a43f1ce747874b4ea66a9e45819c0fdf5552dc4169a7383",
-    "wallet": "0x6a72f61820b26b1fe4d956e17b6dc2a1ea3033ee",
-    "trader": {
-      "rank": 3,
-      "address": "0x6a72f61820b26b1fe4d956e17b6dc2a1ea3033ee",
-      "username": "kch123",
-      "profit": 11396150.443990177,
-      "volume": 255210005.824312,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0xb40977131a5718054172c3afe28c448f9f90dfa8",
-      "side": "SELL",
-      "asset": "64396688529621018200644229825696619354093368225452298628950042495300773740332",
-      "conditionId": "0xfed46bb3bf5d047635b71980aaf62f9f75596d19ef7d2435139f392baa0fda1d",
-      "size": 1805,
-      "price": 0.956,
-      "timestamp": 1773736131,
-      "title": "Will Iv\u00e1n Arias win the 2026 La Paz mayoral election?",
-      "slug": "will-ivn-arias-win-the-2026-la-paz-mayoral-election",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-ivn-arias-win-the-2026-la-paz-mayoral-election-OJYFuc71CyeV.jpg",
-      "eventSlug": "la-paz-mayoral-election-winner-bolivia",
-      "outcome": "No",
-      "outcomeIndex": 1,
-      "name": "wheatqt62",
-      "pseudonym": "Unwieldy-Redesign",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0xc15b73c6b0a0d89e7a43f1ce747874b4ea66a9e45819c0fdf5552dc4169a7383",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Will Iv\u00e1n Arias win the 2026 La Paz mayoral election?",
-    "market_slug": "la-paz-mayoral-election-winner-bolivia",
-    "amount": 1725.58,
-    "resolution_last_check": "2026-04-22T07:20:56.708008+00:00"
-  },
-  {
     "market": "Heat vs. Hornets: O/U 233.5",
     "market_slug": "nba-mia-cha-2026-03-17-total-233pt5",
     "event_slug": "nba-mia-cha-2026-03-17-total-233pt5",
@@ -33774,5 +33729,51 @@
     "amount": 4942.027749300333,
     "ai_context": "\u2705 COPY \u2014 Team Falcons have a strong recent head-to-head record against Team Spirit, including a 2-1 victory in their most recent match.\nIn their last five encounters, Team Falcons have won three times, drawn once, and lost once, with a map score of 5-4 in their favor. (bo3.gg) Additionally, in their most recent match on April 19, 2026, Team Falcons defeated Team Spirit 2-1. (sr.dltv.",
     "ai_verdict": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xd23c3afc66b4e9900e2fa37500024b1df10aa2d71cd794ab2cdf506105853d07",
+    "wallet": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+    "trader": {
+      "rank": 8,
+      "address": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+      "username": "swisstony",
+      "profit": 6483704.378309506,
+      "volume": 685804124.2506702,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x68c24bf4a8ad4d79a6fe4b8eec6f93a02dfd1711",
+      "side": "SELL",
+      "asset": "72094069823942324362885404801938332659316240217382754851102758232469673300092",
+      "conditionId": "0x0e4a0c937b8934c2475613b6322b3f8edc8dedc24762e01e42b0e6f87424a089",
+      "size": 10334.37,
+      "price": 0.3070009686125037,
+      "timestamp": 1777034932,
+      "title": "US x Iran permanent peace deal by May 31, 2026?",
+      "slug": "us-x-iran-permanent-peace-deal-by-may-31-2026-333",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/us-x-iran-permanent-peace-deal-by-yYlzv70Hi7j9.jpg",
+      "eventSlug": "us-x-iran-permanent-peace-deal-by",
+      "outcome": "Yes",
+      "outcomeIndex": 0,
+      "name": "mombil",
+      "pseudonym": "Common-Nitrogen",
+      "bio": "Halt Stop.",
+      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/images_d4a56771-49fd-42ed-8b25-8a8a9d19e06c_1721385750911.jpeg",
+      "profileImageOptimized": "",
+      "transactionHash": "0xd23c3afc66b4e9900e2fa37500024b1df10aa2d71cd794ab2cdf506105853d07",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "US x Iran permanent peace deal by May 31, 2026?",
+    "market_slug": "us-x-iran-permanent-peace-deal-by",
+    "amount": 3172.6616,
+    "ai_context": "\u274c SKIP \u2014 Recent diplomatic developments indicate significant challenges in reaching a permanent peace deal by May 31, 2026.\nOn April 12, 2026, U.S.-Iran negotiations in Pakistan ended without an agreement after 21 hours of discussions, with both sides failing to bridge significant differences. (axios.com) Additionally, on April 18, 2026, Iran announced the closure of the Strait of Hormuz and fired on oil tankers, escalating tensions with the United States. (axios.",
+    "ai_verdict": "SKIP"
   }
 ]
