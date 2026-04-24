@@ -1,58 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0x3c82ee8325c042be7fa26e5a9e5b545f2ce11610e2809292c66be353a0c089d6",
-    "wallet": "0x8119010a6e589062aa03583bb3f39ca632d9f887",
-    "trader": {
-      "rank": 7,
-      "address": "0x8119010a6e589062aa03583bb3f39ca632d9f887",
-      "username": "PrincessCaro",
-      "profit": 6083643.099591745,
-      "volume": 23520809.952867,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x9976874011b081e1e408444c579f48aa5b5967da",
-      "side": "BUY",
-      "asset": "82775469261649210736874259051571934917837725075525643307576105611031294190720",
-      "conditionId": "0xbc740a23d69d927e4813c3f67aa37a0d4585c000da07e0e139d2f6f91bacb213",
-      "size": 42304.58,
-      "price": 0.61,
-      "timestamp": 1773701917,
-      "title": "Spread: Red Wings (-1.5)",
-      "slug": "nhl-cal-det-2026-03-16-spread-home-1pt5",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nhl.png",
-      "eventSlug": "nhl-cal-det-2026-03-16",
-      "outcome": "Flames",
-      "outcomeIndex": 1,
-      "name": "BWArmageddon",
-      "pseudonym": "Metallic-Tractor",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x3c82ee8325c042be7fa26e5a9e5b545f2ce11610e2809292c66be353a0c089d6",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Spread: Red Wings (-1.5)",
-    "market_slug": "nhl-cal-det-2026-03-16",
-    "amount": 25805.7938,
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-22T07:20:44.047401+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-16 >7 days ago, removed from API"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0xd8c869f3067d9f6f87e60b2ae3c21c587ec0f24ed2a371cccdafd19557b94d24",
     "wallet": "0x23786fdad0073692157c6d7dc81f281843a35fcb",
     "trader": {
@@ -33785,5 +33733,51 @@
       "model_correct": null,
       "pnl": -11800.47
     }
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x508a0fbe4a99d3bd04d343324dd9d98469949ccc334b386332bf6c0d8a59fb01",
+    "wallet": "0x16f91db2592924cfed6e03b7e5cb5bb1e32299e3",
+    "trader": {
+      "rank": 19,
+      "address": "0x16f91db2592924cfed6e03b7e5cb5bb1e32299e3",
+      "username": "Jenzigo",
+      "profit": 4049827.0941029997,
+      "volume": 9457725.034338009,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xe16d3f2a5807999b358affd9445c3a09e45e5e30",
+      "side": "BUY",
+      "asset": "97766059610068466627441200557646714269817523631128930810121308935390489650180",
+      "conditionId": "0xda84ab070a4c662a787adedc3e2021513d9b5ab519a18f68358de66d281d072f",
+      "size": 17936.36364,
+      "price": 0.55,
+      "timestamp": 1777017838,
+      "title": "Dota 2: Team Liquid vs BetBoom Team (BO3) - PGL Wallachia Playoffs",
+      "slug": "dota2-liquid-bb4-2026-04-24",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/dota2-7ffacddb21.jpg",
+      "eventSlug": "dota2-liquid-bb4-2026-04-24",
+      "outcome": "BetBoom Team",
+      "outcomeIndex": 1,
+      "name": "0xE16D3F2A5807999b358aFfD9445C3a09E45E5e30-1776429210592",
+      "pseudonym": "Happy-Go-Lucky-Nestling",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x508a0fbe4a99d3bd04d343324dd9d98469949ccc334b386332bf6c0d8a59fb01",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Dota 2: Team Liquid vs BetBoom Team (BO3) - PGL Wallachia Playoffs",
+    "market_slug": "dota2-liquid-bb4-2026-04-24",
+    "amount": 9865.000002,
+    "ai_context": "\u2705 COPY \u2014 BetBoom Team has a recent 2-0 victory over Team Liquid and has won 5 of their last 5 matches.\nIn their most recent encounter on April 19, 2026, BetBoom Team defeated Team Liquid 2-0 in the PGL Wallachia Season 8 group stage. (bo3.gg) Additionally, BetBoom Team has won 5 of their last 5 matches, indicating strong current form. (strafe.",
+    "ai_verdict": "COPY"
   }
 ]
