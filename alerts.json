@@ -1,103 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0xd8c869f3067d9f6f87e60b2ae3c21c587ec0f24ed2a371cccdafd19557b94d24",
-    "wallet": "0x23786fdad0073692157c6d7dc81f281843a35fcb",
-    "trader": {
-      "rank": 14,
-      "address": "0x23786fdad0073692157c6d7dc81f281843a35fcb",
-      "username": "mikatrade77",
-      "profit": 5147998.544602999,
-      "volume": 10884765.388774998,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0xacae3c6efeedd75f2b34564f55356855e8fd6798",
-      "side": "BUY",
-      "asset": "64751719694941772414934464061668304793987531554294250511087236193806116783943",
-      "conditionId": "0xa0fc815e81411496f0263b63f76bf3a7a2cb4f468d763dd51ee9609bd478919f",
-      "size": 5367.63,
-      "price": 0.52,
-      "timestamp": 1773703719,
-      "title": "Trail Blazers vs. Nets: O/U 222.5",
-      "slug": "nba-por-bkn-2026-03-16-total-222pt5",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
-      "eventSlug": "nba-por-bkn-2026-03-16",
-      "outcome": "Under",
-      "outcomeIndex": 1,
-      "name": "b33t",
-      "pseudonym": "Frugal-Vengeance",
-      "bio": "",
-      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-6720194-889a5f4a-044c-4c24-9b84-72570af1229e.webp",
-      "profileImageOptimized": "",
-      "transactionHash": "0xd8c869f3067d9f6f87e60b2ae3c21c587ec0f24ed2a371cccdafd19557b94d24",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Trail Blazers vs. Nets: O/U 222.5",
-    "market_slug": "nba-por-bkn-2026-03-16",
-    "amount": 2791.1676,
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-22T07:20:44.047410+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-16 >7 days ago, removed from API"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
-    "trade_hash": "0xe79d27043c5d214c803363830dcceaecef764005139c4866b15d72327473bf96",
-    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-    "trader": {
-      "rank": 1,
-      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-      "username": "Theo4",
-      "profit": 22053933.752321757,
-      "volume": 43013258.515682,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0xcc4484e5e9f9bf20b3d2c99c01ec34b6e797c813",
-      "side": "BUY",
-      "asset": "31205576842060228192114296882902567548493402011934155919403465577774959369017",
-      "conditionId": "0xf0a5e353f2878cd91933115ad9cf9b33a63f4160c7ae7cb72f723eb6133097d0",
-      "size": 3742.82,
-      "price": 0.96,
-      "timestamp": 1773705517,
-      "title": "Will the price of Bitcoin be above $72,000 on March 17?",
-      "slug": "bitcoin-above-72k-on-march-17",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/BTC+fullsize.png",
-      "eventSlug": "bitcoin-above-on-march-17",
-      "outcome": "Yes",
-      "outcomeIndex": 0,
-      "name": "madutu",
-      "pseudonym": "Spotless-Disadvantage",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0xe79d27043c5d214c803363830dcceaecef764005139c4866b15d72327473bf96",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Will the price of Bitcoin be above $72,000 on March 17?",
-    "market_slug": "bitcoin-above-on-march-17",
-    "amount": 3593.1072,
-    "resolution_last_check": "2026-04-22T07:20:54.876513+00:00"
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0xc15b73c6b0a0d89e7a43f1ce747874b4ea66a9e45819c0fdf5552dc4169a7383",
     "wallet": "0x6a72f61820b26b1fe4d956e17b6dc2a1ea3033ee",
     "trader": {
@@ -33778,6 +33681,98 @@
     "market_slug": "dota2-liquid-bb4-2026-04-24",
     "amount": 9865.000002,
     "ai_context": "\u2705 COPY \u2014 BetBoom Team has a recent 2-0 victory over Team Liquid and has won 5 of their last 5 matches.\nIn their most recent encounter on April 19, 2026, BetBoom Team defeated Team Liquid 2-0 in the PGL Wallachia Season 8 group stage. (bo3.gg) Additionally, BetBoom Team has won 5 of their last 5 matches, indicating strong current form. (strafe.",
+    "ai_verdict": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xe2fdc58cf6ca7003823ddb93fc9a520f7501d3e69202c1c5e1f6d5c60a65f871",
+    "wallet": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+    "trader": {
+      "rank": 8,
+      "address": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+      "username": "swisstony",
+      "profit": 6512188.837282531,
+      "volume": 685356346.4203528,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x69bf90e0d554ba596f967bb10ffc8b2d2bc00c5d",
+      "side": "BUY",
+      "asset": "57692761797988301439586361196036316184916935830964217937701561881618838227699",
+      "conditionId": "0x32a8f59d3990870a25c98edd12776fa995e5e94212c11fb12d0f787efd331da5",
+      "size": 2000,
+      "price": 0.51,
+      "timestamp": 1777022642,
+      "title": "LoL: Oh My God vs LNG Esports - Game 1 Winner",
+      "slug": "lol-omg-lng-2026-04-24-game1",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/league-of-legends-61a4f083a6.png",
+      "eventSlug": "lol-omg-lng-2026-04-24",
+      "outcome": "LNG Esports",
+      "outcomeIndex": 1,
+      "name": "rzpro",
+      "pseudonym": "Uncomfortable-Brand",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xe2fdc58cf6ca7003823ddb93fc9a520f7501d3e69202c1c5e1f6d5c60a65f871",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "LoL: Oh My God vs LNG Esports - Game 1 Winner",
+    "market_slug": "lol-omg-lng-2026-04-24",
+    "amount": 1020.0,
+    "ai_context": "\u2705 COPY \u2014 LNG Esports has a strong recent record against Oh My God, winning their last five encounters.\nIn their most recent match on January 16, 2026, LNG Esports defeated Oh My God 2-0, with 1xn earning the MVP title. (ggesports.com)\nAdditionally, LNG Esports has a 54% win rate over the past 30 days, while Oh My God has a 45% win rate. (tips.gg)\nGiven LNG Esports' consistent performance and favorable head-to-head record, the trader's bet is supported by recent data.",
+    "ai_verdict": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x194c36629979a208e94148872f407673f924582429504b2666c5666282523988",
+    "wallet": "0xd0c042c08f755ff940249f62745e82d356345565",
+    "trader": {
+      "rank": 16,
+      "address": "0xd0c042c08f755ff940249f62745e82d356345565",
+      "username": "alexmulti",
+      "profit": 4804855.613376001,
+      "volume": 9949068.653841998,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xcc6e0ef500f1acea5df228a5b4f4dc97218cfa6f",
+      "side": "BUY",
+      "asset": "62154263067083721692020510963709952204410574469580619235646502497971117503326",
+      "conditionId": "0x631432a00db0083099f5e6ff52ba701a682e8acfe463f1f2904f859733f351cc",
+      "size": 7844.488491,
+      "price": 0.6299999999962181,
+      "timestamp": 1777022942,
+      "title": "Dota 2: Team Falcons vs Team Spirit (BO3) - PGL Wallachia Playoffs",
+      "slug": "dota2-flc-ts8-2026-04-24",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/dota2-7ffacddb21.jpg",
+      "eventSlug": "dota2-flc-ts8-2026-04-24",
+      "outcome": "Team Falcons",
+      "outcomeIndex": 0,
+      "name": "5054JLhuy",
+      "pseudonym": "Musty-Engine",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x194c36629979a208e94148872f407673f924582429504b2666c5666282523988",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Dota 2: Team Falcons vs Team Spirit (BO3) - PGL Wallachia Playoffs",
+    "market_slug": "dota2-flc-ts8-2026-04-24",
+    "amount": 4942.027749300333,
+    "ai_context": "\u2705 COPY \u2014 Team Falcons have a strong recent head-to-head record against Team Spirit, including a 2-1 victory in their most recent match.\nIn their last five encounters, Team Falcons have won three times, drawn once, and lost once, with a map score of 5-4 in their favor. (bo3.gg) Additionally, in their most recent match on April 19, 2026, Team Falcons defeated Team Spirit 2-1. (sr.dltv.",
     "ai_verdict": "COPY"
   }
 ]
