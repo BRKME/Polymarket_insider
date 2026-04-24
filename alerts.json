@@ -3,119 +3,6 @@
     "market": "Thunder vs. Magic: O/U 223.5",
     "market_slug": "nba-okc-orl-2026-03-17-total-223pt5",
     "event_slug": "nba-okc-orl-2026-03-17-total-223pt5",
-    "wallet": "0xb88cbd70fab2d390591493dc8abc216d03aa4cc1",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($2,000)",
-        "Low activity (2 txns)"
-      ],
-      "amount": 2000.0,
-      "odds": 0.5,
-      "raw_price": 0.5,
-      "outcome": "Over",
-      "potential_pnl": 2000.0,
-      "pnl_multiplier": 1.0,
-      "wallet_age_days": 0,
-      "total_activities": 2
-    },
-    "timestamp": "2026-03-17T12:36:21.494882",
-    "trade_hash": "0xb54ca6a1493dfc12d42002b40479ef3dca63965a8d41c67e4ae22a20c6d10b0f",
-    "trade_timestamp": 1773750791,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Over",
-      "side": "BUY",
-      "price": 0.5,
-      "effective_price": 0.5,
-      "size": 4000.0,
-      "amount": 2000.0,
-      "potential_pnl": 2000.0,
-      "pnl_multiplier": 1.0,
-      "is_no": false,
-      "slug": "nba-okc-orl-2026-03-17-total-223pt5",
-      "eventSlug": "nba-okc-orl-2026-03-17"
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+26.0%)"
-      ],
-      "category": "sports",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.24,
-      "market_price": 0.5,
-      "edge": 0.26,
-      "edge_percent": 26.0,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Both teams have high-scoring players performing at their peak",
-          "Defensive strategies of both teams are ineffective",
-          "Game pace is fast with numerous possessions"
-        ],
-        "weakest_link": "Defensive strategies of both teams are ineffective"
-      },
-      "category": "sports",
-      "narrative_drivers": [
-        "Recent performance trends of both teams",
-        "Injury reports affecting key players"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "INSIDER_ONLY",
-      "signal_emoji": "\ud83d\udc41\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider activity detected, no clear mispricing",
-      "action_suggestion": "Monitor: insider signal only, no statistical edge",
-      "insider_score": 70,
-      "insider_position": "OVER",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.26,
-      "edge_percent": 26.0
-    },
-    "financial_analyst": {
-      "signal_quality": 51.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 26.0,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-22T07:20:44.047440+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-17 >7 days ago, removed from API"
-    }
-  },
-  {
-    "market": "Thunder vs. Magic: O/U 223.5",
-    "market_slug": "nba-okc-orl-2026-03-17-total-223pt5",
-    "event_slug": "nba-okc-orl-2026-03-17-total-223pt5",
     "wallet": "0xfc94dc0609e44e4454434e275f81461fe000012c",
     "analysis": {
       "score": 70,
@@ -33707,6 +33594,52 @@
     "market_slug": "atp-norrie-machac-2026-04-24",
     "amount": 1391.6366,
     "ai_context": "\u2705 COPY \u2014 Norrie has a 2-0 head-to-head record against Machac and is in solid form.\nNorrie has won their two previous encounters, including a three-set victory on clay in Geneva last year. (thestatszone.com) In his last five matches, Norrie has a 3-2 record, with recent wins over Stan Wawrinka and Miomir Kecmanovic. (betexplorer.com) Machac has a 4-2 record in his last six matches, with a recent win over Francisco Comesana. (sportytrader.com)",
+    "ai_verdict": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xc54340083f73140e9d93cd40f550fcfb0ba56af2ec403a0a63ee531073ab178d",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.515682004,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x7ec78c17e24882845c39b3f501de6d40eaafc43e",
+      "side": "SELL",
+      "asset": "46668446687303885140278680016076956628363604690677961229493918907650258207961",
+      "conditionId": "0x65414628f108533d689721c6b2576dd83da43644bcfd62506444f1591ef32c31",
+      "size": 3882,
+      "price": 0.5,
+      "timestamp": 1777048454,
+      "title": "Will WTI Crude Oil (WTI) hit (HIGH) $100 in April?",
+      "slug": "will-wti-crude-oil-wti-hit-high-100-in-april",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/crude-oil-9a850ce2a2.png",
+      "eventSlug": "what-price-will-wti-hit-in-april-2026",
+      "outcome": "No",
+      "outcomeIndex": 1,
+      "name": "AmirH008",
+      "pseudonym": "Creative-Trip",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xc54340083f73140e9d93cd40f550fcfb0ba56af2ec403a0a63ee531073ab178d",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Will WTI Crude Oil (WTI) hit (HIGH) $100 in April?",
+    "market_slug": "what-price-will-wti-hit-in-april-2026",
+    "amount": 1941.0,
+    "ai_context": "\u2705 COPY \u2014 Recent market trends and forecasts suggest WTI Crude Oil is unlikely to reach $100 in April.\nWTI Crude Oil has been trading below $100 for the past several weeks, with prices hovering around $90. Analysts predict that, given current supply and demand dynamics, prices are expected to remain below $100 through April. (marketwatch.com)",
     "ai_verdict": "COPY"
   }
 ]
