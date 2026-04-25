@@ -1,110 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0x30ebf9a734cc6647fb5b71bb185eeb4c18e88073ca6bdf5bf7be8aaaa002203d",
-    "wallet": "0x863134d00841b2e200492805a01e1e2f5defaa53",
-    "trader": {
-      "rank": 6,
-      "address": "0x863134d00841b2e200492805a01e1e2f5defaa53",
-      "username": "RepTrump",
-      "profit": 7532409.671579,
-      "volume": 13983231.103425,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x87165c4f708a46c60595b0eeddb946412e55bd57",
-      "side": "BUY",
-      "asset": "50405950143962369963302692343536687688455690785913162237484430741288187284298",
-      "conditionId": "0xd06aee0b70ab47174c083f0de54e379d98b3f2f5337135c0f4453eb1f0c397a8",
-      "size": 4542.755554,
-      "price": 0.4499999999339608,
-      "timestamp": 1773873885,
-      "title": "Clippers vs. Pelicans",
-      "slug": "nba-lac-nop-2026-03-18",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
-      "eventSlug": "nba-lac-nop-2026-03-18",
-      "outcome": "Pelicans",
-      "outcomeIndex": 1,
-      "name": "againstmyreligion",
-      "pseudonym": "Possible-Minorleague",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x30ebf9a734cc6647fb5b71bb185eeb4c18e88073ca6bdf5bf7be8aaaa002203d",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Clippers vs. Pelicans",
-    "market_slug": "nba-lac-nop-2026-03-18",
-    "amount": 2044.2399990000001,
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-22T07:20:44.047668+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-18 >7 days ago, removed from API"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
-    "trade_hash": "0x0acb73f956f04dc504f483b8e952d0f324e9020931fd87041970463eab8be19c",
-    "wallet": "0x863134d00841b2e200492805a01e1e2f5defaa53",
-    "trader": {
-      "rank": 6,
-      "address": "0x863134d00841b2e200492805a01e1e2f5defaa53",
-      "username": "RepTrump",
-      "profit": 7532409.671579,
-      "volume": 13983231.103425,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0xd106952ebf30a3125affd8a23b6c1f30c35fc79c",
-      "side": "BUY",
-      "asset": "36961540922856473670872890994305065836143786629172347392664942684473699861012",
-      "conditionId": "0x2c969fd929ea89dd35f84893ee964e0e1264c298f8194ab1e683bcf0dde8d348",
-      "size": 6426.87,
-      "price": 0.73,
-      "timestamp": 1773877185,
-      "title": "Raptors vs. Bulls",
-      "slug": "nba-tor-chi-2026-03-18",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
-      "eventSlug": "nba-tor-chi-2026-03-18",
-      "outcome": "Raptors",
-      "outcomeIndex": 0,
-      "name": "Herdonia",
-      "pseudonym": "Unkempt-Image",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x0acb73f956f04dc504f483b8e952d0f324e9020931fd87041970463eab8be19c",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Raptors vs. Bulls",
-    "market_slug": "nba-tor-chi-2026-03-18",
-    "amount": 4691.6151,
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-22T07:20:44.047677+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-18 >7 days ago, removed from API"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0x6e22fb8c3b2b7a799bea901d933c58f92c99752fea73b0e56017b4b0a4535864",
     "wallet": "0x863134d00841b2e200492805a01e1e2f5defaa53",
     "trader": {
@@ -33248,6 +33144,162 @@
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
     },
     "ai_context": "\u274c SKIP \u2014 Bitcoin's current price is above $65,000, and recent forecasts suggest it will remain above that threshold in April 2026. As of April 25, 2026, Bitcoin is trading at approximately $76,352.78, up 11.9% for the month. (statmuse.com) Prediction markets indicate a 60.5% chance of Bitcoin reaching $65,000 by April 2026, suggesting a higher probability of staying above that level. (coingecko.",
+    "ai_verdict": "SKIP"
+  },
+  {
+    "market": "Madrid Open: Anhelina Kalinina vs Naomi Osaka",
+    "market_slug": "wta-kalinin-osaka-2026",
+    "event_slug": "wta-kalinin-osaka-2026",
+    "wallet": "0xe807b8e5e8d8d442e726b23f832c08615d30307c",
+    "analysis": {
+      "score": 70,
+      "flags": [
+        "New wallet (0d old)",
+        "Large bet ($6,280)",
+        "Low activity (19 txns)"
+      ],
+      "amount": 6279.878780337501,
+      "odds": 0.7899625,
+      "raw_price": 0.7899625,
+      "outcome": "Naomi Osaka",
+      "potential_pnl": 1669.7122196625005,
+      "pnl_multiplier": 0.2658828741870659,
+      "wallet_age_days": 0,
+      "total_activities": 19
+    },
+    "timestamp": "2026-04-25T19:58:44.432510",
+    "trade_hash": "0x92f16e5b809882752695295c004cc0b49d4029cde78342826b8bbd76a03799f9",
+    "trade_timestamp": 1777146824,
+    "latency": null,
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "Naomi Osaka",
+      "outcomeIndex": 1,
+      "normalized_position": "NO",
+      "side": "BUY",
+      "price": 0.7899625,
+      "effective_price": 0.7899625,
+      "size": 7949.591,
+      "amount": 6279.878780337501,
+      "potential_pnl": 1669.7122196625005,
+      "pnl_multiplier": 0.2658828741870659,
+      "is_no": false,
+      "conditionId": "0x615e68fe17682d5607773703484e5cdf52fb9dccb6760091f13f675a2551b324",
+      "slug": "wta-kalinin-osaka-2026",
+      "eventSlug": "wta-kalinin-osaka-2026-04-25"
+    },
+    "irrationality": {
+      "irrationality_score": 35,
+      "flags": [
+        "Large mispricing edge (+49.2%)"
+      ],
+      "category": "sports",
+      "category_info": {
+        "strength": "medium",
+        "typical_overpricing": 0.03,
+        "min_edge": 0.05
+      },
+      "is_irrational": true
+    },
+    "mispricing": {
+      "rational_estimate": 0.2979925,
+      "market_price": 0.7899625,
+      "edge": 0.49197,
+      "edge_percent": 49.197,
+      "min_edge_required": 0.05,
+      "is_mispriced": true,
+      "edge_quality": "STRONG",
+      "base_rate_class": "common",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "common",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "Kalinina maintains high performance level",
+          "Osaka returns to peak form",
+          "Match conditions favor Osaka's playing style"
+        ],
+        "weakest_link": "Osaka returns to peak form"
+      },
+      "category": "sports",
+      "narrative_drivers": [
+        "Kalinina's recent performance",
+        "Osaka's comeback narrative"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "ALPHA",
+      "signal_emoji": "\ud83d\udd25",
+      "signal_strength": 105,
+      "interpretation": "Smart money (NO) confirms YES is overpriced",
+      "action_suggestion": "High conviction: insider + statistics aligned",
+      "insider_score": 70,
+      "insider_position": "NO",
+      "irrationality_score": 35,
+      "is_irrational": true,
+      "is_mispriced": true,
+      "edge": 0.49197,
+      "edge_percent": 49.197
+    },
+    "financial_analyst": {
+      "signal_quality": 81.0,
+      "stance": "HIGH_CONVICTION",
+      "edge_percent": 49.2,
+      "signal_strength": 105.0,
+      "insider_score": 70.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "ai_context": "\u2705 COPY \u2014 Naomi Osaka has a strong recent record and is favored to win.\nOver the past 10 matches, Osaka holds a 7-3 record, and in the last 52 weeks, she has a 32-14 record, equating to a 69.6% win rate. (tennisratio.com) She is currently ranked No. 15 in the WTA rankings. (en.wikipedia.org) In her most recent match, she defeated Camila Osorio 6-2, 7-5. (thestatszone.com)\nWhile Anhelina Kalinina has also been in good form, with a 34-9 record over the past 52 weeks (79.1% win rate), (tennisratio.",
+    "ai_verdict": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x2c5fa8e84ef53d8fa610d3b15282a56dcc3ba50e3c53afe0f3778f72252d86e6",
+    "wallet": "0x863134d00841b2e200492805a01e1e2f5defaa53",
+    "trader": {
+      "rank": 7,
+      "address": "0x863134d00841b2e200492805a01e1e2f5defaa53",
+      "username": "RepTrump",
+      "profit": 7532409.671579,
+      "volume": 13983231.103425002,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x53757615de1c42b83f893b79d4241a009dc2aeea",
+      "side": "BUY",
+      "asset": "41772102129198252435268395441232788537892915035660994488552295928531028880890",
+      "conditionId": "0xf752c3ec9526de39530718246fcf9a69c4bc883191c8fc994eb4d43990c49030",
+      "size": 6148.3871,
+      "price": 0.39,
+      "timestamp": 1777147114,
+      "title": "Thunder vs. Suns",
+      "slug": "nba-okc-phx-2026-04-25",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
+      "eventSlug": "nba-okc-phx-2026-04-25",
+      "outcome": "Suns",
+      "outcomeIndex": 1,
+      "name": "",
+      "pseudonym": "",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x2c5fa8e84ef53d8fa610d3b15282a56dcc3ba50e3c53afe0f3778f72252d86e6",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Thunder vs. Suns",
+    "market_slug": "nba-okc-phx-2026-04-25",
+    "amount": 2397.870969,
+    "ai_context": "\u274c SKIP \u2014 The Suns have lost their last two games against the Thunder by double digits.\nIn their most recent matchup on April 22, 2026, the Suns were defeated 120-107, with Shai Gilgeous-Alexander scoring 37 points and dishing out 9 assists. (elpais.com)\nAdditionally, the Suns have been inconsistent in recent games, including a narrow 114-110 loss to the Portland Trail Blazers in a play-in game on April 15, 2026. (axios.",
     "ai_verdict": "SKIP"
   }
 ]
