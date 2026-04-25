@@ -1,157 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0x9743bec577b08d4b9cb1b4b0f20296fb28e6e4e7ad2c7e83b9cb0eae3fccf0a3",
-    "wallet": "0x23786fdad0073692157c6d7dc81f281843a35fcb",
-    "trader": {
-      "rank": 14,
-      "address": "0x23786fdad0073692157c6d7dc81f281843a35fcb",
-      "username": "mikatrade77",
-      "profit": 5147998.544602999,
-      "volume": 10884765.388775,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x0ae9b577febaba2e5c920b5aef18d624bb2b5f74",
-      "side": "BUY",
-      "asset": "51938013536033607392847872760095315790110510345353215258271180769721415981927",
-      "conditionId": "0x3c6bcb7da14ea576e5af25547dbd96f2bb24ac34e748e76aecff2ee9195dd1ac",
-      "size": 2000,
-      "price": 0.9,
-      "timestamp": 1773784747,
-      "title": "US x Iran ceasefire by March 31?",
-      "slug": "us-x-iran-ceasefire-by-march-31",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/us-x-iran-ceasefire-by-Cgmx3GCuOwjs.jpg",
-      "eventSlug": "us-x-iran-ceasefire-by",
-      "outcome": "No",
-      "outcomeIndex": 1,
-      "name": "jangdo",
-      "pseudonym": "Able-Hunt",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x9743bec577b08d4b9cb1b4b0f20296fb28e6e4e7ad2c7e83b9cb0eae3fccf0a3",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "US x Iran ceasefire by March 31?",
-    "market_slug": "us-x-iran-ceasefire-by",
-    "amount": 1800.0,
-    "resolution_last_check": "2026-04-22T07:21:00.014957+00:00"
-  },
-  {
-    "market": "Will Crude Oil (CL) hit (HIGH) $110 by end of March?",
-    "market_slug": "will-crude-oil-cl-hit-high-110-by-end-of-march-732-945",
-    "event_slug": "will-crude-oil-cl-hit-high-110-by-end-of-march-732-945",
-    "wallet": "0x1507836a804f10ae62b546d053a39498a5fd8363",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($2,698)",
-        "Low activity (3 txns)"
-      ],
-      "amount": 2697.9,
-      "odds": 0.391,
-      "raw_price": 0.609,
-      "outcome": "No",
-      "potential_pnl": 4202.099999999999,
-      "pnl_multiplier": 1.557544757033248,
-      "wallet_age_days": 0,
-      "total_activities": 3
-    },
-    "timestamp": "2026-03-17T22:19:21.760226",
-    "trade_hash": "0xb87ca4409a029a58c93f6c66a9b1f1ef0e941d3b8e40637ea54d1140f55129bc",
-    "trade_timestamp": 1773785649,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "No",
-      "side": "BUY",
-      "price": 0.609,
-      "effective_price": 0.391,
-      "size": 6900.0,
-      "amount": 2697.9,
-      "potential_pnl": 4202.099999999999,
-      "pnl_multiplier": 1.557544757033248,
-      "is_no": true,
-      "slug": "will-crude-oil-cl-hit-high-110-by-end-of-march-732-945",
-      "eventSlug": "will-crude-oil-cl-hit-by-end-of-march"
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+41.5%)"
-      ],
-      "category": "other",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.1938,
-      "market_price": 0.609,
-      "edge": 0.4152,
-      "edge_percent": 41.52,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "occasional",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "occasional",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Geopolitical tensions in major oil-producing regions escalate significantly.",
-          "Global demand for crude oil surges due to economic recovery or increased consumption.",
-          "Supply disruptions occur due to natural disasters or OPEC+ production cuts."
-        ],
-        "weakest_link": "Global demand for crude oil surges due to economic recovery or increased consumption."
-      },
-      "category": "geopolitics",
-      "narrative_drivers": [
-        "Potential conflict in the Middle East affecting oil supply.",
-        "Economic indicators suggesting a rebound in global oil demand."
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "ALPHA",
-      "signal_emoji": "\ud83d\udd25",
-      "signal_strength": 105,
-      "interpretation": "Smart money (NO) confirms YES is overpriced",
-      "action_suggestion": "High conviction: insider + statistics aligned",
-      "insider_score": 70,
-      "insider_position": "NO",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.4152,
-      "edge_percent": 41.52
-    },
-    "financial_analyst": {
-      "signal_quality": 81.0,
-      "stance": "HIGH_CONVICTION",
-      "edge_percent": 41.52,
-      "signal_strength": 105.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "resolution_last_check": "2026-04-22T07:21:01.819919+00:00"
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0x21eed625b93ec1b792087d12cda49920048165c81605a4928d4c013034444211",
     "wallet": "0xdb27bf2ac5d428a9c63dbc914611036855a6c56e",
     "trader": {
@@ -33424,5 +33273,97 @@
     "ai_context": "\u2705 COPY \u2014 Atl\u00e9tico Madrid's recent form and head-to-head record support the trader's bet on \"No.\"\nAtl\u00e9tico Madrid has shown strong performance in the 2025\u201326 UEFA Champions League, including a 2-0 away victory against Barcelona in the quarter-finals. (youtube.com) Additionally, they secured a 5-2 home win against Tottenham Hotspur in the group stage. (youtube.com) These results indicate that Atl\u00e9tico Madrid is a strong contender in the tournament.",
     "ai_verdict": "COPY",
     "resolution_last_check": "2026-04-25T07:06:09.662493+00:00"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xba3e0a3284617aa1e8773a583b9847bc34157608eb691e0adca88abc6defbfae",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.51568201,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x38f0b76ed812c24166a4f6293f991ac4b9972768",
+      "side": "BUY",
+      "asset": "64257399885612848146313457552817818727542774798876517138238518522558967005093",
+      "conditionId": "0x85098be8d7827de42752c1daf594e5f78239b243de4778a660310e1fcf747a8d",
+      "size": 7142.857141,
+      "price": 0.4199999999692,
+      "timestamp": 1777103676,
+      "title": "New York Yankees vs. Houston Astros",
+      "slug": "mlb-nyy-hou-2026-04-25",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Repetitive-markets/MLB.jpg",
+      "eventSlug": "mlb-nyy-hou-2026-04-25",
+      "outcome": "Houston Astros",
+      "outcomeIndex": 1,
+      "name": "initial77a",
+      "pseudonym": "Motionless-Peer",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xba3e0a3284617aa1e8773a583b9847bc34157608eb691e0adca88abc6defbfae",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "New York Yankees vs. Houston Astros",
+    "market_slug": "mlb-nyy-hou-2026-04-25",
+    "amount": 2999.999999,
+    "ai_context": "\u274c SKIP \u2014 Astros have lost 8 of their last 10 games and are 1-9 on the road this season.\nThey were defeated 12-4 by the Yankees on April 24, 2026. (thescore.com)\nHowever, the trader may have access to insider information or advanced analytics not yet public.\nGiven the Astros' recent struggles, it's advisable to exercise caution before copying this bet.",
+    "ai_verdict": "SKIP"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x4bece8016b90002b6a55784359e2c25268f46f503c92789b5b0d73126a77681b",
+    "wallet": "0xefbc5fec8d7b0acdc8911bdd9a98d6964308f9a2",
+    "trader": {
+      "rank": 20,
+      "address": "0xefbc5fec8d7b0acdc8911bdd9a98d6964308f9a2",
+      "username": "reachingthesky",
+      "profit": 3742635.156562068,
+      "volume": 13750266.834776,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x5a073781f06ab3d3c38c26ca5cc3110d78fb923f",
+      "side": "SELL",
+      "asset": "40103576705589635006325323490847435671390893620422996250421566705589161919719",
+      "conditionId": "0x4fa0fe6c6301cab7a0615c7c8f212d9d1416bf2bf7ef13fa4a51a6d654aa5ca4",
+      "size": 1799.43,
+      "price": 0.85,
+      "timestamp": 1777104276,
+      "title": "LoL: Top Esports vs Ninjas in Pyjamas (BO3) - LPL Group Ascend",
+      "slug": "lol-tes-nip-2026-04-25",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/league-of-legends-61a4f083a6.png",
+      "eventSlug": "lol-tes-nip-2026-04-25",
+      "outcome": "Top Esports",
+      "outcomeIndex": 0,
+      "name": "ProphetHunter",
+      "pseudonym": "Leafy-Pathology",
+      "bio": "",
+      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-3902982-f3594270-832c-4a92-9f9a-4d820927c321.png",
+      "profileImageOptimized": "",
+      "transactionHash": "0x4bece8016b90002b6a55784359e2c25268f46f503c92789b5b0d73126a77681b",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "LoL: Top Esports vs Ninjas in Pyjamas (BO3) - LPL Group Ascend",
+    "market_slug": "lol-tes-nip-2026-04-25",
+    "amount": 1529.5155,
+    "ai_context": "\u2705 COPY \u2014 Top Esports has a strong recent record and a perfect head-to-head against Ninjas in Pyjamas.\nThey've won 6 of their last 10 matches, including a 2-0 sweep over Invictus Gaming on January 25, 2026. (ggesports.com) In contrast, Ninjas in Pyjamas have won 5 of their last 10 matches, with a recent 2-1 loss to Team WE on January 25, 2026. (ggesports.com) Additionally, Top Esports has a 10-0 head-to-head record against Ninjas in Pyjamas in their last 10 encounters. (strafe.com)",
+    "ai_verdict": "COPY"
   }
 ]
