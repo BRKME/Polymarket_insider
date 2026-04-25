@@ -1,58 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0x2686f94e15bfc0ae161f7b4d339b041547648637a349e29e67c2058ced480045",
-    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-    "trader": {
-      "rank": 1,
-      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-      "username": "Theo4",
-      "profit": 22053933.752321757,
-      "volume": 43013258.51568201,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x37c1874a60d348903594a96703e0507c518fc53a",
-      "side": "BUY",
-      "asset": "47632495012154228233328904043908654846922990472676919198201559293663662665815",
-      "conditionId": "0x1908e8da1563399d1521fd135c581a4a0f5925909e94cd4f2d9e4d68e7059ced",
-      "size": 7407.81,
-      "price": 0.64,
-      "timestamp": 1773830067,
-      "title": "Will Club Atl\u00e9tico de Madrid win on 2026-03-18?",
-      "slug": "ucl-tot-atm1-2026-03-18-atm1",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/champions-league-pic-QIUFsL8vaDdq.png",
-      "eventSlug": "ucl-tot-atm1-2026-03-18",
-      "outcome": "No",
-      "outcomeIndex": 1,
-      "name": "CemeterySun",
-      "pseudonym": "Pale-Bend",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x2686f94e15bfc0ae161f7b4d339b041547648637a349e29e67c2058ced480045",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Will Club Atl\u00e9tico de Madrid win on 2026-03-18?",
-    "market_slug": "ucl-tot-atm1-2026-03-18",
-    "amount": 4740.9984,
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-22T07:20:44.047570+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-18 >7 days ago, removed from API"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0xbba9713ea784da71e91dc8d41eab33b2478b4a06508f9b7eb569c35c1326fcc1",
     "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
     "trader": {
@@ -33353,6 +33301,52 @@
     "market_slug": "lol-dk-dnf-2026-04-25",
     "amount": 4434.9544000000005,
     "ai_context": "\u2705 COPY \u2014 Dplus KIA has a dominant 9-0 head-to-head record against DN SOOPers, indicating a strong advantage.\nIn their most recent encounter on February 20, 2026, Dplus KIA secured a 3-1 victory over DN SOOPers in the LCK Cup 2026 Playoffs. (rotowire.com)\nAdditionally, Dplus KIA has a 100% win rate against DN SOOPers in their last 7 meetings. (esport.is)\nWhile Dplus KIA has experienced a recent dip in form with a 33% win rate over the past 30 days, (esport.",
+    "ai_verdict": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xdd215582b0a20149aafacb310bcbeb89c932a25f11833c89389ba2a7ef9678fb",
+    "wallet": "0xd0c042c08f755ff940249f62745e82d356345565",
+    "trader": {
+      "rank": 16,
+      "address": "0xd0c042c08f755ff940249f62745e82d356345565",
+      "username": "alexmulti",
+      "profit": 4804855.613376001,
+      "volume": 9949068.653841998,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x0dcf5b49627c5194805bd1af846fd0bd3388c556",
+      "side": "BUY",
+      "asset": "74841432236239386044078674772257789514824436076686490752993964752240003589945",
+      "conditionId": "0x8c06036b857877a0404c72d1e2726de97e47fd48f43352d9288419e0e74d7770",
+      "size": 9771.61445,
+      "price": 0.23871481,
+      "timestamp": 1777120794,
+      "title": "Madrid Open: Leylah Fernandez vs Iva Jovic",
+      "slug": "wta-fernand-jovic-2026-04-25",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/wta-logo-41f331bdf1.png",
+      "eventSlug": "wta-fernand-jovic-2026-04-25",
+      "outcome": "Iva Jovic",
+      "outcomeIndex": 1,
+      "name": "0x0dcf5B49627C5194805bD1AF846Fd0bd3388c556-1769755919166",
+      "pseudonym": "Insignificant-Wrestler",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xdd215582b0a20149aafacb310bcbeb89c932a25f11833c89389ba2a7ef9678fb",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Madrid Open: Leylah Fernandez vs Iva Jovic",
+    "market_slug": "wta-fernand-jovic-2026-04-25",
+    "amount": 2332.6290868250044,
+    "ai_context": "\u2705 COPY \u2014 Iva Jovic has been in strong form recently, with a 19-10 record this season and a semifinal finish in Charleston. (profootballnetwork.com)\nShe has also secured a runner-up finish in Hobart and a semifinal finish in Auckland. (profootballnetwork.com)\nWhile Leylah Fernandez has shown improvement, including a quarterfinal appearance in Stuttgart, Jovic's recent performances and higher seeding suggest she has the edge in this matchup.",
     "ai_verdict": "COPY"
   }
 ]
