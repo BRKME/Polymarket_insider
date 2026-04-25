@@ -1,344 +1,5 @@
 [
   {
-    "market": "LoL: BNK FEARX vs Team Secret Whales - Game 2 Winner",
-    "market_slug": "lol-fox1-tsw-2026-03-18-game2",
-    "event_slug": "lol-fox1-tsw-2026-03-18-game2",
-    "wallet": "0x39bb504fbaf8af888d4aa77d3d7482b23cd79126",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (1d old)",
-        "Large bet ($1,042)",
-        "Low activity (3 txns)"
-      ],
-      "amount": 1042.2,
-      "odds": 0.9,
-      "raw_price": 0.9,
-      "outcome": "BNK FEARX",
-      "potential_pnl": 115.79999999999995,
-      "pnl_multiplier": 0.11111111111111106,
-      "wallet_age_days": 1,
-      "total_activities": 3
-    },
-    "timestamp": "2026-03-18T16:46:57.868450",
-    "trade_hash": "0x4c559d54c97f53c1b72a7f4173918b37e55a5293a90ca18bcf67bd014594d249",
-    "trade_timestamp": 1773852093,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "BNK FEARX",
-      "side": "BUY",
-      "price": 0.9,
-      "effective_price": 0.9,
-      "size": 1158.0,
-      "amount": 1042.2,
-      "potential_pnl": 115.79999999999995,
-      "pnl_multiplier": 0.11111111111111106,
-      "is_no": false,
-      "slug": "lol-fox1-tsw-2026-03-18-game2",
-      "eventSlug": "lol-fox1-tsw-2026-03-18"
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+58.0%)"
-      ],
-      "category": "sports",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.32,
-      "market_price": 0.9,
-      "edge": 0.5800000000000001,
-      "edge_percent": 58.00000000000001,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Team Secret Whales' recent performance",
-          "BNK FEARX's roster stability",
-          "meta-game changes affecting team strategies"
-        ],
-        "weakest_link": "Team Secret Whales' recent performance"
-      },
-      "category": "sports",
-      "narrative_drivers": [
-        "team morale and synergy",
-        "fan support and community sentiment"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "INSIDER_ONLY",
-      "signal_emoji": "\ud83d\udc41\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider activity detected, no clear mispricing",
-      "action_suggestion": "Monitor: insider signal only, no statistical edge",
-      "insider_score": 70,
-      "insider_position": "BNK FEARX",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.5800000000000001,
-      "edge_percent": 58.00000000000001
-    },
-    "financial_analyst": {
-      "signal_quality": 51.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 58.0,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-22T07:20:44.047607+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-18 >7 days ago, removed from API"
-    }
-  },
-  {
-    "market": "LoL: BNK FEARX vs Team Secret Whales - Game 2 Winner",
-    "market_slug": "lol-fox1-tsw-2026-03-18-game2",
-    "event_slug": "lol-fox1-tsw-2026-03-18-game2",
-    "wallet": "0x636e348773fbbe9f3ab60041c7d815a55144900f",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (2d old)",
-        "Large bet ($1,140)",
-        "Low activity (3 txns)"
-      ],
-      "amount": 1139.989995,
-      "odds": 0.9,
-      "raw_price": 0.9,
-      "outcome": "BNK FEARX",
-      "potential_pnl": 126.66555500000004,
-      "pnl_multiplier": 0.11111111111111116,
-      "wallet_age_days": 2,
-      "total_activities": 3
-    },
-    "timestamp": "2026-03-18T16:47:02.798498",
-    "trade_hash": "0x4bb748f470f242fd8823c826f660d242f1a04f885fbd895247aca8f324ab953d",
-    "trade_timestamp": 1773852091,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "BNK FEARX",
-      "side": "BUY",
-      "price": 0.9,
-      "effective_price": 0.9,
-      "size": 1266.65555,
-      "amount": 1139.989995,
-      "potential_pnl": 126.66555500000004,
-      "pnl_multiplier": 0.11111111111111116,
-      "is_no": false,
-      "slug": "lol-fox1-tsw-2026-03-18-game2",
-      "eventSlug": "lol-fox1-tsw-2026-03-18"
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+58.0%)"
-      ],
-      "category": "sports",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.32,
-      "market_price": 0.9,
-      "edge": 0.5800000000000001,
-      "edge_percent": 58.00000000000001,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Team Secret Whales has a strong performance history",
-          "BNK FEARX has recent roster changes",
-          "Current meta favors Team Secret Whales' playstyle"
-        ],
-        "weakest_link": "BNK FEARX has recent roster changes"
-      },
-      "category": "sports",
-      "narrative_drivers": [
-        "Team Secret Whales' previous match performance",
-        "Fan sentiment and betting trends"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "INSIDER_ONLY",
-      "signal_emoji": "\ud83d\udc41\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider activity detected, no clear mispricing",
-      "action_suggestion": "Monitor: insider signal only, no statistical edge",
-      "insider_score": 70,
-      "insider_position": "BNK FEARX",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.5800000000000001,
-      "edge_percent": 58.00000000000001
-    },
-    "financial_analyst": {
-      "signal_quality": 51.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 58.0,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-22T07:20:44.047616+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-18 >7 days ago, removed from API"
-    }
-  },
-  {
-    "market": "LoL: BNK FEARX vs Team Secret Whales - Game 2 Winner",
-    "market_slug": "lol-fox1-tsw-2026-03-18-game2",
-    "event_slug": "lol-fox1-tsw-2026-03-18-game2",
-    "wallet": "0x07cfb250789345f181a4020b55ee821a7a0e964a",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (2d old)",
-        "Large bet ($1,071)",
-        "Low activity (3 txns)"
-      ],
-      "amount": 1071.09,
-      "odds": 0.9,
-      "raw_price": 0.9,
-      "outcome": "BNK FEARX",
-      "potential_pnl": 119.00999999999999,
-      "pnl_multiplier": 0.1111111111111111,
-      "wallet_age_days": 2,
-      "total_activities": 3
-    },
-    "timestamp": "2026-03-18T16:47:05.950244",
-    "trade_hash": "0x0a775b89f0c2f16ae5270e929f07b6e2076e6f1920290c10a28335c95b84c362",
-    "trade_timestamp": 1773852089,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "BNK FEARX",
-      "side": "BUY",
-      "price": 0.9,
-      "effective_price": 0.9,
-      "size": 1190.1,
-      "amount": 1071.09,
-      "potential_pnl": 119.00999999999999,
-      "pnl_multiplier": 0.1111111111111111,
-      "is_no": false,
-      "slug": "lol-fox1-tsw-2026-03-18-game2",
-      "eventSlug": "lol-fox1-tsw-2026-03-18"
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+58.0%)"
-      ],
-      "category": "sports",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.32,
-      "market_price": 0.9,
-      "edge": 0.5800000000000001,
-      "edge_percent": 58.00000000000001,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Team Secret Whales has a strong performance history",
-          "BNK FEARX has recent losses",
-          "Key players are in top form"
-        ],
-        "weakest_link": "Team Secret Whales has inconsistent performance in high-pressure situations"
-      },
-      "category": "sports",
-      "narrative_drivers": [
-        "recent match outcomes",
-        "team morale and synergy"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "INSIDER_ONLY",
-      "signal_emoji": "\ud83d\udc41\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider activity detected, no clear mispricing",
-      "action_suggestion": "Monitor: insider signal only, no statistical edge",
-      "insider_score": 70,
-      "insider_position": "BNK FEARX",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.5800000000000001,
-      "edge_percent": 58.00000000000001
-    },
-    "financial_analyst": {
-      "signal_quality": 51.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 58.0,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-22T07:20:44.047629+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-18 >7 days ago, removed from API"
-    }
-  },
-  {
     "market": "Liverpool FC vs. Galatasaray SK: O/U 3.5",
     "market_slug": "ucl-liv1-gal-2026-03-18-total-3pt5",
     "event_slug": "ucl-liv1-gal-2026-03-18-total-3pt5",
@@ -33401,5 +33062,207 @@
     "amount": 2499.999999,
     "ai_context": "\u274c SKIP \u2014 BetBoom Team has a 1-2 record against Aurora in their last three encounters.\nIn their most recent match on April 20, 2026, BetBoom Team lost 0-2 to Aurora Gaming in the PGL Wallachia Season 4. (rdy.gg) Additionally, BetBoom Team has a 1-2 record against Aurora in their last three encounters. (egamersworld.com) However, BetBoom Team has shown strong recent form, winning their last five matches, including victories over Team Liquid and Virtus.pro. (bo3.",
     "ai_verdict": "SKIP"
+  },
+  {
+    "market": "NAC Breda vs. AFC Ajax: O/U 2.5",
+    "market_slug": "ere-nac-aja-2026-04-25-total-2pt5",
+    "event_slug": "ere-nac-aja-2026-04-25-total-2pt5",
+    "wallet": "0x4064f0122a3703e9159ca5dbd4bfeb7b980df741",
+    "analysis": {
+      "score": 70,
+      "flags": [
+        "New wallet (2d old)",
+        "Large bet ($1,105)",
+        "Low activity (13 txns)"
+      ],
+      "amount": 1105.2160000000001,
+      "odds": 0.56,
+      "raw_price": 0.56,
+      "outcome": "Over",
+      "potential_pnl": 868.384,
+      "pnl_multiplier": 0.7857142857142856,
+      "wallet_age_days": 2,
+      "total_activities": 13
+    },
+    "timestamp": "2026-04-25T17:05:34.990365",
+    "trade_hash": "0x8712ce4260156e2aa76259d29627c35393cf9ad5d56705423b2227c8f1a02a34",
+    "trade_timestamp": 1777136194,
+    "latency": null,
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "Over",
+      "outcomeIndex": 0,
+      "normalized_position": "YES",
+      "side": "BUY",
+      "price": 0.56,
+      "effective_price": 0.56,
+      "size": 1973.6,
+      "amount": 1105.2160000000001,
+      "potential_pnl": 868.384,
+      "pnl_multiplier": 0.7857142857142856,
+      "is_no": false,
+      "conditionId": "0x2d9e7d39ad81654087284743812574d482b80a0a2e3021ee920ff7835f4c4839",
+      "slug": "ere-nac-aja-2026-04-25-total-2pt5",
+      "eventSlug": "ere-nac-aja-2026-04-25-more-markets"
+    },
+    "irrationality": {
+      "irrationality_score": 35,
+      "flags": [
+        "Large mispricing edge (+30.8%)"
+      ],
+      "category": "sports",
+      "category_info": {
+        "strength": "medium",
+        "typical_overpricing": 0.03,
+        "min_edge": 0.05
+      },
+      "is_irrational": true
+    },
+    "mispricing": {
+      "rational_estimate": 0.252,
+      "market_price": 0.56,
+      "edge": 0.30800000000000005,
+      "edge_percent": 30.800000000000004,
+      "min_edge_required": 0.05,
+      "is_mispriced": true,
+      "edge_quality": "STRONG",
+      "base_rate_class": "common",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "common",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "Both teams have strong attacking players",
+          "Recent matches show high-scoring trends",
+          "Defensive weaknesses in both teams"
+        ],
+        "weakest_link": "Defensive weaknesses in both teams"
+      },
+      "category": "sports",
+      "narrative_drivers": [
+        "Recent form of NAC Breda",
+        "AFC Ajax's attacking prowess"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "CONFLICT",
+      "signal_emoji": "\u26a0\ufe0f",
+      "signal_strength": 70,
+      "interpretation": "Insider buying YES despite statistical overpricing",
+      "action_suggestion": "Requires manual analysis: insider may have real info OR is part of irrational crowd",
+      "insider_score": 70,
+      "insider_position": "YES",
+      "irrationality_score": 35,
+      "is_irrational": true,
+      "is_mispriced": true,
+      "edge": 0.30800000000000005,
+      "edge_percent": 30.800000000000004
+    },
+    "financial_analyst": {
+      "signal_quality": 46.0,
+      "stance": "WATCH_ONLY",
+      "edge_percent": 30.8,
+      "signal_strength": 70.0,
+      "insider_score": 70.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "ai_context": "\u2705 COPY \u2014 Recent matches between NAC Breda and AFC Ajax have consistently exceeded 2.5 total goals.\nIn their last three encounters, the total goals were 3, 4, and 3, averaging 3.33 goals per match. (espn.com) Additionally, AFC Ajax's games this season average 3.13 total goals, indicating a trend towards higher-scoring matches. (betbrain.com) Given these patterns, betting on the Over 2.5 total goals is supported by recent form and head-to-head statistics.",
+    "ai_verdict": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x34d77ce4ba88abde34b82e705b5c07c617bd180f86d8100b63f68e8caea232a3",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.51568201,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x69adf268789f93b2c4da978870af74ae945f31e6",
+      "side": "BUY",
+      "asset": "71367208209871569480963362449047716278879223456490982543510091929629209420090",
+      "conditionId": "0xa2e93646b69ebca6063f771e8937b224cfeb311755b52b3a6a87919fc7053620",
+      "size": 2010.58061,
+      "price": 0.77,
+      "timestamp": 1777136608,
+      "title": "Indian Premier League: Rajasthan Royals vs Sunrisers Hyderabad",
+      "slug": "cricipl-raj-sun-2026-04-25",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/cricket-ball-a0b0bf2dc9.png",
+      "eventSlug": "cricipl-raj-sun-2026-04-25",
+      "outcome": "Sunrisers Hyderabad",
+      "outcomeIndex": 1,
+      "name": "ferenc89",
+      "pseudonym": "Zigzag-Logistics",
+      "bio": "",
+      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-6294534-4488bfb7-5b9a-4162-a989-5643a4c0fe91.png",
+      "profileImageOptimized": "",
+      "transactionHash": "0x34d77ce4ba88abde34b82e705b5c07c617bd180f86d8100b63f68e8caea232a3",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Indian Premier League: Rajasthan Royals vs Sunrisers Hyderabad",
+    "market_slug": "cricipl-raj-sun-2026-04-25",
+    "amount": 1548.1470697,
+    "ai_context": "\u2705 COPY \u2014 Sunrisers Hyderabad have a strong head-to-head record against Rajasthan Royals, winning 12 out of 21 matches.\nIn their most recent encounter, Sunrisers Hyderabad posted a massive 286 runs, the second-highest team total in IPL history, before securing a comfortable victory. (mykhel.com)\nAdditionally, Sunrisers Hyderabad have won 4 out of their last 7 matches, indicating a solid recent form. (cricket-feed.",
+    "ai_verdict": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x6ce03d3327b660d01a68c2c5fc3afc0edb5d3ba27912977d14a211f6e1488ae7",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.51568201,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xa38a455bbdd4b68486548b7e19da99903f4f821d",
+      "side": "BUY",
+      "asset": "71367208209871569480963362449047716278879223456490982543510091929629209420090",
+      "conditionId": "0xa2e93646b69ebca6063f771e8937b224cfeb311755b52b3a6a87919fc7053620",
+      "size": 4843.3487,
+      "price": 0.77,
+      "timestamp": 1777136606,
+      "title": "Indian Premier League: Rajasthan Royals vs Sunrisers Hyderabad",
+      "slug": "cricipl-raj-sun-2026-04-25",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/cricket-ball-a0b0bf2dc9.png",
+      "eventSlug": "cricipl-raj-sun-2026-04-25",
+      "outcome": "Sunrisers Hyderabad",
+      "outcomeIndex": 1,
+      "name": "takeormake",
+      "pseudonym": "Scary-Fannypack",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x6ce03d3327b660d01a68c2c5fc3afc0edb5d3ba27912977d14a211f6e1488ae7",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Indian Premier League: Rajasthan Royals vs Sunrisers Hyderabad",
+    "market_slug": "cricipl-raj-sun-2026-04-25",
+    "amount": 3729.378499,
+    "ai_context": "\ud83d\udfe1 LEAN COPY \u2014 Sunrisers Hyderabad have a slight edge in head-to-head matchups against Rajasthan Royals.\nIn 22 IPL encounters, Sunrisers Hyderabad have won 13 matches, while Rajasthan Royals have secured 9 victories. (rajasthanroyals.com) However, Rajasthan Royals have been in strong form this season, winning all four of their matches so far. (mykhel.com) Sunrisers Hyderabad have struggled to build momentum with just one win from their opening games. (mykhel.",
+    "ai_verdict": "LEAN_COPY"
   }
 ]
