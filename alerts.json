@@ -1,109 +1,5 @@
 [
   {
-    "type": "TOP_TRADER",
-    "trade_hash": "0xcb72866d39e4298e32a478c74126f7ec835ff05b99a6e0ff487d4b26206d9913",
-    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-    "trader": {
-      "rank": 1,
-      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-      "username": "Theo4",
-      "profit": 22053933.752321757,
-      "volume": 43013258.51568201,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x087d0bd2757e2aeec9fd2d95f230cf6a62aad040",
-      "side": "BUY",
-      "asset": "35924657093638629682342140303938748067990851881884073141736151502685740400563",
-      "conditionId": "0x13b3582366bac2ee75fb872a8faed7796c0976a753f4387523e191b41506a51a",
-      "size": 4455,
-      "price": 0.5,
-      "timestamp": 1773841471,
-      "title": "Trail Blazers vs. Pacers: O/U 232.5",
-      "slug": "nba-por-ind-2026-03-18-total-232pt5",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
-      "eventSlug": "nba-por-ind-2026-03-18",
-      "outcome": "Under",
-      "outcomeIndex": 1,
-      "name": "gwwgp",
-      "pseudonym": "Yearly-Trouble",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0xcb72866d39e4298e32a478c74126f7ec835ff05b99a6e0ff487d4b26206d9913",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Trail Blazers vs. Pacers: O/U 232.5",
-    "market_slug": "nba-por-ind-2026-03-18",
-    "amount": 2227.5,
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-22T07:20:44.047589+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-18 >7 days ago, removed from API"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
-    "trade_hash": "0x96e882a52773df6c0b751c9c16b54150644457e4fb2cfa55665919f8a1f18830",
-    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-    "trader": {
-      "rank": 1,
-      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-      "username": "Theo4",
-      "profit": 22053933.752321757,
-      "volume": 43013258.515682004,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x3e04fbc51adb75418129f6ce2091ae633070564d",
-      "side": "BUY",
-      "asset": "35689688104413598251363110342390889096349920052486000395208478441743644342269",
-      "conditionId": "0x4ab8d086479d32ff52377289defc81f6c4f24769bf7ffd1e4f132ba4d04ec369",
-      "size": 4119.53,
-      "price": 0.42,
-      "timestamp": 1773848973,
-      "title": "Jets vs. Bruins",
-      "slug": "nhl-wpg-bos-2026-03-19",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nhl.png",
-      "eventSlug": "nhl-wpg-bos-2026-03-19",
-      "outcome": "Jets",
-      "outcomeIndex": 0,
-      "name": "roldy",
-      "pseudonym": "Tattered-Screamer",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x96e882a52773df6c0b751c9c16b54150644457e4fb2cfa55665919f8a1f18830",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Jets vs. Bruins",
-    "market_slug": "nhl-wpg-bos-2026-03-19",
-    "amount": 1730.2025999999998,
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-22T07:20:44.047598+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-19 >7 days ago, removed from API"
-    }
-  },
-  {
     "market": "LoL: BNK FEARX vs Team Secret Whales - Game 2 Winner",
     "market_slug": "lol-fox1-tsw-2026-03-18-game2",
     "event_slug": "lol-fox1-tsw-2026-03-18-game2",
@@ -33342,5 +33238,168 @@
     "amount": 2164.9270500000002,
     "ai_context": "\u2705 COPY \u2014 Punjab Kings are on a strong winning streak, while Delhi Capitals have been inconsistent.\nPunjab Kings have won their last five matches, including victories over Lucknow Super Giants, Mumbai Indians, and Sunrisers Hyderabad. In contrast, Delhi Capitals have lost three of their last five matches, including a heavy defeat to Sunrisers Hyderabad. (statz.ai)\nIn their most recent head-to-head match in 2025, Punjab Kings narrowly defeated Delhi Capitals by 10 wickets. (statz.",
     "ai_verdict": "COPY"
+  },
+  {
+    "market": "US x Iran permanent peace deal by April 30, 2026?",
+    "market_slug": "us-x-iran-permanent-peace-deal-by-april-30-2026-925",
+    "event_slug": "us-x-iran-permanent-peace-deal-by-april-30-2026-925",
+    "wallet": "0xbacd00c9080a82ded56f504ee8810af732b0ab35",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "Against trend (5.0% effective odds)",
+        "Large bet ($1,571)",
+        "Pre-event latency: 6297m"
+      ],
+      "amount": 1571.1385000000014,
+      "odds": 0.050000000000000044,
+      "raw_price": 0.95,
+      "outcome": "No",
+      "potential_pnl": 29851.6315,
+      "pnl_multiplier": 18.999999999999982,
+      "wallet_age_days": 354,
+      "total_activities": 100
+    },
+    "timestamp": "2026-04-25T15:07:30.036839",
+    "trade_hash": "0x68fc4ffdaa5c99301af75f013d60c3d32a92c3ee899d22287a677f9fa1f9f17f",
+    "trade_timestamp": 1777129378,
+    "latency": {
+      "latency_seconds": 377822.0,
+      "latency_minutes": 6297.033333333334,
+      "is_pre_event": true,
+      "severity": "CRITICAL",
+      "trade_time": "2026-04-25T15:02:58+00:00",
+      "event_time": "2026-04-30T00:00:00+00:00"
+    },
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "No",
+      "outcomeIndex": 1,
+      "normalized_position": "NO",
+      "side": "BUY",
+      "price": 0.95,
+      "effective_price": 0.050000000000000044,
+      "size": 31422.77,
+      "amount": 1571.1385000000014,
+      "potential_pnl": 29851.6315,
+      "pnl_multiplier": 18.999999999999982,
+      "is_no": true,
+      "conditionId": "0xceb6dfaa2cf5abc9d47ebc867b984a7715104944249274e8a483a2e17473e5f5",
+      "slug": "us-x-iran-permanent-peace-deal-by-april-30-2026-925",
+      "eventSlug": "us-x-iran-permanent-peace-deal-by"
+    },
+    "irrationality": {
+      "irrationality_score": 35,
+      "flags": [
+        "Large mispricing edge (+73.6%)"
+      ],
+      "category": "politics_near",
+      "category_info": {
+        "strength": "medium",
+        "typical_overpricing": 0.02,
+        "min_edge": 0.03
+      },
+      "is_irrational": true
+    },
+    "mispricing": {
+      "rational_estimate": 0.214,
+      "market_price": 0.95,
+      "edge": 0.736,
+      "edge_percent": 73.6,
+      "min_edge_required": 0.05,
+      "is_mispriced": true,
+      "edge_quality": "STRONG",
+      "base_rate_class": "rare",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "rare",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "Mutual recognition of sovereignty and territorial integrity",
+          "Commitment to cease hostile actions and rhetoric",
+          "Framework for economic cooperation and sanctions relief"
+        ],
+        "weakest_link": "Commitment to cease hostile actions and rhetoric"
+      },
+      "category": "geopolitics",
+      "narrative_drivers": [
+        "Desire for stability in the Middle East",
+        "Influence of international diplomatic efforts"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "ALPHA",
+      "signal_emoji": "\ud83d\udd25",
+      "signal_strength": 120,
+      "interpretation": "Smart money (NO) confirms YES is overpriced",
+      "action_suggestion": "High conviction: insider + statistics aligned",
+      "insider_score": 85,
+      "insider_position": "NO",
+      "irrationality_score": 35,
+      "is_irrational": true,
+      "is_mispriced": true,
+      "edge": 0.736,
+      "edge_percent": 73.6
+    },
+    "financial_analyst": {
+      "signal_quality": 84.0,
+      "stance": "HIGH_CONVICTION",
+      "edge_percent": 73.6,
+      "signal_strength": 120.0,
+      "insider_score": 85.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "ai_context": "\u274c SKIP \u2014 Recent developments indicate significant challenges in reaching a permanent peace deal by April 30, 2026.\nThe U.S. and Iran have yet to finalize a permanent peace agreement, with recent talks failing to yield results. On April 12, 2026, after 21 hours of negotiations in Islamabad, U.S. Vice President J.D. Vance confirmed that no agreement was reached, citing clear red lines from the U.S. and Iran's refusal to accept U.S. conditions. (axios.com) Additionally, on April 24, 2026, U.S.",
+    "ai_verdict": "SKIP"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x057879044ed7ebbed43780293dcc102f651395a7b8048242800e76bf34802791",
+    "wallet": "0x6a72f61820b26b1fe4d956e17b6dc2a1ea3033ee",
+    "trader": {
+      "rank": 3,
+      "address": "0x6a72f61820b26b1fe4d956e17b6dc2a1ea3033ee",
+      "username": "kch123",
+      "profit": 11961320.02356133,
+      "volume": 285413515.2829091,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xef62ee9c449b67cbeaed565e8fade3aef2cfcf76",
+      "side": "BUY",
+      "asset": "75791588939410112639384693046978638410356588482978726924796539273380756317963",
+      "conditionId": "0x5b3f43ea99e3782e460ecd5ac5ed1d4e8fb179ddab7190a58cb41faee61db1fa",
+      "size": 5102.040815,
+      "price": 0.4899999999314,
+      "timestamp": 1777129706,
+      "title": "Dota 2: Aurora vs BetBoom Team (BO3) - PGL Wallachia Playoffs",
+      "slug": "dota2-aur1-bb4-2026-04-25",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/dota2-7ffacddb21.jpg",
+      "eventSlug": "dota2-aur1-bb4-2026-04-25",
+      "outcome": "BetBoom Team",
+      "outcomeIndex": 1,
+      "name": "montechristo777",
+      "pseudonym": "Frayed-Nursery",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x057879044ed7ebbed43780293dcc102f651395a7b8048242800e76bf34802791",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Dota 2: Aurora vs BetBoom Team (BO3) - PGL Wallachia Playoffs",
+    "market_slug": "dota2-aur1-bb4-2026-04-25",
+    "amount": 2499.999999,
+    "ai_context": "\u274c SKIP \u2014 BetBoom Team has a 1-2 record against Aurora in their last three encounters.\nIn their most recent match on April 20, 2026, BetBoom Team lost 0-2 to Aurora Gaming in the PGL Wallachia Season 4. (rdy.gg) Additionally, BetBoom Team has a 1-2 record against Aurora in their last three encounters. (egamersworld.com) However, BetBoom Team has shown strong recent form, winning their last five matches, including victories over Team Liquid and Virtus.pro. (bo3.",
+    "ai_verdict": "SKIP"
   }
 ]
