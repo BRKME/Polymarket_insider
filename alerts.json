@@ -1,58 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0x12e9fb4c075ec188e2262e195ce122311642c3891443bd94dcac8a66f88ea8df",
-    "wallet": "0xdb27bf2ac5d428a9c63dbc914611036855a6c56e",
-    "trader": {
-      "rank": 10,
-      "address": "0xdb27bf2ac5d428a9c63dbc914611036855a6c56e",
-      "username": "DrPufferfish",
-      "profit": 5649154.6234134035,
-      "volume": 214939870.173182,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x3d3d5f8afa1dbaccc08c4ee85f7a5bc0ed9e3165",
-      "side": "BUY",
-      "asset": "113029239789300692616172453639272219737440053293500020532267049115602188152592",
-      "conditionId": "0x0585f3df945f24cc90a056ee7e1fd146f8223007b88aaf6af885e1a3cc2bcce7",
-      "size": 2000,
-      "price": 0.84,
-      "timestamp": 1773866681,
-      "title": "Warriors vs. Celtics",
-      "slug": "nba-gsw-bos-2026-03-18",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
-      "eventSlug": "nba-gsw-bos-2026-03-18",
-      "outcome": "Celtics",
-      "outcomeIndex": 1,
-      "name": "",
-      "pseudonym": "",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x12e9fb4c075ec188e2262e195ce122311642c3891443bd94dcac8a66f88ea8df",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Warriors vs. Celtics",
-    "market_slug": "nba-gsw-bos-2026-03-18",
-    "amount": 1680.0,
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-22T07:20:44.047658+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-18 >7 days ago, removed from API"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0x30ebf9a734cc6647fb5b71bb185eeb4c18e88073ca6bdf5bf7be8aaaa002203d",
     "wallet": "0x863134d00841b2e200492805a01e1e2f5defaa53",
     "trader": {
@@ -33190,6 +33138,116 @@
     "market_slug": "us-x-iran-diplomatic-meeting-by-329",
     "amount": 11987.529999999999,
     "ai_context": "\u274c SKIP \u2014 Recent diplomatic developments indicate a lack of progress toward a US-Iran meeting by April 30, 2026.\nPresident Trump canceled a planned trip by US envoys to Pakistan due to stalled peace negotiations with Iran. Additionally, Iran's Foreign Minister Abbas Araghchi abruptly left Islamabad, and the US has not renewed waivers for Iranian oil purchases, citing ongoing tensions. (axios.",
+    "ai_verdict": "SKIP"
+  },
+  {
+    "market": "Will Bitcoin dip to $65,000 in April?",
+    "market_slug": "will-bitcoin-dip-to-65k-in-april-2026",
+    "event_slug": "will-bitcoin-dip-to-65k-in-april-2026",
+    "wallet": "0xf781837bcc9a63e771972ee283389fcf3563cb73",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (1d old)",
+        "Against trend (3.3% effective odds)",
+        "Large bet ($1,894)"
+      ],
+      "amount": 1893.7617274147244,
+      "odds": 0.03292182593499229,
+      "raw_price": 0.03292182593499229,
+      "outcome": "Yes",
+      "potential_pnl": 55629.22412258528,
+      "pnl_multiplier": 29.374985943204013,
+      "wallet_age_days": 1,
+      "total_activities": 100
+    },
+    "timestamp": "2026-04-25T19:25:34.762799",
+    "trade_hash": "0xd8b6ab6e6fb006864d82d25107d5e489be63e2a249d0dfb4ff08b8fbec4eaaaf",
+    "trade_timestamp": 1777144624,
+    "latency": null,
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "Yes",
+      "outcomeIndex": 0,
+      "normalized_position": "YES",
+      "side": "BUY",
+      "price": 0.03292182593499229,
+      "effective_price": 0.03292182593499229,
+      "size": 57522.985850000005,
+      "amount": 1893.7617274147244,
+      "potential_pnl": 55629.22412258528,
+      "pnl_multiplier": 29.374985943204013,
+      "is_no": false,
+      "conditionId": "0xf326a07132ea27d151fade9df0424db7c5ee496b44e5f373a41b4f15431bfd97",
+      "slug": "will-bitcoin-dip-to-65k-in-april-2026",
+      "eventSlug": "what-price-will-bitcoin-hit-in-april-2026"
+    },
+    "irrationality": {
+      "irrationality_score": 25,
+      "flags": [
+        "Longshot (3%) in medium bias category (crypto)"
+      ],
+      "category": "crypto",
+      "category_info": {
+        "strength": "medium",
+        "typical_overpricing": 0.03,
+        "min_edge": 0.05
+      },
+      "is_irrational": false
+    },
+    "mispricing": {
+      "rational_estimate": 0.02658436518699846,
+      "market_price": 0.03292182593499229,
+      "edge": 0.006337460747993826,
+      "edge_percent": 0.6337460747993826,
+      "min_edge_required": 0.05,
+      "is_mispriced": false,
+      "edge_quality": "WEAK",
+      "base_rate_class": "rare",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "rare",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "Significant negative market sentiment towards cryptocurrencies",
+          "Major regulatory announcements impacting Bitcoin",
+          "A macroeconomic downturn affecting investor confidence"
+        ],
+        "weakest_link": "Major regulatory announcements impacting Bitcoin"
+      },
+      "category": "crypto",
+      "narrative_drivers": [
+        "Market reactions to inflation and interest rate changes",
+        "Speculation on institutional investment trends"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "INSIDER_ONLY",
+      "signal_emoji": "\ud83d\udc41\ufe0f",
+      "signal_strength": 85,
+      "interpretation": "Insider activity detected, no clear mispricing",
+      "action_suggestion": "Monitor: insider signal only, no statistical edge",
+      "insider_score": 85,
+      "insider_position": "YES",
+      "irrationality_score": 25,
+      "is_irrational": false,
+      "is_mispriced": false,
+      "edge": 0.006337460747993826,
+      "edge_percent": 0.6337460747993826
+    },
+    "financial_analyst": {
+      "signal_quality": 28.0,
+      "stance": "WATCH_ONLY",
+      "edge_percent": 0.63,
+      "signal_strength": 85.0,
+      "insider_score": 85.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "ai_context": "\u274c SKIP \u2014 Bitcoin's current price is above $65,000, and recent forecasts suggest it will remain above that threshold in April 2026. As of April 25, 2026, Bitcoin is trading at approximately $76,352.78, up 11.9% for the month. (statmuse.com) Prediction markets indicate a 60.5% chance of Bitcoin reaching $65,000 by April 2026, suggesting a higher probability of staying above that level. (coingecko.",
     "ai_verdict": "SKIP"
   }
 ]
