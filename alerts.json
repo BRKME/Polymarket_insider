@@ -1,56 +1,5 @@
 [
   {
-    "type": "TOP_TRADER",
-    "trade_hash": "0x7efe9167b3b8ebd707da520fff94117264dfb31f548cb97c7d896f9de89c773b",
-    "wallet": "0x885783760858e1bd5dd09a3c3f916cfa251ac270",
-    "trader": {
-      "rank": 12,
-      "address": "0x885783760858e1bd5dd09a3c3f916cfa251ac270",
-      "username": "BetTom42",
-      "profit": 5642135.735356,
-      "volume": 11212839.523402998,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x2cff434810d3e935c26d73d73704b0baca8c53b5",
-      "side": "BUY",
-      "asset": "82824767374596510800848431765722928802627379912522023443838598829419085141952",
-      "conditionId": "0x9394c6edf76d4f2a9d1eadec2a5a947c328b2e2c0d76a118d4148db7ef7dfcec",
-      "size": 1845.861266,
-      "price": 0.8948018035934018,
-      "timestamp": 1773818665,
-      "title": "Bitcoin Up or Down - March 18, 3:20AM-3:25AM ET",
-      "slug": "btc-updown-5m-1773818400",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/BTC+fullsize.png",
-      "eventSlug": "btc-updown-5m-1773818400",
-      "outcome": "Down",
-      "outcomeIndex": 1,
-      "name": "0x2CFF434810D3E935c26D73d73704B0BAca8c53B5-1772390178056",
-      "pseudonym": "Basic-Insurance",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x7efe9167b3b8ebd707da520fff94117264dfb31f548cb97c7d896f9de89c773b",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Bitcoin Up or Down - March 18, 3:20AM-3:25AM ET",
-    "market_slug": "btc-updown-5m-1773818400",
-    "amount": 1651.6799899999999,
-    "resolution": {
-      "outcome": "Up",
-      "checked_at": "2026-04-22T07:21:07.122435+00:00",
-      "insider_win": false,
-      "model_correct": null,
-      "pnl": -1651.68
-    }
-  },
-  {
     "market": "Games Total: O/U 2.5",
     "market_slug": "val-tyloo-tec-2026-03-18-total-games-2pt5",
     "event_slug": "val-tyloo-tec-2026-03-18-total-games-2pt5",
@@ -33354,6 +33303,123 @@
     "market_slug": "val-dfm1-var-2026-04-25",
     "amount": 10566.175,
     "ai_context": "\u274c SKIP \u2014 VARREL has lost all recent matches without winning a single map.\nThey've been defeated 0-2 by FULL SENSE, Rex Regum Qeon, and T1 in April 2026. (bo3.gg) However, the trader may have access to insider information or analysis not yet public.",
+    "ai_verdict": "SKIP"
+  },
+  {
+    "market": "US x Iran permanent peace deal by April 30, 2026?",
+    "market_slug": "us-x-iran-permanent-peace-deal-by-april-30-2026-925",
+    "event_slug": "us-x-iran-permanent-peace-deal-by-april-30-2026-925",
+    "wallet": "0xf5348cac52a05d576d2c29569014aeab510f0a67",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "Against trend (8.0% effective odds)",
+        "Large bet ($1,200)",
+        "Pre-event latency: 6630m"
+      ],
+      "amount": 1199.9999999999993,
+      "odds": 0.07999999999999996,
+      "raw_price": 0.92,
+      "outcome": "No",
+      "potential_pnl": 13799.999999999998,
+      "pnl_multiplier": 11.500000000000005,
+      "wallet_age_days": 21,
+      "total_activities": 100
+    },
+    "timestamp": "2026-04-25T09:34:43.378891",
+    "trade_hash": "0x45d0156b02a65f1f2c93a646eba6278fdc308e29ce673db8de894cde97a0bae9",
+    "trade_timestamp": 1777109392,
+    "latency": {
+      "latency_seconds": 397808.0,
+      "latency_minutes": 6630.133333333333,
+      "is_pre_event": true,
+      "severity": "CRITICAL",
+      "trade_time": "2026-04-25T09:29:52+00:00",
+      "event_time": "2026-04-30T00:00:00+00:00"
+    },
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "No",
+      "outcomeIndex": 1,
+      "normalized_position": "NO",
+      "side": "BUY",
+      "price": 0.92,
+      "effective_price": 0.07999999999999996,
+      "size": 15000.0,
+      "amount": 1199.9999999999993,
+      "potential_pnl": 13799.999999999998,
+      "pnl_multiplier": 11.500000000000005,
+      "is_no": true,
+      "conditionId": "0xceb6dfaa2cf5abc9d47ebc867b984a7715104944249274e8a483a2e17473e5f5",
+      "slug": "us-x-iran-permanent-peace-deal-by-april-30-2026-925",
+      "eventSlug": "us-x-iran-permanent-peace-deal-by"
+    },
+    "irrationality": {
+      "irrationality_score": 35,
+      "flags": [
+        "Large mispricing edge (+71.2%)"
+      ],
+      "category": "politics_near",
+      "category_info": {
+        "strength": "medium",
+        "typical_overpricing": 0.02,
+        "min_edge": 0.03
+      },
+      "is_irrational": true
+    },
+    "mispricing": {
+      "rational_estimate": 0.20800000000000002,
+      "market_price": 0.92,
+      "edge": 0.712,
+      "edge_percent": 71.2,
+      "min_edge_required": 0.05,
+      "is_mispriced": true,
+      "edge_quality": "STRONG",
+      "base_rate_class": "rare",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "rare",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "Mutual recognition of sovereignty and territorial integrity",
+          "Commitment to cease hostile actions and rhetoric",
+          "Agreement on nuclear and military capabilities"
+        ],
+        "weakest_link": "Commitment to cease hostile actions and rhetoric"
+      },
+      "category": "geopolitics",
+      "narrative_drivers": [
+        "Desire for regional stability and economic cooperation",
+        "Influence of external powers and international organizations"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "ALPHA",
+      "signal_emoji": "\ud83d\udd25",
+      "signal_strength": 120,
+      "interpretation": "Smart money (NO) confirms YES is overpriced",
+      "action_suggestion": "High conviction: insider + statistics aligned",
+      "insider_score": 85,
+      "insider_position": "NO",
+      "irrationality_score": 35,
+      "is_irrational": true,
+      "is_mispriced": true,
+      "edge": 0.712,
+      "edge_percent": 71.2
+    },
+    "financial_analyst": {
+      "signal_quality": 84.0,
+      "stance": "HIGH_CONVICTION",
+      "edge_percent": 71.2,
+      "signal_strength": 120.0,
+      "insider_score": 85.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "ai_context": "\u274c SKIP \u2014 Recent developments indicate that a permanent peace deal between the US and Iran by April 30, 2026, is unlikely.\nThe US and Iran have engaged in multiple rounds of negotiations, including a 21-hour session in Islamabad that concluded without agreement on April 12, 2026. Vice President JD Vance, who led the previous round, will not attend the upcoming talks in Pakistan, with Special Envoy Steve Witkoff and Jared Kushner representing the US.",
     "ai_verdict": "SKIP"
   }
 ]
