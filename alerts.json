@@ -1,118 +1,5 @@
 [
   {
-    "market": "Spread: Pistons (-16.5)",
-    "market_slug": "nba-det-was-2026-03-19-spread-away-16pt5",
-    "event_slug": "nba-det-was-2026-03-19-spread-away-16pt5",
-    "wallet": "0xa198849c030354c7403b4956f9bd1593f323d1f1",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($1,163)",
-        "Low activity (1 txns)"
-      ],
-      "amount": 1162.6200000000001,
-      "odds": 0.54,
-      "raw_price": 0.54,
-      "outcome": "Wizards",
-      "potential_pnl": 990.3799999999999,
-      "pnl_multiplier": 0.8518518518518516,
-      "wallet_age_days": 0,
-      "total_activities": 1
-    },
-    "timestamp": "2026-03-19T07:13:30.397677",
-    "trade_hash": "0xb61d1adb48a706d9384e16c793b278aed314fe3599d190b432b3deb1cfd49272",
-    "trade_timestamp": 1773904073,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Wizards",
-      "side": "BUY",
-      "price": 0.54,
-      "effective_price": 0.54,
-      "size": 2153.0,
-      "amount": 1162.6200000000001,
-      "potential_pnl": 990.3799999999999,
-      "pnl_multiplier": 0.8518518518518516,
-      "is_no": false,
-      "slug": "nba-det-was-2026-03-19-spread-away-16pt5",
-      "eventSlug": "nba-det-was-2026-03-19"
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+29.2%)"
-      ],
-      "category": "other",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.248,
-      "market_price": 0.54,
-      "edge": 0.29200000000000004,
-      "edge_percent": 29.200000000000003,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Pistons perform exceptionally well",
-          "Opponent performs poorly",
-          "Key players for the opponent are injured"
-        ],
-        "weakest_link": "Opponent performs poorly"
-      },
-      "category": "sports",
-      "narrative_drivers": [
-        "Pistons' recent performance",
-        "Injuries affecting opponent's lineup"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "INSIDER_ONLY",
-      "signal_emoji": "\ud83d\udc41\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider activity detected, no clear mispricing",
-      "action_suggestion": "Monitor: insider signal only, no statistical edge",
-      "insider_score": 70,
-      "insider_position": "WIZARDS",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.29200000000000004,
-      "edge_percent": 29.200000000000003
-    },
-    "financial_analyst": {
-      "signal_quality": 51.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 29.2,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-22T07:20:44.047733+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-19 >7 days ago, removed from API"
-    }
-  },
-  {
     "type": "TOP_TRADER",
     "trade_hash": "0x1dc999c6b0ccd3736b84eb06c47c6b048606b91a4becd67a122dcebf902c0fb3",
     "wallet": "0x6a72f61820b26b1fe4d956e17b6dc2a1ea3033ee",
@@ -33276,6 +33163,52 @@
     "market_slug": "ufc-dav3-adr8-2026-04-25",
     "amount": 3160.3776,
     "ai_context": "\u2705 COPY \u2014 Adrian Luna Martinetti is on a 17-fight winning streak and has a dominant UFC debut performance.\nLuna Martinetti boasts an impressive 17-1 MMA record, with his sole loss dating back to 2023. He recently secured a UFC contract after a standout performance on Dana White's Contender Series. (as.com) In his UFC debut, he dominated Mark Vologdin, showcasing his striking and grappling skills. (clutchpoints.",
+    "ai_verdict": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xc605f8189019d5541fa3b4107560f9eb05ffc156214fb4fe04fed5c3d96a7858",
+    "wallet": "0x863134d00841b2e200492805a01e1e2f5defaa53",
+    "trader": {
+      "rank": 7,
+      "address": "0x863134d00841b2e200492805a01e1e2f5defaa53",
+      "username": "RepTrump",
+      "profit": 7532409.671579,
+      "volume": 13983231.103425,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x6a72f61820b26b1fe4d956e17b6dc2a1ea3033ee",
+      "side": "BUY",
+      "asset": "9009168126213575106224813490416333010450377322182211067291310684613769418323",
+      "conditionId": "0xa0562264e426ec88e738f8163712569fc7411d484551a3b2f3eacf7aff450d70",
+      "size": 2492.4064,
+      "price": 0.74,
+      "timestamp": 1777160318,
+      "title": "Stars vs. Wild",
+      "slug": "nhl-dal-min-2026-04-25",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nhl.png",
+      "eventSlug": "nhl-dal-min-2026-04-25",
+      "outcome": "Stars",
+      "outcomeIndex": 0,
+      "name": "kch123",
+      "pseudonym": "Aggravating-Grin",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xc605f8189019d5541fa3b4107560f9eb05ffc156214fb4fe04fed5c3d96a7858",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Stars vs. Wild",
+    "market_slug": "nhl-dal-min-2026-04-25",
+    "amount": 1844.3807359999998,
+    "ai_context": "\u2705 COPY \u2014 Stars have a strong recent record against the Wild and are playing at home.\nIn their last 10 meetings, the Stars have won 7, including a 5-2 victory on October 15, 2025, and a 5-2 win on September 26, 2025. (rantsports.com) Additionally, the Stars have a home record of 14-27-8 against the Wild. (nhl.com)\nThe Stars have been performing well recently, with a 5-2 victory over the Wild on October 15, 2025, and a 5-2 win on September 26, 2025. (rantsports.",
     "ai_verdict": "COPY"
   }
 ]
