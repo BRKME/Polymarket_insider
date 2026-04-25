@@ -1,170 +1,5 @@
 [
   {
-    "type": "TOP_TRADER",
-    "trade_hash": "0x3216a6735483e7b1c651e3bb72dc110bfd50f3037b02313e474a68944b952168",
-    "wallet": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
-    "trader": {
-      "rank": 10,
-      "address": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
-      "username": "RN1",
-      "profit": 5707489.607975597,
-      "volume": 277849552.749512,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x6c16abad96d6989efe1b0333cb9af9158f548bfa",
-      "side": "BUY",
-      "asset": "113008433113230105947013984297397493271706363061080351095559172103146900012538",
-      "conditionId": "0xe4c1e33149a57001f047dbae47bbde6027f7d3fdcfefb142fcdc95c60abf4a29",
-      "size": 6200,
-      "price": 0.67,
-      "timestamp": 1773897593,
-      "title": "Counter-Strike: PARIVISION vs NIP (BO3) - BLAST Open Rotterdam Group B",
-      "slug": "cs2-prv-nip-2026-03-19",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/counter-strike-image-16c415c538.png",
-      "eventSlug": "cs2-prv-nip-2026-03-19",
-      "outcome": "PARIVISION",
-      "outcomeIndex": 0,
-      "name": "XPredicter1",
-      "pseudonym": "Happy-Bottle",
-      "bio": "BET ON YOUR BELIEFS",
-      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-3213213-9f8b7631-e046-4d06-ab23-61e8e23df953.webp",
-      "profileImageOptimized": "",
-      "transactionHash": "0x3216a6735483e7b1c651e3bb72dc110bfd50f3037b02313e474a68944b952168",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Counter-Strike: PARIVISION vs NIP (BO3) - BLAST Open Rotterdam Group B",
-    "market_slug": "cs2-prv-nip-2026-03-19",
-    "amount": 4154.0,
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-22T07:20:44.047705+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-19 >7 days ago, removed from API"
-    }
-  },
-  {
-    "market": "Spread: Pistons (-16.5)",
-    "market_slug": "nba-det-was-2026-03-19-spread-away-16pt5",
-    "event_slug": "nba-det-was-2026-03-19-spread-away-16pt5",
-    "wallet": "0x409e018892cf9ad5033416c58b7aaed7f1c22d13",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($1,136)",
-        "Low activity (1 txns)"
-      ],
-      "amount": 1136.16,
-      "odds": 0.54,
-      "raw_price": 0.54,
-      "outcome": "Wizards",
-      "potential_pnl": 967.8399999999999,
-      "pnl_multiplier": 0.8518518518518517,
-      "wallet_age_days": 0,
-      "total_activities": 1
-    },
-    "timestamp": "2026-03-19T07:13:22.250132",
-    "trade_hash": "0x5737b90386cf6f005ae7577ef3a04b4839088baacb12e44faef2af242fa2bd47",
-    "trade_timestamp": 1773904075,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Wizards",
-      "side": "BUY",
-      "price": 0.54,
-      "effective_price": 0.54,
-      "size": 2104.0,
-      "amount": 1136.16,
-      "potential_pnl": 967.8399999999999,
-      "pnl_multiplier": 0.8518518518518517,
-      "is_no": false,
-      "slug": "nba-det-was-2026-03-19-spread-away-16pt5",
-      "eventSlug": "nba-det-was-2026-03-19"
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+29.2%)"
-      ],
-      "category": "other",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.248,
-      "market_price": 0.54,
-      "edge": 0.29200000000000004,
-      "edge_percent": 29.200000000000003,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Pistons perform exceptionally well",
-          "Opposing team underperforms significantly",
-          "Key players remain healthy"
-        ],
-        "weakest_link": "Opposing team underperforms significantly"
-      },
-      "category": "sports",
-      "narrative_drivers": [
-        "Pistons' recent performance trends",
-        "Injury reports of key players"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "INSIDER_ONLY",
-      "signal_emoji": "\ud83d\udc41\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider activity detected, no clear mispricing",
-      "action_suggestion": "Monitor: insider signal only, no statistical edge",
-      "insider_score": 70,
-      "insider_position": "WIZARDS",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.29200000000000004,
-      "edge_percent": 29.200000000000003
-    },
-    "financial_analyst": {
-      "signal_quality": 51.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 29.2,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-22T07:20:44.047714+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-19 >7 days ago, removed from API"
-    }
-  },
-  {
     "market": "Spread: Pistons (-16.5)",
     "market_slug": "nba-det-was-2026-03-19-spread-away-16pt5",
     "event_slug": "nba-det-was-2026-03-19-spread-away-16pt5",
@@ -33288,6 +33123,226 @@
     "market_slug": "nba-okc-phx-2026-04-25",
     "amount": 1023.1999969999999,
     "ai_context": "\u2705 COPY \u2014 Thunder have won 3 of the last 4 matchups against the Suns, including a decisive 119-84 victory on April 19, 2026.\nIn the most recent game on April 22, 2026, the Thunder secured a 120-107 win over the Suns. (elpais.com)\nThe Thunder have demonstrated consistent dominance over the Suns in recent matchups, with a strong performance in their latest game.\nGiven the Thunder's recent form and head-to-head record, the trader's bet on the Thunder is well-supported.",
+    "ai_verdict": "COPY"
+  },
+  {
+    "market": "Valorant: FURIA Esports vs KR\u00dc Esports - Map 2 Winner",
+    "market_slug": "val-fur-kru1-2026-04-25-game2",
+    "event_slug": "val-fur-kru1-2026-04-25-game2",
+    "wallet": "0x2c4df36e77efa9da5e3d7607d46796e5b46820cc",
+    "analysis": {
+      "score": 70,
+      "flags": [
+        "New wallet (0d old)",
+        "Large bet ($2,703)",
+        "Low activity (15 txns)"
+      ],
+      "amount": 2703.1261109378966,
+      "odds": 0.54805594,
+      "raw_price": 0.54805594,
+      "outcome": "FURIA Esports",
+      "potential_pnl": 2229.082289062104,
+      "pnl_multiplier": 0.8246312593564809,
+      "wallet_age_days": 0,
+      "total_activities": 15
+    },
+    "timestamp": "2026-04-25T21:50:36.857883",
+    "trade_hash": "0xdc0c5caab46faddcdab413c1de072527ba3397800c70ed39ecbd2efa616dbc00",
+    "trade_timestamp": 1777153736,
+    "latency": null,
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "FURIA Esports",
+      "outcomeIndex": 0,
+      "normalized_position": "YES",
+      "side": "BUY",
+      "price": 0.54805594,
+      "effective_price": 0.54805594,
+      "size": 4932.2084,
+      "amount": 2703.1261109378966,
+      "potential_pnl": 2229.082289062104,
+      "pnl_multiplier": 0.8246312593564809,
+      "is_no": false,
+      "conditionId": "0xabcac7adf7dbbd90f40d0cd20221e317233ccd0499edc3c0896985b27c4d7d5b",
+      "slug": "val-fur-kru1-2026-04-25-game2",
+      "eventSlug": "val-fur-kru1-2026-04-25"
+    },
+    "irrationality": {
+      "irrationality_score": 35,
+      "flags": [
+        "Large mispricing edge (+29.8%)"
+      ],
+      "category": "sports",
+      "category_info": {
+        "strength": "medium",
+        "typical_overpricing": 0.03,
+        "min_edge": 0.05
+      },
+      "is_irrational": true
+    },
+    "mispricing": {
+      "rational_estimate": 0.24961118799999998,
+      "market_price": 0.54805594,
+      "edge": 0.29844475200000004,
+      "edge_percent": 29.844475200000005,
+      "min_edge_required": 0.05,
+      "is_mispriced": true,
+      "edge_quality": "STRONG",
+      "base_rate_class": "common",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "common",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "FURIA Esports performs well on the selected map",
+          "KR\u00dc Esports struggles with the current meta",
+          "team morale and synergy are high for FURIA"
+        ],
+        "weakest_link": "KR\u00dc Esports struggles with the current meta"
+      },
+      "category": "sports",
+      "narrative_drivers": [
+        "recent performance trends of both teams",
+        "map-specific strategies and player matchups"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "CONFLICT",
+      "signal_emoji": "\u26a0\ufe0f",
+      "signal_strength": 70,
+      "interpretation": "Insider buying YES despite statistical overpricing",
+      "action_suggestion": "Requires manual analysis: insider may have real info OR is part of irrational crowd",
+      "insider_score": 70,
+      "insider_position": "YES",
+      "irrationality_score": 35,
+      "is_irrational": true,
+      "is_mispriced": true,
+      "edge": 0.29844475200000004,
+      "edge_percent": 29.844475200000005
+    },
+    "financial_analyst": {
+      "signal_quality": 46.0,
+      "stance": "WATCH_ONLY",
+      "edge_percent": 29.84,
+      "signal_strength": 70.0,
+      "insider_score": 70.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "ai_context": "\u2705 COPY \u2014 FURIA Esports has a 71% head-to-head win rate against KR\u00dc Esports and has demonstrated improved form over the past six months.\nFURIA Esports has a 71% head-to-head win rate against KR\u00dc Esports, indicating a clear tactical advantage. (bo3.gg) Additionally, FURIA's recent form shows a 44% win rate over the past six months, suggesting improved performance compared to KR\u00dc Esports, which has a 0% win rate in the same period. (bo3.gg) Therefore, the facts support the bet on FURIA Esports.",
+    "ai_verdict": "COPY"
+  },
+  {
+    "market": "Knicks vs. Hawks",
+    "market_slug": "nba-nyk-atl-2026",
+    "event_slug": "nba-nyk-atl-2026",
+    "wallet": "0x02ecdae46ea4f6a069a6bd0444cdd7da48fde1e3",
+    "analysis": {
+      "score": 70,
+      "flags": [
+        "New wallet (2d old)",
+        "Large bet ($1,282)",
+        "Low activity (13 txns)"
+      ],
+      "amount": 1282.35586280552,
+      "odds": 0.5399999998338845,
+      "raw_price": 0.5399999998338845,
+      "outcome": "Knicks",
+      "potential_pnl": 1092.37721719448,
+      "pnl_multiplier": 0.851851852421521,
+      "wallet_age_days": 2,
+      "total_activities": 13
+    },
+    "timestamp": "2026-04-25T21:50:40.652876",
+    "trade_hash": "0x3ed07ee5f4b79f8c98be98cb9bd2773f7a0d7215a39eb7ccb47a8b66f3d94a09",
+    "trade_timestamp": 1777153732,
+    "latency": null,
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "Knicks",
+      "outcomeIndex": 0,
+      "normalized_position": "YES",
+      "side": "BUY",
+      "price": 0.5399999998338845,
+      "effective_price": 0.5399999998338845,
+      "size": 2374.73308,
+      "amount": 1282.35586280552,
+      "potential_pnl": 1092.37721719448,
+      "pnl_multiplier": 0.851851852421521,
+      "is_no": false,
+      "conditionId": "0xe4eb7a4c4ecdc4746af0adbe7e7f1aee31e459c04b9b6101e914fed1c8c1a88f",
+      "slug": "nba-nyk-atl-2026",
+      "eventSlug": "nba-nyk-atl-2026-04-25"
+    },
+    "irrationality": {
+      "irrationality_score": 35,
+      "flags": [
+        "Large mispricing edge (+29.2%)"
+      ],
+      "category": "sports",
+      "category_info": {
+        "strength": "medium",
+        "typical_overpricing": 0.03,
+        "min_edge": 0.05
+      },
+      "is_irrational": true
+    },
+    "mispricing": {
+      "rational_estimate": 0.24799999996677688,
+      "market_price": 0.5399999998338845,
+      "edge": 0.29199999986710756,
+      "edge_percent": 29.199999986710758,
+      "min_edge_required": 0.05,
+      "is_mispriced": true,
+      "edge_quality": "STRONG",
+      "base_rate_class": "common",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "common",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "Knicks maintain current roster health",
+          "Hawks underperform relative to expectations",
+          "Key players for both teams perform at peak levels"
+        ],
+        "weakest_link": "Hawks underperform relative to expectations"
+      },
+      "category": "sports",
+      "narrative_drivers": [
+        "Recent performance trends of both teams",
+        "Injury reports and player availability"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "CONFLICT",
+      "signal_emoji": "\u26a0\ufe0f",
+      "signal_strength": 70,
+      "interpretation": "Insider buying YES despite statistical overpricing",
+      "action_suggestion": "Requires manual analysis: insider may have real info OR is part of irrational crowd",
+      "insider_score": 70,
+      "insider_position": "YES",
+      "irrationality_score": 35,
+      "is_irrational": true,
+      "is_mispriced": true,
+      "edge": 0.29199999986710756,
+      "edge_percent": 29.199999986710758
+    },
+    "financial_analyst": {
+      "signal_quality": 46.0,
+      "stance": "WATCH_ONLY",
+      "edge_percent": 29.2,
+      "signal_strength": 70.0,
+      "insider_score": 70.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "ai_context": "\u2705 COPY \u2014 Recent head-to-head results favor the Knicks, and they have a strong recent record.\nIn the last four matchups, the Knicks have won three, including a 113-102 victory on April 18 and a 108-105 win on April 6. (covers.com) Over the past two months, the Knicks have an 18-9 record. (statmuse.com) The upcoming game on April 25 is set to take place in Atlanta.",
     "ai_verdict": "COPY"
   }
 ]
