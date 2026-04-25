@@ -1,103 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0x2536b1164188ab131dd257cbca8f7a9656487910392d6662add0fd790cc2f59d",
-    "wallet": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
-    "trader": {
-      "rank": 19,
-      "address": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
-      "username": "GamblingIsAllYouNeed",
-      "profit": 4381356.815164947,
-      "volume": 263925515.290218,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x35417b3d09d7a0991f75d7cc95162a6e34d7462e",
-      "side": "BUY",
-      "asset": "11578806222441353507719115176638735578970248989819859302635595162497755626384",
-      "conditionId": "0x81b06cb917c9a2aabc67a7765bc3c640e88a699bbf451b29915049c0766cde04",
-      "size": 5000,
-      "price": 0.44,
-      "timestamp": 1773782349,
-      "title": "US x Iran ceasefire by June 30?",
-      "slug": "us-x-iran-ceasefire-by-june-30-752",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/us-x-iran-ceasefire-by-Cgmx3GCuOwjs.jpg",
-      "eventSlug": "us-x-iran-ceasefire-by",
-      "outcome": "No",
-      "outcomeIndex": 1,
-      "name": "Casdifer",
-      "pseudonym": "Emotional-Assignment",
-      "bio": "",
-      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-4798110-1d9f916f-7692-4971-8d44-8fe6be7e7927.jpg",
-      "profileImageOptimized": "",
-      "transactionHash": "0x2536b1164188ab131dd257cbca8f7a9656487910392d6662add0fd790cc2f59d",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "US x Iran ceasefire by June 30?",
-    "market_slug": "us-x-iran-ceasefire-by",
-    "amount": 2200.0,
-    "resolution_last_check": "2026-04-22T07:20:58.410997+00:00"
-  },
-  {
-    "type": "TOP_TRADER",
-    "trade_hash": "0xcca739a9bb520336911c0cb27e17bcfb25f09d88206116eb5dfe98d4ca1a2e85",
-    "wallet": "0x23786fdad0073692157c6d7dc81f281843a35fcb",
-    "trader": {
-      "rank": 14,
-      "address": "0x23786fdad0073692157c6d7dc81f281843a35fcb",
-      "username": "mikatrade77",
-      "profit": 5147998.544602999,
-      "volume": 10884765.388775,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x8cc72766320fe830054348fdfb61040d6f650602",
-      "side": "BUY",
-      "asset": "1809681482951707674012395356212140615234154334581743465339144085976054396593",
-      "conditionId": "0xe40c6a429fe7a00bc682e6400bddd68e1a4455f0af681114d0fa557fbcc7efd1",
-      "size": 2682.8125,
-      "price": 0.64,
-      "timestamp": 1773784747,
-      "title": "Heat vs. Hornets",
-      "slug": "nba-mia-cha-2026-03-17",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
-      "eventSlug": "nba-mia-cha-2026-03-17",
-      "outcome": "Hornets",
-      "outcomeIndex": 1,
-      "name": "jiheshuzixiake",
-      "pseudonym": "Partial-Hovel",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0xcca739a9bb520336911c0cb27e17bcfb25f09d88206116eb5dfe98d4ca1a2e85",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Heat vs. Hornets",
-    "market_slug": "nba-mia-cha-2026-03-17",
-    "amount": 1717.0,
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-22T07:20:44.047517+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-17 >7 days ago, removed from API"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0x9743bec577b08d4b9cb1b4b0f20296fb28e6e4e7ad2c7e83b9cb0eae3fccf0a3",
     "wallet": "0x23786fdad0073692157c6d7dc81f281843a35fcb",
     "trader": {
@@ -33361,5 +33264,97 @@
     "amount": 2049.5338635000003,
     "ai_context": "\u274c SKIP \u2014 Recent head-to-head results and the Spurs' strong season performance suggest a Spurs victory.\nIn the last three matchups, the Spurs have won two games (112-101 on April 8 and 111-98 on April 19) and the Trail Blazers won one (106-103 on April 21). The Spurs have a 63-22 record this season, while the Trail Blazers are 44-41. (covers.com) However, the trader may have access to insider information or analysis not reflected in these statistics.",
     "ai_verdict": "SKIP"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x91db0c3ba043c99d328a76e8ebbb51aa33d9df2cc034f3ab14b332d5eba99747",
+    "wallet": "0x16f91db2592924cfed6e03b7e5cb5bb1e32299e3",
+    "trader": {
+      "rank": 19,
+      "address": "0x16f91db2592924cfed6e03b7e5cb5bb1e32299e3",
+      "username": "Jenzigo",
+      "profit": 4049827.0941029997,
+      "volume": 9457725.034338009,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x71f9c377ce6f97dfd3c85a9487e009ea89beb129",
+      "side": "SELL",
+      "asset": "27446117479784640697574527032292820989191318340119712250294208229142056414640",
+      "conditionId": "0xcb06319aa9e029904c93c1df7d10b7ce7d6aab2b25b8f661e0cf57ea048a1567",
+      "size": 1202,
+      "price": 0.885,
+      "timestamp": 1777100372,
+      "title": "Will Atletico Madrid win the 2025\u201326 Champions League?",
+      "slug": "will-atletico-madrid-win-the-202526-champions-league",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/uefa-champions-league-2025-26-which-teams-qualify-StbSIjaEx2St.png",
+      "eventSlug": "uefa-champions-league-winner",
+      "outcome": "No",
+      "outcomeIndex": 1,
+      "name": "rakabishnoi98",
+      "pseudonym": "Vivacious-Puddle",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x91db0c3ba043c99d328a76e8ebbb51aa33d9df2cc034f3ab14b332d5eba99747",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Will Atletico Madrid win the 2025\u201326 Champions League?",
+    "market_slug": "uefa-champions-league-winner",
+    "amount": 1063.77,
+    "ai_context": "\u2705 COPY \u2014 Atl\u00e9tico Madrid's recent form and key player injuries suggest a strong chance of not winning the 2025\u201326 Champions League.\nAtl\u00e9tico Madrid has advanced to the Champions League quarterfinals, defeating Barcelona 2-0 in the first leg on April 8, 2026. (espn.com) However, they suffered a 2-3 loss to Elche on April 22, 2026. (statmuse.com) Additionally, key players Johnny Cardoso and Alexander S\u00f8rloth are sidelined due to injuries. (goal.",
+    "ai_verdict": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x31c6e4b91b464cb3fa746684b728789464c6b9947289c278dd39df5f72acd1a3",
+    "wallet": "0x16f91db2592924cfed6e03b7e5cb5bb1e32299e3",
+    "trader": {
+      "rank": 19,
+      "address": "0x16f91db2592924cfed6e03b7e5cb5bb1e32299e3",
+      "username": "Jenzigo",
+      "profit": 4049827.0941029997,
+      "volume": 9457725.034338009,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xa459d48218d91e92ccc2dcb93b10904ba08b7f4f",
+      "side": "SELL",
+      "asset": "27446117479784640697574527032292820989191318340119712250294208229142056414640",
+      "conditionId": "0xcb06319aa9e029904c93c1df7d10b7ce7d6aab2b25b8f661e0cf57ea048a1567",
+      "size": 1237,
+      "price": 0.885,
+      "timestamp": 1777100372,
+      "title": "Will Atletico Madrid win the 2025\u201326 Champions League?",
+      "slug": "will-atletico-madrid-win-the-202526-champions-league",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/uefa-champions-league-2025-26-which-teams-qualify-StbSIjaEx2St.png",
+      "eventSlug": "uefa-champions-league-winner",
+      "outcome": "No",
+      "outcomeIndex": 1,
+      "name": "AmazingLoserMan",
+      "pseudonym": "Respectful-Dependent",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x31c6e4b91b464cb3fa746684b728789464c6b9947289c278dd39df5f72acd1a3",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Will Atletico Madrid win the 2025\u201326 Champions League?",
+    "market_slug": "uefa-champions-league-winner",
+    "amount": 1094.7450000000001,
+    "ai_context": "\u2705 COPY \u2014 Atl\u00e9tico Madrid's recent form and head-to-head record support the trader's bet on \"No.\"\nAtl\u00e9tico Madrid has shown strong performance in the 2025\u201326 UEFA Champions League, including a 2-0 away victory against Barcelona in the quarter-finals. (youtube.com) Additionally, they secured a 5-2 home win against Tottenham Hotspur in the group stage. (youtube.com) These results indicate that Atl\u00e9tico Madrid is a strong contender in the tournament.",
+    "ai_verdict": "COPY"
   }
 ]
