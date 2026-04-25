@@ -1,58 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0x51a44be188f19465d138fd1c51079d98ed540864cc58af7bef50ff405bb7f080",
-    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-    "trader": {
-      "rank": 1,
-      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-      "username": "Theo4",
-      "profit": 22053933.752321757,
-      "volume": 43013258.515682004,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x37c1874a60d348903594a96703e0507c518fc53a",
-      "side": "BUY",
-      "asset": "20602169730357470459553808928210865653293638873943342723222949937173619709192",
-      "conditionId": "0x0f897962828b30476bcb321821f341964e6633923f3d97d36039a53c4dff143b",
-      "size": 25118.93,
-      "price": 0.55,
-      "timestamp": 1773774847,
-      "title": "Will Chelsea FC win on 2026-03-17?",
-      "slug": "ucl-cfc1-psg1-2026-03-17-cfc1",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/champions-league-pic-QIUFsL8vaDdq.png",
-      "eventSlug": "ucl-cfc1-psg1-2026-03-17",
-      "outcome": "No",
-      "outcomeIndex": 1,
-      "name": "CemeterySun",
-      "pseudonym": "Pale-Bend",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x51a44be188f19465d138fd1c51079d98ed540864cc58af7bef50ff405bb7f080",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Will Chelsea FC win on 2026-03-17?",
-    "market_slug": "ucl-cfc1-psg1-2026-03-17",
-    "amount": 13815.411500000002,
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-22T07:20:44.047504+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-17 >7 days ago, removed from API"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0x2536b1164188ab131dd257cbca8f7a9656487910392d6662add0fd790cc2f59d",
     "wallet": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
     "trader": {
@@ -33367,5 +33315,51 @@
     "amount": 2149.9968,
     "ai_context": "\u2705 COPY \u2014 The Cincinnati Reds have a strong recent performance and a favorable head-to-head record against the Detroit Tigers.\nThe Reds are 6-3 in their last nine games, including a series sweep against the Minnesota Twins and a series win over the Tampa Bay Rays. They lead the National League Central with a 16-9 record. (scoresandstats.com) In their most recent matchup on June 15, 2025, the Reds defeated the Tigers 8-4. (champsorchumps.",
     "ai_verdict": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xe0d159c88badc2e726f9fec86d8d810319b12412148286dd35ce9ee55cb00179",
+    "wallet": "0x885783760858e1bd5dd09a3c3f916cfa251ac270",
+    "trader": {
+      "rank": 12,
+      "address": "0x885783760858e1bd5dd09a3c3f916cfa251ac270",
+      "username": "BetTom42",
+      "profit": 5642135.735356,
+      "volume": 11212839.523403,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xfe787d2da716d60e8acff57fb87eb13cd4d10319",
+      "side": "BUY",
+      "asset": "58244037264252653320423561378263915652181344429933003512810569208181649730033",
+      "conditionId": "0x7d5cc408c2fe2469b8b4ccc1f3d230165496149a2c9313624cd1cfd7b9e9cdc8",
+      "size": 4018.69385,
+      "price": 0.51,
+      "timestamp": 1777088066,
+      "title": "Spurs vs. Trail Blazers",
+      "slug": "nba-sas-por-2026-04-24",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
+      "eventSlug": "nba-sas-por-2026-04-24",
+      "outcome": "Trail Blazers",
+      "outcomeIndex": 1,
+      "name": "ferrariChampions2026",
+      "pseudonym": "Glaring-Salt",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xe0d159c88badc2e726f9fec86d8d810319b12412148286dd35ce9ee55cb00179",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Spurs vs. Trail Blazers",
+    "market_slug": "nba-sas-por-2026-04-24",
+    "amount": 2049.5338635000003,
+    "ai_context": "\u274c SKIP \u2014 Recent head-to-head results and the Spurs' strong season performance suggest a Spurs victory.\nIn the last three matchups, the Spurs have won two games (112-101 on April 8 and 111-98 on April 19) and the Trail Blazers won one (106-103 on April 21). The Spurs have a 63-22 record this season, while the Trail Blazers are 44-41. (covers.com) However, the trader may have access to insider information or analysis not reflected in these statistics.",
+    "ai_verdict": "SKIP"
   }
 ]
