@@ -1,154 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0x21eed625b93ec1b792087d12cda49920048165c81605a4928d4c013034444211",
-    "wallet": "0xdb27bf2ac5d428a9c63dbc914611036855a6c56e",
-    "trader": {
-      "rank": 9,
-      "address": "0xdb27bf2ac5d428a9c63dbc914611036855a6c56e",
-      "username": "DrPufferfish",
-      "profit": 5749891.041978741,
-      "volume": 212232431.69354597,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x1465b79bff7992bc703e1aafb3683b1089647072",
-      "side": "BUY",
-      "asset": "20508072772404576884266330300293267272741800260494416818259836712249628797288",
-      "conditionId": "0xacb33346b59a2a3770e2391b7d1b0e77d8dcdcf840a66f5fa01d28db43c4e369",
-      "size": 7001.27,
-      "price": 0.7699981860433893,
-      "timestamp": 1773788353,
-      "title": "Will Ethereum dip to $1,000 by December 31, 2026?",
-      "slug": "will-ethereum-dip-to-1000-by-december-31-2026",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/ETH+fullsize.jpg",
-      "eventSlug": "what-price-will-ethereum-hit-before-2027",
-      "outcome": "No",
-      "outcomeIndex": 1,
-      "name": "0xPMN",
-      "pseudonym": "Well-To-Do-Code",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x21eed625b93ec1b792087d12cda49920048165c81605a4928d4c013034444211",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Will Ethereum dip to $1,000 by December 31, 2026?",
-    "market_slug": "what-price-will-ethereum-hit-before-2027",
-    "amount": 5390.965200000001,
-    "resolution_last_check": "2026-04-22T07:21:03.539942+00:00"
-  },
-  {
-    "type": "TOP_TRADER",
-    "trade_hash": "0xdb56d93e1fb7e3341c428c08ff88e93f1c0cee393e717bf53cb625cfe17baceb",
-    "wallet": "0x8119010a6e589062aa03583bb3f39ca632d9f887",
-    "trader": {
-      "rank": 7,
-      "address": "0x8119010a6e589062aa03583bb3f39ca632d9f887",
-      "username": "PrincessCaro",
-      "profit": 6083643.099591745,
-      "volume": 23520809.952867,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0xc2c1a8c92e4c6d2628ef9c6a262411a44e459fe2",
-      "side": "BUY",
-      "asset": "82340757148621494901506589920533813396463383332540302061472601053550396300647",
-      "conditionId": "0xc8f3f366777706237e75edf74a60f7772d332d23013e08adca710ce689901a0f",
-      "size": 20635.829332,
-      "price": 0.43357259139208315,
-      "timestamp": 1773811161,
-      "title": "Map Handicap: FAL (-1.5) vs NRG (+1.5)",
-      "slug": "cs2-fal2-nrg-2026-03-18-map-handicap-away-1pt5",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/counter-strike-image-16c415c538.png",
-      "eventSlug": "cs2-fal2-nrg-2026-03-18",
-      "outcome": "NRG",
-      "outcomeIndex": 1,
-      "name": "xXFrameMoggedByFratLeaderXx67",
-      "pseudonym": "Pricey-Rally",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0xdb56d93e1fb7e3341c428c08ff88e93f1c0cee393e717bf53cb625cfe17baceb",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Map Handicap: FAL (-1.5) vs NRG (+1.5)",
-    "market_slug": "cs2-fal2-nrg-2026-03-18",
-    "amount": 8947.129999,
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-22T07:20:44.047540+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-18 >7 days ago, removed from API"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
-    "trade_hash": "0x12dab46ec36dc3594f662d0ca09dedc7c9030144cda4d2c3247fb9ce5f14470c",
-    "wallet": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
-    "trader": {
-      "rank": 10,
-      "address": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
-      "username": "RN1",
-      "profit": 5680292.916432808,
-      "volume": 270473232.45483994,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x689ae12e11aa489adb3605afd8f39040ff52779e",
-      "side": "BUY",
-      "asset": "2078387433062678528341594284022090579269458787238990301986330427520767312650",
-      "conditionId": "0xb810ea8d468ab4783ac913dc8fc848bda0981c87dc5c0eb885067159a1edb2e0",
-      "size": 10496.21,
-      "price": 0.9396655249847325,
-      "timestamp": 1773814763,
-      "title": "Will Elon Musk post 320-339 tweets from March 13 to March 20, 2026?",
-      "slug": "elon-musk-of-tweets-march-13-march-20-320-339",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/elon-musk-of-tweets-nov-22-29-apMPG21-pzx_.jpg",
-      "eventSlug": "elon-musk-of-tweets-march-13-march-20",
-      "outcome": "No",
-      "outcomeIndex": 1,
-      "name": "Annica",
-      "pseudonym": "Standard-Verification",
-      "bio": "",
-      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-3285726-6228364d-2bca-43fb-9add-a2fb14aa18e0.jpg",
-      "profileImageOptimized": "",
-      "transactionHash": "0x12dab46ec36dc3594f662d0ca09dedc7c9030144cda4d2c3247fb9ce5f14470c",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Will Elon Musk post 320-339 tweets from March 13 to March 20, 2026?",
-    "market_slug": "elon-musk-of-tweets-march-13-march-20",
-    "amount": 9862.926679999999,
-    "resolution": {
-      "outcome": "No",
-      "checked_at": "2026-04-22T07:21:05.292399+00:00",
-      "insider_win": true,
-      "model_correct": null,
-      "pnl": 633.28
-    }
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0x7efe9167b3b8ebd707da520fff94117264dfb31f548cb97c7d896f9de89c773b",
     "wallet": "0x885783760858e1bd5dd09a3c3f916cfa251ac270",
     "trader": {
@@ -33365,5 +33217,143 @@
     "amount": 1529.5155,
     "ai_context": "\u2705 COPY \u2014 Top Esports has a strong recent record and a perfect head-to-head against Ninjas in Pyjamas.\nThey've won 6 of their last 10 matches, including a 2-0 sweep over Invictus Gaming on January 25, 2026. (ggesports.com) In contrast, Ninjas in Pyjamas have won 5 of their last 10 matches, with a recent 2-1 loss to Team WE on January 25, 2026. (ggesports.com) Additionally, Top Esports has a 10-0 head-to-head record against Ninjas in Pyjamas in their last 10 encounters. (strafe.com)",
     "ai_verdict": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x1c01585817a8c30f285d8d2b151bd8aab186f0f2f8c3fbbd73351d7de02abbd7",
+    "wallet": "0xe9ad918c7678cd38b12603a762e638a5d1ee7091",
+    "trader": {
+      "rank": 10,
+      "address": "0xe9ad918c7678cd38b12603a762e638a5d1ee7091",
+      "username": "walletmobile",
+      "profit": 5942685.45339684,
+      "volume": 32196692.075936034,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x2b626da4168d010dbd6c937a805227deaf9d5203",
+      "side": "BUY",
+      "asset": "114227892770680257892005417678412526129417636123523652374203243614381928583640",
+      "conditionId": "0xf9f0965a3bd704ad9c184851242606ad35a4ffe733febf5074d4fbcc59d52eb8",
+      "size": 1762.181817,
+      "price": 0.6599999998751548,
+      "timestamp": 1777106676,
+      "title": "US x Iran diplomatic meeting by April 30, 2026?",
+      "slug": "us-x-iran-diplomatic-meeting-by-april-30-2026-299-459-263-225",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/us-x-iran-meeting-by-9btZGbUg-ikA.jpg",
+      "eventSlug": "us-x-iran-diplomatic-meeting-by-329",
+      "outcome": "Yes",
+      "outcomeIndex": 0,
+      "name": "hhkchuck",
+      "pseudonym": "Modest-Hybridisation",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x1c01585817a8c30f285d8d2b151bd8aab186f0f2f8c3fbbd73351d7de02abbd7",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "US x Iran diplomatic meeting by April 30, 2026?",
+    "market_slug": "us-x-iran-diplomatic-meeting-by-329",
+    "amount": 1163.039999,
+    "ai_context": "\u2705 COPY \u2014 Recent developments indicate a high likelihood of a US-Iran diplomatic meeting by April 30, 2026.\nOn April 11, 2026, direct negotiations between the United States and Iran commenced in Islamabad, Pakistan, with U.S. Vice President JD Vance leading the American delegation. These talks, facilitated by Pakistani mediators, mark the highest-level public diplomatic engagement between the two nations in years. (oddsshift.com) Additionally, U.S.",
+    "ai_verdict": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x826ce9ec3c9e1fc76b775a7d8dddc805fa7252e23594978f5379ef21efd30c9f",
+    "wallet": "0xe9ad918c7678cd38b12603a762e638a5d1ee7091",
+    "trader": {
+      "rank": 10,
+      "address": "0xe9ad918c7678cd38b12603a762e638a5d1ee7091",
+      "username": "walletmobile",
+      "profit": 5942685.45339684,
+      "volume": 32196692.075936034,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xef62ee9c449b67cbeaed565e8fade3aef2cfcf76",
+      "side": "BUY",
+      "asset": "64036400260306943411267225008890632455478329751450868459613502089455139924627",
+      "conditionId": "0x7723f0d47f9de3d9b124dcc3e561928ec6481d4d5495534cf54785974f7ec961",
+      "size": 3640.013511,
+      "price": 0.7247225841409796,
+      "timestamp": 1777106676,
+      "title": "Dota 2: PARIVISION vs Team Falcons - Game 2 Winner",
+      "slug": "dota2-pari-flc-2026-04-25-game2",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/dota2-7ffacddb21.jpg",
+      "eventSlug": "dota2-pari-flc-2026-04-25",
+      "outcome": "PARIVISION",
+      "outcomeIndex": 0,
+      "name": "montechristo777",
+      "pseudonym": "Frayed-Nursery",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x826ce9ec3c9e1fc76b775a7d8dddc805fa7252e23594978f5379ef21efd30c9f",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Dota 2: PARIVISION vs Team Falcons - Game 2 Winner",
+    "market_slug": "dota2-pari-flc-2026-04-25",
+    "amount": 2637.9999980000002,
+    "ai_context": "\u2705 COPY \u2014 PARIVISION has a strong recent record against Team Falcons, including a decisive 2-0 victory in their most recent encounter.\nIn their last match, PARIVISION defeated Team Falcons 2-0 at ESL One Birmingham 2026. (rdy.gg) Additionally, PARIVISION has won 3 of the last 5 meetings between the teams, indicating a favorable head-to-head record. (bo3.gg) While Team Falcons has shown consistency with a 63% win rate over the past year, (bo3.",
+    "ai_verdict": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xc605542ed06e536a37f650928e4ab3cbc0a8f6e75c587dfa0cfd5fac1d74cbbb",
+    "wallet": "0xefbc5fec8d7b0acdc8911bdd9a98d6964308f9a2",
+    "trader": {
+      "rank": 20,
+      "address": "0xefbc5fec8d7b0acdc8911bdd9a98d6964308f9a2",
+      "username": "reachingthesky",
+      "profit": 3742635.156562068,
+      "volume": 13750266.834776,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xee8e24c26b7d591a543972fd7ac424d8a8310a7b",
+      "side": "BUY",
+      "asset": "11097350342238934593955277921497687026562781884847352508370531329039300330866",
+      "conditionId": "0x2802a2d10ab213d9b35a79d3d66de8390779f803be40b2c84c9eaf5cbfceaf8d",
+      "size": 24572.5,
+      "price": 0.43,
+      "timestamp": 1777106974,
+      "title": "Valorant: DetonatioN FocusMe vs VARREL (BO3) - VCT Pacific Group Omega",
+      "slug": "val-dfm1-var-2026-04-25",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/valorant-logo-6fab741a16.png",
+      "eventSlug": "val-dfm1-var-2026-04-25",
+      "outcome": "VARREL",
+      "outcomeIndex": 1,
+      "name": "itzlebrian",
+      "pseudonym": "Dazzling-Fame",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xc605542ed06e536a37f650928e4ab3cbc0a8f6e75c587dfa0cfd5fac1d74cbbb",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Valorant: DetonatioN FocusMe vs VARREL (BO3) - VCT Pacific Group Omega",
+    "market_slug": "val-dfm1-var-2026-04-25",
+    "amount": 10566.175,
+    "ai_context": "\u274c SKIP \u2014 VARREL has lost all recent matches without winning a single map.\nThey've been defeated 0-2 by FULL SENSE, Rex Regum Qeon, and T1 in April 2026. (bo3.gg) However, the trader may have access to insider information or analysis not yet public.",
+    "ai_verdict": "SKIP"
   }
 ]
