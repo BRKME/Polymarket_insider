@@ -1,58 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0x6e22fb8c3b2b7a799bea901d933c58f92c99752fea73b0e56017b4b0a4535864",
-    "wallet": "0x863134d00841b2e200492805a01e1e2f5defaa53",
-    "trader": {
-      "rank": 6,
-      "address": "0x863134d00841b2e200492805a01e1e2f5defaa53",
-      "username": "RepTrump",
-      "profit": 7532409.671579,
-      "volume": 13983231.103425,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x39d3c773be30fcc73161fc6768f46d563a779ef0",
-      "side": "BUY",
-      "asset": "3715532536484408226067929719620644018156210204570723047552406298073845229832",
-      "conditionId": "0xe6ebc78c5150fa603ca15bf5d5411955946fcddfd5d28cf34e4c241b4ec509b6",
-      "size": 12740,
-      "price": 0.45,
-      "timestamp": 1773877185,
-      "title": "Will AS Roma win on 2026-03-19?",
-      "slug": "uel-rom1-bol1-2026-03-19-rom1",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/uel.png",
-      "eventSlug": "uel-rom1-bol1-2026-03-19",
-      "outcome": "No",
-      "outcomeIndex": 1,
-      "name": "matanovik",
-      "pseudonym": "Lost-Property",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x6e22fb8c3b2b7a799bea901d933c58f92c99752fea73b0e56017b4b0a4535864",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Will AS Roma win on 2026-03-19?",
-    "market_slug": "uel-rom1-bol1-2026-03-19",
-    "amount": 7007.000000000001,
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-22T07:20:44.047686+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-19 >7 days ago, removed from API"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0x776c925ace2636cf3deb12cd53169af806b345d8bd2f5f9df7f9a9c5397d607d",
     "wallet": "0x863134d00841b2e200492805a01e1e2f5defaa53",
     "trader": {
@@ -33300,6 +33248,52 @@
     "market_slug": "nba-okc-phx-2026-04-25",
     "amount": 2397.870969,
     "ai_context": "\u274c SKIP \u2014 The Suns have lost their last two games against the Thunder by double digits.\nIn their most recent matchup on April 22, 2026, the Suns were defeated 120-107, with Shai Gilgeous-Alexander scoring 37 points and dishing out 9 assists. (elpais.com)\nAdditionally, the Suns have been inconsistent in recent games, including a narrow 114-110 loss to the Portland Trail Blazers in a play-in game on April 15, 2026. (axios.",
+    "ai_verdict": "SKIP"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x87f53b540153ed64565f2a8566ac550981ac6c94a85cba8561b0a6e14d30b255",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.51568201,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xf4c3833d5376fb84d521df598fdd451b85fcdbb5",
+      "side": "SELL",
+      "asset": "81158099902982127767655382821085776846834135588627211437287604861607234240992",
+      "conditionId": "0x2192a9594fcbba5de511de143814109a0874897b9c2ffa4f53f37194400dc276",
+      "size": 4202.69,
+      "price": 0.7736976079606157,
+      "timestamp": 1777149214,
+      "title": "Will Club Atl\u00e9tico de Madrid win on 2026-04-25?",
+      "slug": "lal-mad-bil-2026-04-25-mad",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/league-lal.png",
+      "eventSlug": "lal-mad-bil-2026-04-25",
+      "outcome": "Yes",
+      "outcomeIndex": 0,
+      "name": "cxrrich",
+      "pseudonym": "False-Spasm",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x87f53b540153ed64565f2a8566ac550981ac6c94a85cba8561b0a6e14d30b255",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Will Club Atl\u00e9tico de Madrid win on 2026-04-25?",
+    "market_slug": "lal-mad-bil-2026-04-25",
+    "amount": 3251.6112,
+    "ai_context": "\u274c SKIP \u2014 Atl\u00e9tico Madrid has lost four consecutive league matches and is facing a strong Athletic Club team.\nAtl\u00e9tico Madrid has lost four consecutive league matches, including a 1-0 defeat to Athletic Club on December 6, 2025. (footballan.com) Athletic Club is currently ninth in the league, just one point behind Real Sociedad and three points behind Celta and Getafe. (as.com) However, the trader may have access to insider information or sharp analysis not yet public.",
     "ai_verdict": "SKIP"
   }
 ]
