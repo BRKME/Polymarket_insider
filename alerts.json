@@ -1,58 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0x776c925ace2636cf3deb12cd53169af806b345d8bd2f5f9df7f9a9c5397d607d",
-    "wallet": "0x863134d00841b2e200492805a01e1e2f5defaa53",
-    "trader": {
-      "rank": 6,
-      "address": "0x863134d00841b2e200492805a01e1e2f5defaa53",
-      "username": "RepTrump",
-      "profit": 7532409.671579,
-      "volume": 13983231.103425,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0xee613b3fc183ee44f9da9c05f53e2da107e3debf",
-      "side": "BUY",
-      "asset": "32842054609210488119922752190357515717710523303220919546795223113990709252921",
-      "conditionId": "0x2d759abe9d12448f2546b8bee9b92260bcada606eccebb6a6f6f317a20d87c3c",
-      "size": 2887.04,
-      "price": 0.54,
-      "timestamp": 1773877185,
-      "title": "Spread: Illinois State Redbirds (-5.5)",
-      "slug": "cbb-kentst-illst-2026-03-18-spread-home-5pt5",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/ncaa-c14995df96.png",
-      "eventSlug": "cbb-kentst-illst-2026-03-18",
-      "outcome": "Kent State Golden Flashes",
-      "outcomeIndex": 1,
-      "name": "sovereign2013",
-      "pseudonym": "Ultimate-Locality",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x776c925ace2636cf3deb12cd53169af806b345d8bd2f5f9df7f9a9c5397d607d",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Spread: Illinois State Redbirds (-5.5)",
-    "market_slug": "cbb-kentst-illst-2026-03-18",
-    "amount": 1559.0016,
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-22T07:20:44.047695+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-18 >7 days ago, removed from API"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0x3216a6735483e7b1c651e3bb72dc110bfd50f3037b02313e474a68944b952168",
     "wallet": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
     "trader": {
@@ -33295,5 +33243,51 @@
     "amount": 3251.6112,
     "ai_context": "\u274c SKIP \u2014 Atl\u00e9tico Madrid has lost four consecutive league matches and is facing a strong Athletic Club team.\nAtl\u00e9tico Madrid has lost four consecutive league matches, including a 1-0 defeat to Athletic Club on December 6, 2025. (footballan.com) Athletic Club is currently ninth in the league, just one point behind Real Sociedad and three points behind Celta and Getafe. (as.com) However, the trader may have access to insider information or sharp analysis not yet public.",
     "ai_verdict": "SKIP"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xacc3806d5dfecc4b048dc912c7558bc604f33b2d9e5da8b387d70c876ac9efa7",
+    "wallet": "0x885783760858e1bd5dd09a3c3f916cfa251ac270",
+    "trader": {
+      "rank": 12,
+      "address": "0x885783760858e1bd5dd09a3c3f916cfa251ac270",
+      "username": "BetTom42",
+      "profit": 5642135.735356,
+      "volume": 11212839.523403,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x1d603dad31fac599c1de6b6002d066993460453d",
+      "side": "BUY",
+      "asset": "22334377791140002056209089209804890592803004640771654906225350516509539158966",
+      "conditionId": "0xf752c3ec9526de39530718246fcf9a69c4bc883191c8fc994eb4d43990c49030",
+      "size": 1149.662918,
+      "price": 0.8899999999826036,
+      "timestamp": 1777151616,
+      "title": "Thunder vs. Suns",
+      "slug": "nba-okc-phx-2026-04-25",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
+      "eventSlug": "nba-okc-phx-2026-04-25",
+      "outcome": "Thunder",
+      "outcomeIndex": 0,
+      "name": "Ru386",
+      "pseudonym": "Chilly-Surrounds",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xacc3806d5dfecc4b048dc912c7558bc604f33b2d9e5da8b387d70c876ac9efa7",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Thunder vs. Suns",
+    "market_slug": "nba-okc-phx-2026-04-25",
+    "amount": 1023.1999969999999,
+    "ai_context": "\u2705 COPY \u2014 Thunder have won 3 of the last 4 matchups against the Suns, including a decisive 119-84 victory on April 19, 2026.\nIn the most recent game on April 22, 2026, the Thunder secured a 120-107 win over the Suns. (elpais.com)\nThe Thunder have demonstrated consistent dominance over the Suns in recent matchups, with a strong performance in their latest game.\nGiven the Thunder's recent form and head-to-head record, the trader's bet on the Thunder is well-supported.",
+    "ai_verdict": "COPY"
   }
 ]
