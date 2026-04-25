@@ -1,58 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0xbba9713ea784da71e91dc8d41eab33b2478b4a06508f9b7eb569c35c1326fcc1",
-    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-    "trader": {
-      "rank": 1,
-      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-      "username": "Theo4",
-      "profit": 22053933.752321757,
-      "volume": 43013258.51568201,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x8ceb72169483bf1edc873bf6f126caffa2f2283f",
-      "side": "BUY",
-      "asset": "35924657093638629682342140303938748067990851881884073141736151502685740400563",
-      "conditionId": "0x13b3582366bac2ee75fb872a8faed7796c0976a753f4387523e191b41506a51a",
-      "size": 4077,
-      "price": 0.5,
-      "timestamp": 1773841471,
-      "title": "Trail Blazers vs. Pacers: O/U 232.5",
-      "slug": "nba-por-ind-2026-03-18-total-232pt5",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
-      "eventSlug": "nba-por-ind-2026-03-18",
-      "outcome": "Under",
-      "outcomeIndex": 1,
-      "name": "Fwadfgjhfvsjdljnrnie",
-      "pseudonym": "Terrific-Editorial",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0xbba9713ea784da71e91dc8d41eab33b2478b4a06508f9b7eb569c35c1326fcc1",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Trail Blazers vs. Pacers: O/U 232.5",
-    "market_slug": "nba-por-ind-2026-03-18",
-    "amount": 2038.5,
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-22T07:20:44.047579+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-18 >7 days ago, removed from API"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0xcb72866d39e4298e32a478c74126f7ec835ff05b99a6e0ff487d4b26206d9913",
     "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
     "trader": {
@@ -33347,6 +33295,52 @@
     "market_slug": "wta-fernand-jovic-2026-04-25",
     "amount": 2332.6290868250044,
     "ai_context": "\u2705 COPY \u2014 Iva Jovic has been in strong form recently, with a 19-10 record this season and a semifinal finish in Charleston. (profootballnetwork.com)\nShe has also secured a runner-up finish in Hobart and a semifinal finish in Auckland. (profootballnetwork.com)\nWhile Leylah Fernandez has shown improvement, including a quarterfinal appearance in Stuttgart, Jovic's recent performances and higher seeding suggest she has the edge in this matchup.",
+    "ai_verdict": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xae42b97c2bc2d0a2f8c491c7f5f90513c1b1b9d62fbfb6c10a3b7b36ed0abd46",
+    "wallet": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+    "trader": {
+      "rank": 7,
+      "address": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+      "username": "RN1",
+      "profit": 7501006.961579656,
+      "volume": 458972058.9325,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x69adf268789f93b2c4da978870af74ae945f31e6",
+      "side": "BUY",
+      "asset": "18575430438358390541772074127628816002193416137521174798561427510895122834765",
+      "conditionId": "0xde371452b56174a44373c7b04fb9a723dbbae503dab31c80f42431592b943415",
+      "size": 3330.657,
+      "price": 0.65,
+      "timestamp": 1777124602,
+      "title": "Indian Premier League: Delhi Capitals vs Punjab Kings",
+      "slug": "cricipl-del-pun-2026-04-25",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/cricket-ball-a0b0bf2dc9.png",
+      "eventSlug": "cricipl-del-pun-2026-04-25",
+      "outcome": "Punjab Kings",
+      "outcomeIndex": 1,
+      "name": "ferenc89",
+      "pseudonym": "Zigzag-Logistics",
+      "bio": "",
+      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-6294534-4488bfb7-5b9a-4162-a989-5643a4c0fe91.png",
+      "profileImageOptimized": "",
+      "transactionHash": "0xae42b97c2bc2d0a2f8c491c7f5f90513c1b1b9d62fbfb6c10a3b7b36ed0abd46",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Indian Premier League: Delhi Capitals vs Punjab Kings",
+    "market_slug": "cricipl-del-pun-2026-04-25",
+    "amount": 2164.9270500000002,
+    "ai_context": "\u2705 COPY \u2014 Punjab Kings are on a strong winning streak, while Delhi Capitals have been inconsistent.\nPunjab Kings have won their last five matches, including victories over Lucknow Super Giants, Mumbai Indians, and Sunrisers Hyderabad. In contrast, Delhi Capitals have lost three of their last five matches, including a heavy defeat to Sunrisers Hyderabad. (statz.ai)\nIn their most recent head-to-head match in 2025, Punjab Kings narrowly defeated Delhi Capitals by 10 wickets. (statz.",
     "ai_verdict": "COPY"
   }
 ]
