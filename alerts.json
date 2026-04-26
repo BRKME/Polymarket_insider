@@ -28838,7 +28838,14 @@
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
     },
     "ai_context": "\u274c SKIP \u2014 Recent form and injuries suggest Aston Villa may struggle against Fulham.\nAston Villa has been inconsistent recently, with a 1-1 draw against Nottingham Forest on April 12 and a 3-1 loss to Bologna on April 9. Additionally, key midfielders John McGinn, Youri Tielemans, and Boubacar Kamara have been sidelined due to injuries. Fulham, on the other hand, has been performing well, currently sitting 7th in the Premier League with 45 points.",
-    "resolution_last_check": "2026-04-22T07:24:10.262943+00:00"
+    "resolution_last_check": "2026-04-22T07:24:10.262943+00:00",
+    "resolution": {
+      "outcome": "Yes",
+      "checked_at": "2026-04-26T07:18:32.415322+00:00",
+      "insider_win": true,
+      "model_correct": false,
+      "pnl": 1901.13
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -31431,7 +31438,14 @@
     "market_slug": "mlb-nyy-hou-2026-04-25",
     "amount": 2999.999999,
     "ai_context": "\u274c SKIP \u2014 Astros have lost 8 of their last 10 games and are 1-9 on the road this season.\nThey were defeated 12-4 by the Yankees on April 24, 2026. (thescore.com)\nHowever, the trader may have access to insider information or advanced analytics not yet public.\nGiven the Astros' recent struggles, it's advisable to exercise caution before copying this bet.",
-    "ai_verdict": "SKIP"
+    "ai_verdict": "SKIP",
+    "resolution": {
+      "outcome": "New York Yankees",
+      "checked_at": "2026-04-26T07:18:47.808024+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -3000.0
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -31477,7 +31491,14 @@
     "market_slug": "lol-tes-nip-2026-04-25",
     "amount": 1529.5155,
     "ai_context": "\u2705 COPY \u2014 Top Esports has a strong recent record and a perfect head-to-head against Ninjas in Pyjamas.\nThey've won 6 of their last 10 matches, including a 2-0 sweep over Invictus Gaming on January 25, 2026. (ggesports.com) In contrast, Ninjas in Pyjamas have won 5 of their last 10 matches, with a recent 2-1 loss to Team WE on January 25, 2026. (ggesports.com) Additionally, Top Esports has a 10-0 head-to-head record against Ninjas in Pyjamas in their last 10 encounters. (strafe.com)",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution": {
+      "outcome": "Top Esports",
+      "checked_at": "2026-04-26T07:18:49.521317+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 269.91
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -31523,7 +31544,8 @@
     "market_slug": "us-x-iran-diplomatic-meeting-by-329",
     "amount": 1163.039999,
     "ai_context": "\u2705 COPY \u2014 Recent developments indicate a high likelihood of a US-Iran diplomatic meeting by April 30, 2026.\nOn April 11, 2026, direct negotiations between the United States and Iran commenced in Islamabad, Pakistan, with U.S. Vice President JD Vance leading the American delegation. These talks, facilitated by Pakistani mediators, mark the highest-level public diplomatic engagement between the two nations in years. (oddsshift.com) Additionally, U.S.",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution_last_check": "2026-04-26T07:18:50.891341+00:00"
   },
   {
     "type": "TOP_TRADER",
@@ -31569,7 +31591,14 @@
     "market_slug": "dota2-pari-flc-2026-04-25",
     "amount": 2637.9999980000002,
     "ai_context": "\u2705 COPY \u2014 PARIVISION has a strong recent record against Team Falcons, including a decisive 2-0 victory in their most recent encounter.\nIn their last match, PARIVISION defeated Team Falcons 2-0 at ESL One Birmingham 2026. (rdy.gg) Additionally, PARIVISION has won 3 of the last 5 meetings between the teams, indicating a favorable head-to-head record. (bo3.gg) While Team Falcons has shown consistency with a 63% win rate over the past year, (bo3.",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution": {
+      "outcome": "Team Falcons",
+      "checked_at": "2026-04-26T07:18:52.556114+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -2638.0
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -31615,7 +31644,14 @@
     "market_slug": "val-dfm1-var-2026-04-25",
     "amount": 10566.175,
     "ai_context": "\u274c SKIP \u2014 VARREL has lost all recent matches without winning a single map.\nThey've been defeated 0-2 by FULL SENSE, Rex Regum Qeon, and T1 in April 2026. (bo3.gg) However, the trader may have access to insider information or analysis not yet public.",
-    "ai_verdict": "SKIP"
+    "ai_verdict": "SKIP",
+    "resolution": {
+      "outcome": "DetonatioN FocusMe",
+      "checked_at": "2026-04-26T07:18:54.363763+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -10566.17
+    }
   },
   {
     "market": "US x Iran permanent peace deal by April 30, 2026?",
@@ -31732,7 +31768,8 @@
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
     },
     "ai_context": "\u274c SKIP \u2014 Recent developments indicate that a permanent peace deal between the US and Iran by April 30, 2026, is unlikely.\nThe US and Iran have engaged in multiple rounds of negotiations, including a 21-hour session in Islamabad that concluded without agreement on April 12, 2026. Vice President JD Vance, who led the previous round, will not attend the upcoming talks in Pakistan, with Special Envoy Steve Witkoff and Jared Kushner representing the US.",
-    "ai_verdict": "SKIP"
+    "ai_verdict": "SKIP",
+    "resolution_last_check": "2026-04-26T07:18:54.363814+00:00"
   },
   {
     "type": "TOP_TRADER",
@@ -31778,7 +31815,14 @@
     "market_slug": "lol-dk-dnf-2026-04-25",
     "amount": 4434.9544000000005,
     "ai_context": "\u2705 COPY \u2014 Dplus KIA has a dominant 9-0 head-to-head record against DN SOOPers, indicating a strong advantage.\nIn their most recent encounter on February 20, 2026, Dplus KIA secured a 3-1 victory over DN SOOPers in the LCK Cup 2026 Playoffs. (rotowire.com)\nAdditionally, Dplus KIA has a 100% win rate against DN SOOPers in their last 7 meetings. (esport.is)\nWhile Dplus KIA has experienced a recent dip in form with a 33% win rate over the past 30 days, (esport.",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution": {
+      "outcome": "Dplus KIA",
+      "checked_at": "2026-04-26T07:18:56.051949+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 510.07
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -31824,7 +31868,14 @@
     "market_slug": "wta-fernand-jovic-2026-04-25",
     "amount": 2332.6290868250044,
     "ai_context": "\u2705 COPY \u2014 Iva Jovic has been in strong form recently, with a 19-10 record this season and a semifinal finish in Charleston. (profootballnetwork.com)\nShe has also secured a runner-up finish in Hobart and a semifinal finish in Auckland. (profootballnetwork.com)\nWhile Leylah Fernandez has shown improvement, including a quarterfinal appearance in Stuttgart, Jovic's recent performances and higher seeding suggest she has the edge in this matchup.",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution": {
+      "outcome": "Leylah Fernandez",
+      "checked_at": "2026-04-26T07:18:57.710361+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -2332.63
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -31870,7 +31921,14 @@
     "market_slug": "cricipl-del-pun-2026-04-25",
     "amount": 2164.9270500000002,
     "ai_context": "\u2705 COPY \u2014 Punjab Kings are on a strong winning streak, while Delhi Capitals have been inconsistent.\nPunjab Kings have won their last five matches, including victories over Lucknow Super Giants, Mumbai Indians, and Sunrisers Hyderabad. In contrast, Delhi Capitals have lost three of their last five matches, including a heavy defeat to Sunrisers Hyderabad. (statz.ai)\nIn their most recent head-to-head match in 2025, Punjab Kings narrowly defeated Delhi Capitals by 10 wickets. (statz.",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution": {
+      "outcome": "Punjab Kings",
+      "checked_at": "2026-04-26T07:18:59.395519+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 1165.73
+    }
   },
   {
     "market": "US x Iran permanent peace deal by April 30, 2026?",
@@ -31987,7 +32045,8 @@
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
     },
     "ai_context": "\u274c SKIP \u2014 Recent developments indicate significant challenges in reaching a permanent peace deal by April 30, 2026.\nThe U.S. and Iran have yet to finalize a permanent peace agreement, with recent talks failing to yield results. On April 12, 2026, after 21 hours of negotiations in Islamabad, U.S. Vice President J.D. Vance confirmed that no agreement was reached, citing clear red lines from the U.S. and Iran's refusal to accept U.S. conditions. (axios.com) Additionally, on April 24, 2026, U.S.",
-    "ai_verdict": "SKIP"
+    "ai_verdict": "SKIP",
+    "resolution_last_check": "2026-04-26T07:18:59.395587+00:00"
   },
   {
     "type": "TOP_TRADER",
@@ -32033,7 +32092,8 @@
     "market_slug": "dota2-aur1-bb4-2026-04-25",
     "amount": 2499.999999,
     "ai_context": "\u274c SKIP \u2014 BetBoom Team has a 1-2 record against Aurora in their last three encounters.\nIn their most recent match on April 20, 2026, BetBoom Team lost 0-2 to Aurora Gaming in the PGL Wallachia Season 4. (rdy.gg) Additionally, BetBoom Team has a 1-2 record against Aurora in their last three encounters. (egamersworld.com) However, BetBoom Team has shown strong recent form, winning their last five matches, including victories over Team Liquid and Virtus.pro. (bo3.",
-    "ai_verdict": "SKIP"
+    "ai_verdict": "SKIP",
+    "resolution_last_check": "2026-04-26T07:19:00.992038+00:00"
   },
   {
     "market": "NAC Breda vs. AFC Ajax: O/U 2.5",
@@ -32143,7 +32203,14 @@
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
     },
     "ai_context": "\u2705 COPY \u2014 Recent matches between NAC Breda and AFC Ajax have consistently exceeded 2.5 total goals.\nIn their last three encounters, the total goals were 3, 4, and 3, averaging 3.33 goals per match. (espn.com) Additionally, AFC Ajax's games this season average 3.13 total goals, indicating a trend towards higher-scoring matches. (betbrain.com) Given these patterns, betting on the Over 2.5 total goals is supported by recent form and head-to-head statistics.",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution": {
+      "outcome": "Under",
+      "checked_at": "2026-04-26T07:19:03.682766+00:00",
+      "insider_win": null,
+      "model_correct": null,
+      "pnl": null
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -32189,7 +32256,14 @@
     "market_slug": "cricipl-raj-sun-2026-04-25",
     "amount": 1548.1470697,
     "ai_context": "\u2705 COPY \u2014 Sunrisers Hyderabad have a strong head-to-head record against Rajasthan Royals, winning 12 out of 21 matches.\nIn their most recent encounter, Sunrisers Hyderabad posted a massive 286 runs, the second-highest team total in IPL history, before securing a comfortable victory. (mykhel.com)\nAdditionally, Sunrisers Hyderabad have won 4 out of their last 7 matches, indicating a solid recent form. (cricket-feed.",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution": {
+      "outcome": "Sunrisers Hyderabad",
+      "checked_at": "2026-04-26T07:19:05.443177+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 462.43
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -32235,7 +32309,14 @@
     "market_slug": "cricipl-raj-sun-2026-04-25",
     "amount": 3729.378499,
     "ai_context": "\ud83d\udfe1 LEAN COPY \u2014 Sunrisers Hyderabad have a slight edge in head-to-head matchups against Rajasthan Royals.\nIn 22 IPL encounters, Sunrisers Hyderabad have won 13 matches, while Rajasthan Royals have secured 9 victories. (rajasthanroyals.com) However, Rajasthan Royals have been in strong form this season, winning all four of their matches so far. (mykhel.com) Sunrisers Hyderabad have struggled to build momentum with just one win from their opening games. (mykhel.",
-    "ai_verdict": "LEAN_COPY"
+    "ai_verdict": "LEAN_COPY",
+    "resolution": {
+      "outcome": "Sunrisers Hyderabad",
+      "checked_at": "2026-04-26T07:19:05.443231+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 1113.97
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -32281,7 +32362,14 @@
     "market_slug": "nba-det-orl-2026-04-25",
     "amount": 1155.119764,
     "ai_context": "\u2705 COPY \u2014 Magic have won 3 of the last 4 matchups against the Pistons, including a decisive Game 1 victory in the current playoff series.\nIn the 2025-2026 season, the Magic and Pistons split their regular-season series 2-2. In the current playoff series, the Magic won Game 1 on April 19, 2026, with a score of 112-101. (axios.com) The Magic's recent form includes a 7-7 record over the past 30 days. (statmuse.",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution": {
+      "outcome": "Magic",
+      "checked_at": "2026-04-26T07:19:07.034171+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 836.47
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -32327,7 +32415,8 @@
     "market_slug": "us-x-iran-diplomatic-meeting-by-329",
     "amount": 11987.529999999999,
     "ai_context": "\u274c SKIP \u2014 Recent diplomatic developments indicate a lack of progress toward a US-Iran meeting by April 30, 2026.\nPresident Trump canceled a planned trip by US envoys to Pakistan due to stalled peace negotiations with Iran. Additionally, Iran's Foreign Minister Abbas Araghchi abruptly left Islamabad, and the US has not renewed waivers for Iranian oil purchases, citing ongoing tensions. (axios.",
-    "ai_verdict": "SKIP"
+    "ai_verdict": "SKIP",
+    "resolution_last_check": "2026-04-26T07:19:07.034220+00:00"
   },
   {
     "market": "Will Bitcoin dip to $65,000 in April?",
@@ -32437,7 +32526,8 @@
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
     },
     "ai_context": "\u274c SKIP \u2014 Bitcoin's current price is above $65,000, and recent forecasts suggest it will remain above that threshold in April 2026. As of April 25, 2026, Bitcoin is trading at approximately $76,352.78, up 11.9% for the month. (statmuse.com) Prediction markets indicate a 60.5% chance of Bitcoin reaching $65,000 by April 2026, suggesting a higher probability of staying above that level. (coingecko.",
-    "ai_verdict": "SKIP"
+    "ai_verdict": "SKIP",
+    "resolution_last_check": "2026-04-26T07:19:09.540514+00:00"
   },
   {
     "market": "Madrid Open: Anhelina Kalinina vs Naomi Osaka",
@@ -32547,7 +32637,14 @@
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
     },
     "ai_context": "\u2705 COPY \u2014 Naomi Osaka has a strong recent record and is favored to win.\nOver the past 10 matches, Osaka holds a 7-3 record, and in the last 52 weeks, she has a 32-14 record, equating to a 69.6% win rate. (tennisratio.com) She is currently ranked No. 15 in the WTA rankings. (en.wikipedia.org) In her most recent match, she defeated Camila Osorio 6-2, 7-5. (thestatszone.com)\nWhile Anhelina Kalinina has also been in good form, with a 34-9 record over the past 52 weeks (79.1% win rate), (tennisratio.",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution": {
+      "outcome": "Naomi Osaka",
+      "checked_at": "2026-04-26T07:19:12.193704+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 1669.71
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -32593,7 +32690,14 @@
     "market_slug": "nba-okc-phx-2026-04-25",
     "amount": 2397.870969,
     "ai_context": "\u274c SKIP \u2014 The Suns have lost their last two games against the Thunder by double digits.\nIn their most recent matchup on April 22, 2026, the Suns were defeated 120-107, with Shai Gilgeous-Alexander scoring 37 points and dishing out 9 assists. (elpais.com)\nAdditionally, the Suns have been inconsistent in recent games, including a narrow 114-110 loss to the Portland Trail Blazers in a play-in game on April 15, 2026. (axios.",
-    "ai_verdict": "SKIP"
+    "ai_verdict": "SKIP",
+    "resolution": {
+      "outcome": "Thunder",
+      "checked_at": "2026-04-26T07:19:13.836159+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -2397.87
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -32639,7 +32743,14 @@
     "market_slug": "lal-mad-bil-2026-04-25",
     "amount": 3251.6112,
     "ai_context": "\u274c SKIP \u2014 Atl\u00e9tico Madrid has lost four consecutive league matches and is facing a strong Athletic Club team.\nAtl\u00e9tico Madrid has lost four consecutive league matches, including a 1-0 defeat to Athletic Club on December 6, 2025. (footballan.com) Athletic Club is currently ninth in the league, just one point behind Real Sociedad and three points behind Celta and Getafe. (as.com) However, the trader may have access to insider information or sharp analysis not yet public.",
-    "ai_verdict": "SKIP"
+    "ai_verdict": "SKIP",
+    "resolution": {
+      "outcome": "Yes",
+      "checked_at": "2026-04-26T07:19:15.656015+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 951.08
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -32685,7 +32796,14 @@
     "market_slug": "nba-okc-phx-2026-04-25",
     "amount": 1023.1999969999999,
     "ai_context": "\u2705 COPY \u2014 Thunder have won 3 of the last 4 matchups against the Suns, including a decisive 119-84 victory on April 19, 2026.\nIn the most recent game on April 22, 2026, the Thunder secured a 120-107 win over the Suns. (elpais.com)\nThe Thunder have demonstrated consistent dominance over the Suns in recent matchups, with a strong performance in their latest game.\nGiven the Thunder's recent form and head-to-head record, the trader's bet on the Thunder is well-supported.",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution": {
+      "outcome": "Thunder",
+      "checked_at": "2026-04-26T07:19:15.656072+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 126.46
+    }
   },
   {
     "market": "Valorant: FURIA Esports vs KR\u00dc Esports - Map 2 Winner",
@@ -32795,7 +32913,14 @@
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
     },
     "ai_context": "\u2705 COPY \u2014 FURIA Esports has a 71% head-to-head win rate against KR\u00dc Esports and has demonstrated improved form over the past six months.\nFURIA Esports has a 71% head-to-head win rate against KR\u00dc Esports, indicating a clear tactical advantage. (bo3.gg) Additionally, FURIA's recent form shows a 44% win rate over the past six months, suggesting improved performance compared to KR\u00dc Esports, which has a 0% win rate in the same period. (bo3.gg) Therefore, the facts support the bet on FURIA Esports.",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution": {
+      "outcome": "KR\u00dc Esports",
+      "checked_at": "2026-04-26T07:19:18.136563+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -2703.13
+    }
   },
   {
     "market": "Knicks vs. Hawks",
@@ -32905,7 +33030,14 @@
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
     },
     "ai_context": "\u2705 COPY \u2014 Recent head-to-head results favor the Knicks, and they have a strong recent record.\nIn the last four matchups, the Knicks have won three, including a 113-102 victory on April 18 and a 108-105 win on April 6. (covers.com) Over the past two months, the Knicks have an 18-9 record. (statmuse.com) The upcoming game on April 25 is set to take place in Atlanta.",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution": {
+      "outcome": "Knicks",
+      "checked_at": "2026-04-26T07:19:20.678965+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 1092.38
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -32951,7 +33083,14 @@
     "market_slug": "ufc-dav3-adr8-2026-04-25",
     "amount": 3160.3776,
     "ai_context": "\u2705 COPY \u2014 Adrian Luna Martinetti is on a 17-fight winning streak and has a dominant UFC debut performance.\nLuna Martinetti boasts an impressive 17-1 MMA record, with his sole loss dating back to 2023. He recently secured a UFC contract after a standout performance on Dana White's Contender Series. (as.com) In his UFC debut, he dominated Mark Vologdin, showcasing his striking and grappling skills. (clutchpoints.",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution": {
+      "outcome": "Davey Grant",
+      "checked_at": "2026-04-26T07:19:22.467945+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -3160.38
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -32997,7 +33136,14 @@
     "market_slug": "nhl-dal-min-2026-04-25",
     "amount": 1844.3807359999998,
     "ai_context": "\u2705 COPY \u2014 Stars have a strong recent record against the Wild and are playing at home.\nIn their last 10 meetings, the Stars have won 7, including a 5-2 victory on October 15, 2025, and a 5-2 win on September 26, 2025. (rantsports.com) Additionally, the Stars have a home record of 14-27-8 against the Wild. (nhl.com)\nThe Stars have been performing well recently, with a 5-2 victory over the Wild on October 15, 2025, and a 5-2 win on September 26, 2025. (rantsports.",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution": {
+      "outcome": "Wild",
+      "checked_at": "2026-04-26T07:19:24.052216+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -1844.38
+    }
   },
   {
     "market": "Cavaliers vs. Raptors",
@@ -33107,7 +33253,8 @@
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
     },
     "ai_context": "\u274c SKIP \u2014 The Raptors have lost the first two games of the series and have a 2-12 playoff record against the Cavaliers.\nIn the first two games, the Raptors lost 113-126 and 105-115. (espn.com) Historically, the Cavaliers have dominated the Raptors in the playoffs, holding a 12-2 record. (si.com) However, the Raptors won the most recent regular-season matchup 126-104. (sportspundit.",
-    "ai_verdict": "SKIP"
+    "ai_verdict": "SKIP",
+    "resolution_last_check": "2026-04-26T07:19:26.144656+00:00"
   },
   {
     "type": "TOP_TRADER",
@@ -33153,7 +33300,8 @@
     "market_slug": "us-x-iran-diplomatic-meeting-by-329",
     "amount": 4299.0099,
     "ai_context": "\u274c SKIP \u2014 Recent diplomatic developments indicate a lack of progress toward a US-Iran meeting by April 30, 2026.\nPresident Trump canceled a planned envoy trip to Pakistan for talks with Iran, citing stalled negotiations. Iran's Foreign Minister Abbas Araghchi met with Pakistani leaders but did not engage with US officials. (axios.com) Additionally, the Polymarket odds for a US-Iran meeting by April 30 have dropped significantly, reflecting decreased expectations. (global-political-spotlight.",
-    "ai_verdict": "SKIP"
+    "ai_verdict": "SKIP",
+    "resolution_last_check": "2026-04-26T07:19:26.144684+00:00"
   },
   {
     "type": "TOP_TRADER",
@@ -33199,6 +33347,7 @@
     "market_slug": "epl-mun-bre-2026-04-27",
     "amount": 4625.2699999999995,
     "ai_context": "\ud83d\udfe1 LEAN COPY \u2014 Recent form and head-to-head statistics favor Manchester United FC.\nManchester United FC is currently third in the English Premier League with 55 points after 31 matches, while Brentford FC is seventh with 46 points. (mufcinfo.com) In their most recent matches, Manchester United secured a 3-1 victory against Aston Villa on March 15, 2026, and a 2-2 draw against AFC Bournemouth on March 20, 2026. (foxsports.",
-    "ai_verdict": "LEAN_COPY"
+    "ai_verdict": "LEAN_COPY",
+    "resolution_last_check": "2026-04-26T07:19:27.865504+00:00"
   }
 ]
