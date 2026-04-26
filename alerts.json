@@ -1,58 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0x2f6d22ed47d3095bd57a235994ba1aa48f24f6ce6492a3df0ebec2706b230628",
-    "wallet": "0x23786fdad0073692157c6d7dc81f281843a35fcb",
-    "trader": {
-      "rank": 13,
-      "address": "0x23786fdad0073692157c6d7dc81f281843a35fcb",
-      "username": "mikatrade77",
-      "profit": 5147998.544602999,
-      "volume": 10884765.388774998,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0xb6aee7f281e13b23bd959127f6e2b3dccb4e4df8",
-      "side": "BUY",
-      "asset": "34003663288324402425719266566755962799186506367320329765748501440548333664169",
-      "conditionId": "0x16b320169de30b3f2e0ecd28228027e7de33639389c3487e3b22dadbffe32d9a",
-      "size": 6988,
-      "price": 0.5,
-      "timestamp": 1773959419,
-      "title": "Pistons vs. Wizards: O/U 232.5",
-      "slug": "nba-det-was-2026-03-19-total-232pt5",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
-      "eventSlug": "nba-det-was-2026-03-19",
-      "outcome": "Under",
-      "outcomeIndex": 1,
-      "name": "hugesportswhale",
-      "pseudonym": "Fuzzy-Oversight",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x2f6d22ed47d3095bd57a235994ba1aa48f24f6ce6492a3df0ebec2706b230628",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Pistons vs. Wizards: O/U 232.5",
-    "market_slug": "nba-det-was-2026-03-19",
-    "amount": 3494.0,
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.448622+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-19 >7 days ago, removed from API"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0x5cdbc27187722f827420292b37566465ce0f8a74fa0c9b6ae570ee406f8e794f",
     "wallet": "0x23786fdad0073692157c6d7dc81f281843a35fcb",
     "trader": {
@@ -33643,6 +33591,52 @@
     "market_slug": "dota2-bb4-aur1-2026-04-26",
     "amount": 4952.055795203295,
     "ai_context": "\u2705 COPY \u2014 BetBoom Team has a strong recent record and a favorable head-to-head against Aurora.\nBetBoom Team has won 7 of their last 10 matches, including a 3-1 victory over Aurora in the DreamLeague Season 28 Eastern Europe Closed Qualifier. (rdy.gg) Aurora has a 71% win rate over the past six months, indicating consistent high-level performance. (bo3.gg)",
+    "ai_verdict": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xecc441790b7efef0264ec5bb56852a7c037bada39895145cf0ae8e40bf6f6e1e",
+    "wallet": "0x8119010a6e589062aa03583bb3f39ca632d9f887",
+    "trader": {
+      "rank": 9,
+      "address": "0x8119010a6e589062aa03583bb3f39ca632d9f887",
+      "username": "PrincessCaro",
+      "profit": 6083643.099591745,
+      "volume": 23520809.952867,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x2eb10cb8596bf8c8ef409f72cfb5eb6438054ea4",
+      "side": "BUY",
+      "asset": "55817201584479912312720142395564785578289458474649701906804924088458846885928",
+      "conditionId": "0x8e12fec953e831f0e3371a331899202dacc11b6679201a2407e1b2a549268608",
+      "size": 37225.81426000001,
+      "price": 0.72,
+      "timestamp": 1777219142,
+      "title": "Will FC Internazionale Milano win on 2026-04-26?",
+      "slug": "sea-tor-int-2026-04-26-int",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Serie-A-Logo.png",
+      "eventSlug": "sea-tor-int-2026-04-26",
+      "outcome": "Yes",
+      "outcomeIndex": 0,
+      "name": "Lacosteboy",
+      "pseudonym": "Wilted-Opossum",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xecc441790b7efef0264ec5bb56852a7c037bada39895145cf0ae8e40bf6f6e1e",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Will FC Internazionale Milano win on 2026-04-26?",
+    "market_slug": "sea-tor-int-2026-04-26",
+    "amount": 26802.586267200004,
+    "ai_context": "\u2705 COPY \u2014 Inter Milan has a strong recent record against Torino FC, winning their last five encounters.\nIn their most recent match on April 21, 2026, Inter Milan defeated Calcio Como 3-2. (betbrain.com) Torino FC's recent form includes a 0-0 draw against US Cremonese on April 19, 2026. (whenkickoff.com)\nGiven Inter Milan's recent form and their favorable head-to-head record against Torino FC, the trader's bet on Inter Milan winning at 72% odds appears well-supported.",
     "ai_verdict": "COPY"
   }
 ]
