@@ -1,58 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0xf5c43d67eb70a893de143e11a296c64bc9d40b250952e7e710dcaafb3c2d232d",
-    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-    "trader": {
-      "rank": 1,
-      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-      "username": "Theo4",
-      "profit": 22053933.752321757,
-      "volume": 43013258.515682004,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x37c1874a60d348903594a96703e0507c518fc53a",
-      "side": "BUY",
-      "asset": "51641649794013183299849597466077290512870157021080139376494985217022682240581",
-      "conditionId": "0x9af82525f62f45127301f661979e00c6de4f40566fadaa43361daa58a1a79941",
-      "size": 15978.26,
-      "price": 0.54,
-      "timestamp": 1773963919,
-      "title": "Utah vs. Golden Knights",
-      "slug": "nhl-utah-las-2026-03-19",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nhl.png",
-      "eventSlug": "nhl-utah-las-2026-03-19",
-      "outcome": "Golden Knights",
-      "outcomeIndex": 1,
-      "name": "CemeterySun",
-      "pseudonym": "Pale-Bend",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0xf5c43d67eb70a893de143e11a296c64bc9d40b250952e7e710dcaafb3c2d232d",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Utah vs. Golden Knights",
-    "market_slug": "nhl-utah-las-2026-03-19",
-    "amount": 8628.260400000001,
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.448680+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-19 >7 days ago, removed from API"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0xd682d6c6324622040849474efc12d55f6def1e863e63c0436d712fb59c4dca96",
     "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
     "trader": {
@@ -33625,6 +33573,52 @@
     "market_slug": "nba-bos-phi-2026-04-26",
     "amount": 1970.0,
     "ai_context": "\u2705 COPY \u2014 Recent matchups between the Celtics and 76ers have consistently exceeded the 213.5 total points line.\nIn their last three encounters, the total points were 217 (109-108), 202 (102-100), and 214 (114-98), all surpassing the 213.5 threshold. (statmuse.com)\nGiven this trend, betting on the Over appears to be a sound decision.",
+    "ai_verdict": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x8d3d04631ed4f4746fe793a10ab851e34d35458c52849538963c8b88f889a8d9",
+    "wallet": "0x6a72f61820b26b1fe4d956e17b6dc2a1ea3033ee",
+    "trader": {
+      "rank": 3,
+      "address": "0x6a72f61820b26b1fe4d956e17b6dc2a1ea3033ee",
+      "username": "kch123",
+      "profit": 11826232.795573022,
+      "volume": 286296207.97341496,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x3e2f4c1fa1d09f259614cb77466a3eb7336baaf8",
+      "side": "BUY",
+      "asset": "59005039819817191572790632185216584675790282938177567233176230080432531995226",
+      "conditionId": "0x8ff9faf0ff030925d920a79ab8012493c53dfc817d27e1c0ca75653258ff266d",
+      "size": 19754,
+      "price": 0.59,
+      "timestamp": 1777238654,
+      "title": "Spurs vs. Trail Blazers",
+      "slug": "nba-sas-por-2026-04-26",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
+      "eventSlug": "nba-sas-por-2026-04-26",
+      "outcome": "Spurs",
+      "outcomeIndex": 0,
+      "name": "Onomatopoeia777",
+      "pseudonym": "Scrawny-Washcloth",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x8d3d04631ed4f4746fe793a10ab851e34d35458c52849538963c8b88f889a8d9",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Spurs vs. Trail Blazers",
+    "market_slug": "nba-sas-por-2026-04-26",
+    "amount": 11654.859999999999,
+    "ai_context": "\u2705 COPY \u2014 Spurs have won 7 of their last 10 games against the Trail Blazers, including 2 of the last 3.\nIn their most recent matchup on April 8, 2026, the Spurs defeated the Trail Blazers 112-101. (espn.com)\nThe Spurs have a strong track record against the Trail Blazers, winning 7 of their last 10 encounters. In their most recent game on April 8, 2026, the Spurs secured a 112-101 victory. (espn.",
     "ai_verdict": "COPY"
   }
 ]
