@@ -1,58 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0xd682d6c6324622040849474efc12d55f6def1e863e63c0436d712fb59c4dca96",
-    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-    "trader": {
-      "rank": 1,
-      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-      "username": "Theo4",
-      "profit": 22053933.752321757,
-      "volume": 43013258.515682004,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0xa5aa873702c0b28480246b6b474d48cb12869134",
-      "side": "SELL",
-      "asset": "2053750301724228157370324704408926248138691501785348834429298312230383532126",
-      "conditionId": "0xc0550c87bd3f69afb7ee355ad4bd0f28d249d5ec27d6d383253d5ba121a57ca9",
-      "size": 59960,
-      "price": 0.19,
-      "timestamp": 1773963919,
-      "title": "Cavaliers vs. Bulls",
-      "slug": "nba-cle-chi-2026-03-19",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
-      "eventSlug": "nba-cle-chi-2026-03-19",
-      "outcome": "Bulls",
-      "outcomeIndex": 1,
-      "name": "Wal1",
-      "pseudonym": "Impish-Cottage",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0xd682d6c6324622040849474efc12d55f6def1e863e63c0436d712fb59c4dca96",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Cavaliers vs. Bulls",
-    "market_slug": "nba-cle-chi-2026-03-19",
-    "amount": 11392.4,
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.448691+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-19 >7 days ago, removed from API"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0x87e46cce594aa8588d9c74937c709d27077fbd812bf489a7551c323ca884e8ff",
     "wallet": "0xdb27bf2ac5d428a9c63dbc914611036855a6c56e",
     "trader": {
@@ -33619,6 +33567,52 @@
     "market_slug": "nba-sas-por-2026-04-26",
     "amount": 11654.859999999999,
     "ai_context": "\u2705 COPY \u2014 Spurs have won 7 of their last 10 games against the Trail Blazers, including 2 of the last 3.\nIn their most recent matchup on April 8, 2026, the Spurs defeated the Trail Blazers 112-101. (espn.com)\nThe Spurs have a strong track record against the Trail Blazers, winning 7 of their last 10 encounters. In their most recent game on April 8, 2026, the Spurs secured a 112-101 victory. (espn.",
+    "ai_verdict": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x5b913f18f35a0d0b96d212a64a0460d2ed085e080cb1ac5a0172055ab5ebca18",
+    "wallet": "0x2a2c53bd278c04da9962fcf96490e17f3dfb9bc1",
+    "trader": {
+      "rank": 19,
+      "address": "0x2a2c53bd278c04da9962fcf96490e17f3dfb9bc1",
+      "username": "0x2a2C53bD278c04DA9962Fcf96490E17F3DfB9Bc1-1772479215461",
+      "profit": 4090515.2683858806,
+      "volume": 405503634.1595849,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x27f738fe203827445690339104aae35b20bc44b0",
+      "side": "BUY",
+      "asset": "72191583546025361831225777665974697708285902529660640935369192804892327952658",
+      "conditionId": "0xcbf01cda2e913effbb571f2e1303b3517f566e611899f28a7175d4b061386fbc",
+      "size": 1611.8689,
+      "price": 0.69,
+      "timestamp": 1777241056,
+      "title": "Celtics vs. 76ers",
+      "slug": "nba-bos-phi-2026-04-26",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
+      "eventSlug": "nba-bos-phi-2026-04-26",
+      "outcome": "Celtics",
+      "outcomeIndex": 0,
+      "name": "ic4cream",
+      "pseudonym": "Hateful-Chord",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x5b913f18f35a0d0b96d212a64a0460d2ed085e080cb1ac5a0172055ab5ebca18",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Celtics vs. 76ers",
+    "market_slug": "nba-bos-phi-2026-04-26",
+    "amount": 1112.189541,
+    "ai_context": "\u2705 COPY \u2014 Celtics have won 2 of the last 3 games against the 76ers, including a decisive 123-91 victory in Game 1.\nIn the most recent matchup on April 24, 2026, the Celtics secured a 108-100 win over the 76ers. (vegasinsider.com) Additionally, the 76ers are missing star center Joel Embiid due to an appendectomy, which could impact their performance. (axios.com)\nGiven the Celtics' recent victories and the 76ers' injury concerns, the trader's bet on the Celtics appears well-supported.",
     "ai_verdict": "COPY"
   }
 ]
