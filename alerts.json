@@ -3,119 +3,6 @@
     "market": "Spread: Hornets (-5.5)",
     "market_slug": "nba-orl-cha-2026-03-19-spread-home-5pt5",
     "event_slug": "nba-orl-cha-2026-03-19-spread-home-5pt5",
-    "wallet": "0x73c5261c9ca237d4e34a803edece2f1d1abb26e9",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($1,697)",
-        "Low activity (2 txns)"
-      ],
-      "amount": 1696.835,
-      "odds": 0.5,
-      "raw_price": 0.5,
-      "outcome": "Hornets",
-      "potential_pnl": 1696.835,
-      "pnl_multiplier": 1.0,
-      "wallet_age_days": 0,
-      "total_activities": 2
-    },
-    "timestamp": "2026-03-19T14:36:56.307326",
-    "trade_hash": "0x58cccda82653d7155d0d0f983f582ee236ea5709042038ffce43be8e7f7e6c1d",
-    "trade_timestamp": 1773930723,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Hornets",
-      "side": "BUY",
-      "price": 0.5,
-      "effective_price": 0.5,
-      "size": 3393.67,
-      "amount": 1696.835,
-      "potential_pnl": 1696.835,
-      "pnl_multiplier": 1.0,
-      "is_no": false,
-      "slug": "nba-orl-cha-2026-03-19-spread-home-5pt5",
-      "eventSlug": "nba-orl-cha-2026-03-19"
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+26.0%)"
-      ],
-      "category": "other",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.24,
-      "market_price": 0.5,
-      "edge": 0.26,
-      "edge_percent": 26.0,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Hornets maintain a strong home court advantage",
-          "Key players for Hornets perform exceptionally well",
-          "Opponent struggles with injuries or poor performance"
-        ],
-        "weakest_link": "Opponent struggles with injuries or poor performance"
-      },
-      "category": "sports",
-      "narrative_drivers": [
-        "Hornets' recent performance trends",
-        "Public sentiment towards the Hornets' chances"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "INSIDER_ONLY",
-      "signal_emoji": "\ud83d\udc41\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider activity detected, no clear mispricing",
-      "action_suggestion": "Monitor: insider signal only, no statistical edge",
-      "insider_score": 70,
-      "insider_position": "HORNETS",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.26,
-      "edge_percent": 26.0
-    },
-    "financial_analyst": {
-      "signal_quality": 51.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 26.0,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.448563+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-19 >7 days ago, removed from API"
-    }
-  },
-  {
-    "market": "Spread: Hornets (-5.5)",
-    "market_slug": "nba-orl-cha-2026-03-19-spread-home-5pt5",
-    "event_slug": "nba-orl-cha-2026-03-19-spread-home-5pt5",
     "wallet": "0x77a9f585405788ac801da061f2db51ce8b8bf7d7",
     "analysis": {
       "score": 70,
@@ -33790,5 +33677,51 @@
     "amount": 1005.9696978677413,
     "ai_context": "\u2705 COPY \u2014 Gen.G has a perfect 5-0 record against Nongshim RedForce in their last five encounters.\nIn their most recent match on August 20, 2025, Gen.G secured a 2-0 victory over Nongshim RedForce. (strafe.com)\nAdditionally, Gen.G has demonstrated strong recent form, securing a 2-0 victory against BNK FEARX on April 5, 2026. (bo3.gg)\nGiven Gen.G's consistent dominance over Nongshim RedForce and their recent strong performances, the trader's bet on Gen.G is well-supported.",
     "ai_verdict": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xc41eec4cf4a1c3e7956df43f550d5250c45f6a6955ea244bbf85b5bb3e0d40de",
+    "wallet": "0xd235973291b2b75ff4070e9c0b01728c520b0f29",
+    "trader": {
+      "rank": 5,
+      "address": "0xd235973291b2b75ff4070e9c0b01728c520b0f29",
+      "username": "zxgngl",
+      "profit": 7807265.5892408835,
+      "volume": 40551790.62184699,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x61350a67db3cf369d6a463751902870a3c09efa0",
+      "side": "BUY",
+      "asset": "17409208386936183539185174424903687080798391159902843473542170178980175079819",
+      "conditionId": "0x30d4ed163ad47e0702eb35eafeaf7a939bc4d37bcb0c16f780c2a7157c9cac24",
+      "size": 3508.98549,
+      "price": 0.321636375311289,
+      "timestamp": 1777204436,
+      "title": "LoL: Weibo Gaming vs Bilibili Gaming (BO3) - LPL Group Ascend",
+      "slug": "lol-wb-blg-2026-04-26",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/league-of-legends-61a4f083a6.png",
+      "eventSlug": "lol-wb-blg-2026-04-26",
+      "outcome": "Weibo Gaming",
+      "outcomeIndex": 0,
+      "name": "stupidoso",
+      "pseudonym": "Extroverted-Accountant",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xc41eec4cf4a1c3e7956df43f550d5250c45f6a6955ea244bbf85b5bb3e0d40de",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "LoL: Weibo Gaming vs Bilibili Gaming (BO3) - LPL Group Ascend",
+    "market_slug": "lol-wb-blg-2026-04-26",
+    "amount": 1128.6173740235074,
+    "ai_context": "\u274c SKIP \u2014 Bilibili Gaming has dominated recent matchups and is on a 10-match winning streak.\nIn their last 10 matches, Bilibili Gaming has won all 10, while Weibo Gaming has a 5-5 record. Historically, Bilibili Gaming leads the head-to-head with 17 wins to Weibo Gaming's 6. (strafe.com) Given Bilibili Gaming's current form and historical advantage, the trader's bet on Weibo Gaming appears risky.",
+    "ai_verdict": "SKIP"
   }
 ]
