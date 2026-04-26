@@ -1,58 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0x758fc49af99153046d7de036a05113ee9ec39e18450a72df33823918823ef554",
-    "wallet": "0xdc876e6873772d38716fda7f2452a78d426d7ab6",
-    "trader": {
-      "rank": 16,
-      "address": "0xdc876e6873772d38716fda7f2452a78d426d7ab6",
-      "username": "432614799197",
-      "profit": 4561126.663957323,
-      "volume": 185485956.8620829,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x5d58e38cd0a7e6f5fa67b7f9c2f70dd70df09a15",
-      "side": "SELL",
-      "asset": "84007361241758978489330197202827235700289078898880514910472901778979242019662",
-      "conditionId": "0xb44d28615f728f279f32cda4ab130f2edbb5dd1b53363a75502aaac06eb502ce",
-      "size": 10949.46,
-      "price": 0.29095242139795024,
-      "timestamp": 1773962719,
-      "title": "VCU Rams vs. North Carolina Tar Heels",
-      "slug": "cbb-vcu-ncar-2026-03-19",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/ncaa-c14995df96.png",
-      "eventSlug": "cbb-vcu-ncar-2026-03-19",
-      "outcome": "VCU Rams",
-      "outcomeIndex": 0,
-      "name": "Dhdhsjsj",
-      "pseudonym": "Our-Cutover",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x758fc49af99153046d7de036a05113ee9ec39e18450a72df33823918823ef554",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "VCU Rams vs. North Carolina Tar Heels",
-    "market_slug": "cbb-vcu-ncar-2026-03-19",
-    "amount": 3185.7719,
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.448668+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-19 >7 days ago, removed from API"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0xf5c43d67eb70a893de143e11a296c64bc9d40b250952e7e710dcaafb3c2d232d",
     "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
     "trader": {
@@ -33631,6 +33579,52 @@
     "market_slug": "nba-cle-tor-2026-04-26",
     "amount": 19778.000000503886,
     "ai_context": "\u2705 COPY \u2014 Cavaliers lead the series 2-1 and have a strong playoff record against the Raptors.\nThe Cavaliers have won two of the first three games in their playoff series against the Raptors, with a 12-2 all-time playoff record against Toronto. (si.com)\nIn their most recent game on April 23, 2026, the Cavaliers lost to the Raptors 104-126.",
+    "ai_verdict": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x71b7a6a4b532ef5c4e1b204c1a7aa733dd74089ecccd8db05fecbaff7cefa056",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.515682004,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x2e01832a5646266682fe53adb6e428bc9d7c0875",
+      "side": "BUY",
+      "asset": "96017834667277346209400595012200511732225955280429218140922779061424591683484",
+      "conditionId": "0x9b94e927fdd5228e9063a2793fac3206065e1f970e988a33f3664ce76430b638",
+      "size": 3940,
+      "price": 0.5,
+      "timestamp": 1777236554,
+      "title": "Celtics vs. 76ers: O/U 213.5",
+      "slug": "nba-bos-phi-2026-04-26-total-213pt5",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
+      "eventSlug": "nba-bos-phi-2026-04-26",
+      "outcome": "Over",
+      "outcomeIndex": 0,
+      "name": "yyd33886",
+      "pseudonym": "Chubby-Special",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x71b7a6a4b532ef5c4e1b204c1a7aa733dd74089ecccd8db05fecbaff7cefa056",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Celtics vs. 76ers: O/U 213.5",
+    "market_slug": "nba-bos-phi-2026-04-26",
+    "amount": 1970.0,
+    "ai_context": "\u2705 COPY \u2014 Recent matchups between the Celtics and 76ers have consistently exceeded the 213.5 total points line.\nIn their last three encounters, the total points were 217 (109-108), 202 (102-100), and 214 (114-98), all surpassing the 213.5 threshold. (statmuse.com)\nGiven this trend, betting on the Over appears to be a sound decision.",
     "ai_verdict": "COPY"
   }
 ]
