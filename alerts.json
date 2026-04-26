@@ -1,57 +1,5 @@
 [
   {
-    "type": "TOP_TRADER",
-    "trade_hash": "0xb4d9d85959a096723c375949b7e02bb1e97fd860bb8cf16d2a86431acb801b0a",
-    "wallet": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
-    "trader": {
-      "rank": 9,
-      "address": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
-      "username": "RN1",
-      "profit": 5737968.580120262,
-      "volume": 278031629.762783,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0xd106952ebf30a3125affd8a23b6c1f30c35fc79c",
-      "side": "BUY",
-      "asset": "2674595536960933334332472878857052687249218836423245888706664492655136930708",
-      "conditionId": "0x4ab8d086479d32ff52377289defc81f6c4f24769bf7ffd1e4f132ba4d04ec369",
-      "size": 2891.03,
-      "price": 0.56,
-      "timestamp": 1773919501,
-      "title": "Jets vs. Bruins",
-      "slug": "nhl-wpg-bos-2026-03-19",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nhl.png",
-      "eventSlug": "nhl-wpg-bos-2026-03-19",
-      "outcome": "Bruins",
-      "outcomeIndex": 1,
-      "name": "Herdonia",
-      "pseudonym": "Unkempt-Image",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0xb4d9d85959a096723c375949b7e02bb1e97fd860bb8cf16d2a86431acb801b0a",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Jets vs. Bruins",
-    "market_slug": "nhl-wpg-bos-2026-03-19",
-    "amount": 1618.9768000000004,
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-22T07:20:44.047756+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-19 >7 days ago, removed from API"
-    }
-  },
-  {
     "market": "Spread: Hornets (-4.5)",
     "market_slug": "nba-orl-cha-2026-03-19-spread-home-4pt5",
     "event_slug": "nba-orl-cha-2026-03-19-spread-home-4pt5",
@@ -33206,5 +33154,51 @@
     "amount": 4299.0099,
     "ai_context": "\u274c SKIP \u2014 Recent diplomatic developments indicate a lack of progress toward a US-Iran meeting by April 30, 2026.\nPresident Trump canceled a planned envoy trip to Pakistan for talks with Iran, citing stalled negotiations. Iran's Foreign Minister Abbas Araghchi met with Pakistani leaders but did not engage with US officials. (axios.com) Additionally, the Polymarket odds for a US-Iran meeting by April 30 have dropped significantly, reflecting decreased expectations. (global-political-spotlight.",
     "ai_verdict": "SKIP"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x5de63c95e831ac7bee1585cf94e9cd6fa49a98d39c35bbe3e5fb02cb7a3379dc",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.515682004,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xd9c4f7323b02bcb3e476291e9203239667006f95",
+      "side": "BUY",
+      "asset": "74795091158427558552989913116388464999631484148523800630306214643247739451692",
+      "conditionId": "0x24688d708149e4fb2a05053d516336e336207e4ddd8dda485cca41e51a29110b",
+      "size": 9841,
+      "price": 0.47,
+      "timestamp": 1777182826,
+      "title": "Will Manchester United FC win on 2026-04-27?",
+      "slug": "epl-mun-bre-2026-04-27-mun",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Repetitive-markets/premier+league.jpg",
+      "eventSlug": "epl-mun-bre-2026-04-27",
+      "outcome": "No",
+      "outcomeIndex": 1,
+      "name": "MildredBK",
+      "pseudonym": "Skinny-Broccoli",
+      "bio": "",
+      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-6187182-77d32d03-dc96-423c-a1e3-f2342d314d0c.webp",
+      "profileImageOptimized": "",
+      "transactionHash": "0x5de63c95e831ac7bee1585cf94e9cd6fa49a98d39c35bbe3e5fb02cb7a3379dc",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Will Manchester United FC win on 2026-04-27?",
+    "market_slug": "epl-mun-bre-2026-04-27",
+    "amount": 4625.2699999999995,
+    "ai_context": "\ud83d\udfe1 LEAN COPY \u2014 Recent form and head-to-head statistics favor Manchester United FC.\nManchester United FC is currently third in the English Premier League with 55 points after 31 matches, while Brentford FC is seventh with 46 points. (mufcinfo.com) In their most recent matches, Manchester United secured a 3-1 victory against Aston Villa on March 15, 2026, and a 2-2 draw against AFC Bournemouth on March 20, 2026. (foxsports.",
+    "ai_verdict": "LEAN_COPY"
   }
 ]
