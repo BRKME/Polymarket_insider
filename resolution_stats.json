@@ -1,16 +1,134 @@
 {
-  "last_run": null,
-  "total_checked": 0,
-  "total_resolved": 0,
+  "last_run": "2026-04-26T07:42:57.918719+00:00",
+  "total_checked": 210,
+  "total_resolved": 437,
   "total_unresolved": 0,
-  "insider_wins": 0,
-  "insider_losses": 0,
-  "model_correct": 0,
-  "model_wrong": 0,
-  "model_na": 0,
-  "total_pnl": 0,
-  "by_signal_type": {},
-  "by_category": {},
-  "by_ai_verdict": {},
-  "history": []
+  "insider_wins": 54,
+  "insider_losses": 89,
+  "model_correct": 33,
+  "model_wrong": 1,
+  "model_na": 403,
+  "total_pnl": -73999.8,
+  "by_signal_type": {
+    "TOP_TRADER": {
+      "total": 105,
+      "insider_wins": 41,
+      "insider_losses": 60,
+      "model_correct": 0,
+      "model_wrong": 0,
+      "model_na": 105
+    },
+    "CONFLICT": {
+      "total": 23,
+      "insider_wins": 2,
+      "insider_losses": 20,
+      "model_correct": 18,
+      "model_wrong": 1,
+      "model_na": 4
+    },
+    "ALPHA": {
+      "total": 12,
+      "insider_wins": 11,
+      "insider_losses": 1,
+      "model_correct": 10,
+      "model_wrong": 0,
+      "model_na": 2
+    },
+    "INSIDER_ONLY": {
+      "total": 8,
+      "insider_wins": 0,
+      "insider_losses": 8,
+      "model_correct": 5,
+      "model_wrong": 0,
+      "model_na": 3
+    }
+  },
+  "by_category": {
+    "unknown": {
+      "total": 105,
+      "insider_wins": 41,
+      "insider_losses": 60,
+      "model_correct": 0,
+      "model_wrong": 0,
+      "model_na": 105
+    },
+    "politics_near": {
+      "total": 6,
+      "insider_wins": 3,
+      "insider_losses": 3,
+      "model_correct": 5,
+      "model_wrong": 1,
+      "model_na": 0
+    },
+    "geopolitics": {
+      "total": 17,
+      "insider_wins": 5,
+      "insider_losses": 12,
+      "model_correct": 15,
+      "model_wrong": 0,
+      "model_na": 2
+    },
+    "other": {
+      "total": 13,
+      "insider_wins": 3,
+      "insider_losses": 10,
+      "model_correct": 13,
+      "model_wrong": 0,
+      "model_na": 0
+    },
+    "sports": {
+      "total": 6,
+      "insider_wins": 2,
+      "insider_losses": 3,
+      "model_correct": 0,
+      "model_wrong": 0,
+      "model_na": 6
+    },
+    "crypto": {
+      "total": 1,
+      "insider_wins": 0,
+      "insider_losses": 1,
+      "model_correct": 0,
+      "model_wrong": 0,
+      "model_na": 1
+    }
+  },
+  "by_ai_verdict": {
+    "SKIP": {
+      "total": 15,
+      "insider_wins": 6,
+      "insider_losses": 9,
+      "model_correct": 2,
+      "model_wrong": 0,
+      "model_na": 13
+    },
+    "COPY": {
+      "total": 37,
+      "insider_wins": 19,
+      "insider_losses": 17,
+      "model_correct": 0,
+      "model_wrong": 0,
+      "model_na": 37
+    },
+    "LEAN_COPY": {
+      "total": 1,
+      "insider_wins": 1,
+      "insider_losses": 0,
+      "model_correct": 0,
+      "model_wrong": 0,
+      "model_na": 1
+    }
+  },
+  "history": [
+    {
+      "date": "2026-04-26",
+      "newly_resolved": 437,
+      "still_open": 62,
+      "total_resolved": 437,
+      "insider_wins": 54,
+      "insider_losses": 89,
+      "model_correct": 33,
+      "model_wrong": 1
+    }
+  ]
 }
