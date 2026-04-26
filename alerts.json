@@ -1,58 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0x5cdbc27187722f827420292b37566465ce0f8a74fa0c9b6ae570ee406f8e794f",
-    "wallet": "0x23786fdad0073692157c6d7dc81f281843a35fcb",
-    "trader": {
-      "rank": 13,
-      "address": "0x23786fdad0073692157c6d7dc81f281843a35fcb",
-      "username": "mikatrade77",
-      "profit": 5147998.544602999,
-      "volume": 10884765.388774998,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0xb5e9746594e3a11f3cb724d0a6029a5d62234044",
-      "side": "BUY",
-      "asset": "2664311162279059241862911770684565005151952311104325708669060839371754814097",
-      "conditionId": "0x06707a5317654a573e0ed4879d0c81071de1a94b0cd3cb007c7ec32ebe359885",
-      "size": 65759.59,
-      "price": 0.35016557737054016,
-      "timestamp": 1773959419,
-      "title": "Lakers vs. Heat",
-      "slug": "nba-lal-mia-2026-03-19",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
-      "eventSlug": "nba-lal-mia-2026-03-19",
-      "outcome": "Lakers",
-      "outcomeIndex": 0,
-      "name": "LinePunisher",
-      "pseudonym": "Calm-Savannah",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x5cdbc27187722f827420292b37566465ce0f8a74fa0c9b6ae570ee406f8e794f",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Lakers vs. Heat",
-    "market_slug": "nba-lal-mia-2026-03-19",
-    "amount": 23026.744799999997,
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.448654+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-19 >7 days ago, removed from API"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0x758fc49af99153046d7de036a05113ee9ec39e18450a72df33823918823ef554",
     "wallet": "0xdc876e6873772d38716fda7f2452a78d426d7ab6",
     "trader": {
@@ -33637,6 +33585,52 @@
     "market_slug": "sea-tor-int-2026-04-26",
     "amount": 26802.586267200004,
     "ai_context": "\u2705 COPY \u2014 Inter Milan has a strong recent record against Torino FC, winning their last five encounters.\nIn their most recent match on April 21, 2026, Inter Milan defeated Calcio Como 3-2. (betbrain.com) Torino FC's recent form includes a 0-0 draw against US Cremonese on April 19, 2026. (whenkickoff.com)\nGiven Inter Milan's recent form and their favorable head-to-head record against Torino FC, the trader's bet on Inter Milan winning at 72% odds appears well-supported.",
+    "ai_verdict": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x747da877cfa1871328f4e00d32526d88fb9232c119f14c5aa8040d549ed93d4f",
+    "wallet": "0x8119010a6e589062aa03583bb3f39ca632d9f887",
+    "trader": {
+      "rank": 9,
+      "address": "0x8119010a6e589062aa03583bb3f39ca632d9f887",
+      "username": "PrincessCaro",
+      "profit": 6083643.099591745,
+      "volume": 23520809.952867,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x6815040a7176c958e6ff8818bfe188e80dbd9edb",
+      "side": "BUY",
+      "asset": "89064299181143394148709327473509743882930252400518549241798110493431019910983",
+      "conditionId": "0xe9cde4bf7fa69dd5832fef13a2e6a0c6ebd322e4a1658b8a5f8c41c05494528a",
+      "size": 31393.650795,
+      "price": 0.629999999988975,
+      "timestamp": 1777223344,
+      "title": "Cavaliers vs. Raptors",
+      "slug": "nba-cle-tor-2026-04-26",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
+      "eventSlug": "nba-cle-tor-2026-04-26",
+      "outcome": "Cavaliers",
+      "outcomeIndex": 0,
+      "name": "pilotbaby",
+      "pseudonym": "Cylindrical-Ambulance",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x747da877cfa1871328f4e00d32526d88fb9232c119f14c5aa8040d549ed93d4f",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Cavaliers vs. Raptors",
+    "market_slug": "nba-cle-tor-2026-04-26",
+    "amount": 19778.000000503886,
+    "ai_context": "\u2705 COPY \u2014 Cavaliers lead the series 2-1 and have a strong playoff record against the Raptors.\nThe Cavaliers have won two of the first three games in their playoff series against the Raptors, with a 12-2 all-time playoff record against Toronto. (si.com)\nIn their most recent game on April 23, 2026, the Cavaliers lost to the Raptors 104-126.",
     "ai_verdict": "COPY"
   }
 ]
