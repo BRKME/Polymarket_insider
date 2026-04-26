@@ -1,231 +1,5 @@
 [
   {
-    "market": "Spread: Hornets (-4.5)",
-    "market_slug": "nba-orl-cha-2026-03-19-spread-home-4pt5",
-    "event_slug": "nba-orl-cha-2026-03-19-spread-home-4pt5",
-    "wallet": "0xfc6381442d0dd6a65075ab453d0420e98f6d1775",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($1,989)",
-        "Low activity (3 txns)"
-      ],
-      "amount": 1989.3600000000001,
-      "odds": 0.54,
-      "raw_price": 0.54,
-      "outcome": "Hornets",
-      "potential_pnl": 1694.6399999999999,
-      "pnl_multiplier": 0.8518518518518517,
-      "wallet_age_days": 0,
-      "total_activities": 3
-    },
-    "timestamp": "2026-03-19T12:30:31.324868",
-    "trade_hash": "0xcfb2ca72077a06d99b4c9d1b6ae536c603f5c840853461ee1270022678943815",
-    "trade_timestamp": 1773923019,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Hornets",
-      "side": "BUY",
-      "price": 0.54,
-      "effective_price": 0.54,
-      "size": 3684.0,
-      "amount": 1989.3600000000001,
-      "potential_pnl": 1694.6399999999999,
-      "pnl_multiplier": 0.8518518518518517,
-      "is_no": false,
-      "slug": "nba-orl-cha-2026-03-19-spread-home-4pt5",
-      "eventSlug": "nba-orl-cha-2026-03-19"
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+29.2%)"
-      ],
-      "category": "other",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.248,
-      "market_price": 0.54,
-      "edge": 0.29200000000000004,
-      "edge_percent": 29.200000000000003,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Hornets' key players perform at peak levels",
-          "Opposing team has significant injuries",
-          "Home court advantage for the Hornets"
-        ],
-        "weakest_link": "Opposing team has significant injuries"
-      },
-      "category": "sports",
-      "narrative_drivers": [
-        "Fan sentiment towards the Hornets",
-        "Recent performance trends of both teams"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "INSIDER_ONLY",
-      "signal_emoji": "\ud83d\udc41\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider activity detected, no clear mispricing",
-      "action_suggestion": "Monitor: insider signal only, no statistical edge",
-      "insider_score": 70,
-      "insider_position": "HORNETS",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.29200000000000004,
-      "edge_percent": 29.200000000000003
-    },
-    "financial_analyst": {
-      "signal_quality": 51.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 29.2,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.448505+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-19 >7 days ago, removed from API"
-    }
-  },
-  {
-    "market": "Spread: Heat (-2.5)",
-    "market_slug": "nba-lal-mia-2026-03-19-spread-home-2pt5",
-    "event_slug": "nba-lal-mia-2026-03-19-spread-home-2pt5",
-    "wallet": "0xcdeeaad589985a4afd562f1c78091120ca47c456",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($1,191)",
-        "Low activity (1 txns)"
-      ],
-      "amount": 1191.3600000000001,
-      "odds": 0.51,
-      "raw_price": 0.51,
-      "outcome": "Heat",
-      "potential_pnl": 1144.6399999999999,
-      "pnl_multiplier": 0.96078431372549,
-      "wallet_age_days": 0,
-      "total_activities": 1
-    },
-    "timestamp": "2026-03-19T12:30:43.165772",
-    "trade_hash": "0xbdb8e14648d9cbb1baade1fe57564063689f39c3e54781e3bfcdaffde76793c1",
-    "trade_timestamp": 1773923101,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Heat",
-      "side": "BUY",
-      "price": 0.51,
-      "effective_price": 0.51,
-      "size": 2336.0,
-      "amount": 1191.3600000000001,
-      "potential_pnl": 1144.6399999999999,
-      "pnl_multiplier": 0.96078431372549,
-      "is_no": false,
-      "slug": "nba-lal-mia-2026-03-19-spread-home-2pt5",
-      "eventSlug": "nba-lal-mia-2026-03-19"
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+26.8%)"
-      ],
-      "category": "other",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.242,
-      "market_price": 0.51,
-      "edge": 0.268,
-      "edge_percent": 26.8,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "team performance consistency",
-          "injury status of key players",
-          "coaching strategies"
-        ],
-        "weakest_link": "injury status of key players"
-      },
-      "category": "sports",
-      "narrative_drivers": [
-        "team's recent performance trends",
-        "public sentiment towards the team"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "INSIDER_ONLY",
-      "signal_emoji": "\ud83d\udc41\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider activity detected, no clear mispricing",
-      "action_suggestion": "Monitor: insider signal only, no statistical edge",
-      "insider_score": 70,
-      "insider_position": "HEAT",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.268,
-      "edge_percent": 26.8
-    },
-    "financial_analyst": {
-      "signal_quality": 51.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 26.8,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.448544+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-19 >7 days ago, removed from API"
-    }
-  },
-  {
     "market": "Spread: Hornets (-5.5)",
     "market_slug": "nba-orl-cha-2026-03-19-spread-home-5pt5",
     "event_slug": "nba-orl-cha-2026-03-19-spread-home-5pt5",
@@ -33860,5 +33634,161 @@
     "ai_context": "\ud83d\udfe1 LEAN COPY \u2014 Recent form and head-to-head statistics favor Manchester United FC.\nManchester United FC is currently third in the English Premier League with 55 points after 31 matches, while Brentford FC is seventh with 46 points. (mufcinfo.com) In their most recent matches, Manchester United secured a 3-1 victory against Aston Villa on March 15, 2026, and a 2-2 draw against AFC Bournemouth on March 20, 2026. (foxsports.",
     "ai_verdict": "LEAN_COPY",
     "resolution_last_check": "2026-04-26T07:42:57.918703+00:00"
+  },
+  {
+    "market": "Spurs vs. Trail Blazers",
+    "market_slug": "nba-sas-por-2026",
+    "event_slug": "nba-sas-por-2026",
+    "wallet": "0x581afb4c39b8071ed8bed0479fb33e2932c7c719",
+    "analysis": {
+      "score": 70,
+      "flags": [
+        "New wallet (1d old)",
+        "Large bet ($1,874)",
+        "Low activity (5 txns)"
+      ],
+      "amount": 1874.404056201632,
+      "odds": 0.6599999999442367,
+      "raw_price": 0.6599999999442367,
+      "outcome": "Spurs",
+      "potential_pnl": 965.6020897983681,
+      "pnl_multiplier": 0.51515151527953,
+      "wallet_age_days": 1,
+      "total_activities": 5
+    },
+    "timestamp": "2026-04-26T10:25:50.599082",
+    "trade_hash": "0xb434b096eaf79fa643956ecfaf7dddc41dcdbfdfb589657a9ac980a7371f5866",
+    "trade_timestamp": 1777198818,
+    "latency": null,
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "Spurs",
+      "outcomeIndex": 0,
+      "normalized_position": "YES",
+      "side": "BUY",
+      "price": 0.6599999999442367,
+      "effective_price": 0.6599999999442367,
+      "size": 2840.006146,
+      "amount": 1874.404056201632,
+      "potential_pnl": 965.6020897983681,
+      "pnl_multiplier": 0.51515151527953,
+      "is_no": false,
+      "conditionId": "0x8ff9faf0ff030925d920a79ab8012493c53dfc817d27e1c0ca75653258ff266d",
+      "slug": "nba-sas-por-2026",
+      "eventSlug": "nba-sas-por-2026-04-26"
+    },
+    "irrationality": {
+      "irrationality_score": 35,
+      "flags": [
+        "Large mispricing edge (+38.8%)"
+      ],
+      "category": "sports",
+      "category_info": {
+        "strength": "medium",
+        "typical_overpricing": 0.03,
+        "min_edge": 0.05
+      },
+      "is_irrational": true
+    },
+    "mispricing": {
+      "rational_estimate": 0.27199999998884733,
+      "market_price": 0.6599999999442367,
+      "edge": 0.3879999999553894,
+      "edge_percent": 38.79999999553894,
+      "min_edge_required": 0.05,
+      "is_mispriced": true,
+      "edge_quality": "STRONG",
+      "base_rate_class": "common",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "common",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "Spurs maintain current form",
+          "Trail Blazers underperform",
+          "Injury status of key players"
+        ],
+        "weakest_link": "Injury status of key players"
+      },
+      "category": "sports",
+      "narrative_drivers": [
+        "Spurs' recent performance trends",
+        "Trail Blazers' roster changes"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "CONFLICT",
+      "signal_emoji": "\u26a0\ufe0f",
+      "signal_strength": 70,
+      "interpretation": "Insider buying YES despite statistical overpricing",
+      "action_suggestion": "Requires manual analysis: insider may have real info OR is part of irrational crowd",
+      "insider_score": 70,
+      "insider_position": "YES",
+      "irrationality_score": 35,
+      "is_irrational": true,
+      "is_mispriced": true,
+      "edge": 0.3879999999553894,
+      "edge_percent": 38.79999999553894
+    },
+    "financial_analyst": {
+      "signal_quality": 46.0,
+      "stance": "WATCH_ONLY",
+      "edge_percent": 38.8,
+      "signal_strength": 70.0,
+      "insider_score": 70.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "ai_context": "\u2705 COPY \u2014 Spurs have won 3 of the last 4 matchups against the Trail Blazers, including a decisive 120-108 victory on April 24, 2026.\nNBA Schedule\nTrail Blazers (POR) @ Spurs (SAS) on Wednesday, Apr 08, 2026 at 06:30 PM PDT. Final score: POR 101 - SAS 112\nTrail Blazers (POR) @ Spurs (SAS) on Sunday, Apr 19, 2026 at 06:00 PM PDT. Final score: POR 98 - SAS 111\nTrail Blazers (POR) @ Spurs (SAS) on Tuesday, Apr 21, 2026 at 05:00 PM PDT.",
+    "ai_verdict": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x191534961fdd46f40e98c7179e90fcb122890d8b15d7293cf52f1b44cc5a7ce7",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.515682004,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x29441957a028c39450fd399e0e6324612f45cc4e",
+      "side": "BUY",
+      "asset": "85431511004202566914069507572392275682317272912073267136060964947265931938304",
+      "conditionId": "0x3d1ca5144fd5541f8e0216ecc01b17b56882e80e4b55b64893747cfe17104e8c",
+      "size": 1125.2918,
+      "price": 0.893963412750134,
+      "timestamp": 1777199030,
+      "title": "LoL: Nongshim Red Force vs Gen.G (BO3) - LCK Rounds 1-2",
+      "slug": "lol-ns-gen-2026-04-26",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/league-of-legends-61a4f083a6.png",
+      "eventSlug": "lol-ns-gen-2026-04-26",
+      "outcome": "Gen.G",
+      "outcomeIndex": 1,
+      "name": "DiscipleOfChrist",
+      "pseudonym": "Grand-Role",
+      "bio": "DiscipleOfChrist",
+      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-7554935-2a7ee83e-4882-4d42-a9ef-1b8532887c4d.png",
+      "profileImageOptimized": "",
+      "transactionHash": "0x191534961fdd46f40e98c7179e90fcb122890d8b15d7293cf52f1b44cc5a7ce7",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "LoL: Nongshim Red Force vs Gen.G (BO3) - LCK Rounds 1-2",
+    "market_slug": "lol-ns-gen-2026-04-26",
+    "amount": 1005.9696978677413,
+    "ai_context": "\u2705 COPY \u2014 Gen.G has a perfect 5-0 record against Nongshim RedForce in their last five encounters.\nIn their most recent match on August 20, 2025, Gen.G secured a 2-0 victory over Nongshim RedForce. (strafe.com)\nAdditionally, Gen.G has demonstrated strong recent form, securing a 2-0 victory against BNK FEARX on April 5, 2026. (bo3.gg)\nGiven Gen.G's consistent dominance over Nongshim RedForce and their recent strong performances, the trader's bet on Gen.G is well-supported.",
+    "ai_verdict": "COPY"
   }
 ]
