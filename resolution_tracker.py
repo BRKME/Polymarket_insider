@@ -73,32 +73,31 @@ def save_stats(stats: Dict):
 
 
 def fetch_market_by_condition_id(condition_id: str) -> Optional[Dict]:
-    """Fetch market by conditionId — most reliable lookup for TOP_TRADER alerts."""
+    """Fetch market by conditionId."""
     if not condition_id:
         return None
 
     url = f"{GAMMA_API_URL}/markets"
     
-    for param_name in ["condition_id", "conditionId"]:
-        try:
-            time.sleep(API_DELAY)
-            resp = requests.get(url, params={param_name: condition_id, "limit": 1}, timeout=15)
-            if resp.status_code == 200:
-                data = resp.json()
-                if data and len(data) > 0:
-                    market = data[0]
-                    # VALIDATE: returned conditionId must match requested
-                    # Gamma API ignores unknown condition_id params and returns default market
-                    returned_cid = market.get("conditionId", "")
-                    if returned_cid and condition_id.lower().startswith(returned_cid.lower()[:20]):
+    try:
+        time.sleep(API_DELAY)
+        resp = requests.get(url, params={"condition_id": condition_id, "limit": 1}, timeout=15)
+        if resp.status_code == 403:
+            return None  # API blocks condition_id param — don't retry
+        if resp.status_code == 200:
+            data = resp.json()
+            if data and len(data) > 0:
+                market = data[0]
+                # Validate returned conditionId matches
+                returned_cid = market.get("conditionId", "")
+                if returned_cid and returned_cid.lower() == condition_id.lower():
+                    return market
+                # Partial match (truncated IDs)
+                if returned_cid and len(returned_cid) > 10 and len(condition_id) > 10:
+                    if returned_cid.lower()[:20] == condition_id.lower()[:20]:
                         return market
-                    elif returned_cid and returned_cid.lower().startswith(condition_id.lower()[:20]):
-                        return market
-                    else:
-                        # API returned wrong market — ignore silently
-                        continue
-        except Exception as e:
-            print(f"  ⚠️  API error for conditionId '{condition_id[:20]}': {e}")
+    except Exception as e:
+        pass
 
     return None
 
@@ -169,9 +168,7 @@ def determine_resolution(market: Dict) -> Optional[str]:
     if not market:
         return None
 
-    # Must have a resolution source
-    if not market.get("resolutionSource"):
-        return None
+    is_closed = market.get("closed", False)
 
     # Parse outcomes and prices
     outcomes = market.get("outcomes", [])
@@ -188,7 +185,7 @@ def determine_resolution(market: Dict) -> Optional[str]:
         except:
             return None
 
-    # Method 1: price = 1.0 (fully resolved)
+    # Method 1: price = 1.0 (fully resolved — works even without resolutionSource)
     for i, p in enumerate(prices):
         try:
             if float(p) >= 0.99 and i < len(outcomes):
@@ -196,13 +193,24 @@ def determine_resolution(market: Dict) -> Optional[str]:
         except:
             pass
 
-    # Method 2: resolvedOutcome field
+    # Method 2: price = 0.0 for all but one (also fully resolved)
+    if len(prices) == 2:
+        try:
+            p0, p1 = float(prices[0]), float(prices[1])
+            if p0 <= 0.01 and p1 >= 0.99 and len(outcomes) >= 2:
+                return outcomes[1]
+            if p1 <= 0.01 and p0 >= 0.99 and len(outcomes) >= 2:
+                return outcomes[0]
+        except:
+            pass
+
+    # Method 3: resolvedOutcome field
     resolved = market.get("resolvedOutcome") or market.get("winner")
     if resolved:
         return resolved
 
-    # Method 3: highest price in closed market
-    if market.get("closed") and prices:
+    # Method 4: closed market with clear winner (>90%)
+    if is_closed and prices:
         try:
             float_prices = [float(p) for p in prices]
             max_idx = float_prices.index(max(float_prices))
@@ -211,6 +219,7 @@ def determine_resolution(market: Dict) -> Optional[str]:
         except:
             pass
 
+    # Not resolved or can't determine
     return None
 
 
