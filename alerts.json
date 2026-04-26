@@ -1,166 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0x1dc999c6b0ccd3736b84eb06c47c6b048606b91a4becd67a122dcebf902c0fb3",
-    "wallet": "0x6a72f61820b26b1fe4d956e17b6dc2a1ea3033ee",
-    "trader": {
-      "rank": 3,
-      "address": "0x6a72f61820b26b1fe4d956e17b6dc2a1ea3033ee",
-      "username": "kch123",
-      "profit": 11358581.724746734,
-      "volume": 256144838.006925,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x7d93f3c40c1f3da6c2c7ff1a8a6f81e3af0288bb",
-      "side": "BUY",
-      "asset": "101382087930113738078068588877810030862858420449201729866179463116442988178498",
-      "conditionId": "0x9079822f95376dae8797ecb6d5b2a0251bd24f102693cf667f3911d864c08f5a",
-      "size": 5692,
-      "price": 0.45,
-      "timestamp": 1773904495,
-      "title": "Cavaliers vs. Bulls: O/U 238.5",
-      "slug": "nba-cle-chi-2026-03-19-total-238pt5",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
-      "eventSlug": "nba-cle-chi-2026-03-19",
-      "outcome": "Under",
-      "outcomeIndex": 1,
-      "name": "Thunderf",
-      "pseudonym": "Useless-Fraud",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x1dc999c6b0ccd3736b84eb06c47c6b048606b91a4becd67a122dcebf902c0fb3",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Cavaliers vs. Bulls: O/U 238.5",
-    "market_slug": "nba-cle-chi-2026-03-19",
-    "amount": 2561.4,
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-22T07:20:44.047742+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-19 >7 days ago, removed from API"
-    }
-  },
-  {
-    "market": "Will T\u00f4 L\u00e2m be the next President of Vietnam?",
-    "market_slug": "will-t-lm-be-the-next-president-of-vietnam",
-    "event_slug": "will-t-lm-be-the-next-president-of-vietnam",
-    "wallet": "0x53c1363eb2613a74d7599d9d41ead8433db01490",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($2,460)",
-        "Low activity (1 txns)"
-      ],
-      "amount": 2459.791666,
-      "odds": 0.8805532206936515,
-      "raw_price": 0.11944677930634856,
-      "outcome": "No",
-      "potential_pnl": 333.66999899999973,
-      "pnl_multiplier": 0.13564969896113133,
-      "wallet_age_days": 0,
-      "total_activities": 1
-    },
-    "timestamp": "2026-03-19T10:38:01.738789",
-    "trade_hash": "0xd51e1e8288da4c32a4820e1fea6b53894aa503194136f9cef590fbc828c84107",
-    "trade_timestamp": 1773916367,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "No",
-      "side": "BUY",
-      "price": 0.11944677930634856,
-      "effective_price": 0.8805532206936515,
-      "size": 2793.461665,
-      "amount": 2459.791666,
-      "potential_pnl": 333.66999899999973,
-      "pnl_multiplier": 0.13564969896113133,
-      "is_no": true,
-      "slug": "will-t-lm-be-the-next-president-of-vietnam",
-      "eventSlug": "next-president-of-vietnam"
-    },
-    "irrationality": {
-      "irrationality_score": 48,
-      "flags": [
-        "Longshot (12%) in high bias category (politics_far)",
-        "Category structurally prone to longshot bias",
-        "Moderate mispricing edge (+7.6%)"
-      ],
-      "category": "politics_far",
-      "category_info": {
-        "strength": "high",
-        "typical_overpricing": 0.05,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.04388935586126971,
-      "market_price": 0.11944677930634856,
-      "edge": 0.07555742344507885,
-      "edge_percent": 7.555742344507885,
-      "min_edge_required": 0.03,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "rare",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "rare",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Political support from the Communist Party",
-          "Public approval and acceptance",
-          "Absence of strong opposition candidates"
-        ],
-        "weakest_link": "Public approval and acceptance"
-      },
-      "category": "politics_near",
-      "narrative_drivers": [
-        "Internal party dynamics",
-        "Public sentiment towards leadership"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "ALPHA",
-      "signal_emoji": "\ud83d\udd25",
-      "signal_strength": 118,
-      "interpretation": "Smart money (NO) confirms YES is overpriced",
-      "action_suggestion": "High conviction: insider + statistics aligned",
-      "insider_score": 70,
-      "insider_position": "NO",
-      "irrationality_score": 48,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.07555742344507885,
-      "edge_percent": 7.555742344507885
-    },
-    "financial_analyst": {
-      "signal_quality": 69.9,
-      "stance": "SELECTIVE",
-      "edge_percent": 7.56,
-      "signal_strength": 118.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "resolution_last_check": "2026-04-22T07:21:08.930000+00:00"
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0xb4d9d85959a096723c375949b7e02bb1e97fd860bb8cf16d2a86431acb801b0a",
     "wallet": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
     "trader": {
@@ -33210,5 +33050,161 @@
     "amount": 1844.3807359999998,
     "ai_context": "\u2705 COPY \u2014 Stars have a strong recent record against the Wild and are playing at home.\nIn their last 10 meetings, the Stars have won 7, including a 5-2 victory on October 15, 2025, and a 5-2 win on September 26, 2025. (rantsports.com) Additionally, the Stars have a home record of 14-27-8 against the Wild. (nhl.com)\nThe Stars have been performing well recently, with a 5-2 victory over the Wild on October 15, 2025, and a 5-2 win on September 26, 2025. (rantsports.",
     "ai_verdict": "COPY"
+  },
+  {
+    "market": "Cavaliers vs. Raptors",
+    "market_slug": "nba-cle-tor-2026",
+    "event_slug": "nba-cle-tor-2026",
+    "wallet": "0xf59c0a692553ef5859caa53b4240b3a3c87aa682",
+    "analysis": {
+      "score": 70,
+      "flags": [
+        "New wallet (1d old)",
+        "Large bet ($1,178)",
+        "Low activity (10 txns)"
+      ],
+      "amount": 1178.4,
+      "odds": 0.4,
+      "raw_price": 0.4,
+      "outcome": "Raptors",
+      "potential_pnl": 1767.6,
+      "pnl_multiplier": 1.4999999999999998,
+      "wallet_age_days": 1,
+      "total_activities": 10
+    },
+    "timestamp": "2026-04-26T03:51:06.933467",
+    "trade_hash": "0x74b9c68f5110569fbb4ecae68416a8ee1ecc2edf7610c51f620f32866083cf71",
+    "trade_timestamp": 1777174968,
+    "latency": null,
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "Raptors",
+      "outcomeIndex": 1,
+      "normalized_position": "NO",
+      "side": "BUY",
+      "price": 0.4,
+      "effective_price": 0.4,
+      "size": 2946.0,
+      "amount": 1178.4,
+      "potential_pnl": 1767.6,
+      "pnl_multiplier": 1.4999999999999998,
+      "is_no": false,
+      "conditionId": "0xe9cde4bf7fa69dd5832fef13a2e6a0c6ebd322e4a1658b8a5f8c41c05494528a",
+      "slug": "nba-cle-tor-2026",
+      "eventSlug": "nba-cle-tor-2026-04-26"
+    },
+    "irrationality": {
+      "irrationality_score": 35,
+      "flags": [
+        "Large mispricing edge (+18.0%)"
+      ],
+      "category": "sports",
+      "category_info": {
+        "strength": "medium",
+        "typical_overpricing": 0.03,
+        "min_edge": 0.05
+      },
+      "is_irrational": true
+    },
+    "mispricing": {
+      "rational_estimate": 0.22,
+      "market_price": 0.4,
+      "edge": 0.18000000000000002,
+      "edge_percent": 18.000000000000004,
+      "min_edge_required": 0.05,
+      "is_mispriced": true,
+      "edge_quality": "STRONG",
+      "base_rate_class": "common",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "common",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "Cavaliers maintain a strong home-court advantage",
+          "Raptors struggle with key player injuries",
+          "Recent performance trends favor Cavaliers"
+        ],
+        "weakest_link": "Raptors struggle with key player injuries"
+      },
+      "category": "sports",
+      "narrative_drivers": [
+        "Cavaliers' recent winning streak",
+        "Raptors' inconsistent performance"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "ALPHA",
+      "signal_emoji": "\ud83d\udd25",
+      "signal_strength": 105,
+      "interpretation": "Smart money (NO) confirms YES is overpriced",
+      "action_suggestion": "High conviction: insider + statistics aligned",
+      "insider_score": 70,
+      "insider_position": "NO",
+      "irrationality_score": 35,
+      "is_irrational": true,
+      "is_mispriced": true,
+      "edge": 0.18000000000000002,
+      "edge_percent": 18.000000000000004
+    },
+    "financial_analyst": {
+      "signal_quality": 81.0,
+      "stance": "HIGH_CONVICTION",
+      "edge_percent": 18.0,
+      "signal_strength": 105.0,
+      "insider_score": 70.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "ai_context": "\u274c SKIP \u2014 The Raptors have lost the first two games of the series and have a 2-12 playoff record against the Cavaliers.\nIn the first two games, the Raptors lost 113-126 and 105-115. (espn.com) Historically, the Cavaliers have dominated the Raptors in the playoffs, holding a 12-2 record. (si.com) However, the Raptors won the most recent regular-season matchup 126-104. (sportspundit.",
+    "ai_verdict": "SKIP"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x63f3ca944409b1a3bc908ff98393efab574878d63a750f5517ab807c4aa35f3c",
+    "wallet": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
+    "trader": {
+      "rank": 14,
+      "address": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
+      "username": "GamblingIsAllYouNeed",
+      "profit": 5020606.714125862,
+      "volume": 380470621.25191313,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xf39651f0addaad0221806d828197064b97feed0d",
+      "side": "BUY",
+      "asset": "12683524285321035959197225276771871845858392912886591325119577507755683407691",
+      "conditionId": "0xf9f0965a3bd704ad9c184851242606ad35a4ffe733febf5074d4fbcc59d52eb8",
+      "size": 5179.53,
+      "price": 0.83,
+      "timestamp": 1777175924,
+      "title": "US x Iran diplomatic meeting by April 30, 2026?",
+      "slug": "us-x-iran-diplomatic-meeting-by-april-30-2026-299-459-263-225",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/us-x-iran-meeting-by-9btZGbUg-ikA.jpg",
+      "eventSlug": "us-x-iran-diplomatic-meeting-by-329",
+      "outcome": "No",
+      "outcomeIndex": 1,
+      "name": "Pajamapants",
+      "pseudonym": "Unequaled-Want",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x63f3ca944409b1a3bc908ff98393efab574878d63a750f5517ab807c4aa35f3c",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "US x Iran diplomatic meeting by April 30, 2026?",
+    "market_slug": "us-x-iran-diplomatic-meeting-by-329",
+    "amount": 4299.0099,
+    "ai_context": "\u274c SKIP \u2014 Recent diplomatic developments indicate a lack of progress toward a US-Iran meeting by April 30, 2026.\nPresident Trump canceled a planned envoy trip to Pakistan for talks with Iran, citing stalled negotiations. Iran's Foreign Minister Abbas Araghchi met with Pakistani leaders but did not engage with US officials. (axios.com) Additionally, the Polymarket odds for a US-Iran meeting by April 30 have dropped significantly, reflecting decreased expectations. (global-political-spotlight.",
+    "ai_verdict": "SKIP"
   }
 ]
