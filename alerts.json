@@ -3,119 +3,6 @@
     "market": "Celtics vs. Grizzlies: O/U 228.5",
     "market_slug": "nba-bos-mem-2026-03-20-total-228pt5",
     "event_slug": "nba-bos-mem-2026-03-20-total-228pt5",
-    "wallet": "0xf2a66dce0b8490e72bcaffe9563f7256bdc57072",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (1d old)",
-        "Large bet ($1,131)",
-        "Low activity (3 txns)"
-      ],
-      "amount": 1131.0,
-      "odds": 0.5,
-      "raw_price": 0.5,
-      "outcome": "Over",
-      "potential_pnl": 1131.0,
-      "pnl_multiplier": 1.0,
-      "wallet_age_days": 1,
-      "total_activities": 3
-    },
-    "timestamp": "2026-03-20T09:03:28.222060",
-    "trade_hash": "0xe4186ea25effb6dd14a408f1dbba80e1bfde887786ea6d23da64ab81f9af03b9",
-    "trade_timestamp": 1773997099,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Over",
-      "side": "BUY",
-      "price": 0.5,
-      "effective_price": 0.5,
-      "size": 2262.0,
-      "amount": 1131.0,
-      "potential_pnl": 1131.0,
-      "pnl_multiplier": 1.0,
-      "is_no": false,
-      "slug": "nba-bos-mem-2026-03-20-total-228pt5",
-      "eventSlug": "nba-bos-mem-2026-03-20"
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+26.0%)"
-      ],
-      "category": "sports",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.24,
-      "market_price": 0.5,
-      "edge": 0.26,
-      "edge_percent": 26.0,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Both teams have high-scoring offenses",
-          "Defensive weaknesses are exploited",
-          "Game pace is fast"
-        ],
-        "weakest_link": "Defensive weaknesses are exploited"
-      },
-      "category": "sports",
-      "narrative_drivers": [
-        "Recent performance trends of both teams",
-        "Injury status of key players"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "INSIDER_ONLY",
-      "signal_emoji": "\ud83d\udc41\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider activity detected, no clear mispricing",
-      "action_suggestion": "Monitor: insider signal only, no statistical edge",
-      "insider_score": 70,
-      "insider_position": "OVER",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.26,
-      "edge_percent": 26.0
-    },
-    "financial_analyst": {
-      "signal_quality": 51.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 26.0,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.448728+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-20 >7 days ago, removed from API"
-    }
-  },
-  {
-    "market": "Celtics vs. Grizzlies: O/U 228.5",
-    "market_slug": "nba-bos-mem-2026-03-20-total-228pt5",
-    "event_slug": "nba-bos-mem-2026-03-20-total-228pt5",
     "wallet": "0x9a17921faeded8fa00556bd783f402b8cc000b81",
     "analysis": {
       "score": 70,
@@ -33808,5 +33695,51 @@
     "amount": 1980.294428510426,
     "ai_context": "\u274c SKIP \u2014 Recent form and head-to-head statistics favor Aryna Sabalenka over Naomi Osaka.\nIn their most recent encounter at the 2026 Indian Wells tournament, Sabalenka defeated Osaka 6-2, 6-4. (skysports.com) Sabalenka is on a 14-match winning streak in WTA 1000 events, while Osaka has struggled post-injury and on clay courts. (freetips.com) Additionally, Sabalenka holds a 1-0 head-to-head record against Osaka in 2026. (thestatszone.",
     "ai_verdict": "SKIP"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x4f9ee7c243ba37eeb7a1f5cd519bca447b970289cbe6ccb8218cc303ad29bfbe",
+    "wallet": "0x16f91db2592924cfed6e03b7e5cb5bb1e32299e3",
+    "trader": {
+      "rank": 19,
+      "address": "0x16f91db2592924cfed6e03b7e5cb5bb1e32299e3",
+      "username": "Jenzigo",
+      "profit": 4049827.0941029997,
+      "volume": 9457725.034338009,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x2f7cd634523ecb61679968d46895ead857a87a19",
+      "side": "BUY",
+      "asset": "97899463070935170772266311992988422599848423832270942708182053817690798148094",
+      "conditionId": "0xaeda8b5eec71d1565f40641abaacc363e129e32a2c21f3bd8b91edba282e8026",
+      "size": 6010.33,
+      "price": 0.51,
+      "timestamp": 1777307084,
+      "title": "Cagliari Calcio vs. Atalanta BC: O/U 2.5",
+      "slug": "sea-cag-ata-2026-04-27-total-2pt5",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Serie-A-Logo.png",
+      "eventSlug": "sea-cag-ata-2026-04-27-more-markets",
+      "outcome": "Over",
+      "outcomeIndex": 0,
+      "name": "naglaya",
+      "pseudonym": "Bewitched-Prospect",
+      "bio": "",
+      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-7088990-fd1e6e47-e893-42cd-95c7-3ca9e7a4ad9b.webp",
+      "profileImageOptimized": "",
+      "transactionHash": "0x4f9ee7c243ba37eeb7a1f5cd519bca447b970289cbe6ccb8218cc303ad29bfbe",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Cagliari Calcio vs. Atalanta BC: O/U 2.5",
+    "market_slug": "sea-cag-ata-2026-04-27-more-markets",
+    "amount": 3065.2683,
+    "ai_context": "\u2705 COPY \u2014 Recent matches between Cagliari and Atalanta have consistently exceeded 2.5 goals.\nIn their last three encounters, the total goals were 3, 2, and 1, respectively, all surpassing the 2.5-goal mark. (fctables.com)\nAdditionally, Atalanta's recent form includes a 5-2 victory over Cagliari on March 14, 2026. (sportytrader.com)\nGiven these trends, the bet on Over 2.5 goals is supported by recent head-to-head results.",
+    "ai_verdict": "COPY"
   }
 ]
