@@ -1,118 +1,5 @@
 [
   {
-    "market": "Celtics vs. Grizzlies: O/U 228.5",
-    "market_slug": "nba-bos-mem-2026-03-20-total-228pt5",
-    "event_slug": "nba-bos-mem-2026-03-20-total-228pt5",
-    "wallet": "0x1fc2b672a515b21e833d0a4e8add47f834786175",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (1d old)",
-        "Large bet ($1,168)",
-        "Low activity (4 txns)"
-      ],
-      "amount": 1167.5,
-      "odds": 0.5,
-      "raw_price": 0.5,
-      "outcome": "Over",
-      "potential_pnl": 1167.5,
-      "pnl_multiplier": 1.0,
-      "wallet_age_days": 1,
-      "total_activities": 4
-    },
-    "timestamp": "2026-03-20T09:03:36.646408",
-    "trade_hash": "0x8fe432f7b4e66add67ec581b789a1f23754d376b9e131059c5e687d9411c6929",
-    "trade_timestamp": 1773997103,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Over",
-      "side": "BUY",
-      "price": 0.5,
-      "effective_price": 0.5,
-      "size": 2335.0,
-      "amount": 1167.5,
-      "potential_pnl": 1167.5,
-      "pnl_multiplier": 1.0,
-      "is_no": false,
-      "slug": "nba-bos-mem-2026-03-20-total-228pt5",
-      "eventSlug": "nba-bos-mem-2026-03-20"
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+26.0%)"
-      ],
-      "category": "sports",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.24,
-      "market_price": 0.5,
-      "edge": 0.26,
-      "edge_percent": 26.0,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "high scoring performance by both teams",
-          "defensive weaknesses exploited",
-          "favorable game pace"
-        ],
-        "weakest_link": "favorable game pace"
-      },
-      "category": "sports",
-      "narrative_drivers": [
-        "team offensive efficiency",
-        "injury status of key players"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "INSIDER_ONLY",
-      "signal_emoji": "\ud83d\udc41\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider activity detected, no clear mispricing",
-      "action_suggestion": "Monitor: insider signal only, no statistical edge",
-      "insider_score": 70,
-      "insider_position": "OVER",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.26,
-      "edge_percent": 26.0
-    },
-    "financial_analyst": {
-      "signal_quality": 51.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 26.0,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.448748+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-20 >7 days ago, removed from API"
-    }
-  },
-  {
     "type": "TOP_TRADER",
     "trade_hash": "0x9030f47ea9f63ffdf25c4bc4cbeb7c51af7883763c697d21624664827ebbd438",
     "wallet": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
@@ -33673,6 +33560,116 @@
     "market_slug": "atp-vallejo-cobolli-2026-04-27",
     "amount": 5427.815831507959,
     "ai_context": "\u2705 COPY \u2014 Flavio Cobolli's recent form and higher ranking support the bet.\nCobolli is currently ranked No. 13, with a career-high ranking achieved on March 30, 2026. (en.wikipedia.org) In his last five matches, he has won four, including a semifinal victory over Alexander Zverev at the BMW Open in Munich on April 13, 2026. (matchstat.com) In contrast, Adolfo Daniel Vallejo, ranked No.",
+    "ai_verdict": "COPY"
+  },
+  {
+    "market": "Will Bitcoin dip to $75,000 in April?",
+    "market_slug": "will-bitcoin-dip-to-75000-in-april",
+    "event_slug": "will-bitcoin-dip-to-75000-in-april",
+    "wallet": "0xa2d07c89e124c0c04087368ade30d884348946cf",
+    "analysis": {
+      "score": 70,
+      "flags": [
+        "New wallet (0d old)",
+        "Large bet ($12,756)",
+        "Low activity (16 txns)"
+      ],
+      "amount": 12755.658671924648,
+      "odds": 0.4913170971001355,
+      "raw_price": 0.4913170971001355,
+      "outcome": "Yes",
+      "potential_pnl": 13206.512698075352,
+      "pnl_multiplier": 1.0353454131806645,
+      "wallet_age_days": 0,
+      "total_activities": 16
+    },
+    "timestamp": "2026-04-27T21:10:33.332224",
+    "trade_hash": "0x02297c29fb2a89c6954dcfbad0ca3d97def17628c7d0b141dc98676456a38ab9",
+    "trade_timestamp": 1777323852,
+    "latency": null,
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "Yes",
+      "outcomeIndex": 0,
+      "normalized_position": "YES",
+      "side": "BUY",
+      "price": 0.4913170971001355,
+      "effective_price": 0.4913170971001355,
+      "size": 25962.17137,
+      "amount": 12755.658671924648,
+      "potential_pnl": 13206.512698075352,
+      "pnl_multiplier": 1.0353454131806645,
+      "is_no": false,
+      "conditionId": "0xa05c869fcd6edef0b6e3ee0f11c67c7cd372f29afd88e2a837cd9458c19b4411",
+      "slug": "will-bitcoin-dip-to-75000-in-april",
+      "eventSlug": "what-price-will-bitcoin-hit-in-april-2026"
+    },
+    "irrationality": {
+      "irrationality_score": 35,
+      "flags": [
+        "Large mispricing edge (+33.3%)"
+      ],
+      "category": "crypto",
+      "category_info": {
+        "strength": "medium",
+        "typical_overpricing": 0.03,
+        "min_edge": 0.05
+      },
+      "is_irrational": true
+    },
+    "mispricing": {
+      "rational_estimate": 0.15826341942002708,
+      "market_price": 0.4913170971001355,
+      "edge": 0.3330536776801084,
+      "edge_percent": 33.30536776801084,
+      "min_edge_required": 0.05,
+      "is_mispriced": true,
+      "edge_quality": "STRONG",
+      "base_rate_class": "occasional",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "occasional",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "Increased regulatory scrutiny on cryptocurrencies",
+          "Significant market sell-off triggered by macroeconomic factors",
+          "Negative sentiment from influential market players or media"
+        ],
+        "weakest_link": "Increased regulatory scrutiny on cryptocurrencies"
+      },
+      "category": "crypto",
+      "narrative_drivers": [
+        "Market reactions to inflation and interest rate changes",
+        "Technological developments or setbacks in the Bitcoin ecosystem"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "CONFLICT",
+      "signal_emoji": "\u26a0\ufe0f",
+      "signal_strength": 70,
+      "interpretation": "Insider buying YES despite statistical overpricing",
+      "action_suggestion": "Requires manual analysis: insider may have real info OR is part of irrational crowd",
+      "insider_score": 70,
+      "insider_position": "YES",
+      "irrationality_score": 35,
+      "is_irrational": true,
+      "is_mispriced": true,
+      "edge": 0.3330536776801084,
+      "edge_percent": 33.30536776801084
+    },
+    "financial_analyst": {
+      "signal_quality": 46.0,
+      "stance": "WATCH_ONLY",
+      "edge_percent": 33.31,
+      "signal_strength": 70.0,
+      "insider_score": 70.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "ai_context": "\u2705 COPY \u2014 Recent data indicates a significant chance of Bitcoin reaching $75,000 by April 2026.\nAs of April 21, 2026, Bitcoin's closing price was $76,352.78, up 11.9% for the month. (statmuse.com) Prediction markets assign a 47.5% probability to Bitcoin reaching $75,000 by April 2026. (coingecko.com) Additionally, technical analysis suggests resistance around $74,000\u2013$75,000, with some models giving Bitcoin about a 65% chance of reaching ~$75K in April. (moneymagpie.",
     "ai_verdict": "COPY"
   }
 ]
