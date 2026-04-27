@@ -1,58 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0x87e46cce594aa8588d9c74937c709d27077fbd812bf489a7551c323ca884e8ff",
-    "wallet": "0xdb27bf2ac5d428a9c63dbc914611036855a6c56e",
-    "trader": {
-      "rank": 18,
-      "address": "0xdb27bf2ac5d428a9c63dbc914611036855a6c56e",
-      "username": "DrPufferfish",
-      "profit": 4477916.082784015,
-      "volume": 217871175.342916,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x03381244cf3b8d277aff3cbb6f4fd21a631904b7",
-      "side": "SELL",
-      "asset": "77739027788999909521244198087653826925663878907920170534312635645253556364467",
-      "conditionId": "0x532cabed36cad1b584ff8c7a2d135c38429932498f3736c52c6b27eacfb81cb2",
-      "size": 2600,
-      "price": 0.93,
-      "timestamp": 1773965421,
-      "title": "Magic vs. Hornets",
-      "slug": "nba-orl-cha-2026-03-19",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
-      "eventSlug": "nba-orl-cha-2026-03-19",
-      "outcome": "Hornets",
-      "outcomeIndex": 1,
-      "name": "LoserArcMaxing",
-      "pseudonym": "Agile-Ravioli",
-      "bio": "",
-      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-6284149-dd948d36-0b81-4dec-b86a-a6c645d4c98e.webp",
-      "profileImageOptimized": "",
-      "transactionHash": "0x87e46cce594aa8588d9c74937c709d27077fbd812bf489a7551c323ca884e8ff",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Magic vs. Hornets",
-    "market_slug": "nba-orl-cha-2026-03-19",
-    "amount": 2418.0,
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.448702+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-19 >7 days ago, removed from API"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0x1d36b7770fa4395056f4a7b45289aef87ab1c91f47db0962e5bdd16a4f107301",
     "wallet": "0xdc876e6873772d38716fda7f2452a78d426d7ab6",
     "trader": {
@@ -33613,6 +33561,52 @@
     "market_slug": "nba-bos-phi-2026-04-26",
     "amount": 1112.189541,
     "ai_context": "\u2705 COPY \u2014 Celtics have won 2 of the last 3 games against the 76ers, including a decisive 123-91 victory in Game 1.\nIn the most recent matchup on April 24, 2026, the Celtics secured a 108-100 win over the 76ers. (vegasinsider.com) Additionally, the 76ers are missing star center Joel Embiid due to an appendectomy, which could impact their performance. (axios.com)\nGiven the Celtics' recent victories and the 76ers' injury concerns, the trader's bet on the Celtics appears well-supported.",
+    "ai_verdict": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xb90cac033aeb0b5f5a9892ed608c11f875994d89726e82d6487adad298291195",
+    "wallet": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+    "trader": {
+      "rank": 6,
+      "address": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+      "username": "RN1",
+      "profit": 7653945.130656029,
+      "volume": 470310968.4408411,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xc97485a44146b5db0b8b121358f57cf297cdb33b",
+      "side": "BUY",
+      "asset": "80753154364594934026676539529028375641976744272467520480324693522482094341752",
+      "conditionId": "0x771017bf4abbf6c442dd7a800d71acebe4cecb3ad65fc22c536f8347b4ca0796",
+      "size": 8799.64,
+      "price": 0.44,
+      "timestamp": 1777252762,
+      "title": "Spread: Rockets (-2.5)",
+      "slug": "nba-lal-hou-2026-04-26-spread-home-2pt5",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
+      "eventSlug": "nba-lal-hou-2026-04-26",
+      "outcome": "Lakers",
+      "outcomeIndex": 1,
+      "name": "lu1zzz",
+      "pseudonym": "Tough-Nexus",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xb90cac033aeb0b5f5a9892ed608c11f875994d89726e82d6487adad298291195",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Spread: Rockets (-2.5)",
+    "market_slug": "nba-lal-hou-2026-04-26",
+    "amount": 3871.8415999999997,
+    "ai_context": "\u2705 COPY \u2014 Recent head-to-head results favor the Lakers, and the Rockets have struggled against them.\nThe Lakers have won their last three matchups against the Rockets, including a 112-108 victory on April 24, 2026. (vegasinsider.com) Additionally, the Rockets have been inconsistent, losing to the Lakers in their recent games. (houston.com)\nGiven the Lakers' recent dominance over the Rockets and the Rockets' recent struggles, the trader's bet on the Lakers to cover the -2.",
     "ai_verdict": "COPY"
   }
 ]
