@@ -1,57 +1,5 @@
 [
   {
-    "type": "TOP_TRADER",
-    "trade_hash": "0x42c9399b4b3e4eafb6bd5740d947a378903c188f52912ac2bde19cfdefbdd2fe",
-    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-    "trader": {
-      "rank": 1,
-      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-      "username": "Theo4",
-      "profit": 22053933.752321757,
-      "volume": 43013258.51568201,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x204f72f35326db932158cba6adff0b9a1da95e14",
-      "side": "BUY",
-      "asset": "54937002596171897254957087647496237075615729995891528694194723032167451405823",
-      "conditionId": "0x659bca08f21a30cc5bdb0f5278f73d6a9d9f5c94977c24e195e245e4407ea1ca",
-      "size": 3127,
-      "price": 0.51,
-      "timestamp": 1773987029,
-      "title": "Will Real Madrid CF win on 2026-03-22?",
-      "slug": "lal-rea-mad-2026-03-22-rea",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/league-lal.png",
-      "eventSlug": "lal-rea-mad-2026-03-22",
-      "outcome": "No",
-      "outcomeIndex": 1,
-      "name": "swisstony",
-      "pseudonym": "Frail-Possible",
-      "bio": "loincloth chic",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x42c9399b4b3e4eafb6bd5740d947a378903c188f52912ac2bde19cfdefbdd2fe",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Will Real Madrid CF win on 2026-03-22?",
-    "market_slug": "lal-rea-mad-2026-03-22",
-    "amount": 1532.23,
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.448718+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-22 >7 days ago, removed from API"
-    }
-  },
-  {
     "market": "Celtics vs. Grizzlies: O/U 228.5",
     "market_slug": "nba-bos-mem-2026-03-20-total-228pt5",
     "event_slug": "nba-bos-mem-2026-03-20-total-228pt5",
@@ -33813,6 +33761,52 @@
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
     },
     "ai_context": "\u274c SKIP \u2014 Recent developments indicate the U.S. has lifted the blockade, making Trump's announcement unlikely by April 30, 2026. On April 17, 2026, Iran declared the Strait of Hormuz fully open for commercial vessels during the ceasefire period, with conditions set by Tehran. (icis.com) President Trump acknowledged this by expressing gratitude for Iran's announcement. (euronews.",
+    "ai_verdict": "SKIP"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x5c2f936e9af25b4d16756f93fa01df648e27091936efa848419ee67ba081243e",
+    "wallet": "0xe9ad918c7678cd38b12603a762e638a5d1ee7091",
+    "trader": {
+      "rank": 10,
+      "address": "0xe9ad918c7678cd38b12603a762e638a5d1ee7091",
+      "username": "walletmobile",
+      "profit": 5942685.45339684,
+      "volume": 32196692.075936034,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+      "side": "BUY",
+      "asset": "38981883375720748100872905676497220874913232239332669116563431375791043632870",
+      "conditionId": "0x8ffd72576c8f9bfb18bf3da4d962c72f12e0c0c163e7f8ce99f188e9752a46e3",
+      "size": 7376.697461,
+      "price": 0.268452710576797,
+      "timestamp": 1777294780,
+      "title": "Madrid Open: Aryna Sabalenka vs Naomi Osaka",
+      "slug": "wta-sabalen-osaka-2026-04-27",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/wta-logo-41f331bdf1.png",
+      "eventSlug": "wta-sabalen-osaka-2026-04-27",
+      "outcome": "Naomi Osaka",
+      "outcomeIndex": 1,
+      "name": "RN1",
+      "pseudonym": "Scary-Edible",
+      "bio": "",
+      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1567750-84001aec-310a-470f-9584-67dfcaa61267.png",
+      "profileImageOptimized": "",
+      "transactionHash": "0x5c2f936e9af25b4d16756f93fa01df648e27091936efa848419ee67ba081243e",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Madrid Open: Aryna Sabalenka vs Naomi Osaka",
+    "market_slug": "wta-sabalen-osaka-2026-04-27",
+    "amount": 1980.294428510426,
+    "ai_context": "\u274c SKIP \u2014 Recent form and head-to-head statistics favor Aryna Sabalenka over Naomi Osaka.\nIn their most recent encounter at the 2026 Indian Wells tournament, Sabalenka defeated Osaka 6-2, 6-4. (skysports.com) Sabalenka is on a 14-match winning streak in WTA 1000 events, while Osaka has struggled post-injury and on clay courts. (freetips.com) Additionally, Sabalenka holds a 1-0 head-to-head record against Osaka in 2026. (thestatszone.",
     "ai_verdict": "SKIP"
   }
 ]
