@@ -1,38 +1,38 @@
 {
-  "last_run": "2026-04-26T07:42:57.918719+00:00",
-  "total_checked": 210,
-  "total_resolved": 437,
+  "last_run": "2026-04-27T08:06:46.180602+00:00",
+  "total_checked": 284,
+  "total_resolved": 457,
   "total_unresolved": 0,
-  "insider_wins": 54,
-  "insider_losses": 89,
+  "insider_wins": 63,
+  "insider_losses": 98,
   "model_correct": 33,
-  "model_wrong": 1,
-  "model_na": 403,
-  "total_pnl": -73999.8,
+  "model_wrong": 6,
+  "model_na": 418,
+  "total_pnl": -122272.37,
   "by_signal_type": {
     "TOP_TRADER": {
-      "total": 105,
-      "insider_wins": 41,
-      "insider_losses": 60,
+      "total": 118,
+      "insider_wins": 45,
+      "insider_losses": 67,
       "model_correct": 0,
       "model_wrong": 0,
-      "model_na": 105
+      "model_na": 118
     },
     "CONFLICT": {
-      "total": 23,
-      "insider_wins": 2,
+      "total": 27,
+      "insider_wins": 6,
       "insider_losses": 20,
       "model_correct": 18,
-      "model_wrong": 1,
-      "model_na": 4
+      "model_wrong": 4,
+      "model_na": 5
     },
     "ALPHA": {
-      "total": 12,
-      "insider_wins": 11,
-      "insider_losses": 1,
+      "total": 15,
+      "insider_wins": 12,
+      "insider_losses": 3,
       "model_correct": 10,
-      "model_wrong": 0,
-      "model_na": 2
+      "model_wrong": 2,
+      "model_na": 3
     },
     "INSIDER_ONLY": {
       "total": 8,
@@ -45,12 +45,12 @@
   },
   "by_category": {
     "unknown": {
-      "total": 105,
-      "insider_wins": 41,
-      "insider_losses": 60,
+      "total": 118,
+      "insider_wins": 45,
+      "insider_losses": 67,
       "model_correct": 0,
       "model_wrong": 0,
-      "model_na": 105
+      "model_na": 118
     },
     "politics_near": {
       "total": 6,
@@ -69,20 +69,20 @@
       "model_na": 2
     },
     "other": {
-      "total": 13,
-      "insider_wins": 3,
-      "insider_losses": 10,
+      "total": 18,
+      "insider_wins": 6,
+      "insider_losses": 12,
       "model_correct": 13,
-      "model_wrong": 0,
+      "model_wrong": 5,
       "model_na": 0
     },
     "sports": {
-      "total": 6,
-      "insider_wins": 2,
+      "total": 8,
+      "insider_wins": 4,
       "insider_losses": 3,
       "model_correct": 0,
       "model_wrong": 0,
-      "model_na": 6
+      "model_na": 8
     },
     "crypto": {
       "total": 1,
@@ -95,20 +95,20 @@
   },
   "by_ai_verdict": {
     "SKIP": {
-      "total": 15,
-      "insider_wins": 6,
-      "insider_losses": 9,
+      "total": 19,
+      "insider_wins": 8,
+      "insider_losses": 10,
       "model_correct": 2,
       "model_wrong": 0,
-      "model_na": 13
+      "model_na": 17
     },
     "COPY": {
-      "total": 37,
-      "insider_wins": 19,
-      "insider_losses": 17,
+      "total": 47,
+      "insider_wins": 23,
+      "insider_losses": 22,
       "model_correct": 0,
       "model_wrong": 0,
-      "model_na": 37
+      "model_na": 47
     },
     "LEAN_COPY": {
       "total": 1,
@@ -129,6 +129,16 @@
       "insider_losses": 89,
       "model_correct": 33,
       "model_wrong": 1
+    },
+    {
+      "date": "2026-04-27",
+      "newly_resolved": 20,
+      "still_open": 54,
+      "total_resolved": 457,
+      "insider_wins": 63,
+      "insider_losses": 98,
+      "model_correct": 33,
+      "model_wrong": 6
     }
   ]
 }
