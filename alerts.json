@@ -3,119 +3,6 @@
     "market": "Celtics vs. Grizzlies: O/U 228.5",
     "market_slug": "nba-bos-mem-2026-03-20-total-228pt5",
     "event_slug": "nba-bos-mem-2026-03-20-total-228pt5",
-    "wallet": "0x9a17921faeded8fa00556bd783f402b8cc000b81",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (1d old)",
-        "Large bet ($1,122)",
-        "Low activity (3 txns)"
-      ],
-      "amount": 1122.5,
-      "odds": 0.5,
-      "raw_price": 0.5,
-      "outcome": "Over",
-      "potential_pnl": 1122.5,
-      "pnl_multiplier": 1.0,
-      "wallet_age_days": 1,
-      "total_activities": 3
-    },
-    "timestamp": "2026-03-20T09:03:32.367984",
-    "trade_hash": "0x4a93558e70844cca474c7b5302d39b21b3fe8c215cea3db5dfdb62141257dba8",
-    "trade_timestamp": 1773997099,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Over",
-      "side": "BUY",
-      "price": 0.5,
-      "effective_price": 0.5,
-      "size": 2245.0,
-      "amount": 1122.5,
-      "potential_pnl": 1122.5,
-      "pnl_multiplier": 1.0,
-      "is_no": false,
-      "slug": "nba-bos-mem-2026-03-20-total-228pt5",
-      "eventSlug": "nba-bos-mem-2026-03-20"
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+26.0%)"
-      ],
-      "category": "sports",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.24,
-      "market_price": 0.5,
-      "edge": 0.26,
-      "edge_percent": 26.0,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "high-scoring performance from both teams",
-          "defensive lapses from both teams",
-          "favorable officiating leading to more free throws"
-        ],
-        "weakest_link": "favorable officiating leading to more free throws"
-      },
-      "category": "sports",
-      "narrative_drivers": [
-        "team offensive efficiency",
-        "recent player performances"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "INSIDER_ONLY",
-      "signal_emoji": "\ud83d\udc41\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider activity detected, no clear mispricing",
-      "action_suggestion": "Monitor: insider signal only, no statistical edge",
-      "insider_score": 70,
-      "insider_position": "OVER",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.26,
-      "edge_percent": 26.0
-    },
-    "financial_analyst": {
-      "signal_quality": 51.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 26.0,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.448739+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-20 >7 days ago, removed from API"
-    }
-  },
-  {
-    "market": "Celtics vs. Grizzlies: O/U 228.5",
-    "market_slug": "nba-bos-mem-2026-03-20-total-228pt5",
-    "event_slug": "nba-bos-mem-2026-03-20-total-228pt5",
     "wallet": "0x1fc2b672a515b21e833d0a4e8add47f834786175",
     "analysis": {
       "score": 70,
@@ -33740,6 +33627,52 @@
     "market_slug": "sea-cag-ata-2026-04-27-more-markets",
     "amount": 3065.2683,
     "ai_context": "\u2705 COPY \u2014 Recent matches between Cagliari and Atalanta have consistently exceeded 2.5 goals.\nIn their last three encounters, the total goals were 3, 2, and 1, respectively, all surpassing the 2.5-goal mark. (fctables.com)\nAdditionally, Atalanta's recent form includes a 5-2 victory over Cagliari on March 14, 2026. (sportytrader.com)\nGiven these trends, the bet on Over 2.5 goals is supported by recent head-to-head results.",
+    "ai_verdict": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x7cd1aaf6100534a3157dbadb9d0fc6bfcd69e75d033820d36dab6b97167ea01b",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.515682004,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x0ebbb3e9fde570bb7f6c452e9f9eee4ec6eacb1a",
+      "side": "BUY",
+      "asset": "10485721502839380683153878984328375781937554169039361319472933917079263823234",
+      "conditionId": "0x8b45ecd8fe2159061c7dcca8fb2d7444b216f7ced521a72be3d0a3a84df3246a",
+      "size": 6495.40367,
+      "price": 0.8356394932892538,
+      "timestamp": 1777316090,
+      "title": "Madrid Open: Adolfo Vallejo vs Flavio Cobolli",
+      "slug": "atp-vallejo-cobolli-2026-04-27",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/atp-tour-b4390c4fb8.jpg",
+      "eventSlug": "atp-vallejo-cobolli-2026-04-27",
+      "outcome": "Flavio Cobolli",
+      "outcomeIndex": 1,
+      "name": "0x0eBBb3e9fDe570Bb7F6c452E9F9Eee4EC6EaCB1A-1773005453663",
+      "pseudonym": "Confused-Birthday",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x7cd1aaf6100534a3157dbadb9d0fc6bfcd69e75d033820d36dab6b97167ea01b",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Madrid Open: Adolfo Vallejo vs Flavio Cobolli",
+    "market_slug": "atp-vallejo-cobolli-2026-04-27",
+    "amount": 5427.815831507959,
+    "ai_context": "\u2705 COPY \u2014 Flavio Cobolli's recent form and higher ranking support the bet.\nCobolli is currently ranked No. 13, with a career-high ranking achieved on March 30, 2026. (en.wikipedia.org) In his last five matches, he has won four, including a semifinal victory over Alexander Zverev at the BMW Open in Munich on April 13, 2026. (matchstat.com) In contrast, Adolfo Daniel Vallejo, ranked No.",
     "ai_verdict": "COPY"
   }
 ]
