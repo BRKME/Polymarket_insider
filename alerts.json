@@ -1,57 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0x1d36b7770fa4395056f4a7b45289aef87ab1c91f47db0962e5bdd16a4f107301",
-    "wallet": "0xdc876e6873772d38716fda7f2452a78d426d7ab6",
-    "trader": {
-      "rank": 16,
-      "address": "0xdc876e6873772d38716fda7f2452a78d426d7ab6",
-      "username": "432614799197",
-      "profit": 4561353.0761925345,
-      "volume": 185485956.86208293,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x3c9f5530be21210e977efa87fa5d40ee6398069f",
-      "side": "BUY",
-      "asset": "86686170345714548640495264483273453073159430878877527531251808275070557306239",
-      "conditionId": "0x88c4aba5a59b33313d41e9fe4f06d0005199bcb12b421083a9806e16a3e30d49",
-      "size": 3229.87,
-      "price": 0.057,
-      "timestamp": 1773985227,
-      "title": "Will Israel take military action in Gaza on March 18, 2026?",
-      "slug": "will-israel-take-military-action-in-gaza-on-march-18-2026",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-israel-strike-gaza-on-224-RxneqY3N4kMa.jpg",
-      "eventSlug": "israel-military-action-in-gaza-on",
-      "outcome": "No",
-      "outcomeIndex": 1,
-      "name": "DiamondHands11",
-      "pseudonym": "Tinted-Lycra",
-      "bio": "",
-      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-6127549-ccb96031-a528-4d6e-8f17-3c746304ab72.png",
-      "profileImageOptimized": "",
-      "transactionHash": "0x1d36b7770fa4395056f4a7b45289aef87ab1c91f47db0962e5bdd16a4f107301",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Will Israel take military action in Gaza on March 18, 2026?",
-    "market_slug": "israel-military-action-in-gaza-on",
-    "amount": 3045.76741,
-    "resolution": {
-      "outcome": "Yes",
-      "checked_at": "2026-04-26T07:39:59.868801+00:00",
-      "insider_win": false,
-      "model_correct": null,
-      "pnl": -3045.77
-    }
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0x42c9399b4b3e4eafb6bd5740d947a378903c188f52912ac2bde19cfdefbdd2fe",
     "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
     "trader": {
@@ -33748,5 +33697,122 @@
       "model_correct": null,
       "pnl": -3871.84
     }
+  },
+  {
+    "market": "Will Donald Trump announce that the United States blockade of the Strait of Hormuz has been lifted by April 30, 2026?",
+    "market_slug": "will-donald-trump-announce-that-the-united-states-blockade-of-the-strait-of-hormuz-has-been-lifted-by-april-30-2026-731",
+    "event_slug": "will-donald-trump-announce-that-the-united-states-blockade-of-the-strait-of-hormuz-has-been-lifted-by-april-30-2026-731",
+    "wallet": "0xea7957606f259bcba522a4681494555547a7a9cc",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "Against trend (9.0% effective odds)",
+        "Large bet ($1,125)",
+        "Pre-event latency: 3645m"
+      ],
+      "amount": 1124.9999999999995,
+      "odds": 0.08999999999999997,
+      "raw_price": 0.91,
+      "outcome": "No",
+      "potential_pnl": 11375.0,
+      "pnl_multiplier": 10.111111111111116,
+      "wallet_age_days": 496,
+      "total_activities": 100
+    },
+    "timestamp": "2026-04-27T11:23:30.502269",
+    "trade_hash": "0x12e0623dafecf37182e2f3cc23f561c5dc585adf2622e43768d9b4514a139480",
+    "trade_timestamp": 1777288506,
+    "latency": {
+      "latency_seconds": 218694.0,
+      "latency_minutes": 3644.9,
+      "is_pre_event": true,
+      "severity": "CRITICAL",
+      "trade_time": "2026-04-27T11:15:06+00:00",
+      "event_time": "2026-04-30T00:00:00+00:00"
+    },
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "No",
+      "outcomeIndex": 1,
+      "normalized_position": "NO",
+      "side": "BUY",
+      "price": 0.91,
+      "effective_price": 0.08999999999999997,
+      "size": 12500.0,
+      "amount": 1124.9999999999995,
+      "potential_pnl": 11375.0,
+      "pnl_multiplier": 10.111111111111116,
+      "is_no": true,
+      "conditionId": "0xe31a6c763685129123cb6a0f729bfce04b768c5a22cb09c5610406df1a302465",
+      "slug": "will-donald-trump-announce-that-the-united-states-blockade-of-the-strait-of-hormuz-has-been-lifted-by-april-30-2026-731",
+      "eventSlug": "trump-announces-us-blockade-of-hormuz-lifted-by"
+    },
+    "irrationality": {
+      "irrationality_score": 35,
+      "flags": [
+        "Large mispricing edge (+70.4%)"
+      ],
+      "category": "politics_near",
+      "category_info": {
+        "strength": "medium",
+        "typical_overpricing": 0.02,
+        "min_edge": 0.03
+      },
+      "is_irrational": true
+    },
+    "mispricing": {
+      "rational_estimate": 0.20600000000000002,
+      "market_price": 0.91,
+      "edge": 0.704,
+      "edge_percent": 70.39999999999999,
+      "min_edge_required": 0.05,
+      "is_mispriced": true,
+      "edge_quality": "STRONG",
+      "base_rate_class": "rare",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "rare",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "Diplomatic negotiations between the U.S. and Iran yield positive results.",
+          "Regional stability in the Middle East is achieved.",
+          "Support from key allies for lifting the blockade is secured."
+        ],
+        "weakest_link": "Regional stability in the Middle East is achieved."
+      },
+      "category": "geopolitics",
+      "narrative_drivers": [
+        "Changes in U.S. foreign policy under the current administration.",
+        "Influence of oil prices and global energy demands."
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "ALPHA",
+      "signal_emoji": "\ud83d\udd25",
+      "signal_strength": 120,
+      "interpretation": "Smart money (NO) confirms YES is overpriced",
+      "action_suggestion": "High conviction: insider + statistics aligned",
+      "insider_score": 85,
+      "insider_position": "NO",
+      "irrationality_score": 35,
+      "is_irrational": true,
+      "is_mispriced": true,
+      "edge": 0.704,
+      "edge_percent": 70.39999999999999
+    },
+    "financial_analyst": {
+      "signal_quality": 84.0,
+      "stance": "HIGH_CONVICTION",
+      "edge_percent": 70.4,
+      "signal_strength": 120.0,
+      "insider_score": 85.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "ai_context": "\u274c SKIP \u2014 Recent developments indicate the U.S. has lifted the blockade, making Trump's announcement unlikely by April 30, 2026. On April 17, 2026, Iran declared the Strait of Hormuz fully open for commercial vessels during the ceasefire period, with conditions set by Tehran. (icis.com) President Trump acknowledged this by expressing gratitude for Iran's announcement. (euronews.",
+    "ai_verdict": "SKIP"
   }
 ]
