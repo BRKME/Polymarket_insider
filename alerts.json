@@ -3,119 +3,6 @@
     "market": "Spread: Pistons (-5.5)",
     "market_slug": "nba-gsw-det-2026-03-20-spread-home-5pt5",
     "event_slug": "nba-gsw-det-2026-03-20-spread-home-5pt5",
-    "wallet": "0xa1f6a9f132fb6a19b2e7db58b14493de113e2a73",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($1,098)",
-        "Low activity (2 txns)"
-      ],
-      "amount": 1098.09,
-      "odds": 0.49,
-      "raw_price": 0.49,
-      "outcome": "Pistons",
-      "potential_pnl": 1142.91,
-      "pnl_multiplier": 1.0408163265306123,
-      "wallet_age_days": 0,
-      "total_activities": 2
-    },
-    "timestamp": "2026-03-20T13:45:20.550626",
-    "trade_hash": "0x04eb6aa5bdd58b9e690fff8cfaec48522e6aedba31cc2ec27e3a68c8cd985554",
-    "trade_timestamp": 1774013797,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Pistons",
-      "side": "BUY",
-      "price": 0.49,
-      "effective_price": 0.49,
-      "size": 2241.0,
-      "amount": 1098.09,
-      "potential_pnl": 1142.91,
-      "pnl_multiplier": 1.0408163265306123,
-      "is_no": false,
-      "slug": "nba-gsw-det-2026-03-20-spread-home-5pt5",
-      "eventSlug": "nba-gsw-det-2026-03-20"
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+25.2%)"
-      ],
-      "category": "other",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.238,
-      "market_price": 0.49,
-      "edge": 0.252,
-      "edge_percent": 25.2,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Pistons perform well offensively",
-          "Pistons maintain defensive consistency",
-          "Opponent's key players underperform"
-        ],
-        "weakest_link": "Opponent's key players underperform"
-      },
-      "category": "sports",
-      "narrative_drivers": [
-        "Pistons' recent performance trends",
-        "Injury reports affecting opponent's lineup"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "INSIDER_ONLY",
-      "signal_emoji": "\ud83d\udc41\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider activity detected, no clear mispricing",
-      "action_suggestion": "Monitor: insider signal only, no statistical edge",
-      "insider_score": 70,
-      "insider_position": "PISTONS",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.252,
-      "edge_percent": 25.2
-    },
-    "financial_analyst": {
-      "signal_quality": 51.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 25.2,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.448768+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-20 >7 days ago, removed from API"
-    }
-  },
-  {
-    "market": "Spread: Pistons (-5.5)",
-    "market_slug": "nba-gsw-det-2026-03-20-spread-home-5pt5",
-    "event_slug": "nba-gsw-det-2026-03-20-spread-home-5pt5",
     "wallet": "0x3c772d12305e02373a0468566e5fccb9c5f540ea",
     "analysis": {
       "score": 70,
@@ -33695,5 +33582,51 @@
     "amount": 1770.0,
     "ai_context": "\u274c SKIP \u2014 Yasmine Kabbaj has a losing record in her recent matches and is set to face a higher-ranked opponent.\nKabbaj has lost three of her last five matches, including a 2-0 defeat to Lucie Nguyen Tan on April 27, 2026. Diane Parry, ranked 95, has won three of her last five matches, including a 2-0 victory over Marta Kostyuk on April 14, 2026. (aiscore.com)\nGiven these recent performances, the trader's bet on Kabbaj appears to be against the current form of both players.",
     "ai_verdict": "SKIP"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xf18159d6a14d097172c6671a7324f8410fc7821fc6e2a9419730c7d59c4aa1c6",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.515682004,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x8bc2f8994458800d9c4dbd1d4507b32e4f7a4c80",
+      "side": "BUY",
+      "asset": "99245585979844144960758602992634910767220726011933723157814870785954303767279",
+      "conditionId": "0x4681b4b23ba2dfb51998b5fadb3732ab482841b899a88a72943f1071574c2aa8",
+      "size": 2298.850569,
+      "price": 0.86999999998695,
+      "timestamp": 1777390826,
+      "title": "Cagliari: Zachary Svajda vs Hubert Hurkacz",
+      "slug": "atp-svajda-hurkacz-2026-04-28",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/atp-tour-b4390c4fb8.jpg",
+      "eventSlug": "atp-svajda-hurkacz-2026-04-28",
+      "outcome": "Hubert Hurkacz",
+      "outcomeIndex": 1,
+      "name": "0x8Bc2f8994458800d9C4DBD1d4507b32e4F7a4C80-1758128210877",
+      "pseudonym": "Sour-Basket",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xf18159d6a14d097172c6671a7324f8410fc7821fc6e2a9419730c7d59c4aa1c6",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Cagliari: Zachary Svajda vs Hubert Hurkacz",
+    "market_slug": "atp-svajda-hurkacz-2026-04-28",
+    "amount": 1999.9999950000001,
+    "ai_context": "\u2705 COPY \u2014 Hurkacz has a superior head-to-head record and recent form compared to Svajda.\nHurkacz has won 3 of their last 10 matches, while Svajda has won 4 of theirs. (stevegtennis.com) Additionally, Hurkacz has a 66.7% win rate on clay over the past 52 weeks, whereas Svajda has a 41.7% win rate on hard courts. (tennisratio.com)",
+    "ai_verdict": "COPY"
   }
 ]
