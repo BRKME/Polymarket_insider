@@ -1,57 +1,5 @@
 [
   {
-    "type": "TOP_TRADER",
-    "trade_hash": "0x9030f47ea9f63ffdf25c4bc4cbeb7c51af7883763c697d21624664827ebbd438",
-    "wallet": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
-    "trader": {
-      "rank": 9,
-      "address": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
-      "username": "RN1",
-      "profit": 5805686.957170135,
-      "volume": 283042545.484137,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0xbca69be5edef416ba701f9a3a2983efdf58273e3",
-      "side": "SELL",
-      "asset": "88019718517198041112185994197211713400925479368660214430030324078219596742767",
-      "conditionId": "0x41eec77b0af2e0ffa40d1abfa0bfb1cb8c4ca6e304ba42f9fffe7291d69db9be",
-      "size": 10000,
-      "price": 0.53,
-      "timestamp": 1774004735,
-      "title": "Iowa Hawkeyes vs. Clemson Tigers",
-      "slug": "cbb-iowa-clmsn-2026-03-20",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/ncaa-c14995df96.png",
-      "eventSlug": "cbb-iowa-clmsn-2026-03-20",
-      "outcome": "Iowa Hawkeyes",
-      "outcomeIndex": 0,
-      "name": "r888",
-      "pseudonym": "Thoughtful-Scimitar",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x9030f47ea9f63ffdf25c4bc4cbeb7c51af7883763c697d21624664827ebbd438",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Iowa Hawkeyes vs. Clemson Tigers",
-    "market_slug": "cbb-iowa-clmsn-2026-03-20",
-    "amount": 5300.0,
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.448758+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-20 >7 days ago, removed from API"
-    }
-  },
-  {
     "market": "Spread: Pistons (-5.5)",
     "market_slug": "nba-gsw-det-2026-03-20-spread-home-5pt5",
     "event_slug": "nba-gsw-det-2026-03-20-spread-home-5pt5",
@@ -33701,5 +33649,51 @@
     "ai_context": "\u2705 COPY \u2014 Recent data indicates a significant chance of Bitcoin reaching $75,000 by April 2026.\nAs of April 21, 2026, Bitcoin's closing price was $76,352.78, up 11.9% for the month. (statmuse.com) Prediction markets assign a 47.5% probability to Bitcoin reaching $75,000 by April 2026. (coingecko.com) Additionally, technical analysis suggests resistance around $74,000\u2013$75,000, with some models giving Bitcoin about a 65% chance of reaching ~$75K in April. (moneymagpie.",
     "ai_verdict": "COPY",
     "resolution_last_check": "2026-04-28T08:08:26.210898+00:00"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x11f60329dbf402e417428639250e9834f0d4ea402c14b2fb28cba9a78ac5a367",
+    "wallet": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+    "trader": {
+      "rank": 11,
+      "address": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+      "username": "RN1",
+      "profit": 7628525.320149013,
+      "volume": 475189522.223603,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+      "side": "BUY",
+      "asset": "30797576059611502989453079136959360575222924704554700188870869323117555458617",
+      "conditionId": "0x667dba48f8654227a57183d3f514fd7642fd3b7fd701d35cce94b3307545eb70",
+      "size": 3000,
+      "price": 0.59,
+      "timestamp": 1777382722,
+      "title": "Saint-Malo: Diane Parry vs Yasmine Kabbaj",
+      "slug": "wta-parry-kabbaj-2026-04-28",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/wta-logo-41f331bdf1.png",
+      "eventSlug": "wta-parry-kabbaj-2026-04-28",
+      "outcome": "Yasmine Kabbaj",
+      "outcomeIndex": 1,
+      "name": "tradecraft",
+      "pseudonym": "Slow-Escape",
+      "bio": "",
+      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1439403-31bec8e6-a9d5-45d6-8c20-964f07c7fdb2.webp",
+      "profileImageOptimized": "",
+      "transactionHash": "0x11f60329dbf402e417428639250e9834f0d4ea402c14b2fb28cba9a78ac5a367",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Saint-Malo: Diane Parry vs Yasmine Kabbaj",
+    "market_slug": "wta-parry-kabbaj-2026-04-28",
+    "amount": 1770.0,
+    "ai_context": "\u274c SKIP \u2014 Yasmine Kabbaj has a losing record in her recent matches and is set to face a higher-ranked opponent.\nKabbaj has lost three of her last five matches, including a 2-0 defeat to Lucie Nguyen Tan on April 27, 2026. Diane Parry, ranked 95, has won three of her last five matches, including a 2-0 victory over Marta Kostyuk on April 14, 2026. (aiscore.com)\nGiven these recent performances, the trader's bet on Kabbaj appears to be against the current form of both players.",
+    "ai_verdict": "SKIP"
   }
 ]
