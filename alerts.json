@@ -3,119 +3,6 @@
     "market": "Spread: Pistons (-5.5)",
     "market_slug": "nba-gsw-det-2026-03-20-spread-home-5pt5",
     "event_slug": "nba-gsw-det-2026-03-20-spread-home-5pt5",
-    "wallet": "0x3c772d12305e02373a0468566e5fccb9c5f540ea",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($1,094)",
-        "Low activity (2 txns)"
-      ],
-      "amount": 1094.17,
-      "odds": 0.49,
-      "raw_price": 0.49,
-      "outcome": "Pistons",
-      "potential_pnl": 1138.83,
-      "pnl_multiplier": 1.040816326530612,
-      "wallet_age_days": 0,
-      "total_activities": 2
-    },
-    "timestamp": "2026-03-20T13:45:24.505039",
-    "trade_hash": "0x9ae00bf1f384158985eaffb3cca8ef75cebf9cf1df04ce296b262fc80403d08d",
-    "trade_timestamp": 1774013797,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Pistons",
-      "side": "BUY",
-      "price": 0.49,
-      "effective_price": 0.49,
-      "size": 2233.0,
-      "amount": 1094.17,
-      "potential_pnl": 1138.83,
-      "pnl_multiplier": 1.040816326530612,
-      "is_no": false,
-      "slug": "nba-gsw-det-2026-03-20-spread-home-5pt5",
-      "eventSlug": "nba-gsw-det-2026-03-20"
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+25.2%)"
-      ],
-      "category": "other",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.238,
-      "market_price": 0.49,
-      "edge": 0.252,
-      "edge_percent": 25.2,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Pistons' key players perform at or above expectations",
-          "Opposing team struggles with defense",
-          "Home court advantage favors Pistons"
-        ],
-        "weakest_link": "Opposing team struggles with defense"
-      },
-      "category": "sports",
-      "narrative_drivers": [
-        "Pistons' recent performance trends",
-        "Injury reports affecting opposing team"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "INSIDER_ONLY",
-      "signal_emoji": "\ud83d\udc41\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider activity detected, no clear mispricing",
-      "action_suggestion": "Monitor: insider signal only, no statistical edge",
-      "insider_score": 70,
-      "insider_position": "PISTONS",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.252,
-      "edge_percent": 25.2
-    },
-    "financial_analyst": {
-      "signal_quality": 51.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 25.2,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.448778+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-20 >7 days ago, removed from API"
-    }
-  },
-  {
-    "market": "Spread: Pistons (-5.5)",
-    "market_slug": "nba-gsw-det-2026-03-20-spread-home-5pt5",
-    "event_slug": "nba-gsw-det-2026-03-20-spread-home-5pt5",
     "wallet": "0xd83e967c9116da6b8e937971fa92a4038c4fb871",
     "analysis": {
       "score": 70,
@@ -33627,6 +33514,52 @@
     "market_slug": "atp-svajda-hurkacz-2026-04-28",
     "amount": 1999.9999950000001,
     "ai_context": "\u2705 COPY \u2014 Hurkacz has a superior head-to-head record and recent form compared to Svajda.\nHurkacz has won 3 of their last 10 matches, while Svajda has won 4 of theirs. (stevegtennis.com) Additionally, Hurkacz has a 66.7% win rate on clay over the past 52 weeks, whereas Svajda has a 41.7% win rate on hard courts. (tennisratio.com)",
+    "ai_verdict": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xca56a162e2240cf2439529668042361db521a2e235a6c3c7d12d310be802c7b5",
+    "wallet": "0x1f2dd6d473f3e824cd2f8a89d9c69fb96f6ad0cf",
+    "trader": {
+      "rank": 2,
+      "address": "0x1f2dd6d473f3e824cd2f8a89d9c69fb96f6ad0cf",
+      "username": "Fredi9999",
+      "profit": 16619506.631730152,
+      "volume": 76611316.90515402,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x1f361ef9bbb97c16e988a8314a6c50ff67ea2819",
+      "side": "SELL",
+      "asset": "108233603819467706476318984012158651931658302669301887462181073562758483842092",
+      "conditionId": "0x9b6fef249040fd17e9c107955b37ac2c3e923509b6b0ff01cc463a331ddeb894",
+      "size": 14705.88,
+      "price": 0.156,
+      "timestamp": 1777402232,
+      "title": "Will France win the 2026 FIFA World Cup?",
+      "slug": "will-france-win-the-2026-fifa-world-cup-924",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-france-win-the-2026-fifa-world-cup-924-HpDpNpZGzhE6.png",
+      "eventSlug": "2026-fifa-world-cup-winner-595",
+      "outcome": "Yes",
+      "outcomeIndex": 0,
+      "name": "Hernr121221",
+      "pseudonym": "Feline-Achiever",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xca56a162e2240cf2439529668042361db521a2e235a6c3c7d12d310be802c7b5",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Will France win the 2026 FIFA World Cup?",
+    "market_slug": "2026-fifa-world-cup-winner-595",
+    "amount": 2294.11728,
+    "ai_context": "\u2705 COPY \u2014 France's recent form and squad strength support their World Cup prospects.\nFrance qualified for the 2026 World Cup with a 4-0 victory over Ukraine, maintaining an unbeaten record in their group. (fifa.com) They have reclaimed the top spot in the FIFA/Coca-Cola Men's World Ranking as of April 2026. (inside.fifa.com) Despite the injury of forward Hugo Ekitike, who will miss the World Cup due to an Achilles injury, (vanguardngr.",
     "ai_verdict": "COPY"
   }
 ]
