@@ -32605,7 +32605,14 @@
     "amount": 4625.2699999999995,
     "ai_context": "\ud83d\udfe1 LEAN COPY \u2014 Recent form and head-to-head statistics favor Manchester United FC.\nManchester United FC is currently third in the English Premier League with 55 points after 31 matches, while Brentford FC is seventh with 46 points. (mufcinfo.com) In their most recent matches, Manchester United secured a 3-1 victory against Aston Villa on March 15, 2026, and a 2-2 draw against AFC Bournemouth on March 20, 2026. (foxsports.",
     "ai_verdict": "LEAN_COPY",
-    "resolution_last_check": "2026-04-26T07:42:57.918703+00:00"
+    "resolution_last_check": "2026-04-26T07:42:57.918703+00:00",
+    "resolution": {
+      "outcome": "Yes",
+      "checked_at": "2026-04-28T08:08:19.375810+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -4625.27
+    }
   },
   {
     "market": "Spurs vs. Trail Blazers",
@@ -33422,7 +33429,8 @@
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
     },
     "ai_context": "\u274c SKIP \u2014 Recent developments indicate the U.S. has lifted the blockade, making Trump's announcement unlikely by April 30, 2026. On April 17, 2026, Iran declared the Strait of Hormuz fully open for commercial vessels during the ceasefire period, with conditions set by Tehran. (icis.com) President Trump acknowledged this by expressing gratitude for Iran's announcement. (euronews.",
-    "ai_verdict": "SKIP"
+    "ai_verdict": "SKIP",
+    "resolution_last_check": "2026-04-28T08:08:20.484214+00:00"
   },
   {
     "type": "TOP_TRADER",
@@ -33468,7 +33476,14 @@
     "market_slug": "wta-sabalen-osaka-2026-04-27",
     "amount": 1980.294428510426,
     "ai_context": "\u274c SKIP \u2014 Recent form and head-to-head statistics favor Aryna Sabalenka over Naomi Osaka.\nIn their most recent encounter at the 2026 Indian Wells tournament, Sabalenka defeated Osaka 6-2, 6-4. (skysports.com) Sabalenka is on a 14-match winning streak in WTA 1000 events, while Osaka has struggled post-injury and on clay courts. (freetips.com) Additionally, Sabalenka holds a 1-0 head-to-head record against Osaka in 2026. (thestatszone.",
-    "ai_verdict": "SKIP"
+    "ai_verdict": "SKIP",
+    "resolution": {
+      "outcome": "Aryna Sabalenka",
+      "checked_at": "2026-04-28T08:08:22.003436+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -1980.29
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -33514,7 +33529,14 @@
     "market_slug": "sea-cag-ata-2026-04-27-more-markets",
     "amount": 3065.2683,
     "ai_context": "\u2705 COPY \u2014 Recent matches between Cagliari and Atalanta have consistently exceeded 2.5 goals.\nIn their last three encounters, the total goals were 3, 2, and 1, respectively, all surpassing the 2.5-goal mark. (fctables.com)\nAdditionally, Atalanta's recent form includes a 5-2 victory over Cagliari on March 14, 2026. (sportytrader.com)\nGiven these trends, the bet on Over 2.5 goals is supported by recent head-to-head results.",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution": {
+      "outcome": "Atalanta BC",
+      "checked_at": "2026-04-28T08:08:23.605590+00:00",
+      "insider_win": null,
+      "model_correct": null,
+      "pnl": null
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -33560,7 +33582,14 @@
     "market_slug": "atp-vallejo-cobolli-2026-04-27",
     "amount": 5427.815831507959,
     "ai_context": "\u2705 COPY \u2014 Flavio Cobolli's recent form and higher ranking support the bet.\nCobolli is currently ranked No. 13, with a career-high ranking achieved on March 30, 2026. (en.wikipedia.org) In his last five matches, he has won four, including a semifinal victory over Alexander Zverev at the BMW Open in Munich on April 13, 2026. (matchstat.com) In contrast, Adolfo Daniel Vallejo, ranked No.",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution": {
+      "outcome": "Flavio Cobolli",
+      "checked_at": "2026-04-28T08:08:25.162187+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 1067.59
+    }
   },
   {
     "market": "Will Bitcoin dip to $75,000 in April?",
@@ -33670,6 +33699,7 @@
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
     },
     "ai_context": "\u2705 COPY \u2014 Recent data indicates a significant chance of Bitcoin reaching $75,000 by April 2026.\nAs of April 21, 2026, Bitcoin's closing price was $76,352.78, up 11.9% for the month. (statmuse.com) Prediction markets assign a 47.5% probability to Bitcoin reaching $75,000 by April 2026. (coingecko.com) Additionally, technical analysis suggests resistance around $74,000\u2013$75,000, with some models giving Bitcoin about a 65% chance of reaching ~$75K in April. (moneymagpie.",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution_last_check": "2026-04-28T08:08:26.210898+00:00"
   }
 ]
