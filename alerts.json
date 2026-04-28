@@ -1,58 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0x2d4b854534931a5063217b407bd3069bed41e6b235f080c83a8348988c1b0283",
-    "wallet": "0x885783760858e1bd5dd09a3c3f916cfa251ac270",
-    "trader": {
-      "rank": 11,
-      "address": "0x885783760858e1bd5dd09a3c3f916cfa251ac270",
-      "username": "BetTom42",
-      "profit": 5642135.735356,
-      "volume": 11212839.523403,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0xf9885da150836378ce5689395ff4d194683fd63b",
-      "side": "BUY",
-      "asset": "57057247364592185484876280792184585102019040185109901206192058656888529238840",
-      "conditionId": "0xfc84015b6d6bcc170bb5477d56c61280cd7ec01f80e883ce4cfdafd24b3e4fc8",
-      "size": 4968.35,
-      "price": 0.42,
-      "timestamp": 1774040751,
-      "title": "Counter-Strike: FURIA vs Aurora Gaming (BO3) - BLAST Open Rotterdam Group A",
-      "slug": "cs2-furia-aur1-2026-03-20",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/counter-strike-image-16c415c538.png",
-      "eventSlug": "cs2-furia-aur1-2026-03-20",
-      "outcome": "Aurora Gaming",
-      "outcomeIndex": 1,
-      "name": "0xF9885Da150836378ce5689395FF4d194683fd63B-1767719836281",
-      "pseudonym": "Harmful-Wood",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x2d4b854534931a5063217b407bd3069bed41e6b235f080c83a8348988c1b0283",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Counter-Strike: FURIA vs Aurora Gaming (BO3) - BLAST Open Rotterdam Group A",
-    "market_slug": "cs2-furia-aur1-2026-03-20",
-    "amount": 2086.707,
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.448859+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-20 >7 days ago, removed from API"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0xe025f77c5bd95fe77f04fbe07c2264655885ae846fc0d98338ba0f41461f13dd",
     "wallet": "0x16f91db2592924cfed6e03b7e5cb5bb1e32299e3",
     "trader": {
@@ -33476,5 +33424,51 @@
     "amount": 1079.0,
     "ai_context": "\u274c SKIP \u2014 FC Bayern M\u00fcnchen is currently playing against Paris Saint-Germain in the Champions League semi-final first leg.\nThe match is ongoing, with Bayern having equalized after PSG took the lead. (elpais.com) Given the live nature of the game, it's challenging to assess the outcome. However, the trader's bet on \"No\" at 83% odds suggests a belief that Bayern will not win. Without further context or insider information, it's difficult to determine the accuracy of this assessment.",
     "ai_verdict": "SKIP"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x1c9011b92412a82cb6d0ecfce891b88957cfc5b346988beaf96f219de9484b14",
+    "wallet": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
+    "trader": {
+      "rank": 16,
+      "address": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
+      "username": "GamblingIsAllYouNeed",
+      "profit": 4764639.758240484,
+      "volume": 386988045.98067296,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xc0ff6a9ac424210cf218fda5c5753324c34a9953",
+      "side": "BUY",
+      "asset": "90354743432236305475508196592143013969221071217938704969309359212626908715363",
+      "conditionId": "0x8bd45d7a46bf2903a0d25923f292eae410ad221ac499517f23f6c1aa49c9d3b2",
+      "size": 5562.47,
+      "price": 0.78,
+      "timestamp": 1777411334,
+      "title": "Madrid Open: Daniil Medvedev vs Flavio Cobolli",
+      "slug": "atp-medvede-cobolli-2026-04-28",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/atp-tour-b4390c4fb8.jpg",
+      "eventSlug": "atp-medvede-cobolli-2026-04-28",
+      "outcome": "Daniil Medvedev",
+      "outcomeIndex": 0,
+      "name": "Runaround",
+      "pseudonym": "Strange-Guy",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x1c9011b92412a82cb6d0ecfce891b88957cfc5b346988beaf96f219de9484b14",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Madrid Open: Daniil Medvedev vs Flavio Cobolli",
+    "market_slug": "atp-medvede-cobolli-2026-04-28",
+    "amount": 4338.7266,
+    "ai_context": "\u2705 COPY \u2014 Medvedev has a 2-0 head-to-head record against Cobolli and is in better recent form.\nMedvedev defeated Cobolli twice in straight sets in 2024, including a 6-2, 6-4 win at the Beijing Open. (tennisratio.com) Cobolli has shown improvement recently, reaching the final at the Bavarian Open, but Medvedev's superior head-to-head record and recent form suggest he is the favored player.",
+    "ai_verdict": "COPY"
   }
 ]
