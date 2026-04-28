@@ -1,274 +1,5 @@
 [
   {
-    "market": "Spread: Pistons (-5.5)",
-    "market_slug": "nba-gsw-det-2026-03-20-spread-home-5pt5",
-    "event_slug": "nba-gsw-det-2026-03-20-spread-home-5pt5",
-    "wallet": "0xd83e967c9116da6b8e937971fa92a4038c4fb871",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($1,187)",
-        "Low activity (4 txns)"
-      ],
-      "amount": 1187.27,
-      "odds": 0.49,
-      "raw_price": 0.49,
-      "outcome": "Pistons",
-      "potential_pnl": 1235.73,
-      "pnl_multiplier": 1.0408163265306123,
-      "wallet_age_days": 0,
-      "total_activities": 4
-    },
-    "timestamp": "2026-03-20T13:45:29.154850",
-    "trade_hash": "0xb2b582e69cf14eb37dc04d3f4b3869f74ec3c93751518193122cd5b7d1770f78",
-    "trade_timestamp": 1774013797,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Pistons",
-      "side": "BUY",
-      "price": 0.49,
-      "effective_price": 0.49,
-      "size": 2423.0,
-      "amount": 1187.27,
-      "potential_pnl": 1235.73,
-      "pnl_multiplier": 1.0408163265306123,
-      "is_no": false,
-      "slug": "nba-gsw-det-2026-03-20-spread-home-5pt5",
-      "eventSlug": "nba-gsw-det-2026-03-20"
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+25.2%)"
-      ],
-      "category": "other",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.238,
-      "market_price": 0.49,
-      "edge": 0.252,
-      "edge_percent": 25.2,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Pistons maintain strong home court advantage",
-          "Key players remain healthy",
-          "Opposing team underperforms"
-        ],
-        "weakest_link": "Opposing team underperforms"
-      },
-      "category": "sports",
-      "narrative_drivers": [
-        "Pistons' recent performance trends",
-        "Injury reports affecting key players"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "INSIDER_ONLY",
-      "signal_emoji": "\ud83d\udc41\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider activity detected, no clear mispricing",
-      "action_suggestion": "Monitor: insider signal only, no statistical edge",
-      "insider_score": 70,
-      "insider_position": "PISTONS",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.252,
-      "edge_percent": 25.2
-    },
-    "financial_analyst": {
-      "signal_quality": 51.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 25.2,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.448788+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-20 >7 days ago, removed from API"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
-    "trade_hash": "0x51d66a6e4a45f8c52936c2972505104c4d0bd0cbe560e4c5ab15a5d2fbdac295",
-    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-    "trader": {
-      "rank": 1,
-      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-      "username": "Theo4",
-      "profit": 22053933.752321757,
-      "volume": 43013258.515682004,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0xcb437c1cae90151d00fb55c014a9d3616ffd3c74",
-      "side": "BUY",
-      "asset": "96201733608502458627905480167652884986457888149548653845440039271543270786117",
-      "conditionId": "0x1877d73f4f3cb7fc56ac69f4b83dbaebbecefd8390da3b47265ed4cc7df0f80c",
-      "size": 2000,
-      "price": 0.903735,
-      "timestamp": 1774031145,
-      "title": "Santa Clara Broncos vs. Kentucky Wildcats",
-      "slug": "cbb-sanclr-uk-2026-03-20",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/ncaa-c14995df96.png",
-      "eventSlug": "cbb-sanclr-uk-2026-03-20",
-      "outcome": "Kentucky Wildcats",
-      "outcomeIndex": 1,
-      "name": "Stupidity",
-      "pseudonym": "Bossy-Window",
-      "bio": "9206",
-      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-3401687-c0659135-dfd5-496d-8b0e-85cfdaff117a.png",
-      "profileImageOptimized": "",
-      "transactionHash": "0x51d66a6e4a45f8c52936c2972505104c4d0bd0cbe560e4c5ab15a5d2fbdac295",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Santa Clara Broncos vs. Kentucky Wildcats",
-    "market_slug": "cbb-sanclr-uk-2026-03-20",
-    "amount": 1807.4699999999998,
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.448797+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-20 >7 days ago, removed from API"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
-    "trade_hash": "0x5081c119ea99a4e94ff499452a12ac431b131d0ebfb0bb63043a1b3a9cc75266",
-    "wallet": "0x863134d00841b2e200492805a01e1e2f5defaa53",
-    "trader": {
-      "rank": 6,
-      "address": "0x863134d00841b2e200492805a01e1e2f5defaa53",
-      "username": "RepTrump",
-      "profit": 7532409.671579,
-      "volume": 13983231.103425,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
-      "side": "BUY",
-      "asset": "79308286211285981481697518081271815960844799414039636458581868757032388361925",
-      "conditionId": "0x04c109837e9c83aa410e4a1bfa32d5574b05fafd0a432514965c03a20e2511a6",
-      "size": 2040,
-      "price": 0.92,
-      "timestamp": 1774031445,
-      "title": "Akron Zips vs. Texas Tech Red Raiders",
-      "slug": "cbb-akron-txtech-2026-03-20",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/ncaa-c14995df96.png",
-      "eventSlug": "cbb-akron-txtech-2026-03-20",
-      "outcome": "Texas Tech Red Raiders",
-      "outcomeIndex": 1,
-      "name": "RN1",
-      "pseudonym": "Scary-Edible",
-      "bio": "",
-      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1567750-84001aec-310a-470f-9584-67dfcaa61267.png",
-      "profileImageOptimized": "",
-      "transactionHash": "0x5081c119ea99a4e94ff499452a12ac431b131d0ebfb0bb63043a1b3a9cc75266",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Akron Zips vs. Texas Tech Red Raiders",
-    "market_slug": "cbb-akron-txtech-2026-03-20",
-    "amount": 1876.8000000000002,
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.448807+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-20 >7 days ago, removed from API"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
-    "trade_hash": "0x095351f9b57cd1146344db66553ebbb5aa78b824b5adc2849c68b62639bb5943",
-    "wallet": "0xd0c042c08f755ff940249f62745e82d356345565",
-    "trader": {
-      "rank": 15,
-      "address": "0xd0c042c08f755ff940249f62745e82d356345565",
-      "username": "alexmulti",
-      "profit": 4804855.613376001,
-      "volume": 9949068.653841998,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x3846ff5c2983dc3f1ffa8ce91667150bfaeb9742",
-      "side": "BUY",
-      "asset": "67772032722109122315648727478903491905373836998422740507453239306076690243521",
-      "conditionId": "0x84d3129f3a06cfafc6698c098b1414658bf2d66af9ff99717571fdea8963c77d",
-      "size": 9952.66,
-      "price": 0.54,
-      "timestamp": 1774037447,
-      "title": "Miami Open: Zizou Bergs vs Tomas Etcheverry",
-      "slug": "atp-bergs-etcheve-2026-03-20",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/atp-tour-b4390c4fb8.jpg",
-      "eventSlug": "atp-bergs-etcheve-2026-03-20",
-      "outcome": "Zizou Bergs",
-      "outcomeIndex": 0,
-      "name": "8348sctmde",
-      "pseudonym": "Intelligent-Chemistry",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x095351f9b57cd1146344db66553ebbb5aa78b824b5adc2849c68b62639bb5943",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Miami Open: Zizou Bergs vs Tomas Etcheverry",
-    "market_slug": "atp-bergs-etcheve-2026-03-20",
-    "amount": 5374.4364000000005,
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.448816+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-20 >7 days ago, removed from API"
-    }
-  },
-  {
     "type": "TOP_TRADER",
     "trade_hash": "0x2d4b854534931a5063217b407bd3069bed41e6b235f080c83a8348988c1b0283",
     "wallet": "0x885783760858e1bd5dd09a3c3f916cfa251ac270",
@@ -33561,5 +33292,189 @@
     "amount": 2294.11728,
     "ai_context": "\u2705 COPY \u2014 France's recent form and squad strength support their World Cup prospects.\nFrance qualified for the 2026 World Cup with a 4-0 victory over Ukraine, maintaining an unbeaten record in their group. (fifa.com) They have reclaimed the top spot in the FIFA/Coca-Cola Men's World Ranking as of April 2026. (inside.fifa.com) Despite the injury of forward Hugo Ekitike, who will miss the World Cup due to an Achilles injury, (vanguardngr.",
     "ai_verdict": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x0cfe039f2e4c43f5ba1254a7094289249b9fd99f66fb9d9f3ba0bc005abaadb9",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.51568201,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x4df332e27f9ee3224f52ce30e3ce15c1075e788f",
+      "side": "BUY",
+      "asset": "56880175393932454581144770528427485936933207650358188666285643124300135349353",
+      "conditionId": "0x28047a042b014f25c767d74ef95bb73d0fac42b5618081c919f627e5bb95d82b",
+      "size": 13653,
+      "price": 0.51,
+      "timestamp": 1777406742,
+      "title": "Indian Premier League: Mumbai Indians vs Sunrisers Hyderabad",
+      "slug": "cricipl-mum-sun-2026-04-29",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/cricket-ball-a0b0bf2dc9.png",
+      "eventSlug": "cricipl-mum-sun-2026-04-29",
+      "outcome": "Mumbai Indians",
+      "outcomeIndex": 0,
+      "name": "SunlineTicker",
+      "pseudonym": "Far-Precipitation",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x0cfe039f2e4c43f5ba1254a7094289249b9fd99f66fb9d9f3ba0bc005abaadb9",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Indian Premier League: Mumbai Indians vs Sunrisers Hyderabad",
+    "market_slug": "cricipl-mum-sun-2026-04-29",
+    "amount": 6963.03,
+    "ai_context": "\u2705 COPY \u2014 Mumbai Indians have a strong head-to-head record against Sunrisers Hyderabad, winning 15 out of 25 encounters.\nIn their most recent match on March 27, 2024, Sunrisers Hyderabad set a record for the highest-ever team total in IPL history by posting 277/3 against Mumbai Indians. (sportsdunia.com)\nHowever, Mumbai Indians have won 13 of the 20 matches between the two teams. (sportspundit.",
+    "ai_verdict": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xb3c9fabafcb7bc77f03f794cdf724a16093b1a6a830f040da4376c7a3cc7f3a2",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.51568201,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x4df332e27f9ee3224f52ce30e3ce15c1075e788f",
+      "side": "BUY",
+      "asset": "56880175393932454581144770528427485936933207650358188666285643124300135349353",
+      "conditionId": "0x28047a042b014f25c767d74ef95bb73d0fac42b5618081c919f627e5bb95d82b",
+      "size": 3413,
+      "price": 0.51,
+      "timestamp": 1777406742,
+      "title": "Indian Premier League: Mumbai Indians vs Sunrisers Hyderabad",
+      "slug": "cricipl-mum-sun-2026-04-29",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/cricket-ball-a0b0bf2dc9.png",
+      "eventSlug": "cricipl-mum-sun-2026-04-29",
+      "outcome": "Mumbai Indians",
+      "outcomeIndex": 0,
+      "name": "SunlineTicker",
+      "pseudonym": "Far-Precipitation",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xb3c9fabafcb7bc77f03f794cdf724a16093b1a6a830f040da4376c7a3cc7f3a2",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Indian Premier League: Mumbai Indians vs Sunrisers Hyderabad",
+    "market_slug": "cricipl-mum-sun-2026-04-29",
+    "amount": 1740.63,
+    "ai_context": "\u2705 COPY \u2014 Mumbai Indians have a strong head-to-head record against Sunrisers Hyderabad, winning 13 out of 20 matches.\nIn their last five encounters, Mumbai Indians have won three times, including victories on April 23, 2025, and April 17, 2025. (sportspundit.com)\nGiven this favorable record, the bet on Mumbai Indians is supported by recent performance.",
+    "ai_verdict": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x2dfc724b683d9eccbe0c0e25fa27934c61ee0139072104ac0d8210914a5130ff",
+    "wallet": "0xd235973291b2b75ff4070e9c0b01728c520b0f29",
+    "trader": {
+      "rank": 5,
+      "address": "0xd235973291b2b75ff4070e9c0b01728c520b0f29",
+      "username": "zxgngl",
+      "profit": 7807265.589240883,
+      "volume": 40551790.62184699,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x46986132369d9c20140e2fbdedd008cc4bf3d7a5",
+      "side": "BUY",
+      "asset": "108841996491512011644960110386605070587088270415908267253561407680456631957382",
+      "conditionId": "0x3a0e803db220c314dfe56790d78a112ae0f61ae0ef373929940b7768464482cf",
+      "size": 3465.982027,
+      "price": 0.7789999999904789,
+      "timestamp": 1777406870,
+      "title": "Madrid Open: Aryna Sabalenka vs Hailey Baptiste",
+      "slug": "wta-sabalen-baptist-2026-04-28",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/wta-logo-41f331bdf1.png",
+      "eventSlug": "wta-sabalen-baptist-2026-04-28",
+      "outcome": "Aryna Sabalenka",
+      "outcomeIndex": 0,
+      "name": "Artfulone",
+      "pseudonym": "Merry-Boat",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x2dfc724b683d9eccbe0c0e25fa27934c61ee0139072104ac0d8210914a5130ff",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Madrid Open: Aryna Sabalenka vs Hailey Baptiste",
+    "market_slug": "wta-sabalen-baptist-2026-04-28",
+    "amount": 2699.999999,
+    "ai_context": "\u2705 COPY \u2014 Aryna Sabalenka has been in exceptional form, with a 23-1 record this season and a recent victory over Hailey Baptiste.\nSabalenka has won 23 of her 24 matches this season, including a 6-4, 6-4 win over Baptiste in the Miami Open quarterfinals. (espn.com) She also secured a 7-5, 6-2 victory over Peyton Stearns in the Madrid Open first round. (elpais.com)",
+    "ai_verdict": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xbad5f96f3913112147cb7b00fc0e7fafc7085ac2d8531cc770ba2ee75587fd48",
+    "wallet": "0x863134d00841b2e200492805a01e1e2f5defaa53",
+    "trader": {
+      "rank": 7,
+      "address": "0x863134d00841b2e200492805a01e1e2f5defaa53",
+      "username": "RepTrump",
+      "profit": 7532409.671579,
+      "volume": 13983231.103425,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x8c818a866e6a4e5821a4faac8418903e33e3dcd3",
+      "side": "BUY",
+      "asset": "63226464884689819537581943412129054500971928937312073473754558656962813428209",
+      "conditionId": "0xe615cb213bb989ec21df153f65e12d1ad9684dfb5864463a6acfab750830beeb",
+      "size": 1300,
+      "price": 0.83,
+      "timestamp": 1777406926,
+      "title": "Will FC Bayern M\u00fcnchen win on 2026-04-28?",
+      "slug": "ucl-psg1-bay1-2026-04-28-bay1",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/champions-league-pic-QIUFsL8vaDdq.png",
+      "eventSlug": "ucl-psg1-bay1-2026-04-28",
+      "outcome": "No",
+      "outcomeIndex": 1,
+      "name": "Sharkbets.pro",
+      "pseudonym": "Mysterious-Guard",
+      "bio": "",
+      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1901992-ead50760-514e-4cba-86f8-46f183f7b377.jpg",
+      "profileImageOptimized": "",
+      "transactionHash": "0xbad5f96f3913112147cb7b00fc0e7fafc7085ac2d8531cc770ba2ee75587fd48",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Will FC Bayern M\u00fcnchen win on 2026-04-28?",
+    "market_slug": "ucl-psg1-bay1-2026-04-28",
+    "amount": 1079.0,
+    "ai_context": "\u274c SKIP \u2014 FC Bayern M\u00fcnchen is currently playing against Paris Saint-Germain in the Champions League semi-final first leg.\nThe match is ongoing, with Bayern having equalized after PSG took the lead. (elpais.com) Given the live nature of the game, it's challenging to assess the outcome. However, the trader's bet on \"No\" at 83% odds suggests a belief that Bayern will not win. Without further context or insider information, it's difficult to determine the accuracy of this assessment.",
+    "ai_verdict": "SKIP"
   }
 ]
