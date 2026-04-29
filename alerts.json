@@ -1,169 +1,5 @@
 [
   {
-    "market": "LoL: Gen.G vs G2 Esports - Game 1 Winner",
-    "market_slug": "lol-gen-g2-2026-03-21-game1",
-    "event_slug": "lol-gen-g2-2026-03-21-game1",
-    "wallet": "0x644d634d2995d4903ba19d14c7f3acbc962b6cf8",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($101,527)",
-        "Low activity (2 txns)"
-      ],
-      "amount": 101526.7496,
-      "odds": 0.86,
-      "raw_price": 0.86,
-      "outcome": "Gen.G",
-      "potential_pnl": 16527.610400000005,
-      "pnl_multiplier": 0.16279069767441867,
-      "wallet_age_days": 0,
-      "total_activities": 2
-    },
-    "timestamp": "2026-03-21T08:51:12.157803",
-    "trade_hash": "0x03e62faa6bbb015ed5eb60ed61e7a87e3ce60d3747e831f69705796ed03ab996",
-    "trade_timestamp": 1774082879,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Gen.G",
-      "side": "BUY",
-      "price": 0.86,
-      "effective_price": 0.86,
-      "size": 118054.36,
-      "amount": 101526.7496,
-      "potential_pnl": 16527.610400000005,
-      "pnl_multiplier": 0.16279069767441867,
-      "is_no": false,
-      "slug": "lol-gen-g2-2026-03-21-game1",
-      "eventSlug": "lol-gen-g2-2026-03-21"
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+54.8%)"
-      ],
-      "category": "sports",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.312,
-      "market_price": 0.86,
-      "edge": 0.548,
-      "edge_percent": 54.800000000000004,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "team performance in recent matches",
-          "individual player skill levels",
-          "strategic matchups between teams"
-        ],
-        "weakest_link": "team performance in recent matches"
-      },
-      "category": "sports",
-      "narrative_drivers": [
-        "team synergy and coordination",
-        "historical performance in tournaments"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "INSIDER_ONLY",
-      "signal_emoji": "\ud83d\udc41\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider activity detected, no clear mispricing",
-      "action_suggestion": "Monitor: insider signal only, no statistical edge",
-      "insider_score": 70,
-      "insider_position": "GEN.G",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.548,
-      "edge_percent": 54.800000000000004
-    },
-    "financial_analyst": {
-      "signal_quality": 51.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 54.8,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.448918+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-21 >7 days ago, removed from API"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
-    "trade_hash": "0x61e06e5ca5d423f3906ac23bba3c39233697fc037092dc37072550a0bc33887c",
-    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-    "trader": {
-      "rank": 1,
-      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-      "username": "Theo4",
-      "profit": 22053933.752321757,
-      "volume": 43013258.515682004,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0xf8dc391ef182ef95cdc73aa3bd61fd88807000af",
-      "side": "SELL",
-      "asset": "72346193983167052704532134887896387209217761135880519903413176791759418897353",
-      "conditionId": "0x34ae6edef62d01800a54869009ccd6b9a1e08260a276e2e2348b630eaec7079e",
-      "size": 2635,
-      "price": 0.035,
-      "timestamp": 1774088767,
-      "title": "Will annual inflation increase by \u22652.8% in March?",
-      "slug": "will-annual-inflation-increase-by-2pt8-in-march",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/january-inflation-annual-vp5qkgK2R7Et.jpg",
-      "eventSlug": "march-inflation-us-annual",
-      "outcome": "No",
-      "outcomeIndex": 1,
-      "name": "finnian995carmela",
-      "pseudonym": "Fixed-Middle",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x61e06e5ca5d423f3906ac23bba3c39233697fc037092dc37072550a0bc33887c",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Will annual inflation increase by \u22652.8% in March?",
-    "market_slug": "march-inflation-us-annual",
-    "amount": 2542.775,
-    "resolution": {
-      "outcome": "No",
-      "checked_at": "2026-04-26T07:40:03.913836+00:00",
-      "insider_win": true,
-      "model_correct": null,
-      "pnl": 70107.94
-    }
-  },
-  {
     "market": "Thunder vs. Wizards: O/U 228.5",
     "market_slug": "nba-okc-was-2026-03-21-total-228pt5",
     "event_slug": "nba-okc-was-2026-03-21-total-228pt5",
@@ -33505,5 +33341,97 @@
     "amount": 3250.0,
     "ai_context": "\u274c SKIP \u2014 Arsenal's recent form and injury list raise concerns about their chances in the upcoming match.\nArsenal has suffered defeats in their last two matches, including a 2-1 loss to Southampton on April 4 and a 1-2 loss to AFC Bournemouth on April 11. Additionally, key players such as Bukayo Saka (Achilles), Martin \u00d8degaard (knee), and Jurrien Timber (ankle) are sidelined, potentially impacting their performance. (espn.",
     "ai_verdict": "SKIP"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xa038b93182f0f88dd08ddff3db9067db3adfcf1da8b5f70cc8ac7c4cf1a4f5e4",
+    "wallet": "0x78b9ac44a6d7d7a076c14e0ad518b301b63c6b76",
+    "trader": {
+      "rank": 4,
+      "address": "0x78b9ac44a6d7d7a076c14e0ad518b301b63c6b76",
+      "username": "Len9311238",
+      "profit": 8709972.988069998,
+      "volume": 16402744.764626998,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x2b51107e8d030397ea728a794405ffbcf1d2e165",
+      "side": "BUY",
+      "asset": "20257190540739490630509657713144742134547949967093643458458133445357169845406",
+      "conditionId": "0x713641f745d71f6ec61f906237ffca3c8583f251e49384429a63ceb0ccdb2d37",
+      "size": 34993.36,
+      "price": 0.03340148130959702,
+      "timestamp": 1777499280,
+      "title": "Will the New York Knicks win the 2026 NBA Finals?",
+      "slug": "will-the-new-york-knicks-win-the-2026-nba-finals",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nba-finals-points-leader-7g2ZEZvMXxLb.jpg",
+      "eventSlug": "2026-nba-champion",
+      "outcome": "Yes",
+      "outcomeIndex": 0,
+      "name": "aaabbb",
+      "pseudonym": "Favorite-Minimum",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xa038b93182f0f88dd08ddff3db9067db3adfcf1da8b5f70cc8ac7c4cf1a4f5e4",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Will the New York Knicks win the 2026 NBA Finals?",
+    "market_slug": "2026-nba-champion",
+    "amount": 1168.83006,
+    "ai_context": "\u2705 COPY \u2014 The New York Knicks have demonstrated strong performance this season, finishing with a 53-29 record and securing the Atlantic Division's second place. (statmuse.com) Their recent form includes a decisive 126-97 victory over the Atlanta Hawks on April 28, 2026. (basketball-reference.com) While the Knicks have shown resilience, the trader's bet on them winning the 2026 NBA Finals is supported by their current form and season performance.",
+    "ai_verdict": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xa5598145e19499228d9ae24f316305318300453698116e176cffae24a3d929c0",
+    "wallet": "0x94f199fb7789f1aef7fff6b758d6b375100f4c7a",
+    "trader": {
+      "rank": 11,
+      "address": "0x94f199fb7789f1aef7fff6b758d6b375100f4c7a",
+      "username": "KeyTransporter",
+      "profit": 5711459.802519929,
+      "volume": 20086062.154324993,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x2687cb380661a0041bf4c4cf3945a034b79e1363",
+      "side": "SELL",
+      "asset": "48758486425438602097230699966267145027460929514527168155793090881385634316204",
+      "conditionId": "0x1b2ed75f75bebfa128fdd02a7e7165dd8c8bf71fda9be1dcf80fd16dbff67029",
+      "size": 1674,
+      "price": 0.8039924731182796,
+      "timestamp": 1777499580,
+      "title": "Counter-Strike: Natus Vincere vs FaZe (BO3) - BLAST Rivals Group B",
+      "slug": "cs2-navi-faze-2026-04-29",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/counter-strike-image-16c415c538.png",
+      "eventSlug": "cs2-navi-faze-2026-04-29",
+      "outcome": "Natus Vincere",
+      "outcomeIndex": 0,
+      "name": "WeekndBets",
+      "pseudonym": "Shocked-Objective",
+      "bio": "",
+      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-4589584-04da318e-074a-4ce0-bdda-0793a2096eef.png",
+      "profileImageOptimized": "",
+      "transactionHash": "0xa5598145e19499228d9ae24f316305318300453698116e176cffae24a3d929c0",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Counter-Strike: Natus Vincere vs FaZe (BO3) - BLAST Rivals Group B",
+    "market_slug": "cs2-navi-faze-2026-04-29",
+    "amount": 1345.8834,
+    "ai_context": "\u2705 COPY \u2014 Natus Vincere has demonstrated strong recent form, including a major victory over FaZe Clan.\nIn March 2024, Natus Vincere won the PGL CS2 Major Copenhagen 2024, defeating FaZe Clan 2-1 in the finals. Justinas \"jL\" Lekavi\u010dius was named the Most Valuable Player of the tournament. (en.wikipedia.org)\nAdditionally, Natus Vincere has consistently reached grand finals in recent tournaments, securing victories in three of them:\nEsports World Cup 2024, defeating G2 2-1.",
+    "ai_verdict": "COPY"
   }
 ]
