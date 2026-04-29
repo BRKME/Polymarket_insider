@@ -3,119 +3,6 @@
     "market": "Thunder vs. Wizards: O/U 228.5",
     "market_slug": "nba-okc-was-2026-03-21-total-228pt5",
     "event_slug": "nba-okc-was-2026-03-21-total-228pt5",
-    "wallet": "0xfd79d8441675ab2d2eb98035bba6dc54551a0f28",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($1,262)",
-        "Low activity (3 txns)"
-      ],
-      "amount": 1261.7,
-      "odds": 0.55,
-      "raw_price": 0.55,
-      "outcome": "Over",
-      "potential_pnl": 1032.3,
-      "pnl_multiplier": 0.8181818181818181,
-      "wallet_age_days": 0,
-      "total_activities": 3
-    },
-    "timestamp": "2026-03-21T11:50:04.368371",
-    "trade_hash": "0x889e18795a1be79341fc50b26d786a936cb19bd3a79b60ac2a370872b588669f",
-    "trade_timestamp": 1774093553,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Over",
-      "side": "BUY",
-      "price": 0.55,
-      "effective_price": 0.55,
-      "size": 2294.0,
-      "amount": 1261.7,
-      "potential_pnl": 1032.3,
-      "pnl_multiplier": 0.8181818181818181,
-      "is_no": false,
-      "slug": "nba-okc-was-2026-03-21-total-228pt5",
-      "eventSlug": "nba-okc-was-2026-03-21"
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+30.0%)"
-      ],
-      "category": "sports",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.25,
-      "market_price": 0.55,
-      "edge": 0.30000000000000004,
-      "edge_percent": 30.000000000000004,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Both teams score efficiently",
-          "Defensive lapses from both sides",
-          "Favorable officiating leading to free throws"
-        ],
-        "weakest_link": "Defensive lapses from both sides"
-      },
-      "category": "sports",
-      "narrative_drivers": [
-        "Recent offensive performances of both teams",
-        "Injury status of key players affecting scoring"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "INSIDER_ONLY",
-      "signal_emoji": "\ud83d\udc41\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider activity detected, no clear mispricing",
-      "action_suggestion": "Monitor: insider signal only, no statistical edge",
-      "insider_score": 70,
-      "insider_position": "OVER",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.30000000000000004,
-      "edge_percent": 30.000000000000004
-    },
-    "financial_analyst": {
-      "signal_quality": 51.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 30.0,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.448934+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-21 >7 days ago, removed from API"
-    }
-  },
-  {
-    "market": "Thunder vs. Wizards: O/U 228.5",
-    "market_slug": "nba-okc-was-2026-03-21-total-228pt5",
-    "event_slug": "nba-okc-was-2026-03-21-total-228pt5",
     "wallet": "0xc08543fdee8bbf07cb54b519fcf1fbb8c1ba2dbc",
     "analysis": {
       "score": 70,
@@ -33433,5 +33320,115 @@
     "amount": 1345.8834,
     "ai_context": "\u2705 COPY \u2014 Natus Vincere has demonstrated strong recent form, including a major victory over FaZe Clan.\nIn March 2024, Natus Vincere won the PGL CS2 Major Copenhagen 2024, defeating FaZe Clan 2-1 in the finals. Justinas \"jL\" Lekavi\u010dius was named the Most Valuable Player of the tournament. (en.wikipedia.org)\nAdditionally, Natus Vincere has consistently reached grand finals in recent tournaments, securing victories in three of them:\nEsports World Cup 2024, defeating G2 2-1.",
     "ai_verdict": "COPY"
+  },
+  {
+    "market": "Spread: Pistons (-9.5)",
+    "market_slug": "nba-orl-det-2026-04-29-spread-home-9pt5",
+    "event_slug": "nba-orl-det-2026-04-29-spread-home-9pt5",
+    "wallet": "0xc0c067a705aea4be68c5ac7583af24a48105a6e7",
+    "analysis": {
+      "score": 70,
+      "flags": [
+        "New wallet (2d old)",
+        "Large bet ($1,271)",
+        "Low activity (16 txns)"
+      ],
+      "amount": 1270.94,
+      "odds": 0.53,
+      "raw_price": 0.53,
+      "outcome": "Pistons",
+      "potential_pnl": 1127.06,
+      "pnl_multiplier": 0.8867924528301886,
+      "wallet_age_days": 2,
+      "total_activities": 16
+    },
+    "timestamp": "2026-04-29T22:39:51.371060",
+    "trade_hash": "0xabbc295b7203e6d8cc3ccf04e62d31f1ab76c488e0bbb19e449cc396a9a0ceb7",
+    "trade_timestamp": 1777501856,
+    "latency": null,
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "Pistons",
+      "outcomeIndex": 0,
+      "normalized_position": "YES",
+      "side": "BUY",
+      "price": 0.53,
+      "effective_price": 0.53,
+      "size": 2398.0,
+      "amount": 1270.94,
+      "potential_pnl": 1127.06,
+      "pnl_multiplier": 0.8867924528301886,
+      "is_no": false,
+      "conditionId": "0x4a0a6f28646ef5891492c1b884be0b2b2c6822474b939bb71b2f88aff0a89dba",
+      "slug": "nba-orl-det-2026-04-29-spread-home-9pt5",
+      "eventSlug": "nba-orl-det-2026-04-29"
+    },
+    "irrationality": {
+      "irrationality_score": 35,
+      "flags": [
+        "Large mispricing edge (+28.4%)"
+      ],
+      "category": "other",
+      "category_info": {
+        "strength": "medium",
+        "typical_overpricing": 0.03,
+        "min_edge": 0.05
+      },
+      "is_irrational": true
+    },
+    "mispricing": {
+      "rational_estimate": 0.246,
+      "market_price": 0.53,
+      "edge": 0.28400000000000003,
+      "edge_percent": 28.400000000000002,
+      "min_edge_required": 0.05,
+      "is_mispriced": true,
+      "edge_quality": "STRONG",
+      "base_rate_class": "common",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "common",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "Pistons maintain a strong home-court advantage",
+          "Opponent struggles with defensive matchups",
+          "Key players for Pistons remain healthy"
+        ],
+        "weakest_link": "Opponent struggles with defensive matchups"
+      },
+      "category": "sports",
+      "narrative_drivers": [
+        "Pistons' recent performance trends",
+        "Public sentiment on team morale and player dynamics"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "CONFLICT",
+      "signal_emoji": "\u26a0\ufe0f",
+      "signal_strength": 70,
+      "interpretation": "Insider buying YES despite statistical overpricing",
+      "action_suggestion": "Requires manual analysis: insider may have real info OR is part of irrational crowd",
+      "insider_score": 70,
+      "insider_position": "YES",
+      "irrationality_score": 35,
+      "is_irrational": true,
+      "is_mispriced": true,
+      "edge": 0.28400000000000003,
+      "edge_percent": 28.400000000000002
+    },
+    "financial_analyst": {
+      "signal_quality": 46.0,
+      "stance": "WATCH_ONLY",
+      "edge_percent": 28.4,
+      "signal_strength": 70.0,
+      "insider_score": 70.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "ai_context": "\u274c SKIP \u2014 Pistons have lost three consecutive games and are on the brink of playoff elimination.\nThey've been eliminated from playoff contention last week. (axios.com)\nHowever, the trader may know about a lineup change not yet public.\nGiven the Pistons' recent struggles and the high spread, betting on them to cover may not be advisable.",
+    "ai_verdict": "SKIP"
   }
 ]
