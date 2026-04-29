@@ -1,169 +1,5 @@
 [
   {
-    "market": "Will the Freedom Movement (GS) win the most seats in the 2026 Slovenian parliamentary election?",
-    "market_slug": "will-the-freedom-movement-gs-win-the-most-seats-in-the-2026-slovenian-parliamentary-election-529",
-    "event_slug": "will-the-freedom-movement-gs-win-the-most-seats-in-the-2026-slovenian-parliamentary-election-529",
-    "wallet": "0xeaa39d0aad995af0cb20dab9ae1cc2fef725545f",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($2,823)",
-        "Low activity (2 txns)"
-      ],
-      "amount": 2823.1099970000005,
-      "odds": 0.6744846903130101,
-      "raw_price": 0.6744846903130101,
-      "outcome": "Yes",
-      "potential_pnl": 1362.470547,
-      "pnl_multiplier": 0.4826133407652694,
-      "wallet_age_days": 0,
-      "total_activities": 2
-    },
-    "timestamp": "2026-03-20T22:21:43.988779",
-    "trade_hash": "0x9caef66b7018460e8f5f8819368ca26d7a676f3dec8941e3a783c68e41b46711",
-    "trade_timestamp": 1774044943,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Yes",
-      "side": "BUY",
-      "price": 0.6744846903130101,
-      "effective_price": 0.6744846903130101,
-      "size": 4185.580544,
-      "amount": 2823.1099970000005,
-      "potential_pnl": 1362.470547,
-      "pnl_multiplier": 0.4826133407652694,
-      "is_no": false,
-      "slug": "will-the-freedom-movement-gs-win-the-most-seats-in-the-2026-slovenian-parliamentary-election-529",
-      "eventSlug": "slovenian-parliamentary-election-winner-791"
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+40.0%)"
-      ],
-      "category": "politics_near",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.02,
-        "min_edge": 0.03
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.274896938062602,
-      "market_price": 0.6744846903130101,
-      "edge": 0.39958775225040805,
-      "edge_percent": 39.9587752250408,
-      "min_edge_required": 0.03,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "The Freedom Movement (GS) maintains strong public support leading up to the election.",
-          "No significant political scandals or crises impact the party negatively.",
-          "Opposition parties fail to unify or present a compelling alternative."
-        ],
-        "weakest_link": "Opposition parties failing to unify or present a compelling alternative, as this is contingent on various political dynamics."
-      },
-      "category": "politics_near",
-      "narrative_drivers": [
-        "Public sentiment towards the Freedom Movement remains favorable.",
-        "Shifts in voter demographics or key issues influencing the electorate."
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "CONFLICT",
-      "signal_emoji": "\u26a0\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider buying YES despite statistical overpricing",
-      "action_suggestion": "Requires manual analysis: insider may have real info OR is part of irrational crowd",
-      "insider_score": 70,
-      "insider_position": "YES",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.39958775225040805,
-      "edge_percent": 39.9587752250408
-    },
-    "financial_analyst": {
-      "signal_quality": 46.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 39.96,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "resolution": {
-      "outcome": "No",
-      "checked_at": "2026-04-26T07:40:02.545227+00:00",
-      "insider_win": false,
-      "model_correct": true,
-      "pnl": -2823.11
-    }
-  },
-  {
-    "type": "TOP_TRADER",
-    "trade_hash": "0xa1e025e01857815e6ba81d05895b6e9365123f88fd30ab2889feeb545da1d740",
-    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-    "trader": {
-      "rank": 1,
-      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-      "username": "Theo4",
-      "profit": 22053933.752321757,
-      "volume": 43013258.515682004,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0xf9885da150836378ce5689395ff4d194683fd63b",
-      "side": "BUY",
-      "asset": "56593789520654207167956730621662106936287736112111884038056973001692803773958",
-      "conditionId": "0x67e1d25da2884ece5c0a77df04b98891fff3e18dde152e7443f6278cc296fdc8",
-      "size": 4210,
-      "price": 0.52,
-      "timestamp": 1774050951,
-      "title": "Spread: Connecticut Huskies (-20.5)",
-      "slug": "cbb-furman-uconn-2026-03-20-spread-home-20pt5",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/ncaa-c14995df96.png",
-      "eventSlug": "cbb-furman-uconn-2026-03-20",
-      "outcome": "Connecticut Huskies",
-      "outcomeIndex": 0,
-      "name": "0xF9885Da150836378ce5689395FF4d194683fd63B-1767719836281",
-      "pseudonym": "Harmful-Wood",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0xa1e025e01857815e6ba81d05895b6e9365123f88fd30ab2889feeb545da1d740",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Spread: Connecticut Huskies (-20.5)",
-    "market_slug": "cbb-furman-uconn-2026-03-20",
-    "amount": 2189.2000000000003,
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.448887+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-20 >7 days ago, removed from API"
-    }
-  },
-  {
     "type": "TOP_TRADER",
     "trade_hash": "0x354a3cd9f5aa73868546a517b195699457a8a65d345513a092650821c6777530",
     "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
@@ -33470,6 +33306,163 @@
     "market_slug": "trump-out-as-president-by-june-30",
     "amount": 1395.0,
     "ai_context": "\u274c SKIP \u2014 Recent polls show President Trump's approval ratings at historic lows, but no immediate signs of his removal by June 30.\nAs of April 2026, President Trump's approval ratings have reached historic lows, with a CNBC poll indicating only 40% approval and 58% disapproval, resulting in a net approval of -18. This decline is attributed to dissatisfaction with his handling of the economy and the Iran conflict. (thedailybeast.",
+    "ai_verdict": "SKIP"
+  },
+  {
+    "market": "Will Crude Oil (CL) hit (HIGH) $175 by end of June?",
+    "market_slug": "will-crude-oil-cl-hit-high-175-by-end-of-june",
+    "event_slug": "will-crude-oil-cl-hit-high-175-by-end-of-june",
+    "wallet": "0x80b8e5bf1a7320b6aa7a8f77065405d02d977c06",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Against trend (7.0% effective odds)",
+        "Large bet ($2,399)",
+        "Low activity (1 txns)"
+      ],
+      "amount": 2399.3990999999983,
+      "odds": 0.06999999999999995,
+      "raw_price": 0.93,
+      "outcome": "No",
+      "potential_pnl": 31877.7309,
+      "pnl_multiplier": 13.285714285714295,
+      "wallet_age_days": 0,
+      "total_activities": 1
+    },
+    "timestamp": "2026-04-29T03:55:49.213688",
+    "trade_hash": "0xc9b19cfdecdacba8e063acf27ea12e7eeb7b52dc4c9daeb1137fce210203b245",
+    "trade_timestamp": 1777434618,
+    "latency": null,
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "No",
+      "outcomeIndex": 1,
+      "normalized_position": "NO",
+      "side": "BUY",
+      "price": 0.93,
+      "effective_price": 0.06999999999999995,
+      "size": 34277.13,
+      "amount": 2399.3990999999983,
+      "potential_pnl": 31877.7309,
+      "pnl_multiplier": 13.285714285714295,
+      "is_no": true,
+      "conditionId": "0x7ae064ed7f3c9f4d201ce007b05b3a23f8e824170981c4d301f07301d554f451",
+      "slug": "will-crude-oil-cl-hit-high-175-by-end-of-june",
+      "eventSlug": "cl-hit-jun-2026"
+    },
+    "irrationality": {
+      "irrationality_score": 35,
+      "flags": [
+        "Large mispricing edge (+72.0%)"
+      ],
+      "category": "other",
+      "category_info": {
+        "strength": "medium",
+        "typical_overpricing": 0.03,
+        "min_edge": 0.05
+      },
+      "is_irrational": true
+    },
+    "mispricing": {
+      "rational_estimate": 0.21000000000000002,
+      "market_price": 0.93,
+      "edge": 0.72,
+      "edge_percent": 72.0,
+      "min_edge_required": 0.05,
+      "is_mispriced": true,
+      "edge_quality": "STRONG",
+      "base_rate_class": "rare",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "rare",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "Significant geopolitical tensions affecting oil supply",
+          "Major disruptions in oil production or refining capacity",
+          "Sustained high demand due to economic recovery or increased consumption"
+        ],
+        "weakest_link": "Sustained high demand due to economic recovery or increased consumption"
+      },
+      "category": "geopolitics",
+      "narrative_drivers": [
+        "Ongoing conflicts in oil-producing regions",
+        "Global economic trends impacting oil consumption"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "ALPHA",
+      "signal_emoji": "\ud83d\udd25",
+      "signal_strength": 130,
+      "interpretation": "Smart money (NO) confirms YES is overpriced",
+      "action_suggestion": "High conviction: insider + statistics aligned",
+      "insider_score": 95,
+      "insider_position": "NO",
+      "irrationality_score": 35,
+      "is_irrational": true,
+      "is_mispriced": true,
+      "edge": 0.72,
+      "edge_percent": 72.0
+    },
+    "financial_analyst": {
+      "signal_quality": 86.0,
+      "stance": "HIGH_CONVICTION",
+      "edge_percent": 72.0,
+      "signal_strength": 130.0,
+      "insider_score": 95.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "ai_context": "\u2705 COPY \u2014 Recent data indicates a significant surge in crude oil prices, suggesting a potential for continued high prices through June.\nAs of April 28, 2026, Brent crude reached approximately $112 per barrel, up 4%, and West Texas Intermediate exceeded $101 per barrel, up nearly 5%. This spike is attributed to escalating tensions and the lack of a diplomatic resolution involving the Strait of Hormuz, raising fears of a prolonged energy crisis or potential armed conflict. (axios.",
+    "ai_verdict": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xd977d8960aeac3e260a4cbe8d9c14bb702566c87124a49cc9f663643efb8e511",
+    "wallet": "0x6a72f61820b26b1fe4d956e17b6dc2a1ea3033ee",
+    "trader": {
+      "rank": 3,
+      "address": "0x6a72f61820b26b1fe4d956e17b6dc2a1ea3033ee",
+      "username": "kch123",
+      "profit": 11997090.88273102,
+      "volume": 287436118.65801406,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x85b9e9226c56d4f2a3ff92c56b745f42498f906d",
+      "side": "SELL",
+      "asset": "46985784934245469874674051973070583024711389039998687745451745904831527332283",
+      "conditionId": "0x852fcfca1dfa1372b768aa6df2269d20564378bb6fe9c64bba3bc040370c1efd",
+      "size": 1738.17,
+      "price": 0.68,
+      "timestamp": 1777435008,
+      "title": "Will Bayern Munich win the 2025\u201326 Champions League?",
+      "slug": "will-bayern-munich-win-the-202526-champions-league",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/uefa-champions-league-2025-26-which-teams-qualify-StbSIjaEx2St.png",
+      "eventSlug": "uefa-champions-league-winner",
+      "outcome": "No",
+      "outcomeIndex": 1,
+      "name": "thefakenick",
+      "pseudonym": "Sizzling-Scallion",
+      "bio": "Everything is obvious in hindsight",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xd977d8960aeac3e260a4cbe8d9c14bb702566c87124a49cc9f663643efb8e511",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Will Bayern Munich win the 2025\u201326 Champions League?",
+    "market_slug": "uefa-champions-league-winner",
+    "amount": 1181.9556000000002,
+    "ai_context": "\u274c SKIP \u2014 Bayern Munich's recent form and upcoming fixtures suggest challenges in securing the 2025\u201326 Champions League title.\nIn the quarter-finals, Bayern Munich faced Real Madrid, with the first leg scheduled for April 7, 2026, at the Santiago Bernab\u00e9u Stadium. (elpais.com) The second leg is set for May 3, 2026, at the Allianz Arena. Additionally, Bayern Munich is contending with injuries to key players, including Harry Kane, whose fitness remains uncertain. (elpais.",
     "ai_verdict": "SKIP"
   }
 ]
