@@ -1,50 +1,5 @@
 [
   {
-    "type": "TOP_TRADER",
-    "trade_hash": "0xe025f77c5bd95fe77f04fbe07c2264655885ae846fc0d98338ba0f41461f13dd",
-    "wallet": "0x16f91db2592924cfed6e03b7e5cb5bb1e32299e3",
-    "trader": {
-      "rank": 20,
-      "address": "0x16f91db2592924cfed6e03b7e5cb5bb1e32299e3",
-      "username": "Jenzigo",
-      "profit": 4049827.0941029997,
-      "volume": 9457725.03433801,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x2c4ca29d332c67d3ad7bf22b3cfe9486e3b1cb39",
-      "side": "SELL",
-      "asset": "87073899845581463485186346288398658568334162612963837182986759797304993556208",
-      "conditionId": "0x6bd56627aa21311850825edb27e53434a0e17a4f782be0086bc07f71eee00d0d",
-      "size": 22222,
-      "price": 0.87,
-      "timestamp": 1774041049,
-      "title": "Putin out as President of Russia by December 31, 2026?",
-      "slug": "putin-out-before-2027",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/putin-out-as-president-of-russia-in-2025-nWuurkC8qfbi.jpg",
-      "eventSlug": "putin-out-before-2027",
-      "outcome": "No",
-      "outcomeIndex": 1,
-      "name": "ololololololololo",
-      "pseudonym": "Better-Mention",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0xe025f77c5bd95fe77f04fbe07c2264655885ae846fc0d98338ba0f41461f13dd",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Putin out as President of Russia by December 31, 2026?",
-    "market_slug": "putin-out-before-2027",
-    "amount": 2888.86,
-    "resolution_last_check": "2026-04-26T07:40:00.671009+00:00"
-  },
-  {
     "market": "Will the Freedom Movement (GS) win the most seats in the 2026 Slovenian parliamentary election?",
     "market_slug": "will-the-freedom-movement-gs-win-the-most-seats-in-the-2026-slovenian-parliamentary-election-529",
     "event_slug": "will-the-freedom-movement-gs-win-the-most-seats-in-the-2026-slovenian-parliamentary-election-529",
@@ -33470,5 +33425,51 @@
     "amount": 4338.7266,
     "ai_context": "\u2705 COPY \u2014 Medvedev has a 2-0 head-to-head record against Cobolli and is in better recent form.\nMedvedev defeated Cobolli twice in straight sets in 2024, including a 6-2, 6-4 win at the Beijing Open. (tennisratio.com) Cobolli has shown improvement recently, reaching the final at the Bavarian Open, but Medvedev's superior head-to-head record and recent form suggest he is the favored player.",
     "ai_verdict": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xe690e682aa621291e95bf8dd76de1117c6951c77c5582d79e9b05d15c581817d",
+    "wallet": "0xd235973291b2b75ff4070e9c0b01728c520b0f29",
+    "trader": {
+      "rank": 5,
+      "address": "0xd235973291b2b75ff4070e9c0b01728c520b0f29",
+      "username": "zxgngl",
+      "profit": 7807265.589240883,
+      "volume": 40551790.62184699,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x5188fa0e8a77e87bc6a58e6781fdfc4e165cc804",
+      "side": "SELL",
+      "asset": "21712452774938486579405065503390580825770961329526390262641406320650803998687",
+      "conditionId": "0xeeb1b35c595b19f9512c55f85fdf93f3625c3cec1a9b6bac6262921fbd87912e",
+      "size": 31000,
+      "price": 0.045,
+      "timestamp": 1777421204,
+      "title": "Trump out as President by June 30?",
+      "slug": "trump-out-as-president-by-june-30",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/trump-out-as-president-by-march-31-c3SENQhH7Ao1.jpg",
+      "eventSlug": "trump-out-as-president-by-june-30",
+      "outcome": "Yes",
+      "outcomeIndex": 0,
+      "name": "AllByMyseIf",
+      "pseudonym": "Parallel-Steamroller",
+      "bio": "Frosen",
+      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-3063734-5d789c1c-92ea-4bf2-a4f6-9ecc42977b56.png",
+      "profileImageOptimized": "",
+      "transactionHash": "0xe690e682aa621291e95bf8dd76de1117c6951c77c5582d79e9b05d15c581817d",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Trump out as President by June 30?",
+    "market_slug": "trump-out-as-president-by-june-30",
+    "amount": 1395.0,
+    "ai_context": "\u274c SKIP \u2014 Recent polls show President Trump's approval ratings at historic lows, but no immediate signs of his removal by June 30.\nAs of April 2026, President Trump's approval ratings have reached historic lows, with a CNBC poll indicating only 40% approval and 58% disapproval, resulting in a net approval of -18. This decline is attributed to dissatisfaction with his handling of the economy and the Iran conflict. (thedailybeast.",
+    "ai_verdict": "SKIP"
   }
 ]
