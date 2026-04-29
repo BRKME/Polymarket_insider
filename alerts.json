@@ -32938,7 +32938,14 @@
     "market_slug": "wta-parry-kabbaj-2026-04-28",
     "amount": 1770.0,
     "ai_context": "\u274c SKIP \u2014 Yasmine Kabbaj has a losing record in her recent matches and is set to face a higher-ranked opponent.\nKabbaj has lost three of her last five matches, including a 2-0 defeat to Lucie Nguyen Tan on April 27, 2026. Diane Parry, ranked 95, has won three of her last five matches, including a 2-0 victory over Marta Kostyuk on April 14, 2026. (aiscore.com)\nGiven these recent performances, the trader's bet on Kabbaj appears to be against the current form of both players.",
-    "ai_verdict": "SKIP"
+    "ai_verdict": "SKIP",
+    "resolution": {
+      "outcome": "Yasmine Kabbaj",
+      "checked_at": "2026-04-29T08:01:41.636410+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 1230.0
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -32984,7 +32991,14 @@
     "market_slug": "atp-svajda-hurkacz-2026-04-28",
     "amount": 1999.9999950000001,
     "ai_context": "\u2705 COPY \u2014 Hurkacz has a superior head-to-head record and recent form compared to Svajda.\nHurkacz has won 3 of their last 10 matches, while Svajda has won 4 of theirs. (stevegtennis.com) Additionally, Hurkacz has a 66.7% win rate on clay over the past 52 weeks, whereas Svajda has a 41.7% win rate on hard courts. (tennisratio.com)",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution": {
+      "outcome": "Hurkacz",
+      "checked_at": "2026-04-29T08:01:43.233261+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 298.85
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -33030,7 +33044,8 @@
     "market_slug": "2026-fifa-world-cup-winner-595",
     "amount": 2294.11728,
     "ai_context": "\u2705 COPY \u2014 France's recent form and squad strength support their World Cup prospects.\nFrance qualified for the 2026 World Cup with a 4-0 victory over Ukraine, maintaining an unbeaten record in their group. (fifa.com) They have reclaimed the top spot in the FIFA/Coca-Cola Men's World Ranking as of April 2026. (inside.fifa.com) Despite the injury of forward Hugo Ekitike, who will miss the World Cup due to an Achilles injury, (vanguardngr.",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution_last_check": "2026-04-29T08:01:43.233319+00:00"
   },
   {
     "type": "TOP_TRADER",
@@ -33076,7 +33091,8 @@
     "market_slug": "cricipl-mum-sun-2026-04-29",
     "amount": 6963.03,
     "ai_context": "\u2705 COPY \u2014 Mumbai Indians have a strong head-to-head record against Sunrisers Hyderabad, winning 15 out of 25 encounters.\nIn their most recent match on March 27, 2024, Sunrisers Hyderabad set a record for the highest-ever team total in IPL history by posting 277/3 against Mumbai Indians. (sportsdunia.com)\nHowever, Mumbai Indians have won 13 of the 20 matches between the two teams. (sportspundit.",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution_last_check": "2026-04-29T08:01:43.940630+00:00"
   },
   {
     "type": "TOP_TRADER",
@@ -33122,7 +33138,8 @@
     "market_slug": "cricipl-mum-sun-2026-04-29",
     "amount": 1740.63,
     "ai_context": "\u2705 COPY \u2014 Mumbai Indians have a strong head-to-head record against Sunrisers Hyderabad, winning 13 out of 20 matches.\nIn their last five encounters, Mumbai Indians have won three times, including victories on April 23, 2025, and April 17, 2025. (sportspundit.com)\nGiven this favorable record, the bet on Mumbai Indians is supported by recent performance.",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution_last_check": "2026-04-29T08:01:43.940658+00:00"
   },
   {
     "type": "TOP_TRADER",
@@ -33168,7 +33185,14 @@
     "market_slug": "wta-sabalen-baptist-2026-04-28",
     "amount": 2699.999999,
     "ai_context": "\u2705 COPY \u2014 Aryna Sabalenka has been in exceptional form, with a 23-1 record this season and a recent victory over Hailey Baptiste.\nSabalenka has won 23 of her 24 matches this season, including a 6-4, 6-4 win over Baptiste in the Miami Open quarterfinals. (espn.com) She also secured a 7-5, 6-2 victory over Peyton Stearns in the Madrid Open first round. (elpais.com)",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution": {
+      "outcome": "Hailey Baptiste",
+      "checked_at": "2026-04-29T08:01:45.379729+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -2700.0
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -33214,7 +33238,14 @@
     "market_slug": "ucl-psg1-bay1-2026-04-28",
     "amount": 1079.0,
     "ai_context": "\u274c SKIP \u2014 FC Bayern M\u00fcnchen is currently playing against Paris Saint-Germain in the Champions League semi-final first leg.\nThe match is ongoing, with Bayern having equalized after PSG took the lead. (elpais.com) Given the live nature of the game, it's challenging to assess the outcome. However, the trader's bet on \"No\" at 83% odds suggests a belief that Bayern will not win. Without further context or insider information, it's difficult to determine the accuracy of this assessment.",
-    "ai_verdict": "SKIP"
+    "ai_verdict": "SKIP",
+    "resolution": {
+      "outcome": "Yes",
+      "checked_at": "2026-04-29T08:01:46.932431+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -1079.0
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -33260,7 +33291,14 @@
     "market_slug": "atp-medvede-cobolli-2026-04-28",
     "amount": 4338.7266,
     "ai_context": "\u2705 COPY \u2014 Medvedev has a 2-0 head-to-head record against Cobolli and is in better recent form.\nMedvedev defeated Cobolli twice in straight sets in 2024, including a 6-2, 6-4 win at the Beijing Open. (tennisratio.com) Cobolli has shown improvement recently, reaching the final at the Bavarian Open, but Medvedev's superior head-to-head record and recent form suggest he is the favored player.",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution": {
+      "outcome": "Flavio Cobolli",
+      "checked_at": "2026-04-29T08:01:48.493246+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -4338.73
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -33306,7 +33344,8 @@
     "market_slug": "trump-out-as-president-by-june-30",
     "amount": 1395.0,
     "ai_context": "\u274c SKIP \u2014 Recent polls show President Trump's approval ratings at historic lows, but no immediate signs of his removal by June 30.\nAs of April 2026, President Trump's approval ratings have reached historic lows, with a CNBC poll indicating only 40% approval and 58% disapproval, resulting in a net approval of -18. This decline is attributed to dissatisfaction with his handling of the economy and the Iran conflict. (thedailybeast.",
-    "ai_verdict": "SKIP"
+    "ai_verdict": "SKIP",
+    "resolution_last_check": "2026-04-29T08:01:49.573129+00:00"
   },
   {
     "market": "Will Crude Oil (CL) hit (HIGH) $175 by end of June?",
@@ -33417,7 +33456,14 @@
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
     },
     "ai_context": "\u2705 COPY \u2014 Recent data indicates a significant surge in crude oil prices, suggesting a potential for continued high prices through June.\nAs of April 28, 2026, Brent crude reached approximately $112 per barrel, up 4%, and West Texas Intermediate exceeded $101 per barrel, up nearly 5%. This spike is attributed to escalating tensions and the lack of a diplomatic resolution involving the Strait of Hormuz, raising fears of a prolonged energy crisis or potential armed conflict. (axios.",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution": {
+      "outcome": "Yes",
+      "checked_at": "2026-04-29T08:02:06.982099+00:00",
+      "insider_win": false,
+      "model_correct": false,
+      "pnl": -2399.4
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -33463,6 +33509,13 @@
     "market_slug": "uefa-champions-league-winner",
     "amount": 1181.9556000000002,
     "ai_context": "\u274c SKIP \u2014 Bayern Munich's recent form and upcoming fixtures suggest challenges in securing the 2025\u201326 Champions League title.\nIn the quarter-finals, Bayern Munich faced Real Madrid, with the first leg scheduled for April 7, 2026, at the Santiago Bernab\u00e9u Stadium. (elpais.com) The second leg is set for May 3, 2026, at the Allianz Arena. Additionally, Bayern Munich is contending with injuries to key players, including Harry Kane, whose fitness remains uncertain. (elpais.",
-    "ai_verdict": "SKIP"
+    "ai_verdict": "SKIP",
+    "resolution": {
+      "outcome": "No",
+      "checked_at": "2026-04-29T08:02:23.401909+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 556.21
+    }
   }
 ]
