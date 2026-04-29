@@ -1,58 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0x354a3cd9f5aa73868546a517b195699457a8a65d345513a092650821c6777530",
-    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-    "trader": {
-      "rank": 1,
-      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-      "username": "Theo4",
-      "profit": 22053933.752321757,
-      "volume": 43013258.515682004,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0xead02f1568144be782d762e2b6a719302830f3ba",
-      "side": "SELL",
-      "asset": "113585316433123442536791100600311303712932916773596400542759753818685391890060",
-      "conditionId": "0xe7b777864caee67c1a016ca4b6e2ba6c5defda54948c8a51c38c279ace34c519",
-      "size": 9999.98,
-      "price": 0.55,
-      "timestamp": 1774057557,
-      "title": "Ducks vs. Utah",
-      "slug": "nhl-ana-utah-2026-03-20",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nhl.png",
-      "eventSlug": "nhl-ana-utah-2026-03-20",
-      "outcome": "Utah",
-      "outcomeIndex": 1,
-      "name": "",
-      "pseudonym": "",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x354a3cd9f5aa73868546a517b195699457a8a65d345513a092650821c6777530",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Ducks vs. Utah",
-    "market_slug": "nhl-ana-utah-2026-03-20",
-    "amount": 5499.9890000000005,
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.448898+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-20 >7 days ago, removed from API"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0x4e1042d526ccb0d64f4e145933c781f8f8ed95ecd9efb95133786509eb3322db",
     "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
     "trader": {
@@ -33517,5 +33465,51 @@
       "model_correct": null,
       "pnl": 556.21
     }
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x3528622976d1123bef495626078c4fb17747bd457326928631a7c2055e62505d",
+    "wallet": "0xd0c042c08f755ff940249f62745e82d356345565",
+    "trader": {
+      "rank": 15,
+      "address": "0xd0c042c08f755ff940249f62745e82d356345565",
+      "username": "alexmulti",
+      "profit": 4804855.613376001,
+      "volume": 9949068.653841998,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xa1360dbbc43a66cfdbccd72ee8aa868d478c97de",
+      "side": "BUY",
+      "asset": "105509530658065521929005822649620491538474208103684744366955937109627519057368",
+      "conditionId": "0x94a2b2a1b9227e44fc464614e63dfca6d4082310291c35623c3d34b70aa53693",
+      "size": 50000,
+      "price": 0.43,
+      "timestamp": 1777477206,
+      "title": "Will Arsenal FC win on 2026-04-29?",
+      "slug": "ucl-atm1-ars-2026-04-29-ars",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/champions-league-pic-QIUFsL8vaDdq.png",
+      "eventSlug": "ucl-atm1-ars-2026-04-29",
+      "outcome": "Yes",
+      "outcomeIndex": 0,
+      "name": "jdsahgf",
+      "pseudonym": "Growing-Farmland-Emphasis",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x3528622976d1123bef495626078c4fb17747bd457326928631a7c2055e62505d",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Will Arsenal FC win on 2026-04-29?",
+    "market_slug": "ucl-atm1-ars-2026-04-29",
+    "amount": 21500.0,
+    "ai_context": "\u274c SKIP \u2014 Arsenal is set to face Atl\u00e9tico Madrid in the first leg of the Champions League semifinals today, April 29, 2026, at 3:00 PM EDT. The match will take place at Atl\u00e9tico's home stadium, the Metropolitano, in Madrid. (theguardian.com) Arsenal's recent form includes a 2-0 loss to Manchester City on April 19 and a 2-0 victory over Newcastle United on April 25. (espn.",
+    "ai_verdict": "SKIP"
   }
 ]
