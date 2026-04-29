@@ -3,119 +3,6 @@
     "market": "Thunder vs. Wizards: O/U 228.5",
     "market_slug": "nba-okc-was-2026-03-21-total-228pt5",
     "event_slug": "nba-okc-was-2026-03-21-total-228pt5",
-    "wallet": "0xc08543fdee8bbf07cb54b519fcf1fbb8c1ba2dbc",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($1,124)",
-        "Low activity (2 txns)"
-      ],
-      "amount": 1124.2,
-      "odds": 0.55,
-      "raw_price": 0.55,
-      "outcome": "Over",
-      "potential_pnl": 919.8,
-      "pnl_multiplier": 0.8181818181818181,
-      "wallet_age_days": 0,
-      "total_activities": 2
-    },
-    "timestamp": "2026-03-21T11:50:20.366005",
-    "trade_hash": "0xa17d49c7085bb80e5998b9d70c8847d5a0370449a216e19355fc4294cff444c9",
-    "trade_timestamp": 1774093529,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Over",
-      "side": "BUY",
-      "price": 0.55,
-      "effective_price": 0.55,
-      "size": 2044.0,
-      "amount": 1124.2,
-      "potential_pnl": 919.8,
-      "pnl_multiplier": 0.8181818181818181,
-      "is_no": false,
-      "slug": "nba-okc-was-2026-03-21-total-228pt5",
-      "eventSlug": "nba-okc-was-2026-03-21"
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+30.0%)"
-      ],
-      "category": "sports",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.25,
-      "market_price": 0.55,
-      "edge": 0.30000000000000004,
-      "edge_percent": 30.000000000000004,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Both teams score efficiently",
-          "Game pace is high",
-          "Defensive performance is below average"
-        ],
-        "weakest_link": "Defensive performance is below average"
-      },
-      "category": "sports",
-      "narrative_drivers": [
-        "Recent offensive trends of both teams",
-        "Injury reports affecting key players"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "INSIDER_ONLY",
-      "signal_emoji": "\ud83d\udc41\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider activity detected, no clear mispricing",
-      "action_suggestion": "Monitor: insider signal only, no statistical edge",
-      "insider_score": 70,
-      "insider_position": "OVER",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.30000000000000004,
-      "edge_percent": 30.000000000000004
-    },
-    "financial_analyst": {
-      "signal_quality": 51.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 30.0,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.448944+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-21 >7 days ago, removed from API"
-    }
-  },
-  {
-    "market": "Thunder vs. Wizards: O/U 228.5",
-    "market_slug": "nba-okc-was-2026-03-21-total-228pt5",
-    "event_slug": "nba-okc-was-2026-03-21-total-228pt5",
     "wallet": "0x8df6f5439cbbb1a658228c38c0758b5f28b31285",
     "analysis": {
       "score": 70,
@@ -33429,6 +33316,52 @@
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
     },
     "ai_context": "\u274c SKIP \u2014 Pistons have lost three consecutive games and are on the brink of playoff elimination.\nThey've been eliminated from playoff contention last week. (axios.com)\nHowever, the trader may know about a lineup change not yet public.\nGiven the Pistons' recent struggles and the high spread, betting on them to cover may not be advisable.",
+    "ai_verdict": "SKIP"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x946c1e8f6215c44ea890ed3e276664b157dbeb832d6cf052b27b333610f5ac78",
+    "wallet": "0xdc876e6873772d38716fda7f2452a78d426d7ab6",
+    "trader": {
+      "rank": 18,
+      "address": "0xdc876e6873772d38716fda7f2452a78d426d7ab6",
+      "username": "432614799197",
+      "profit": 4526176.046413317,
+      "volume": 185485956.8620829,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xcae657bdaa98c95c03ff1bfdd69d002df354a0e7",
+      "side": "SELL",
+      "asset": "97252373406884174080147823976189608062800905314440975894170444084176537621257",
+      "conditionId": "0x561e400fc730dd5d6d580c04e7ce626caab7277fb3cec60f78879e2228b6da9b",
+      "size": 3000,
+      "price": 0.8500362666666667,
+      "timestamp": 1777506186,
+      "title": "Over $10M committed to the Printr public sale?",
+      "slug": "over-10m-committed-to-the-printr-public-sale",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/printr-public-sale-total-commitments-bEQ-dWPkB96q.jpg",
+      "eventSlug": "printr-public-sale-total-commitments",
+      "outcome": "No",
+      "outcomeIndex": 1,
+      "name": "",
+      "pseudonym": "",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x946c1e8f6215c44ea890ed3e276664b157dbeb832d6cf052b27b333610f5ac78",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Over $10M committed to the Printr public sale?",
+    "market_slug": "printr-public-sale-total-commitments",
+    "amount": 2550.1088,
+    "ai_context": "\u274c SKIP \u2014 The Printr public sale has a target raise of $2 million, with current commitments significantly below $10 million.\nThe sale aims to raise $2 million, with a minimum commitment of $200 USDC and a maximum of $200,000 USDC. As of April 29, 2026, the total commitments are approximately $2.5 million, with the largest commitment being $200,000 USDC. (sale.printr.money) However, the trader may have access to information about upcoming large commitments not yet publicly disclosed.",
     "ai_verdict": "SKIP"
   }
 ]
