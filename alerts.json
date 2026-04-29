@@ -1,57 +1,5 @@
 [
   {
-    "type": "TOP_TRADER",
-    "trade_hash": "0x4e1042d526ccb0d64f4e145933c781f8f8ed95ecd9efb95133786509eb3322db",
-    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-    "trader": {
-      "rank": 1,
-      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-      "username": "Theo4",
-      "profit": 22053933.752321757,
-      "volume": 43013258.51568201,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0xcb437c1cae90151d00fb55c014a9d3616ffd3c74",
-      "side": "BUY",
-      "asset": "89108373864437510966053279018117953216832793306244932425971907442192231322683",
-      "conditionId": "0xa975ba5b4a113fd1dab41d787d37d714ba0c5a144dba4a4e06491110d665522d",
-      "size": 1777.9,
-      "price": 0.939579335170707,
-      "timestamp": 1774065055,
-      "title": "Furman Paladins vs. Connecticut Huskies",
-      "slug": "cbb-furman-uconn-2026-03-20",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/ncaa-c14995df96.png",
-      "eventSlug": "cbb-furman-uconn-2026-03-20",
-      "outcome": "Connecticut Huskies",
-      "outcomeIndex": 1,
-      "name": "Stupidity",
-      "pseudonym": "Bossy-Window",
-      "bio": "9206",
-      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-3401687-c0659135-dfd5-496d-8b0e-85cfdaff117a.png",
-      "profileImageOptimized": "",
-      "transactionHash": "0x4e1042d526ccb0d64f4e145933c781f8f8ed95ecd9efb95133786509eb3322db",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Furman Paladins vs. Connecticut Huskies",
-    "market_slug": "cbb-furman-uconn-2026-03-20",
-    "amount": 1670.4781,
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.448908+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-20 >7 days ago, removed from API"
-    }
-  },
-  {
     "market": "LoL: Gen.G vs G2 Esports - Game 1 Winner",
     "market_slug": "lol-gen-g2-2026-03-21-game1",
     "event_slug": "lol-gen-g2-2026-03-21-game1",
@@ -33510,6 +33458,52 @@
     "market_slug": "ucl-atm1-ars-2026-04-29",
     "amount": 21500.0,
     "ai_context": "\u274c SKIP \u2014 Arsenal is set to face Atl\u00e9tico Madrid in the first leg of the Champions League semifinals today, April 29, 2026, at 3:00 PM EDT. The match will take place at Atl\u00e9tico's home stadium, the Metropolitano, in Madrid. (theguardian.com) Arsenal's recent form includes a 2-0 loss to Manchester City on April 19 and a 2-0 victory over Newcastle United on April 25. (espn.",
+    "ai_verdict": "SKIP"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xf85473003797251537b4046cc9687dd33fb915a5692c6898ed9b806bf6e37c3b",
+    "wallet": "0x6a72f61820b26b1fe4d956e17b6dc2a1ea3033ee",
+    "trader": {
+      "rank": 3,
+      "address": "0x6a72f61820b26b1fe4d956e17b6dc2a1ea3033ee",
+      "username": "kch123",
+      "profit": 12003748.66936255,
+      "volume": 287448607.2302161,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xa1360dbbc43a66cfdbccd72ee8aa868d478c97de",
+      "side": "BUY",
+      "asset": "105509530658065521929005822649620491538474208103684744366955937109627519057368",
+      "conditionId": "0x94a2b2a1b9227e44fc464614e63dfca6d4082310291c35623c3d34b70aa53693",
+      "size": 5000,
+      "price": 0.65,
+      "timestamp": 1777492666,
+      "title": "Will Arsenal FC win on 2026-04-29?",
+      "slug": "ucl-atm1-ars-2026-04-29-ars",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/champions-league-pic-QIUFsL8vaDdq.png",
+      "eventSlug": "ucl-atm1-ars-2026-04-29",
+      "outcome": "Yes",
+      "outcomeIndex": 0,
+      "name": "jdsahgf",
+      "pseudonym": "Growing-Farmland-Emphasis",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xf85473003797251537b4046cc9687dd33fb915a5692c6898ed9b806bf6e37c3b",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Will Arsenal FC win on 2026-04-29?",
+    "market_slug": "ucl-atm1-ars-2026-04-29",
+    "amount": 3250.0,
+    "ai_context": "\u274c SKIP \u2014 Arsenal's recent form and injury list raise concerns about their chances in the upcoming match.\nArsenal has suffered defeats in their last two matches, including a 2-1 loss to Southampton on April 4 and a 1-2 loss to AFC Bournemouth on April 11. Additionally, key players such as Bukayo Saka (Achilles), Martin \u00d8degaard (knee), and Jurrien Timber (ankle) are sidelined, potentially impacting their performance. (espn.",
     "ai_verdict": "SKIP"
   }
 ]
