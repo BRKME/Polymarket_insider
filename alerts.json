@@ -1,110 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0x94769849c1d74dac8d968fa9031b47c5798ba0e5be9daafb8a0fcc06a2f5dbe3",
-    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-    "trader": {
-      "rank": 1,
-      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-      "username": "Theo4",
-      "profit": 22053933.752321757,
-      "volume": 43013258.51568201,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x14a056c698f46d181d1e650e7a7a0f7d1d8a22bb",
-      "side": "SELL",
-      "asset": "74686534192387232360436892413215696562010774921877517880549748276397471176963",
-      "conditionId": "0xb05f87492cd379d27deccf1eb38a8aba71216317b31b5f15d1f41b9bc18319f3",
-      "size": 2912.46,
-      "price": 0.8174163765339266,
-      "timestamp": 1774112175,
-      "title": "LoL: Bilibili Gaming vs JD Gaming (BO5) - First Stand Playoffs",
-      "slug": "lol-blg-jdg-2026-03-21",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/league-of-legends-61a4f083a6.png",
-      "eventSlug": "lol-blg-jdg-2026-03-21",
-      "outcome": "Bilibili Gaming",
-      "outcomeIndex": 0,
-      "name": "gnose",
-      "pseudonym": "Neighboring-Snowsuit",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x94769849c1d74dac8d968fa9031b47c5798ba0e5be9daafb8a0fcc06a2f5dbe3",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "LoL: Bilibili Gaming vs JD Gaming (BO5) - First Stand Playoffs",
-    "market_slug": "lol-blg-jdg-2026-03-21",
-    "amount": 2380.6925,
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.448992+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-21 >7 days ago, removed from API"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
-    "trade_hash": "0x6f6f5ebd7cfee65e81a5ad210d446cc1187f87462343ecf624e6fb51e8702bdb",
-    "wallet": "0xd235973291b2b75ff4070e9c0b01728c520b0f29",
-    "trader": {
-      "rank": 5,
-      "address": "0xd235973291b2b75ff4070e9c0b01728c520b0f29",
-      "username": "zxgngl",
-      "profit": 7807265.589240883,
-      "volume": 40551790.62184699,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x99e42eb9038705165b22f821e27659c1dc41e4c4",
-      "side": "SELL",
-      "asset": "60832842270124197536093153288000759796820984556909516527686428747665816266639",
-      "conditionId": "0x05cd7f4580c9ec9b8f6ede3e7e0cf1aadfb0b2e8245e2e58619e2e770e6c8866",
-      "size": 5811.69,
-      "price": 0.279001770569318,
-      "timestamp": 1774117877,
-      "title": "Counter-Strike: PARIVISION vs Spirit (BO3) - BLAST Open Rotterdam Group B",
-      "slug": "cs2-prv-ts7-2026-03-21",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/counter-strike-image-16c415c538.png",
-      "eventSlug": "cs2-prv-ts7-2026-03-21",
-      "outcome": "PARIVISION",
-      "outcomeIndex": 0,
-      "name": "acorp",
-      "pseudonym": "Untimely-Spite",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x6f6f5ebd7cfee65e81a5ad210d446cc1187f87462343ecf624e6fb51e8702bdb",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Counter-Strike: PARIVISION vs Spirit (BO3) - BLAST Open Rotterdam Group B",
-    "market_slug": "cs2-prv-ts7-2026-03-21",
-    "amount": 1621.4717999999998,
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.449001+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-21 >7 days ago, removed from API"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0x4eab03990fc00fde14caa59dfa6e758a2604f9a90895ad5b7c637214800e87f4",
     "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
     "trader": {
@@ -33437,6 +33333,98 @@
     "market_slug": "atp-cobolli-zverev-2026-04-29",
     "amount": 1323.789999,
     "ai_context": "\u2705 COPY \u2014 Flavio Cobolli has demonstrated strong recent form, including a notable victory over Daniil Medvedev at the Madrid Open.\nCobolli advanced to the quarterfinals of the Madrid Open by defeating Medvedev 6-3, 5-7, 6-4 in the Round of 16. (sportsmole.co.uk) Additionally, he secured a title at the ATP 500 tournament in Acapulco, defeating Frances Tiafoe 7-6(4), 6-4 in the final. (as.",
+    "ai_verdict": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x5ca539a892802f68a84961da41076bbc0e4255990708fe3b2b8ca14556e31826",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.51568201,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x851c7863bd0e0ad5f8118cf57d304e754e0cdafd",
+      "side": "BUY",
+      "asset": "114940775952390233136841086743439972823323664132195957476936149506896581762151",
+      "conditionId": "0x5360d3d712f14b4145ca52c07aeb545452138d308a44e39cfb776320103f7845",
+      "size": 2590.909089,
+      "price": 0.4399999999382456,
+      "timestamp": 1777575158,
+      "title": "Knicks vs. Hawks",
+      "slug": "nba-nyk-atl-2026-04-30",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
+      "eventSlug": "nba-nyk-atl-2026-04-30",
+      "outcome": "Hawks",
+      "outcomeIndex": 1,
+      "name": "Watchmytradesbit3h",
+      "pseudonym": "Limited-Cry",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x5ca539a892802f68a84961da41076bbc0e4255990708fe3b2b8ca14556e31826",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Knicks vs. Hawks",
+    "market_slug": "nba-nyk-atl-2026-04-30",
+    "amount": 1139.9999990000001,
+    "ai_context": "\u2705 COPY \u2014 Recent head-to-head results favor the Hawks, and they have a strong home-court advantage.\nIn the last five matchups, the Hawks have won three games, including a 109-108 victory on April 23, 2026. At home, the Hawks have a 74% win rate this season, compared to the Knicks' 65% away win rate. (sportspundit.com)\nGiven these factors, the trader's bet on the Hawks is supported by recent performance and home-court advantage.",
+    "ai_verdict": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xaa3751dae1f21894dea1b63ce5748eef9bcd26a6db4a4482c616cac1074317dd",
+    "wallet": "0xd0c042c08f755ff940249f62745e82d356345565",
+    "trader": {
+      "rank": 16,
+      "address": "0xd0c042c08f755ff940249f62745e82d356345565",
+      "username": "alexmulti",
+      "profit": 4804855.613376001,
+      "volume": 9949068.653841998,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+      "side": "BUY",
+      "asset": "63291245268602497999710710926410559302037109342677799993080242306208972452677",
+      "conditionId": "0x3956f8597a0ee406a03be544fb2e71c9f92e67efef70df0862df04ff69ede24e",
+      "size": 1815.5,
+      "price": 0.88,
+      "timestamp": 1777575782,
+      "title": "Nottingham Forest FC vs. Aston Villa FC: O/U 4.5",
+      "slug": "uel-not-ast4-2026-04-30-total-4pt5",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/uel.png",
+      "eventSlug": "uel-not-ast4-2026-04-30-more-markets",
+      "outcome": "Under",
+      "outcomeIndex": 1,
+      "name": "swisstony",
+      "pseudonym": "Frail-Possible",
+      "bio": "loincloth chic",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xaa3751dae1f21894dea1b63ce5748eef9bcd26a6db4a4482c616cac1074317dd",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Nottingham Forest FC vs. Aston Villa FC: O/U 4.5",
+    "market_slug": "uel-not-ast4-2026-04-30-more-markets",
+    "amount": 1597.64,
+    "ai_context": "\u2705 COPY \u2014 Recent matches between Nottingham Forest and Aston Villa have consistently exceeded 4.5 total goals.\nIn their last three encounters, the total goals were 3, 4, and 2, respectively, all surpassing the 4.5 goal mark. (statmuse.com)",
     "ai_verdict": "COPY"
   }
 ]
