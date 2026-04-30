@@ -1,118 +1,5 @@
 [
   {
-    "market": "Thunder vs. Wizards: O/U 228.5",
-    "market_slug": "nba-okc-was-2026-03-21-total-228pt5",
-    "event_slug": "nba-okc-was-2026-03-21-total-228pt5",
-    "wallet": "0x8df6f5439cbbb1a658228c38c0758b5f28b31285",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($1,041)",
-        "Low activity (2 txns)"
-      ],
-      "amount": 1040.8500000000001,
-      "odds": 0.45,
-      "raw_price": 0.45,
-      "outcome": "Under",
-      "potential_pnl": 1272.1500000000003,
-      "pnl_multiplier": 1.2222222222222223,
-      "wallet_age_days": 0,
-      "total_activities": 2
-    },
-    "timestamp": "2026-03-21T11:50:23.483847",
-    "trade_hash": "0xb89f568f0f3d0e5fbcd4f2f653d11d35141f575c2e1bac3897601777798b4292",
-    "trade_timestamp": 1774093529,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Under",
-      "side": "BUY",
-      "price": 0.45,
-      "effective_price": 0.45,
-      "size": 2313.0,
-      "amount": 1040.8500000000001,
-      "potential_pnl": 1272.1500000000003,
-      "pnl_multiplier": 1.2222222222222223,
-      "is_no": false,
-      "slug": "nba-okc-was-2026-03-21-total-228pt5",
-      "eventSlug": "nba-okc-was-2026-03-21"
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+22.0%)"
-      ],
-      "category": "sports",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.22999999999999998,
-      "market_price": 0.45,
-      "edge": 0.22000000000000003,
-      "edge_percent": 22.000000000000004,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Both teams have high-scoring offenses",
-          "Defensive strategies are ineffective",
-          "Game pace is fast"
-        ],
-        "weakest_link": "Defensive strategies are ineffective"
-      },
-      "category": "sports",
-      "narrative_drivers": [
-        "Recent high-scoring games by both teams",
-        "Injury reports affecting key defensive players"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "INSIDER_ONLY",
-      "signal_emoji": "\ud83d\udc41\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider activity detected, no clear mispricing",
-      "action_suggestion": "Monitor: insider signal only, no statistical edge",
-      "insider_score": 70,
-      "insider_position": "UNDER",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.22000000000000003,
-      "edge_percent": 22.000000000000004
-    },
-    "financial_analyst": {
-      "signal_quality": 51.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 22.0,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.448953+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-21 >7 days ago, removed from API"
-    }
-  },
-  {
     "type": "TOP_TRADER",
     "trade_hash": "0xe239f46f28b6b89510082c382106365c66b9d4dc8c8ac324a340ae1b738c1097",
     "wallet": "0x94f199fb7789f1aef7fff6b758d6b375100f4c7a",
@@ -33363,5 +33250,51 @@
     "amount": 2550.1088,
     "ai_context": "\u274c SKIP \u2014 The Printr public sale has a target raise of $2 million, with current commitments significantly below $10 million.\nThe sale aims to raise $2 million, with a minimum commitment of $200 USDC and a maximum of $200,000 USDC. As of April 29, 2026, the total commitments are approximately $2.5 million, with the largest commitment being $200,000 USDC. (sale.printr.money) However, the trader may have access to information about upcoming large commitments not yet publicly disclosed.",
     "ai_verdict": "SKIP"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x904c9d4a088b95b53d9ca0967984fd5048eddbfe20df461dfd53ed6e240323d1",
+    "wallet": "0x1f2dd6d473f3e824cd2f8a89d9c69fb96f6ad0cf",
+    "trader": {
+      "rank": 2,
+      "address": "0x1f2dd6d473f3e824cd2f8a89d9c69fb96f6ad0cf",
+      "username": "Fredi9999",
+      "profit": 16619506.631730152,
+      "volume": 76611316.90515402,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x6a72f61820b26b1fe4d956e17b6dc2a1ea3033ee",
+      "side": "BUY",
+      "asset": "78861433980812072231401629120325997123786665902751002514954674922124206499190",
+      "conditionId": "0xfefabc643cdf485ff8465bca41e066e5afb3c36abea93b823bab4de7d9bcd0f2",
+      "size": 2859,
+      "price": 0.73,
+      "timestamp": 1777511912,
+      "title": "Canadiens vs. Lightning",
+      "slug": "nhl-mon-tb-2026-04-29",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nhl.png",
+      "eventSlug": "nhl-mon-tb-2026-04-29",
+      "outcome": "Canadiens",
+      "outcomeIndex": 0,
+      "name": "kch123",
+      "pseudonym": "Aggravating-Grin",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x904c9d4a088b95b53d9ca0967984fd5048eddbfe20df461dfd53ed6e240323d1",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Canadiens vs. Lightning",
+    "market_slug": "nhl-mon-tb-2026-04-29",
+    "amount": 2087.07,
+    "ai_context": "\u2705 COPY \u2014 Canadiens have won 2 of their last 3 games against the Lightning, including a recent 2-1 victory.\nIn their most recent matchup on April 9, 2026, the Canadiens defeated the Lightning 2-1.  Prior to that, the Canadiens secured a 5-2 win on December 29, 2024. (rantsports.com) The Lightning's only recent victory was a 5-4 win on December 28, 2025. (rantsports.com)\nThe Canadiens' recent form includes a 2-1 win over the Lightning on April 9, 2026.",
+    "ai_verdict": "COPY"
   }
 ]
