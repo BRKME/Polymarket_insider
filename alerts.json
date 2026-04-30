@@ -1,58 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0xfa261a471fd1191758ac2ec6e8b3f5c857202d257cbb55d894e0c0603a5c0845",
-    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-    "trader": {
-      "rank": 1,
-      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-      "username": "Theo4",
-      "profit": 22053933.752321757,
-      "volume": 43013258.51568201,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
-      "side": "BUY",
-      "asset": "38745525870194276460552298698138264446153239547179704901467886071904126001563",
-      "conditionId": "0xd0be41714666882bf170445643d18992be73ce8c2e9012597b5bba31abd0eefb",
-      "size": 2636.57,
-      "price": 0.7599620719343693,
-      "timestamp": 1774110673,
-      "title": "Counter-Strike: MOUZ vs 9z - Map 2 Winner",
-      "slug": "cs2-mouz-9z-2026-03-21-game2",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/counter-strike-image-16c415c538.png",
-      "eventSlug": "cs2-mouz-9z-2026-03-21",
-      "outcome": "MOUZ",
-      "outcomeIndex": 0,
-      "name": "RN1",
-      "pseudonym": "Scary-Edible",
-      "bio": "",
-      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1567750-84001aec-310a-470f-9584-67dfcaa61267.png",
-      "profileImageOptimized": "",
-      "transactionHash": "0xfa261a471fd1191758ac2ec6e8b3f5c857202d257cbb55d894e0c0603a5c0845",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Counter-Strike: MOUZ vs 9z - Map 2 Winner",
-    "market_slug": "cs2-mouz-9z-2026-03-21",
-    "amount": 2003.6932000000002,
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.448982+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-21 >7 days ago, removed from API"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0x94769849c1d74dac8d968fa9031b47c5798ba0e5be9daafb8a0fcc06a2f5dbe3",
     "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
     "trader": {
@@ -33444,5 +33392,51 @@
     "amount": 1548.999999,
     "ai_context": "\u274c SKIP \u2014 Ultra Prime's recent form and head-to-head record against EDward Gaming do not support this bet.\nUltra Prime has a 1-1 record in the current LPL 2026 Split 2, with a loss to ThunderTalk Gaming and a win against LGD Gaming. Their overall head-to-head record against EDward Gaming is 4 wins to 10 losses. In their most recent encounter on March 27, 2026, Ultra Prime won 2-1. (freetips.",
     "ai_verdict": "SKIP"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x97f0d3ae27da5c844d3eafd85a35eb39d07dc0ab6c05c72578b91351407dbd48",
+    "wallet": "0x16f91db2592924cfed6e03b7e5cb5bb1e32299e3",
+    "trader": {
+      "rank": 19,
+      "address": "0x16f91db2592924cfed6e03b7e5cb5bb1e32299e3",
+      "username": "Jenzigo",
+      "profit": 4049827.0941029997,
+      "volume": 9457725.034338009,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xde1d31dafca37c89fb7aebc4371cfe54be3d44a6",
+      "side": "BUY",
+      "asset": "71285240616390675631208599154440828205323492324495469406281790261838342166737",
+      "conditionId": "0x461c6924c3eb7f664ea68f300574ab6f220b022eed9feaaf2fb6360f1fda30d0",
+      "size": 4011.484847,
+      "price": 0.32999999987286505,
+      "timestamp": 1777571374,
+      "title": "Madrid Open: Flavio Cobolli vs Alexander Zverev",
+      "slug": "atp-cobolli-zverev-2026-04-29",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/atp-tour-b4390c4fb8.jpg",
+      "eventSlug": "atp-cobolli-zverev-2026-04-29",
+      "outcome": "Flavio Cobolli",
+      "outcomeIndex": 0,
+      "name": "0xDE1D31dAFca37c89FB7aebC4371CFE54Be3D44a6-1776259363293",
+      "pseudonym": "Bouncy-Spec-Kilt",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x97f0d3ae27da5c844d3eafd85a35eb39d07dc0ab6c05c72578b91351407dbd48",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Madrid Open: Flavio Cobolli vs Alexander Zverev",
+    "market_slug": "atp-cobolli-zverev-2026-04-29",
+    "amount": 1323.789999,
+    "ai_context": "\u2705 COPY \u2014 Flavio Cobolli has demonstrated strong recent form, including a notable victory over Daniil Medvedev at the Madrid Open.\nCobolli advanced to the quarterfinals of the Madrid Open by defeating Medvedev 6-3, 5-7, 6-4 in the Round of 16. (sportsmole.co.uk) Additionally, he secured a title at the ATP 500 tournament in Acapulco, defeating Frances Tiafoe 7-6(4), 6-4 in the final. (as.",
+    "ai_verdict": "COPY"
   }
 ]
