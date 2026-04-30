@@ -1,110 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0x4eab03990fc00fde14caa59dfa6e758a2604f9a90895ad5b7c637214800e87f4",
-    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-    "trader": {
-      "rank": 1,
-      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-      "username": "Theo4",
-      "profit": 22053933.752321757,
-      "volume": 43013258.515682004,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x492442eab586f242b53bda933fd5de859c8a3782",
-      "side": "BUY",
-      "asset": "111667289987821867996523210098284403486242703860066560244877969999789712250266",
-      "conditionId": "0x95bc92b3899a98cb0e6adb127fcf503a3656f1d9c2104e6da3b7acfd80a53383",
-      "size": 20004.75,
-      "price": 0.45,
-      "timestamp": 1774120877,
-      "title": "OGC Nice vs. Paris Saint-Germain FC: O/U 3.5",
-      "slug": "fl1-ogc-psg-2026-03-21-total-3pt5",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/league-fl1.png",
-      "eventSlug": "fl1-ogc-psg-2026-03-21-more-markets",
-      "outcome": "Over",
-      "outcomeIndex": 0,
-      "name": "0x492442EaB586F242B53bDa933fD5dE859c8A3782-1766317541188",
-      "pseudonym": "Multicolored-Self",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x4eab03990fc00fde14caa59dfa6e758a2604f9a90895ad5b7c637214800e87f4",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "OGC Nice vs. Paris Saint-Germain FC: O/U 3.5",
-    "market_slug": "fl1-ogc-psg-2026-03-21-more-markets",
-    "amount": 9002.1375,
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.449010+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-21 >7 days ago, removed from API"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
-    "trade_hash": "0x2b5175760d1cfee74b21ee23048742bfc6255b345010fdd1a0775d6b1595f8ad",
-    "wallet": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
-    "trader": {
-      "rank": 17,
-      "address": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
-      "username": "GamblingIsAllYouNeed",
-      "profit": 4583346.255325291,
-      "volume": 273255557.3555661,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x3f5ea0a8053e81ce2f59814118869322c35fe7db",
-      "side": "BUY",
-      "asset": "59710325672987047484152804198498095977107600959651145229891529355298398088578",
-      "conditionId": "0x0954cc08de0ab8345bcf24f314d571e6a77d913ea9977ce2b4187983a70b450d",
-      "size": 8578.79,
-      "price": 0.4,
-      "timestamp": 1774122679,
-      "title": "Lakers vs. Magic",
-      "slug": "nba-lal-orl-2026-03-21",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
-      "eventSlug": "nba-lal-orl-2026-03-21",
-      "outcome": "Magic",
-      "outcomeIndex": 1,
-      "name": "piggyery",
-      "pseudonym": "Pleasing-Biology",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x2b5175760d1cfee74b21ee23048742bfc6255b345010fdd1a0775d6b1595f8ad",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Lakers vs. Magic",
-    "market_slug": "nba-lal-orl-2026-03-21",
-    "amount": 3431.5160000000005,
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.449019+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-21 >7 days ago, removed from API"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0x955f8b0b9737f3f10dfd577a2068d5260917f1c71c44ff6212ccb2d46d95a070",
     "wallet": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
     "trader": {
@@ -33426,5 +33322,97 @@
     "amount": 1597.64,
     "ai_context": "\u2705 COPY \u2014 Recent matches between Nottingham Forest and Aston Villa have consistently exceeded 4.5 total goals.\nIn their last three encounters, the total goals were 3, 4, and 2, respectively, all surpassing the 4.5 goal mark. (statmuse.com)",
     "ai_verdict": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xa187ceb1ba1fc77394093d0b6e10c9a4878bf2becd636c88ccee5cabc31df7c9",
+    "wallet": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+    "trader": {
+      "rank": 8,
+      "address": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+      "username": "swisstony",
+      "profit": 6794264.785563693,
+      "volume": 714784625.687823,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x7476205b5c7dbb238bc7d6c3101a61c164d7f26a",
+      "side": "SELL",
+      "asset": "93730658350732768649834008472861182019192630377489777653117511245710309885595",
+      "conditionId": "0xe546672750517f62c45a5a00067481981e62b9c20fa8220203232c9dc8fd2093",
+      "size": 17992.83,
+      "price": 0.87,
+      "timestamp": 1777583638,
+      "title": "Russia x Ukraine ceasefire by June 30, 2026?",
+      "slug": "russia-x-ukraine-ceasefire-by-june-30-2026",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/russia-x-ukraine-ceasefire-in-2025-w2voYOygx80B.jpg",
+      "eventSlug": "russia-x-ukraine-ceasefire-by-june-30-2026",
+      "outcome": "No",
+      "outcomeIndex": 1,
+      "name": "DarthMaulReturns",
+      "pseudonym": "High-Puppy",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xa187ceb1ba1fc77394093d0b6e10c9a4878bf2becd636c88ccee5cabc31df7c9",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Russia x Ukraine ceasefire by June 30, 2026?",
+    "market_slug": "russia-x-ukraine-ceasefire-by-june-30-2026",
+    "amount": 15653.762100000002,
+    "ai_context": "\u274c SKIP \u2014 Recent developments indicate a lack of progress toward a ceasefire by June 30, 2026.\nDespite a 32-hour Orthodox Easter truce in April 2026, both Russia and Ukraine reported violations, with ongoing military operations. (apnews.com) Additionally, Russian advances and Ukrainian counterattacks have diminished hopes for a ceasefire by June 30, 2026. (cryptobriefing.",
+    "ai_verdict": "SKIP"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x8a17339bb10384bf247ab125cb7ae2c5e488f75eb49d5978be5fd4bf27ce7cd5",
+    "wallet": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+    "trader": {
+      "rank": 8,
+      "address": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+      "username": "swisstony",
+      "profit": 6794264.785563693,
+      "volume": 714784625.687823,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x987069e3ba77f73bc43fcad0dd43fa3eced7b9d3",
+      "side": "BUY",
+      "asset": "6583357871212360718822001350303665409333215855667261572173861988863763451646",
+      "conditionId": "0xb77a90106dc0cfa6420c2a38d760729a46b5b6455ce461ac8b7c4a1e90ea6de5",
+      "size": 2500,
+      "price": 0.61,
+      "timestamp": 1777583638,
+      "title": "Pistons vs. Magic",
+      "slug": "nba-det-orl-2026-05-01",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
+      "eventSlug": "nba-det-orl-2026-05-01",
+      "outcome": "Pistons",
+      "outcomeIndex": 0,
+      "name": "NoMMS111",
+      "pseudonym": "Earnest-Spy",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x8a17339bb10384bf247ab125cb7ae2c5e488f75eb49d5978be5fd4bf27ce7cd5",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Pistons vs. Magic",
+    "market_slug": "nba-det-orl-2026-05-01",
+    "amount": 1525.0,
+    "ai_context": "\u274c SKIP \u2014 Pistons have lost 4 of their last 5 games against the Magic.\nIn their most recent matchup on April 29, 2026, the Pistons lost 116-109 to the Magic. (betexplorer.com)\nHowever, the Pistons have been strong throughout the season, finishing first in the Eastern Conference with a 60-22 record. (foxsports.com)\nThe trader may have insider information about the Pistons' lineup or strategy changes not yet public.",
+    "ai_verdict": "SKIP"
   }
 ]
