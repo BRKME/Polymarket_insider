@@ -27070,7 +27070,15 @@
     "market_slug": "atp-collign-berrett-2026-04-22",
     "amount": 4858.7959,
     "ai_context": "\u2705 COPY \u2014 Berrettini's recent form and head-to-head record support this bet.\nMatteo Berrettini has won his last 11 singles matches, including a 6-3, 6-4 victory over Raphael Collignon in the 2025 Davis Cup. (en.wikipedia.org) He also reached the round of 16 in Monte Carlo recently. (thestatszone.com) While Berrettini has faced injury challenges, his current form and past performance against Collignon suggest a strong chance of winning.",
-    "resolution_last_check": "2026-04-26T07:41:55.371393+00:00"
+    "resolution_last_check": "2026-04-26T07:41:55.371393+00:00",
+    "resolution": {
+      "outcome": "EXPIRED",
+      "checked_at": "2026-04-30T08:04:54.668261+00:00",
+      "insider_win": null,
+      "model_correct": null,
+      "pnl": null,
+      "note": "Market date 2026-04-22 >7 days ago, removed from API"
+    }
   },
   {
     "type": "WHALE_FLOW",
@@ -31963,7 +31971,14 @@
     },
     "ai_context": "\u274c SKIP \u2014 Recent developments indicate the U.S. has lifted the blockade, making Trump's announcement unlikely by April 30, 2026. On April 17, 2026, Iran declared the Strait of Hormuz fully open for commercial vessels during the ceasefire period, with conditions set by Tehran. (icis.com) President Trump acknowledged this by expressing gratitude for Iran's announcement. (euronews.",
     "ai_verdict": "SKIP",
-    "resolution_last_check": "2026-04-28T08:08:20.484214+00:00"
+    "resolution_last_check": "2026-04-28T08:08:20.484214+00:00",
+    "resolution": {
+      "outcome": "No",
+      "checked_at": "2026-04-30T08:05:15.758329+00:00",
+      "insider_win": true,
+      "model_correct": true,
+      "pnl": 11375.0
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -32233,7 +32248,14 @@
     },
     "ai_context": "\u2705 COPY \u2014 Recent data indicates a significant chance of Bitcoin reaching $75,000 by April 2026.\nAs of April 21, 2026, Bitcoin's closing price was $76,352.78, up 11.9% for the month. (statmuse.com) Prediction markets assign a 47.5% probability to Bitcoin reaching $75,000 by April 2026. (coingecko.com) Additionally, technical analysis suggests resistance around $74,000\u2013$75,000, with some models giving Bitcoin about a 65% chance of reaching ~$75K in April. (moneymagpie.",
     "ai_verdict": "COPY",
-    "resolution_last_check": "2026-04-28T08:08:26.210898+00:00"
+    "resolution_last_check": "2026-04-28T08:08:26.210898+00:00",
+    "resolution": {
+      "outcome": "No",
+      "checked_at": "2026-04-30T08:05:18.253160+00:00",
+      "insider_win": false,
+      "model_correct": true,
+      "pnl": -12755.66
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -32433,7 +32455,14 @@
     "amount": 6963.03,
     "ai_context": "\u2705 COPY \u2014 Mumbai Indians have a strong head-to-head record against Sunrisers Hyderabad, winning 15 out of 25 encounters.\nIn their most recent match on March 27, 2024, Sunrisers Hyderabad set a record for the highest-ever team total in IPL history by posting 277/3 against Mumbai Indians. (sportsdunia.com)\nHowever, Mumbai Indians have won 13 of the 20 matches between the two teams. (sportspundit.",
     "ai_verdict": "COPY",
-    "resolution_last_check": "2026-04-29T08:01:43.940630+00:00"
+    "resolution_last_check": "2026-04-29T08:01:43.940630+00:00",
+    "resolution": {
+      "outcome": "Sunrisers Hyderabad",
+      "checked_at": "2026-04-30T08:05:19.692818+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -6963.03
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -32480,7 +32509,14 @@
     "amount": 1740.63,
     "ai_context": "\u2705 COPY \u2014 Mumbai Indians have a strong head-to-head record against Sunrisers Hyderabad, winning 13 out of 20 matches.\nIn their last five encounters, Mumbai Indians have won three times, including victories on April 23, 2025, and April 17, 2025. (sportspundit.com)\nGiven this favorable record, the bet on Mumbai Indians is supported by recent performance.",
     "ai_verdict": "COPY",
-    "resolution_last_check": "2026-04-29T08:01:43.940658+00:00"
+    "resolution_last_check": "2026-04-29T08:01:43.940658+00:00",
+    "resolution": {
+      "outcome": "Sunrisers Hyderabad",
+      "checked_at": "2026-04-30T08:05:19.692881+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -1740.63
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -32903,7 +32939,14 @@
     "market_slug": "ucl-atm1-ars-2026-04-29",
     "amount": 21500.0,
     "ai_context": "\u274c SKIP \u2014 Arsenal is set to face Atl\u00e9tico Madrid in the first leg of the Champions League semifinals today, April 29, 2026, at 3:00 PM EDT. The match will take place at Atl\u00e9tico's home stadium, the Metropolitano, in Madrid. (theguardian.com) Arsenal's recent form includes a 2-0 loss to Manchester City on April 19 and a 2-0 victory over Newcastle United on April 25. (espn.",
-    "ai_verdict": "SKIP"
+    "ai_verdict": "SKIP",
+    "resolution": {
+      "outcome": "Yes",
+      "checked_at": "2026-04-30T08:05:22.129624+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 28500.0
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -32949,7 +32992,14 @@
     "market_slug": "ucl-atm1-ars-2026-04-29",
     "amount": 3250.0,
     "ai_context": "\u274c SKIP \u2014 Arsenal's recent form and injury list raise concerns about their chances in the upcoming match.\nArsenal has suffered defeats in their last two matches, including a 2-1 loss to Southampton on April 4 and a 1-2 loss to AFC Bournemouth on April 11. Additionally, key players such as Bukayo Saka (Achilles), Martin \u00d8degaard (knee), and Jurrien Timber (ankle) are sidelined, potentially impacting their performance. (espn.",
-    "ai_verdict": "SKIP"
+    "ai_verdict": "SKIP",
+    "resolution": {
+      "outcome": "Yes",
+      "checked_at": "2026-04-30T08:05:22.129682+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 1750.0
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -32995,7 +33045,8 @@
     "market_slug": "2026-nba-champion",
     "amount": 1168.83006,
     "ai_context": "\u2705 COPY \u2014 The New York Knicks have demonstrated strong performance this season, finishing with a 53-29 record and securing the Atlantic Division's second place. (statmuse.com) Their recent form includes a decisive 126-97 victory over the Atlanta Hawks on April 28, 2026. (basketball-reference.com) While the Knicks have shown resilience, the trader's bet on them winning the 2026 NBA Finals is supported by their current form and season performance.",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution_last_check": "2026-04-30T08:05:23.723456+00:00"
   },
   {
     "type": "TOP_TRADER",
@@ -33041,7 +33092,14 @@
     "market_slug": "cs2-navi-faze-2026-04-29",
     "amount": 1345.8834,
     "ai_context": "\u2705 COPY \u2014 Natus Vincere has demonstrated strong recent form, including a major victory over FaZe Clan.\nIn March 2024, Natus Vincere won the PGL CS2 Major Copenhagen 2024, defeating FaZe Clan 2-1 in the finals. Justinas \"jL\" Lekavi\u010dius was named the Most Valuable Player of the tournament. (en.wikipedia.org)\nAdditionally, Natus Vincere has consistently reached grand finals in recent tournaments, securing victories in three of them:\nEsports World Cup 2024, defeating G2 2-1.",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution": {
+      "outcome": "Natus Vincere",
+      "checked_at": "2026-04-30T08:05:25.324696+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 328.12
+    }
   },
   {
     "market": "Spread: Pistons (-9.5)",
@@ -33151,7 +33209,14 @@
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
     },
     "ai_context": "\u274c SKIP \u2014 Pistons have lost three consecutive games and are on the brink of playoff elimination.\nThey've been eliminated from playoff contention last week. (axios.com)\nHowever, the trader may know about a lineup change not yet public.\nGiven the Pistons' recent struggles and the high spread, betting on them to cover may not be advisable.",
-    "ai_verdict": "SKIP"
+    "ai_verdict": "SKIP",
+    "resolution": {
+      "outcome": "Pistons",
+      "checked_at": "2026-04-30T08:05:28.081784+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 1127.06
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -33197,7 +33262,14 @@
     "market_slug": "printr-public-sale-total-commitments",
     "amount": 2550.1088,
     "ai_context": "\u274c SKIP \u2014 The Printr public sale has a target raise of $2 million, with current commitments significantly below $10 million.\nThe sale aims to raise $2 million, with a minimum commitment of $200 USDC and a maximum of $200,000 USDC. As of April 29, 2026, the total commitments are approximately $2.5 million, with the largest commitment being $200,000 USDC. (sale.printr.money) However, the trader may have access to information about upcoming large commitments not yet publicly disclosed.",
-    "ai_verdict": "SKIP"
+    "ai_verdict": "SKIP",
+    "resolution": {
+      "outcome": "Yes",
+      "checked_at": "2026-04-30T08:05:29.629716+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -2550.11
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -33243,7 +33315,14 @@
     "market_slug": "nhl-mon-tb-2026-04-29",
     "amount": 2087.07,
     "ai_context": "\u2705 COPY \u2014 Canadiens have won 2 of their last 3 games against the Lightning, including a recent 2-1 victory.\nIn their most recent matchup on April 9, 2026, the Canadiens defeated the Lightning 2-1.  Prior to that, the Canadiens secured a 5-2 win on December 29, 2024. (rantsports.com) The Lightning's only recent victory was a 5-4 win on December 28, 2025. (rantsports.com)\nThe Canadiens' recent form includes a 2-1 win over the Lightning on April 9, 2026.",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution": {
+      "outcome": "Canadiens",
+      "checked_at": "2026-04-30T08:05:31.181396+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 771.93
+    }
   },
   {
     "market": "Rockets vs. Lakers",
@@ -33363,6 +33442,13 @@
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
     },
     "ai_context": "\u2705 COPY \u2014 The Lakers have dominated the recent matchups against the Rockets, winning four consecutive games, including a decisive 115-96 victory on April 26, 2026. (covers.com) Additionally, the Rockets are currently trailing 3-0 in the playoff series, with Game 4 underway, further indicating the Lakers' strong performance. (cbssports.com)",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution": {
+      "outcome": "Rockets",
+      "checked_at": "2026-04-30T08:05:33.748429+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -1293.35
+    }
   }
 ]
