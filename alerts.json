@@ -1,58 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0xe239f46f28b6b89510082c382106365c66b9d4dc8c8ac324a340ae1b738c1097",
-    "wallet": "0x94f199fb7789f1aef7fff6b758d6b375100f4c7a",
-    "trader": {
-      "rank": 10,
-      "address": "0x94f199fb7789f1aef7fff6b758d6b375100f4c7a",
-      "username": "KeyTransporter",
-      "profit": 5711459.802519929,
-      "volume": 20086062.154324993,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0xbedbc3808d939f1f7c648e11680ac05e77ca3b26",
-      "side": "BUY",
-      "asset": "17324138403773264782065491072828397370852575564967787743903824537196778719667",
-      "conditionId": "0x970f01dded96d14d23e729c1c77d05efc2a32ee63a4b6a8523015e0fc6fc1e3a",
-      "size": 3016.86,
-      "price": 0.6391348620751377,
-      "timestamp": 1774107371,
-      "title": "Fulham FC vs. Burnley FC: O/U 1.5",
-      "slug": "epl-ful-bur-2026-03-21-total-1pt5",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Repetitive-markets/premier+league.jpg",
-      "eventSlug": "epl-ful-bur-2026-03-21-more-markets",
-      "outcome": "Over",
-      "outcomeIndex": 0,
-      "name": "Random3366",
-      "pseudonym": "Punctual-Classic",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0xe239f46f28b6b89510082c382106365c66b9d4dc8c8ac324a340ae1b738c1097",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Fulham FC vs. Burnley FC: O/U 1.5",
-    "market_slug": "epl-ful-bur-2026-03-21-more-markets",
-    "amount": 1928.1804,
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.448963+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-21 >7 days ago, removed from API"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0x950959467a26e452e0b75aa2653e95d9d13be16b0c6ee7c2d28db9d42fe697e8",
     "wallet": "0x006cc834cc092684f1b56626e23bedb3835c16ea",
     "trader": {
@@ -33295,6 +33243,126 @@
     "market_slug": "nhl-mon-tb-2026-04-29",
     "amount": 2087.07,
     "ai_context": "\u2705 COPY \u2014 Canadiens have won 2 of their last 3 games against the Lightning, including a recent 2-1 victory.\nIn their most recent matchup on April 9, 2026, the Canadiens defeated the Lightning 2-1.  Prior to that, the Canadiens secured a 5-2 win on December 29, 2024. (rantsports.com) The Lightning's only recent victory was a 5-4 win on December 28, 2025. (rantsports.com)\nThe Canadiens' recent form includes a 2-1 win over the Lightning on April 9, 2026.",
+    "ai_verdict": "COPY"
+  },
+  {
+    "market": "Rockets vs. Lakers",
+    "market_slug": "nba-hou-lal-2026",
+    "event_slug": "nba-hou-lal-2026",
+    "wallet": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+    "analysis": {
+      "score": 75,
+      "flags": [
+        "Against trend (9.0% effective odds)",
+        "Large bet ($1,293)",
+        "Top trader #5 ($7,854,486 profit)"
+      ],
+      "amount": 1293.3549,
+      "odds": 0.09,
+      "raw_price": 0.09,
+      "outcome": "Lakers",
+      "potential_pnl": 13077.2551,
+      "pnl_multiplier": 10.11111111111111,
+      "wallet_age_days": 294,
+      "total_activities": 100
+    },
+    "timestamp": "2026-04-30T04:44:35.213469",
+    "trade_hash": "0x05138c8dcd66ccbc98c4ab5d219ef840b8e7cd64d0933317039fca662f328de5",
+    "trade_timestamp": 1777523652,
+    "latency": null,
+    "wallet_stats": null,
+    "top_trader": {
+      "rank": 5,
+      "address": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+      "username": "RN1",
+      "profit": 7854486.119309284,
+      "volume": 482382476.91690904,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade_data": {
+      "outcome": "Lakers",
+      "outcomeIndex": 1,
+      "normalized_position": "NO",
+      "side": "BUY",
+      "price": 0.09,
+      "effective_price": 0.09,
+      "size": 14370.61,
+      "amount": 1293.3549,
+      "potential_pnl": 13077.2551,
+      "pnl_multiplier": 10.11111111111111,
+      "is_no": false,
+      "conditionId": "0x29c64bffbe80724944b355dab89b0b106715fece2ccb8be6c81402e4e008999c",
+      "slug": "nba-hou-lal-2026",
+      "eventSlug": "nba-hou-lal-2026-04-29"
+    },
+    "irrationality": {
+      "irrationality_score": 25,
+      "flags": [
+        "Longshot (9%) in medium bias category (sports)"
+      ],
+      "category": "sports",
+      "category_info": {
+        "strength": "medium",
+        "typical_overpricing": 0.03,
+        "min_edge": 0.05
+      },
+      "is_irrational": false
+    },
+    "mispricing": {
+      "rational_estimate": 0.078,
+      "market_price": 0.09,
+      "edge": 0.011999999999999997,
+      "edge_percent": 1.1999999999999997,
+      "min_edge_required": 0.05,
+      "is_mispriced": false,
+      "edge_quality": "WEAK",
+      "base_rate_class": "occasional",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "occasional",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "Rockets must outperform expectations in upcoming games",
+          "Lakers must underperform relative to their current form",
+          "Injuries to key Lakers players must occur"
+        ],
+        "weakest_link": "Injuries to key Lakers players must occur"
+      },
+      "category": "sports",
+      "narrative_drivers": [
+        "Rockets' recent performance improvements",
+        "Lakers' inconsistent play"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "INSIDER_ONLY",
+      "signal_emoji": "\ud83d\udc41\ufe0f",
+      "signal_strength": 75,
+      "interpretation": "Insider activity detected, no clear mispricing",
+      "action_suggestion": "Monitor: insider signal only, no statistical edge",
+      "insider_score": 75,
+      "insider_position": "NO",
+      "irrationality_score": 25,
+      "is_irrational": false,
+      "is_mispriced": false,
+      "edge": 0.011999999999999997,
+      "edge_percent": 1.1999999999999997
+    },
+    "financial_analyst": {
+      "signal_quality": 26.8,
+      "stance": "WATCH_ONLY",
+      "edge_percent": 1.2,
+      "signal_strength": 75.0,
+      "insider_score": 75.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "ai_context": "\u2705 COPY \u2014 The Lakers have dominated the recent matchups against the Rockets, winning four consecutive games, including a decisive 115-96 victory on April 26, 2026. (covers.com) Additionally, the Rockets are currently trailing 3-0 in the playoff series, with Game 4 underway, further indicating the Lakers' strong performance. (cbssports.com)",
     "ai_verdict": "COPY"
   }
 ]
