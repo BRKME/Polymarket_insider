@@ -1,58 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0x950959467a26e452e0b75aa2653e95d9d13be16b0c6ee7c2d28db9d42fe697e8",
-    "wallet": "0x006cc834cc092684f1b56626e23bedb3835c16ea",
-    "trader": {
-      "rank": 19,
-      "address": "0x006cc834cc092684f1b56626e23bedb3835c16ea",
-      "username": "0x006cc834Cc092684F1B56626E23BEdB3835c16ea-1729683673397",
-      "profit": 4546432.1815561345,
-      "volume": 59957536.283648,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0xc8075693f48668a264b9fa313b47f52712fcc12b",
-      "side": "BUY",
-      "asset": "34360627649972710482168483070145840887617437960922758761934471701797333950287",
-      "conditionId": "0x3d06aad3e67af81e9f28e13e059d97d1a844fc3788e5dc9973d3aab7a032880b",
-      "size": 6485.79,
-      "price": 0.51,
-      "timestamp": 1774107671,
-      "title": "Spread: Houston Cougars (-10.5)",
-      "slug": "cbb-txam-hou-2026-03-21-spread-home-10pt5",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/ncaa-c14995df96.png",
-      "eventSlug": "cbb-txam-hou-2026-03-21",
-      "outcome": "Texas A&M Aggies",
-      "outcomeIndex": 1,
-      "name": "texaskid",
-      "pseudonym": "Dutiful-Fur",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x950959467a26e452e0b75aa2653e95d9d13be16b0c6ee7c2d28db9d42fe697e8",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Spread: Houston Cougars (-10.5)",
-    "market_slug": "cbb-txam-hou-2026-03-21",
-    "amount": 3307.7529,
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.448972+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-21 >7 days ago, removed from API"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0xfa261a471fd1191758ac2ec6e8b3f5c857202d257cbb55d894e0c0603a5c0845",
     "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
     "trader": {
@@ -33450,5 +33398,51 @@
       "model_correct": null,
       "pnl": -1293.35
     }
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x81fcc38f685a3f3f50272861e32ccfcbd8c7f6ce8208006ec2665b303e5f60fa",
+    "wallet": "0x16f91db2592924cfed6e03b7e5cb5bb1e32299e3",
+    "trader": {
+      "rank": 19,
+      "address": "0x16f91db2592924cfed6e03b7e5cb5bb1e32299e3",
+      "username": "Jenzigo",
+      "profit": 4049827.0941029997,
+      "volume": 9457725.034338009,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xe6dde73456b7f7c44801a6559c358d26bdfcedaf",
+      "side": "BUY",
+      "asset": "28566235647745140324272418211539415070831226197180722514331674870399690212442",
+      "conditionId": "0xa1fd631a50fccfea882246f7f90652e932f8f1cbc04154da3fd3af63ec322ea6",
+      "size": 4996.774192,
+      "price": 0.30999999989593285,
+      "timestamp": 1777553948,
+      "title": "LoL: Ultra Prime vs EDward Gaming - Game 2 Winner",
+      "slug": "lol-up-edg-2026-04-30-game2",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/league-of-legends-61a4f083a6.png",
+      "eventSlug": "lol-up-edg-2026-04-30",
+      "outcome": "Ultra Prime",
+      "outcomeIndex": 0,
+      "name": "NiuBot",
+      "pseudonym": "Affectionate-Blast",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x81fcc38f685a3f3f50272861e32ccfcbd8c7f6ce8208006ec2665b303e5f60fa",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "LoL: Ultra Prime vs EDward Gaming - Game 2 Winner",
+    "market_slug": "lol-up-edg-2026-04-30",
+    "amount": 1548.999999,
+    "ai_context": "\u274c SKIP \u2014 Ultra Prime's recent form and head-to-head record against EDward Gaming do not support this bet.\nUltra Prime has a 1-1 record in the current LPL 2026 Split 2, with a loss to ThunderTalk Gaming and a win against LGD Gaming. Their overall head-to-head record against EDward Gaming is 4 wins to 10 losses. In their most recent encounter on March 27, 2026, Ultra Prime won 2-1. (freetips.",
+    "ai_verdict": "SKIP"
   }
 ]
