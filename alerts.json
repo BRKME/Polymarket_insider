@@ -1,58 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0x955f8b0b9737f3f10dfd577a2068d5260917f1c71c44ff6212ccb2d46d95a070",
-    "wallet": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
-    "trader": {
-      "rank": 17,
-      "address": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
-      "username": "GamblingIsAllYouNeed",
-      "profit": 4583346.255325291,
-      "volume": 273255557.3555661,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0xd0e77a638c0b0ddeef9a59db053d596d63fab14f",
-      "side": "BUY",
-      "asset": "50289193185074818749994898826577626996310933167349146380182091626366330502423",
-      "conditionId": "0xc495e735642f2f1381c60ac15d9146d75835a8e99edac82eaf7f34324a4fbafd",
-      "size": 15088,
-      "price": 0.45,
-      "timestamp": 1774122679,
-      "title": "Stars vs. Wild",
-      "slug": "nhl-dal-min-2026-03-21",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nhl.png",
-      "eventSlug": "nhl-dal-min-2026-03-21",
-      "outcome": "Wild",
-      "outcomeIndex": 1,
-      "name": "PleaseBro",
-      "pseudonym": "Determined-Play",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x955f8b0b9737f3f10dfd577a2068d5260917f1c71c44ff6212ccb2d46d95a070",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Stars vs. Wild",
-    "market_slug": "nhl-dal-min-2026-03-21",
-    "amount": 6789.6,
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.449029+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-21 >7 days ago, removed from API"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0xd10c15f33d6330acf42c96b2cd32e4480a61a1dca6ad89ef24d2a25a4b302704",
     "wallet": "0xe9ad918c7678cd38b12603a762e638a5d1ee7091",
     "trader": {
@@ -33414,5 +33362,51 @@
     "amount": 1525.0,
     "ai_context": "\u274c SKIP \u2014 Pistons have lost 4 of their last 5 games against the Magic.\nIn their most recent matchup on April 29, 2026, the Pistons lost 116-109 to the Magic. (betexplorer.com)\nHowever, the Pistons have been strong throughout the season, finishing first in the Eastern Conference with a 60-22 record. (foxsports.com)\nThe trader may have insider information about the Pistons' lineup or strategy changes not yet public.",
     "ai_verdict": "SKIP"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xb70707ed819d9c11c4d8f7c60dc4b508a2489596a2cc9e69b8d838008e294089",
+    "wallet": "0x16f91db2592924cfed6e03b7e5cb5bb1e32299e3",
+    "trader": {
+      "rank": 19,
+      "address": "0x16f91db2592924cfed6e03b7e5cb5bb1e32299e3",
+      "username": "Jenzigo",
+      "profit": 4049827.0941029997,
+      "volume": 9457725.034338009,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xdd882a70680633a75516f6ed5fce443e2d96dadb",
+      "side": "BUY",
+      "asset": "98068494157531920809701846538403334522158355046017817311785363913507818920084",
+      "conditionId": "0x6843f7e4f8d88e4292b3489b24cd928b758ffd1fb469e371c178ee82c292524b",
+      "size": 2552,
+      "price": 0.67,
+      "timestamp": 1777587540,
+      "title": "Counter-Strike: FaZe vs FURIA (BO3) - BLAST Rivals Group B",
+      "slug": "cs2-faze-furia-2026-04-30",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/counter-strike-image-16c415c538.png",
+      "eventSlug": "cs2-faze-furia-2026-04-30",
+      "outcome": "FURIA",
+      "outcomeIndex": 1,
+      "name": "Taoli1",
+      "pseudonym": "Itchy-Caterpillar",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xb70707ed819d9c11c4d8f7c60dc4b508a2489596a2cc9e69b8d838008e294089",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Counter-Strike: FaZe vs FURIA (BO3) - BLAST Rivals Group B",
+    "market_slug": "cs2-faze-furia-2026-04-30",
+    "amount": 1709.8400000000001,
+    "ai_context": "\u2705 COPY \u2014 FURIA has a strong recent record and favorable head-to-head against FaZe.\nFURIA has won 2 of the last 3 matches against FaZe, including a 2-0 victory in April 2023. (game-tournaments.com) In their most recent match on April 29, 2026, FaZe lost 0-2 to Natus Vincere, continuing a 5-match losing streak. (blast.tv)\nGiven FURIA's recent form and favorable head-to-head record, the trader's bet on FURIA is supported by current data.",
+    "ai_verdict": "COPY"
   }
 ]
