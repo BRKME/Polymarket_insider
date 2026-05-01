@@ -1,58 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0x8558b62eb731544d36d0571dbee584faf1fd8fe665d988c9ef8b064c3fa4ce88",
-    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-    "trader": {
-      "rank": 1,
-      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-      "username": "Theo4",
-      "profit": 22053933.752321757,
-      "volume": 43013258.515682004,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x6ee4cc481bb553f9411cf2e0b1f165f67a1980f2",
-      "side": "BUY",
-      "asset": "42122201333723033774086282932652417053756259550890512898203118588772016262517",
-      "conditionId": "0x7e5f13f6e304e27a37567e21328de14cb711d2d02364552a80ecf73f08a8e9f5",
-      "size": 2165.449776,
-      "price": 0.8892702196756005,
-      "timestamp": 1774131681,
-      "title": "UFC Fight Night: Luke Riley vs. Michael Aswell (Featherweight, Main Card)",
-      "slug": "ufc-luk12-mic34-2026-03-21",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/ufc-logo-37bbbd28e6.png",
-      "eventSlug": "ufc-luk12-mic34-2026-03-21",
-      "outcome": "Luke Riley",
-      "outcomeIndex": 0,
-      "name": "PolyChrome",
-      "pseudonym": "Absolute-Bake",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x8558b62eb731544d36d0571dbee584faf1fd8fe665d988c9ef8b064c3fa4ce88",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "UFC Fight Night: Luke Riley vs. Michael Aswell (Featherweight, Main Card)",
-    "market_slug": "ufc-luk12-mic34-2026-03-21",
-    "amount": 1925.6699979999999,
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.449114+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-21 >7 days ago, removed from API"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0xd14412ceb7bc125cfb01af4a793c096961031b9e74bb7ff07ca3b00cd3eff89b",
     "wallet": "0xe9ad918c7678cd38b12603a762e638a5d1ee7091",
     "trader": {
@@ -33419,5 +33367,115 @@
     "amount": 1619.42,
     "ai_context": "\u274c SKIP \u2014 US Lecce has been in poor form recently, losing four consecutive matches and failing to score in three of them. Their most recent match was a 2-0 loss to Cagliari on February 16, 2026. (footinsights.com) Additionally, their upcoming opponent, Juventus, has a strong record against Lecce, winning nine of their last 15 encounters. (footystats.org) However, the trader may have access to insider information or analysis not yet public.",
     "ai_verdict": "SKIP"
+  },
+  {
+    "market": "Will George Russell be the 2026 F1 Drivers' Champion?",
+    "market_slug": "will-george-russell-be-the-2026-f1-drivers-champion",
+    "event_slug": "will-george-russell-be-the-2026-f1-drivers-champion",
+    "wallet": "0xd670329869c2ede17d12ab0a2cb25ec43e7e7788",
+    "analysis": {
+      "score": 70,
+      "flags": [
+        "New wallet (0d old)",
+        "Large bet ($1,233)",
+        "Low activity (1 txns)"
+      ],
+      "amount": 1232.67,
+      "odds": 0.3943364460822479,
+      "raw_price": 0.3943364460822479,
+      "outcome": "Yes",
+      "potential_pnl": 1893.2647500000003,
+      "pnl_multiplier": 1.5359055951714573,
+      "wallet_age_days": 0,
+      "total_activities": 1
+    },
+    "timestamp": "2026-05-01T20:37:09.588714",
+    "trade_hash": "0x42195acb79fb7542035c243a05401559925ce0b47c7490083972243404e19076",
+    "trade_timestamp": 1777667606,
+    "latency": null,
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "Yes",
+      "outcomeIndex": 0,
+      "normalized_position": "YES",
+      "side": "BUY",
+      "price": 0.3943364460822479,
+      "effective_price": 0.3943364460822479,
+      "size": 3125.93475,
+      "amount": 1232.67,
+      "potential_pnl": 1893.2647500000003,
+      "pnl_multiplier": 1.5359055951714573,
+      "is_no": false,
+      "conditionId": "0x1b7fd0fe5dbf07c9f7aab729a6688686e5d2df9b443233cd29004bd11818553d",
+      "slug": "will-george-russell-be-the-2026-f1-drivers-champion",
+      "eventSlug": "2026-f1-drivers-champion"
+    },
+    "irrationality": {
+      "irrationality_score": 35,
+      "flags": [
+        "Large mispricing edge (+25.5%)"
+      ],
+      "category": "politics_near",
+      "category_info": {
+        "strength": "medium",
+        "typical_overpricing": 0.02,
+        "min_edge": 0.03
+      },
+      "is_irrational": true
+    },
+    "mispricing": {
+      "rational_estimate": 0.13886728921644959,
+      "market_price": 0.3943364460822479,
+      "edge": 0.2554691568657983,
+      "edge_percent": 25.54691568657983,
+      "min_edge_required": 0.05,
+      "is_mispriced": true,
+      "edge_quality": "STRONG",
+      "base_rate_class": "occasional",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "occasional",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "George Russell secures a competitive car for the 2026 season",
+          "Russell consistently performs at a championship-winning level",
+          "Key competitors underperform or face significant challenges"
+        ],
+        "weakest_link": "Key competitors underperform or face significant challenges"
+      },
+      "category": "sports",
+      "narrative_drivers": [
+        "team performance",
+        "driver skill"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "CONFLICT",
+      "signal_emoji": "\u26a0\ufe0f",
+      "signal_strength": 70,
+      "interpretation": "Insider buying YES despite statistical overpricing",
+      "action_suggestion": "Requires manual analysis: insider may have real info OR is part of irrational crowd",
+      "insider_score": 70,
+      "insider_position": "YES",
+      "irrationality_score": 35,
+      "is_irrational": true,
+      "is_mispriced": true,
+      "edge": 0.2554691568657983,
+      "edge_percent": 25.54691568657983
+    },
+    "financial_analyst": {
+      "signal_quality": 46.0,
+      "stance": "WATCH_ONLY",
+      "edge_percent": 25.55,
+      "signal_strength": 70.0,
+      "insider_score": 70.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "ai_context": "\u2705 COPY \u2014 Recent developments indicate strong support for Russell's championship prospects.\nMercedes has confirmed Russell's contract extension for the 2026 season, ensuring stability for the team. (formula1.com) Additionally, Russell is considered a heavy favorite for the 2026 Drivers' Championship, with bookmakers placing him among the top contenders. (oddschecker.com) His confidence in Mercedes' prospects further underscores his readiness to challenge for the title. (skysports.com)",
+    "ai_verdict": "COPY"
   }
 ]
