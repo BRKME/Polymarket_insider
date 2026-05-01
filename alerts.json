@@ -1,58 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0xd14412ceb7bc125cfb01af4a793c096961031b9e74bb7ff07ca3b00cd3eff89b",
-    "wallet": "0xe9ad918c7678cd38b12603a762e638a5d1ee7091",
-    "trader": {
-      "rank": 9,
-      "address": "0xe9ad918c7678cd38b12603a762e638a5d1ee7091",
-      "username": "walletmobile",
-      "profit": 5942685.45339684,
-      "volume": 32196692.075936034,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x8bee36ea7cd823199ec20104d309d85bf544a369",
-      "side": "BUY",
-      "asset": "110148211468275658488762534192579152973732637194393043757965343084754830928130",
-      "conditionId": "0x2fa7ce3d3c58e8283273bcf81cae5b8699dbd4680b7992d64acfa1486afef58b",
-      "size": 5490.8,
-      "price": 0.48,
-      "timestamp": 1774131981,
-      "title": "Spread: Cavaliers (-5.5)",
-      "slug": "nba-cle-nop-2026-03-21-spread-away-5pt5",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
-      "eventSlug": "nba-cle-nop-2026-03-21",
-      "outcome": "Cavaliers",
-      "outcomeIndex": 0,
-      "name": "Wwsi233",
-      "pseudonym": "Dearest-Muscat",
-      "bio": "",
-      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-4558368-2c173502-84d8-43bb-841f-ade49f64ca3b.webp",
-      "profileImageOptimized": "",
-      "transactionHash": "0xd14412ceb7bc125cfb01af4a793c096961031b9e74bb7ff07ca3b00cd3eff89b",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Spread: Cavaliers (-5.5)",
-    "market_slug": "nba-cle-nop-2026-03-21",
-    "amount": 2635.584,
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.449123+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-21 >7 days ago, removed from API"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0xb01a236ea77be314887e12bea3ebcca04916dadb51ef1228fc3ba2cf1cd29f79",
     "wallet": "0xdc876e6873772d38716fda7f2452a78d426d7ab6",
     "trader": {
@@ -33476,6 +33424,116 @@
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
     },
     "ai_context": "\u2705 COPY \u2014 Recent developments indicate strong support for Russell's championship prospects.\nMercedes has confirmed Russell's contract extension for the 2026 season, ensuring stability for the team. (formula1.com) Additionally, Russell is considered a heavy favorite for the 2026 Drivers' Championship, with bookmakers placing him among the top contenders. (oddschecker.com) His confidence in Mercedes' prospects further underscores his readiness to challenge for the title. (skysports.com)",
+    "ai_verdict": "COPY"
+  },
+  {
+    "market": "Texas Rangers vs. Detroit Tigers",
+    "market_slug": "mlb-tex-det-2026",
+    "event_slug": "mlb-tex-det-2026",
+    "wallet": "0x44904a7b60fd25b8b91226b724c2915075c388d5",
+    "analysis": {
+      "score": 70,
+      "flags": [
+        "New wallet (0d old)",
+        "Large bet ($1,928)",
+        "Low activity (5 txns)"
+      ],
+      "amount": 1927.5599989999998,
+      "odds": 0.48999999991611154,
+      "raw_price": 0.48999999991611154,
+      "outcome": "Texas Rangers",
+      "potential_pnl": 2006.235918,
+      "pnl_multiplier": 1.040816326880002,
+      "wallet_age_days": 0,
+      "total_activities": 5
+    },
+    "timestamp": "2026-05-01T22:12:23.669289",
+    "trade_hash": "0xc7502821e194c217d160f1796c2d3e400d4ff0a42f344dcf60b2a890de8cd25f",
+    "trade_timestamp": 1777673016,
+    "latency": null,
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "Texas Rangers",
+      "outcomeIndex": 0,
+      "normalized_position": "YES",
+      "side": "BUY",
+      "price": 0.48999999991611154,
+      "effective_price": 0.48999999991611154,
+      "size": 3933.795917,
+      "amount": 1927.5599989999998,
+      "potential_pnl": 2006.235918,
+      "pnl_multiplier": 1.040816326880002,
+      "is_no": false,
+      "conditionId": "0xa1693715d3cf225919651aef8903dc8ccedf5534d1b18643ef41941d42f265ce",
+      "slug": "mlb-tex-det-2026",
+      "eventSlug": "mlb-tex-det-2026-05-01"
+    },
+    "irrationality": {
+      "irrationality_score": 35,
+      "flags": [
+        "Large mispricing edge (+25.2%)"
+      ],
+      "category": "sports",
+      "category_info": {
+        "strength": "medium",
+        "typical_overpricing": 0.03,
+        "min_edge": 0.05
+      },
+      "is_irrational": true
+    },
+    "mispricing": {
+      "rational_estimate": 0.2379999999832223,
+      "market_price": 0.48999999991611154,
+      "edge": 0.25199999993288924,
+      "edge_percent": 25.199999993288923,
+      "min_edge_required": 0.05,
+      "is_mispriced": true,
+      "edge_quality": "STRONG",
+      "base_rate_class": "common",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "common",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "Texas Rangers maintain current performance level",
+          "Detroit Tigers underperform",
+          "Injuries to key players on opposing teams"
+        ],
+        "weakest_link": "Detroit Tigers underperform"
+      },
+      "category": "sports",
+      "narrative_drivers": [
+        "Recent performance trends of both teams",
+        "Fan sentiment and support for the Rangers"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "CONFLICT",
+      "signal_emoji": "\u26a0\ufe0f",
+      "signal_strength": 70,
+      "interpretation": "Insider buying YES despite statistical overpricing",
+      "action_suggestion": "Requires manual analysis: insider may have real info OR is part of irrational crowd",
+      "insider_score": 70,
+      "insider_position": "YES",
+      "irrationality_score": 35,
+      "is_irrational": true,
+      "is_mispriced": true,
+      "edge": 0.25199999993288924,
+      "edge_percent": 25.199999993288923
+    },
+    "financial_analyst": {
+      "signal_quality": 46.0,
+      "stance": "WATCH_ONLY",
+      "edge_percent": 25.2,
+      "signal_strength": 70.0,
+      "insider_score": 70.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "ai_context": "\u2705 COPY \u2014 Recent head-to-head results favor the Texas Rangers.\nIn their last six matchups, the Rangers won four games, including a 2-0 victory on July 19, 2025. (champsorchumps.us)\nAdditionally, the Rangers have a strong record against the Tigers, leading the all-time series 346-382. (statmuse.com)\nWhile the Rangers finished the 2025 season with an 81-81 record, (baseball-reference.com)their recent head-to-head performance against the Tigers suggests a favorable outcome.",
     "ai_verdict": "COPY"
   }
 ]
