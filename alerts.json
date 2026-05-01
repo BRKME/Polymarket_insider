@@ -33027,7 +33027,14 @@
     "market_slug": "lol-up-edg-2026-04-30",
     "amount": 1548.999999,
     "ai_context": "\u274c SKIP \u2014 Ultra Prime's recent form and head-to-head record against EDward Gaming do not support this bet.\nUltra Prime has a 1-1 record in the current LPL 2026 Split 2, with a loss to ThunderTalk Gaming and a win against LGD Gaming. Their overall head-to-head record against EDward Gaming is 4 wins to 10 losses. In their most recent encounter on March 27, 2026, Ultra Prime won 2-1. (freetips.",
-    "ai_verdict": "SKIP"
+    "ai_verdict": "SKIP",
+    "resolution": {
+      "outcome": "EDward Gaming",
+      "checked_at": "2026-05-01T08:02:35.820148+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -1549.0
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -33073,7 +33080,14 @@
     "market_slug": "atp-cobolli-zverev-2026-04-29",
     "amount": 1323.789999,
     "ai_context": "\u2705 COPY \u2014 Flavio Cobolli has demonstrated strong recent form, including a notable victory over Daniil Medvedev at the Madrid Open.\nCobolli advanced to the quarterfinals of the Madrid Open by defeating Medvedev 6-3, 5-7, 6-4 in the Round of 16. (sportsmole.co.uk) Additionally, he secured a title at the ATP 500 tournament in Acapulco, defeating Frances Tiafoe 7-6(4), 6-4 in the final. (as.",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution": {
+      "outcome": "Alexander Zverev",
+      "checked_at": "2026-05-01T08:02:37.553592+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -1323.79
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -33119,7 +33133,14 @@
     "market_slug": "nba-nyk-atl-2026-04-30",
     "amount": 1139.9999990000001,
     "ai_context": "\u2705 COPY \u2014 Recent head-to-head results favor the Hawks, and they have a strong home-court advantage.\nIn the last five matchups, the Hawks have won three games, including a 109-108 victory on April 23, 2026. At home, the Hawks have a 74% win rate this season, compared to the Knicks' 65% away win rate. (sportspundit.com)\nGiven these factors, the trader's bet on the Hawks is supported by recent performance and home-court advantage.",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution": {
+      "outcome": "Knicks",
+      "checked_at": "2026-05-01T08:02:39.268896+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -1140.0
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -33165,7 +33186,14 @@
     "market_slug": "uel-not-ast4-2026-04-30-more-markets",
     "amount": 1597.64,
     "ai_context": "\u2705 COPY \u2014 Recent matches between Nottingham Forest and Aston Villa have consistently exceeded 4.5 total goals.\nIn their last three encounters, the total goals were 3, 4, and 2, respectively, all surpassing the 4.5 goal mark. (statmuse.com)",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution": {
+      "outcome": "Aston Villa FC",
+      "checked_at": "2026-05-01T08:02:41.023856+00:00",
+      "insider_win": null,
+      "model_correct": null,
+      "pnl": null
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -33211,7 +33239,8 @@
     "market_slug": "russia-x-ukraine-ceasefire-by-june-30-2026",
     "amount": 15653.762100000002,
     "ai_context": "\u274c SKIP \u2014 Recent developments indicate a lack of progress toward a ceasefire by June 30, 2026.\nDespite a 32-hour Orthodox Easter truce in April 2026, both Russia and Ukraine reported violations, with ongoing military operations. (apnews.com) Additionally, Russian advances and Ukrainian counterattacks have diminished hopes for a ceasefire by June 30, 2026. (cryptobriefing.",
-    "ai_verdict": "SKIP"
+    "ai_verdict": "SKIP",
+    "resolution_last_check": "2026-05-01T08:02:42.032770+00:00"
   },
   {
     "type": "TOP_TRADER",
@@ -33257,7 +33286,8 @@
     "market_slug": "nba-det-orl-2026-05-01",
     "amount": 1525.0,
     "ai_context": "\u274c SKIP \u2014 Pistons have lost 4 of their last 5 games against the Magic.\nIn their most recent matchup on April 29, 2026, the Pistons lost 116-109 to the Magic. (betexplorer.com)\nHowever, the Pistons have been strong throughout the season, finishing first in the Eastern Conference with a 60-22 record. (foxsports.com)\nThe trader may have insider information about the Pistons' lineup or strategy changes not yet public.",
-    "ai_verdict": "SKIP"
+    "ai_verdict": "SKIP",
+    "resolution_last_check": "2026-05-01T08:02:42.912813+00:00"
   },
   {
     "type": "TOP_TRADER",
@@ -33303,7 +33333,14 @@
     "market_slug": "cs2-faze-furia-2026-04-30",
     "amount": 1709.8400000000001,
     "ai_context": "\u2705 COPY \u2014 FURIA has a strong recent record and favorable head-to-head against FaZe.\nFURIA has won 2 of the last 3 matches against FaZe, including a 2-0 victory in April 2023. (game-tournaments.com) In their most recent match on April 29, 2026, FaZe lost 0-2 to Natus Vincere, continuing a 5-match losing streak. (blast.tv)\nGiven FURIA's recent form and favorable head-to-head record, the trader's bet on FURIA is supported by current data.",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution": {
+      "outcome": "FURIA",
+      "checked_at": "2026-05-01T08:02:44.335089+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 842.16
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -33349,7 +33386,14 @@
     "market_slug": "nba-den-min-2026-04-30",
     "amount": 2846.97,
     "ai_context": "\u274c SKIP \u2014 Nuggets have lost 4 consecutive games to the Timberwolves, including 3 in the past week.\nIn their last 3 matchups, the Nuggets averaged 105.3 points per game, while the Timberwolves averaged 113.3 points per game. The Nuggets have also lost 4 consecutive games to the Timberwolves, including 3 in the past week. (landofbasketball.com)\nHowever, the trader may have access to insider information or sharp analysis not yet public.",
-    "ai_verdict": "SKIP"
+    "ai_verdict": "SKIP",
+    "resolution": {
+      "outcome": "Timberwolves",
+      "checked_at": "2026-05-01T08:02:46.037997+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -2846.97
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -33395,6 +33439,13 @@
     "market_slug": "nba-den-min-2026-04-30",
     "amount": 2756.74,
     "ai_context": "\u2705 COPY \u2014 Recent matchups between the Nuggets and Timberwolves have consistently exceeded the 224.5 total points line.\nIn their last three encounters, the total points were 231, 280, and 235, all surpassing the 224.5 threshold. (landofbasketball.com)",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution": {
+      "outcome": "Timberwolves",
+      "checked_at": "2026-05-01T08:02:47.399409+00:00",
+      "insider_win": null,
+      "model_correct": null,
+      "pnl": null
+    }
   }
 ]

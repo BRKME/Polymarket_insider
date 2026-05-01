@@ -1,22 +1,22 @@
 {
-  "last_run": "2026-04-30T08:05:33.748467+00:00",
-  "total_checked": 473,
-  "total_resolved": 480,
+  "last_run": "2026-05-01T08:02:47.399462+00:00",
+  "total_checked": 536,
+  "total_resolved": 487,
   "total_unresolved": 0,
-  "insider_wins": 73,
-  "insider_losses": 109,
+  "insider_wins": 74,
+  "insider_losses": 113,
   "model_correct": 35,
   "model_wrong": 7,
-  "model_na": 438,
-  "total_pnl": -117693.08,
+  "model_na": 445,
+  "total_pnl": -123710.68,
   "by_signal_type": {
     "TOP_TRADER": {
-      "total": 135,
-      "insider_wins": 53,
-      "insider_losses": 75,
+      "total": 142,
+      "insider_wins": 54,
+      "insider_losses": 79,
       "model_correct": 0,
       "model_wrong": 0,
-      "model_na": 135
+      "model_na": 142
     },
     "CONFLICT": {
       "total": 29,
@@ -45,12 +45,12 @@
   },
   "by_category": {
     "unknown": {
-      "total": 135,
-      "insider_wins": 53,
-      "insider_losses": 75,
+      "total": 142,
+      "insider_wins": 54,
+      "insider_losses": 79,
       "model_correct": 0,
       "model_wrong": 0,
-      "model_na": 135
+      "model_na": 142
     },
     "politics_near": {
       "total": 7,
@@ -95,20 +95,20 @@
   },
   "by_ai_verdict": {
     "SKIP": {
-      "total": 28,
+      "total": 30,
       "insider_wins": 14,
-      "insider_losses": 13,
+      "insider_losses": 15,
       "model_correct": 3,
       "model_wrong": 0,
-      "model_na": 25
+      "model_na": 27
     },
     "COPY": {
-      "total": 59,
-      "insider_wins": 27,
-      "insider_losses": 29,
+      "total": 64,
+      "insider_wins": 28,
+      "insider_losses": 31,
       "model_correct": 1,
       "model_wrong": 1,
-      "model_na": 57
+      "model_na": 62
     },
     "LEAN_COPY": {
       "total": 2,
@@ -167,6 +167,16 @@
       "total_resolved": 480,
       "insider_wins": 73,
       "insider_losses": 109,
+      "model_correct": 35,
+      "model_wrong": 7
+    },
+    {
+      "date": "2026-05-01",
+      "newly_resolved": 7,
+      "still_open": 56,
+      "total_resolved": 487,
+      "insider_wins": 74,
+      "insider_losses": 113,
       "model_correct": 35,
       "model_wrong": 7
     }
