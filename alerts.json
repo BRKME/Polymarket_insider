@@ -1,57 +1,5 @@
 [
   {
-    "type": "TOP_TRADER",
-    "trade_hash": "0xd23c95305e04fa064c62df5308bdb56ce76be26348ae491362e81e2b5c6595ef",
-    "wallet": "0xc2e7800b5af46e6093872b177b7a5e7f0563be51",
-    "trader": {
-      "rank": 16,
-      "address": "0xc2e7800b5af46e6093872b177b7a5e7f0563be51",
-      "username": "beachboy4",
-      "profit": 4700240.038541158,
-      "volume": 197853079.23528397,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0xd1780c09a7c3622958c568ca96d10d9cd4ba6703",
-      "side": "BUY",
-      "asset": "27780015530816841645092394280407093968589144659260920816803085707643035137289",
-      "conditionId": "0xa284fceb04fbff30346ae8747e21378c6828b68aaee2cfc9fe13c718297846c0",
-      "size": 6619.91,
-      "price": 0.74,
-      "timestamp": 1774127481,
-      "title": "Will Brentford FC win on 2026-03-21?",
-      "slug": "epl-lee-bre-2026-03-21-bre",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Repetitive-markets/premier+league.jpg",
-      "eventSlug": "epl-lee-bre-2026-03-21",
-      "outcome": "No",
-      "outcomeIndex": 1,
-      "name": "sinestia",
-      "pseudonym": "Stupendous-Tonality",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0xd23c95305e04fa064c62df5308bdb56ce76be26348ae491362e81e2b5c6595ef",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Will Brentford FC win on 2026-03-21?",
-    "market_slug": "epl-lee-bre-2026-03-21",
-    "amount": 1721.1766,
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.449085+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-21 >7 days ago, removed from API"
-    }
-  },
-  {
     "market": "Will the Slovenian Democratic Party (SDS) win the most seats in the 2026 Slovenian parliamentary election?",
     "market_slug": "will-the-slovenian-democratic-party-sds-win-the-most-seats-in-the-2026-slovenian-parliamentary-election-344",
     "event_slug": "will-the-slovenian-democratic-party-sds-win-the-most-seats-in-the-2026-slovenian-parliamentary-election-344",
@@ -33368,6 +33316,116 @@
     "market_slug": "lol-wb-ig1-2026-05-01",
     "amount": 1547.3300000000002,
     "ai_context": "\u2705 COPY \u2014 Weibo Gaming has a strong head-to-head record against Invictus Gaming, winning 14 out of 18 matches.\nIn their most recent encounter on April 15, 2026, Weibo Gaming secured a 2-1 victory. (tips.gg)\nWeibo Gaming's recent form includes a win streak, while Invictus Gaming is on a one-match losing streak. (tips.gg)\nGiven Weibo Gaming's favorable head-to-head record and current form, the trader's bet is supported.",
+    "ai_verdict": "COPY"
+  },
+  {
+    "market": "Madrid Open: Alexander Blockx vs Alexander Zverev",
+    "market_slug": "atp-blockx-zverev-2026",
+    "event_slug": "atp-blockx-zverev-2026",
+    "wallet": "0x21502ae2c6b2cbe17db1e77affde6a0e311feee6",
+    "analysis": {
+      "score": 70,
+      "flags": [
+        "New wallet (0d old)",
+        "Large bet ($1,821)",
+        "Low activity (5 txns)"
+      ],
+      "amount": 1820.72,
+      "odds": 0.22,
+      "raw_price": 0.22,
+      "outcome": "Alexander Blockx",
+      "potential_pnl": 6455.28,
+      "pnl_multiplier": 3.5454545454545454,
+      "wallet_age_days": 0,
+      "total_activities": 5
+    },
+    "timestamp": "2026-05-01T17:34:21.187780",
+    "trade_hash": "0x37ae580d8a745bfe5a80dabc42717749110a831339bc9209ab2527af3c4b5c74",
+    "trade_timestamp": 1777656432,
+    "latency": null,
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "Alexander Blockx",
+      "outcomeIndex": 0,
+      "normalized_position": "YES",
+      "side": "BUY",
+      "price": 0.22,
+      "effective_price": 0.22,
+      "size": 8276.0,
+      "amount": 1820.72,
+      "potential_pnl": 6455.28,
+      "pnl_multiplier": 3.5454545454545454,
+      "is_no": false,
+      "conditionId": "0x0faf74ae738701b13809aeab09097ac938d8c2419b6e1b222c56002e709d0eda",
+      "slug": "atp-blockx-zverev-2026",
+      "eventSlug": "atp-blockx-zverev-2026-05-01"
+    },
+    "irrationality": {
+      "irrationality_score": 35,
+      "flags": [
+        "Large mispricing edge (+15.6%)"
+      ],
+      "category": "sports",
+      "category_info": {
+        "strength": "medium",
+        "typical_overpricing": 0.03,
+        "min_edge": 0.05
+      },
+      "is_irrational": true
+    },
+    "mispricing": {
+      "rational_estimate": 0.064,
+      "market_price": 0.22,
+      "edge": 0.156,
+      "edge_percent": 15.6,
+      "min_edge_required": 0.05,
+      "is_mispriced": true,
+      "edge_quality": "STRONG",
+      "base_rate_class": "rare",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "rare",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "Blockx must significantly outperform expectations in terms of skill and performance.",
+          "Zverev must underperform or face unexpected challenges during the match.",
+          "External factors such as injury or mental state affecting Zverev's performance."
+        ],
+        "weakest_link": "Blockx must significantly outperform expectations in terms of skill and performance."
+      },
+      "category": "sports",
+      "narrative_drivers": [
+        "Emerging talent vs established player dynamics.",
+        "Recent performance trends of both players."
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "CONFLICT",
+      "signal_emoji": "\u26a0\ufe0f",
+      "signal_strength": 70,
+      "interpretation": "Insider buying YES despite statistical overpricing",
+      "action_suggestion": "Requires manual analysis: insider may have real info OR is part of irrational crowd",
+      "insider_score": 70,
+      "insider_position": "YES",
+      "irrationality_score": 35,
+      "is_irrational": true,
+      "is_mispriced": true,
+      "edge": 0.156,
+      "edge_percent": 15.6
+    },
+    "financial_analyst": {
+      "signal_quality": 44.4,
+      "stance": "WATCH_ONLY",
+      "edge_percent": 15.6,
+      "signal_strength": 70.0,
+      "insider_score": 70.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "ai_context": "\u2705 COPY \u2014 Alexander Blockx has demonstrated exceptional form, reaching the Madrid Open semifinals after defeating top players.\nBlockx, currently ranked No. 69, has advanced to the semifinals of the Madrid Open, defeating defending champion Casper Ruud with a 6-4, 6-4 victory. (as.com) He has also secured wins against notable opponents such as F\u00e9lix Auger-Aliassime and Francisco Cer\u00fandolo, showcasing his rising talent. (elpais.",
     "ai_verdict": "COPY"
   }
 ]
