@@ -1,110 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0xd10c15f33d6330acf42c96b2cd32e4480a61a1dca6ad89ef24d2a25a4b302704",
-    "wallet": "0xe9ad918c7678cd38b12603a762e638a5d1ee7091",
-    "trader": {
-      "rank": 9,
-      "address": "0xe9ad918c7678cd38b12603a762e638a5d1ee7091",
-      "username": "walletmobile",
-      "profit": 5942685.45339684,
-      "volume": 32196692.075936034,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x53515c8447275edfac486e6d70a6e3bf49c19b3c",
-      "side": "BUY",
-      "asset": "90576790101411314186358099588684245267465903531290573999378152746429050365668",
-      "conditionId": "0x65933c93527508665229e5d49cd68907731f92e46f02672b02160504f4d111f4",
-      "size": 6610,
-      "price": 0.88,
-      "timestamp": 1774123879,
-      "title": "TCU Horned Frogs vs. Duke Blue Devils",
-      "slug": "cbb-tcu-duke-2026-03-21",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/ncaa-c14995df96.png",
-      "eventSlug": "cbb-tcu-duke-2026-03-21",
-      "outcome": "Duke Blue Devils",
-      "outcomeIndex": 1,
-      "name": "Gambleguy123",
-      "pseudonym": "Querulous-Patrimony",
-      "bio": "Go gamba",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0xd10c15f33d6330acf42c96b2cd32e4480a61a1dca6ad89ef24d2a25a4b302704",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "TCU Horned Frogs vs. Duke Blue Devils",
-    "market_slug": "cbb-tcu-duke-2026-03-21",
-    "amount": 5816.8,
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.449038+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-21 >7 days ago, removed from API"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
-    "trade_hash": "0x01b57bd4cee567f9b7b4ee10e5406ae5ecdf2d74e2f1730541e73fcdf2a9d419",
-    "wallet": "0xe9ad918c7678cd38b12603a762e638a5d1ee7091",
-    "trader": {
-      "rank": 9,
-      "address": "0xe9ad918c7678cd38b12603a762e638a5d1ee7091",
-      "username": "walletmobile",
-      "profit": 5942685.45339684,
-      "volume": 32196692.075936034,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0xb6aee7f281e13b23bd959127f6e2b3dccb4e4df8",
-      "side": "BUY",
-      "asset": "36598050262530853227068246431172433877550992270759643736223503368561328696518",
-      "conditionId": "0xd5b149e7c4d6b49824c2fd110983f3562f1f12c713ddf4905872ea009b2d4aa6",
-      "size": 7071,
-      "price": 0.52,
-      "timestamp": 1774123877,
-      "title": "Texas A&M Aggies vs. Houston Cougars: O/U 143.5",
-      "slug": "cbb-txam-hou-2026-03-21-total-143pt5",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/ncaa-c14995df96.png",
-      "eventSlug": "cbb-txam-hou-2026-03-21",
-      "outcome": "Under",
-      "outcomeIndex": 1,
-      "name": "hugesportswhale",
-      "pseudonym": "Fuzzy-Oversight",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x01b57bd4cee567f9b7b4ee10e5406ae5ecdf2d74e2f1730541e73fcdf2a9d419",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Texas A&M Aggies vs. Houston Cougars: O/U 143.5",
-    "market_slug": "cbb-txam-hou-2026-03-21",
-    "amount": 3676.92,
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.449048+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-21 >7 days ago, removed from API"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0x0b70f06b0cd55921da3a06d404582eb829e15de2224cdcf6c43f5db7e1ddec7c",
     "wallet": "0x78b9ac44a6d7d7a076c14e0ad518b301b63c6b76",
     "trader": {
@@ -33407,6 +33303,98 @@
     "market_slug": "cs2-faze-furia-2026-04-30",
     "amount": 1709.8400000000001,
     "ai_context": "\u2705 COPY \u2014 FURIA has a strong recent record and favorable head-to-head against FaZe.\nFURIA has won 2 of the last 3 matches against FaZe, including a 2-0 victory in April 2023. (game-tournaments.com) In their most recent match on April 29, 2026, FaZe lost 0-2 to Natus Vincere, continuing a 5-match losing streak. (blast.tv)\nGiven FURIA's recent form and favorable head-to-head record, the trader's bet on FURIA is supported by current data.",
+    "ai_verdict": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x690ae4c2719f775ea1e63b2181d2c9094f7b3a05d70ef9621db853c8ff9fd08c",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.51568201,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x5b6331e7ff0831a3fe2ed12004747db1a9c911a4",
+      "side": "BUY",
+      "asset": "41054916495347957510087691174345858426588337259427885853416998968409113903196",
+      "conditionId": "0xdaf176c727f45efe8bf877d8311e11f203a8fd6bc7fcfd886bdd31748beaf44f",
+      "size": 4067.1,
+      "price": 0.7,
+      "timestamp": 1777593256,
+      "title": "Nuggets vs. Timberwolves",
+      "slug": "nba-den-min-2026-04-30",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
+      "eventSlug": "nba-den-min-2026-04-30",
+      "outcome": "Nuggets",
+      "outcomeIndex": 0,
+      "name": "neutralwave23",
+      "pseudonym": "Monstrous-Dew",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x690ae4c2719f775ea1e63b2181d2c9094f7b3a05d70ef9621db853c8ff9fd08c",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Nuggets vs. Timberwolves",
+    "market_slug": "nba-den-min-2026-04-30",
+    "amount": 2846.97,
+    "ai_context": "\u274c SKIP \u2014 Nuggets have lost 4 consecutive games to the Timberwolves, including 3 in the past week.\nIn their last 3 matchups, the Nuggets averaged 105.3 points per game, while the Timberwolves averaged 113.3 points per game. The Nuggets have also lost 4 consecutive games to the Timberwolves, including 3 in the past week. (landofbasketball.com)\nHowever, the trader may have access to insider information or sharp analysis not yet public.",
+    "ai_verdict": "SKIP"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x387994d24a59fc30a38988f54dd53c0f586ce9c64a60f4ac2494297d556fed7a",
+    "wallet": "0x8119010a6e589062aa03583bb3f39ca632d9f887",
+    "trader": {
+      "rank": 9,
+      "address": "0x8119010a6e589062aa03583bb3f39ca632d9f887",
+      "username": "PrincessCaro",
+      "profit": 6083643.099591745,
+      "volume": 23520809.952867005,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xc44f432b014f36679e13615f95996eac32bbd49f",
+      "side": "BUY",
+      "asset": "27821636789430584337790912811259284640680358845414665484074156979404575874681",
+      "conditionId": "0xc9e1eab0d41f1672837791011314ab7515992765f16fd3e30f7a69b24b21b442",
+      "size": 5626,
+      "price": 0.49,
+      "timestamp": 1777593874,
+      "title": "Nuggets vs. Timberwolves: O/U 224.5",
+      "slug": "nba-den-min-2026-04-30-total-224pt5",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
+      "eventSlug": "nba-den-min-2026-04-30",
+      "outcome": "Under",
+      "outcomeIndex": 1,
+      "name": "Zywoo123",
+      "pseudonym": "Superb-Steamroller",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x387994d24a59fc30a38988f54dd53c0f586ce9c64a60f4ac2494297d556fed7a",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Nuggets vs. Timberwolves: O/U 224.5",
+    "market_slug": "nba-den-min-2026-04-30",
+    "amount": 2756.74,
+    "ai_context": "\u2705 COPY \u2014 Recent matchups between the Nuggets and Timberwolves have consistently exceeded the 224.5 total points line.\nIn their last three encounters, the total points were 231, 280, and 235, all surpassing the 224.5 threshold. (landofbasketball.com)",
     "ai_verdict": "COPY"
   }
 ]
