@@ -1,118 +1,5 @@
 [
   {
-    "market": "Thunder vs. Wizards: O/U 230.5",
-    "market_slug": "nba-okc-was-2026-03-21-total-230pt5",
-    "event_slug": "nba-okc-was-2026-03-21-total-230pt5",
-    "wallet": "0x99fbd9f73b9488e78fb97238be4f0f5b1f668ea0",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($1,350)",
-        "Low activity (1 txns)"
-      ],
-      "amount": 1350.0,
-      "odds": 0.48,
-      "raw_price": 0.48,
-      "outcome": "Under",
-      "potential_pnl": 1462.5,
-      "pnl_multiplier": 1.0833333333333333,
-      "wallet_age_days": 0,
-      "total_activities": 1
-    },
-    "timestamp": "2026-03-21T21:02:27.999044",
-    "trade_hash": "0x165553e08ae3c22a65ef58aa35473fd4177d0ed867a187de386263c1b3d8bdbc",
-    "trade_timestamp": 1774126451,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Under",
-      "side": "BUY",
-      "price": 0.48,
-      "effective_price": 0.48,
-      "size": 2812.5,
-      "amount": 1350.0,
-      "potential_pnl": 1462.5,
-      "pnl_multiplier": 1.0833333333333333,
-      "is_no": false,
-      "slug": "nba-okc-was-2026-03-21-total-230pt5",
-      "eventSlug": "nba-okc-was-2026-03-21"
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+24.4%)"
-      ],
-      "category": "sports",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.236,
-      "market_price": 0.48,
-      "edge": 0.244,
-      "edge_percent": 24.4,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Both teams score efficiently",
-          "Defensive lapses by both teams",
-          "Game pace is fast"
-        ],
-        "weakest_link": "Defensive lapses by both teams"
-      },
-      "category": "sports",
-      "narrative_drivers": [
-        "Recent offensive performances",
-        "Injury status of key players"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "INSIDER_ONLY",
-      "signal_emoji": "\ud83d\udc41\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider activity detected, no clear mispricing",
-      "action_suggestion": "Monitor: insider signal only, no statistical edge",
-      "insider_score": 70,
-      "insider_position": "UNDER",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.244,
-      "edge_percent": 24.4
-    },
-    "financial_analyst": {
-      "signal_quality": 51.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 24.4,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.449075+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-21 >7 days ago, removed from API"
-    }
-  },
-  {
     "type": "TOP_TRADER",
     "trade_hash": "0xd23c95305e04fa064c62df5308bdb56ce76be26348ae491362e81e2b5c6595ef",
     "wallet": "0xc2e7800b5af46e6093872b177b7a5e7f0563be51",
@@ -33435,6 +33322,52 @@
     "market_slug": "lol-hle1-t1-2026-05-01",
     "amount": 4999.999999000001,
     "ai_context": "\u2705 COPY \u2014 Hanwha Life Esports has a strong recent record and a favorable head-to-head against T1.\nThey secured 1st place in the 2025 First Stand Tournament with a 3-1 victory. (liquipedia.net) In their most recent encounter, Hanwha Life Esports defeated T1 3-2 in the 2024 LCK Summer Finals. (liquipedia.net)",
+    "ai_verdict": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x5b794a9b8f2480cd4b5b51d41b0927ef8825787bfcffe0dcad6017f473eb7752",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.515682004,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x13414a77a4be48988851c73dfd824d0168e70853",
+      "side": "BUY",
+      "asset": "20666024733457898655147468370671060346968198255485787443319573651607606614559",
+      "conditionId": "0x0ed57fcb218fe00090d39bbcb737fcc48ae35b815db884969cb6ace61708588c",
+      "size": 4552,
+      "price": 0.3399231107205624,
+      "timestamp": 1777636794,
+      "title": "LoL: Weibo Gaming vs Invictus Gaming - Game 1 Winner",
+      "slug": "lol-wb-ig1-2026-05-01-game1",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/league-of-legends-61a4f083a6.png",
+      "eventSlug": "lol-wb-ig1-2026-05-01",
+      "outcome": "Weibo Gaming",
+      "outcomeIndex": 0,
+      "name": "NRASCHATTER",
+      "pseudonym": "Practical-Alcohol",
+      "bio": "",
+      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-4043939-c1695cf1-492c-45e6-a5c4-537e510cea02.webp",
+      "profileImageOptimized": "",
+      "transactionHash": "0x5b794a9b8f2480cd4b5b51d41b0927ef8825787bfcffe0dcad6017f473eb7752",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "LoL: Weibo Gaming vs Invictus Gaming - Game 1 Winner",
+    "market_slug": "lol-wb-ig1-2026-05-01",
+    "amount": 1547.3300000000002,
+    "ai_context": "\u2705 COPY \u2014 Weibo Gaming has a strong head-to-head record against Invictus Gaming, winning 14 out of 18 matches.\nIn their most recent encounter on April 15, 2026, Weibo Gaming secured a 2-1 victory. (tips.gg)\nWeibo Gaming's recent form includes a win streak, while Invictus Gaming is on a one-match losing streak. (tips.gg)\nGiven Weibo Gaming's favorable head-to-head record and current form, the trader's bet is supported.",
     "ai_verdict": "COPY"
   }
 ]
