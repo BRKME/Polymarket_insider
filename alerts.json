@@ -1,117 +1,5 @@
 [
   {
-    "market": "Will the Slovenian Democratic Party (SDS) win the most seats in the 2026 Slovenian parliamentary election?",
-    "market_slug": "will-the-slovenian-democratic-party-sds-win-the-most-seats-in-the-2026-slovenian-parliamentary-election-344",
-    "event_slug": "will-the-slovenian-democratic-party-sds-win-the-most-seats-in-the-2026-slovenian-parliamentary-election-344",
-    "wallet": "0x87063c9b127e58d09489becff3f4b0df5c749c71",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($1,000)",
-        "Low activity (1 txns)"
-      ],
-      "amount": 1000.0,
-      "odds": 0.41993692547379385,
-      "raw_price": 0.41993692547379385,
-      "outcome": "Yes",
-      "potential_pnl": 1381.31,
-      "pnl_multiplier": 1.38131,
-      "wallet_age_days": 0,
-      "total_activities": 1
-    },
-    "timestamp": "2026-03-21T21:32:03.048298",
-    "trade_hash": "0xd1aa81840fc21bb86f6ffd4176ec0cabbee1a342e4624c561aa86bc6a9578049",
-    "trade_timestamp": 1774128275,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Yes",
-      "side": "BUY",
-      "price": 0.41993692547379385,
-      "effective_price": 0.41993692547379385,
-      "size": 2381.31,
-      "amount": 1000.0,
-      "potential_pnl": 1381.31,
-      "pnl_multiplier": 1.38131,
-      "is_no": false,
-      "slug": "will-the-slovenian-democratic-party-sds-win-the-most-seats-in-the-2026-slovenian-parliamentary-election-344",
-      "eventSlug": "slovenian-parliamentary-election-winner-791"
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+19.6%)"
-      ],
-      "category": "politics_near",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.02,
-        "min_edge": 0.03
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.22398738509475877,
-      "market_price": 0.41993692547379385,
-      "edge": 0.1959495403790351,
-      "edge_percent": 19.59495403790351,
-      "min_edge_required": 0.03,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "SDS maintains strong party unity and leadership",
-          "Economic conditions remain stable or improve leading up to the election",
-          "Opposition parties fail to consolidate support or present a viable alternative"
-        ],
-        "weakest_link": "Opposition parties successfully unite and present a strong challenge"
-      },
-      "category": "politics_near",
-      "narrative_drivers": [
-        "Public sentiment towards current government performance",
-        "Impact of upcoming local or European elections on party visibility"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "CONFLICT",
-      "signal_emoji": "\u26a0\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider buying YES despite statistical overpricing",
-      "action_suggestion": "Requires manual analysis: insider may have real info OR is part of irrational crowd",
-      "insider_score": 70,
-      "insider_position": "YES",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.1959495403790351,
-      "edge_percent": 19.59495403790351
-    },
-    "financial_analyst": {
-      "signal_quality": 46.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 19.59,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "resolution": {
-      "outcome": "No",
-      "checked_at": "2026-04-26T07:40:06.820116+00:00",
-      "insider_win": false,
-      "model_correct": true,
-      "pnl": -1000.0
-    }
-  },
-  {
     "type": "TOP_TRADER",
     "trade_hash": "0xfa03d9a15f645beb58b91175c0ef7fe841a16e1088340544774a0cb2a3435cb6",
     "wallet": "0xd0c042c08f755ff940249f62745e82d356345565",
@@ -33427,5 +33315,115 @@
     },
     "ai_context": "\u2705 COPY \u2014 Alexander Blockx has demonstrated exceptional form, reaching the Madrid Open semifinals after defeating top players.\nBlockx, currently ranked No. 69, has advanced to the semifinals of the Madrid Open, defeating defending champion Casper Ruud with a 6-4, 6-4 victory. (as.com) He has also secured wins against notable opponents such as F\u00e9lix Auger-Aliassime and Francisco Cer\u00fandolo, showcasing his rising talent. (elpais.",
     "ai_verdict": "COPY"
+  },
+  {
+    "market": "Strait of Hormuz traffic returns to normal by end of June?",
+    "market_slug": "strait-of-hormuz-traffic-returns-to-normal-by-end-of-june",
+    "event_slug": "strait-of-hormuz-traffic-returns-to-normal-by-end-of-june",
+    "wallet": "0x30df0ee90ad040dbaff5441a6be7d999a16a28a9",
+    "analysis": {
+      "score": 70,
+      "flags": [
+        "New wallet (0d old)",
+        "Large bet ($3,984)",
+        "Low activity (2 txns)"
+      ],
+      "amount": 3984.0725000000007,
+      "odds": 0.4434595223936584,
+      "raw_price": 0.5565404776063416,
+      "outcome": "No",
+      "potential_pnl": 5000.0,
+      "pnl_multiplier": 1.2549972421435602,
+      "wallet_age_days": 0,
+      "total_activities": 2
+    },
+    "timestamp": "2026-05-01T18:41:46.895590",
+    "trade_hash": "0xc7a5768054a81bca774b8a60ac5c0ed3e1f8e19d31529f08a32d460f4cca1d0d",
+    "trade_timestamp": 1777660328,
+    "latency": null,
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "No",
+      "outcomeIndex": 1,
+      "normalized_position": "NO",
+      "side": "BUY",
+      "price": 0.5565404776063416,
+      "effective_price": 0.4434595223936584,
+      "size": 8984.0725,
+      "amount": 3984.0725000000007,
+      "potential_pnl": 5000.0,
+      "pnl_multiplier": 1.2549972421435602,
+      "is_no": true,
+      "conditionId": "0x348cd9adf4f6855f58bd9c6dbf9ff251c4142ef77233a5dc95c65b4b61cd2187",
+      "slug": "strait-of-hormuz-traffic-returns-to-normal-by-end-of-june",
+      "eventSlug": "strait-of-hormuz-traffic-returns-to-normal-by-end-of-june"
+    },
+    "irrationality": {
+      "irrationality_score": 35,
+      "flags": [
+        "Large mispricing edge (+27.7%)"
+      ],
+      "category": "other",
+      "category_info": {
+        "strength": "medium",
+        "typical_overpricing": 0.03,
+        "min_edge": 0.05
+      },
+      "is_irrational": true
+    },
+    "mispricing": {
+      "rational_estimate": 0.27930809552126834,
+      "market_price": 0.5565404776063416,
+      "edge": 0.2772323820850733,
+      "edge_percent": 27.72323820850733,
+      "min_edge_required": 0.05,
+      "is_mispriced": true,
+      "edge_quality": "STRONG",
+      "base_rate_class": "common",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "common",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "De-escalation of regional tensions",
+          "Restoration of shipping routes",
+          "International diplomatic agreements"
+        ],
+        "weakest_link": "De-escalation of regional tensions"
+      },
+      "category": "geopolitics",
+      "narrative_drivers": [
+        "Increased military presence in the region",
+        "Global economic pressures to maintain oil supply"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "ALPHA",
+      "signal_emoji": "\ud83d\udd25",
+      "signal_strength": 105,
+      "interpretation": "Smart money (NO) confirms YES is overpriced",
+      "action_suggestion": "High conviction: insider + statistics aligned",
+      "insider_score": 70,
+      "insider_position": "NO",
+      "irrationality_score": 35,
+      "is_irrational": true,
+      "is_mispriced": true,
+      "edge": 0.2772323820850733,
+      "edge_percent": 27.72323820850733
+    },
+    "financial_analyst": {
+      "signal_quality": 81.0,
+      "stance": "HIGH_CONVICTION",
+      "edge_percent": 27.72,
+      "signal_strength": 105.0,
+      "insider_score": 70.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "ai_context": "\u274c SKIP \u2014 Recent disruptions in the Strait of Hormuz have significantly reduced shipping traffic, with no clear timeline for normalization by June.\nAs of April 14, 2026, the Strait of Hormuz has been closed to commercial shipping for 61 days, with only 9 vessels detected on that day compared to an average of 138. (hormuztracker.com) The U.S. Navy is actively clearing Iranian mines from the strait, a process that may take up to six months. (apnews.",
+    "ai_verdict": "SKIP"
   }
 ]
