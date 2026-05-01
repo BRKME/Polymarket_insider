@@ -1,108 +1,5 @@
 [
   {
-    "type": "TOP_TRADER",
-    "trade_hash": "0x0b70f06b0cd55921da3a06d404582eb829e15de2224cdcf6c43f5db7e1ddec7c",
-    "wallet": "0x78b9ac44a6d7d7a076c14e0ad518b301b63c6b76",
-    "trader": {
-      "rank": 4,
-      "address": "0x78b9ac44a6d7d7a076c14e0ad518b301b63c6b76",
-      "username": "Len9311238",
-      "profit": 8709972.988069998,
-      "volume": 16402744.764627,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x6e8d1343cb660fd7df754e126510bd01842fd730",
-      "side": "SELL",
-      "asset": "47571491404982934163378154396644887577737314993278215946872107495346386959353",
-      "conditionId": "0x56ebb4e4ffdf6ce04bc845e4cd27ae479359bc55b2b5a0c6073639c7a137912c",
-      "size": 3548.09,
-      "price": 0.8130638456183468,
-      "timestamp": 1774126279,
-      "title": "Leeds United FC vs. Brentford FC: O/U 2.5",
-      "slug": "epl-lee-bre-2026-03-21-total-2pt5",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Repetitive-markets/premier+league.jpg",
-      "eventSlug": "epl-lee-bre-2026-03-21-more-markets",
-      "outcome": "Under",
-      "outcomeIndex": 1,
-      "name": "Collio21",
-      "pseudonym": "Practical-Military",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x0b70f06b0cd55921da3a06d404582eb829e15de2224cdcf6c43f5db7e1ddec7c",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Leeds United FC vs. Brentford FC: O/U 2.5",
-    "market_slug": "epl-lee-bre-2026-03-21-more-markets",
-    "amount": 2884.8237,
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.449060+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-21 >7 days ago, removed from API"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
-    "trade_hash": "0x3461e037c2538ac4b69eba46cde6bf606b9b6b686c490dfa809123cff901dab0",
-    "wallet": "0x78b9ac44a6d7d7a076c14e0ad518b301b63c6b76",
-    "trader": {
-      "rank": 4,
-      "address": "0x78b9ac44a6d7d7a076c14e0ad518b301b63c6b76",
-      "username": "Len9311238",
-      "profit": 8709972.988069998,
-      "volume": 16402744.764627,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0xf9139499d45d5fb184ba990901ddf6bb8c38d009",
-      "side": "BUY",
-      "asset": "62174615336627888814453166657652087168672936561990669762061326057126859157348",
-      "conditionId": "0x24fb7c2d95c93a68018e6c4a90d88043bb67d32fd1454924cef8ebdd550228f3",
-      "size": 2766.8,
-      "price": 0.969,
-      "timestamp": 1774126279,
-      "title": "Will Israel launch a major ground offensive in Lebanon by March 31?",
-      "slug": "will-israel-launch-a-major-ground-offensive-in-lebanon-by-march-31",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-israel-launch-a-major-ground-offensive-in-lebanon-by-december-31-5OgalKHi_0iX.jpg",
-      "eventSlug": "will-israel-launch-a-major-ground-offensive-in-lebanon-by-march-31",
-      "outcome": "Yes",
-      "outcomeIndex": 0,
-      "name": "PainStealer",
-      "pseudonym": "Imperturbable-Sir",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x3461e037c2538ac4b69eba46cde6bf606b9b6b686c490dfa809123cff901dab0",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Will Israel launch a major ground offensive in Lebanon by March 31?",
-    "market_slug": "will-israel-launch-a-major-ground-offensive-in-lebanon-by-march-31",
-    "amount": 2681.0292,
-    "resolution": {
-      "outcome": "Yes",
-      "checked_at": "2026-04-26T07:40:05.192146+00:00",
-      "insider_win": true,
-      "model_correct": null,
-      "pnl": 85.77
-    }
-  },
-  {
     "market": "Thunder vs. Wizards: O/U 230.5",
     "market_slug": "nba-okc-was-2026-03-21-total-230pt5",
     "event_slug": "nba-okc-was-2026-03-21-total-230pt5",
@@ -33447,5 +33344,97 @@
       "model_correct": null,
       "pnl": null
     }
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x9a9680e3ea01bc01c0db009f3d88d7d0390b74e36c374562cf96bb54aebf4ccd",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.515682004,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x32ccd9015a900fde62040162a04bedf093c668b3",
+      "side": "BUY",
+      "asset": "107446662263224422828315946736342360281118881130078612113754998952485025928010",
+      "conditionId": "0xcdb6db51cca976fcc67808368060ff90789d05926bd8d31e7da620f87221aff0",
+      "size": 29210.87,
+      "price": 0.36,
+      "timestamp": 1777633790,
+      "title": "Game Handicap: WB (-1.5) vs Invictus Gaming (+1.5)",
+      "slug": "lol-wb-ig1-2026-05-01-game-handicap-away-1pt5",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/league-of-legends-61a4f083a6.png",
+      "eventSlug": "lol-wb-ig1-2026-05-01",
+      "outcome": "Weibo Gaming",
+      "outcomeIndex": 0,
+      "name": "pilotlady",
+      "pseudonym": "Bumpy-Accessory",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x9a9680e3ea01bc01c0db009f3d88d7d0390b74e36c374562cf96bb54aebf4ccd",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Game Handicap: WB (-1.5) vs Invictus Gaming (+1.5)",
+    "market_slug": "lol-wb-ig1-2026-05-01",
+    "amount": 10515.913199999999,
+    "ai_context": "\u2705 COPY \u2014 Weibo Gaming has a strong head-to-head record against Invictus Gaming, winning 77% of their recent encounters.\nIn their last five meetings, Weibo Gaming secured victories with scores of 2-0 on March 30, 3-0 on February 25, 2-0 on February 6, and 2-1 on January 14. (bo3.gg) Additionally, Weibo Gaming has a 0% win rate in the last month, indicating alarming short-term form issues. (bo3.",
+    "ai_verdict": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xa3136fed0cce42bf064b9a5e0af61bd96b56e624e1d4bb265daf6041826b53c0",
+    "wallet": "0x23786fdad0073692157c6d7dc81f281843a35fcb",
+    "trader": {
+      "rank": 13,
+      "address": "0x23786fdad0073692157c6d7dc81f281843a35fcb",
+      "username": "mikatrade77",
+      "profit": 5147998.544602999,
+      "volume": 10884765.388775,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x9b491485819135564450669aeadb2d85f7b104a8",
+      "side": "BUY",
+      "asset": "20629446428019341295300119091473735998802531289120829584782736335411392005288",
+      "conditionId": "0x7127a11d6b7d8305060f731ecafc952dbdcdc50be1362a38100ff239887a6fc1",
+      "size": 8928.571427,
+      "price": 0.55999999998656,
+      "timestamp": 1777634398,
+      "title": "LoL: Hanwha Life Esports vs T1 - Game 2 Winner",
+      "slug": "lol-hle1-t1-2026-05-01-game2",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/league-of-legends-61a4f083a6.png",
+      "eventSlug": "lol-hle1-t1-2026-05-01",
+      "outcome": "Hanwha Life Esports",
+      "outcomeIndex": 0,
+      "name": "htfjyf",
+      "pseudonym": "Elderly-Necklace",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xa3136fed0cce42bf064b9a5e0af61bd96b56e624e1d4bb265daf6041826b53c0",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "LoL: Hanwha Life Esports vs T1 - Game 2 Winner",
+    "market_slug": "lol-hle1-t1-2026-05-01",
+    "amount": 4999.999999000001,
+    "ai_context": "\u2705 COPY \u2014 Hanwha Life Esports has a strong recent record and a favorable head-to-head against T1.\nThey secured 1st place in the 2025 First Stand Tournament with a 3-1 victory. (liquipedia.net) In their most recent encounter, Hanwha Life Esports defeated T1 3-2 in the 2024 LCK Summer Finals. (liquipedia.net)",
+    "ai_verdict": "COPY"
   }
 ]
