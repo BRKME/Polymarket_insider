@@ -1,58 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0xfa03d9a15f645beb58b91175c0ef7fe841a16e1088340544774a0cb2a3435cb6",
-    "wallet": "0xd0c042c08f755ff940249f62745e82d356345565",
-    "trader": {
-      "rank": 15,
-      "address": "0xd0c042c08f755ff940249f62745e82d356345565",
-      "username": "alexmulti",
-      "profit": 4804855.613376001,
-      "volume": 9949068.653841998,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0xd6a3f0ec6c4a8ad680d580610c82ca57ff139489",
-      "side": "BUY",
-      "asset": "94844051458161093758408644748213964911062272689244334591279755394311450989118",
-      "conditionId": "0x05d8ff62e7335e4d5eb06cab8ee02726b1f38e677c2861e5e1119967fd6d1851",
-      "size": 2510.28,
-      "price": 0.8987660858549644,
-      "timestamp": 1774130181,
-      "title": "Thunder vs. Wizards",
-      "slug": "nba-okc-was-2026-03-21",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
-      "eventSlug": "nba-okc-was-2026-03-21",
-      "outcome": "Thunder",
-      "outcomeIndex": 0,
-      "name": "knedloveprovelo",
-      "pseudonym": "Weighty-Rifle",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0xfa03d9a15f645beb58b91175c0ef7fe841a16e1088340544774a0cb2a3435cb6",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Thunder vs. Wizards",
-    "market_slug": "nba-okc-was-2026-03-21",
-    "amount": 2256.1545300000002,
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.449104+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-21 >7 days ago, removed from API"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0x8558b62eb731544d36d0571dbee584faf1fd8fe665d988c9ef8b064c3fa4ce88",
     "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
     "trader": {
@@ -33424,6 +33372,52 @@
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
     },
     "ai_context": "\u274c SKIP \u2014 Recent disruptions in the Strait of Hormuz have significantly reduced shipping traffic, with no clear timeline for normalization by June.\nAs of April 14, 2026, the Strait of Hormuz has been closed to commercial shipping for 61 days, with only 9 vessels detected on that day compared to an average of 138. (hormuztracker.com) The U.S. Navy is actively clearing Iranian mines from the strait, a process that may take up to six months. (apnews.",
+    "ai_verdict": "SKIP"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x7026cbdc9f4f37d28a3e7d227a12c27ba495b8330a003ed4bca4ee45ce012ed7",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.515682004,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+      "side": "BUY",
+      "asset": "27119555845767968289932394557422754121689277879563254506110196283407170516084",
+      "conditionId": "0xd82dbbed1d037c229288034e590289393a32d3be41ac2dd81438b2c7b8b2320c",
+      "size": 4763,
+      "price": 0.34,
+      "timestamp": 1777664090,
+      "title": "Will US Lecce win on 2026-05-01?",
+      "slug": "sea-pis-lec-2026-05-01-lec",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Serie-A-Logo.png",
+      "eventSlug": "sea-pis-lec-2026-05-01",
+      "outcome": "Yes",
+      "outcomeIndex": 0,
+      "name": "swisstony",
+      "pseudonym": "Frail-Possible",
+      "bio": "loincloth chic",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x7026cbdc9f4f37d28a3e7d227a12c27ba495b8330a003ed4bca4ee45ce012ed7",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Will US Lecce win on 2026-05-01?",
+    "market_slug": "sea-pis-lec-2026-05-01",
+    "amount": 1619.42,
+    "ai_context": "\u274c SKIP \u2014 US Lecce has been in poor form recently, losing four consecutive matches and failing to score in three of them. Their most recent match was a 2-0 loss to Cagliari on February 16, 2026. (footinsights.com) Additionally, their upcoming opponent, Juventus, has a strong record against Lecce, winning nine of their last 15 encounters. (footystats.org) However, the trader may have access to insider information or analysis not yet public.",
     "ai_verdict": "SKIP"
   }
 ]
