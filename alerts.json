@@ -1,58 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0xe3aca6234442796483bc0e3ad846d2d1be1c4553417c8697b1ede6e9cd3eae4b",
-    "wallet": "0xdb27bf2ac5d428a9c63dbc914611036855a6c56e",
-    "trader": {
-      "rank": 20,
-      "address": "0xdb27bf2ac5d428a9c63dbc914611036855a6c56e",
-      "username": "DrPufferfish",
-      "profit": 4058404.252825029,
-      "volume": 220193609.19156295,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x1d7ab6473e55405bb5bc62cb3377a6d37989b22f",
-      "side": "BUY",
-      "asset": "108478613802402022030846297419595503435513409327357946197005967644010155220473",
-      "conditionId": "0x41f885dbd144ded625e536058251139c66b1f9904a28fa17631cfc80d7b4e20c",
-      "size": 5326,
-      "price": 0.5,
-      "timestamp": 1774134383,
-      "title": "VCU Rams vs. Illinois Fighting Illini: O/U 150.5",
-      "slug": "cbb-vcu-ill-2026-03-21-total-150pt5",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/ncaa-c14995df96.png",
-      "eventSlug": "cbb-vcu-ill-2026-03-21",
-      "outcome": "Under",
-      "outcomeIndex": 1,
-      "name": "Garyg9870",
-      "pseudonym": "Accurate-Pitcher",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0xe3aca6234442796483bc0e3ad846d2d1be1c4553417c8697b1ede6e9cd3eae4b",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "VCU Rams vs. Illinois Fighting Illini: O/U 150.5",
-    "market_slug": "cbb-vcu-ill-2026-03-21",
-    "amount": 2663.0,
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.449142+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-21 >7 days ago, removed from API"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0xcc9d973ce4cbf92e75ba1108843cf68c58a0b75589edd44862628f945309a134",
     "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
     "trader": {
@@ -33529,5 +33477,51 @@
     "amount": 2074.32,
     "ai_context": "\ud83d\udfe1 LEAN COPY \u2014 Recent matchups show a split between the Cavaliers and Raptors, but the Cavaliers have a slight edge in the season series.\nIn their last five encounters, the Cavaliers have won three games, including a 126-113 victory on April 18, 2026, and a 115-105 win on April 20, 2026. (sportspundit.com) However, the Raptors have also secured two wins, including a 126-104 victory on April 23, 2026, and a 93-89 win on April 26, 2026. (champsorchumps.",
     "ai_verdict": "LEAN_COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x72604e8155f61a2431b287e67fac56718fe35b0a773a9a1cabc041227b4ba5a0",
+    "wallet": "0xefbc5fec8d7b0acdc8911bdd9a98d6964308f9a2",
+    "trader": {
+      "rank": 20,
+      "address": "0xefbc5fec8d7b0acdc8911bdd9a98d6964308f9a2",
+      "username": "reachingthesky",
+      "profit": 3742635.156562068,
+      "volume": 13750266.834776,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xf6de8f922f3e7cefb31eb87799059c949c0f95e8",
+      "side": "BUY",
+      "asset": "54754929907720209668809079943681031433684783617588893287676385583188854303727",
+      "conditionId": "0x7f5736786ed94a48af9061c85a22f092b9a59b67cbf43859d8d8bb297fc1ba0b",
+      "size": 7100,
+      "price": 0.30343067605633806,
+      "timestamp": 1777690234,
+      "title": "Lakers vs. Rockets",
+      "slug": "nba-lal-hou-2026-05-01",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
+      "eventSlug": "nba-lal-hou-2026-05-01",
+      "outcome": "Rockets",
+      "outcomeIndex": 1,
+      "name": "0xF6dE8F922f3E7cefB31eb87799059C949c0f95e8-1761286617423",
+      "pseudonym": "Milky-Mean",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x72604e8155f61a2431b287e67fac56718fe35b0a773a9a1cabc041227b4ba5a0",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Lakers vs. Rockets",
+    "market_slug": "nba-lal-hou-2026-05-01",
+    "amount": 2154.3578,
+    "ai_context": "\u274c SKIP \u2014 The Rockets have lost 2 of their last 3 games against the Lakers and are missing key players due to injuries.\nIn their most recent matchup on March 18, 2026, the Rockets lost 116-124 to the Lakers. Additionally, the Rockets are without center Steven Adams, who is out for the season due to an ankle injury, and point guard Fred VanVleet, who is out for the season with an ACL injury. (covers.",
+    "ai_verdict": "SKIP"
   }
 ]
