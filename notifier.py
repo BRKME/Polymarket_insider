@@ -623,7 +623,7 @@ def format_top_trader_alert(alert: Dict) -> str:
             market_odds=effective_odds,
             signal_type="TOP_TRADER",
             stats=stats,
-            bankroll=100,
+            bankroll=200,
             outcome=str(trade.get('outcome', 'Yes'))
         )
     except Exception:
@@ -762,7 +762,7 @@ def format_institutional_alert(alert):
             market_odds=effective_odds,
             signal_type=signal_type,
             stats=stats,
-            bankroll=100,
+            bankroll=200,
             outcome=outcome
         )
     except Exception:
