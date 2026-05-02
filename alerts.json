@@ -3,232 +3,6 @@
     "market": "Wizards vs. Knicks: O/U 226.5",
     "market_slug": "nba-was-nyk-2026-03-22-total-226pt5",
     "event_slug": "nba-was-nyk-2026-03-22-total-226pt5",
-    "wallet": "0xfb77b4362da92980ebb22e671c6548de7fa35580",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($1,497)",
-        "Low activity (1 txns)"
-      ],
-      "amount": 1497.25,
-      "odds": 0.53,
-      "raw_price": 0.53,
-      "outcome": "Over",
-      "potential_pnl": 1327.75,
-      "pnl_multiplier": 0.8867924528301887,
-      "wallet_age_days": 0,
-      "total_activities": 1
-    },
-    "timestamp": "2026-03-22T13:33:40.362963",
-    "trade_hash": "0x26219b9919e5f4e4f79c8871efed935fe3975abaf729e54a9a6386de684320b1",
-    "trade_timestamp": 1774186243,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Over",
-      "side": "BUY",
-      "price": 0.53,
-      "effective_price": 0.53,
-      "size": 2825.0,
-      "amount": 1497.25,
-      "potential_pnl": 1327.75,
-      "pnl_multiplier": 0.8867924528301887,
-      "is_no": false,
-      "slug": "nba-was-nyk-2026-03-22-total-226pt5",
-      "eventSlug": "nba-was-nyk-2026-03-22"
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+28.4%)"
-      ],
-      "category": "sports",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.246,
-      "market_price": 0.53,
-      "edge": 0.28400000000000003,
-      "edge_percent": 28.400000000000002,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Both teams score efficiently",
-          "Defensive lapses from both teams",
-          "Game pace is fast"
-        ],
-        "weakest_link": "Defensive lapses from both teams"
-      },
-      "category": "sports",
-      "narrative_drivers": [
-        "Recent scoring trends of both teams",
-        "Injury reports affecting key players"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "INSIDER_ONLY",
-      "signal_emoji": "\ud83d\udc41\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider activity detected, no clear mispricing",
-      "action_suggestion": "Monitor: insider signal only, no statistical edge",
-      "insider_score": 70,
-      "insider_position": "OVER",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.28400000000000003,
-      "edge_percent": 28.400000000000002
-    },
-    "financial_analyst": {
-      "signal_quality": 51.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 28.4,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.449246+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-22 >7 days ago, removed from API"
-    }
-  },
-  {
-    "market": "Wizards vs. Knicks: O/U 226.5",
-    "market_slug": "nba-was-nyk-2026-03-22-total-226pt5",
-    "event_slug": "nba-was-nyk-2026-03-22-total-226pt5",
-    "wallet": "0xdde0b9ed3f0ef8b5af469edcd0628cd56432b9a2",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($1,447)",
-        "Low activity (1 txns)"
-      ],
-      "amount": 1447.43,
-      "odds": 0.53,
-      "raw_price": 0.53,
-      "outcome": "Over",
-      "potential_pnl": 1283.57,
-      "pnl_multiplier": 0.8867924528301886,
-      "wallet_age_days": 0,
-      "total_activities": 1
-    },
-    "timestamp": "2026-03-22T13:33:44.011758",
-    "trade_hash": "0xbbd2b591de8ae4172db4e31000bffd14eeba6c44521b88444dc60576dbcaf1b3",
-    "trade_timestamp": 1774186243,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Over",
-      "side": "BUY",
-      "price": 0.53,
-      "effective_price": 0.53,
-      "size": 2731.0,
-      "amount": 1447.43,
-      "potential_pnl": 1283.57,
-      "pnl_multiplier": 0.8867924528301886,
-      "is_no": false,
-      "slug": "nba-was-nyk-2026-03-22-total-226pt5",
-      "eventSlug": "nba-was-nyk-2026-03-22"
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+28.4%)"
-      ],
-      "category": "sports",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.246,
-      "market_price": 0.53,
-      "edge": 0.28400000000000003,
-      "edge_percent": 28.400000000000002,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Both teams have strong offensive performances",
-          "Defensive weaknesses from both teams",
-          "Game pace is fast"
-        ],
-        "weakest_link": "Defensive weaknesses from both teams"
-      },
-      "category": "sports",
-      "narrative_drivers": [
-        "Recent offensive trends of both teams",
-        "Injury reports affecting key players"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "INSIDER_ONLY",
-      "signal_emoji": "\ud83d\udc41\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider activity detected, no clear mispricing",
-      "action_suggestion": "Monitor: insider signal only, no statistical edge",
-      "insider_score": 70,
-      "insider_position": "OVER",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.28400000000000003,
-      "edge_percent": 28.400000000000002
-    },
-    "financial_analyst": {
-      "signal_quality": 51.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 28.4,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.449255+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-22 >7 days ago, removed from API"
-    }
-  },
-  {
-    "market": "Wizards vs. Knicks: O/U 226.5",
-    "market_slug": "nba-was-nyk-2026-03-22-total-226pt5",
-    "event_slug": "nba-was-nyk-2026-03-22-total-226pt5",
     "wallet": "0x1f72d79a2ef1e4f6ee2f1b1a2f6f143b9e4b3cb8",
     "analysis": {
       "score": 70,
@@ -33424,5 +33198,97 @@
     "amount": 6217.2126,
     "ai_context": "\u2705 COPY \u2014 Chennai Super Kings have a strong recent head-to-head record against Mumbai Indians.\nIn their last five encounters, Chennai Super Kings have won four matches, including a 4-wicket victory on March 23, 2025. (wisden.com)\nAdditionally, Chennai Super Kings have a winning record against Mumbai Indians, with 21 wins and 19 losses in their head-to-head history. (aiscore.com)\nWhile both teams are struggling this season and need a win to stay in the playoff race, (freetips.",
     "ai_verdict": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xe08be1fc794681df25e41009cc3046ff524dda76ac72c718f803a3bcc41b9b6b",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.51568201,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xd5374430a0e5a775af0480e5d1f9a434f31a0f7c",
+      "side": "BUY",
+      "asset": "6276704854035152810584242943130244089275149552041191674478070526624877532005",
+      "conditionId": "0x1ec170b5ee77f501af8001f3232c52992e4c1539fbed22e6c1522a598a7c0528",
+      "size": 5953.45,
+      "price": 0.6,
+      "timestamp": 1777734690,
+      "title": "LoL: Fnatic vs Team Heretics - Game 1 Winner",
+      "slug": "lol-fnc-th-2026-05-02-game1",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/league-of-legends-61a4f083a6.png",
+      "eventSlug": "lol-fnc-th-2026-05-02",
+      "outcome": "Fnatic",
+      "outcomeIndex": 0,
+      "name": "JohnWhipples",
+      "pseudonym": "Second-Hand-Pepper",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xe08be1fc794681df25e41009cc3046ff524dda76ac72c718f803a3bcc41b9b6b",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "LoL: Fnatic vs Team Heretics - Game 1 Winner",
+    "market_slug": "lol-fnc-th-2026-05-02",
+    "amount": 3572.0699999999997,
+    "ai_context": "\u2705 COPY \u2014 Fnatic has a strong head-to-head record against Team Heretics, winning 9 out of 13 encounters.\nIn their most recent match on February 7, 2026, Fnatic secured a 1-0 victory. (strafe.com) Additionally, Fnatic has won 6 of the last 9 matches against Team Heretics. (strafe.com)\nWhile Fnatic's recent form shows a mixed record of 3 wins and 7 losses in their last 10 matches, (strafe.com) their consistent success against Team Heretics suggests they have a competitive edge in this matchup.",
+    "ai_verdict": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x262aa373030850520429d89bc9519684c05be8736a293d493234a0df49439422",
+    "wallet": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
+    "trader": {
+      "rank": 15,
+      "address": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
+      "username": "GamblingIsAllYouNeed",
+      "profit": 4904681.183441373,
+      "volume": 394158643.09087324,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x67ac9e1ad7d7e74ef0215d14fc8edb538e4fedf1",
+      "side": "BUY",
+      "asset": "107436433696357618733340740216529711160452865884589003673679289497404196986201",
+      "conditionId": "0xd3117ba94a6ae1cc7156617e89ab76c00ee075bb233945970431f3d38e9a7588",
+      "size": 1345.29,
+      "price": 0.75,
+      "timestamp": 1777735290,
+      "title": "Will 1. FC Heidenheim 1846 win on 2026-05-02?",
+      "slug": "bun-bay-hei-2026-05-02-hei",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/league-bun.jpg",
+      "eventSlug": "bun-bay-hei-2026-05-02",
+      "outcome": "Yes",
+      "outcomeIndex": 0,
+      "name": "325642899",
+      "pseudonym": "Sparse-Outset",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x262aa373030850520429d89bc9519684c05be8736a293d493234a0df49439422",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Will 1. FC Heidenheim 1846 win on 2026-05-02?",
+    "market_slug": "bun-bay-hei-2026-05-02",
+    "amount": 1008.9675,
+    "ai_context": "\u274c SKIP \u2014 Heidenheim's recent form and head-to-head record against Bayern Munich do not support a win.\nIn their last five matches, Heidenheim has one win, two draws, and two losses, including a 3-1 victory over Union Berlin on April 11, 2026. However, their overall record against Bayern Munich is poor, with Bayern winning five of the last six encounters. (footystats.org) Additionally, Heidenheim is currently 18th in the Bundesliga standings, indicating a challenging season. (footystats.",
+    "ai_verdict": "SKIP"
   }
 ]
