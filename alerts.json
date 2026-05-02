@@ -1,57 +1,5 @@
 [
   {
-    "type": "TOP_TRADER",
-    "trade_hash": "0x906b6311f0a0de3964f1a0ba1cef11446c333b60c2f9eba5db5e3d952fc0ced9",
-    "wallet": "0x006cc834cc092684f1b56626e23bedb3835c16ea",
-    "trader": {
-      "rank": 18,
-      "address": "0x006cc834cc092684f1b56626e23bedb3835c16ea",
-      "username": "0x006cc834Cc092684F1B56626E23BEdB3835c16ea-1729683673397",
-      "profit": 4543350.9968061345,
-      "volume": 60006795.13364801,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0xb8d3df4227ae5f009297da3005e2042464f70e0f",
-      "side": "BUY",
-      "asset": "47356973464997605719605174397696115680094145199547305062587856474628607811266",
-      "conditionId": "0xd3f429ccc2d3b6280cb846678d9fdad454216e4285970dee67ec3e6dfe6992f5",
-      "size": 30900,
-      "price": 0.18,
-      "timestamp": 1774184205,
-      "title": "Will FC Barcelona win on 2026-03-22?",
-      "slug": "lal-bar-ray-2026-03-22-bar",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/league-lal.png",
-      "eventSlug": "lal-bar-ray-2026-03-22",
-      "outcome": "No",
-      "outcomeIndex": 1,
-      "name": "SonOfAMillionaire",
-      "pseudonym": "Miniature-Conspiracy",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x906b6311f0a0de3964f1a0ba1cef11446c333b60c2f9eba5db5e3d952fc0ced9",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Will FC Barcelona win on 2026-03-22?",
-    "market_slug": "lal-bar-ray-2026-03-22",
-    "amount": 25338.000000000004,
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.449236+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-22 >7 days ago, removed from API"
-    }
-  },
-  {
     "market": "Wizards vs. Knicks: O/U 226.5",
     "market_slug": "nba-was-nyk-2026-03-22-total-226pt5",
     "event_slug": "nba-was-nyk-2026-03-22-total-226pt5",
@@ -33429,6 +33377,52 @@
     "market_slug": "bun-bay-hei-2026-05-02-more-markets",
     "amount": 1999.9999979999998,
     "ai_context": "\u2705 COPY \u2014 Recent head-to-head matches between FC Bayern M\u00fcnchen and 1. FC Heidenheim 1846 have consistently exceeded 3.5 total goals.\nIn their last six encounters, all matches have had over 3.5 goals, with the most recent being a 4-0 victory for Bayern on December 21, 2025. (footystats.org)\nGiven this trend, the trader's bet on the Over is supported by recent match data.",
+    "ai_verdict": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x1427929ed79a69c2d8ea90becb6fc326c62199723e4527dc53b065fe3bc946bd",
+    "wallet": "0x863134d00841b2e200492805a01e1e2f5defaa53",
+    "trader": {
+      "rank": 7,
+      "address": "0x863134d00841b2e200492805a01e1e2f5defaa53",
+      "username": "RepTrump",
+      "profit": 7532409.671579,
+      "volume": 13983231.103425,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xef51ebb7ed5c84e5049fc76e1ae4db3b5799c0d3",
+      "side": "BUY",
+      "asset": "41071045778999599740001994001130422215109258179750002983344714881486258040471",
+      "conditionId": "0xc5d5b6a0ea457f155cff5ae23f38d4a52cd48e5e987670e0dfd4093ef7e5ce71",
+      "size": 13513.26,
+      "price": 0.4600823635451401,
+      "timestamp": 1777732274,
+      "title": "Indian Premier League: Chennai Super Kings vs Mumbai Indians",
+      "slug": "cricipl-che-mum-2026-05-02",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/cricket-ball-a0b0bf2dc9.png",
+      "eventSlug": "cricipl-che-mum-2026-05-02",
+      "outcome": "Chennai Super Kings",
+      "outcomeIndex": 0,
+      "name": "StakePilot",
+      "pseudonym": "Smart-Toothpick",
+      "bio": "Calm mind. Sharp trades",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x1427929ed79a69c2d8ea90becb6fc326c62199723e4527dc53b065fe3bc946bd",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Indian Premier League: Chennai Super Kings vs Mumbai Indians",
+    "market_slug": "cricipl-che-mum-2026-05-02",
+    "amount": 6217.2126,
+    "ai_context": "\u2705 COPY \u2014 Chennai Super Kings have a strong recent head-to-head record against Mumbai Indians.\nIn their last five encounters, Chennai Super Kings have won four matches, including a 4-wicket victory on March 23, 2025. (wisden.com)\nAdditionally, Chennai Super Kings have a winning record against Mumbai Indians, with 21 wins and 19 losses in their head-to-head history. (aiscore.com)\nWhile both teams are struggling this season and need a win to stay in the playoff race, (freetips.",
     "ai_verdict": "COPY"
   }
 ]
