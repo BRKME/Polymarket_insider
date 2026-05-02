@@ -1,58 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0xcc9d973ce4cbf92e75ba1108843cf68c58a0b75589edd44862628f945309a134",
-    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-    "trader": {
-      "rank": 1,
-      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-      "username": "Theo4",
-      "profit": 22053933.752321757,
-      "volume": 43013258.51568201,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0xd6a3f0ec6c4a8ad680d580610c82ca57ff139489",
-      "side": "BUY",
-      "asset": "55259781684403218117288564174975779946821753193814610955413089191234400828127",
-      "conditionId": "0xbbb0e9aa6c87f1ebfb3636615c7b6f7ec69c78dfa4c1b2f2f4f77ccd3512d84c",
-      "size": 2311.77,
-      "price": 0.73,
-      "timestamp": 1774135283,
-      "title": "Texas Longhorns vs. Gonzaga Bulldogs",
-      "slug": "cbb-tx-gnzg-2026-03-21",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/ncaa-c14995df96.png",
-      "eventSlug": "cbb-tx-gnzg-2026-03-21",
-      "outcome": "Gonzaga Bulldogs",
-      "outcomeIndex": 1,
-      "name": "knedloveprovelo",
-      "pseudonym": "Weighty-Rifle",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0xcc9d973ce4cbf92e75ba1108843cf68c58a0b75589edd44862628f945309a134",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Texas Longhorns vs. Gonzaga Bulldogs",
-    "market_slug": "cbb-tx-gnzg-2026-03-21",
-    "amount": 1687.5920999999998,
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.449153+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-21 >7 days ago, removed from API"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0x1f8a9c23c2fc26fcd2c23356a9f62cf748472e88f0ac9d6fa1448c126895a466",
     "wallet": "0xdc876e6873772d38716fda7f2452a78d426d7ab6",
     "trader": {
@@ -33523,5 +33471,51 @@
     "amount": 2154.3578,
     "ai_context": "\u274c SKIP \u2014 The Rockets have lost 2 of their last 3 games against the Lakers and are missing key players due to injuries.\nIn their most recent matchup on March 18, 2026, the Rockets lost 116-124 to the Lakers. Additionally, the Rockets are without center Steven Adams, who is out for the season due to an ankle injury, and point guard Fred VanVleet, who is out for the season with an ACL injury. (covers.",
     "ai_verdict": "SKIP"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x91fcfb7afd81d46a38759076d433b8d34848e6f8937e7092c8ae8cff898f7597",
+    "wallet": "0x1f2dd6d473f3e824cd2f8a89d9c69fb96f6ad0cf",
+    "trader": {
+      "rank": 2,
+      "address": "0x1f2dd6d473f3e824cd2f8a89d9c69fb96f6ad0cf",
+      "username": "Fredi9999",
+      "profit": 16619506.631730152,
+      "volume": 76611316.90515402,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xa7969c68e15f9579016e837f510e94bca42282fd",
+      "side": "BUY",
+      "asset": "74109112469864635875810572842639094617308380763929845382207559499626872175428",
+      "conditionId": "0x7775bc01314cb9d5a485c844c8d6627dd844dc1b8621f86055137b0dd55904a1",
+      "size": 18423.085226,
+      "price": 0.4342378000678093,
+      "timestamp": 1777699242,
+      "title": "Will Vissel K\u014dbe win on 2026-05-02?",
+      "slug": "j1100-gam-vis-2026-05-02-vis",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/japan-league-a40db9c2f9.png",
+      "eventSlug": "j1100-gam-vis-2026-05-02",
+      "outcome": "Yes",
+      "outcomeIndex": 0,
+      "name": "alexinho67",
+      "pseudonym": "Mountainous-Effectiveness",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x91fcfb7afd81d46a38759076d433b8d34848e6f8937e7092c8ae8cff898f7597",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Will Vissel K\u014dbe win on 2026-05-02?",
+    "market_slug": "j1100-gam-vis-2026-05-02",
+    "amount": 7999.999999,
+    "ai_context": "\u2705 COPY \u2014 Vissel K\u014dbe has been in strong form recently, winning 4 of their last 5 matches.\nThey secured victories against Nagoya Grampus (3-2), Fagiano Okayama (4-1), Shimizu S-Pulse (2-0), and Avispa Fukuoka (2-1). (espn.com) Gamba Osaka has been inconsistent, losing 3 of their last 10 matches. (azscore.com) Given Vissel K\u014dbe's recent performance and Gamba Osaka's struggles, the trader's bet is supported.",
+    "ai_verdict": "COPY"
   }
 ]
