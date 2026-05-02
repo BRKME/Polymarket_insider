@@ -1,58 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0x41a93417aaca39be4b487a6d4dda0b1a76d39518f4eac352873504477ab9a238",
-    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-    "trader": {
-      "rank": 1,
-      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-      "username": "Theo4",
-      "profit": 22053933.752321757,
-      "volume": 43013258.515682004,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x8c70d61931a76e0ae70d1b1117b1f079c7cd1d71",
-      "side": "BUY",
-      "asset": "28768249851410180909622261371472073512315499066065983745623858206669494712500",
-      "conditionId": "0x2491d56b8baeb8f355867f039b5915826bb1eee50b9b5c97b420e414df753790",
-      "size": 2000,
-      "price": 0.75,
-      "timestamp": 1774183303,
-      "title": "Counter-Strike: TYLOO vs Team Falcons (BO3) - BLAST Open Rotterdam Group A",
-      "slug": "cs2-tyloo-fal2-2026-03-22",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/counter-strike-image-16c415c538.png",
-      "eventSlug": "cs2-tyloo-fal2-2026-03-22",
-      "outcome": "Team Falcons",
-      "outcomeIndex": 1,
-      "name": "ShushAndro",
-      "pseudonym": "Graceful-Patriot",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x41a93417aaca39be4b487a6d4dda0b1a76d39518f4eac352873504477ab9a238",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Counter-Strike: TYLOO vs Team Falcons (BO3) - BLAST Open Rotterdam Group A",
-    "market_slug": "cs2-tyloo-fal2-2026-03-22",
-    "amount": 1500.0,
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.449226+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-22 >7 days ago, removed from API"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0x906b6311f0a0de3964f1a0ba1cef11446c333b60c2f9eba5db5e3d952fc0ced9",
     "wallet": "0x006cc834cc092684f1b56626e23bedb3835c16ea",
     "trader": {
@@ -33436,5 +33384,51 @@
     "amount": 2499.999999,
     "ai_context": "\u274c SKIP \u2014 Nongshim RedForce has a losing record in their recent matches against DRX.\nIn their last 10 encounters, Nongshim RedForce won 3 and lost 7 to DRX. (tips.gg)\nHowever, the trader may have access to insider information or analysis not publicly available.\nGiven the recent head-to-head disadvantage, it's prudent to exercise caution.",
     "ai_verdict": "SKIP"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x8d57f665411f47b22dd2e5da01f811a38c78f0fad17405ef24c95faef787afb5",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.515682004,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x6157d529ae129fe08f22a27ed42e741d2eaa9fb4",
+      "side": "BUY",
+      "asset": "74289789121930116402254859027665290396703245891438193450018963713576404906659",
+      "conditionId": "0x19c15f707d9e10f20ed47656c202704f77fcfcfcc7b145e71b7ba223a39eb7f1",
+      "size": 3007.267012,
+      "price": 0.6650556768053292,
+      "timestamp": 1777728672,
+      "title": "FC Bayern M\u00fcnchen vs. 1. FC Heidenheim 1846: O/U 3.5",
+      "slug": "bun-bay-hei-2026-05-02-total-3pt5",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/league-bun.jpg",
+      "eventSlug": "bun-bay-hei-2026-05-02-more-markets",
+      "outcome": "Over",
+      "outcomeIndex": 0,
+      "name": "xxyyxxzz",
+      "pseudonym": "Frightening-Trowel",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x8d57f665411f47b22dd2e5da01f811a38c78f0fad17405ef24c95faef787afb5",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "FC Bayern M\u00fcnchen vs. 1. FC Heidenheim 1846: O/U 3.5",
+    "market_slug": "bun-bay-hei-2026-05-02-more-markets",
+    "amount": 1999.9999979999998,
+    "ai_context": "\u2705 COPY \u2014 Recent head-to-head matches between FC Bayern M\u00fcnchen and 1. FC Heidenheim 1846 have consistently exceeded 3.5 total goals.\nIn their last six encounters, all matches have had over 3.5 goals, with the most recent being a 4-0 victory for Bayern on December 21, 2025. (footystats.org)\nGiven this trend, the trader's bet on the Over is supported by recent match data.",
+    "ai_verdict": "COPY"
   }
 ]
