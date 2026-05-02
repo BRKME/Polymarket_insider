@@ -3,119 +3,6 @@
     "market": "Spread: Kings (-5.5)",
     "market_slug": "nba-bkn-sac-2026-03-22-spread-home-5pt5",
     "event_slug": "nba-bkn-sac-2026-03-22-spread-home-5pt5",
-    "wallet": "0x545197bbf7ec558433fb49c72e2198ab059b5ea1",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($1,052)",
-        "Low activity (2 txns)"
-      ],
-      "amount": 1051.6200000000001,
-      "odds": 0.51,
-      "raw_price": 0.51,
-      "outcome": "Nets",
-      "potential_pnl": 1010.3799999999999,
-      "pnl_multiplier": 0.96078431372549,
-      "wallet_age_days": 0,
-      "total_activities": 2
-    },
-    "timestamp": "2026-03-22T11:32:03.090412",
-    "trade_hash": "0xfdfb0e0a5ced729e0b2d32600d7f9a16ca822da4f8098d65ea91f9794580e97f",
-    "trade_timestamp": 1774178833,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Nets",
-      "side": "BUY",
-      "price": 0.51,
-      "effective_price": 0.51,
-      "size": 2062.0,
-      "amount": 1051.6200000000001,
-      "potential_pnl": 1010.3799999999999,
-      "pnl_multiplier": 0.96078431372549,
-      "is_no": false,
-      "slug": "nba-bkn-sac-2026-03-22-spread-home-5pt5",
-      "eventSlug": "nba-bkn-sac-2026-03-22"
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+26.8%)"
-      ],
-      "category": "other",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.242,
-      "market_price": 0.51,
-      "edge": 0.268,
-      "edge_percent": 26.8,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Kings perform well against the spread",
-          "Injury status of key players",
-          "Opponent's recent performance"
-        ],
-        "weakest_link": "Injury status of key players"
-      },
-      "category": "sports",
-      "narrative_drivers": [
-        "Recent performance trends of the Kings",
-        "Public sentiment on the Kings' chances"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "INSIDER_ONLY",
-      "signal_emoji": "\ud83d\udc41\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider activity detected, no clear mispricing",
-      "action_suggestion": "Monitor: insider signal only, no statistical edge",
-      "insider_score": 70,
-      "insider_position": "NETS",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.268,
-      "edge_percent": 26.8
-    },
-    "financial_analyst": {
-      "signal_quality": 51.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 26.8,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.449198+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-22 >7 days ago, removed from API"
-    }
-  },
-  {
-    "market": "Spread: Kings (-5.5)",
-    "market_slug": "nba-bkn-sac-2026-03-22-spread-home-5pt5",
-    "event_slug": "nba-bkn-sac-2026-03-22-spread-home-5pt5",
     "wallet": "0xa68c1f4b5a2abea3872bc1bb2bd336554966df87",
     "analysis": {
       "score": 70,
@@ -33636,6 +33523,52 @@
     "market_slug": "epl-ars-ful-2026-05-02",
     "amount": 1922.9201000000003,
     "ai_context": "\u2705 COPY \u2014 Arsenal's recent form and head-to-head record favor a win against Fulham.\nArsenal secured a 1-0 victory over Newcastle United on April 25, 2026. (espn.com) In their last three encounters with Fulham, Arsenal won twice and drew once, with Fulham failing to secure a victory. (forebet.com) Additionally, Arsenal is playing at home, where they have a strong record. Given these factors, betting on Arsenal to win at 67% odds is supported by recent performance and historical matchups.",
+    "ai_verdict": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x72554aa0c5f730f16647eff8ff538bfebb97dfaf0aabe8f616b3de9a84522894",
+    "wallet": "0x1f2dd6d473f3e824cd2f8a89d9c69fb96f6ad0cf",
+    "trader": {
+      "rank": 2,
+      "address": "0x1f2dd6d473f3e824cd2f8a89d9c69fb96f6ad0cf",
+      "username": "Fredi9999",
+      "profit": 16619506.631730152,
+      "volume": 76611316.905154,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xbee54d90051720e27921dc6874f02d646ffca636",
+      "side": "BUY",
+      "asset": "9463627635536208397470489927812275699915946075677438228693537080675485509410",
+      "conditionId": "0x909db0ea79c78afd02cc8a5635e2012fdaa5f57ce8361ffe231ee2f7eb1398f4",
+      "size": 3000,
+      "price": 0.45,
+      "timestamp": 1777721158,
+      "title": "Will Villarreal CF win on 2026-05-02?",
+      "slug": "lal-vil-lev-2026-05-02-vil",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/league-lal.png",
+      "eventSlug": "lal-vil-lev-2026-05-02",
+      "outcome": "No",
+      "outcomeIndex": 1,
+      "name": "downtownfee",
+      "pseudonym": "Limp-Psychoanalyst",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x72554aa0c5f730f16647eff8ff538bfebb97dfaf0aabe8f616b3de9a84522894",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Will Villarreal CF win on 2026-05-02?",
+    "market_slug": "lal-vil-lev-2026-05-02",
+    "amount": 1350.0,
+    "ai_context": "\u2705 COPY \u2014 Villarreal CF is in strong form, having won their last five home matches, including a 2-1 victory over Celta on April 26, 2026. (elpais.com) They are set to play against Levante UD, who have only one away win in their last eleven matches. (cadenaser.com)\nGiven Villarreal's impressive home performance and Levante's struggles on the road, the facts support the trader's bet on Villarreal winning.",
     "ai_verdict": "COPY"
   }
 ]
