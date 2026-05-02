@@ -1,231 +1,5 @@
 [
   {
-    "market": "Spread: Kings (-5.5)",
-    "market_slug": "nba-bkn-sac-2026-03-22-spread-home-5pt5",
-    "event_slug": "nba-bkn-sac-2026-03-22-spread-home-5pt5",
-    "wallet": "0xa68c1f4b5a2abea3872bc1bb2bd336554966df87",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($1,007)",
-        "Low activity (2 txns)"
-      ],
-      "amount": 1006.9499999999999,
-      "odds": 0.49,
-      "raw_price": 0.49,
-      "outcome": "Kings",
-      "potential_pnl": 1048.0500000000002,
-      "pnl_multiplier": 1.0408163265306125,
-      "wallet_age_days": 0,
-      "total_activities": 2
-    },
-    "timestamp": "2026-03-22T11:32:06.221850",
-    "trade_hash": "0x395ae8c80850cc693c9f132b37268078c28d76bdfdb745f0b29fced5abd2f963",
-    "trade_timestamp": 1774178829,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Kings",
-      "side": "BUY",
-      "price": 0.49,
-      "effective_price": 0.49,
-      "size": 2055.0,
-      "amount": 1006.9499999999999,
-      "potential_pnl": 1048.0500000000002,
-      "pnl_multiplier": 1.0408163265306125,
-      "is_no": false,
-      "slug": "nba-bkn-sac-2026-03-22-spread-home-5pt5",
-      "eventSlug": "nba-bkn-sac-2026-03-22"
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+25.2%)"
-      ],
-      "category": "other",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.238,
-      "market_price": 0.49,
-      "edge": 0.252,
-      "edge_percent": 25.2,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Kings maintain a strong home-court advantage",
-          "Key players for the opposing team are injured",
-          "Recent performance trends favor the Kings"
-        ],
-        "weakest_link": "Key players for the opposing team are injured"
-      },
-      "category": "sports",
-      "narrative_drivers": [
-        "Kings' recent winning streak",
-        "Public sentiment favoring the Kings"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "INSIDER_ONLY",
-      "signal_emoji": "\ud83d\udc41\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider activity detected, no clear mispricing",
-      "action_suggestion": "Monitor: insider signal only, no statistical edge",
-      "insider_score": 70,
-      "insider_position": "KINGS",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.252,
-      "edge_percent": 25.2
-    },
-    "financial_analyst": {
-      "signal_quality": 51.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 25.2,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.449207+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-22 >7 days ago, removed from API"
-    }
-  },
-  {
-    "market": "Spread: Kings (-5.5)",
-    "market_slug": "nba-bkn-sac-2026-03-22-spread-home-5pt5",
-    "event_slug": "nba-bkn-sac-2026-03-22-spread-home-5pt5",
-    "wallet": "0x4da57f2aa5992723836a14e7e2fff2c3970005cf",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($1,083)",
-        "Low activity (2 txns)"
-      ],
-      "amount": 1083.3899999999999,
-      "odds": 0.49,
-      "raw_price": 0.49,
-      "outcome": "Kings",
-      "potential_pnl": 1127.6100000000001,
-      "pnl_multiplier": 1.0408163265306125,
-      "wallet_age_days": 0,
-      "total_activities": 2
-    },
-    "timestamp": "2026-03-22T11:32:09.182972",
-    "trade_hash": "0xd3f6724a9bb5fc3da8bdb839637a5615cd6c646a60bf95d87b5158df2a605135",
-    "trade_timestamp": 1774178827,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Kings",
-      "side": "BUY",
-      "price": 0.49,
-      "effective_price": 0.49,
-      "size": 2211.0,
-      "amount": 1083.3899999999999,
-      "potential_pnl": 1127.6100000000001,
-      "pnl_multiplier": 1.0408163265306125,
-      "is_no": false,
-      "slug": "nba-bkn-sac-2026-03-22-spread-home-5pt5",
-      "eventSlug": "nba-bkn-sac-2026-03-22"
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+25.2%)"
-      ],
-      "category": "other",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.238,
-      "market_price": 0.49,
-      "edge": 0.252,
-      "edge_percent": 25.2,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Kings maintain a strong home-court advantage",
-          "Opposing team struggles with injuries",
-          "Kings have a favorable matchup against the opponent"
-        ],
-        "weakest_link": "Opposing team struggles with injuries"
-      },
-      "category": "sports",
-      "narrative_drivers": [
-        "Kings' recent performance trends",
-        "Public sentiment around the team's chances"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "INSIDER_ONLY",
-      "signal_emoji": "\ud83d\udc41\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider activity detected, no clear mispricing",
-      "action_suggestion": "Monitor: insider signal only, no statistical edge",
-      "insider_score": 70,
-      "insider_position": "KINGS",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.252,
-      "edge_percent": 25.2
-    },
-    "financial_analyst": {
-      "signal_quality": 51.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 25.2,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.449217+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-22 >7 days ago, removed from API"
-    }
-  },
-  {
     "type": "TOP_TRADER",
     "trade_hash": "0x41a93417aaca39be4b487a6d4dda0b1a76d39518f4eac352873504477ab9a238",
     "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
@@ -33570,5 +33344,97 @@
     "amount": 1350.0,
     "ai_context": "\u2705 COPY \u2014 Villarreal CF is in strong form, having won their last five home matches, including a 2-1 victory over Celta on April 26, 2026. (elpais.com) They are set to play against Levante UD, who have only one away win in their last eleven matches. (cadenaser.com)\nGiven Villarreal's impressive home performance and Levante's struggles on the road, the facts support the trader's bet on Villarreal winning.",
     "ai_verdict": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x85e9a616c8943dc184984172673d7a7253243b0329d0ce3511b07387a7b5182d",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.515682004,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xa8caf30a6a9c6e670f5602827f4e435d1d4cd535",
+      "side": "BUY",
+      "asset": "78701775620178553180471269810733093797908221696367375902847334236432735815765",
+      "conditionId": "0x9607e72bf22938184680e0ba7a3f1b0c588cb43c7955bc80f019693b84c10e75",
+      "size": 3731.343281,
+      "price": 0.66999999992764,
+      "timestamp": 1777723262,
+      "title": "Will Arsenal FC win on 2026-05-02?",
+      "slug": "epl-ars-ful-2026-05-02-ars",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Repetitive-markets/premier+league.jpg",
+      "eventSlug": "epl-ars-ful-2026-05-02",
+      "outcome": "Yes",
+      "outcomeIndex": 0,
+      "name": "vincentchase11",
+      "pseudonym": "Dishonest-Association",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x85e9a616c8943dc184984172673d7a7253243b0329d0ce3511b07387a7b5182d",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Will Arsenal FC win on 2026-05-02?",
+    "market_slug": "epl-ars-ful-2026-05-02",
+    "amount": 2499.9999980000002,
+    "ai_context": "\u2705 COPY \u2014 Arsenal's recent form and home advantage support a win against Fulham.\nArsenal secured a 1-0 victory over Newcastle United on April 25, 2026. (espn.com) They are set to host Fulham at Emirates Stadium on May 2, 2026. (skysports.com) Arsenal has been strong at home this season, and Fulham has struggled in away matches.\nGiven Arsenal's recent performance and home advantage, betting on a win against Fulham is supported by current facts.",
+    "ai_verdict": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x50b010f74ac3621120aa4600aaaeed15f5ae4b930a16d805f071820fba2419b4",
+    "wallet": "0x23786fdad0073692157c6d7dc81f281843a35fcb",
+    "trader": {
+      "rank": 13,
+      "address": "0x23786fdad0073692157c6d7dc81f281843a35fcb",
+      "username": "mikatrade77",
+      "profit": 5147998.544602999,
+      "volume": 10884765.388775,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xa1e49df328c092e2ddee81631265712009cc4f8a",
+      "side": "BUY",
+      "asset": "115765855527814354595603778747815966199573849196394832575787796543332797145674",
+      "conditionId": "0xc3cd2c2b4374f950b1eac82a72b2209e843708eac5406344f97c8e2b60ba8cad",
+      "size": 4781.78648,
+      "price": 0.5228171541026232,
+      "timestamp": 1777723868,
+      "title": "LoL: Kiwoom DRX vs Nongshim Red Force - Game 2 Winner",
+      "slug": "lol-drx-ns-2026-05-02-game2",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/league-of-legends-61a4f083a6.png",
+      "eventSlug": "lol-drx-ns-2026-05-02",
+      "outcome": "Nongshim Red Force",
+      "outcomeIndex": 1,
+      "name": "polikujh",
+      "pseudonym": "Disloyal-Pilgrimage",
+      "bio": "",
+      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-7382857-6eb49470-0086-4145-958c-8303d7d59be6.png",
+      "profileImageOptimized": "",
+      "transactionHash": "0x50b010f74ac3621120aa4600aaaeed15f5ae4b930a16d805f071820fba2419b4",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "LoL: Kiwoom DRX vs Nongshim Red Force - Game 2 Winner",
+    "market_slug": "lol-drx-ns-2026-05-02",
+    "amount": 2499.999999,
+    "ai_context": "\u274c SKIP \u2014 Nongshim RedForce has a losing record in their recent matches against DRX.\nIn their last 10 encounters, Nongshim RedForce won 3 and lost 7 to DRX. (tips.gg)\nHowever, the trader may have access to insider information or analysis not publicly available.\nGiven the recent head-to-head disadvantage, it's prudent to exercise caution.",
+    "ai_verdict": "SKIP"
   }
 ]
