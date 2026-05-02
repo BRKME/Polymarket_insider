@@ -1,231 +1,5 @@
 [
   {
-    "market": "Spread: Raptors (-2.5)",
-    "market_slug": "nba-tor-phx-2026-03-22-spread-away-2pt5",
-    "event_slug": "nba-tor-phx-2026-03-22-spread-away-2pt5",
-    "wallet": "0x35a08efbe75b847f7863370110a40a3bcbfae51a",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($1,001)",
-        "Low activity (3 txns)"
-      ],
-      "amount": 1001.0,
-      "odds": 0.5,
-      "raw_price": 0.5,
-      "outcome": "Raptors",
-      "potential_pnl": 1001.0,
-      "pnl_multiplier": 1.0,
-      "wallet_age_days": 0,
-      "total_activities": 3
-    },
-    "timestamp": "2026-03-22T14:55:40.553848",
-    "trade_hash": "0x9feb28d52ab895c296d3ef7378a52339ffb54d7fad062f7f193bf1bd7c5ad630",
-    "trade_timestamp": 1774191035,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Raptors",
-      "side": "BUY",
-      "price": 0.5,
-      "effective_price": 0.5,
-      "size": 2002.0,
-      "amount": 1001.0,
-      "potential_pnl": 1001.0,
-      "pnl_multiplier": 1.0,
-      "is_no": false,
-      "slug": "nba-tor-phx-2026-03-22-spread-away-2pt5",
-      "eventSlug": "nba-tor-phx-2026-03-22"
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+26.0%)"
-      ],
-      "category": "other",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.24,
-      "market_price": 0.5,
-      "edge": 0.26,
-      "edge_percent": 26.0,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Raptors' key players perform at peak level",
-          "Opposing team underperforms",
-          "Home court advantage is significant"
-        ],
-        "weakest_link": "Opposing team underperforms"
-      },
-      "category": "sports",
-      "narrative_drivers": [
-        "Raptors' recent performance trends",
-        "Injury status of key players"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "INSIDER_ONLY",
-      "signal_emoji": "\ud83d\udc41\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider activity detected, no clear mispricing",
-      "action_suggestion": "Monitor: insider signal only, no statistical edge",
-      "insider_score": 70,
-      "insider_position": "RAPTORS",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.26,
-      "edge_percent": 26.0
-    },
-    "financial_analyst": {
-      "signal_quality": 51.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 26.0,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.449342+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-22 >7 days ago, removed from API"
-    }
-  },
-  {
-    "market": "Spread: Celtics (-9.5)",
-    "market_slug": "nba-min-bos-2026-03-22-spread-home-9pt5",
-    "event_slug": "nba-min-bos-2026-03-22-spread-home-9pt5",
-    "wallet": "0x5205895f86bcf3c5b08eab7ef3796aee2115ca3e",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($2,246)",
-        "Low activity (4 txns)"
-      ],
-      "amount": 2245.92,
-      "odds": 0.48,
-      "raw_price": 0.48,
-      "outcome": "Timberwolves",
-      "potential_pnl": 2433.08,
-      "pnl_multiplier": 1.0833333333333333,
-      "wallet_age_days": 0,
-      "total_activities": 4
-    },
-    "timestamp": "2026-03-22T14:55:49.197366",
-    "trade_hash": "0x7d5b7af2c3185f8396dc1d9bf349746a300e12b4fe7a211cdd48d46467fb1ff6",
-    "trade_timestamp": 1774191235,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Timberwolves",
-      "side": "BUY",
-      "price": 0.48,
-      "effective_price": 0.48,
-      "size": 4679.0,
-      "amount": 2245.92,
-      "potential_pnl": 2433.08,
-      "pnl_multiplier": 1.0833333333333333,
-      "is_no": false,
-      "slug": "nba-min-bos-2026-03-22-spread-home-9pt5",
-      "eventSlug": "nba-min-bos-2026-03-22"
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+24.4%)"
-      ],
-      "category": "other",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.236,
-      "market_price": 0.48,
-      "edge": 0.244,
-      "edge_percent": 24.4,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Celtics maintain a strong home court advantage",
-          "Celtics' key players perform at or above their average level",
-          "Opponent's performance is significantly below their average"
-        ],
-        "weakest_link": "Opponent's performance is significantly below their average"
-      },
-      "category": "sports",
-      "narrative_drivers": [
-        "Celtics' recent performance trends",
-        "Injury status of key players on both teams"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "INSIDER_ONLY",
-      "signal_emoji": "\ud83d\udc41\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider activity detected, no clear mispricing",
-      "action_suggestion": "Monitor: insider signal only, no statistical edge",
-      "insider_score": 70,
-      "insider_position": "TIMBERWOLVES",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.244,
-      "edge_percent": 24.4
-    },
-    "financial_analyst": {
-      "signal_quality": 51.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 24.4,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.449351+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-22 >7 days ago, removed from API"
-    }
-  },
-  {
     "market": "Raptors vs. Suns: O/U 220.5",
     "market_slug": "nba-tor-phx-2026-03-22-total-220pt5",
     "event_slug": "nba-tor-phx-2026-03-22-total-220pt5",
@@ -32951,5 +32725,97 @@
     "amount": 3671.8500000000004,
     "ai_context": "\u2705 COPY \u2014 Team Vitality has demonstrated superior recent form and a strong head-to-head record against SK Gaming.\nIn the past month, Team Vitality has maintained a 100% win rate, including a notable victory over G2 Esports, indicating peak performance. (bo3.gg) Historically, Team Vitality has won 19 out of 31 encounters against SK Gaming, including a 1-0 victory in their most recent match on January 17, 2026. (strafe.",
     "ai_verdict": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x7183f8710a3046c85507c2332e9b3585abfc02935e2ec20b7226f68c71751b79",
+    "wallet": "0x1f2dd6d473f3e824cd2f8a89d9c69fb96f6ad0cf",
+    "trader": {
+      "rank": 2,
+      "address": "0x1f2dd6d473f3e824cd2f8a89d9c69fb96f6ad0cf",
+      "username": "Fredi9999",
+      "profit": 16619506.631730152,
+      "volume": 76611316.90515403,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xdfa8ecae5f442d9d2b25bc24ba41e524dc39cae6",
+      "side": "BUY",
+      "asset": "28286586596894865380180371649468011329901016889586493484214609722665755202138",
+      "conditionId": "0x0e11099d72b73bfb3190fd81700b770111cb85af8324f72a06e0128bccf088a5",
+      "size": 2911.32,
+      "price": 0.5132926988445103,
+      "timestamp": 1777752136,
+      "title": "LoL: FURIA Esports vs RED Canids (BO3) - CBLOL Regular Season",
+      "slug": "lol-fur-red-2026-05-02",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/league-of-legends-61a4f083a6.png",
+      "eventSlug": "lol-fur-red-2026-05-02",
+      "outcome": "FURIA Esports",
+      "outcomeIndex": 0,
+      "name": "ns9z",
+      "pseudonym": "Great-Billing",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x7183f8710a3046c85507c2332e9b3585abfc02935e2ec20b7226f68c71751b79",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "LoL: FURIA Esports vs RED Canids (BO3) - CBLOL Regular Season",
+    "market_slug": "lol-fur-red-2026-05-02",
+    "amount": 1494.3592999999998,
+    "ai_context": "\u2705 COPY \u2014 FURIA Esports has a strong recent form and a favorable head-to-head record against RED Canids.\nIn their last 10 matches, FURIA Esports secured 8 wins and 2 losses, while RED Canids achieved 6 wins and 4 losses. In their most recent encounter on February 28, 2026, FURIA Esports won 1-3 against RED Canids in the CBLOL Cup Playoffs. (strafe.",
+    "ai_verdict": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xe6ce5a9631fec96cb163b5dc6a0c011e2641682dccaa7ae0971936e882e10499",
+    "wallet": "0x1f2dd6d473f3e824cd2f8a89d9c69fb96f6ad0cf",
+    "trader": {
+      "rank": 2,
+      "address": "0x1f2dd6d473f3e824cd2f8a89d9c69fb96f6ad0cf",
+      "username": "Fredi9999",
+      "profit": 16619506.631730152,
+      "volume": 76611316.90515403,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x8c0b024c17831a0dde038547b7e791ae6a0d7aa5",
+      "side": "SELL",
+      "asset": "28286586596894865380180371649468011329901016889586493484214609722665755202138",
+      "conditionId": "0x0e11099d72b73bfb3190fd81700b770111cb85af8324f72a06e0128bccf088a5",
+      "size": 2088.68,
+      "price": 0.53,
+      "timestamp": 1777752136,
+      "title": "LoL: FURIA Esports vs RED Canids (BO3) - CBLOL Regular Season",
+      "slug": "lol-fur-red-2026-05-02",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/league-of-legends-61a4f083a6.png",
+      "eventSlug": "lol-fur-red-2026-05-02",
+      "outcome": "FURIA Esports",
+      "outcomeIndex": 0,
+      "name": "WOWZERSS",
+      "pseudonym": "Self-Reliant-Camp",
+      "bio": "We are not here to make money  We are here to make history",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xe6ce5a9631fec96cb163b5dc6a0c011e2641682dccaa7ae0971936e882e10499",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "LoL: FURIA Esports vs RED Canids (BO3) - CBLOL Regular Season",
+    "market_slug": "lol-fur-red-2026-05-02",
+    "amount": 1107.0004,
+    "ai_context": "\u274c SKIP \u2014 RED Canids have consistently defeated FURIA Esports in recent matchups.\nIn their last three encounters, RED Canids won 2-0 on February 8, 2026, and 3-1 on February 28, 2026. (bo3.gg) Additionally, RED Canids have a 17-11 head-to-head record against FURIA Esports. (strafe.com) No recent injury reports for FURIA Esports were found. However, the trader may have access to insider information not yet public.",
+    "ai_verdict": "SKIP"
   }
 ]
