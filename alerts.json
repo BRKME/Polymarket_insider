@@ -1,231 +1,5 @@
 [
   {
-    "market": "Spread: Raptors (-1.5)",
-    "market_slug": "nba-tor-phx-2026-03-22-spread-away-1pt5",
-    "event_slug": "nba-tor-phx-2026-03-22-spread-away-1pt5",
-    "wallet": "0xf03368ac163234dcae340f32fd3438786d316f43",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($1,443)",
-        "Low activity (2 txns)"
-      ],
-      "amount": 1443.42,
-      "odds": 0.54,
-      "raw_price": 0.54,
-      "outcome": "Raptors",
-      "potential_pnl": 1229.58,
-      "pnl_multiplier": 0.8518518518518517,
-      "wallet_age_days": 0,
-      "total_activities": 2
-    },
-    "timestamp": "2026-03-22T14:32:58.236365",
-    "trade_hash": "0x220fa80554f2082bd392f7fddf5c2eacf3915f9ac6d19d85eb1ee680e7afa137",
-    "trade_timestamp": 1774189637,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Raptors",
-      "side": "BUY",
-      "price": 0.54,
-      "effective_price": 0.54,
-      "size": 2673.0,
-      "amount": 1443.42,
-      "potential_pnl": 1229.58,
-      "pnl_multiplier": 0.8518518518518517,
-      "is_no": false,
-      "slug": "nba-tor-phx-2026-03-22-spread-away-1pt5",
-      "eventSlug": "nba-tor-phx-2026-03-22"
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+29.2%)"
-      ],
-      "category": "other",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.248,
-      "market_price": 0.54,
-      "edge": 0.29200000000000004,
-      "edge_percent": 29.200000000000003,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Raptors maintain strong home court advantage",
-          "Key players remain healthy",
-          "Opposing team underperforms"
-        ],
-        "weakest_link": "Opposing team underperforms"
-      },
-      "category": "sports",
-      "narrative_drivers": [
-        "Recent performance trends",
-        "Injury reports"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "INSIDER_ONLY",
-      "signal_emoji": "\ud83d\udc41\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider activity detected, no clear mispricing",
-      "action_suggestion": "Monitor: insider signal only, no statistical edge",
-      "insider_score": 70,
-      "insider_position": "RAPTORS",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.29200000000000004,
-      "edge_percent": 29.200000000000003
-    },
-    "financial_analyst": {
-      "signal_quality": 51.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 29.2,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.449312+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-22 >7 days ago, removed from API"
-    }
-  },
-  {
-    "market": "Spread: Raptors (-2.5)",
-    "market_slug": "nba-tor-phx-2026-03-22-spread-away-2pt5",
-    "event_slug": "nba-tor-phx-2026-03-22-spread-away-2pt5",
-    "wallet": "0x5677ccfb0b25fe0c4ebc3ff500f2dee12aa9894e",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($1,314)",
-        "Low activity (3 txns)"
-      ],
-      "amount": 1314.5,
-      "odds": 0.5,
-      "raw_price": 0.5,
-      "outcome": "Suns",
-      "potential_pnl": 1314.5,
-      "pnl_multiplier": 1.0,
-      "wallet_age_days": 0,
-      "total_activities": 3
-    },
-    "timestamp": "2026-03-22T14:55:21.919113",
-    "trade_hash": "0x8b21319e867f8d9b62b6d6234e2eb88fc1a3a33424999edc8e45dd4c635fb3c5",
-    "trade_timestamp": 1774191085,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Suns",
-      "side": "BUY",
-      "price": 0.5,
-      "effective_price": 0.5,
-      "size": 2629.0,
-      "amount": 1314.5,
-      "potential_pnl": 1314.5,
-      "pnl_multiplier": 1.0,
-      "is_no": false,
-      "slug": "nba-tor-phx-2026-03-22-spread-away-2pt5",
-      "eventSlug": "nba-tor-phx-2026-03-22"
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+26.0%)"
-      ],
-      "category": "other",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.24,
-      "market_price": 0.5,
-      "edge": 0.26,
-      "edge_percent": 26.0,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Raptors' key players perform at peak levels",
-          "Opposing team has significant injuries",
-          "Home court advantage for the Raptors"
-        ],
-        "weakest_link": "Opposing team has significant injuries"
-      },
-      "category": "sports",
-      "narrative_drivers": [
-        "Recent performance trends of the Raptors",
-        "Injury reports of key players on both teams"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "INSIDER_ONLY",
-      "signal_emoji": "\ud83d\udc41\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider activity detected, no clear mispricing",
-      "action_suggestion": "Monitor: insider signal only, no statistical edge",
-      "insider_score": 70,
-      "insider_position": "SUNS",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.26,
-      "edge_percent": 26.0
-    },
-    "financial_analyst": {
-      "signal_quality": 51.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 26.0,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.449321+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-22 >7 days ago, removed from API"
-    }
-  },
-  {
     "market": "Spread: Raptors (-2.5)",
     "market_slug": "nba-tor-phx-2026-03-22-spread-away-2pt5",
     "event_slug": "nba-tor-phx-2026-03-22-spread-away-2pt5",
@@ -33079,6 +32853,170 @@
     "market_slug": "mls-tor-sje-2026-05-02",
     "amount": 1960.0,
     "ai_context": "\u2705 COPY \u2014 San Jose Earthquakes have won their last five matches, including a 3-2 victory over Phoenix Rising FC on April 15, 2026. (espn.com)\nThey are set to play against Toronto FC on May 2, 2026, at 1:00 PM. (espn.com)\nGiven their current winning streak, betting on a San Jose Earthquakes victory appears favorable.",
+    "ai_verdict": "COPY"
+  },
+  {
+    "market": "Will Manchester City FC win on 2026-05-04?",
+    "market_slug": "epl-eve-mac-2026-05-04-mac",
+    "event_slug": "epl-eve-mac-2026-05-04-mac",
+    "wallet": "0xbd9e9ac99b513763519ebcb20cbba1c56667d576",
+    "analysis": {
+      "score": 80,
+      "flags": [
+        "Recent wallet (9d old)",
+        "Large bet ($13,000)",
+        "Low activity (17 txns)",
+        "Pre-event latency: 1833m"
+      ],
+      "amount": 12999.999999000001,
+      "odds": 0.6618190762001113,
+      "raw_price": 0.6618190762001113,
+      "outcome": "Yes",
+      "potential_pnl": 6642.830596999998,
+      "pnl_multiplier": 0.5109869690393065,
+      "wallet_age_days": 9,
+      "total_activities": 17
+    },
+    "timestamp": "2026-05-02T17:33:22.718907",
+    "trade_hash": "0x45aea31be94e6fe826613070c0229f09c0a59a4cfdf97e9b17a8d4930e73794b",
+    "trade_timestamp": 1777742820,
+    "latency": {
+      "latency_seconds": 109980.0,
+      "latency_minutes": 1833.0,
+      "is_pre_event": true,
+      "severity": "CRITICAL",
+      "trade_time": "2026-05-02T17:27:00+00:00",
+      "event_time": "2026-05-04T00:00:00+00:00"
+    },
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "Yes",
+      "outcomeIndex": 0,
+      "normalized_position": "YES",
+      "side": "BUY",
+      "price": 0.6618190762001113,
+      "effective_price": 0.6618190762001113,
+      "size": 19642.830596,
+      "amount": 12999.999999000001,
+      "potential_pnl": 6642.830596999998,
+      "pnl_multiplier": 0.5109869690393065,
+      "is_no": false,
+      "conditionId": "0x998d69f881036ac580f6dc0a18b6c3ec48f167fd00799db9e58bf43e07b4b27e",
+      "slug": "epl-eve-mac-2026-05-04-mac",
+      "eventSlug": "epl-eve-mac-2026-05-04"
+    },
+    "irrationality": {
+      "irrationality_score": 35,
+      "flags": [
+        "Large mispricing edge (+38.9%)"
+      ],
+      "category": "politics_near",
+      "category_info": {
+        "strength": "medium",
+        "typical_overpricing": 0.02,
+        "min_edge": 0.03
+      },
+      "is_irrational": true
+    },
+    "mispricing": {
+      "rational_estimate": 0.27236381524002223,
+      "market_price": 0.6618190762001113,
+      "edge": 0.38945526096008903,
+      "edge_percent": 38.945526096008905,
+      "min_edge_required": 0.05,
+      "is_mispriced": true,
+      "edge_quality": "STRONG",
+      "base_rate_class": "common",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "common",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "Manchester City maintains a strong squad with minimal injuries",
+          "Key competitors underperform or face significant injuries",
+          "Effective management and strategy leading up to the match"
+        ],
+        "weakest_link": "Key competitors underperform or face significant injuries"
+      },
+      "category": "sports",
+      "narrative_drivers": [
+        "Manchester City's recent performance and form",
+        "The impact of rival teams' performance leading up to the match"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "CONFLICT",
+      "signal_emoji": "\u26a0\ufe0f",
+      "signal_strength": 80,
+      "interpretation": "Insider buying YES despite statistical overpricing",
+      "action_suggestion": "Requires manual analysis: insider may have real info OR is part of irrational crowd",
+      "insider_score": 80,
+      "insider_position": "YES",
+      "irrationality_score": 35,
+      "is_irrational": true,
+      "is_mispriced": true,
+      "edge": 0.38945526096008903,
+      "edge_percent": 38.945526096008905
+    },
+    "financial_analyst": {
+      "signal_quality": 48.0,
+      "stance": "WATCH_ONLY",
+      "edge_percent": 38.95,
+      "signal_strength": 80.0,
+      "insider_score": 80.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "ai_context": "\u2705 COPY \u2014 Manchester City has demonstrated strong recent form, winning their last three matches.\nEPL Schedule\nManchester City (MCI) @ Chelsea FC (CFC) on Sunday, Apr 12, 2026 at 08:30 AM PDT. Final score: MCI 3 - CFC 0\nArsenal FC (ARS) @ Manchester City (MCI) on Sunday, Apr 19, 2026 at 08:30 AM PDT. Final score: ARS 1 - MCI 2\nManchester City (MCI) @ Burnley FC (BUR) on Wednesday, Apr 22, 2026 at 12:00 PM PDT. Final score: MCI 1 - BUR 0\n They are set to face Everton on May 4, 2026. (mancity.",
+    "ai_verdict": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x0cc78e404240715db55b25927671f9afe4b4df2565a94adbdd2b28ba78765184",
+    "wallet": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
+    "trader": {
+      "rank": 15,
+      "address": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
+      "username": "GamblingIsAllYouNeed",
+      "profit": 4903242.14701923,
+      "volume": 394657402.10092,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xd48a81db62f742c4e42d86dfc23a7ee345366e90",
+      "side": "BUY",
+      "asset": "29241948035042360698848772464297046402943792038401860078845826960668336525218",
+      "conditionId": "0x6f199a59f3d37d0523c38a865598d7b5d17a1d862cccd0990cfdb58365a77e80",
+      "size": 3448.275861,
+      "price": 0.5799999998898,
+      "timestamp": 1777743728,
+      "title": "Will FC Barcelona win on 2026-05-02?",
+      "slug": "lal-osa-bar-2026-05-02-bar",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/league-lal.png",
+      "eventSlug": "lal-osa-bar-2026-05-02",
+      "outcome": "Yes",
+      "outcomeIndex": 0,
+      "name": "NiFengFanPan",
+      "pseudonym": "Orderly-Venture",
+      "bio": "Wen Zhong Qiu Sheng",
+      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-3358711-e85e8a4d-0015-4638-8326-28b28b4859ed.webp",
+      "profileImageOptimized": "",
+      "transactionHash": "0x0cc78e404240715db55b25927671f9afe4b4df2565a94adbdd2b28ba78765184",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Will FC Barcelona win on 2026-05-02?",
+    "market_slug": "lal-osa-bar-2026-05-02",
+    "amount": 1999.9999990000001,
+    "ai_context": "\u2705 COPY \u2014 FC Barcelona is in strong form, having won their last nine consecutive league matches.\nTheir most recent victory was a 2-0 win against Getafe CF on April 25, 2026, with goals from Ferm\u00edn L\u00f3pez and Marcus Rashford. (cadenaser.com) They are set to face Osasuna on May 2, 2026, at 21:00. (fcbarcelona.com)\nGiven their current winning streak and the upcoming match against Osasuna, the trader's bet on FC Barcelona winning at 58% odds appears well-supported.",
     "ai_verdict": "COPY"
   }
 ]
