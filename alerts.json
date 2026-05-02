@@ -1,118 +1,5 @@
 [
   {
-    "market": "Wizards vs. Knicks: O/U 226.5",
-    "market_slug": "nba-was-nyk-2026-03-22-total-226pt5",
-    "event_slug": "nba-was-nyk-2026-03-22-total-226pt5",
-    "wallet": "0x1f72d79a2ef1e4f6ee2f1b1a2f6f143b9e4b3cb8",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($1,191)",
-        "Low activity (2 txns)"
-      ],
-      "amount": 1191.44,
-      "odds": 0.53,
-      "raw_price": 0.53,
-      "outcome": "Over",
-      "potential_pnl": 1056.56,
-      "pnl_multiplier": 0.8867924528301886,
-      "wallet_age_days": 0,
-      "total_activities": 2
-    },
-    "timestamp": "2026-03-22T13:33:47.652375",
-    "trade_hash": "0x998a98401afa41f41a16ceeffe849c9683cbd74b1d382f1afd0aec88e3a50295",
-    "trade_timestamp": 1774186243,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Over",
-      "side": "BUY",
-      "price": 0.53,
-      "effective_price": 0.53,
-      "size": 2248.0,
-      "amount": 1191.44,
-      "potential_pnl": 1056.56,
-      "pnl_multiplier": 0.8867924528301886,
-      "is_no": false,
-      "slug": "nba-was-nyk-2026-03-22-total-226pt5",
-      "eventSlug": "nba-was-nyk-2026-03-22"
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+28.4%)"
-      ],
-      "category": "sports",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.246,
-      "market_price": 0.53,
-      "edge": 0.28400000000000003,
-      "edge_percent": 28.400000000000002,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Both teams have strong offensive performances",
-          "Defensive weaknesses from both teams",
-          "Favorable refereeing decisions leading to more fouls and free throws"
-        ],
-        "weakest_link": "Defensive weaknesses from both teams"
-      },
-      "category": "sports",
-      "narrative_drivers": [
-        "Recent high-scoring games by both teams",
-        "Injury reports affecting key defensive players"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "INSIDER_ONLY",
-      "signal_emoji": "\ud83d\udc41\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider activity detected, no clear mispricing",
-      "action_suggestion": "Monitor: insider signal only, no statistical edge",
-      "insider_score": 70,
-      "insider_position": "OVER",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.28400000000000003,
-      "edge_percent": 28.400000000000002
-    },
-    "financial_analyst": {
-      "signal_quality": 51.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 28.4,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.449264+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-22 >7 days ago, removed from API"
-    }
-  },
-  {
     "market": "UCLA Bruins vs. Connecticut Huskies: O/U 137.5",
     "market_slug": "cbb-ucla-uconn-2026-03-22-total-137pt5",
     "event_slug": "cbb-ucla-uconn-2026-03-22-total-137pt5",
@@ -33289,6 +33176,52 @@
     "market_slug": "bun-bay-hei-2026-05-02",
     "amount": 1008.9675,
     "ai_context": "\u274c SKIP \u2014 Heidenheim's recent form and head-to-head record against Bayern Munich do not support a win.\nIn their last five matches, Heidenheim has one win, two draws, and two losses, including a 3-1 victory over Union Berlin on April 11, 2026. However, their overall record against Bayern Munich is poor, with Bayern winning five of the last six encounters. (footystats.org) Additionally, Heidenheim is currently 18th in the Bundesliga standings, indicating a challenging season. (footystats.",
+    "ai_verdict": "SKIP"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xa2a631cd609e49ecb5b20f3b6953d08c1070022591f76fc74a69b26e07062f65",
+    "wallet": "0x006cc834cc092684f1b56626e23bedb3835c16ea",
+    "trader": {
+      "rank": 17,
+      "address": "0x006cc834cc092684f1b56626e23bedb3835c16ea",
+      "username": "0x006cc834Cc092684F1B56626E23BEdB3835c16ea-1729683673397",
+      "profit": 4552422.942362778,
+      "volume": 60197195.49364801,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x3fbded0c0a363b522cc8e6d868bfdec2a812c4e4",
+      "side": "BUY",
+      "asset": "59928625389931764116747873821083069226111259434595286708568707271195564165362",
+      "conditionId": "0xee5672da36fdd771891a6a8432a78252db9b1c173cc0c52e5ce2a4c7e8a0b7c5",
+      "size": 2715.47,
+      "price": 0.54,
+      "timestamp": 1777737996,
+      "title": "Game Handicap: KRX (-1.5) vs DN SOOPers (+1.5)",
+      "slug": "lol-drx-dnf-2026-05-04-game-handicap-away-1pt5",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/league-of-legends-61a4f083a6.png",
+      "eventSlug": "lol-drx-dnf-2026-05-04",
+      "outcome": "DN SOOPers",
+      "outcomeIndex": 1,
+      "name": "melancolie",
+      "pseudonym": "Blue-Submarine",
+      "bio": "",
+      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-3104345-fe8731e7-6881-4a01-8e3f-4d2f51a78a0e.png",
+      "profileImageOptimized": "",
+      "transactionHash": "0xa2a631cd609e49ecb5b20f3b6953d08c1070022591f76fc74a69b26e07062f65",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Game Handicap: KRX (-1.5) vs DN SOOPers (+1.5)",
+    "market_slug": "lol-drx-dnf-2026-05-04",
+    "amount": 1466.3538,
+    "ai_context": "\u274c SKIP \u2014 DN SOOPers have a losing record in their recent matches and no available head-to-head data against KRX.\nThey have lost their last two matches, including a 0-2 defeat to KT Rolster on February 6, 2026. (m.aiscore.com) However, the trader may have access to insider information or analysis not publicly available.",
     "ai_verdict": "SKIP"
   }
 ]
