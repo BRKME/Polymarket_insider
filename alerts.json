@@ -3,119 +3,6 @@
     "market": "Spread: Raptors (-2.5)",
     "market_slug": "nba-tor-phx-2026-03-22-spread-away-2pt5",
     "event_slug": "nba-tor-phx-2026-03-22-spread-away-2pt5",
-    "wallet": "0xebaeab1cc116db44266426fbec29a947cec2474b",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($1,444)",
-        "Low activity (3 txns)"
-      ],
-      "amount": 1443.925,
-      "odds": 0.5,
-      "raw_price": 0.5,
-      "outcome": "Raptors",
-      "potential_pnl": 1443.925,
-      "pnl_multiplier": 1.0,
-      "wallet_age_days": 0,
-      "total_activities": 3
-    },
-    "timestamp": "2026-03-22T14:55:25.399072",
-    "trade_hash": "0xfdc0173350279186d3bed1c99392ed80c2ae6486f5f2a7dcd99f84727be01775",
-    "trade_timestamp": 1774191085,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Raptors",
-      "side": "BUY",
-      "price": 0.5,
-      "effective_price": 0.5,
-      "size": 2887.85,
-      "amount": 1443.925,
-      "potential_pnl": 1443.925,
-      "pnl_multiplier": 1.0,
-      "is_no": false,
-      "slug": "nba-tor-phx-2026-03-22-spread-away-2pt5",
-      "eventSlug": "nba-tor-phx-2026-03-22"
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+26.0%)"
-      ],
-      "category": "other",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.24,
-      "market_price": 0.5,
-      "edge": 0.26,
-      "edge_percent": 26.0,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Raptors maintain player health",
-          "Raptors perform well against spread",
-          "Opposing team underperforms"
-        ],
-        "weakest_link": "Opposing team underperforms"
-      },
-      "category": "sports",
-      "narrative_drivers": [
-        "team performance trends",
-        "injury reports"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "INSIDER_ONLY",
-      "signal_emoji": "\ud83d\udc41\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider activity detected, no clear mispricing",
-      "action_suggestion": "Monitor: insider signal only, no statistical edge",
-      "insider_score": 70,
-      "insider_position": "RAPTORS",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.26,
-      "edge_percent": 26.0
-    },
-    "financial_analyst": {
-      "signal_quality": 51.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 26.0,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.449330+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-22 >7 days ago, removed from API"
-    }
-  },
-  {
-    "market": "Spread: Raptors (-2.5)",
-    "market_slug": "nba-tor-phx-2026-03-22-spread-away-2pt5",
-    "event_slug": "nba-tor-phx-2026-03-22-spread-away-2pt5",
     "wallet": "0x35a08efbe75b847f7863370110a40a3bcbfae51a",
     "analysis": {
       "score": 70,
@@ -33017,6 +32904,52 @@
     "market_slug": "lal-osa-bar-2026-05-02",
     "amount": 1999.9999990000001,
     "ai_context": "\u2705 COPY \u2014 FC Barcelona is in strong form, having won their last nine consecutive league matches.\nTheir most recent victory was a 2-0 win against Getafe CF on April 25, 2026, with goals from Ferm\u00edn L\u00f3pez and Marcus Rashford. (cadenaser.com) They are set to face Osasuna on May 2, 2026, at 21:00. (fcbarcelona.com)\nGiven their current winning streak and the upcoming match against Osasuna, the trader's bet on FC Barcelona winning at 58% odds appears well-supported.",
+    "ai_verdict": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x8b42cc401a80576eb0d547f1586002540f799a714d08f5135e132933c07ef64e",
+    "wallet": "0x23786fdad0073692157c6d7dc81f281843a35fcb",
+    "trader": {
+      "rank": 13,
+      "address": "0x23786fdad0073692157c6d7dc81f281843a35fcb",
+      "username": "mikatrade77",
+      "profit": 5147998.544602999,
+      "volume": 10884765.388775,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xbca8b97bdb5dbe33151074f04d0948238a6acf14",
+      "side": "BUY",
+      "asset": "105587322046288386153732709345895910537406279649384319979390847978588983830256",
+      "conditionId": "0x02679cab309239c41e21beb32ac6d5b59b2839915d0568956563fbcd2489ddad",
+      "size": 4895.8,
+      "price": 0.75,
+      "timestamp": 1777747030,
+      "title": "LoL: Team Vitality vs SK Gaming (BO3) - LEC Regular Season",
+      "slug": "lol-vit-sk-2026-05-02",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/league-of-legends-61a4f083a6.png",
+      "eventSlug": "lol-vit-sk-2026-05-02",
+      "outcome": "Team Vitality",
+      "outcomeIndex": 0,
+      "name": "chickenpenguin",
+      "pseudonym": "Naive-Crunch",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x8b42cc401a80576eb0d547f1586002540f799a714d08f5135e132933c07ef64e",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "LoL: Team Vitality vs SK Gaming (BO3) - LEC Regular Season",
+    "market_slug": "lol-vit-sk-2026-05-02",
+    "amount": 3671.8500000000004,
+    "ai_context": "\u2705 COPY \u2014 Team Vitality has demonstrated superior recent form and a strong head-to-head record against SK Gaming.\nIn the past month, Team Vitality has maintained a 100% win rate, including a notable victory over G2 Esports, indicating peak performance. (bo3.gg) Historically, Team Vitality has won 19 out of 31 encounters against SK Gaming, including a 1-0 victory in their most recent match on January 17, 2026. (strafe.",
     "ai_verdict": "COPY"
   }
 ]
