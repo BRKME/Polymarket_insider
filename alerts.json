@@ -1,58 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0xb01a236ea77be314887e12bea3ebcca04916dadb51ef1228fc3ba2cf1cd29f79",
-    "wallet": "0xdc876e6873772d38716fda7f2452a78d426d7ab6",
-    "trader": {
-      "rank": 18,
-      "address": "0xdc876e6873772d38716fda7f2452a78d426d7ab6",
-      "username": "432614799197",
-      "profit": 4558348.7152132625,
-      "volume": 185485956.86208287,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0xcd3638fea0107fe3355544251f96a10980daa8ac",
-      "side": "BUY",
-      "asset": "66419344206339468073253308897091364505984570816153869860212591505290583609104",
-      "conditionId": "0x0954cc08de0ab8345bcf24f314d571e6a77d913ea9977ce2b4187983a70b450d",
-      "size": 4116.83,
-      "price": 0.6,
-      "timestamp": 1774132281,
-      "title": "Lakers vs. Magic",
-      "slug": "nba-lal-orl-2026-03-21",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
-      "eventSlug": "nba-lal-orl-2026-03-21",
-      "outcome": "Lakers",
-      "outcomeIndex": 0,
-      "name": "TheCheatCode",
-      "pseudonym": "Open-Supporter",
-      "bio": "3760",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0xb01a236ea77be314887e12bea3ebcca04916dadb51ef1228fc3ba2cf1cd29f79",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Lakers vs. Magic",
-    "market_slug": "nba-lal-orl-2026-03-21",
-    "amount": 2470.098,
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.449132+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-21 >7 days ago, removed from API"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0xe3aca6234442796483bc0e3ad846d2d1be1c4553417c8697b1ede6e9cd3eae4b",
     "wallet": "0xdb27bf2ac5d428a9c63dbc914611036855a6c56e",
     "trader": {
@@ -33535,5 +33483,51 @@
     },
     "ai_context": "\u2705 COPY \u2014 Recent head-to-head results favor the Texas Rangers.\nIn their last six matchups, the Rangers won four games, including a 2-0 victory on July 19, 2025. (champsorchumps.us)\nAdditionally, the Rangers have a strong record against the Tigers, leading the all-time series 346-382. (statmuse.com)\nWhile the Rangers finished the 2025 season with an 81-81 record, (baseball-reference.com)their recent head-to-head performance against the Tigers suggests a favorable outcome.",
     "ai_verdict": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x5b553a91c7ebec0a7594377645aeff0b73f326dd55cef99b8c0e92f1373c8315",
+    "wallet": "0x1f2dd6d473f3e824cd2f8a89d9c69fb96f6ad0cf",
+    "trader": {
+      "rank": 2,
+      "address": "0x1f2dd6d473f3e824cd2f8a89d9c69fb96f6ad0cf",
+      "username": "Fredi9999",
+      "profit": 16619506.631730152,
+      "volume": 76611316.90515403,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+      "side": "BUY",
+      "asset": "3458579677480418407462245282172328323357098371506388156545148696750943551593",
+      "conditionId": "0x35bc448835668de4119613dd2f06ff6db94548d656783eb0a779b732f268f019",
+      "size": 3096,
+      "price": 0.67,
+      "timestamp": 1777680024,
+      "title": "Cavaliers vs. Raptors",
+      "slug": "nba-cle-tor-2026-05-01",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
+      "eventSlug": "nba-cle-tor-2026-05-01",
+      "outcome": "Cavaliers",
+      "outcomeIndex": 0,
+      "name": "swisstony",
+      "pseudonym": "Frail-Possible",
+      "bio": "loincloth chic",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x5b553a91c7ebec0a7594377645aeff0b73f326dd55cef99b8c0e92f1373c8315",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Cavaliers vs. Raptors",
+    "market_slug": "nba-cle-tor-2026-05-01",
+    "amount": 2074.32,
+    "ai_context": "\ud83d\udfe1 LEAN COPY \u2014 Recent matchups show a split between the Cavaliers and Raptors, but the Cavaliers have a slight edge in the season series.\nIn their last five encounters, the Cavaliers have won three games, including a 126-113 victory on April 18, 2026, and a 115-105 win on April 20, 2026. (sportspundit.com) However, the Raptors have also secured two wins, including a 126-104 victory on April 23, 2026, and a 93-89 win on April 26, 2026. (champsorchumps.",
+    "ai_verdict": "LEAN_COPY"
   }
 ]
