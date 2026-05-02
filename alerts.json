@@ -33582,6 +33582,13 @@
     "amount": 7999.999999,
     "ai_context": "\u2705 COPY \u2014 Vissel K\u014dbe has been in strong form recently, winning 4 of their last 5 matches.\nThey secured victories against Nagoya Grampus (3-2), Fagiano Okayama (4-1), Shimizu S-Pulse (2-0), and Avispa Fukuoka (2-1). (espn.com) Gamba Osaka has been inconsistent, losing 3 of their last 10 matches. (azscore.com) Given Vissel K\u014dbe's recent performance and Gamba Osaka's struggles, the trader's bet is supported.",
     "ai_verdict": "COPY",
-    "resolution_last_check": "2026-05-02T07:15:41.314848+00:00"
+    "resolution_last_check": "2026-05-02T07:15:41.314848+00:00",
+    "resolution": {
+      "outcome": "No",
+      "checked_at": "2026-05-02T07:20:13.153965+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -8000.0
+    }
   }
 ]
