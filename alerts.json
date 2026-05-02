@@ -1,231 +1,5 @@
 [
   {
-    "market": "Raptors vs. Suns: O/U 220.5",
-    "market_slug": "nba-tor-phx-2026-03-22-total-220pt5",
-    "event_slug": "nba-tor-phx-2026-03-22-total-220pt5",
-    "wallet": "0xc11a7878fd136224fd53bb192c7596d5ed99960f",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($1,985)",
-        "Low activity (4 txns)"
-      ],
-      "amount": 1984.8,
-      "odds": 0.48,
-      "raw_price": 0.48,
-      "outcome": "Over",
-      "potential_pnl": 2150.2,
-      "pnl_multiplier": 1.0833333333333333,
-      "wallet_age_days": 0,
-      "total_activities": 4
-    },
-    "timestamp": "2026-03-22T14:55:59.316181",
-    "trade_hash": "0xf9591db7aacda463ace82f576f8da981fc4bd4f0557fe15c65caa060346465a3",
-    "trade_timestamp": 1774190979,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Over",
-      "side": "BUY",
-      "price": 0.48,
-      "effective_price": 0.48,
-      "size": 4135.0,
-      "amount": 1984.8,
-      "potential_pnl": 2150.2,
-      "pnl_multiplier": 1.0833333333333333,
-      "is_no": false,
-      "slug": "nba-tor-phx-2026-03-22-total-220pt5",
-      "eventSlug": "nba-tor-phx-2026-03-22"
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+24.4%)"
-      ],
-      "category": "sports",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.236,
-      "market_price": 0.48,
-      "edge": 0.244,
-      "edge_percent": 24.4,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Both teams have high-scoring offenses",
-          "Defensive strategies are ineffective",
-          "Game pace is fast"
-        ],
-        "weakest_link": "Defensive strategies are ineffective"
-      },
-      "category": "sports",
-      "narrative_drivers": [
-        "Recent performance trends of both teams",
-        "Injury status of key players"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "INSIDER_ONLY",
-      "signal_emoji": "\ud83d\udc41\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider activity detected, no clear mispricing",
-      "action_suggestion": "Monitor: insider signal only, no statistical edge",
-      "insider_score": 70,
-      "insider_position": "OVER",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.244,
-      "edge_percent": 24.4
-    },
-    "financial_analyst": {
-      "signal_quality": 51.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 24.4,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.449368+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-22 >7 days ago, removed from API"
-    }
-  },
-  {
-    "market": "Raptors vs. Suns: O/U 220.5",
-    "market_slug": "nba-tor-phx-2026-03-22-total-220pt5",
-    "event_slug": "nba-tor-phx-2026-03-22-total-220pt5",
-    "wallet": "0x36c20c0dc17f8ba65386bce29abf72cefb9ba2ce",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($2,381)",
-        "Low activity (4 txns)"
-      ],
-      "amount": 2381.2799999999997,
-      "odds": 0.48,
-      "raw_price": 0.48,
-      "outcome": "Over",
-      "potential_pnl": 2579.7200000000003,
-      "pnl_multiplier": 1.0833333333333335,
-      "wallet_age_days": 0,
-      "total_activities": 4
-    },
-    "timestamp": "2026-03-22T14:56:02.683841",
-    "trade_hash": "0xf9233067c8ca90d9c55ec7e50a6e3a4ea0bcba6e049a3a0379a1fa0061371b19",
-    "trade_timestamp": 1774190979,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Over",
-      "side": "BUY",
-      "price": 0.48,
-      "effective_price": 0.48,
-      "size": 4961.0,
-      "amount": 2381.2799999999997,
-      "potential_pnl": 2579.7200000000003,
-      "pnl_multiplier": 1.0833333333333335,
-      "is_no": false,
-      "slug": "nba-tor-phx-2026-03-22-total-220pt5",
-      "eventSlug": "nba-tor-phx-2026-03-22"
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+24.4%)"
-      ],
-      "category": "sports",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.236,
-      "market_price": 0.48,
-      "edge": 0.244,
-      "edge_percent": 24.4,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Both teams score above average",
-          "Defensive performance is below average",
-          "Game pace is high"
-        ],
-        "weakest_link": "Defensive performance is below average"
-      },
-      "category": "sports",
-      "narrative_drivers": [
-        "Recent offensive trends of both teams",
-        "Injury status of key players"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "INSIDER_ONLY",
-      "signal_emoji": "\ud83d\udc41\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider activity detected, no clear mispricing",
-      "action_suggestion": "Monitor: insider signal only, no statistical edge",
-      "insider_score": 70,
-      "insider_position": "OVER",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.244,
-      "edge_percent": 24.4
-    },
-    "financial_analyst": {
-      "signal_quality": 51.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 24.4,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.449376+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-22 >7 days ago, removed from API"
-    }
-  },
-  {
     "type": "TOP_TRADER",
     "trade_hash": "0x96f9928ba8551baef816663a06a364c65fe673dff2593d22e08cf6f6320e34bf",
     "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
@@ -32749,6 +32523,98 @@
     "market_slug": "lal-osa-bar-2026-05-02",
     "amount": 1555.3,
     "ai_context": "\u2705 COPY \u2014 FC Barcelona has a strong record against CA Osasuna, winning 28 of their 40 encounters.\nIn their most recent match on May 2, 2026, Barcelona secured a 2-1 victory at El Sadar Stadium, with goals from Robert Lewandowski and Ferran Torres. (cadenaser.com)\nAdditionally, Barcelona has won 28 of the 40 matches between the two teams, with 7 draws and 5 wins for Osasuna. (aiscore.",
+    "ai_verdict": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x83ff1dfe2306fc6874b4d580f0a1a3bb6d2fe3045aed461c2c40804729e5670e",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.515682004,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x5e3040eb55cb0f4f86eb0af40cb84c9d3585acbf",
+      "side": "BUY",
+      "asset": "42387333424859101360522157974559023614230949557710232799808863484250381042022",
+      "conditionId": "0x4428c274a885792971364e6d4efe8696399b015f7d2cc13019045474458aedec",
+      "size": 1810,
+      "price": 0.58,
+      "timestamp": 1777764744,
+      "title": "Spread: Celtics (-6.5)",
+      "slug": "nba-phi-bos-2026-05-02-spread-home-6pt5",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
+      "eventSlug": "nba-phi-bos-2026-05-02",
+      "outcome": "76ers",
+      "outcomeIndex": 1,
+      "name": "slimjoe",
+      "pseudonym": "Gargantuan-Heater",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x83ff1dfe2306fc6874b4d580f0a1a3bb6d2fe3045aed461c2c40804729e5670e",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Spread: Celtics (-6.5)",
+    "market_slug": "nba-phi-bos-2026-05-02",
+    "amount": 1049.8,
+    "ai_context": "\u274c SKIP \u2014 The 76ers have lost 4 of their last 5 games against the Celtics, including a 128-96 defeat on April 26, 2026. (nba.com) Additionally, star center Joel Embiid is out due to an abdominal injury. (espn.com) However, the trader may have access to insider information or anticipate a significant performance from Tyrese Maxey, who has been a standout player for the 76ers.",
+    "ai_verdict": "SKIP"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x67d9faabcea311bfdb342b90c8accc0d3518fa4c49425dbc435802266a3e4a76",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.515682004,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xb652e5dabc3fccd3c939acab0108f99866842db4",
+      "side": "BUY",
+      "asset": "107646571855528571179151689880725360637302367736699759018841667621188213338134",
+      "conditionId": "0xca7dbcb739e6a52cdf246ccc2200eea42bde2f1ca731eac8319a02e3ca916926",
+      "size": 10155.37,
+      "price": 0.49,
+      "timestamp": 1777764742,
+      "title": "76ers vs. Celtics: O/U 205.5",
+      "slug": "nba-phi-bos-2026-05-02-total-205pt5",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
+      "eventSlug": "nba-phi-bos-2026-05-02",
+      "outcome": "Over",
+      "outcomeIndex": 0,
+      "name": "0x2a2C53bD278c04DA9962Fcf96490E17F3DfB9B",
+      "pseudonym": "Several-Semicolon",
+      "bio": "",
+      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-952641-09ade205-c3b9-436f-a03a-f73023fc6740.png",
+      "profileImageOptimized": "",
+      "transactionHash": "0x67d9faabcea311bfdb342b90c8accc0d3518fa4c49425dbc435802266a3e4a76",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "76ers vs. Celtics: O/U 205.5",
+    "market_slug": "nba-phi-bos-2026-05-02",
+    "amount": 4976.1313,
+    "ai_context": "\u2705 COPY \u2014 Recent matchups and injuries favor the Over.\nIn their last three games, the 76ers and Celtics averaged 215.3 total points per game. (statmuse.com) Additionally, Celtics star Jayson Tatum is out due to a left leg injury, which could lead to a higher-scoring game. (as.com)\nGiven these factors, the Over is a strong bet.",
     "ai_verdict": "COPY"
   }
 ]
