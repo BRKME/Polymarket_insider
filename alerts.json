@@ -32595,7 +32595,14 @@
     "amount": 1525.0,
     "ai_context": "\u274c SKIP \u2014 Pistons have lost 4 of their last 5 games against the Magic.\nIn their most recent matchup on April 29, 2026, the Pistons lost 116-109 to the Magic. (betexplorer.com)\nHowever, the Pistons have been strong throughout the season, finishing first in the Eastern Conference with a 60-22 record. (foxsports.com)\nThe trader may have insider information about the Pistons' lineup or strategy changes not yet public.",
     "ai_verdict": "SKIP",
-    "resolution_last_check": "2026-05-01T08:02:42.912813+00:00"
+    "resolution_last_check": "2026-05-01T08:02:42.912813+00:00",
+    "resolution": {
+      "outcome": "Pistons",
+      "checked_at": "2026-05-02T07:15:26.965779+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 975.0
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -32800,7 +32807,14 @@
     "market_slug": "lol-wb-ig1-2026-05-01",
     "amount": 10515.913199999999,
     "ai_context": "\u2705 COPY \u2014 Weibo Gaming has a strong head-to-head record against Invictus Gaming, winning 77% of their recent encounters.\nIn their last five meetings, Weibo Gaming secured victories with scores of 2-0 on March 30, 3-0 on February 25, 2-0 on February 6, and 2-1 on January 14. (bo3.gg) Additionally, Weibo Gaming has a 0% win rate in the last month, indicating alarming short-term form issues. (bo3.",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution": {
+      "outcome": "Invictus Gaming",
+      "checked_at": "2026-05-02T07:15:28.319269+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -10515.91
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -32846,7 +32860,14 @@
     "market_slug": "lol-hle1-t1-2026-05-01",
     "amount": 4999.999999000001,
     "ai_context": "\u2705 COPY \u2014 Hanwha Life Esports has a strong recent record and a favorable head-to-head against T1.\nThey secured 1st place in the 2025 First Stand Tournament with a 3-1 victory. (liquipedia.net) In their most recent encounter, Hanwha Life Esports defeated T1 3-2 in the 2024 LCK Summer Finals. (liquipedia.net)",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution": {
+      "outcome": "Hanwha Life Esports",
+      "checked_at": "2026-05-02T07:15:29.526739+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 3928.57
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -32892,7 +32913,14 @@
     "market_slug": "lol-wb-ig1-2026-05-01",
     "amount": 1547.3300000000002,
     "ai_context": "\u2705 COPY \u2014 Weibo Gaming has a strong head-to-head record against Invictus Gaming, winning 14 out of 18 matches.\nIn their most recent encounter on April 15, 2026, Weibo Gaming secured a 2-1 victory. (tips.gg)\nWeibo Gaming's recent form includes a win streak, while Invictus Gaming is on a one-match losing streak. (tips.gg)\nGiven Weibo Gaming's favorable head-to-head record and current form, the trader's bet is supported.",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution": {
+      "outcome": "Invictus Gaming",
+      "checked_at": "2026-05-02T07:15:30.642653+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -1547.33
+    }
   },
   {
     "market": "Madrid Open: Alexander Blockx vs Alexander Zverev",
@@ -33002,7 +33030,14 @@
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
     },
     "ai_context": "\u2705 COPY \u2014 Alexander Blockx has demonstrated exceptional form, reaching the Madrid Open semifinals after defeating top players.\nBlockx, currently ranked No. 69, has advanced to the semifinals of the Madrid Open, defeating defending champion Casper Ruud with a 6-4, 6-4 victory. (as.com) He has also secured wins against notable opponents such as F\u00e9lix Auger-Aliassime and Francisco Cer\u00fandolo, showcasing his rising talent. (elpais.",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution": {
+      "outcome": "Alexander Zverev",
+      "checked_at": "2026-05-02T07:15:32.775999+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -1820.72
+    }
   },
   {
     "market": "Strait of Hormuz traffic returns to normal by end of June?",
@@ -33112,7 +33147,8 @@
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
     },
     "ai_context": "\u274c SKIP \u2014 Recent disruptions in the Strait of Hormuz have significantly reduced shipping traffic, with no clear timeline for normalization by June.\nAs of April 14, 2026, the Strait of Hormuz has been closed to commercial shipping for 61 days, with only 9 vessels detected on that day compared to an average of 138. (hormuztracker.com) The U.S. Navy is actively clearing Iranian mines from the strait, a process that may take up to six months. (apnews.",
-    "ai_verdict": "SKIP"
+    "ai_verdict": "SKIP",
+    "resolution_last_check": "2026-05-02T07:15:33.627763+00:00"
   },
   {
     "type": "TOP_TRADER",
@@ -33158,7 +33194,14 @@
     "market_slug": "sea-pis-lec-2026-05-01",
     "amount": 1619.42,
     "ai_context": "\u274c SKIP \u2014 US Lecce has been in poor form recently, losing four consecutive matches and failing to score in three of them. Their most recent match was a 2-0 loss to Cagliari on February 16, 2026. (footinsights.com) Additionally, their upcoming opponent, Juventus, has a strong record against Lecce, winning nine of their last 15 encounters. (footystats.org) However, the trader may have access to insider information or analysis not yet public.",
-    "ai_verdict": "SKIP"
+    "ai_verdict": "SKIP",
+    "resolution": {
+      "outcome": "No",
+      "checked_at": "2026-05-02T07:15:34.845917+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -1619.42
+    }
   },
   {
     "market": "Will George Russell be the 2026 F1 Drivers' Champion?",
@@ -33268,7 +33311,8 @@
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
     },
     "ai_context": "\u2705 COPY \u2014 Recent developments indicate strong support for Russell's championship prospects.\nMercedes has confirmed Russell's contract extension for the 2026 season, ensuring stability for the team. (formula1.com) Additionally, Russell is considered a heavy favorite for the 2026 Drivers' Championship, with bookmakers placing him among the top contenders. (oddschecker.com) His confidence in Mercedes' prospects further underscores his readiness to challenge for the title. (skysports.com)",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution_last_check": "2026-05-02T07:15:35.701153+00:00"
   },
   {
     "market": "Texas Rangers vs. Detroit Tigers",
@@ -33378,7 +33422,14 @@
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
     },
     "ai_context": "\u2705 COPY \u2014 Recent head-to-head results favor the Texas Rangers.\nIn their last six matchups, the Rangers won four games, including a 2-0 victory on July 19, 2025. (champsorchumps.us)\nAdditionally, the Rangers have a strong record against the Tigers, leading the all-time series 346-382. (statmuse.com)\nWhile the Rangers finished the 2025 season with an 81-81 record, (baseball-reference.com)their recent head-to-head performance against the Tigers suggests a favorable outcome.",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution": {
+      "outcome": "Texas Rangers",
+      "checked_at": "2026-05-02T07:15:37.785546+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 2006.24
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -33424,7 +33475,14 @@
     "market_slug": "nba-cle-tor-2026-05-01",
     "amount": 2074.32,
     "ai_context": "\ud83d\udfe1 LEAN COPY \u2014 Recent matchups show a split between the Cavaliers and Raptors, but the Cavaliers have a slight edge in the season series.\nIn their last five encounters, the Cavaliers have won three games, including a 126-113 victory on April 18, 2026, and a 115-105 win on April 20, 2026. (sportspundit.com) However, the Raptors have also secured two wins, including a 126-104 victory on April 23, 2026, and a 93-89 win on April 26, 2026. (champsorchumps.",
-    "ai_verdict": "LEAN_COPY"
+    "ai_verdict": "LEAN_COPY",
+    "resolution": {
+      "outcome": "Raptors",
+      "checked_at": "2026-05-02T07:15:38.924705+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -2074.32
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -33470,7 +33528,14 @@
     "market_slug": "nba-lal-hou-2026-05-01",
     "amount": 2154.3578,
     "ai_context": "\u274c SKIP \u2014 The Rockets have lost 2 of their last 3 games against the Lakers and are missing key players due to injuries.\nIn their most recent matchup on March 18, 2026, the Rockets lost 116-124 to the Lakers. Additionally, the Rockets are without center Steven Adams, who is out for the season due to an ankle injury, and point guard Fred VanVleet, who is out for the season with an ACL injury. (covers.",
-    "ai_verdict": "SKIP"
+    "ai_verdict": "SKIP",
+    "resolution": {
+      "outcome": "Lakers",
+      "checked_at": "2026-05-02T07:15:40.124971+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -2154.36
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -33516,6 +33581,7 @@
     "market_slug": "j1100-gam-vis-2026-05-02",
     "amount": 7999.999999,
     "ai_context": "\u2705 COPY \u2014 Vissel K\u014dbe has been in strong form recently, winning 4 of their last 5 matches.\nThey secured victories against Nagoya Grampus (3-2), Fagiano Okayama (4-1), Shimizu S-Pulse (2-0), and Avispa Fukuoka (2-1). (espn.com) Gamba Osaka has been inconsistent, losing 3 of their last 10 matches. (azscore.com) Given Vissel K\u014dbe's recent performance and Gamba Osaka's struggles, the trader's bet is supported.",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution_last_check": "2026-05-02T07:15:41.314848+00:00"
   }
 ]
