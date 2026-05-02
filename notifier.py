@@ -611,7 +611,29 @@ def format_top_trader_alert(alert: Dict) -> str:
     
     timestamp = datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M')
     
-    message = f"""👑 TOP TRADER SIGNAL
+    # Dynamic bet recommendation (first line)
+    bet_line = ""
+    try:
+        from bet_model import get_signal_stats, format_bet_recommendation
+        stats = get_signal_stats()
+        effective_odds = float(trade.get('price', 0.5))
+        if effective_odds <= 0 or effective_odds >= 1:
+            effective_odds = 0.5
+        bet_line = format_bet_recommendation(
+            market_odds=effective_odds,
+            signal_type="TOP_TRADER",
+            stats=stats,
+            bankroll=100,
+            outcome=str(trade.get('outcome', 'Yes'))
+        )
+    except Exception:
+        pass
+    
+    message = ""
+    if bet_line:
+        message += bet_line + "\n\n"
+    
+    message += f"""👑 TOP TRADER SIGNAL
 
 MARKET
 {market}
@@ -726,7 +748,31 @@ def format_institutional_alert(alert):
         edge_note = "No clear edge detected"
     
     # === Build Message ===
-    message = f"""👁️ INSIDER ACTIVITY
+    # Dynamic bet recommendation (first line)
+    signal_type = alert.get('combined_signal', {}).get('signal_type', 'UNKNOWN')
+    bet_line = ""
+    try:
+        from bet_model import get_signal_stats, format_bet_recommendation
+        stats = get_signal_stats()
+        outcome = trade_data.get('normalized_position', 'Yes')
+        effective_odds = float(trade_data.get('effective_price', 0.5) or 0.5)
+        if effective_odds <= 0 or effective_odds >= 1:
+            effective_odds = 0.5
+        bet_line = format_bet_recommendation(
+            market_odds=effective_odds,
+            signal_type=signal_type,
+            stats=stats,
+            bankroll=100,
+            outcome=outcome
+        )
+    except Exception:
+        pass
+    
+    message = ""
+    if bet_line:
+        message += bet_line + "\n\n"
+    
+    message += f"""👁️ INSIDER ACTIVITY
 
 MARKET SIGNAL
 {market}
