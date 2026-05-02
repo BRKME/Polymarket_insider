@@ -1,396 +1,5 @@
 [
   {
-    "market": "UCLA Bruins vs. Connecticut Huskies: O/U 137.5",
-    "market_slug": "cbb-ucla-uconn-2026-03-22-total-137pt5",
-    "event_slug": "cbb-ucla-uconn-2026-03-22-total-137pt5",
-    "wallet": "0xe5b6068b152a8afcbc73c91c3a9b3f3068bd5b6f",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($19,123)",
-        "Low activity (1 txns)"
-      ],
-      "amount": 19123.121,
-      "odds": 0.5263877908973997,
-      "raw_price": 0.5263877908973997,
-      "outcome": "Under",
-      "potential_pnl": 17205.839,
-      "pnl_multiplier": 0.8997401104139853,
-      "wallet_age_days": 0,
-      "total_activities": 1
-    },
-    "timestamp": "2026-03-22T13:33:53.860446",
-    "trade_hash": "0x0fa771fe429495c3b24ea7ca0e462a5d98e6d98c0f70908863148f89cd61472d",
-    "trade_timestamp": 1774186135,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Under",
-      "side": "BUY",
-      "price": 0.5263877908973997,
-      "effective_price": 0.5263877908973997,
-      "size": 36328.96,
-      "amount": 19123.121,
-      "potential_pnl": 17205.839,
-      "pnl_multiplier": 0.8997401104139853,
-      "is_no": false,
-      "slug": "cbb-ucla-uconn-2026-03-22-total-137pt5",
-      "eventSlug": "cbb-ucla-uconn-2026-03-22"
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+28.1%)"
-      ],
-      "category": "sports",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.24527755817947994,
-      "market_price": 0.5263877908973997,
-      "edge": 0.2811102327179198,
-      "edge_percent": 28.11102327179198,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Both teams have high-scoring offenses",
-          "Defensive strategies are ineffective",
-          "Game pace is fast"
-        ],
-        "weakest_link": "Defensive strategies are ineffective"
-      },
-      "category": "sports",
-      "narrative_drivers": [
-        "Recent high-scoring games by both teams",
-        "Increased pace of play in recent matchups"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "INSIDER_ONLY",
-      "signal_emoji": "\ud83d\udc41\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider activity detected, no clear mispricing",
-      "action_suggestion": "Monitor: insider signal only, no statistical edge",
-      "insider_score": 70,
-      "insider_position": "UNDER",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.2811102327179198,
-      "edge_percent": 28.11102327179198
-    },
-    "financial_analyst": {
-      "signal_quality": 51.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 28.11,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.449274+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-22 >7 days ago, removed from API"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
-    "trade_hash": "0x965b9a99ccf86d247d7a7eddd35a9eedc8e1f2c3f9c79f4ad1a2a2fbf549e1d9",
-    "wallet": "0xc2e7800b5af46e6093872b177b7a5e7f0563be51",
-    "trader": {
-      "rank": 16,
-      "address": "0xc2e7800b5af46e6093872b177b7a5e7f0563be51",
-      "username": "beachboy4",
-      "profit": 4736823.768438156,
-      "volume": 197968001.744251,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x52b790b7de338e19e1e16acffdc73d3dbc10fefc",
-      "side": "BUY",
-      "asset": "71377433182851205680841246761509083153295115718889472943162377235871441027308",
-      "conditionId": "0x6d144dddc554495534ed86a1f678a30018a8c3e966050559b0590ebedf3c5367",
-      "size": 9415.909089,
-      "price": 0.4399999999830075,
-      "timestamp": 1774188701,
-      "title": "Will Arsenal FC win on 2026-03-22?",
-      "slug": "efl-ars-mnc-2026-03-22-ars-win",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/carabao-cup-logo-3ea964b550.png",
-      "eventSlug": "efl-ars-mnc-2026-03-22",
-      "outcome": "Yes",
-      "outcomeIndex": 0,
-      "name": "0x52b790B7De338e19e1e16aCFFdC73D3dBC10feFc-1768233299614",
-      "pseudonym": "Reckless-Chronograph",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x965b9a99ccf86d247d7a7eddd35a9eedc8e1f2c3f9c79f4ad1a2a2fbf549e1d9",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Will Arsenal FC win on 2026-03-22?",
-    "market_slug": "efl-ars-mnc-2026-03-22",
-    "amount": 4142.999999000001,
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.449283+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-22 >7 days ago, removed from API"
-    }
-  },
-  {
-    "market": "Spread: Raptors (-1.5)",
-    "market_slug": "nba-tor-phx-2026-03-22-spread-away-1pt5",
-    "event_slug": "nba-tor-phx-2026-03-22-spread-away-1pt5",
-    "wallet": "0xd8aaee0ab26d890c7e06170253a845fd3f61271b",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($1,507)",
-        "Low activity (2 txns)"
-      ],
-      "amount": 1506.6000000000001,
-      "odds": 0.54,
-      "raw_price": 0.54,
-      "outcome": "Raptors",
-      "potential_pnl": 1283.3999999999999,
-      "pnl_multiplier": 0.8518518518518516,
-      "wallet_age_days": 0,
-      "total_activities": 2
-    },
-    "timestamp": "2026-03-22T14:32:41.181635",
-    "trade_hash": "0x0c8020cea1ec6b97135f0dfd367c2c0994954e04168141155ace6da868f8cb27",
-    "trade_timestamp": 1774189639,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Raptors",
-      "side": "BUY",
-      "price": 0.54,
-      "effective_price": 0.54,
-      "size": 2790.0,
-      "amount": 1506.6000000000001,
-      "potential_pnl": 1283.3999999999999,
-      "pnl_multiplier": 0.8518518518518516,
-      "is_no": false,
-      "slug": "nba-tor-phx-2026-03-22-spread-away-1pt5",
-      "eventSlug": "nba-tor-phx-2026-03-22"
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+29.2%)"
-      ],
-      "category": "other",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.248,
-      "market_price": 0.54,
-      "edge": 0.29200000000000004,
-      "edge_percent": 29.200000000000003,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Raptors maintain strong home court advantage",
-          "Key players perform at or above average",
-          "Opposing team struggles with injuries or poor performance"
-        ],
-        "weakest_link": "Opposing team struggles with injuries or poor performance"
-      },
-      "category": "sports",
-      "narrative_drivers": [
-        "Recent performance trends of the Raptors",
-        "Injuries affecting the opposing team"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "INSIDER_ONLY",
-      "signal_emoji": "\ud83d\udc41\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider activity detected, no clear mispricing",
-      "action_suggestion": "Monitor: insider signal only, no statistical edge",
-      "insider_score": 70,
-      "insider_position": "RAPTORS",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.29200000000000004,
-      "edge_percent": 29.200000000000003
-    },
-    "financial_analyst": {
-      "signal_quality": 51.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 29.2,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.449293+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-22 >7 days ago, removed from API"
-    }
-  },
-  {
-    "market": "Spread: Raptors (-1.5)",
-    "market_slug": "nba-tor-phx-2026-03-22-spread-away-1pt5",
-    "event_slug": "nba-tor-phx-2026-03-22-spread-away-1pt5",
-    "wallet": "0xebeb6fbee9f6cc7fc2386c4f5980292e57a1ce76",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($1,527)",
-        "Low activity (2 txns)"
-      ],
-      "amount": 1526.5800000000002,
-      "odds": 0.54,
-      "raw_price": 0.54,
-      "outcome": "Raptors",
-      "potential_pnl": 1300.4199999999998,
-      "pnl_multiplier": 0.8518518518518516,
-      "wallet_age_days": 0,
-      "total_activities": 2
-    },
-    "timestamp": "2026-03-22T14:32:44.219890",
-    "trade_hash": "0xb6388a8a8c36cac306709a956e17bdb9c4797629dcf079c696946299864a0b86",
-    "trade_timestamp": 1774189637,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Raptors",
-      "side": "BUY",
-      "price": 0.54,
-      "effective_price": 0.54,
-      "size": 2827.0,
-      "amount": 1526.5800000000002,
-      "potential_pnl": 1300.4199999999998,
-      "pnl_multiplier": 0.8518518518518516,
-      "is_no": false,
-      "slug": "nba-tor-phx-2026-03-22-spread-away-1pt5",
-      "eventSlug": "nba-tor-phx-2026-03-22"
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+29.2%)"
-      ],
-      "category": "other",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.248,
-      "market_price": 0.54,
-      "edge": 0.29200000000000004,
-      "edge_percent": 29.200000000000003,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Raptors' key players perform at peak levels",
-          "Opposing team has significant injuries",
-          "Home court advantage plays a crucial role"
-        ],
-        "weakest_link": "Opposing team has significant injuries"
-      },
-      "category": "sports",
-      "narrative_drivers": [
-        "team performance trends",
-        "injury reports"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "INSIDER_ONLY",
-      "signal_emoji": "\ud83d\udc41\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider activity detected, no clear mispricing",
-      "action_suggestion": "Monitor: insider signal only, no statistical edge",
-      "insider_score": 70,
-      "insider_position": "RAPTORS",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.29200000000000004,
-      "edge_percent": 29.200000000000003
-    },
-    "financial_analyst": {
-      "signal_quality": 51.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 29.2,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.449303+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-22 >7 days ago, removed from API"
-    }
-  },
-  {
     "market": "Spread: Raptors (-1.5)",
     "market_slug": "nba-tor-phx-2026-03-22-spread-away-1pt5",
     "event_slug": "nba-tor-phx-2026-03-22-spread-away-1pt5",
@@ -33223,5 +32832,253 @@
     "amount": 1466.3538,
     "ai_context": "\u274c SKIP \u2014 DN SOOPers have a losing record in their recent matches and no available head-to-head data against KRX.\nThey have lost their last two matches, including a 0-2 defeat to KT Rolster on February 6, 2026. (m.aiscore.com) However, the trader may have access to insider information or analysis not publicly available.",
     "ai_verdict": "SKIP"
+  },
+  {
+    "market": "Arsenal FC vs. Fulham FC: O/U 3.5",
+    "market_slug": "epl-ars-ful-2026-05-02-total-3pt5",
+    "event_slug": "epl-ars-ful-2026-05-02-total-3pt5",
+    "wallet": "0x55e174b6b2bf44e3088969337fcaacec399bc25c",
+    "analysis": {
+      "score": 70,
+      "flags": [
+        "New wallet (0d old)",
+        "Large bet ($1,587)",
+        "Low activity (2 txns)"
+      ],
+      "amount": 1586.73,
+      "odds": 0.6,
+      "raw_price": 0.6,
+      "outcome": "Under",
+      "potential_pnl": 1057.8200000000002,
+      "pnl_multiplier": 0.6666666666666667,
+      "wallet_age_days": 0,
+      "total_activities": 2
+    },
+    "timestamp": "2026-05-02T16:50:14.565876",
+    "trade_hash": "0x35f7b4c98c600aecc5014c70a93f47ff29cdd44e71bd7ea34734a834616e66b5",
+    "trade_timestamp": 1777740332,
+    "latency": null,
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "Under",
+      "outcomeIndex": 1,
+      "normalized_position": "NO",
+      "side": "BUY",
+      "price": 0.6,
+      "effective_price": 0.4,
+      "size": 2644.55,
+      "amount": 1057.8200000000002,
+      "potential_pnl": 1586.73,
+      "pnl_multiplier": 1.4999999999999998,
+      "is_no": true,
+      "conditionId": "0x989e903a89b5ffaeb77306fd39c1d678cf4b1fc7061543f212f49f1064dc6b4e",
+      "slug": "epl-ars-ful-2026-05-02-total-3pt5",
+      "eventSlug": "epl-ars-ful-2026-05-02-more-markets"
+    },
+    "irrationality": {
+      "irrationality_score": 35,
+      "flags": [
+        "Large mispricing edge (+34.0%)"
+      ],
+      "category": "sports",
+      "category_info": {
+        "strength": "medium",
+        "typical_overpricing": 0.03,
+        "min_edge": 0.05
+      },
+      "is_irrational": true
+    },
+    "mispricing": {
+      "rational_estimate": 0.26,
+      "market_price": 0.6,
+      "edge": 0.33999999999999997,
+      "edge_percent": 34.0,
+      "min_edge_required": 0.05,
+      "is_mispriced": true,
+      "edge_quality": "STRONG",
+      "base_rate_class": "common",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "common",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "Both teams have strong attacking performances",
+          "Defensive weaknesses in both teams",
+          "Recent matches have shown high-scoring trends"
+        ],
+        "weakest_link": "Defensive weaknesses in both teams"
+      },
+      "category": "sports",
+      "narrative_drivers": [
+        "Recent form of key attacking players",
+        "Historical rivalry leading to high-scoring matches"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "ALPHA",
+      "signal_emoji": "\ud83d\udd25",
+      "signal_strength": 105,
+      "interpretation": "Smart money (NO) confirms YES is overpriced",
+      "action_suggestion": "High conviction: insider + statistics aligned",
+      "insider_score": 70,
+      "insider_position": "NO",
+      "irrationality_score": 35,
+      "is_irrational": true,
+      "is_mispriced": true,
+      "edge": 0.33999999999999997,
+      "edge_percent": 34.0
+    },
+    "financial_analyst": {
+      "signal_quality": 81.0,
+      "stance": "HIGH_CONVICTION",
+      "edge_percent": 34.0,
+      "signal_strength": 105.0,
+      "insider_score": 70.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "ai_context": "\u2705 COPY \u2014 Recent matches between Arsenal and Fulham have consistently had low total goals, supporting the Under bet.\nIn their last three encounters, the total goals scored were 2, 2, and 1, all under 3.5 goals. (statmuse.com) Additionally, Arsenal has a strong home record against Fulham, winning 24 out of 32 home league matches, which may contribute to a low-scoring game. (sportsmole.co.uk)",
+    "ai_verdict": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xb0624b14833d828bcf86eea6c549afe0f4d4c7f927bc93d9ec21063ba0cab3b6",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.51568201,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xbddf201239484be9f66325a466202792259d5964",
+      "side": "BUY",
+      "asset": "41071045778999599740001994001130422215109258179750002983344714881486258040471",
+      "conditionId": "0xc5d5b6a0ea457f155cff5ae23f38d4a52cd48e5e987670e0dfd4093ef7e5ce71",
+      "size": 2022.727266,
+      "price": 0.8799999999604494,
+      "timestamp": 1777740096,
+      "title": "Indian Premier League: Chennai Super Kings vs Mumbai Indians",
+      "slug": "cricipl-che-mum-2026-05-02",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/cricket-ball-a0b0bf2dc9.png",
+      "eventSlug": "cricipl-che-mum-2026-05-02",
+      "outcome": "Chennai Super Kings",
+      "outcomeIndex": 0,
+      "name": "luckybhasker-2",
+      "pseudonym": "Idolized-Accounting",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xb0624b14833d828bcf86eea6c549afe0f4d4c7f927bc93d9ec21063ba0cab3b6",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Indian Premier League: Chennai Super Kings vs Mumbai Indians",
+    "market_slug": "cricipl-che-mum-2026-05-02",
+    "amount": 1779.999994,
+    "ai_context": "\u2705 COPY \u2014 Chennai Super Kings have a favorable recent head-to-head record against Mumbai Indians.\nIn their last five encounters, Chennai Super Kings have won four matches, including a 4-wicket victory on March 23, 2025. (wisden.com)\nAdditionally, Chennai Super Kings have shown better recent form, with three wins and five losses in their last eight matches, compared to Mumbai Indians' two wins and six losses in the same period. (africapicks.",
+    "ai_verdict": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x0e010efb17a3a997e412ea651aee3ec7ac87775cf28c356fbfb398d8ddd06d53",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.51568201,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x86fbea68d619daf670185ecd38a69aa90f7703d4",
+      "side": "BUY",
+      "asset": "27937513410657409294693698188166693306526974240982920467259602054370094639187",
+      "conditionId": "0x25085b2cebdb9c43e8fe0f4bc031f99e427d578b2810291f1234d6395688a62d",
+      "size": 3804.076824,
+      "price": 0.6188649987684897,
+      "timestamp": 1777740096,
+      "title": "Will Paris Saint-Germain FC vs. FC Lorient end in a draw?",
+      "slug": "fl1-psg-lor-2026-05-02-draw",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/league-fl1.png",
+      "eventSlug": "fl1-psg-lor-2026-05-02",
+      "outcome": "Yes",
+      "outcomeIndex": 0,
+      "name": "",
+      "pseudonym": "",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x0e010efb17a3a997e412ea651aee3ec7ac87775cf28c356fbfb398d8ddd06d53",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Will Paris Saint-Germain FC vs. FC Lorient end in a draw?",
+    "market_slug": "fl1-psg-lor-2026-05-02",
+    "amount": 2354.209999,
+    "ai_context": "\u2705 COPY \u2014 Recent matches indicate a high likelihood of a draw between Paris Saint-Germain and FC Lorient.\nIn their last five encounters, two matches ended in a draw, including a 1-1 tie on October 29, 2025. (statmuse.com) Additionally, FC Lorient has been in poor form recently, with four losses and one draw in their last five matches. (footystats.org) Paris Saint-Germain has also shown inconsistency, with two wins, two draws, and one loss in their last five matches. (footystats.",
+    "ai_verdict": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x78a21b2f9a52de452d3d4311d6e58b85abe878a369d4578ae885a8f6d4d156e1",
+    "wallet": "0x23786fdad0073692157c6d7dc81f281843a35fcb",
+    "trader": {
+      "rank": 13,
+      "address": "0x23786fdad0073692157c6d7dc81f281843a35fcb",
+      "username": "mikatrade77",
+      "profit": 5147998.544602999,
+      "volume": 10884765.388775,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xf003d96c0f007fe2194aaf1e1a38cc255dd808cd",
+      "side": "BUY",
+      "asset": "70998406510521088204849830367085805513944611402221504408744530718156009231308",
+      "conditionId": "0xe3c2c8dc0bb4ea0a549baceec5d0dda081c7c0fd84aaa703e2ce8a10d17ecbe7",
+      "size": 3920,
+      "price": 0.5,
+      "timestamp": 1777740996,
+      "title": "Will San Jose Earthquakes win on 2026-05-02?",
+      "slug": "mls-tor-sje-2026-05-02-sje",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/mls-soccer-all-star-game-winner-r8__FzcgT9JC.png",
+      "eventSlug": "mls-tor-sje-2026-05-02",
+      "outcome": "Yes",
+      "outcomeIndex": 0,
+      "name": "fy555",
+      "pseudonym": "Important-Participation",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x78a21b2f9a52de452d3d4311d6e58b85abe878a369d4578ae885a8f6d4d156e1",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Will San Jose Earthquakes win on 2026-05-02?",
+    "market_slug": "mls-tor-sje-2026-05-02",
+    "amount": 1960.0,
+    "ai_context": "\u2705 COPY \u2014 San Jose Earthquakes have won their last five matches, including a 3-2 victory over Phoenix Rising FC on April 15, 2026. (espn.com)\nThey are set to play against Toronto FC on May 2, 2026, at 1:00 PM. (espn.com)\nGiven their current winning streak, betting on a San Jose Earthquakes victory appears favorable.",
+    "ai_verdict": "COPY"
   }
 ]
