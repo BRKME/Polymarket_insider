@@ -1,213 +1,5 @@
 [
   {
-    "type": "TOP_TRADER",
-    "trade_hash": "0x1f8a9c23c2fc26fcd2c23356a9f62cf748472e88f0ac9d6fa1448c126895a466",
-    "wallet": "0xdc876e6873772d38716fda7f2452a78d426d7ab6",
-    "trader": {
-      "rank": 17,
-      "address": "0xdc876e6873772d38716fda7f2452a78d426d7ab6",
-      "username": "432614799197",
-      "profit": 4558776.094847582,
-      "volume": 185485956.86208287,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0xc257ea7e3a81ca8e16df8935d44d513959fa358e",
-      "side": "BUY",
-      "asset": "83774203144135081842355459897658116029968711621349149305109936193167343401256",
-      "conditionId": "0xa7c97170c8edfff309517bd76bfea38f85211bf8319a4688de553c7e87cc1159",
-      "size": 6051.1,
-      "price": 0.6998940688469865,
-      "timestamp": 1774165895,
-      "title": "Counter-Strike: Liquid vs TheMongolz (BO3) - BLAST Open Rotterdam Group B",
-      "slug": "cs2-tl1-mglz-2026-03-22",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/counter-strike-image-16c415c538.png",
-      "eventSlug": "cs2-tl1-mglz-2026-03-22",
-      "outcome": "TheMongolz",
-      "outcomeIndex": 1,
-      "name": "YT-JuicySlots",
-      "pseudonym": "Weepy-Frosting",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x1f8a9c23c2fc26fcd2c23356a9f62cf748472e88f0ac9d6fa1448c126895a466",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Counter-Strike: Liquid vs TheMongolz (BO3) - BLAST Open Rotterdam Group B",
-    "market_slug": "cs2-tl1-mglz-2026-03-22",
-    "amount": 4235.129,
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.449162+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-22 >7 days ago, removed from API"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
-    "trade_hash": "0x2b562f13b3582ebc26fcb32ba4094d9f29aede80e307ccdf385056693df36dbe",
-    "wallet": "0x6a72f61820b26b1fe4d956e17b6dc2a1ea3033ee",
-    "trader": {
-      "rank": 3,
-      "address": "0x6a72f61820b26b1fe4d956e17b6dc2a1ea3033ee",
-      "username": "kch123",
-      "profit": 11362797.902296938,
-      "volume": 258066304.289614,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0xfd2930a094c0a6900a2dc947e5db462d11ae77ae",
-      "side": "BUY",
-      "asset": "55676427870922204922497360430044642436911050457023661200891637930737550561101",
-      "conditionId": "0x502545a1aa82d3b878766a696c6886c2b7a3bdbd8c94dc13898180cc30a19a7a",
-      "size": 5757.14,
-      "price": 0.51,
-      "timestamp": 1774166497,
-      "title": "Will Melbourne City FC win on 2026-03-22?",
-      "slug": "aus-per-mct-2026-03-22-mct",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/a-league-6595bd3047.jpg",
-      "eventSlug": "aus-per-mct-2026-03-22",
-      "outcome": "Yes",
-      "outcomeIndex": 0,
-      "name": "NoLyon",
-      "pseudonym": "Immediate-Calcification",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x2b562f13b3582ebc26fcb32ba4094d9f29aede80e307ccdf385056693df36dbe",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Will Melbourne City FC win on 2026-03-22?",
-    "market_slug": "aus-per-mct-2026-03-22",
-    "amount": 2936.1414000000004,
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.449171+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-22 >7 days ago, removed from API"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
-    "trade_hash": "0xb64edd03c325df0d7c4776fb43cd013c87c8f1a2ca6ada569491e45b07bdccf8",
-    "wallet": "0xdb27bf2ac5d428a9c63dbc914611036855a6c56e",
-    "trader": {
-      "rank": 20,
-      "address": "0xdb27bf2ac5d428a9c63dbc914611036855a6c56e",
-      "username": "DrPufferfish",
-      "profit": 4056629.606802935,
-      "volume": 220262445.53849897,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x4133bcbad1d9c41de776646696f41c34d0a65e70",
-      "side": "BUY",
-      "asset": "10896855212367307723189950420475121026134934942555179144663752031261193447967",
-      "conditionId": "0x21649378ed4a304e302f1d2ec5be7a6815d925bbb46dd891cdbf4ad0019a5fe8",
-      "size": 1941.03,
-      "price": 0.78,
-      "timestamp": 1774173099,
-      "title": "Will Como 1907 win on 2026-03-22?",
-      "slug": "sea-com-pis-2026-03-22-com",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Serie-A-Logo.png",
-      "eventSlug": "sea-com-pis-2026-03-22",
-      "outcome": "Yes",
-      "outcomeIndex": 0,
-      "name": "EF203F2IPFC2ICP20W-CP3",
-      "pseudonym": "Bogus-Fix",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0xb64edd03c325df0d7c4776fb43cd013c87c8f1a2ca6ada569491e45b07bdccf8",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Will Como 1907 win on 2026-03-22?",
-    "market_slug": "sea-com-pis-2026-03-22",
-    "amount": 1514.0034,
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.449180+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-22 >7 days ago, removed from API"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
-    "trade_hash": "0xc8de24a23ac64456caa25112d5c4ea918fdcce5c8113ac78b9ffb06b610c5a7e",
-    "wallet": "0xd0c042c08f755ff940249f62745e82d356345565",
-    "trader": {
-      "rank": 15,
-      "address": "0xd0c042c08f755ff940249f62745e82d356345565",
-      "username": "alexmulti",
-      "profit": 4804855.613376001,
-      "volume": 9949068.653841998,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0xd6a3f0ec6c4a8ad680d580610c82ca57ff139489",
-      "side": "BUY",
-      "asset": "103491216767210650067963311806500077290366308182875048024946526364182501056610",
-      "conditionId": "0xcee804b84eb7414c780ebb5d0bfcdde8b4b9c424a3b4bc5ef4792193048f5b44",
-      "size": 5588.77,
-      "price": 0.56,
-      "timestamp": 1774175499,
-      "title": "Como 1907 vs. Pisa SC: O/U 2.5",
-      "slug": "sea-com-pis-2026-03-22-total-2pt5",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Serie-A-Logo.png",
-      "eventSlug": "sea-com-pis-2026-03-22-more-markets",
-      "outcome": "Over",
-      "outcomeIndex": 0,
-      "name": "knedloveprovelo",
-      "pseudonym": "Weighty-Rifle",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0xc8de24a23ac64456caa25112d5c4ea918fdcce5c8113ac78b9ffb06b610c5a7e",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Como 1907 vs. Pisa SC: O/U 2.5",
-    "market_slug": "sea-com-pis-2026-03-22-more-markets",
-    "amount": 3129.7112000000006,
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.449189+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-22 >7 days ago, removed from API"
-    }
-  },
-  {
     "market": "Spread: Kings (-5.5)",
     "market_slug": "nba-bkn-sac-2026-03-22-spread-home-5pt5",
     "event_slug": "nba-bkn-sac-2026-03-22-spread-home-5pt5",
@@ -33590,5 +33382,260 @@
       "model_correct": null,
       "pnl": -8000.0
     }
+  },
+  {
+    "market": "Will Manchester City FC win on 2026-05-04?",
+    "market_slug": "epl-eve-mac-2026-05-04-mac",
+    "event_slug": "epl-eve-mac-2026-05-04-mac",
+    "wallet": "0x51f93522a37c5c2464890fabd10a0d0e092526f8",
+    "analysis": {
+      "score": 70,
+      "flags": [
+        "Recent wallet (7d old)",
+        "Large bet ($1,980)",
+        "Pre-event latency: 2367m"
+      ],
+      "amount": 1979.9999999999998,
+      "odds": 0.6599999999999999,
+      "raw_price": 0.34,
+      "outcome": "No",
+      "potential_pnl": 1020.0000000000002,
+      "pnl_multiplier": 0.5151515151515154,
+      "wallet_age_days": 7,
+      "total_activities": 20
+    },
+    "timestamp": "2026-05-02T08:42:55.488257",
+    "trade_hash": "0xd75473c0960210a91b7dbdadff95db3ccadbc42afaf9a801e43cbead05c20994",
+    "trade_timestamp": 1777710806,
+    "latency": {
+      "latency_seconds": 141994.0,
+      "latency_minutes": 2366.5666666666666,
+      "is_pre_event": true,
+      "severity": "CRITICAL",
+      "trade_time": "2026-05-02T08:33:26+00:00",
+      "event_time": "2026-05-04T00:00:00+00:00"
+    },
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "No",
+      "outcomeIndex": 1,
+      "normalized_position": "NO",
+      "side": "BUY",
+      "price": 0.34,
+      "effective_price": 0.6599999999999999,
+      "size": 3000.0,
+      "amount": 1979.9999999999998,
+      "potential_pnl": 1020.0000000000002,
+      "pnl_multiplier": 0.5151515151515154,
+      "is_no": true,
+      "conditionId": "0x998d69f881036ac580f6dc0a18b6c3ec48f167fd00799db9e58bf43e07b4b27e",
+      "slug": "epl-eve-mac-2026-05-04-mac",
+      "eventSlug": "epl-eve-mac-2026-05-04"
+    },
+    "irrationality": {
+      "irrationality_score": 25,
+      "flags": [
+        "Significant mispricing edge (+13.2%)"
+      ],
+      "category": "politics_near",
+      "category_info": {
+        "strength": "medium",
+        "typical_overpricing": 0.02,
+        "min_edge": 0.03
+      },
+      "is_irrational": false
+    },
+    "mispricing": {
+      "rational_estimate": 0.208,
+      "market_price": 0.34,
+      "edge": 0.13200000000000003,
+      "edge_percent": 13.200000000000003,
+      "min_edge_required": 0.05,
+      "is_mispriced": true,
+      "edge_quality": "STRONG",
+      "base_rate_class": "common",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "common",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "Strong squad performance",
+          "Key player fitness",
+          "Favorable match conditions"
+        ],
+        "weakest_link": "Key player fitness"
+      },
+      "category": "sports",
+      "narrative_drivers": [
+        "Team's historical performance",
+        "Fan and media expectations"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "ALPHA",
+      "signal_emoji": "\ud83d\udd25",
+      "signal_strength": 95,
+      "interpretation": "Smart money (NO) confirms YES is overpriced",
+      "action_suggestion": "High conviction: insider + statistics aligned",
+      "insider_score": 70,
+      "insider_position": "NO",
+      "irrationality_score": 25,
+      "is_irrational": false,
+      "is_mispriced": true,
+      "edge": 0.13200000000000003,
+      "edge_percent": 13.200000000000003
+    },
+    "financial_analyst": {
+      "signal_quality": 73.8,
+      "stance": "SELECTIVE",
+      "edge_percent": 13.2,
+      "signal_strength": 95.0,
+      "insider_score": 70.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "ai_context": "\u274c SKIP \u2014 Manchester City is in strong form and has a favorable head-to-head record against Everton.\nThey've won their last two matches, including a 1-0 victory at Burnley on April 22, 2026. (mancity.com) Additionally, Manchester City has an excellent away record this season, with 9 wins, 4 draws, and 4 losses. (footystats.org) Everton has been inconsistent, with recent results including a 2-1 loss to Arsenal on April 11, 2026. (skysports.",
+    "ai_verdict": "SKIP"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x31668caf2ba92f9174d575148a2b8fbd7a3daba5240ff6cca0c50e79f30fd36c",
+    "wallet": "0xd0c042c08f755ff940249f62745e82d356345565",
+    "trader": {
+      "rank": 16,
+      "address": "0xd0c042c08f755ff940249f62745e82d356345565",
+      "username": "alexmulti",
+      "profit": 4804855.613376001,
+      "volume": 9949068.653841998,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xeb739f5e4f45b0b68688bb252f08327bc01653b0",
+      "side": "BUY",
+      "asset": "46499122550938431002223886101335814676864426110808790004885728558811880243848",
+      "conditionId": "0xb9a9972f67fa61cae96bc0a7676935aa18ad9a886646ae9d0c2789e8eae3ff5d",
+      "size": 4000,
+      "price": 0.38,
+      "timestamp": 1777711848,
+      "title": "Will Brighton & Hove Albion FC win on 2026-05-02?",
+      "slug": "epl-new-bri-2026-05-02-bri",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Repetitive-markets/premier+league.jpg",
+      "eventSlug": "epl-new-bri-2026-05-02",
+      "outcome": "Yes",
+      "outcomeIndex": 0,
+      "name": "WINSONS",
+      "pseudonym": "Tense-Hometown",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x31668caf2ba92f9174d575148a2b8fbd7a3daba5240ff6cca0c50e79f30fd36c",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Will Brighton & Hove Albion FC win on 2026-05-02?",
+    "market_slug": "epl-new-bri-2026-05-02",
+    "amount": 1520.0,
+    "ai_context": "\ud83d\udfe1 LEAN COPY \u2014 Recent form shows Brighton & Hove Albion has been inconsistent, but the trader's confidence suggests they have additional insights.\nBrighton & Hove Albion's recent form includes:\nApril 18, 2026: Lost 2-1 to Tottenham Hotspur.\nApril 21, 2026: Defeated Chelsea 3-1.\nApril 26, 2026: Lost 1-0 to Chelsea.\nTheir overall record this season is 12 wins, 10 draws, and 10 losses, placing them 9th in the Premier League. (footystats.",
+    "ai_verdict": "LEAN_COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x40b9ce5b1bf7cd3fd4962b424f77ad988e4ebf48534ccdd937c5a99ba165adf4",
+    "wallet": "0xd0c042c08f755ff940249f62745e82d356345565",
+    "trader": {
+      "rank": 16,
+      "address": "0xd0c042c08f755ff940249f62745e82d356345565",
+      "username": "alexmulti",
+      "profit": 4804855.613376001,
+      "volume": 9949068.653841998,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+      "side": "BUY",
+      "asset": "78701775620178553180471269810733093797908221696367375902847334236432735815765",
+      "conditionId": "0x9607e72bf22938184680e0ba7a3f1b0c588cb43c7955bc80f019693b84c10e75",
+      "size": 2330.45,
+      "price": 0.67,
+      "timestamp": 1777711844,
+      "title": "Will Arsenal FC win on 2026-05-02?",
+      "slug": "epl-ars-ful-2026-05-02-ars",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Repetitive-markets/premier+league.jpg",
+      "eventSlug": "epl-ars-ful-2026-05-02",
+      "outcome": "Yes",
+      "outcomeIndex": 0,
+      "name": "mooseborzoi",
+      "pseudonym": "Agitated-Bricklaying",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x40b9ce5b1bf7cd3fd4962b424f77ad988e4ebf48534ccdd937c5a99ba165adf4",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Will Arsenal FC win on 2026-05-02?",
+    "market_slug": "epl-ars-ful-2026-05-02",
+    "amount": 1561.4015,
+    "ai_context": "\u2705 COPY \u2014 Arsenal's recent form and home advantage support a win against Fulham.\nArsenal secured a 1-0 victory over Newcastle United on April 25, 2026. (espn.com) They are set to host Fulham at Emirates Stadium on May 2, 2026. (arsenal.com) The weather forecast for London on match day predicts mostly cloudy conditions with temperatures ranging from 58\u00b0F to 73\u00b0F, which should be favorable for play.",
+    "ai_verdict": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x4c69f35b23d7a723481178ebce4a595ba3e2e3501d10b4fd7b4d6a9226a309fa",
+    "wallet": "0xd0c042c08f755ff940249f62745e82d356345565",
+    "trader": {
+      "rank": 16,
+      "address": "0xd0c042c08f755ff940249f62745e82d356345565",
+      "username": "alexmulti",
+      "profit": 4804855.613376001,
+      "volume": 9949068.653841998,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+      "side": "BUY",
+      "asset": "78701775620178553180471269810733093797908221696367375902847334236432735815765",
+      "conditionId": "0x9607e72bf22938184680e0ba7a3f1b0c588cb43c7955bc80f019693b84c10e75",
+      "size": 2870.03,
+      "price": 0.67,
+      "timestamp": 1777711844,
+      "title": "Will Arsenal FC win on 2026-05-02?",
+      "slug": "epl-ars-ful-2026-05-02-ars",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Repetitive-markets/premier+league.jpg",
+      "eventSlug": "epl-ars-ful-2026-05-02",
+      "outcome": "Yes",
+      "outcomeIndex": 0,
+      "name": "mooseborzoi",
+      "pseudonym": "Agitated-Bricklaying",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x4c69f35b23d7a723481178ebce4a595ba3e2e3501d10b4fd7b4d6a9226a309fa",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Will Arsenal FC win on 2026-05-02?",
+    "market_slug": "epl-ars-ful-2026-05-02",
+    "amount": 1922.9201000000003,
+    "ai_context": "\u2705 COPY \u2014 Arsenal's recent form and head-to-head record favor a win against Fulham.\nArsenal secured a 1-0 victory over Newcastle United on April 25, 2026. (espn.com) In their last three encounters with Fulham, Arsenal won twice and drew once, with Fulham failing to secure a victory. (forebet.com) Additionally, Arsenal is playing at home, where they have a strong record. Given these factors, betting on Arsenal to win at 67% odds is supported by recent performance and historical matchups.",
+    "ai_verdict": "COPY"
   }
 ]
