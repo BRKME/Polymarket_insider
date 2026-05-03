@@ -1,58 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0x08c731fd58ad1456b2cc0af3dcc4d9a2dc8ad1fa6afcca36af3f06f7eec1c702",
-    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-    "trader": {
-      "rank": 1,
-      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-      "username": "Theo4",
-      "profit": 22053933.752321757,
-      "volume": 43013258.51568201,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0xd0e77a638c0b0ddeef9a59db053d596d63fab14f",
-      "side": "BUY",
-      "asset": "36554252596750352536756041160933914502243849250270435904104107105252569326470",
-      "conditionId": "0x2442fd430fecccb337e64263589d16597d1a6098a3848cba9ff3bc382a1b16f9",
-      "size": 45454,
-      "price": 0.52,
-      "timestamp": 1774288647,
-      "title": "Lakers vs. Pistons",
-      "slug": "nba-lal-det-2026-03-23",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
-      "eventSlug": "nba-lal-det-2026-03-23",
-      "outcome": "Lakers",
-      "outcomeIndex": 0,
-      "name": "PleaseBro",
-      "pseudonym": "Determined-Play",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x08c731fd58ad1456b2cc0af3dcc4d9a2dc8ad1fa6afcca36af3f06f7eec1c702",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Lakers vs. Pistons",
-    "market_slug": "nba-lal-det-2026-03-23",
-    "amount": 23636.08,
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.449492+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-23 >7 days ago, removed from API"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0xb1ea1a9fc4ba40c24b20541fd7ee6ad22dbb72b6ad4d3c2a4de23e120556891a",
     "wallet": "0x23786fdad0073692157c6d7dc81f281843a35fcb",
     "trader": {
@@ -32580,6 +32528,52 @@
     "market_slug": "mlb-sf-tb-2026-05-03",
     "amount": 4999.999999000001,
     "ai_context": "\u2705 COPY \u2014 Tampa Bay Rays have a strong home record and are on a six-game home winning streak.\nThe Rays are 10-4 at home and have won their last six home games. (foxsports.com) In contrast, the San Francisco Giants are 6-11 in road games and have lost four consecutive games. (foxsports.com) Additionally, the Rays have a 50% win rate against the Giants in their head-to-head matchups. (aiscore.",
+    "ai_verdict": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x519d2783517b9e7ed74e70eec1640bfd6355b1e2ee6994b2ce7cd91e5d68c56e",
+    "wallet": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+    "trader": {
+      "rank": 5,
+      "address": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+      "username": "RN1",
+      "profit": 8217213.506656421,
+      "volume": 497115446.2884601,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xd44e974a3edb232aa4aedbdcc59792b76a5f67e2",
+      "side": "SELL",
+      "asset": "16016908434025167220243178590358637924061830475505554559071284592301005386647",
+      "conditionId": "0x2135ffcb43ba9103bb6acf7116d2d5aa98bef6d9eb3dc9c85ea00cb79513f3ec",
+      "size": 9851,
+      "price": 0.8180320779616282,
+      "timestamp": 1777840980,
+      "title": "Iran closes its airspace by May 8?",
+      "slug": "iran-closes-its-airspace-by-may-8",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-iran-close-its-airspace-by-Djo8VXRKur_C.jpg",
+      "eventSlug": "iran-closes-its-airspace-by",
+      "outcome": "No",
+      "outcomeIndex": 1,
+      "name": "KrackenSruster",
+      "pseudonym": "Finished-Wind",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x519d2783517b9e7ed74e70eec1640bfd6355b1e2ee6994b2ce7cd91e5d68c56e",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Iran closes its airspace by May 8?",
+    "market_slug": "iran-closes-its-airspace-by",
+    "amount": 8058.434,
+    "ai_context": "\u2705 COPY \u2014 Recent developments indicate a low likelihood of Iran closing its airspace by May 8, 2026.\nAs of April 18, 2026, Iran partially reopened its airspace to international flights crossing the eastern part of its territory, while the western airspace remained closed to civilian aircraft. (bssnews.net) Additionally, Iranian authorities have extended the closure of their airspace to Russian airlines until May 15, 2026. (caliber.",
     "ai_verdict": "COPY"
   }
 ]
