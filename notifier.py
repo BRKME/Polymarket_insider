@@ -621,7 +621,7 @@ def format_top_trader_alert(alert: Dict) -> str:
         s = stats.get("TOP_TRADER")
         if s and s["reliable"]:
             wr = s["wr"]
-            wr_text = f"{wr*100:.0f}% WR ({s['wins']}W/{s['losses']}L)"
+            wr_text = f"{wr*100:.0f}% WR"
             
             effective_odds = float(trade.get('price', 0.5))
             if effective_odds <= 0 or effective_odds >= 1:
@@ -785,7 +785,7 @@ def format_institutional_alert(alert):
         s = stats.get(signal_type)
         if s and s["reliable"]:
             wr = s["wr"]
-            wr_text = f"{wr*100:.0f}% WR ({s['wins']}W/{s['losses']}L)"
+            wr_text = f"{wr*100:.0f}% WR"
             
             outcome_pos = trade_data.get('normalized_position', 'Yes')
             eff_odds = float(trade_data.get('effective_price', 0.5) or 0.5)
