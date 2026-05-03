@@ -1,57 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0x16ba75f91488cf2fa36f4daf2bba4ced284a8741012200001b0a55765e9a4424",
-    "wallet": "0x863134d00841b2e200492805a01e1e2f5defaa53",
-    "trader": {
-      "rank": 6,
-      "address": "0x863134d00841b2e200492805a01e1e2f5defaa53",
-      "username": "RepTrump",
-      "profit": 7532409.671579,
-      "volume": 13983231.103425,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x849b410fc7a902250aa6d2a3f7993f558fd5e7a5",
-      "side": "BUY",
-      "asset": "49079122243198510968414959373457733219664128070398698070551374957467549389777",
-      "conditionId": "0xfb5cc69802663657da33ab2bbc8697f08faea2c57468bde75a1282730b7a7b75",
-      "size": 2518.9393,
-      "price": 0.1984962480040706,
-      "timestamp": 1774267339,
-      "title": "Backpack FDV above $200M one day after launch?",
-      "slug": "backpack-fdv-above-200m-one-day-after-launch-327-787-729-852",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-backpack-launch-a-token-by-k9RMGR8hRwMJ.jpg",
-      "eventSlug": "backpack-fdv-above-one-day-after-launch",
-      "outcome": "No",
-      "outcomeIndex": 1,
-      "name": "evvvvv",
-      "pseudonym": "Negative-Tracksuit",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x16ba75f91488cf2fa36f4daf2bba4ced284a8741012200001b0a55765e9a4424",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Backpack FDV above $200M one day after launch?",
-    "market_slug": "backpack-fdv-above-one-day-after-launch",
-    "amount": 2018.9393,
-    "resolution": {
-      "outcome": "No",
-      "checked_at": "2026-04-26T07:40:08.098187+00:00",
-      "insider_win": true,
-      "model_correct": null,
-      "pnl": 8152.23
-    }
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0x7a3c6e62f63d40460f47fdca4f5491ae0f65b59abff8bd7aaa99d8ae81b298cc",
     "wallet": "0xd0c042c08f755ff940249f62745e82d356345565",
     "trader": {
@@ -32798,6 +32747,52 @@
     "market_slug": "atp-sinner-zverev-2026-05-03",
     "amount": 1949.7288,
     "ai_context": "\u274c SKIP \u2014 Sinner has dominated recent encounters, including a decisive win in their last match.\nSinner leads their head-to-head 9-4, with a recent 6-1, 6-4 victory in the Monte-Carlo Rolex Masters semifinals. (stevegtennis.com) Additionally, Sinner has won their last eight consecutive matches since the US Open in 2023. (cadenaser.com) Zverev has been in good form, reaching the final of the Mutua Madrid Open after defeating Alexander Blockx 6-2, 7-5. (cadenaser.",
+    "ai_verdict": "SKIP"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xbdedc1d97e4e852c80ddfdce0837dd3941f708d910703bfec456314f567aaad2",
+    "wallet": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+    "trader": {
+      "rank": 5,
+      "address": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+      "username": "RN1",
+      "profit": 8166421.465432532,
+      "volume": 494425388.636528,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xa1e49df328c092e2ddee81631265712009cc4f8a",
+      "side": "BUY",
+      "asset": "35200235910928207812751691155718256000512329177671761437981279706394952257083",
+      "conditionId": "0xa3e27f44fa9126734edd69ddc672b7e307249cecb8522c277a5c4bde2c298a3b",
+      "size": 3230.25,
+      "price": 0.32860803343394474,
+      "timestamp": 1777817866,
+      "title": "LoL: Ninjas in Pyjamas vs Bilibili Gaming (BO3) - LPL Group Ascend",
+      "slug": "lol-nip-blg-2026-05-03",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/league-of-legends-61a4f083a6.png",
+      "eventSlug": "lol-nip-blg-2026-05-03",
+      "outcome": "Ninjas in Pyjamas",
+      "outcomeIndex": 0,
+      "name": "polikujh",
+      "pseudonym": "Disloyal-Pilgrimage",
+      "bio": "",
+      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-7382857-6eb49470-0086-4145-958c-8303d7d59be6.png",
+      "profileImageOptimized": "",
+      "transactionHash": "0xbdedc1d97e4e852c80ddfdce0837dd3941f708d910703bfec456314f567aaad2",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "LoL: Ninjas in Pyjamas vs Bilibili Gaming (BO3) - LPL Group Ascend",
+    "market_slug": "lol-nip-blg-2026-05-03",
+    "amount": 1061.4861,
+    "ai_context": "\u274c SKIP \u2014 Bilibili Gaming has dominated recent matchups against Ninjas in Pyjamas.\nIn their last five encounters, Bilibili Gaming secured victories in all matches, including a decisive 2-0 win on April 25, 2025. (bo3.gg)\nAdditionally, Ninjas in Pyjamas has shown inconsistent performance, with a 4-6 record in their last 10 matches. (strafe.",
     "ai_verdict": "SKIP"
   }
 ]
