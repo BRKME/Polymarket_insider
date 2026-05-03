@@ -611,73 +611,98 @@ def format_top_trader_alert(alert: Dict) -> str:
     
     timestamp = datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M')
     
-    # Dynamic bet recommendation (first line)
-    bet_line = ""
+    # === Compute bet model data ===
+    wr_text = ""
+    kelly_text = ""
+    contrarian_text = ""
     try:
-        from bet_model import get_signal_stats, format_bet_recommendation
+        from bet_model import get_signal_stats, contrarian_check, kelly_size
         stats = get_signal_stats()
-        effective_odds = float(trade.get('price', 0.5))
-        if effective_odds <= 0 or effective_odds >= 1:
-            effective_odds = 0.5
-        bet_line = format_bet_recommendation(
-            market_odds=effective_odds,
-            signal_type="TOP_TRADER",
-            stats=stats,
-            bankroll=200,
-            outcome=str(trade.get('outcome', 'Yes'))
-        )
+        s = stats.get("TOP_TRADER")
+        if s and s["reliable"]:
+            wr = s["wr"]
+            wr_text = f"{wr*100:.0f}% WR ({s['wins']}W/{s['losses']}L)"
+            
+            effective_odds = float(trade.get('price', 0.5))
+            if effective_odds <= 0 or effective_odds >= 1:
+                effective_odds = 0.5
+            
+            outcome_str = str(trade.get('outcome', 'Yes'))
+            contra = contrarian_check("TOP_TRADER", outcome_str, stats)
+            
+            if contra:
+                opp = contra["opposite_outcome"]
+                opp_wr = contra["opposite_wr"]
+                opp_odds = 1 - effective_odds
+                k = kelly_size(opp_odds, opp_wr, 200)
+                contrarian_text = f"⚡ Контрариан: ставь {opp} (WR {opp_wr*100:.0f}%)"
+                if k["action"] == "BET":
+                    kelly_text = f"${k['bet_amount']:.0f} ({k['half_kelly_pct']:.0f}% банка)"
+            else:
+                k = kelly_size(effective_odds, wr, 200)
+                if k["action"] == "BET":
+                    kelly_text = f"${k['bet_amount']:.0f} ({k['half_kelly_pct']:.0f}% банка)"
     except Exception:
         pass
     
-    message = ""
-    if bet_line:
-        message += bet_line + "\n\n"
-    
-    message += f"""👑 TOP TRADER SIGNAL
-
-MARKET
-{market}
-
-TRADER PROFILE
-{username} · Rank #{rank}
-P&L: ${profit:,.0f} · Vol: ${volume/1000000:.1f}M
-
-MOVE
-{position} · ${amount:,.0f}
-Wallet: {wallet_short}
-Conviction: {conviction} ({conviction_note})"""
-
-    # AI Context → becomes the FINAL VERDICT
+    # === AI verdict ===
     ai_context = alert.get('ai_context')
+    ai_line = ""
     if ai_context:
-        # Extract verdict from AI response
         ai_upper = ai_context.upper()
         if "LEAN COPY" in ai_upper:
-            ai_verdict = "🟡 LEAN COPY"
-        elif "LEAN SKIP" in ai_upper:
-            ai_verdict = "🟡 LEAN SKIP"
+            ai_emoji = "🟡"
         elif "COPY" in ai_upper and "SKIP" not in ai_upper:
-            ai_verdict = "🟢 COPY"
+            ai_emoji = "🟢"
         elif "SKIP" in ai_upper:
-            ai_verdict = "🔴 SKIP"
+            ai_emoji = "🔴"
         else:
-            ai_verdict = "🟡 UNCLEAR"
+            ai_emoji = "🟡"
         
-        message += f"\n\n🤖 AI VERDICT: {ai_verdict}\n{ai_context}"
-    else:
-        # No AI — use code-based verdict
-        if conviction == "HIGH":
-            ai_verdict = "🟢 COPY"
-        elif conviction == "MEDIUM":
-            ai_verdict = "🟡 CONSIDER"
-        else:
-            ai_verdict = "🔵 MONITOR"
-        message += f"\n\nVERDICT: {ai_verdict}"
+        # Extract just the first sentence (reason)
+        clean = ai_context.strip()
+        # Remove verdict prefix (✅ COPY — , ❌ SKIP — , etc)
+        for prefix in ["✅ COPY —", "✅ COPY—", "✅ COPY -", "❌ SKIP —", "❌ SKIP—", "❌ SKIP -",
+                        "🟡 LEAN COPY —", "🟡 LEAN SKIP —", "✅ COPY", "❌ SKIP", "🟡 LEAN COPY", "🟡 LEAN SKIP"]:
+            if clean.startswith(prefix):
+                clean = clean[len(prefix):].strip()
+                break
+        
+        # Take first 1-2 sentences
+        sentences = clean.split('.')
+        short_reason = '.'.join(sentences[:2]).strip()
+        if short_reason and not short_reason.endswith('.'):
+            short_reason += '.'
+        if len(short_reason) > 200:
+            short_reason = short_reason[:197] + "..."
+        
+        ai_line = f"{ai_emoji} {short_reason}"
+    
+    # === Build compact message ===
+    # Header with WR
+    header = "👑 TOP TRADER"
+    if wr_text:
+        header += f" · {wr_text}"
+    
+    message = f"""{header}
+
+{market}
+{username} #{rank} · ${profit/1000000:.1f}M profit
+{position} · ${amount:,.0f}"""
+
+    if ai_line:
+        message += f"\n\n{ai_line}"
+    
+    if contrarian_text:
+        message += f"\n{contrarian_text}"
+    
+    if kelly_text:
+        message += f"\n💰 Kelly: {kelly_text}"
 
     message += f"""
 
 🔗 {url}
-Polymarket Insiders | {timestamp} UTC"""
+{timestamp} UTC"""
     
     return message
 
@@ -748,141 +773,104 @@ def format_institutional_alert(alert):
         edge_note = "No clear edge detected"
     
     # === Build Message ===
-    # Dynamic bet recommendation (first line)
     signal_type = alert.get('combined_signal', {}).get('signal_type', 'UNKNOWN')
-    bet_line = ""
+    
+    # Compute bet model
+    wr_text = ""
+    kelly_text = ""
+    contrarian_text = ""
     try:
-        from bet_model import get_signal_stats, format_bet_recommendation
+        from bet_model import get_signal_stats, contrarian_check, kelly_size
         stats = get_signal_stats()
-        outcome = trade_data.get('normalized_position', 'Yes')
-        effective_odds = float(trade_data.get('effective_price', 0.5) or 0.5)
-        if effective_odds <= 0 or effective_odds >= 1:
-            effective_odds = 0.5
-        bet_line = format_bet_recommendation(
-            market_odds=effective_odds,
-            signal_type=signal_type,
-            stats=stats,
-            bankroll=200,
-            outcome=outcome
-        )
+        s = stats.get(signal_type)
+        if s and s["reliable"]:
+            wr = s["wr"]
+            wr_text = f"{wr*100:.0f}% WR ({s['wins']}W/{s['losses']}L)"
+            
+            outcome_pos = trade_data.get('normalized_position', 'Yes')
+            eff_odds = float(trade_data.get('effective_price', 0.5) or 0.5)
+            if eff_odds <= 0 or eff_odds >= 1:
+                eff_odds = 0.5
+            
+            contra = contrarian_check(signal_type, outcome_pos, stats)
+            if contra:
+                opp = contra["opposite_outcome"]
+                opp_wr = contra["opposite_wr"]
+                k = kelly_size(1 - eff_odds, opp_wr, 200)
+                contrarian_text = f"⚡ Контрариан: ставь {opp} (WR {opp_wr*100:.0f}%)"
+                if k["action"] == "BET":
+                    kelly_text = f"${k['bet_amount']:.0f} ({k['half_kelly_pct']:.0f}% банка)"
+            else:
+                k = kelly_size(eff_odds, wr, 200)
+                if k["action"] == "BET":
+                    kelly_text = f"${k['bet_amount']:.0f} ({k['half_kelly_pct']:.0f}% банка)"
     except Exception:
         pass
     
-    message = ""
-    if bet_line:
-        message += bet_line + "\n\n"
+    # AI verdict
+    ai_context = alert.get('ai_context')
+    ai_line = ""
+    if ai_context:
+        ai_upper = ai_context.upper()
+        ai_emoji = "🟢" if ("COPY" in ai_upper and "SKIP" not in ai_upper) else "🔴" if "SKIP" in ai_upper else "🟡"
+        
+        clean = ai_context.strip()
+        for prefix in ["✅ COPY —", "✅ COPY—", "❌ SKIP —", "❌ SKIP—", "✅ COPY", "❌ SKIP",
+                        "🟡 LEAN COPY —", "🟡 LEAN SKIP —", "🟡 LEAN COPY", "🟡 LEAN SKIP"]:
+            if clean.startswith(prefix):
+                clean = clean[len(prefix):].strip()
+                break
+        sentences = clean.split('.')
+        short_reason = '.'.join(sentences[:2]).strip()
+        if short_reason and not short_reason.endswith('.'):
+            short_reason += '.'
+        if len(short_reason) > 200:
+            short_reason = short_reason[:197] + "..."
+        ai_line = f"{ai_emoji} {short_reason}"
     
-    message += f"""👁️ INSIDER ACTIVITY
-
-MARKET SIGNAL
-{market}
-Odds: {side_a} {yes_price*100:.0f}% | {side_b} {no_price*100:.0f}%
-Edge: {edge_note}"""
-    
-    # === Insider Move ===
+    # Wallet info
     wallet = alert['wallet']
     wallet_short = f"{wallet[:6]}...{wallet[-4:]}" if len(wallet) > 12 else wallet
     amount = float(analysis.get('amount', 0))
     
-    # Wallet profile
     if top_trader:
-        profile = f"Top #{top_trader['rank']} trader"
+        profile = f"Top #{top_trader['rank']}"
     elif wallet_stats and wallet_stats.get('total_trades', 0) > 0:
-        profile = wallet_stats.get('classification', 'Unknown')
+        profile = wallet_stats.get('classification', 'new')
     else:
         profile = "new wallet"
     
-    message += f"""
-
-INSIDER MOVE
-Wallet: {wallet_short} ({profile})
-Bet: ${amount:,.0f} {trade_info['position']}"""
+    # Header
+    header = f"👁️ {signal_type}"
+    if wr_text:
+        header += f" · {wr_text}"
     
-    # Lead time if available
-    if latency and latency.get('is_pre_event'):
-        lead_min = int(latency['latency_minutes'])
-        if lead_min < 60:
-            message += f"\n⏰ {lead_min}m before event"
-        elif lead_min < 1440:
-            message += f"\n⏰ {lead_min/60:.1f}h before event"
-    
-    # === Verdict ===
-    fa = alert.get('financial_analyst', {})
-    stance = fa.get('stance', 'WATCH_ONLY')
-    quality = fa.get('signal_quality', 0)
-    
-    # Determine position side for conflict detection
-    # Use normalized_position from detector (handles Over/Under/team names correctly)
-    position_side = trade_data.get('normalized_position', combined.get('insider_position', 'YES'))
-    # Fallback: parse from display string if normalized_position not available
-    if not position_side or position_side not in ('YES', 'NO'):
-        position_str = trade_info['position']
-        if 'YES' in position_str.upper():
-            position_side = 'YES'
-        elif 'NO' in position_str.upper():
-            position_side = 'NO'
-        else:
-            # Team/player name: use title detection
-            market_title = alert.get('market', '') or trade_data.get('title', '')
-            outcome = trade_data.get('outcome', 'Yes')
-            position_side = 'NO' if _is_second_in_vs_title(str(outcome), market_title) else 'YES'
-    
-    has_conflict = ev_direction and position_side != ev_direction
-    
-    # Get display name for verdict (team name for sports, YES/NO for binary)
-    display_position = trade_info['position']
-    position_display_name = display_position.split(' @')[0] if ' @' in display_position else str(outcome_name)
-    
-    # Show which side model favors in human terms
-    model_favors_display = side_b if ev_direction == "NO" else side_a
-    
-    if has_conflict:
-        verdict = "⚠️ MODEL CONFLICT"
-        verdict_note = f"Insider bets {position_display_name}, model favors {model_favors_display}"
-    elif stance == "HIGH_CONVICTION":
-        verdict = "🟢 ACTION"
-        verdict_note = f"Strong signal on {position_display_name}"
-    elif stance == "SELECTIVE":
-        verdict = "🟡 WATCH"
-        verdict_note = "Monitor for confirmation"
-    else:
-        verdict = "🔵 WATCH"
-        verdict_note = "Low confidence, track only"
-    
-    # Risk notes
-    risks = []
-    if not wallet_stats or wallet_stats.get('total_trades', 0) < 3:
-        risks.append("New wallet")
-    if amount < 5000:
-        risks.append("Small bet")
-    if edge_percent > 15:
-        risks.append(f"Large mispricing ({edge_percent:+.0f}%)")
-    
-    # AI context (if available) — before verdict
-    ai_context = alert.get('ai_context')
-    if ai_context:
-        message += f"\n\n🤖 AI\n→ {ai_context}"
-
-    message += f"""
-
-VERDICT: {verdict}
-{verdict_note}"""
-    
-    if risks:
-        message += f"\nRisk: {', '.join(risks[:3])}"
-    
-    message += f"\nSignal: {quality:.0f}/100"
-    
-    # === Footer ===
+    # Build compact message
     timestamp = datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M')
+    url = build_polymarket_url(trade_data, alert)
     
+    message = f"""{header}
+
+{market}
+{side_a} {yes_price*100:.0f}% | {side_b} {no_price*100:.0f}%
+${amount:,.0f} on {trade_info['position']} · {profile}"""
+
+    if ai_line:
+        message += f"\n\n{ai_line}"
+    
+    if contrarian_text:
+        message += f"\n{contrarian_text}"
+    
+    if kelly_text:
+        message += f"\n💰 Kelly: {kelly_text}"
+
     message += f"""
 
 🔗 {url}
-Polymarket Insiders | {timestamp} UTC"""
+{timestamp} UTC"""
     
     if trade_info.get('is_estimated'):
-        message += f"\n⚠️ Position estimated from odds"
+        message += f"\n⚠️ Position estimated"
     
     return message
 
