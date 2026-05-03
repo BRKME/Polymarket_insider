@@ -1,118 +1,5 @@
 [
   {
-    "market": "Lakers vs. Pistons: O/U 226.5",
-    "market_slug": "nba-lal-det-2026-03-23-total-226pt5",
-    "event_slug": "nba-lal-det-2026-03-23-total-226pt5",
-    "wallet": "0x09d28973a8224c14dd02e2cdba287ea53abbfffc",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($1,024)",
-        "Low activity (1 txns)"
-      ],
-      "amount": 1023.5,
-      "odds": 0.5,
-      "raw_price": 0.5,
-      "outcome": "Over",
-      "potential_pnl": 1023.5,
-      "pnl_multiplier": 1.0,
-      "wallet_age_days": 0,
-      "total_activities": 1
-    },
-    "timestamp": "2026-03-23T16:12:35.999751",
-    "trade_hash": "0xc77ff339985e36e19343f6b1aa275b2bac76e7a13b0722cdeca045625d3b5149",
-    "trade_timestamp": 1774281997,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Over",
-      "side": "BUY",
-      "price": 0.5,
-      "effective_price": 0.5,
-      "size": 2047.0,
-      "amount": 1023.5,
-      "potential_pnl": 1023.5,
-      "pnl_multiplier": 1.0,
-      "is_no": false,
-      "slug": "nba-lal-det-2026-03-23-total-226pt5",
-      "eventSlug": "nba-lal-det-2026-03-23"
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+26.0%)"
-      ],
-      "category": "sports",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.24,
-      "market_price": 0.5,
-      "edge": 0.26,
-      "edge_percent": 26.0,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Lakers offense performs at peak efficiency",
-          "Pistons defense struggles significantly",
-          "Both teams have key players available"
-        ],
-        "weakest_link": "Pistons defense struggles significantly"
-      },
-      "category": "sports",
-      "narrative_drivers": [
-        "Recent high-scoring games",
-        "Injury reports affecting key players"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "INSIDER_ONLY",
-      "signal_emoji": "\ud83d\udc41\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider activity detected, no clear mispricing",
-      "action_suggestion": "Monitor: insider signal only, no statistical edge",
-      "insider_score": 70,
-      "insider_position": "OVER",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.26,
-      "edge_percent": 26.0
-    },
-    "financial_analyst": {
-      "signal_quality": 51.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 26.0,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.449483+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-23 >7 days ago, removed from API"
-    }
-  },
-  {
     "type": "TOP_TRADER",
     "trade_hash": "0x08c731fd58ad1456b2cc0af3dcc4d9a2dc8ad1fa6afcca36af3f06f7eec1c702",
     "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
@@ -32648,5 +32535,51 @@
     "amount": 1396.5085000000001,
     "ai_context": "\u274c SKIP \u2014 Vitality has dominated recent matchups against Natus Vincere, winning the last five encounters.\nIn their most recent match on April 17, 2026, Vitality defeated Natus Vincere 2-0. (strafe.com) Additionally, Vitality has an 89% win rate over the past month, entering the final on a six-match winning streak. (bo3.gg) Natus Vincere's recent form includes a loss to Vitality in their last match. (hltv.org) While Natus Vincere has a strong win rate on maps like Ancient (70%) and Dust2 (63.",
     "ai_verdict": "SKIP"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x30ea8baed28b9f4017926f8eb5c8c07cdc6f04ad2749dc78b4e30b904b7be0ad",
+    "wallet": "0xefbc5fec8d7b0acdc8911bdd9a98d6964308f9a2",
+    "trader": {
+      "rank": 20,
+      "address": "0xefbc5fec8d7b0acdc8911bdd9a98d6964308f9a2",
+      "username": "reachingthesky",
+      "profit": 3742635.156562068,
+      "volume": 13750266.834776,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xa1e49df328c092e2ddee81631265712009cc4f8a",
+      "side": "BUY",
+      "asset": "65229236041379900476917710998926224950894535551619548837018764117778259045068",
+      "conditionId": "0x5817fe66dad4091f3463c6338ede2bb4a8edf5409358ebc663e0bb47b8b766fe",
+      "size": 15151.51515,
+      "price": 0.329999999967,
+      "timestamp": 1777836478,
+      "title": "San Francisco Giants vs. Tampa Bay Rays",
+      "slug": "mlb-sf-tb-2026-05-03",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Repetitive-markets/MLB.jpg",
+      "eventSlug": "mlb-sf-tb-2026-05-03",
+      "outcome": "Tampa Bay Rays",
+      "outcomeIndex": 1,
+      "name": "polikujh",
+      "pseudonym": "Disloyal-Pilgrimage",
+      "bio": "",
+      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-7382857-6eb49470-0086-4145-958c-8303d7d59be6.png",
+      "profileImageOptimized": "",
+      "transactionHash": "0x30ea8baed28b9f4017926f8eb5c8c07cdc6f04ad2749dc78b4e30b904b7be0ad",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "San Francisco Giants vs. Tampa Bay Rays",
+    "market_slug": "mlb-sf-tb-2026-05-03",
+    "amount": 4999.999999000001,
+    "ai_context": "\u2705 COPY \u2014 Tampa Bay Rays have a strong home record and are on a six-game home winning streak.\nThe Rays are 10-4 at home and have won their last six home games. (foxsports.com) In contrast, the San Francisco Giants are 6-11 in road games and have lost four consecutive games. (foxsports.com) Additionally, the Rays have a 50% win rate against the Giants in their head-to-head matchups. (aiscore.",
+    "ai_verdict": "COPY"
   }
 ]
