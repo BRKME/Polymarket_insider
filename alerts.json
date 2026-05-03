@@ -1,109 +1,5 @@
 [
   {
-    "type": "TOP_TRADER",
-    "trade_hash": "0x7a3c6e62f63d40460f47fdca4f5491ae0f65b59abff8bd7aaa99d8ae81b298cc",
-    "wallet": "0xd0c042c08f755ff940249f62745e82d356345565",
-    "trader": {
-      "rank": 15,
-      "address": "0xd0c042c08f755ff940249f62745e82d356345565",
-      "username": "alexmulti",
-      "profit": 4804855.613376001,
-      "volume": 9949068.653841998,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x0dcf5b49627c5194805bd1af846fd0bd3388c556",
-      "side": "BUY",
-      "asset": "21055190573360289252432522126172833836286579964552859587717109155156751675601",
-      "conditionId": "0xf608bb729492ce81bacff62f60fd364f8c4ef1d6a9c1d057dfb27908d14e8a98",
-      "size": 4905.76,
-      "price": 0.5286836698085515,
-      "timestamp": 1774267641,
-      "title": "Dota 2: PARIVISION vs BetBoom Team - Game 1 Winner",
-      "slug": "dota2-pari-bb4-2026-03-23-game1",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/dota2-7ffacddb21.jpg",
-      "eventSlug": "dota2-pari-bb4-2026-03-23",
-      "outcome": "PARIVISION",
-      "outcomeIndex": 0,
-      "name": "0x0dcf5B49627C5194805bD1AF846Fd0bd3388c556-1769755919166",
-      "pseudonym": "Insignificant-Wrestler",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x7a3c6e62f63d40460f47fdca4f5491ae0f65b59abff8bd7aaa99d8ae81b298cc",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Dota 2: PARIVISION vs BetBoom Team - Game 1 Winner",
-    "market_slug": "dota2-pari-bb4-2026-03-23",
-    "amount": 2593.5951999999997,
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.449444+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-23 >7 days ago, removed from API"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
-    "trade_hash": "0x23f79de6fea800d4c653dc7408c0ad9b93c4c96f03492d786d069c799b449204",
-    "wallet": "0xd0c042c08f755ff940249f62745e82d356345565",
-    "trader": {
-      "rank": 15,
-      "address": "0xd0c042c08f755ff940249f62745e82d356345565",
-      "username": "alexmulti",
-      "profit": 4804855.613376001,
-      "volume": 9949068.653841998,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x66fbe4344c1a9f6029a4e40ffd5ca7848e189f72",
-      "side": "BUY",
-      "asset": "21055190573360289252432522126172833836286579964552859587717109155156751675601",
-      "conditionId": "0xf608bb729492ce81bacff62f60fd364f8c4ef1d6a9c1d057dfb27908d14e8a98",
-      "size": 3846.153845,
-      "price": 0.519999999896,
-      "timestamp": 1774267639,
-      "title": "Dota 2: PARIVISION vs BetBoom Team - Game 1 Winner",
-      "slug": "dota2-pari-bb4-2026-03-23-game1",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/dota2-7ffacddb21.jpg",
-      "eventSlug": "dota2-pari-bb4-2026-03-23",
-      "outcome": "PARIVISION",
-      "outcomeIndex": 0,
-      "name": "bobbythedestroyer",
-      "pseudonym": "Incredible-Integer",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x23f79de6fea800d4c653dc7408c0ad9b93c4c96f03492d786d069c799b449204",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Dota 2: PARIVISION vs BetBoom Team - Game 1 Winner",
-    "market_slug": "dota2-pari-bb4-2026-03-23",
-    "amount": 1999.999999,
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.449454+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-23 >7 days ago, removed from API"
-    }
-  },
-  {
     "market": "Thunder vs. 76ers: O/U 225.5",
     "market_slug": "nba-okc-phi-2026-03-23-total-225pt5",
     "event_slug": "nba-okc-phi-2026-03-23-total-225pt5",
@@ -32793,6 +32689,98 @@
     "market_slug": "lol-nip-blg-2026-05-03",
     "amount": 1061.4861,
     "ai_context": "\u274c SKIP \u2014 Bilibili Gaming has dominated recent matchups against Ninjas in Pyjamas.\nIn their last five encounters, Bilibili Gaming secured victories in all matches, including a decisive 2-0 win on April 25, 2025. (bo3.gg)\nAdditionally, Ninjas in Pyjamas has shown inconsistent performance, with a 4-6 record in their last 10 matches. (strafe.",
+    "ai_verdict": "SKIP"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xb7389b8cf96f14e2199a37a094154b17050d9afc611c5c0397ea6f88b8632582",
+    "wallet": "0xd235973291b2b75ff4070e9c0b01728c520b0f29",
+    "trader": {
+      "rank": 6,
+      "address": "0xd235973291b2b75ff4070e9c0b01728c520b0f29",
+      "username": "zxgngl",
+      "profit": 7807265.589240883,
+      "volume": 40551790.621846996,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x91eee6b7cea1916214daebec3b92b7513079c5b8",
+      "side": "BUY",
+      "asset": "2083353765133854471191383903280088856722382082191945389122097060895355205323",
+      "conditionId": "0xe7e4bf6db81ecb0717955af5387ef09c6c5eb5a1bedd2f7d7f8dd34df022ad3f",
+      "size": 14832.84,
+      "price": 0.42,
+      "timestamp": 1777820870,
+      "title": "Will Toulouse FC win on 2026-05-03?",
+      "slug": "fl1-str-tou-2026-05-03-tou",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/league-fl1.png",
+      "eventSlug": "fl1-str-tou-2026-05-03",
+      "outcome": "Yes",
+      "outcomeIndex": 0,
+      "name": "everydaymortgage",
+      "pseudonym": "Boiling-Fill",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xb7389b8cf96f14e2199a37a094154b17050d9afc611c5c0397ea6f88b8632582",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Will Toulouse FC win on 2026-05-03?",
+    "market_slug": "fl1-str-tou-2026-05-03",
+    "amount": 6229.7928,
+    "ai_context": "\u274c SKIP \u2014 Toulouse FC has lost 3 of their last 4 matches, including a 0-4 defeat to Lille on April 12, 2026. (espn.com) However, the trader may have access to insider information or analysis not publicly available.",
+    "ai_verdict": "SKIP"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x14aca39a93dd1fabc54dcb9fd6b1eff95ae1a5fe6c115edc88a47851d3c78591",
+    "wallet": "0xd235973291b2b75ff4070e9c0b01728c520b0f29",
+    "trader": {
+      "rank": 6,
+      "address": "0xd235973291b2b75ff4070e9c0b01728c520b0f29",
+      "username": "zxgngl",
+      "profit": 7807265.589240883,
+      "volume": 40551790.621846996,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x3d0a07c96e2a36a0caaacf181d1799282f0007c7",
+      "side": "BUY",
+      "asset": "32458815385353778865634830788704247274240913941300663258140195695719480959359",
+      "conditionId": "0x269cf139a43eca5e862023e9c372de3445c9d3273fd13e2686176f159deb32a2",
+      "size": 1764.705881,
+      "price": 0.6799999999546666,
+      "timestamp": 1777820870,
+      "title": "Dota 2: Team Resilience vs Vici Gaming - Game 4 Winner",
+      "slug": "dota2-tr7-vg-2026-05-03-game4",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/dota2-7ffacddb21.jpg",
+      "eventSlug": "dota2-tr7-vg-2026-05-03",
+      "outcome": "Vici Gaming",
+      "outcomeIndex": 1,
+      "name": "vrooomvrooom",
+      "pseudonym": "Yellow-Laugh",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x14aca39a93dd1fabc54dcb9fd6b1eff95ae1a5fe6c115edc88a47851d3c78591",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Dota 2: Team Resilience vs Vici Gaming - Game 4 Winner",
+    "market_slug": "dota2-tr7-vg-2026-05-03",
+    "amount": 1199.9999990000001,
+    "ai_context": "\u274c SKIP \u2014 Vici Gaming has lost their last two matches against Team Resilience.\nIn their most recent encounter on May 1, 2026, Vici Gaming was defeated 2-0 by Team Resilience in the ESL Challenger China Season 3 Powered by ACL. (cyberscore.live) Additionally, in their previous match on April 13, 2026, Vici Gaming also lost 2-0 to Team Resilience in the DreamLeague China Closed Qualifier Season 29 Playoffs. (myesports.gg) These consecutive losses indicate a trend that may continue.",
     "ai_verdict": "SKIP"
   }
 ]
