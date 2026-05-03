@@ -611,7 +611,49 @@ def format_top_trader_alert(alert: Dict) -> str:
     
     timestamp = datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M')
     
-    # === Compute bet model data ===
+    # === AI verdict (compute FIRST — affects recommendation) ===
+    ai_context = alert.get('ai_context')
+    ai_verdict = "NONE"  # COPY, SKIP, LEAN_COPY, LEAN_SKIP, NONE
+    ai_reason = ""
+    if ai_context:
+        ai_upper = ai_context.upper()
+        if "LEAN COPY" in ai_upper:
+            ai_verdict = "LEAN_COPY"
+            ai_emoji = "🟡"
+        elif "COPY" in ai_upper and "SKIP" not in ai_upper:
+            ai_verdict = "COPY"
+            ai_emoji = "🟢"
+        elif "SKIP" in ai_upper:
+            ai_verdict = "SKIP"
+            ai_emoji = "🔴"
+        else:
+            ai_verdict = "UNCLEAR"
+            ai_emoji = "🟡"
+        
+        # Extract reason text
+        clean = ai_context.strip()
+        for prefix in ["✅ COPY —", "✅ COPY—", "✅ COPY -", "❌ SKIP —", "❌ SKIP—", "❌ SKIP -",
+                        "🟡 LEAN COPY —", "🟡 LEAN SKIP —", "✅ COPY", "❌ SKIP", "🟡 LEAN COPY", "🟡 LEAN SKIP"]:
+            if clean.startswith(prefix):
+                clean = clean[len(prefix):].strip()
+                break
+        
+        # Split into first sentence (conclusion) + rest (reasoning)
+        sentences = clean.split('.')
+        first_sentence = sentences[0].strip()
+        if first_sentence and not first_sentence.endswith('.'):
+            first_sentence += '.'
+        rest = '.'.join(sentences[1:3]).strip()
+        if rest and not rest.endswith('.'):
+            rest += '.'
+        if len(rest) > 200:
+            rest = rest[:197] + "..."
+        
+        ai_reason = f"🤖 {ai_emoji} {first_sentence}"
+        if rest:
+            ai_reason += f"\n{rest}"
+    
+    # === Compute recommendation (uses AI verdict) ===
     wr_text = ""
     rec_text = ""
     try:
@@ -629,16 +671,19 @@ def format_top_trader_alert(alert: Dict) -> str:
             outcome_str = str(trade.get('outcome', 'Yes'))
             contra = contrarian_check("TOP_TRADER", outcome_str, stats)
             
-            if contra:
+            # KEY LOGIC: AI overrides contrarian
+            # If AI says COPY → trust the trader, don't reverse
+            ai_agrees = ai_verdict in ("COPY", "LEAN_COPY")
+            
+            if contra and not ai_agrees:
+                # Contrarian + AI confirms skip → reverse bet
                 opp = contra["opposite_outcome"]
                 opp_wr = contra["opposite_wr"]
                 opp_odds = 1 - effective_odds
                 k = kelly_size(opp_odds, opp_wr, 200)
                 
-                # Get proper opponent name from market title
                 market_title = trade.get('title', '') or alert.get('market', '')
                 if opp.startswith("против "):
-                    # Team name — extract opponent from "X vs Y" title
                     bet_team = opp.replace("против ", "")
                     opponent = _extract_opponent_name(bet_team, market_title) or opp
                 elif opp in ("NO", "YES"):
@@ -647,66 +692,43 @@ def format_top_trader_alert(alert: Dict) -> str:
                     opponent = opp
                 
                 if k["action"] == "BET":
-                    rec_text = f"💰 Рекомендация: ставь на {opponent} ${k['bet_amount']:.0f} ({k['half_kelly_pct']:.0f}% банка)"
+                    rec_text = f"Рекомендация: ставь на {opponent} ${k['bet_amount']:.0f} ({k['half_kelly_pct']:.0f}% банка)"
                 else:
-                    rec_text = f"💰 Рекомендация: ставь на {opponent}"
+                    rec_text = f"Рекомендация: ставь на {opponent}"
+            elif ai_agrees:
+                # AI confirms → copy the trader
+                k = kelly_size(effective_odds, max(wr, 0.55), 200)  # Use at least 55% WR when AI agrees
+                if k["action"] == "BET":
+                    rec_text = f"Рекомендация: копируй ${k['bet_amount']:.0f} ({k['half_kelly_pct']:.0f}% банка)"
+                else:
+                    rec_text = f"Рекомендация: копируй"
             else:
+                # No AI or unclear → use raw stats
                 k = kelly_size(effective_odds, wr, 200)
                 if k["action"] == "BET":
-                    rec_text = f"💰 Рекомендация: копируй ${k['bet_amount']:.0f} ({k['half_kelly_pct']:.0f}% банка)"
+                    rec_text = f"Рекомендация: копируй ${k['bet_amount']:.0f} ({k['half_kelly_pct']:.0f}% банка)"
     except Exception:
         pass
     
-    # === AI verdict ===
-    ai_context = alert.get('ai_context')
-    ai_line = ""
-    if ai_context:
-        ai_upper = ai_context.upper()
-        if "LEAN COPY" in ai_upper:
-            ai_emoji = "🟡"
-        elif "COPY" in ai_upper and "SKIP" not in ai_upper:
-            ai_emoji = "🟢"
-        elif "SKIP" in ai_upper:
-            ai_emoji = "🔴"
-        else:
-            ai_emoji = "🟡"
-        
-        # Extract just the first sentence (reason)
-        clean = ai_context.strip()
-        # Remove verdict prefix (✅ COPY — , ❌ SKIP — , etc)
-        for prefix in ["✅ COPY —", "✅ COPY—", "✅ COPY -", "❌ SKIP —", "❌ SKIP—", "❌ SKIP -",
-                        "🟡 LEAN COPY —", "🟡 LEAN SKIP —", "✅ COPY", "❌ SKIP", "🟡 LEAN COPY", "🟡 LEAN SKIP"]:
-            if clean.startswith(prefix):
-                clean = clean[len(prefix):].strip()
-                break
-        
-        # Take first 1-2 sentences
-        sentences = clean.split('.')
-        short_reason = '.'.join(sentences[:2]).strip()
-        if short_reason and not short_reason.endswith('.'):
-            short_reason += '.'
-        if len(short_reason) > 200:
-            short_reason = short_reason[:197] + "..."
-        
-        ai_line = f"🤖 {ai_emoji} {short_reason}"
-    
-    # === Build compact message ===
-    # Header with WR
+    # === Build message ===
     header = "👑 TOP TRADER"
     if wr_text:
         header += f" · {wr_text}"
     
     message = f"""{header}
 
-{market}
-{username} #{rank} · ${amount:,.0f}
-{position}"""
+{market}"""
 
-    if ai_line:
-        message += f"\n\n{ai_line}"
-    
+    # Recommendation right after market name
     if rec_text:
         message += f"\n{rec_text}"
+
+    # Trader info
+    message += f"\n{username} #{rank} · ${amount:,.0f}\n{position}"
+
+    # AI reasoning
+    if ai_reason:
+        message += f"\n\n{ai_reason}"
 
     message += f"""
 
@@ -784,53 +806,36 @@ def format_institutional_alert(alert):
     # === Build Message ===
     signal_type = alert.get('combined_signal', {}).get('signal_type', 'UNKNOWN')
     
-    # Compute bet model
+    # Get WR for header
     wr_text = ""
     rec_text = ""
     try:
-        from bet_model import get_signal_stats, contrarian_check, kelly_size
+        from bet_model import get_signal_stats
         stats = get_signal_stats()
         s = stats.get(signal_type)
         if s and s["reliable"]:
-            wr = s["wr"]
-            wr_text = f"{wr*100:.0f}% WR"
-            
-            outcome_pos = trade_data.get('normalized_position', 'Yes')
-            eff_odds = float(trade_data.get('effective_price', 0.5) or 0.5)
-            if eff_odds <= 0 or eff_odds >= 1:
-                eff_odds = 0.5
-            
-            contra = contrarian_check(signal_type, outcome_pos, stats)
-            if contra:
-                opp = contra["opposite_outcome"]
-                opp_wr = contra["opposite_wr"]
-                k = kelly_size(1 - eff_odds, opp_wr, 200)
-                
-                # Get opponent name
-                market_title = alert.get('market', '')
-                if opp.startswith("против "):
-                    bet_team = opp.replace("против ", "")
-                    opponent = _extract_opponent_name(bet_team, market_title) or opp
-                else:
-                    opponent = opp
-                
-                if k["action"] == "BET":
-                    rec_text = f"💰 Рекомендация: ставь на {opponent} ${k['bet_amount']:.0f} ({k['half_kelly_pct']:.0f}% банка)"
-                else:
-                    rec_text = f"💰 Рекомендация: ставь на {opponent}"
-            else:
-                k = kelly_size(eff_odds, wr, 200)
-                if k["action"] == "BET":
-                    rec_text = f"💰 Рекомендация: копируй ${k['bet_amount']:.0f} ({k['half_kelly_pct']:.0f}% банка)"
+            wr_text = f"{s['wr']*100:.0f}% WR"
     except Exception:
         pass
     
-    # AI verdict
+    # AI verdict (compute FIRST)
     ai_context = alert.get('ai_context')
-    ai_line = ""
+    ai_verdict = "NONE"
+    ai_reason = ""
     if ai_context:
         ai_upper = ai_context.upper()
-        ai_emoji = "🟢" if ("COPY" in ai_upper and "SKIP" not in ai_upper) else "🔴" if "SKIP" in ai_upper else "🟡"
+        if "LEAN COPY" in ai_upper:
+            ai_verdict = "LEAN_COPY"
+            ai_emoji = "🟡"
+        elif "COPY" in ai_upper and "SKIP" not in ai_upper:
+            ai_verdict = "COPY"
+            ai_emoji = "🟢"
+        elif "SKIP" in ai_upper:
+            ai_verdict = "SKIP"
+            ai_emoji = "🔴"
+        else:
+            ai_verdict = "UNCLEAR"
+            ai_emoji = "🟡"
         
         clean = ai_context.strip()
         for prefix in ["✅ COPY —", "✅ COPY—", "❌ SKIP —", "❌ SKIP—", "✅ COPY", "❌ SKIP",
@@ -839,12 +844,60 @@ def format_institutional_alert(alert):
                 clean = clean[len(prefix):].strip()
                 break
         sentences = clean.split('.')
-        short_reason = '.'.join(sentences[:2]).strip()
-        if short_reason and not short_reason.endswith('.'):
-            short_reason += '.'
-        if len(short_reason) > 200:
-            short_reason = short_reason[:197] + "..."
-        ai_line = f"🤖 {ai_emoji} {short_reason}"
+        first_sentence = sentences[0].strip()
+        if first_sentence and not first_sentence.endswith('.'):
+            first_sentence += '.'
+        rest = '.'.join(sentences[1:3]).strip()
+        if rest and not rest.endswith('.'):
+            rest += '.'
+        if len(rest) > 200:
+            rest = rest[:197] + "..."
+        
+        ai_reason = f"🤖 {ai_emoji} {first_sentence}"
+        if rest:
+            ai_reason += f"\n{rest}"
+
+    # Update recommendation with AI awareness
+    ai_agrees = ai_verdict in ("COPY", "LEAN_COPY")
+    try:
+        from bet_model import get_signal_stats, contrarian_check, kelly_size
+        stats = get_signal_stats()
+        s = stats.get(signal_type)
+        if s and s["reliable"]:
+            wr = s["wr"]
+            outcome_pos = trade_data.get('normalized_position', 'Yes')
+            eff_odds = float(trade_data.get('effective_price', 0.5) or 0.5)
+            if eff_odds <= 0 or eff_odds >= 1:
+                eff_odds = 0.5
+            
+            contra = contrarian_check(signal_type, outcome_pos, stats)
+            
+            if contra and not ai_agrees:
+                opp = contra["opposite_outcome"]
+                opp_wr = contra["opposite_wr"]
+                k = kelly_size(1 - eff_odds, opp_wr, 200)
+                market_title = alert.get('market', '')
+                if opp.startswith("против "):
+                    bet_team = opp.replace("против ", "")
+                    opponent = _extract_opponent_name(bet_team, market_title) or opp
+                else:
+                    opponent = opp
+                if k["action"] == "BET":
+                    rec_text = f"Рекомендация: ставь на {opponent} ${k['bet_amount']:.0f} ({k['half_kelly_pct']:.0f}% банка)"
+                else:
+                    rec_text = f"Рекомендация: ставь на {opponent}"
+            elif ai_agrees:
+                k = kelly_size(eff_odds, max(wr, 0.55), 200)
+                if k["action"] == "BET":
+                    rec_text = f"Рекомендация: копируй ${k['bet_amount']:.0f} ({k['half_kelly_pct']:.0f}% банка)"
+                else:
+                    rec_text = f"Рекомендация: копируй"
+            else:
+                k = kelly_size(eff_odds, wr, 200)
+                if k["action"] == "BET":
+                    rec_text = f"Рекомендация: копируй ${k['bet_amount']:.0f} ({k['half_kelly_pct']:.0f}% банка)"
+    except Exception:
+        pass
     
     # Wallet info
     wallet = alert['wallet']
@@ -863,21 +916,21 @@ def format_institutional_alert(alert):
     if wr_text:
         header += f" · {wr_text}"
     
-    # Build compact message
+    # Build message: header → market → recommendation → trade → AI
     timestamp = datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M')
     url = build_polymarket_url(trade_data, alert)
     
     message = f"""{header}
 
-{market}
-{side_a} {yes_price*100:.0f}% | {side_b} {no_price*100:.0f}%
-${amount:,.0f} on {trade_info['position']} · {profile}"""
+{market}"""
 
-    if ai_line:
-        message += f"\n\n{ai_line}"
-    
     if rec_text:
         message += f"\n{rec_text}"
+
+    message += f"\n${amount:,.0f} on {trade_info['position']} · {profile}"
+
+    if ai_reason:
+        message += f"\n\n{ai_reason}"
 
     message += f"""
 
