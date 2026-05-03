@@ -3,119 +3,6 @@
     "market": "Lakers vs. Pistons: O/U 226.5",
     "market_slug": "nba-lal-det-2026-03-23-total-226pt5",
     "event_slug": "nba-lal-det-2026-03-23-total-226pt5",
-    "wallet": "0x7288abe3f3e00c60ab31188728511a79edce6a13",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($1,179)",
-        "Low activity (1 txns)"
-      ],
-      "amount": 1179.0,
-      "odds": 0.5,
-      "raw_price": 0.5,
-      "outcome": "Over",
-      "potential_pnl": 1179.0,
-      "pnl_multiplier": 1.0,
-      "wallet_age_days": 0,
-      "total_activities": 1
-    },
-    "timestamp": "2026-03-23T16:12:32.805784",
-    "trade_hash": "0x77c488f25fb1d28fa22281ab4fc48cf597e4f411caec938ee00188bcf8b749c1",
-    "trade_timestamp": 1774281999,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Over",
-      "side": "BUY",
-      "price": 0.5,
-      "effective_price": 0.5,
-      "size": 2358.0,
-      "amount": 1179.0,
-      "potential_pnl": 1179.0,
-      "pnl_multiplier": 1.0,
-      "is_no": false,
-      "slug": "nba-lal-det-2026-03-23-total-226pt5",
-      "eventSlug": "nba-lal-det-2026-03-23"
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+26.0%)"
-      ],
-      "category": "sports",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.24,
-      "market_price": 0.5,
-      "edge": 0.26,
-      "edge_percent": 26.0,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "High-scoring performance from both teams",
-          "Defensive weaknesses exploited",
-          "Favorable officiating leading to more free throws"
-        ],
-        "weakest_link": "Favorable officiating leading to more free throws"
-      },
-      "category": "sports",
-      "narrative_drivers": [
-        "Recent offensive trends of both teams",
-        "Injury reports affecting key players"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "INSIDER_ONLY",
-      "signal_emoji": "\ud83d\udc41\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider activity detected, no clear mispricing",
-      "action_suggestion": "Monitor: insider signal only, no statistical edge",
-      "insider_score": 70,
-      "insider_position": "OVER",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.26,
-      "edge_percent": 26.0
-    },
-    "financial_analyst": {
-      "signal_quality": 51.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 26.0,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.449472+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-23 >7 days ago, removed from API"
-    }
-  },
-  {
-    "market": "Lakers vs. Pistons: O/U 226.5",
-    "market_slug": "nba-lal-det-2026-03-23-total-226pt5",
-    "event_slug": "nba-lal-det-2026-03-23-total-226pt5",
     "wallet": "0x09d28973a8224c14dd02e2cdba287ea53abbfffc",
     "analysis": {
       "score": 70,
@@ -32715,5 +32602,51 @@
     "amount": 1001.7,
     "ai_context": "\u2705 COPY \u2014 Vitality has a strong recent record and a favorable head-to-head against Natus Vincere.\nIn their last 10 encounters, Vitality has won 9, including a 2-0 victory on April 17, 2026. (tips.gg) Over the past month, Vitality has maintained a 100% win rate, while Natus Vincere has a 67% win rate. (tips.gg) Additionally, Vitality has a 90% win rate over the past 30 days, with a current 3-match winning streak. (tips.gg)\nGiven these factors, the trader's bet on Vitality appears well-supported.",
     "ai_verdict": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x51d305e69a412d4514a8d059265a8bc6e1c1fe2ef5d0776b1c71b72980d1ec47",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.51568201,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x56c9fbdeccf198f1f5ad95ace39b24f5f7fb0d9e",
+      "side": "BUY",
+      "asset": "25345142067958638935659599113701178566616959462227444869445988221790798476314",
+      "conditionId": "0xf856b6366ffa21c1bdd0ab6e87311547b3de78cf66b9adbb751ddde527b0a279",
+      "size": 1579,
+      "price": 0.8844259024699177,
+      "timestamp": 1777831676,
+      "title": "Counter-Strike: Natus Vincere vs Vitality - Map 1 Winner",
+      "slug": "cs2-navi-vit-2026-05-03-game1",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/counter-strike-image-16c415c538.png",
+      "eventSlug": "cs2-navi-vit-2026-05-03",
+      "outcome": "Natus Vincere",
+      "outcomeIndex": 0,
+      "name": "redvinny",
+      "pseudonym": "Wrathful-Row",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x51d305e69a412d4514a8d059265a8bc6e1c1fe2ef5d0776b1c71b72980d1ec47",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Counter-Strike: Natus Vincere vs Vitality - Map 1 Winner",
+    "market_slug": "cs2-navi-vit-2026-05-03",
+    "amount": 1396.5085000000001,
+    "ai_context": "\u274c SKIP \u2014 Vitality has dominated recent matchups against Natus Vincere, winning the last five encounters.\nIn their most recent match on April 17, 2026, Vitality defeated Natus Vincere 2-0. (strafe.com) Additionally, Vitality has an 89% win rate over the past month, entering the final on a six-match winning streak. (bo3.gg) Natus Vincere's recent form includes a loss to Vitality in their last match. (hltv.org) While Natus Vincere has a strong win rate on maps like Ancient (70%) and Dust2 (63.",
+    "ai_verdict": "SKIP"
   }
 ]
