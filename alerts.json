@@ -1,57 +1,5 @@
 [
   {
-    "type": "TOP_TRADER",
-    "trade_hash": "0x495c5487563c0ce2faac08136ac85788ed2bc37b5b8ee5153f99159fbaa27617",
-    "wallet": "0x863134d00841b2e200492805a01e1e2f5defaa53",
-    "trader": {
-      "rank": 6,
-      "address": "0x863134d00841b2e200492805a01e1e2f5defaa53",
-      "username": "RepTrump",
-      "profit": 7532409.671579,
-      "volume": 13983231.103425,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x14a056c698f46d181d1e650e7a7a0f7d1d8a22bb",
-      "side": "SELL",
-      "asset": "11274039182758931042150227700555863794918591138703821713919300339232834919406",
-      "conditionId": "0x02c5217f323f111d1b2a76415903fe393d863a66faa3923312fa7c51692540dd",
-      "size": 1800,
-      "price": 0.8519174444444444,
-      "timestamp": 1774198307,
-      "title": "Counter-Strike: NRG vs FURIA (BO3) - BLAST Open Rotterdam Group A",
-      "slug": "cs2-nrg-furia-2026-03-22",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/counter-strike-image-16c415c538.png",
-      "eventSlug": "cs2-nrg-furia-2026-03-22",
-      "outcome": "FURIA",
-      "outcomeIndex": 1,
-      "name": "gnose",
-      "pseudonym": "Neighboring-Snowsuit",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x495c5487563c0ce2faac08136ac85788ed2bc37b5b8ee5153f99159fbaa27617",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Counter-Strike: NRG vs FURIA (BO3) - BLAST Open Rotterdam Group A",
-    "market_slug": "cs2-nrg-furia-2026-03-22",
-    "amount": 1533.4514,
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.449404+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-22 >7 days ago, removed from API"
-    }
-  },
-  {
     "market": "Raptors vs. Suns: O/U 219.5",
     "market_slug": "nba-tor-phx-2026-03-22-total-219pt5",
     "event_slug": "nba-tor-phx-2026-03-22-total-219pt5",
@@ -32820,5 +32768,51 @@
     "ai_context": "\u274c SKIP \u2014 FC K\u00f8benhavn has been inconsistent recently, with 10 wins, 5 draws, and 11 losses in their last 26 fixtures. (footystats.org) They've also struggled to score, averaging 0 goals per match in their last five games. (footystats.org)\nHowever, the trader may have access to insider information or sharp analysis not reflected in the available data.\nGiven the recent form and scoring difficulties, it's advisable to exercise caution before copying this bet.",
     "ai_verdict": "SKIP",
     "resolution_last_check": "2026-05-03T07:49:05.701362+00:00"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xd02758ae54768e7c638fa66e72b05afab4eff7aedb6ced6efd2f2bde8a01c48a",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.515682,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x70d8d130f5df991b64b93216d27455cdb20da237",
+      "side": "BUY",
+      "asset": "114167316328800248594901363337696416225858233217745701744531970702182116385918",
+      "conditionId": "0x36cda93d9542e09b17048431654ea77b3c6bdf958d07da1922cc6227ee4cb4a6",
+      "size": 4000,
+      "price": 0.45,
+      "timestamp": 1777804360,
+      "title": "Valorant: Trace Esports vs Dragon Ranger Gaming (BO3) - VCT China Playoffs",
+      "slug": "val-te-drg-2026-05-03",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/valorant-logo-6fab741a16.png",
+      "eventSlug": "val-te-drg-2026-05-03",
+      "outcome": "Trace Esports",
+      "outcomeIndex": 0,
+      "name": "LuckyLucian0",
+      "pseudonym": "Subtle-Reality-Warmup",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xd02758ae54768e7c638fa66e72b05afab4eff7aedb6ced6efd2f2bde8a01c48a",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Valorant: Trace Esports vs Dragon Ranger Gaming (BO3) - VCT China Playoffs",
+    "market_slug": "val-te-drg-2026-05-03",
+    "amount": 1800.0,
+    "ai_context": "\u274c SKIP \u2014 Trace Esports has a losing head-to-head record against Dragon Ranger Gaming and recent form indicates a downward trend.\nTrace Esports has a 25% win rate against Dragon Ranger Gaming, losing the most recent match on April 14, 2026. (bo3.gg) In their last 10 matches, Trace Esports has a 4-6 record, including losses to mid-tier opponents. (strafe.com) Additionally, their recent win rate has declined to 33% over the past month, down from 39% over the previous six months. (bo3.",
+    "ai_verdict": "SKIP"
   }
 ]
