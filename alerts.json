@@ -1,58 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0xb1ea1a9fc4ba40c24b20541fd7ee6ad22dbb72b6ad4d3c2a4de23e120556891a",
-    "wallet": "0x23786fdad0073692157c6d7dc81f281843a35fcb",
-    "trader": {
-      "rank": 13,
-      "address": "0x23786fdad0073692157c6d7dc81f281843a35fcb",
-      "username": "mikatrade77",
-      "profit": 5147998.544602999,
-      "volume": 10884765.388775,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x93abbc022ce98d6f45d4444b594791cc4b7a9723",
-      "side": "BUY",
-      "asset": "23506578023355411041243894417929730258183568005708382134166886599950653453180",
-      "conditionId": "0x3a218243afbb1d96c615b430d7c4f9e7907e4ed41cd3d1f738ac635d2b5c333a",
-      "size": 68000,
-      "price": 0.5,
-      "timestamp": 1774306957,
-      "title": "Spread: Hawks (-13.5)",
-      "slug": "nba-mem-atl-2026-03-23-spread-home-13pt5",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
-      "eventSlug": "nba-mem-atl-2026-03-23",
-      "outcome": "Hawks",
-      "outcomeIndex": 0,
-      "name": "gatorr",
-      "pseudonym": "Velvety-Relief",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0xb1ea1a9fc4ba40c24b20541fd7ee6ad22dbb72b6ad4d3c2a4de23e120556891a",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Spread: Hawks (-13.5)",
-    "market_slug": "nba-mem-atl-2026-03-23",
-    "amount": 34000.0,
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.449502+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-23 >7 days ago, removed from API"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0x65a5497b7b1bd32a59aa1c5de6ac8b8800440ff00573deda72cfd49fd9c60a4d",
     "wallet": "0xe90bec87d9ef430f27f9dcfe72c34b76967d5da2",
     "trader": {
@@ -32574,6 +32522,116 @@
     "market_slug": "iran-closes-its-airspace-by",
     "amount": 8058.434,
     "ai_context": "\u2705 COPY \u2014 Recent developments indicate a low likelihood of Iran closing its airspace by May 8, 2026.\nAs of April 18, 2026, Iran partially reopened its airspace to international flights crossing the eastern part of its territory, while the western airspace remained closed to civilian aircraft. (bssnews.net) Additionally, Iranian authorities have extended the closure of their airspace to Russian airlines until May 15, 2026. (caliber.",
+    "ai_verdict": "COPY"
+  },
+  {
+    "market": "LoL: FlyQuest vs Shopify Rebellion (BO3) - LCS Regular Season",
+    "market_slug": "lol-fly-sr-2026",
+    "event_slug": "lol-fly-sr-2026",
+    "wallet": "0x54c23f20d9247ee86417685646bc655959bc23ad",
+    "analysis": {
+      "score": 70,
+      "flags": [
+        "New wallet (1d old)",
+        "Large bet ($8,000)",
+        "Low activity (13 txns)"
+      ],
+      "amount": 7999.999999000001,
+      "odds": 0.7593842912166047,
+      "raw_price": 0.7593842912166047,
+      "outcome": "FlyQuest",
+      "potential_pnl": 2534.8505259999993,
+      "pnl_multiplier": 0.31685631578960693,
+      "wallet_age_days": 1,
+      "total_activities": 13
+    },
+    "timestamp": "2026-05-03T22:05:44.009237",
+    "trade_hash": "0x8bea83f22533d65bfc22de5bf2718f34e207fdde121b21c9da6fbe4a0042a2de",
+    "trade_timestamp": 1777845830,
+    "latency": null,
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "FlyQuest",
+      "outcomeIndex": 0,
+      "normalized_position": "YES",
+      "side": "BUY",
+      "price": 0.7593842912166047,
+      "effective_price": 0.7593842912166047,
+      "size": 10534.850525,
+      "amount": 7999.999999000001,
+      "potential_pnl": 2534.8505259999993,
+      "pnl_multiplier": 0.31685631578960693,
+      "is_no": false,
+      "conditionId": "0x876f56564ac763be885001d0ab52c78d2b8a1dfb05b68d4a2ce6bdeb959cc93a",
+      "slug": "lol-fly-sr-2026",
+      "eventSlug": "lol-fly-sr-2026-05-03"
+    },
+    "irrationality": {
+      "irrationality_score": 35,
+      "flags": [
+        "Large mispricing edge (+46.8%)"
+      ],
+      "category": "sports",
+      "category_info": {
+        "strength": "medium",
+        "typical_overpricing": 0.03,
+        "min_edge": 0.05
+      },
+      "is_irrational": true
+    },
+    "mispricing": {
+      "rational_estimate": 0.29187685824332094,
+      "market_price": 0.7593842912166047,
+      "edge": 0.46750743297328373,
+      "edge_percent": 46.75074329732837,
+      "min_edge_required": 0.05,
+      "is_mispriced": true,
+      "edge_quality": "STRONG",
+      "base_rate_class": "common",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "common",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "FlyQuest maintains a strong team synergy and performance consistency.",
+          "Shopify Rebellion struggles with coordination and individual player performance.",
+          "External factors such as player injuries or roster changes do not impact either team."
+        ],
+        "weakest_link": "Shopify Rebellion struggles with coordination and individual player performance."
+      },
+      "category": "sports",
+      "narrative_drivers": [
+        "FlyQuest's recent performance trends and match history.",
+        "Shopify Rebellion's roster stability and potential weaknesses."
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "CONFLICT",
+      "signal_emoji": "\u26a0\ufe0f",
+      "signal_strength": 70,
+      "interpretation": "Insider buying YES despite statistical overpricing",
+      "action_suggestion": "Requires manual analysis: insider may have real info OR is part of irrational crowd",
+      "insider_score": 70,
+      "insider_position": "YES",
+      "irrationality_score": 35,
+      "is_irrational": true,
+      "is_mispriced": true,
+      "edge": 0.46750743297328373,
+      "edge_percent": 46.75074329732837
+    },
+    "financial_analyst": {
+      "signal_quality": 46.0,
+      "stance": "WATCH_ONLY",
+      "edge_percent": 46.75,
+      "signal_strength": 70.0,
+      "insider_score": 70.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "ai_context": "\u2705 COPY \u2014 FlyQuest has a strong head-to-head record against Shopify Rebellion and recent form.\nFlyQuest has won 8 of 9 matches against Shopify Rebellion, including a 2-0 victory on January 25, 2026. (strafe.com) In the 2026 Spring season, FlyQuest holds a 2-2 record, while Shopify Rebellion is 1-3. (polymarket.com)\nGiven FlyQuest's superior head-to-head record and recent performance, the bet is supported.",
     "ai_verdict": "COPY"
   }
 ]
