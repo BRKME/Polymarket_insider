@@ -676,7 +676,7 @@ def format_top_trader_alert(alert: Dict) -> str:
         if len(short_reason) > 200:
             short_reason = short_reason[:197] + "..."
         
-        ai_line = f"{ai_emoji} {short_reason}"
+        ai_line = f"🤖 {ai_emoji} {short_reason}"
     
     # === Build compact message ===
     # Header with WR
@@ -826,7 +826,7 @@ def format_institutional_alert(alert):
             short_reason += '.'
         if len(short_reason) > 200:
             short_reason = short_reason[:197] + "..."
-        ai_line = f"{ai_emoji} {short_reason}"
+        ai_line = f"🤖 {ai_emoji} {short_reason}"
     
     # Wallet info
     wallet = alert['wallet']
