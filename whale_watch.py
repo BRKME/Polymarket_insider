@@ -245,10 +245,9 @@ def analyze_whale_flows(trades: List[Dict], markets: List[Dict]) -> List[Dict]:
 
 
 def format_whale_alert(signal: Dict) -> str:
-    """Format whale signal for Telegram."""
+    """Format whale signal for Telegram — compact."""
     side = signal["dominant_side"]
     vol = signal["dominant_volume"]
-    total = signal["total_volume"]
     imbalance = signal["imbalance_pct"]
     wallets = signal["unique_wallets"]
     trades = signal["trade_count"]
@@ -257,35 +256,24 @@ def format_whale_alert(signal: Dict) -> str:
     yes_price = signal.get("yes_price")
     max_trade = signal["max_single_trade"]
     
-    # Emoji by strength
     if strength >= 75:
-        emoji = "🔴"
         label = "STRONG"
     elif strength >= 50:
-        emoji = "🟡"
         label = "MODERATE"
     else:
-        emoji = "⚪"
         label = "WEAK"
     
-    msg = f"🐋 WHALE FLOW — {label}\n\n"
-    msg += f"MARKET\n{market}\n\n"
-    msg += f"FLOW\n"
-    msg += f"${vol:,.0f} → {side} ({imbalance:.0f}% directional)\n"
-    msg += f"Total volume: ${total:,.0f} in 20min\n"
-    msg += f"Biggest single trade: ${max_trade:,.0f}\n\n"
-    msg += f"PARTICIPANTS\n"
-    msg += f"{wallets} unique wallets · {trades} trades\n\n"
-    
+    price_text = ""
     if yes_price:
-        msg += f"MARKET PRICE\n"
-        msg += f"YES: {yes_price*100:.0f}¢ | NO: {(1-yes_price)*100:.0f}¢\n\n"
+        price_text = f" · YES {yes_price*100:.0f}%"
     
-    msg += f"STRENGTH: {emoji} {strength}/100"
+    msg = f"🐋 WHALE · {label}\n\n"
+    msg += f"{market}\n"
+    msg += f"${vol:,.0f} → {side} ({imbalance:.0f}%){price_text}\n"
+    msg += f"{wallets} wallets · {trades} trades · max ${max_trade:,.0f}"
     
-    # Link
     slug = signal.get("event_slug") or signal.get("market_slug", "")
     if slug:
-        msg += f"\n🔗 https://polymarket.com/event/{slug}"
+        msg += f"\n\n🔗 https://polymarket.com/event/{slug}"
     
     return msg

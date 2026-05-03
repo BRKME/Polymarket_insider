@@ -643,59 +643,44 @@ def send_resolution_summary(stats: Dict, newly_resolved: int):
     losses = stats["insider_losses"]
     determined = wins + losses
     total_resolved = stats["total_resolved"]
-    undetermined = total_resolved - determined
 
-    msg = f"📊 RESOLUTION TRACKER\n\n"
-    msg += f"New: +{newly_resolved} | Total: {total_resolved} resolved\n\n"
+    msg = f"📊 STATS"
+    if newly_resolved > 0:
+        msg += f" · +{newly_resolved} new"
+    msg += f" · {total_resolved} total\n\n"
 
-    # Insider win rate
     if determined > 0:
         wr = wins / determined * 100
-        msg += f"INSIDER WIN RATE: {wr:.0f}%\n"
-        msg += f"{wins}W / {losses}L (of {determined} determined)"
-        if undetermined > 0:
-            msg += f"\n{undetermined} unmatched (sports/named markets)"
         total_pnl = stats.get("total_pnl", 0)
-        if total_pnl != 0:
-            msg += f"\nP&L: ${total_pnl:+,.0f}"
+        msg += f"WR: {wr:.0f}% ({wins}W/{losses}L) · P&L: ${total_pnl:+,.0f}"
     else:
-        msg += "INSIDER WIN RATE: no data yet"
+        msg += "No resolved data yet"
 
-    # Per-signal breakdown — only show signals with 5+ resolved
+    # Per-signal breakdown
     by_st = stats.get("by_signal_type", {})
-    breakdowns = []
-    for st in ["ALPHA", "INSIDER_CONFIRMED", "CONFLICT", "INSIDER_ONLY", "UNKNOWN"]:
+    parts = []
+    for st in ["ALPHA", "CONFLICT", "INSIDER_ONLY", "TOP_TRADER"]:
         data = by_st.get(st, {})
         w = data.get("insider_wins", 0)
         l = data.get("insider_losses", 0)
         t = w + l
         if t >= 3:
-            breakdowns.append(f"  {st}: {w}W/{l}L ({w/t*100:.0f}%)")
+            parts.append(f"{st}: {w/t*100:.0f}%")
+    if parts:
+        msg += "\n" + " · ".join(parts)
 
-    if breakdowns:
-        msg += "\n\n" + "\n".join(breakdowns)
-
-    # AI verdict breakdown
+    # AI verdict
     by_ai = stats.get("by_ai_verdict", {})
     ai_parts = []
-    for v in ["COPY", "LEAN_COPY", "LEAN_SKIP", "SKIP"]:
+    for v in ["COPY", "SKIP"]:
         data = by_ai.get(v, {})
         w = data.get("insider_wins", 0)
         l = data.get("insider_losses", 0)
         t = w + l
-        if t >= 2:
-            ai_parts.append(f"  AI_{v}: {w}W/{l}L ({w/t*100:.0f}%)")
+        if t >= 3:
+            ai_parts.append(f"AI_{v}: {w/t*100:.0f}%")
     if ai_parts:
-        msg += "\n\n🤖 AI ACCURACY:\n" + "\n".join(ai_parts)
-
-    # Model accuracy — only show if meaningful sample
-    total_model = stats["model_correct"] + stats["model_wrong"]
-    if total_model >= 10:
-        model_acc = stats["model_correct"] / total_model * 100
-        msg += f"\n\nMODEL: {stats['model_correct']}/{total_model} ({model_acc:.0f}%)"
-
-    timestamp = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M")
-    msg += f"\n\nPolymarket Insiders | {timestamp} UTC"
+        msg += "\n🤖 " + " · ".join(ai_parts)
 
     try:
         url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage"
