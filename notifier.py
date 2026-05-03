@@ -566,20 +566,20 @@ def format_top_trader_alert(alert: Dict) -> str:
         market_title = trade.get('title', '') or alert.get('market', '')
         subject = extract_market_subject(market_title)
         if subject and outcome_lower == 'no':
-            position = f"Against {subject} @ {odds_display}"
+            position = f"Against {subject} = {odds_display}"
         elif subject and outcome_lower == 'yes':
-            position = f"{subject} ✓ @ {odds_display}"
+            position = f"{subject} ✓ = {odds_display}"
         else:
-            position = f"{outcome_name.upper()} @ {odds_display}"
+            position = f"{outcome_name.upper()} = {odds_display}"
     elif outcome_lower in ['over', 'under']:
         market_title = trade.get('title', '') or alert.get('market', '')
         ou_line = extract_ou_line(market_title)
         if ou_line:
-            position = f"{outcome_name} {ou_line} @ {odds_display}"
+            position = f"{outcome_name} {ou_line} = {odds_display}"
         else:
-            position = f"{outcome_name} @ {odds_display}"
+            position = f"{outcome_name} = {odds_display}"
     else:
-        position = f"{outcome_name} @ {odds_display}"
+        position = f"{outcome_name} = {odds_display}"
     
     # Get market name from trade data (title field, not nested market)
     market = trade.get('title', '') or alert.get('market', '')
@@ -687,8 +687,8 @@ def format_top_trader_alert(alert: Dict) -> str:
     message = f"""{header}
 
 {market}
-{username} #{rank} · ${profit/1000000:.1f}M profit
-{position} · ${amount:,.0f}"""
+{username} #{rank} · ${amount:,.0f}
+{position}"""
 
     if ai_line:
         message += f"\n\n{ai_line}"
