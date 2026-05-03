@@ -1,58 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0x96f9928ba8551baef816663a06a364c65fe673dff2593d22e08cf6f6320e34bf",
-    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-    "trader": {
-      "rank": 1,
-      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-      "username": "Theo4",
-      "profit": 22053933.752321757,
-      "volume": 43013258.515682004,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0xb2a48372404e6a0bfb6c2f23d715d3acc5a8cf8a",
-      "side": "BUY",
-      "asset": "54482685038922497087585632773512092884765402793940516984313730210624050030439",
-      "conditionId": "0x96ae4f873b48a592088a4e5c92c046822d6aa5de8a62fc1088f85da624249cce",
-      "size": 10967.346937,
-      "price": 0.48999999998814664,
-      "timestamp": 1774191107,
-      "title": "Will CR Vasco da Gama win on 2026-03-22?",
-      "slug": "bra-vas-gre-2026-03-22-vas",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/brasilerirao-image-52ef283574.png",
-      "eventSlug": "bra-vas-gre-2026-03-22",
-      "outcome": "No",
-      "outcomeIndex": 1,
-      "name": "chenpengzao",
-      "pseudonym": "Natural-Federation",
-      "bio": "",
-      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-5076365-4c4e1b0e-9dcc-428e-b12c-c8d35735aa59.jpeg",
-      "profileImageOptimized": "",
-      "transactionHash": "0x96f9928ba8551baef816663a06a364c65fe673dff2593d22e08cf6f6320e34bf",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Will CR Vasco da Gama win on 2026-03-22?",
-    "market_slug": "bra-vas-gre-2026-03-22",
-    "amount": 5593.346938000001,
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.449386+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-22 >7 days ago, removed from API"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0xcee6f76f14de84c5378dd6de9ada1270fa34580f694024ced538693d93e8ce14",
     "wallet": "0x1f2dd6d473f3e824cd2f8a89d9c69fb96f6ad0cf",
     "trader": {
@@ -32615,6 +32563,52 @@
     "market_slug": "nba-phi-bos-2026-05-02",
     "amount": 4976.1313,
     "ai_context": "\u2705 COPY \u2014 Recent matchups and injuries favor the Over.\nIn their last three games, the 76ers and Celtics averaged 215.3 total points per game. (statmuse.com) Additionally, Celtics star Jayson Tatum is out due to a left leg injury, which could lead to a higher-scoring game. (as.com)\nGiven these factors, the Over is a strong bet.",
+    "ai_verdict": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x913ad98d1c553a9e54202b8b6e41088a4bce92239f19b18fddc993ed5546da9a",
+    "wallet": "0xd235973291b2b75ff4070e9c0b01728c520b0f29",
+    "trader": {
+      "rank": 6,
+      "address": "0xd235973291b2b75ff4070e9c0b01728c520b0f29",
+      "username": "zxgngl",
+      "profit": 7807265.5892408835,
+      "volume": 40551790.62184699,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x9dcc1d3cc172231d72a9de842dfa8460079de816",
+      "side": "BUY",
+      "asset": "30985602376677838532639178574758394496056700937390988303458591543660918814445",
+      "conditionId": "0x49e0fd35e25a3c075cba2ddd500e0a69369c88a7ecf8971304495b1970d98017",
+      "size": 10880,
+      "price": 0.5196278226102942,
+      "timestamp": 1777781250,
+      "title": "Will the Bharatiya Janata Party (BJP) win the most seats in the 2026 West Bengal Legislative Assembly election?",
+      "slug": "will-the-bharatiya-janata-party-bjp-win-the-most-seats-in-the-2026-west-bengal-legislative-assembly-election",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-the-bharatiya-janata-party-bjp-win-the-most-seats-in-the-2026-west-bengal-legislative-assembly-election-NIPvxEr_SfUJ.png",
+      "eventSlug": "west-bengal-legislative-assembly-election-winner",
+      "outcome": "Yes",
+      "outcomeIndex": 0,
+      "name": "0x9dcc1d3CC172231d72A9dE842dFA8460079dE816-1777643956860",
+      "pseudonym": "Massive-Goodie-Course",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x913ad98d1c553a9e54202b8b6e41088a4bce92239f19b18fddc993ed5546da9a",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Will the Bharatiya Janata Party (BJP) win the most seats in the 2026 West Bengal Legislative Assembly election?",
+    "market_slug": "west-bengal-legislative-assembly-election-winner",
+    "amount": 5653.55071,
+    "ai_context": "\u2705 COPY \u2014 Recent exit polls indicate a potential BJP majority in the 2026 West Bengal Legislative Assembly election.\nThe IANS-Matrize exit poll projects the BJP winning between 146 and 161 seats, surpassing the majority mark of 148, with a vote share of 42.5%, while the Trinamool Congress (TMC) is projected to secure 125 to 140 seats with a vote share of 40.8%. (businessupturn.com)\nGiven these projections, the trader's bet on the BJP winning the most seats aligns with current expert analyses.",
     "ai_verdict": "COPY"
   }
 ]
