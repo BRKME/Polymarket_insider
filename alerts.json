@@ -31317,7 +31317,8 @@
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
     },
     "ai_context": "\u274c SKIP \u2014 Manchester City is in strong form and has a favorable head-to-head record against Everton.\nThey've won their last two matches, including a 1-0 victory at Burnley on April 22, 2026. (mancity.com) Additionally, Manchester City has an excellent away record this season, with 9 wins, 4 draws, and 4 losses. (footystats.org) Everton has been inconsistent, with recent results including a 2-1 loss to Arsenal on April 11, 2026. (skysports.",
-    "ai_verdict": "SKIP"
+    "ai_verdict": "SKIP",
+    "resolution_last_check": "2026-05-03T07:48:37.809057+00:00"
   },
   {
     "type": "TOP_TRADER",
@@ -31363,7 +31364,14 @@
     "market_slug": "epl-new-bri-2026-05-02",
     "amount": 1520.0,
     "ai_context": "\ud83d\udfe1 LEAN COPY \u2014 Recent form shows Brighton & Hove Albion has been inconsistent, but the trader's confidence suggests they have additional insights.\nBrighton & Hove Albion's recent form includes:\nApril 18, 2026: Lost 2-1 to Tottenham Hotspur.\nApril 21, 2026: Defeated Chelsea 3-1.\nApril 26, 2026: Lost 1-0 to Chelsea.\nTheir overall record this season is 12 wins, 10 draws, and 10 losses, placing them 9th in the Premier League. (footystats.",
-    "ai_verdict": "LEAN_COPY"
+    "ai_verdict": "LEAN_COPY",
+    "resolution": {
+      "outcome": "No",
+      "checked_at": "2026-05-03T07:48:39.210149+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -1520.0
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -31409,7 +31417,14 @@
     "market_slug": "epl-ars-ful-2026-05-02",
     "amount": 1561.4015,
     "ai_context": "\u2705 COPY \u2014 Arsenal's recent form and home advantage support a win against Fulham.\nArsenal secured a 1-0 victory over Newcastle United on April 25, 2026. (espn.com) They are set to host Fulham at Emirates Stadium on May 2, 2026. (arsenal.com) The weather forecast for London on match day predicts mostly cloudy conditions with temperatures ranging from 58\u00b0F to 73\u00b0F, which should be favorable for play.",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution": {
+      "outcome": "Yes",
+      "checked_at": "2026-05-03T07:48:40.725580+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 769.05
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -31455,7 +31470,14 @@
     "market_slug": "epl-ars-ful-2026-05-02",
     "amount": 1922.9201000000003,
     "ai_context": "\u2705 COPY \u2014 Arsenal's recent form and head-to-head record favor a win against Fulham.\nArsenal secured a 1-0 victory over Newcastle United on April 25, 2026. (espn.com) In their last three encounters with Fulham, Arsenal won twice and drew once, with Fulham failing to secure a victory. (forebet.com) Additionally, Arsenal is playing at home, where they have a strong record. Given these factors, betting on Arsenal to win at 67% odds is supported by recent performance and historical matchups.",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution": {
+      "outcome": "Yes",
+      "checked_at": "2026-05-03T07:48:40.725661+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 947.11
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -31501,7 +31523,14 @@
     "market_slug": "lal-vil-lev-2026-05-02",
     "amount": 1350.0,
     "ai_context": "\u2705 COPY \u2014 Villarreal CF is in strong form, having won their last five home matches, including a 2-1 victory over Celta on April 26, 2026. (elpais.com) They are set to play against Levante UD, who have only one away win in their last eleven matches. (cadenaser.com)\nGiven Villarreal's impressive home performance and Levante's struggles on the road, the facts support the trader's bet on Villarreal winning.",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution": {
+      "outcome": "Yes",
+      "checked_at": "2026-05-03T07:48:42.217289+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -1350.0
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -31547,7 +31576,14 @@
     "market_slug": "epl-ars-ful-2026-05-02",
     "amount": 2499.9999980000002,
     "ai_context": "\u2705 COPY \u2014 Arsenal's recent form and home advantage support a win against Fulham.\nArsenal secured a 1-0 victory over Newcastle United on April 25, 2026. (espn.com) They are set to host Fulham at Emirates Stadium on May 2, 2026. (skysports.com) Arsenal has been strong at home this season, and Fulham has struggled in away matches.\nGiven Arsenal's recent performance and home advantage, betting on a win against Fulham is supported by current facts.",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution": {
+      "outcome": "Yes",
+      "checked_at": "2026-05-03T07:48:42.217356+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 1231.34
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -31593,7 +31629,14 @@
     "market_slug": "lol-drx-ns-2026-05-02",
     "amount": 2499.999999,
     "ai_context": "\u274c SKIP \u2014 Nongshim RedForce has a losing record in their recent matches against DRX.\nIn their last 10 encounters, Nongshim RedForce won 3 and lost 7 to DRX. (tips.gg)\nHowever, the trader may have access to insider information or analysis not publicly available.\nGiven the recent head-to-head disadvantage, it's prudent to exercise caution.",
-    "ai_verdict": "SKIP"
+    "ai_verdict": "SKIP",
+    "resolution": {
+      "outcome": "Kiwoom DRX",
+      "checked_at": "2026-05-03T07:48:43.742501+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -2500.0
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -31639,7 +31682,14 @@
     "market_slug": "bun-bay-hei-2026-05-02-more-markets",
     "amount": 1999.9999979999998,
     "ai_context": "\u2705 COPY \u2014 Recent head-to-head matches between FC Bayern M\u00fcnchen and 1. FC Heidenheim 1846 have consistently exceeded 3.5 total goals.\nIn their last six encounters, all matches have had over 3.5 goals, with the most recent being a 4-0 victory for Bayern on December 21, 2025. (footystats.org)\nGiven this trend, the trader's bet on the Over is supported by recent match data.",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution": {
+      "outcome": "1. FC Heidenheim 1846",
+      "checked_at": "2026-05-03T07:48:45.240537+00:00",
+      "insider_win": null,
+      "model_correct": null,
+      "pnl": null
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -31685,7 +31735,14 @@
     "market_slug": "cricipl-che-mum-2026-05-02",
     "amount": 6217.2126,
     "ai_context": "\u2705 COPY \u2014 Chennai Super Kings have a strong recent head-to-head record against Mumbai Indians.\nIn their last five encounters, Chennai Super Kings have won four matches, including a 4-wicket victory on March 23, 2025. (wisden.com)\nAdditionally, Chennai Super Kings have a winning record against Mumbai Indians, with 21 wins and 19 losses in their head-to-head history. (aiscore.com)\nWhile both teams are struggling this season and need a win to stay in the playoff race, (freetips.",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution": {
+      "outcome": "Yes",
+      "checked_at": "2026-05-03T07:48:46.841768+00:00",
+      "insider_win": null,
+      "model_correct": null,
+      "pnl": null
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -31731,7 +31788,14 @@
     "market_slug": "lol-fnc-th-2026-05-02",
     "amount": 3572.0699999999997,
     "ai_context": "\u2705 COPY \u2014 Fnatic has a strong head-to-head record against Team Heretics, winning 9 out of 13 encounters.\nIn their most recent match on February 7, 2026, Fnatic secured a 1-0 victory. (strafe.com) Additionally, Fnatic has won 6 of the last 9 matches against Team Heretics. (strafe.com)\nWhile Fnatic's recent form shows a mixed record of 3 wins and 7 losses in their last 10 matches, (strafe.com) their consistent success against Team Heretics suggests they have a competitive edge in this matchup.",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution": {
+      "outcome": "Fnatic",
+      "checked_at": "2026-05-03T07:48:48.108544+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 2381.38
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -31777,7 +31841,14 @@
     "market_slug": "bun-bay-hei-2026-05-02",
     "amount": 1008.9675,
     "ai_context": "\u274c SKIP \u2014 Heidenheim's recent form and head-to-head record against Bayern Munich do not support a win.\nIn their last five matches, Heidenheim has one win, two draws, and two losses, including a 3-1 victory over Union Berlin on April 11, 2026. However, their overall record against Bayern Munich is poor, with Bayern winning five of the last six encounters. (footystats.org) Additionally, Heidenheim is currently 18th in the Bundesliga standings, indicating a challenging season. (footystats.",
-    "ai_verdict": "SKIP"
+    "ai_verdict": "SKIP",
+    "resolution": {
+      "outcome": "No",
+      "checked_at": "2026-05-03T07:48:49.674420+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -1008.97
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -31823,7 +31894,8 @@
     "market_slug": "lol-drx-dnf-2026-05-04",
     "amount": 1466.3538,
     "ai_context": "\u274c SKIP \u2014 DN SOOPers have a losing record in their recent matches and no available head-to-head data against KRX.\nThey have lost their last two matches, including a 0-2 defeat to KT Rolster on February 6, 2026. (m.aiscore.com) However, the trader may have access to insider information or analysis not publicly available.",
-    "ai_verdict": "SKIP"
+    "ai_verdict": "SKIP",
+    "resolution_last_check": "2026-05-03T07:48:50.536699+00:00"
   },
   {
     "market": "Arsenal FC vs. Fulham FC: O/U 3.5",
@@ -31933,7 +32005,14 @@
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
     },
     "ai_context": "\u2705 COPY \u2014 Recent matches between Arsenal and Fulham have consistently had low total goals, supporting the Under bet.\nIn their last three encounters, the total goals scored were 2, 2, and 1, all under 3.5 goals. (statmuse.com) Additionally, Arsenal has a strong home record against Fulham, winning 24 out of 32 home league matches, which may contribute to a low-scoring game. (sportsmole.co.uk)",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution": {
+      "outcome": "Arsenal FC",
+      "checked_at": "2026-05-03T07:48:53.005694+00:00",
+      "insider_win": null,
+      "model_correct": null,
+      "pnl": null
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -31979,7 +32058,14 @@
     "market_slug": "cricipl-che-mum-2026-05-02",
     "amount": 1779.999994,
     "ai_context": "\u2705 COPY \u2014 Chennai Super Kings have a favorable recent head-to-head record against Mumbai Indians.\nIn their last five encounters, Chennai Super Kings have won four matches, including a 4-wicket victory on March 23, 2025. (wisden.com)\nAdditionally, Chennai Super Kings have shown better recent form, with three wins and five losses in their last eight matches, compared to Mumbai Indians' two wins and six losses in the same period. (africapicks.",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution": {
+      "outcome": "Yes",
+      "checked_at": "2026-05-03T07:48:53.005754+00:00",
+      "insider_win": null,
+      "model_correct": null,
+      "pnl": null
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -32025,7 +32111,14 @@
     "market_slug": "fl1-psg-lor-2026-05-02",
     "amount": 2354.209999,
     "ai_context": "\u2705 COPY \u2014 Recent matches indicate a high likelihood of a draw between Paris Saint-Germain and FC Lorient.\nIn their last five encounters, two matches ended in a draw, including a 1-1 tie on October 29, 2025. (statmuse.com) Additionally, FC Lorient has been in poor form recently, with four losses and one draw in their last five matches. (footystats.org) Paris Saint-Germain has also shown inconsistency, with two wins, two draws, and one loss in their last five matches. (footystats.",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution": {
+      "outcome": "No",
+      "checked_at": "2026-05-03T07:48:54.406710+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -2354.21
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -32071,7 +32164,14 @@
     "market_slug": "mls-tor-sje-2026-05-02",
     "amount": 1960.0,
     "ai_context": "\u2705 COPY \u2014 San Jose Earthquakes have won their last five matches, including a 3-2 victory over Phoenix Rising FC on April 15, 2026. (espn.com)\nThey are set to play against Toronto FC on May 2, 2026, at 1:00 PM. (espn.com)\nGiven their current winning streak, betting on a San Jose Earthquakes victory appears favorable.",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution": {
+      "outcome": "No",
+      "checked_at": "2026-05-03T07:48:56.121431+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -1960.0
+    }
   },
   {
     "market": "Will Manchester City FC win on 2026-05-04?",
@@ -32189,7 +32289,8 @@
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
     },
     "ai_context": "\u2705 COPY \u2014 Manchester City has demonstrated strong recent form, winning their last three matches.\nEPL Schedule\nManchester City (MCI) @ Chelsea FC (CFC) on Sunday, Apr 12, 2026 at 08:30 AM PDT. Final score: MCI 3 - CFC 0\nArsenal FC (ARS) @ Manchester City (MCI) on Sunday, Apr 19, 2026 at 08:30 AM PDT. Final score: ARS 1 - MCI 2\nManchester City (MCI) @ Burnley FC (BUR) on Wednesday, Apr 22, 2026 at 12:00 PM PDT. Final score: MCI 1 - BUR 0\n They are set to face Everton on May 4, 2026. (mancity.",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution_last_check": "2026-05-03T07:48:56.121493+00:00"
   },
   {
     "type": "TOP_TRADER",
@@ -32235,7 +32336,14 @@
     "market_slug": "lal-osa-bar-2026-05-02",
     "amount": 1999.9999990000001,
     "ai_context": "\u2705 COPY \u2014 FC Barcelona is in strong form, having won their last nine consecutive league matches.\nTheir most recent victory was a 2-0 win against Getafe CF on April 25, 2026, with goals from Ferm\u00edn L\u00f3pez and Marcus Rashford. (cadenaser.com) They are set to face Osasuna on May 2, 2026, at 21:00. (fcbarcelona.com)\nGiven their current winning streak and the upcoming match against Osasuna, the trader's bet on FC Barcelona winning at 58% odds appears well-supported.",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution": {
+      "outcome": "No",
+      "checked_at": "2026-05-03T07:48:57.503245+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -2000.0
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -32281,7 +32389,14 @@
     "market_slug": "lol-vit-sk-2026-05-02",
     "amount": 3671.8500000000004,
     "ai_context": "\u2705 COPY \u2014 Team Vitality has demonstrated superior recent form and a strong head-to-head record against SK Gaming.\nIn the past month, Team Vitality has maintained a 100% win rate, including a notable victory over G2 Esports, indicating peak performance. (bo3.gg) Historically, Team Vitality has won 19 out of 31 encounters against SK Gaming, including a 1-0 victory in their most recent match on January 17, 2026. (strafe.",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution": {
+      "outcome": "Under",
+      "checked_at": "2026-05-03T07:48:58.778830+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -3671.85
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -32327,7 +32442,14 @@
     "market_slug": "lol-fur-red-2026-05-02",
     "amount": 1494.3592999999998,
     "ai_context": "\u2705 COPY \u2014 FURIA Esports has a strong recent form and a favorable head-to-head record against RED Canids.\nIn their last 10 matches, FURIA Esports secured 8 wins and 2 losses, while RED Canids achieved 6 wins and 4 losses. In their most recent encounter on February 28, 2026, FURIA Esports won 1-3 against RED Canids in the CBLOL Cup Playoffs. (strafe.",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution": {
+      "outcome": "Over",
+      "checked_at": "2026-05-03T07:49:00.067697+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -1494.36
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -32373,7 +32495,14 @@
     "market_slug": "lol-fur-red-2026-05-02",
     "amount": 1107.0004,
     "ai_context": "\u274c SKIP \u2014 RED Canids have consistently defeated FURIA Esports in recent matchups.\nIn their last three encounters, RED Canids won 2-0 on February 8, 2026, and 3-1 on February 28, 2026. (bo3.gg) Additionally, RED Canids have a 17-11 head-to-head record against FURIA Esports. (strafe.com) No recent injury reports for FURIA Esports were found. However, the trader may have access to insider information not yet public.",
-    "ai_verdict": "SKIP"
+    "ai_verdict": "SKIP",
+    "resolution": {
+      "outcome": "Over",
+      "checked_at": "2026-05-03T07:49:00.067757+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -1107.0
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -32419,7 +32548,14 @@
     "market_slug": "lal-osa-bar-2026-05-02",
     "amount": 1555.3,
     "ai_context": "\u2705 COPY \u2014 FC Barcelona has a strong record against CA Osasuna, winning 28 of their 40 encounters.\nIn their most recent match on May 2, 2026, Barcelona secured a 2-1 victory at El Sadar Stadium, with goals from Robert Lewandowski and Ferran Torres. (cadenaser.com)\nAdditionally, Barcelona has won 28 of the 40 matches between the two teams, with 7 draws and 5 wins for Osasuna. (aiscore.",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution": {
+      "outcome": "No",
+      "checked_at": "2026-05-03T07:49:01.262548+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 209.7
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -32465,7 +32601,14 @@
     "market_slug": "nba-phi-bos-2026-05-02",
     "amount": 1049.8,
     "ai_context": "\u274c SKIP \u2014 The 76ers have lost 4 of their last 5 games against the Celtics, including a 128-96 defeat on April 26, 2026. (nba.com) Additionally, star center Joel Embiid is out due to an abdominal injury. (espn.com) However, the trader may have access to insider information or anticipate a significant performance from Tyrese Maxey, who has been a standout player for the 76ers.",
-    "ai_verdict": "SKIP"
+    "ai_verdict": "SKIP",
+    "resolution": {
+      "outcome": "76ers",
+      "checked_at": "2026-05-03T07:49:02.184571+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 760.2
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -32511,7 +32654,14 @@
     "market_slug": "nba-phi-bos-2026-05-02",
     "amount": 4976.1313,
     "ai_context": "\u2705 COPY \u2014 Recent matchups and injuries favor the Over.\nIn their last three games, the 76ers and Celtics averaged 215.3 total points per game. (statmuse.com) Additionally, Celtics star Jayson Tatum is out due to a left leg injury, which could lead to a higher-scoring game. (as.com)\nGiven these factors, the Over is a strong bet.",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution": {
+      "outcome": "76ers",
+      "checked_at": "2026-05-03T07:49:03.132418+00:00",
+      "insider_win": null,
+      "model_correct": null,
+      "pnl": null
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -32557,7 +32707,8 @@
     "market_slug": "west-bengal-legislative-assembly-election-winner",
     "amount": 5653.55071,
     "ai_context": "\u2705 COPY \u2014 Recent exit polls indicate a potential BJP majority in the 2026 West Bengal Legislative Assembly election.\nThe IANS-Matrize exit poll projects the BJP winning between 146 and 161 seats, surpassing the majority mark of 148, with a vote share of 42.5%, while the Trinamool Congress (TMC) is projected to secure 125 to 140 seats with a vote share of 40.8%. (businessupturn.com)\nGiven these projections, the trader's bet on the BJP winning the most seats aligns with current expert analyses.",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution_last_check": "2026-05-03T07:49:04.576742+00:00"
   },
   {
     "market": "Spread: FC K\u00f8benhavn (-1.5)",
@@ -32667,6 +32818,7 @@
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
     },
     "ai_context": "\u274c SKIP \u2014 FC K\u00f8benhavn has been inconsistent recently, with 10 wins, 5 draws, and 11 losses in their last 26 fixtures. (footystats.org) They've also struggled to score, averaging 0 goals per match in their last five games. (footystats.org)\nHowever, the trader may have access to insider information or sharp analysis not reflected in the available data.\nGiven the recent form and scoring difficulties, it's advisable to exercise caution before copying this bet.",
-    "ai_verdict": "SKIP"
+    "ai_verdict": "SKIP",
+    "resolution_last_check": "2026-05-03T07:49:05.701362+00:00"
   }
 ]
