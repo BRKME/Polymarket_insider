@@ -613,8 +613,7 @@ def format_top_trader_alert(alert: Dict) -> str:
     
     # === Compute bet model data ===
     wr_text = ""
-    kelly_text = ""
-    contrarian_text = ""
+    rec_text = ""
     try:
         from bet_model import get_signal_stats, contrarian_check, kelly_size
         stats = get_signal_stats()
@@ -635,13 +634,26 @@ def format_top_trader_alert(alert: Dict) -> str:
                 opp_wr = contra["opposite_wr"]
                 opp_odds = 1 - effective_odds
                 k = kelly_size(opp_odds, opp_wr, 200)
-                contrarian_text = f"⚡ Контрариан: ставь {opp} (WR {opp_wr*100:.0f}%)"
+                
+                # Get proper opponent name from market title
+                market_title = trade.get('title', '') or alert.get('market', '')
+                if opp.startswith("против "):
+                    # Team name — extract opponent from "X vs Y" title
+                    bet_team = opp.replace("против ", "")
+                    opponent = _extract_opponent_name(bet_team, market_title) or opp
+                elif opp in ("NO", "YES"):
+                    opponent = opp
+                else:
+                    opponent = opp
+                
                 if k["action"] == "BET":
-                    kelly_text = f"${k['bet_amount']:.0f} ({k['half_kelly_pct']:.0f}% банка)"
+                    rec_text = f"💰 Рекомендация: ставь на {opponent} ${k['bet_amount']:.0f} ({k['half_kelly_pct']:.0f}% банка)"
+                else:
+                    rec_text = f"💰 Рекомендация: ставь на {opponent}"
             else:
                 k = kelly_size(effective_odds, wr, 200)
                 if k["action"] == "BET":
-                    kelly_text = f"${k['bet_amount']:.0f} ({k['half_kelly_pct']:.0f}% банка)"
+                    rec_text = f"💰 Рекомендация: копируй ${k['bet_amount']:.0f} ({k['half_kelly_pct']:.0f}% банка)"
     except Exception:
         pass
     
@@ -693,11 +705,8 @@ def format_top_trader_alert(alert: Dict) -> str:
     if ai_line:
         message += f"\n\n{ai_line}"
     
-    if contrarian_text:
-        message += f"\n{contrarian_text}"
-    
-    if kelly_text:
-        message += f"\n💰 Kelly: {kelly_text}"
+    if rec_text:
+        message += f"\n{rec_text}"
 
     message += f"""
 
@@ -777,8 +786,7 @@ def format_institutional_alert(alert):
     
     # Compute bet model
     wr_text = ""
-    kelly_text = ""
-    contrarian_text = ""
+    rec_text = ""
     try:
         from bet_model import get_signal_stats, contrarian_check, kelly_size
         stats = get_signal_stats()
@@ -797,13 +805,23 @@ def format_institutional_alert(alert):
                 opp = contra["opposite_outcome"]
                 opp_wr = contra["opposite_wr"]
                 k = kelly_size(1 - eff_odds, opp_wr, 200)
-                contrarian_text = f"⚡ Контрариан: ставь {opp} (WR {opp_wr*100:.0f}%)"
+                
+                # Get opponent name
+                market_title = alert.get('market', '')
+                if opp.startswith("против "):
+                    bet_team = opp.replace("против ", "")
+                    opponent = _extract_opponent_name(bet_team, market_title) or opp
+                else:
+                    opponent = opp
+                
                 if k["action"] == "BET":
-                    kelly_text = f"${k['bet_amount']:.0f} ({k['half_kelly_pct']:.0f}% банка)"
+                    rec_text = f"💰 Рекомендация: ставь на {opponent} ${k['bet_amount']:.0f} ({k['half_kelly_pct']:.0f}% банка)"
+                else:
+                    rec_text = f"💰 Рекомендация: ставь на {opponent}"
             else:
                 k = kelly_size(eff_odds, wr, 200)
                 if k["action"] == "BET":
-                    kelly_text = f"${k['bet_amount']:.0f} ({k['half_kelly_pct']:.0f}% банка)"
+                    rec_text = f"💰 Рекомендация: копируй ${k['bet_amount']:.0f} ({k['half_kelly_pct']:.0f}% банка)"
     except Exception:
         pass
     
@@ -858,11 +876,8 @@ ${amount:,.0f} on {trade_info['position']} · {profile}"""
     if ai_line:
         message += f"\n\n{ai_line}"
     
-    if contrarian_text:
-        message += f"\n{contrarian_text}"
-    
-    if kelly_text:
-        message += f"\n💰 Kelly: {kelly_text}"
+    if rec_text:
+        message += f"\n{rec_text}"
 
     message += f"""
 
