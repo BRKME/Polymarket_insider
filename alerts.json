@@ -1,222 +1,5 @@
 [
   {
-    "market": "Raptors vs. Suns: O/U 219.5",
-    "market_slug": "nba-tor-phx-2026-03-22-total-219pt5",
-    "event_slug": "nba-tor-phx-2026-03-22-total-219pt5",
-    "wallet": "0x73f7046efe2e1acb41c797f3f48967d9792d6e4b",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($10,000)",
-        "Low activity (1 txns)"
-      ],
-      "amount": 10000.0,
-      "odds": 0.5,
-      "raw_price": 0.5,
-      "outcome": "Over",
-      "potential_pnl": 10000.0,
-      "pnl_multiplier": 1.0,
-      "wallet_age_days": 0,
-      "total_activities": 1
-    },
-    "timestamp": "2026-03-22T19:54:28.684463",
-    "trade_hash": "0xb1a733241a3664a5e15592866090c044e6a1561dac08ce457cdd5b0b36f3339e",
-    "trade_timestamp": 1774209031,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Over",
-      "side": "BUY",
-      "price": 0.5,
-      "effective_price": 0.5,
-      "size": 20000.0,
-      "amount": 10000.0,
-      "potential_pnl": 10000.0,
-      "pnl_multiplier": 1.0,
-      "is_no": false,
-      "slug": "nba-tor-phx-2026-03-22-total-219pt5",
-      "eventSlug": "nba-tor-phx-2026-03-22"
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+26.0%)"
-      ],
-      "category": "sports",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.24,
-      "market_price": 0.5,
-      "edge": 0.26,
-      "edge_percent": 26.0,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Both teams have high offensive efficiency",
-          "Both teams have low defensive efficiency",
-          "Game pace is fast"
-        ],
-        "weakest_link": "Both teams have low defensive efficiency"
-      },
-      "category": "sports",
-      "narrative_drivers": [
-        "Recent performance trends of both teams",
-        "Injury reports affecting key players"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "INSIDER_ONLY",
-      "signal_emoji": "\ud83d\udc41\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider activity detected, no clear mispricing",
-      "action_suggestion": "Monitor: insider signal only, no statistical edge",
-      "insider_score": 70,
-      "insider_position": "OVER",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.26,
-      "edge_percent": 26.0
-    },
-    "financial_analyst": {
-      "signal_quality": 51.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 26.0,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.449413+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-22 >7 days ago, removed from API"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
-    "trade_hash": "0x160b62077d040b817c920eaa9b76ba20ed755d32fc32ad942830df3f3c79f069",
-    "wallet": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
-    "trader": {
-      "rank": 19,
-      "address": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
-      "username": "GamblingIsAllYouNeed",
-      "profit": 4346682.887980655,
-      "volume": 277754341.03179693,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0xd6a3f0ec6c4a8ad680d580610c82ca57ff139489",
-      "side": "BUY",
-      "asset": "75689244959277898341236032211117274245139122622096460977873312394709590336595",
-      "conditionId": "0xde5ff3427dcc8f53e95d9825721b011458b657837033a6237dc3cfc99777e827",
-      "size": 2928.2,
-      "price": 0.55,
-      "timestamp": 1774218419,
-      "title": "Tennessee Volunteers vs. Virginia Cavaliers",
-      "slug": "cbb-tenn-vir-2026-03-22",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/ncaa-c14995df96.png",
-      "eventSlug": "cbb-tenn-vir-2026-03-22",
-      "outcome": "Virginia Cavaliers",
-      "outcomeIndex": 1,
-      "name": "knedloveprovelo",
-      "pseudonym": "Weighty-Rifle",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x160b62077d040b817c920eaa9b76ba20ed755d32fc32ad942830df3f3c79f069",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Tennessee Volunteers vs. Virginia Cavaliers",
-    "market_slug": "cbb-tenn-vir-2026-03-22",
-    "amount": 1610.51,
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.449422+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-22 >7 days ago, removed from API"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
-    "trade_hash": "0xe65a73c98b5349746390ce55e6d87ae89fe9669f38fd63c979f0cab3fdf408ff",
-    "wallet": "0xe90bec87d9ef430f27f9dcfe72c34b76967d5da2",
-    "trader": {
-      "rank": 14,
-      "address": "0xe90bec87d9ef430f27f9dcfe72c34b76967d5da2",
-      "username": "gmanas",
-      "profit": 4955481.832122724,
-      "volume": 529047708.50599104,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0xb3cfe7615d64db8dfa743a1b1a2b976911460ebd",
-      "side": "BUY",
-      "asset": "1884560377359152615754168023030184591222446452362876805175154028302994022031",
-      "conditionId": "0x0d1150f2f78b3b2f13c9ac7b51c8c8a10bcd9f7f1df7739312cba585225e3c3b",
-      "size": 5000,
-      "price": 0.73,
-      "timestamp": 1774237929,
-      "title": "Texas Tech Red Raiders vs. Alabama Crimson Tide: O/U 165.5",
-      "slug": "cbb-txtech-ala-2026-03-22-total-165pt5",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/ncaa-c14995df96.png",
-      "eventSlug": "cbb-txtech-ala-2026-03-22",
-      "outcome": "Under",
-      "outcomeIndex": 1,
-      "name": "omoi0i0",
-      "pseudonym": "Narrow-Authorization",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0xe65a73c98b5349746390ce55e6d87ae89fe9669f38fd63c979f0cab3fdf408ff",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Texas Tech Red Raiders vs. Alabama Crimson Tide: O/U 165.5",
-    "market_slug": "cbb-txtech-ala-2026-03-22",
-    "amount": 3650.0,
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.449430+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-22 >7 days ago, removed from API"
-    }
-  },
-  {
     "type": "TOP_TRADER",
     "trade_hash": "0x16ba75f91488cf2fa36f4daf2bba4ced284a8741012200001b0a55765e9a4424",
     "wallet": "0x863134d00841b2e200492805a01e1e2f5defaa53",
@@ -32813,6 +32596,208 @@
     "market_slug": "val-te-drg-2026-05-03",
     "amount": 1800.0,
     "ai_context": "\u274c SKIP \u2014 Trace Esports has a losing head-to-head record against Dragon Ranger Gaming and recent form indicates a downward trend.\nTrace Esports has a 25% win rate against Dragon Ranger Gaming, losing the most recent match on April 14, 2026. (bo3.gg) In their last 10 matches, Trace Esports has a 4-6 record, including losses to mid-tier opponents. (strafe.com) Additionally, their recent win rate has declined to 33% over the past month, down from 39% over the previous six months. (bo3.",
+    "ai_verdict": "SKIP"
+  },
+  {
+    "market": "Indian Premier League: Gujarat Titans vs Punjab Kings",
+    "market_slug": "cricipl-guj-pun-2026",
+    "event_slug": "cricipl-guj-pun-2026",
+    "wallet": "0x22d2b4c0efc3d5d5e595306dfce64bb2c00bcf2e",
+    "analysis": {
+      "score": 70,
+      "flags": [
+        "New wallet (0d old)",
+        "Large bet ($1,900)",
+        "Low activity (2 txns)"
+      ],
+      "amount": 1899.999999,
+      "odds": 0.4411010873068678,
+      "raw_price": 0.4411010873068678,
+      "outcome": "Gujarat Titans",
+      "potential_pnl": 2407.402666,
+      "pnl_multiplier": 1.2670540354037128,
+      "wallet_age_days": 0,
+      "total_activities": 2
+    },
+    "timestamp": "2026-05-03T13:17:11.754566",
+    "trade_hash": "0xe45ddbd306db06d8f1f061579dc0dc4a975e2ef5e1c6294938ab187326427236",
+    "trade_timestamp": 1777813690,
+    "latency": null,
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "Gujarat Titans",
+      "outcomeIndex": 0,
+      "normalized_position": "YES",
+      "side": "BUY",
+      "price": 0.4411010873068678,
+      "effective_price": 0.4411010873068678,
+      "size": 4307.402665,
+      "amount": 1899.999999,
+      "potential_pnl": 2407.402666,
+      "pnl_multiplier": 1.2670540354037128,
+      "is_no": false,
+      "conditionId": "0x005b067d3716c53b8ba05d9378980bfd8a1efa3c770321d57c204f01dcf249df",
+      "slug": "cricipl-guj-pun-2026",
+      "eventSlug": "cricipl-guj-pun-2026-05-03"
+    },
+    "irrationality": {
+      "irrationality_score": 35,
+      "flags": [
+        "Large mispricing edge (+21.3%)"
+      ],
+      "category": "sports",
+      "category_info": {
+        "strength": "medium",
+        "typical_overpricing": 0.03,
+        "min_edge": 0.05
+      },
+      "is_irrational": true
+    },
+    "mispricing": {
+      "rational_estimate": 0.22822021746137355,
+      "market_price": 0.4411010873068678,
+      "edge": 0.21288086984549426,
+      "edge_percent": 21.288086984549427,
+      "min_edge_required": 0.05,
+      "is_mispriced": true,
+      "edge_quality": "STRONG",
+      "base_rate_class": "common",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "common",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "Gujarat Titans maintain a strong performance throughout the tournament",
+          "Punjab Kings struggle to perform in key matches",
+          "Injuries or player unavailability affect team dynamics"
+        ],
+        "weakest_link": "Punjab Kings struggle to perform in key matches"
+      },
+      "category": "sports",
+      "narrative_drivers": [
+        "Recent performance trends of both teams",
+        "Fan and media sentiment towards team capabilities"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "CONFLICT",
+      "signal_emoji": "\u26a0\ufe0f",
+      "signal_strength": 70,
+      "interpretation": "Insider buying YES despite statistical overpricing",
+      "action_suggestion": "Requires manual analysis: insider may have real info OR is part of irrational crowd",
+      "insider_score": 70,
+      "insider_position": "YES",
+      "irrationality_score": 35,
+      "is_irrational": true,
+      "is_mispriced": true,
+      "edge": 0.21288086984549426,
+      "edge_percent": 21.288086984549427
+    },
+    "financial_analyst": {
+      "signal_quality": 46.0,
+      "stance": "WATCH_ONLY",
+      "edge_percent": 21.29,
+      "signal_strength": 70.0,
+      "insider_score": 70.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "ai_context": "\u2705 COPY \u2014 Gujarat Titans have a 4-2 head-to-head advantage over Punjab Kings in IPL matches.\nIn their last encounter in March 2025, Gujarat Titans secured a 3-wicket victory over Punjab Kings. (crictracker.com)\nGiven this recent form and head-to-head record, the trader's bet on Gujarat Titans is supported by the available data.",
+    "ai_verdict": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xadd50df270dc536cb4806fe3469dc546b91cd6e82227b669d65730515ff966f7",
+    "wallet": "0x1f2dd6d473f3e824cd2f8a89d9c69fb96f6ad0cf",
+    "trader": {
+      "rank": 2,
+      "address": "0x1f2dd6d473f3e824cd2f8a89d9c69fb96f6ad0cf",
+      "username": "Fredi9999",
+      "profit": 16619506.631730152,
+      "volume": 76611316.90515402,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xc7cc2fd152e4352aa8c2fa45e7d76aca3b19791f",
+      "side": "BUY",
+      "asset": "20346371827014456593953982170150559006870263457464534027275766812113568900953",
+      "conditionId": "0x33b0109d7981541c44a9fab196f519f69c4913972021a03053fa13a8dddac600",
+      "size": 3500,
+      "price": 0.62,
+      "timestamp": 1777814266,
+      "title": "Will SC Freiburg win on 2026-05-03?",
+      "slug": "bun-fre-wol-2026-05-03-fre",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/league-bun.jpg",
+      "eventSlug": "bun-fre-wol-2026-05-03",
+      "outcome": "No",
+      "outcomeIndex": 1,
+      "name": "Spook14",
+      "pseudonym": "Political-Seal",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xadd50df270dc536cb4806fe3469dc546b91cd6e82227b669d65730515ff966f7",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Will SC Freiburg win on 2026-05-03?",
+    "market_slug": "bun-fre-wol-2026-05-03",
+    "amount": 2170.0,
+    "ai_context": "\u2705 COPY \u2014 SC Freiburg has a strong recent record against VfL Wolfsburg, winning their last three encounters.\nIn their most recent match on April 19, 2026, Freiburg secured a 2-1 victory over FC Heidenheim. (cupchances.com) VfL Wolfsburg, on the other hand, is battling relegation with only six wins from 31 matches. (footbrowse.com)\nGiven Freiburg's favorable head-to-head record and Wolfsburg's current struggles, the trader's bet on a Freiburg win is well-supported.",
+    "ai_verdict": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x66e9574b955775a199a05d5f961ae96e35b5ac536e1765cb7ee46ae2d8db84b1",
+    "wallet": "0x1f2dd6d473f3e824cd2f8a89d9c69fb96f6ad0cf",
+    "trader": {
+      "rank": 2,
+      "address": "0x1f2dd6d473f3e824cd2f8a89d9c69fb96f6ad0cf",
+      "username": "Fredi9999",
+      "profit": 16619506.631730152,
+      "volume": 76611316.90515402,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x9b90dca83a4d8d4e0cee2a5230e9203e609f5fb9",
+      "side": "BUY",
+      "asset": "2458787252547905404989692340649505738117048046574405373874584668975695137102",
+      "conditionId": "0xc6869b127c5fa27efec2bc36c72f749c643da6e1953376fcb3b6ce3f081fa424",
+      "size": 4779.31,
+      "price": 0.40795194285367553,
+      "timestamp": 1777814264,
+      "title": "Set Handicap: Sinner (-1.5) vs Zverev (+1.5)",
+      "slug": "atp-sinner-zverev-2026-05-03-set-handicap-home-1pt5",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/atp-tour-b4390c4fb8.jpg",
+      "eventSlug": "atp-sinner-zverev-2026-05-03",
+      "outcome": "Zverev",
+      "outcomeIndex": 1,
+      "name": "",
+      "pseudonym": "",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x66e9574b955775a199a05d5f961ae96e35b5ac536e1765cb7ee46ae2d8db84b1",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Set Handicap: Sinner (-1.5) vs Zverev (+1.5)",
+    "market_slug": "atp-sinner-zverev-2026-05-03",
+    "amount": 1949.7288,
+    "ai_context": "\u274c SKIP \u2014 Sinner has dominated recent encounters, including a decisive win in their last match.\nSinner leads their head-to-head 9-4, with a recent 6-1, 6-4 victory in the Monte-Carlo Rolex Masters semifinals. (stevegtennis.com) Additionally, Sinner has won their last eight consecutive matches since the US Open in 2023. (cadenaser.com) Zverev has been in good form, reaching the final of the Mutua Madrid Open after defeating Alexander Blockx 6-2, 7-5. (cadenaser.",
     "ai_verdict": "SKIP"
   }
 ]
