@@ -1,118 +1,5 @@
 [
   {
-    "market": "Thunder vs. 76ers: O/U 225.5",
-    "market_slug": "nba-okc-phi-2026-03-23-total-225pt5",
-    "event_slug": "nba-okc-phi-2026-03-23-total-225pt5",
-    "wallet": "0x9138ea7a8baa81bd3bb403283d3f73c734474dc0",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($1,807)",
-        "Low activity (2 txns)"
-      ],
-      "amount": 1807.44,
-      "odds": 0.51,
-      "raw_price": 0.51,
-      "outcome": "Under",
-      "potential_pnl": 1736.56,
-      "pnl_multiplier": 0.9607843137254901,
-      "wallet_age_days": 0,
-      "total_activities": 2
-    },
-    "timestamp": "2026-03-23T15:17:27.356928",
-    "trade_hash": "0xd8e2610252fa0baad0600140c0fbb134f5a76b6e7c664ee413a4086e38475e3d",
-    "trade_timestamp": 1774278675,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Under",
-      "side": "BUY",
-      "price": 0.51,
-      "effective_price": 0.51,
-      "size": 3544.0,
-      "amount": 1807.44,
-      "potential_pnl": 1736.56,
-      "pnl_multiplier": 0.9607843137254901,
-      "is_no": false,
-      "slug": "nba-okc-phi-2026-03-23-total-225pt5",
-      "eventSlug": "nba-okc-phi-2026-03-23"
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+26.8%)"
-      ],
-      "category": "sports",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.242,
-      "market_price": 0.51,
-      "edge": 0.268,
-      "edge_percent": 26.8,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Both teams score efficiently",
-          "Defensive lapses from both teams",
-          "Favorable officiating leading to free throws"
-        ],
-        "weakest_link": "Favorable officiating leading to free throws"
-      },
-      "category": "sports",
-      "narrative_drivers": [
-        "Recent offensive trends of both teams",
-        "Injury reports affecting key players"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "INSIDER_ONLY",
-      "signal_emoji": "\ud83d\udc41\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider activity detected, no clear mispricing",
-      "action_suggestion": "Monitor: insider signal only, no statistical edge",
-      "insider_score": 70,
-      "insider_position": "UNDER",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.268,
-      "edge_percent": 26.8
-    },
-    "financial_analyst": {
-      "signal_quality": 51.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 26.8,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.449463+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-23 >7 days ago, removed from API"
-    }
-  },
-  {
     "market": "Lakers vs. Pistons: O/U 226.5",
     "market_slug": "nba-lal-det-2026-03-23-total-226pt5",
     "event_slug": "nba-lal-det-2026-03-23-total-226pt5",
@@ -32782,5 +32669,51 @@
     "amount": 1199.9999990000001,
     "ai_context": "\u274c SKIP \u2014 Vici Gaming has lost their last two matches against Team Resilience.\nIn their most recent encounter on May 1, 2026, Vici Gaming was defeated 2-0 by Team Resilience in the ESL Challenger China Season 3 Powered by ACL. (cyberscore.live) Additionally, in their previous match on April 13, 2026, Vici Gaming also lost 2-0 to Team Resilience in the DreamLeague China Closed Qualifier Season 29 Playoffs. (myesports.gg) These consecutive losses indicate a trend that may continue.",
     "ai_verdict": "SKIP"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x817f9094dd90928c02432a733e1e7f0ca6accda27ace7915e5c16e8d1f323166",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.515682004,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xe5b639f8a56587d0aa2fda1320742882dd1ee762",
+      "side": "BUY",
+      "asset": "96025906502893405451212256074131588603654307651531311184099072366130451882191",
+      "conditionId": "0xded958568c751bc4ce97086bbb5af34b0621d0c770a9ccfd14820a46a8e305fa",
+      "size": 1590,
+      "price": 0.63,
+      "timestamp": 1777829274,
+      "title": "Map Handicap: VIT (-1.5) vs Natus Vincere (+1.5)",
+      "slug": "cs2-navi-vit-2026-05-03-map-handicap-home-1pt5",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/counter-strike-image-16c415c538.png",
+      "eventSlug": "cs2-navi-vit-2026-05-03",
+      "outcome": "Vitality",
+      "outcomeIndex": 0,
+      "name": "0xE5b639F8a56587D0Aa2fdA1320742882dD1eE762-1776983494361",
+      "pseudonym": "Wicked-Fig",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x817f9094dd90928c02432a733e1e7f0ca6accda27ace7915e5c16e8d1f323166",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Map Handicap: VIT (-1.5) vs Natus Vincere (+1.5)",
+    "market_slug": "cs2-navi-vit-2026-05-03",
+    "amount": 1001.7,
+    "ai_context": "\u2705 COPY \u2014 Vitality has a strong recent record and a favorable head-to-head against Natus Vincere.\nIn their last 10 encounters, Vitality has won 9, including a 2-0 victory on April 17, 2026. (tips.gg) Over the past month, Vitality has maintained a 100% win rate, while Natus Vincere has a 67% win rate. (tips.gg) Additionally, Vitality has a 90% win rate over the past 30 days, with a current 3-match winning streak. (tips.gg)\nGiven these factors, the trader's bet on Vitality appears well-supported.",
+    "ai_verdict": "COPY"
   }
 ]
