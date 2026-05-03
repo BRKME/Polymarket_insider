@@ -1,58 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0xcee6f76f14de84c5378dd6de9ada1270fa34580f694024ced538693d93e8ce14",
-    "wallet": "0x1f2dd6d473f3e824cd2f8a89d9c69fb96f6ad0cf",
-    "trader": {
-      "rank": 2,
-      "address": "0x1f2dd6d473f3e824cd2f8a89d9c69fb96f6ad0cf",
-      "username": "Fredi9999",
-      "profit": 16619506.631730152,
-      "volume": 76611316.90515402,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x122c17cb5f9930a254523cdd6a3e830c67e8b48f",
-      "side": "BUY",
-      "asset": "19901222835944487203708466658821686468364428638367141880030486718568300324536",
-      "conditionId": "0xdae8a2bcd39b64c42e6d77ac9281660054b1d2d746773387b2dcd928cf34b91c",
-      "size": 3605.239125,
-      "price": 0.92,
-      "timestamp": 1774194107,
-      "title": "Will Atalanta BC win on 2026-03-22?",
-      "slug": "sea-ata-ver-2026-03-22-ata",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Serie-A-Logo.png",
-      "eventSlug": "sea-ata-ver-2026-03-22",
-      "outcome": "Yes",
-      "outcomeIndex": 0,
-      "name": "sili-315",
-      "pseudonym": "Drab-Blind",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0xcee6f76f14de84c5378dd6de9ada1270fa34580f694024ced538693d93e8ce14",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Will Atalanta BC win on 2026-03-22?",
-    "market_slug": "sea-ata-ver-2026-03-22",
-    "amount": 3316.8199950000003,
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.449394+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-22 >7 days ago, removed from API"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0x495c5487563c0ce2faac08136ac85788ed2bc37b5b8ee5153f99159fbaa27617",
     "wallet": "0x863134d00841b2e200492805a01e1e2f5defaa53",
     "trader": {
@@ -32610,5 +32558,115 @@
     "amount": 5653.55071,
     "ai_context": "\u2705 COPY \u2014 Recent exit polls indicate a potential BJP majority in the 2026 West Bengal Legislative Assembly election.\nThe IANS-Matrize exit poll projects the BJP winning between 146 and 161 seats, surpassing the majority mark of 148, with a vote share of 42.5%, while the Trinamool Congress (TMC) is projected to secure 125 to 140 seats with a vote share of 40.8%. (businessupturn.com)\nGiven these projections, the trader's bet on the BJP winning the most seats aligns with current expert analyses.",
     "ai_verdict": "COPY"
+  },
+  {
+    "market": "Spread: FC K\u00f8benhavn (-1.5)",
+    "market_slug": "den-fcf-kob-2026-05-03-spread-away-1pt5",
+    "event_slug": "den-fcf-kob-2026-05-03-spread-away-1pt5",
+    "wallet": "0x0f42a36e612705d4a9de96c3344a900e854fa853",
+    "analysis": {
+      "score": 70,
+      "flags": [
+        "New wallet (0d old)",
+        "Large bet ($1,060)",
+        "Low activity (12 txns)"
+      ],
+      "amount": 1059.999999,
+      "odds": 0.42885510755576667,
+      "raw_price": 0.42885510755576667,
+      "outcome": "FC K\u00f8benhavn",
+      "potential_pnl": 1411.697272,
+      "pnl_multiplier": 1.3317898805016888,
+      "wallet_age_days": 0,
+      "total_activities": 12
+    },
+    "timestamp": "2026-05-03T06:35:39.531416",
+    "trade_hash": "0x98f9b66ca224feaa41baa96250c8333ced4b35877b07d396971e95d4cecb99e7",
+    "trade_timestamp": 1777789680,
+    "latency": null,
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "FC K\u00f8benhavn",
+      "outcomeIndex": 0,
+      "normalized_position": "YES",
+      "side": "BUY",
+      "price": 0.42885510755576667,
+      "effective_price": 0.42885510755576667,
+      "size": 2471.697271,
+      "amount": 1059.999999,
+      "potential_pnl": 1411.697272,
+      "pnl_multiplier": 1.3317898805016888,
+      "is_no": false,
+      "conditionId": "0x62e694143325940cb3b1b9c344bded6dda232341a838b6ac8b9f77706a30d9dd",
+      "slug": "den-fcf-kob-2026-05-03-spread-away-1pt5",
+      "eventSlug": "den-fcf-kob-2026-05-03-more-markets"
+    },
+    "irrationality": {
+      "irrationality_score": 35,
+      "flags": [
+        "Large mispricing edge (+20.3%)"
+      ],
+      "category": "other",
+      "category_info": {
+        "strength": "medium",
+        "typical_overpricing": 0.03,
+        "min_edge": 0.05
+      },
+      "is_irrational": true
+    },
+    "mispricing": {
+      "rational_estimate": 0.22577102151115333,
+      "market_price": 0.42885510755576667,
+      "edge": 0.20308408604461334,
+      "edge_percent": 20.308408604461334,
+      "min_edge_required": 0.05,
+      "is_mispriced": true,
+      "edge_quality": "STRONG",
+      "base_rate_class": "common",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "common",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "FC K\u00f8benhavn's recent performance",
+          "Opponent's defensive capabilities",
+          "Injury status of key players"
+        ],
+        "weakest_link": "Opponent's defensive capabilities"
+      },
+      "category": "sports",
+      "narrative_drivers": [
+        "Recent form of FC K\u00f8benhavn",
+        "Public sentiment towards the team's chances"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "CONFLICT",
+      "signal_emoji": "\u26a0\ufe0f",
+      "signal_strength": 70,
+      "interpretation": "Insider buying YES despite statistical overpricing",
+      "action_suggestion": "Requires manual analysis: insider may have real info OR is part of irrational crowd",
+      "insider_score": 70,
+      "insider_position": "YES",
+      "irrationality_score": 35,
+      "is_irrational": true,
+      "is_mispriced": true,
+      "edge": 0.20308408604461334,
+      "edge_percent": 20.308408604461334
+    },
+    "financial_analyst": {
+      "signal_quality": 46.0,
+      "stance": "WATCH_ONLY",
+      "edge_percent": 20.31,
+      "signal_strength": 70.0,
+      "insider_score": 70.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "ai_context": "\u274c SKIP \u2014 FC K\u00f8benhavn has been inconsistent recently, with 10 wins, 5 draws, and 11 losses in their last 26 fixtures. (footystats.org) They've also struggled to score, averaging 0 goals per match in their last five games. (footystats.org)\nHowever, the trader may have access to insider information or sharp analysis not reflected in the available data.\nGiven the recent form and scoring difficulties, it's advisable to exercise caution before copying this bet.",
+    "ai_verdict": "SKIP"
   }
 ]
