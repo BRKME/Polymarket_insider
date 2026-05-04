@@ -31841,7 +31841,14 @@
     "amount": 5653.55071,
     "ai_context": "\u2705 COPY \u2014 Recent exit polls indicate a potential BJP majority in the 2026 West Bengal Legislative Assembly election.\nThe IANS-Matrize exit poll projects the BJP winning between 146 and 161 seats, surpassing the majority mark of 148, with a vote share of 42.5%, while the Trinamool Congress (TMC) is projected to secure 125 to 140 seats with a vote share of 40.8%. (businessupturn.com)\nGiven these projections, the trader's bet on the BJP winning the most seats aligns with current expert analyses.",
     "ai_verdict": "COPY",
-    "resolution_last_check": "2026-05-03T07:49:04.576742+00:00"
+    "resolution_last_check": "2026-05-03T07:49:04.576742+00:00",
+    "resolution": {
+      "outcome": "No",
+      "checked_at": "2026-05-04T08:18:08.855881+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -5653.55
+    }
   },
   {
     "market": "Spread: FC K\u00f8benhavn (-1.5)",
@@ -31952,7 +31959,14 @@
     },
     "ai_context": "\u274c SKIP \u2014 FC K\u00f8benhavn has been inconsistent recently, with 10 wins, 5 draws, and 11 losses in their last 26 fixtures. (footystats.org) They've also struggled to score, averaging 0 goals per match in their last five games. (footystats.org)\nHowever, the trader may have access to insider information or sharp analysis not reflected in the available data.\nGiven the recent form and scoring difficulties, it's advisable to exercise caution before copying this bet.",
     "ai_verdict": "SKIP",
-    "resolution_last_check": "2026-05-03T07:49:05.701362+00:00"
+    "resolution_last_check": "2026-05-03T07:49:05.701362+00:00",
+    "resolution": {
+      "outcome": "FC K\u00f8benhavn",
+      "checked_at": "2026-05-04T08:18:11.121210+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 1411.7
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -31998,7 +32012,14 @@
     "market_slug": "val-te-drg-2026-05-03",
     "amount": 1800.0,
     "ai_context": "\u274c SKIP \u2014 Trace Esports has a losing head-to-head record against Dragon Ranger Gaming and recent form indicates a downward trend.\nTrace Esports has a 25% win rate against Dragon Ranger Gaming, losing the most recent match on April 14, 2026. (bo3.gg) In their last 10 matches, Trace Esports has a 4-6 record, including losses to mid-tier opponents. (strafe.com) Additionally, their recent win rate has declined to 33% over the past month, down from 39% over the previous six months. (bo3.",
-    "ai_verdict": "SKIP"
+    "ai_verdict": "SKIP",
+    "resolution": {
+      "outcome": "Dragon Ranger Gaming",
+      "checked_at": "2026-05-04T08:18:12.602018+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -1800.0
+    }
   },
   {
     "market": "Indian Premier League: Gujarat Titans vs Punjab Kings",
@@ -32108,7 +32129,14 @@
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
     },
     "ai_context": "\u2705 COPY \u2014 Gujarat Titans have a 4-2 head-to-head advantage over Punjab Kings in IPL matches.\nIn their last encounter in March 2025, Gujarat Titans secured a 3-wicket victory over Punjab Kings. (crictracker.com)\nGiven this recent form and head-to-head record, the trader's bet on Gujarat Titans is supported by the available data.",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution": {
+      "outcome": "Gujarat Titans",
+      "checked_at": "2026-05-04T08:18:15.251196+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 2407.4
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -32154,7 +32182,14 @@
     "market_slug": "bun-fre-wol-2026-05-03",
     "amount": 2170.0,
     "ai_context": "\u2705 COPY \u2014 SC Freiburg has a strong recent record against VfL Wolfsburg, winning their last three encounters.\nIn their most recent match on April 19, 2026, Freiburg secured a 2-1 victory over FC Heidenheim. (cupchances.com) VfL Wolfsburg, on the other hand, is battling relegation with only six wins from 31 matches. (footbrowse.com)\nGiven Freiburg's favorable head-to-head record and Wolfsburg's current struggles, the trader's bet on a Freiburg win is well-supported.",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution": {
+      "outcome": "Yes",
+      "checked_at": "2026-05-04T08:18:16.823757+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -2170.0
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -32200,7 +32235,14 @@
     "market_slug": "atp-sinner-zverev-2026-05-03",
     "amount": 1949.7288,
     "ai_context": "\u274c SKIP \u2014 Sinner has dominated recent encounters, including a decisive win in their last match.\nSinner leads their head-to-head 9-4, with a recent 6-1, 6-4 victory in the Monte-Carlo Rolex Masters semifinals. (stevegtennis.com) Additionally, Sinner has won their last eight consecutive matches since the US Open in 2023. (cadenaser.com) Zverev has been in good form, reaching the final of the Mutua Madrid Open after defeating Alexander Blockx 6-2, 7-5. (cadenaser.",
-    "ai_verdict": "SKIP"
+    "ai_verdict": "SKIP",
+    "resolution": {
+      "outcome": "Under",
+      "checked_at": "2026-05-04T08:18:18.173967+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -1949.73
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -32246,7 +32288,14 @@
     "market_slug": "lol-nip-blg-2026-05-03",
     "amount": 1061.4861,
     "ai_context": "\u274c SKIP \u2014 Bilibili Gaming has dominated recent matchups against Ninjas in Pyjamas.\nIn their last five encounters, Bilibili Gaming secured victories in all matches, including a decisive 2-0 win on April 25, 2025. (bo3.gg)\nAdditionally, Ninjas in Pyjamas has shown inconsistent performance, with a 4-6 record in their last 10 matches. (strafe.",
-    "ai_verdict": "SKIP"
+    "ai_verdict": "SKIP",
+    "resolution": {
+      "outcome": "Bilibili Gaming",
+      "checked_at": "2026-05-04T08:18:19.757822+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -1061.49
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -32292,7 +32341,14 @@
     "market_slug": "fl1-str-tou-2026-05-03",
     "amount": 6229.7928,
     "ai_context": "\u274c SKIP \u2014 Toulouse FC has lost 3 of their last 4 matches, including a 0-4 defeat to Lille on April 12, 2026. (espn.com) However, the trader may have access to insider information or analysis not publicly available.",
-    "ai_verdict": "SKIP"
+    "ai_verdict": "SKIP",
+    "resolution": {
+      "outcome": "No",
+      "checked_at": "2026-05-04T08:18:21.343594+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -6229.79
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -32338,7 +32394,14 @@
     "market_slug": "dota2-tr7-vg-2026-05-03",
     "amount": 1199.9999990000001,
     "ai_context": "\u274c SKIP \u2014 Vici Gaming has lost their last two matches against Team Resilience.\nIn their most recent encounter on May 1, 2026, Vici Gaming was defeated 2-0 by Team Resilience in the ESL Challenger China Season 3 Powered by ACL. (cyberscore.live) Additionally, in their previous match on April 13, 2026, Vici Gaming also lost 2-0 to Team Resilience in the DreamLeague China Closed Qualifier Season 29 Playoffs. (myesports.gg) These consecutive losses indicate a trend that may continue.",
-    "ai_verdict": "SKIP"
+    "ai_verdict": "SKIP",
+    "resolution": {
+      "outcome": "Vici Gaming",
+      "checked_at": "2026-05-04T08:18:22.972101+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 564.71
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -32384,7 +32447,14 @@
     "market_slug": "cs2-navi-vit-2026-05-03",
     "amount": 1001.7,
     "ai_context": "\u2705 COPY \u2014 Vitality has a strong recent record and a favorable head-to-head against Natus Vincere.\nIn their last 10 encounters, Vitality has won 9, including a 2-0 victory on April 17, 2026. (tips.gg) Over the past month, Vitality has maintained a 100% win rate, while Natus Vincere has a 67% win rate. (tips.gg) Additionally, Vitality has a 90% win rate over the past 30 days, with a current 3-match winning streak. (tips.gg)\nGiven these factors, the trader's bet on Vitality appears well-supported.",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution": {
+      "outcome": "Vitality",
+      "checked_at": "2026-05-04T08:18:24.363806+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 588.3
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -32430,7 +32500,14 @@
     "market_slug": "cs2-navi-vit-2026-05-03",
     "amount": 1396.5085000000001,
     "ai_context": "\u274c SKIP \u2014 Vitality has dominated recent matchups against Natus Vincere, winning the last five encounters.\nIn their most recent match on April 17, 2026, Vitality defeated Natus Vincere 2-0. (strafe.com) Additionally, Vitality has an 89% win rate over the past month, entering the final on a six-match winning streak. (bo3.gg) Natus Vincere's recent form includes a loss to Vitality in their last match. (hltv.org) While Natus Vincere has a strong win rate on maps like Ancient (70%) and Dust2 (63.",
-    "ai_verdict": "SKIP"
+    "ai_verdict": "SKIP",
+    "resolution": {
+      "outcome": "Vitality",
+      "checked_at": "2026-05-04T08:18:25.562126+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -1396.51
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -32476,7 +32553,14 @@
     "market_slug": "mlb-sf-tb-2026-05-03",
     "amount": 4999.999999000001,
     "ai_context": "\u2705 COPY \u2014 Tampa Bay Rays have a strong home record and are on a six-game home winning streak.\nThe Rays are 10-4 at home and have won their last six home games. (foxsports.com) In contrast, the San Francisco Giants are 6-11 in road games and have lost four consecutive games. (foxsports.com) Additionally, the Rays have a 50% win rate against the Giants in their head-to-head matchups. (aiscore.",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution": {
+      "outcome": "Tampa Bay Rays",
+      "checked_at": "2026-05-04T08:18:26.973133+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 10151.52
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -32522,7 +32606,8 @@
     "market_slug": "iran-closes-its-airspace-by",
     "amount": 8058.434,
     "ai_context": "\u2705 COPY \u2014 Recent developments indicate a low likelihood of Iran closing its airspace by May 8, 2026.\nAs of April 18, 2026, Iran partially reopened its airspace to international flights crossing the eastern part of its territory, while the western airspace remained closed to civilian aircraft. (bssnews.net) Additionally, Iranian authorities have extended the closure of their airspace to Russian airlines until May 15, 2026. (caliber.",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution_last_check": "2026-05-04T08:18:28.596282+00:00"
   },
   {
     "market": "LoL: FlyQuest vs Shopify Rebellion (BO3) - LCS Regular Season",
@@ -32632,6 +32717,13 @@
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
     },
     "ai_context": "\u2705 COPY \u2014 FlyQuest has a strong head-to-head record against Shopify Rebellion and recent form.\nFlyQuest has won 8 of 9 matches against Shopify Rebellion, including a 2-0 victory on January 25, 2026. (strafe.com) In the 2026 Spring season, FlyQuest holds a 2-2 record, while Shopify Rebellion is 1-3. (polymarket.com)\nGiven FlyQuest's superior head-to-head record and recent performance, the bet is supported.",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution": {
+      "outcome": "Shopify Rebellion",
+      "checked_at": "2026-05-04T08:18:31.171450+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -8000.0
+    }
   }
 ]
