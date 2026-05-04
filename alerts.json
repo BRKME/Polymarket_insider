@@ -1,118 +1,5 @@
 [
   {
-    "market": "Spread: Nuggets (-5.5)",
-    "market_slug": "nba-den-phx-2026-03-24-spread-away-5pt5",
-    "event_slug": "nba-den-phx-2026-03-24-spread-away-5pt5",
-    "wallet": "0x23727d1fb51bd48d0f5236b10fdca0ef005581c6",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($1,912)",
-        "Low activity (4 txns)"
-      ],
-      "amount": 1911.99,
-      "odds": 0.51,
-      "raw_price": 0.51,
-      "outcome": "Suns",
-      "potential_pnl": 1837.01,
-      "pnl_multiplier": 0.9607843137254902,
-      "wallet_age_days": 0,
-      "total_activities": 4
-    },
-    "timestamp": "2026-03-24T07:40:56.696336",
-    "trade_hash": "0x5784112fc01c91ad030ea05f55fe1839e73b4e14e81fa1e828006bf38a6c3893",
-    "trade_timestamp": 1774337845,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Suns",
-      "side": "BUY",
-      "price": 0.51,
-      "effective_price": 0.51,
-      "size": 3749.0,
-      "amount": 1911.99,
-      "potential_pnl": 1837.01,
-      "pnl_multiplier": 0.9607843137254902,
-      "is_no": false,
-      "slug": "nba-den-phx-2026-03-24-spread-away-5pt5",
-      "eventSlug": "nba-den-phx-2026-03-24"
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+26.8%)"
-      ],
-      "category": "other",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.242,
-      "market_price": 0.51,
-      "edge": 0.268,
-      "edge_percent": 26.8,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Nuggets' key players perform at or above expectations",
-          "Opposing team struggles defensively",
-          "Injury status of key players remains favorable"
-        ],
-        "weakest_link": "Opposing team struggles defensively"
-      },
-      "category": "sports",
-      "narrative_drivers": [
-        "Recent performance trends of the Nuggets",
-        "Injury reports and player availability"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "INSIDER_ONLY",
-      "signal_emoji": "\ud83d\udc41\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider activity detected, no clear mispricing",
-      "action_suggestion": "Monitor: insider signal only, no statistical edge",
-      "insider_score": 70,
-      "insider_position": "SUNS",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.268,
-      "edge_percent": 26.8
-    },
-    "financial_analyst": {
-      "signal_quality": 51.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 26.8,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.449523+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-24 >7 days ago, removed from API"
-    }
-  },
-  {
     "type": "TOP_TRADER",
     "trade_hash": "0x0d4aebd729fe8192fff15adf814db635d8656d18f99be3a0cbf7b54a447a3d6a",
     "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
@@ -32718,6 +32605,52 @@
     "market_slug": "iran-closes-its-airspace-by",
     "amount": 8090.7363000000005,
     "ai_context": "\u2705 COPY \u2014 Recent developments indicate a significant likelihood of Iran maintaining its airspace closure beyond May 8, 2026.\nAs of April 23, 2026, Iranian international civilian airspace remains closed to commercial aviation, with domestic flights resuming on April 22. (iranwarlive.com) On April 18, 2026, Iran announced the closure of the Strait of Hormuz, further escalating tensions with the United States. (axios.",
+    "ai_verdict": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x52e087bdb9ee7158933cadcfdd0338a1fc4521ce1c28dda01cc8c222b073c6b4",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.51568201,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x0eb568f307e9a48af2c3e688ad6074236712c494",
+      "side": "BUY",
+      "asset": "64770641714156976989474964554615476798703886456878824308372674182516857874046",
+      "conditionId": "0x0433839be2e0889423ff0a0efae939272899d09c284d309b346d3991d003c4c0",
+      "size": 241218.39,
+      "price": 0.68,
+      "timestamp": 1777900104,
+      "title": "Will Chelsea FC win on 2026-05-04?",
+      "slug": "epl-che-not-2026-05-04-che",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Repetitive-markets/premier+league.jpg",
+      "eventSlug": "epl-che-not-2026-05-04",
+      "outcome": "Yes",
+      "outcomeIndex": 0,
+      "name": "asdfjh",
+      "pseudonym": "Constant-Fit",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x52e087bdb9ee7158933cadcfdd0338a1fc4521ce1c28dda01cc8c222b073c6b4",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Will Chelsea FC win on 2026-05-04?",
+    "market_slug": "epl-che-not-2026-05-04",
+    "amount": 164028.5052,
+    "ai_context": "\u2705 COPY \u2014 Chelsea has a strong recent head-to-head record against Nottingham Forest.\nIn their last five encounters, Chelsea has won four times and drawn once, including a 3-0 victory in October 2025. (ua-football.com)\nAdditionally, Chelsea is currently 8th in the Premier League with 48 points, while Nottingham Forest is 16th with 39 points. (bbc.co.",
     "ai_verdict": "COPY"
   }
 ]
