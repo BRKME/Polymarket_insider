@@ -1,56 +1,5 @@
 [
   {
-    "type": "TOP_TRADER",
-    "trade_hash": "0x0d4aebd729fe8192fff15adf814db635d8656d18f99be3a0cbf7b54a447a3d6a",
-    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-    "trader": {
-      "rank": 1,
-      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-      "username": "Theo4",
-      "profit": 22053933.752321757,
-      "volume": 43013258.515682004,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0xa46143136df30aa5583fcd896a7f41e1141b182d",
-      "side": "BUY",
-      "asset": "25856514610130837649380983927848419003326588793008371077788379588860797425932",
-      "conditionId": "0xb7ca42c3a0324b32cad3e64b29cc372d5e941a41f7f23f787806439854be9021",
-      "size": 22350,
-      "price": 0.27,
-      "timestamp": 1774337869,
-      "title": "Will India strike Pakistan by December 31, 2026?",
-      "slug": "will-india-strike-pakistan-by-december-31-2026",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/india-strike-on-pakistan-before-august-x85XQfgodtQ_.jpg",
-      "eventSlug": "india-strike-on-pakistan-by",
-      "outcome": "Yes",
-      "outcomeIndex": 0,
-      "name": "baxian",
-      "pseudonym": "Long-Harald",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x0d4aebd729fe8192fff15adf814db635d8656d18f99be3a0cbf7b54a447a3d6a",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Will India strike Pakistan by December 31, 2026?",
-    "market_slug": "india-strike-on-pakistan-by",
-    "amount": 6034.5,
-    "resolution": {
-      "outcome": "No",
-      "checked_at": "2026-04-26T07:40:09.473785+00:00",
-      "insider_win": false,
-      "model_correct": null,
-      "pnl": -6034.5
-    }
-  },
-  {
     "market": "Kharg Island no longer under Iranian control by March 31?",
     "market_slug": "kharg-island-no-longer-under-iranian-control-by-march-31",
     "event_slug": "kharg-island-no-longer-under-iranian-control-by-march-31",
@@ -32651,6 +32600,52 @@
     "market_slug": "epl-che-not-2026-05-04",
     "amount": 164028.5052,
     "ai_context": "\u2705 COPY \u2014 Chelsea has a strong recent head-to-head record against Nottingham Forest.\nIn their last five encounters, Chelsea has won four times and drawn once, including a 3-0 victory in October 2025. (ua-football.com)\nAdditionally, Chelsea is currently 8th in the Premier League with 48 points, while Nottingham Forest is 16th with 39 points. (bbc.co.",
+    "ai_verdict": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xdbf88dd0819431de3a2bab559584c09a82a3f1556435e1a90c7ae14c5b5a1c57",
+    "wallet": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+    "trader": {
+      "rank": 5,
+      "address": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+      "username": "RN1",
+      "profit": 8322006.86323811,
+      "volume": 501885994.071157,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x3a6cca73d4dab35679b3e3fcbee48ac1d6fd236d",
+      "side": "BUY",
+      "asset": "2504004153367860775589245075837823297061235801354117193092142613953996885550",
+      "conditionId": "0x21db4456339f05066b3f9c28c16f0f0b767ba7317be54c779acfe5935d650191",
+      "size": 2500,
+      "price": 0.54,
+      "timestamp": 1777935826,
+      "title": "76ers vs. Knicks: O/U 211.5",
+      "slug": "nba-phi-nyk-2026-05-04-total-211pt5",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
+      "eventSlug": "nba-phi-nyk-2026-05-04",
+      "outcome": "Over",
+      "outcomeIndex": 0,
+      "name": "awalkinwallstreet",
+      "pseudonym": "Brief-Stance",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xdbf88dd0819431de3a2bab559584c09a82a3f1556435e1a90c7ae14c5b5a1c57",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "76ers vs. Knicks: O/U 211.5",
+    "market_slug": "nba-phi-nyk-2026-05-04",
+    "amount": 1350.0,
+    "ai_context": "\u2705 COPY \u2014 Recent matchups between the 76ers and Knicks have consistently exceeded the 211.5 total points line.\nIn their last three encounters, the games ended with scores of 125-119, 110-105, and 105-91, averaging 113.3 points per team per game. (landofbasketball.com) Additionally, the upcoming game is projected to have a total over 212.5 points. (sportsgrid.com) Joel Embiid is listed as probable for the game, which could further influence the scoring dynamics. (rotowire.com)",
     "ai_verdict": "COPY"
   }
 ]
