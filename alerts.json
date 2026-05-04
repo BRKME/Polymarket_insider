@@ -1,57 +1,5 @@
 [
   {
-    "type": "TOP_TRADER",
-    "trade_hash": "0x65a5497b7b1bd32a59aa1c5de6ac8b8800440ff00573deda72cfd49fd9c60a4d",
-    "wallet": "0xe90bec87d9ef430f27f9dcfe72c34b76967d5da2",
-    "trader": {
-      "rank": 14,
-      "address": "0xe90bec87d9ef430f27f9dcfe72c34b76967d5da2",
-      "username": "gmanas",
-      "profit": 4955503.445282715,
-      "volume": 529047708.505991,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x2a2c53bd278c04da9962fcf96490e17f3dfb9bc1",
-      "side": "BUY",
-      "asset": "90898434341036885550167009542356127359697126382953020709355461557872368670502",
-      "conditionId": "0x2442fd430fecccb337e64263589d16597d1a6098a3848cba9ff3bc382a1b16f9",
-      "size": 29159.21,
-      "price": 0.49,
-      "timestamp": 1774308457,
-      "title": "Lakers vs. Pistons",
-      "slug": "nba-lal-det-2026-03-23",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
-      "eventSlug": "nba-lal-det-2026-03-23",
-      "outcome": "Pistons",
-      "outcomeIndex": 1,
-      "name": "0x2a2C53bD278c04DA9962Fcf96490E17F3DfB9Bc1-1772479215461",
-      "pseudonym": "Dishonest-Bloom",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x65a5497b7b1bd32a59aa1c5de6ac8b8800440ff00573deda72cfd49fd9c60a4d",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Lakers vs. Pistons",
-    "market_slug": "nba-lal-det-2026-03-23",
-    "amount": 14288.0129,
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.449512+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-23 >7 days ago, removed from API"
-    }
-  },
-  {
     "market": "Spread: Nuggets (-5.5)",
     "market_slug": "nba-den-phx-2026-03-24-spread-away-5pt5",
     "event_slug": "nba-den-phx-2026-03-24-spread-away-5pt5",
@@ -32725,5 +32673,51 @@
       "model_correct": null,
       "pnl": -8000.0
     }
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xf50c4e8ae444a068e452546e55c8d05ab80cc09369057e68960e6e2eb97f91e0",
+    "wallet": "0x006cc834cc092684f1b56626e23bedb3835c16ea",
+    "trader": {
+      "rank": 17,
+      "address": "0x006cc834cc092684f1b56626e23bedb3835c16ea",
+      "username": "0x006cc834Cc092684F1B56626E23BEdB3835c16ea-1729683673397",
+      "profit": 4553784.0718077775,
+      "volume": 60197195.493648,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xfba638c083dcd88a6711a1ffba4352c5431a1fca",
+      "side": "SELL",
+      "asset": "16016908434025167220243178590358637924061830475505554559071284592301005386647",
+      "conditionId": "0x2135ffcb43ba9103bb6acf7116d2d5aa98bef6d9eb3dc9c85ea00cb79513f3ec",
+      "size": 12600,
+      "price": 0.6421219285714286,
+      "timestamp": 1777889298,
+      "title": "Iran closes its airspace by May 8?",
+      "slug": "iran-closes-its-airspace-by-may-8",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-iran-close-its-airspace-by-Djo8VXRKur_C.jpg",
+      "eventSlug": "iran-closes-its-airspace-by",
+      "outcome": "No",
+      "outcomeIndex": 1,
+      "name": "Vladpoutino",
+      "pseudonym": "Dizzy-Zombie",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xf50c4e8ae444a068e452546e55c8d05ab80cc09369057e68960e6e2eb97f91e0",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Iran closes its airspace by May 8?",
+    "market_slug": "iran-closes-its-airspace-by",
+    "amount": 8090.7363000000005,
+    "ai_context": "\u2705 COPY \u2014 Recent developments indicate a significant likelihood of Iran maintaining its airspace closure beyond May 8, 2026.\nAs of April 23, 2026, Iranian international civilian airspace remains closed to commercial aviation, with domestic flights resuming on April 22. (iranwarlive.com) On April 18, 2026, Iran announced the closure of the Strait of Hormuz, further escalating tensions with the United States. (axios.",
+    "ai_verdict": "COPY"
   }
 ]
