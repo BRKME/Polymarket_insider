@@ -1,58 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0x283ffe65ea52b2ca697aa8876dedc2b57e0d4397dbdfa897558d6906ac1d04e6",
-    "wallet": "0xd235973291b2b75ff4070e9c0b01728c520b0f29",
-    "trader": {
-      "rank": 5,
-      "address": "0xd235973291b2b75ff4070e9c0b01728c520b0f29",
-      "username": "zxgngl",
-      "profit": 7807265.5892408835,
-      "volume": 40551790.62184699,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0xead152b855effa6b5b5837f53b24c0756830c76a",
-      "side": "BUY",
-      "asset": "113783662019454507967720129693467493325825726660314197671673023431409229815202",
-      "conditionId": "0x8d940577f973f2bc329022c4bc00ee63fec79e42e501302138815daa84217228",
-      "size": 4012,
-      "price": 0.4,
-      "timestamp": 1774390691,
-      "title": "Blackhawks vs. Islanders",
-      "slug": "nhl-chi-nyi-2026-03-24",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nhl.png",
-      "eventSlug": "nhl-chi-nyi-2026-03-24",
-      "outcome": "Blackhawks",
-      "outcomeIndex": 0,
-      "name": "elkmonkey",
-      "pseudonym": "Unconscious-Penguin",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x283ffe65ea52b2ca697aa8876dedc2b57e0d4397dbdfa897558d6906ac1d04e6",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Blackhawks vs. Islanders",
-    "market_slug": "nhl-chi-nyi-2026-03-24",
-    "amount": 1604.8000000000002,
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.449551+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-24 >7 days ago, removed from API"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0x694f7b72027c3f6227b14c1afb528959ada98c12ba221876bf57f3e1a209ae09",
     "wallet": "0x23786fdad0073692157c6d7dc81f281843a35fcb",
     "trader": {
@@ -32437,6 +32385,52 @@
     "market_slug": "nba-min-sas-2026-05-04",
     "amount": 1824.028,
     "ai_context": "\u2705 COPY \u2014 Spurs have a strong all-time record against the Timberwolves and are facing a weakened opponent.\nThe Spurs lead the all-time series 96-46. (statmuse.com) The Timberwolves are missing star player Anthony Edwards due to a knee injury and Donte DiVincenzo for the season with a torn Achilles. (axios.com)\nGiven the Spurs' historical advantage and the Timberwolves' current injuries, the trader's bet on the Spurs at 57% odds appears well-supported.",
+    "ai_verdict": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x3a969eb41e106cf6deae5ab65c71ce8a580678bc06ef0c268e048a366d439759",
+    "wallet": "0x8119010a6e589062aa03583bb3f39ca632d9f887",
+    "trader": {
+      "rank": 9,
+      "address": "0x8119010a6e589062aa03583bb3f39ca632d9f887",
+      "username": "PrincessCaro",
+      "profit": 6083643.099591745,
+      "volume": 23520809.952867,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x4f7582a61cccfc53718941d229f0b9247d9daf7e",
+      "side": "BUY",
+      "asset": "89367938235635146441269881345938375354273264156159089498120519747331137994821",
+      "conditionId": "0xa56f5d78f9cc0d9008607a25ad9d46ebebcd22e476aab817bc99df021dd91f8a",
+      "size": 2903.888693,
+      "price": 0.6887316317671272,
+      "timestamp": 1777961038,
+      "title": "Internazionali BNL d'Italia, Qualification: Pablo Carreno Busta vs Stan Wawrinka",
+      "slug": "atp-busta-wawrink-2026-05-05",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/atp-tour-b4390c4fb8.jpg",
+      "eventSlug": "atp-busta-wawrink-2026-05-05",
+      "outcome": "Pablo Carreno Busta",
+      "outcomeIndex": 0,
+      "name": "WynnWaldorf",
+      "pseudonym": "Unlined-Suburb",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x3a969eb41e106cf6deae5ab65c71ce8a580678bc06ef0c268e048a366d439759",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Internazionali BNL d'Italia, Qualification: Pablo Carreno Busta vs Stan Wawrinka",
+    "market_slug": "atp-busta-wawrink-2026-05-05",
+    "amount": 1999.999998,
+    "ai_context": "\u2705 COPY \u2014 Carreno Busta has a recent win over Wawrinka and a strong record against lower-ranked opponents.\nHe defeated Wawrinka 7-5, 6-4 in their last encounter in July 2022. (tennisratio.com) In the past 52 weeks, Carreno Busta holds a 30-12 record against opponents ranked outside the top 100. (tennisratio.com)",
     "ai_verdict": "COPY"
   }
 ]
