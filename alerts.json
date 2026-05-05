@@ -1,231 +1,5 @@
 [
   {
-    "market": "Kharg Island no longer under Iranian control by March 31?",
-    "market_slug": "kharg-island-no-longer-under-iranian-control-by-march-31",
-    "event_slug": "kharg-island-no-longer-under-iranian-control-by-march-31",
-    "wallet": "0xf5198df69e13937a40d1c76d6f72d9aa067d906b",
-    "analysis": {
-      "score": 85,
-      "flags": [
-        "Against trend (7.0% effective odds)",
-        "Large bet ($1,050)",
-        "Pre-event latency: 9051m"
-      ],
-      "amount": 1050.2834999999993,
-      "odds": 0.06999999999999995,
-      "raw_price": 0.93,
-      "outcome": "No",
-      "potential_pnl": 13953.766500000002,
-      "pnl_multiplier": 13.285714285714295,
-      "wallet_age_days": 494,
-      "total_activities": 100
-    },
-    "timestamp": "2026-03-24T17:12:58.319319",
-    "trade_hash": "0xaa5aeb9d14aa9f54c8ecdc9fef8a9926fbc9c977f07e04df0fc1fbaeeff3f984",
-    "trade_timestamp": 1774372131,
-    "latency": {
-      "latency_seconds": 543069.0,
-      "latency_minutes": 9051.15,
-      "is_pre_event": true,
-      "severity": "CRITICAL",
-      "trade_time": "2026-03-24T17:08:51+00:00",
-      "event_time": "2026-03-31T00:00:00+00:00"
-    },
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "No",
-      "side": "SELL",
-      "price": 0.93,
-      "effective_price": 0.06999999999999995,
-      "size": 15004.05,
-      "amount": 1050.2834999999993,
-      "potential_pnl": 13953.766500000002,
-      "pnl_multiplier": 13.285714285714295,
-      "is_no": true,
-      "slug": "kharg-island-no-longer-under-iranian-control-by-march-31",
-      "eventSlug": "kharg-island-no-longer-under-iranian-control-by-march-31"
-    },
-    "irrationality": {
-      "irrationality_score": 40,
-      "flags": [
-        "Category structurally prone to longshot bias",
-        "Large mispricing edge (+72.0%)"
-      ],
-      "category": "geopolitics",
-      "category_info": {
-        "strength": "high",
-        "typical_overpricing": 0.05,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.21000000000000002,
-      "market_price": 0.93,
-      "edge": 0.72,
-      "edge_percent": 72.0,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "rare",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "rare",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Internal political instability in Iran",
-          "International military intervention",
-          "Economic sanctions impacting Iranian control"
-        ],
-        "weakest_link": "International military intervention"
-      },
-      "category": "geopolitics",
-      "narrative_drivers": [
-        "Increased tensions in the region",
-        "Potential shifts in U.S. foreign policy"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "ALPHA",
-      "signal_emoji": "\ud83d\udd25",
-      "signal_strength": 125,
-      "interpretation": "Smart money (NO) confirms YES is overpriced",
-      "action_suggestion": "High conviction: insider + statistics aligned",
-      "insider_score": 85,
-      "insider_position": "NO",
-      "irrationality_score": 40,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.72,
-      "edge_percent": 72.0
-    },
-    "financial_analyst": {
-      "signal_quality": 85.0,
-      "stance": "HIGH_CONVICTION",
-      "edge_percent": 72.0,
-      "signal_strength": 125.0,
-      "insider_score": 85.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "resolution": {
-      "outcome": "No",
-      "checked_at": "2026-04-26T07:40:10.322630+00:00",
-      "insider_win": true,
-      "model_correct": true,
-      "pnl": 13953.77
-    }
-  },
-  {
-    "market": "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?",
-    "market_slug": "will-luiz-incio-lula-da-silva-win-the-2026-brazilian-presidential-election",
-    "event_slug": "will-luiz-incio-lula-da-silva-win-the-2026-brazilian-presidential-election",
-    "wallet": "0xa08407fd3ec3a3a25810effda8023778dc4a90d9",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($1,635)",
-        "Low activity (3 txns)"
-      ],
-      "amount": 1634.5349999999999,
-      "odds": 0.42,
-      "raw_price": 0.42,
-      "outcome": "Yes",
-      "potential_pnl": 2257.215,
-      "pnl_multiplier": 1.3809523809523812,
-      "wallet_age_days": 0,
-      "total_activities": 3
-    },
-    "timestamp": "2026-03-24T20:36:00.004242",
-    "trade_hash": "0xe3d83f1da43afdfe148838744faa2bfad1f65796f49f01d093ec4abb68b7693a",
-    "trade_timestamp": 1774384263,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Yes",
-      "side": "BUY",
-      "price": 0.42,
-      "effective_price": 0.42,
-      "size": 3891.75,
-      "amount": 1634.5349999999999,
-      "potential_pnl": 2257.215,
-      "pnl_multiplier": 1.3809523809523812,
-      "is_no": false,
-      "slug": "will-luiz-incio-lula-da-silva-win-the-2026-brazilian-presidential-election",
-      "eventSlug": "brazil-presidential-election"
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+19.6%)"
-      ],
-      "category": "politics_near",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.02,
-        "min_edge": 0.03
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.22399999999999998,
-      "market_price": 0.42,
-      "edge": 0.196,
-      "edge_percent": 19.6,
-      "min_edge_required": 0.03,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Lula maintains strong support within the Workers' Party and leftist coalitions",
-          "Economic conditions in Brazil improve leading up to the election",
-          "No significant challengers emerge from the right or center that can unify opposition"
-        ],
-        "weakest_link": "Economic conditions in Brazil improve leading up to the election"
-      },
-      "category": "politics_near",
-      "narrative_drivers": [
-        "Public perception of Lula's presidency and policies",
-        "Impact of economic performance on voter sentiment"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "CONFLICT",
-      "signal_emoji": "\u26a0\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider buying YES despite statistical overpricing",
-      "action_suggestion": "Requires manual analysis: insider may have real info OR is part of irrational crowd",
-      "insider_score": 70,
-      "insider_position": "YES",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.196,
-      "edge_percent": 19.6
-    },
-    "financial_analyst": {
-      "signal_quality": 46.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 19.6,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "resolution_last_check": "2026-04-26T07:40:10.671517+00:00"
-  },
-  {
     "market": "US x Iran ceasefire by March 31?",
     "market_slug": "us-x-iran-ceasefire-by-march-31",
     "event_slug": "us-x-iran-ceasefire-by-march-31",
@@ -32646,6 +32420,98 @@
     "market_slug": "nba-phi-nyk-2026-05-04",
     "amount": 1350.0,
     "ai_context": "\u2705 COPY \u2014 Recent matchups between the 76ers and Knicks have consistently exceeded the 211.5 total points line.\nIn their last three encounters, the games ended with scores of 125-119, 110-105, and 105-91, averaging 113.3 points per team per game. (landofbasketball.com) Additionally, the upcoming game is projected to have a total over 212.5 points. (sportsgrid.com) Joel Embiid is listed as probable for the game, which could further influence the scoring dynamics. (rotowire.com)",
+    "ai_verdict": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xb5c7fb1c2129c250043eb923dcf12107b32a5e077705de72da952090892e566e",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.515682004,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xdb15fbbcc1a8d1cbe112f7a2d74f6f752f2314f1",
+      "side": "BUY",
+      "asset": "58716684906847557209053364710420301931131773866166785586353019128416977139959",
+      "conditionId": "0x52e326033369df843b5ce727da8f454b387aabf1b28339e2e1c2ec34dc9ad49b",
+      "size": 15000,
+      "price": 0.64,
+      "timestamp": 1777939128,
+      "title": "Los Angeles Dodgers vs. Houston Astros",
+      "slug": "mlb-lad-hou-2026-05-04",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Repetitive-markets/MLB.jpg",
+      "eventSlug": "mlb-lad-hou-2026-05-04",
+      "outcome": "Los Angeles Dodgers",
+      "outcomeIndex": 0,
+      "name": "memain",
+      "pseudonym": "Yellowish-Ham-Developmental",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xb5c7fb1c2129c250043eb923dcf12107b32a5e077705de72da952090892e566e",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Los Angeles Dodgers vs. Houston Astros",
+    "market_slug": "mlb-lad-hou-2026-05-04",
+    "amount": 9600.0,
+    "ai_context": "\u274c SKIP \u2014 Recent head-to-head results and injuries raise concerns about the Dodgers' performance against the Astros.\nIn their last three matchups in July 2025, the Dodgers lost all games: 1-18, 4-6, and 1-5. (statmuse.com) Additionally, the Dodgers have faced significant injuries, including pitcher Tony Gonsolin, who was placed on the injured list due to right elbow discomfort. (as.",
+    "ai_verdict": "SKIP"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xee370284146605402508aa4376af61c576d706840bfa037b7f3331f17c4ac76c",
+    "wallet": "0x006cc834cc092684f1b56626e23bedb3835c16ea",
+    "trader": {
+      "rank": 17,
+      "address": "0x006cc834cc092684f1b56626e23bedb3835c16ea",
+      "username": "0x006cc834Cc092684F1B56626E23BEdB3835c16ea-1729683673397",
+      "profit": 4553783.381237777,
+      "volume": 60197195.493648015,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xf165e6dc08a3d52d8d64122eeb64a916748c2194",
+      "side": "SELL",
+      "asset": "113612877323423658909275002980526144749213135301890940162044238784095239141867",
+      "conditionId": "0x434719e5e807306706d17205f2bc15e4901184084c4e8ea472127f47a365bbdf",
+      "size": 51581.05,
+      "price": 0.22,
+      "timestamp": 1777940028,
+      "title": "Timberwolves vs. Spurs",
+      "slug": "nba-min-sas-2026-05-04",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
+      "eventSlug": "nba-min-sas-2026-05-04",
+      "outcome": "Timberwolves",
+      "outcomeIndex": 0,
+      "name": "Nahrabbita",
+      "pseudonym": "Superior-Cloak",
+      "bio": "Money",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xee370284146605402508aa4376af61c576d706840bfa037b7f3331f17c4ac76c",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Timberwolves vs. Spurs",
+    "market_slug": "nba-min-sas-2026-05-04",
+    "amount": 11347.831,
+    "ai_context": "\u2705 COPY \u2014 Timberwolves have won 4 of their last 5 games against the Spurs.\nIn their most recent matchup on January 17, 2026, the Spurs edged out the Timberwolves 126-123. (statmuse.com) The Timberwolves have a 49-33 record this season, while the Spurs are 62-20. (espn.com) The Timberwolves have won their last two games.",
     "ai_verdict": "COPY"
   }
 ]
