@@ -29836,7 +29836,14 @@
     },
     "ai_context": "\u274c SKIP \u2014 Manchester City is in strong form and has a favorable head-to-head record against Everton.\nThey've won their last two matches, including a 1-0 victory at Burnley on April 22, 2026. (mancity.com) Additionally, Manchester City has an excellent away record this season, with 9 wins, 4 draws, and 4 losses. (footystats.org) Everton has been inconsistent, with recent results including a 2-1 loss to Arsenal on April 11, 2026. (skysports.",
     "ai_verdict": "SKIP",
-    "resolution_last_check": "2026-05-03T07:48:37.809057+00:00"
+    "resolution_last_check": "2026-05-03T07:48:37.809057+00:00",
+    "resolution": {
+      "outcome": "No",
+      "checked_at": "2026-05-05T07:55:00.443956+00:00",
+      "insider_win": true,
+      "model_correct": true,
+      "pnl": 1020.0
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -30413,7 +30420,14 @@
     "amount": 1466.3538,
     "ai_context": "\u274c SKIP \u2014 DN SOOPers have a losing record in their recent matches and no available head-to-head data against KRX.\nThey have lost their last two matches, including a 0-2 defeat to KT Rolster on February 6, 2026. (m.aiscore.com) However, the trader may have access to insider information or analysis not publicly available.",
     "ai_verdict": "SKIP",
-    "resolution_last_check": "2026-05-03T07:48:50.536699+00:00"
+    "resolution_last_check": "2026-05-03T07:48:50.536699+00:00",
+    "resolution": {
+      "outcome": "DN SOOPers",
+      "checked_at": "2026-05-05T07:55:02.047625+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 1249.12
+    }
   },
   {
     "market": "Arsenal FC vs. Fulham FC: O/U 3.5",
@@ -30808,7 +30822,14 @@
     },
     "ai_context": "\u2705 COPY \u2014 Manchester City has demonstrated strong recent form, winning their last three matches.\nEPL Schedule\nManchester City (MCI) @ Chelsea FC (CFC) on Sunday, Apr 12, 2026 at 08:30 AM PDT. Final score: MCI 3 - CFC 0\nArsenal FC (ARS) @ Manchester City (MCI) on Sunday, Apr 19, 2026 at 08:30 AM PDT. Final score: ARS 1 - MCI 2\nManchester City (MCI) @ Burnley FC (BUR) on Wednesday, Apr 22, 2026 at 12:00 PM PDT. Final score: MCI 1 - BUR 0\n They are set to face Everton on May 4, 2026. (mancity.",
     "ai_verdict": "COPY",
-    "resolution_last_check": "2026-05-03T07:48:56.121493+00:00"
+    "resolution_last_check": "2026-05-03T07:48:56.121493+00:00",
+    "resolution": {
+      "outcome": "No",
+      "checked_at": "2026-05-05T07:55:02.047683+00:00",
+      "insider_win": false,
+      "model_correct": true,
+      "pnl": -13000.0
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -32155,7 +32176,8 @@
     "market_slug": "iran-closes-its-airspace-by",
     "amount": 8090.7363000000005,
     "ai_context": "\u2705 COPY \u2014 Recent developments indicate a significant likelihood of Iran maintaining its airspace closure beyond May 8, 2026.\nAs of April 23, 2026, Iranian international civilian airspace remains closed to commercial aviation, with domestic flights resuming on April 22. (iranwarlive.com) On April 18, 2026, Iran announced the closure of the Strait of Hormuz, further escalating tensions with the United States. (axios.",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution_last_check": "2026-05-05T07:55:03.778069+00:00"
   },
   {
     "type": "TOP_TRADER",
@@ -32201,7 +32223,14 @@
     "market_slug": "epl-che-not-2026-05-04",
     "amount": 164028.5052,
     "ai_context": "\u2705 COPY \u2014 Chelsea has a strong recent head-to-head record against Nottingham Forest.\nIn their last five encounters, Chelsea has won four times and drawn once, including a 3-0 victory in October 2025. (ua-football.com)\nAdditionally, Chelsea is currently 8th in the Premier League with 48 points, while Nottingham Forest is 16th with 39 points. (bbc.co.",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution": {
+      "outcome": "Yes",
+      "checked_at": "2026-05-05T07:55:05.519388+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 77189.88
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -32247,7 +32276,14 @@
     "market_slug": "nba-phi-nyk-2026-05-04",
     "amount": 1350.0,
     "ai_context": "\u2705 COPY \u2014 Recent matchups between the 76ers and Knicks have consistently exceeded the 211.5 total points line.\nIn their last three encounters, the games ended with scores of 125-119, 110-105, and 105-91, averaging 113.3 points per team per game. (landofbasketball.com) Additionally, the upcoming game is projected to have a total over 212.5 points. (sportsgrid.com) Joel Embiid is listed as probable for the game, which could further influence the scoring dynamics. (rotowire.com)",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution": {
+      "outcome": "Over",
+      "checked_at": "2026-05-05T07:55:07.127965+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 1150.0
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -32293,7 +32329,14 @@
     "market_slug": "mlb-lad-hou-2026-05-04",
     "amount": 9600.0,
     "ai_context": "\u274c SKIP \u2014 Recent head-to-head results and injuries raise concerns about the Dodgers' performance against the Astros.\nIn their last three matchups in July 2025, the Dodgers lost all games: 1-18, 4-6, and 1-5. (statmuse.com) Additionally, the Dodgers have faced significant injuries, including pitcher Tony Gonsolin, who was placed on the injured list due to right elbow discomfort. (as.",
-    "ai_verdict": "SKIP"
+    "ai_verdict": "SKIP",
+    "resolution": {
+      "outcome": "Los Angeles Dodgers",
+      "checked_at": "2026-05-05T07:55:08.861760+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 5400.0
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -32339,7 +32382,14 @@
     "market_slug": "nba-min-sas-2026-05-04",
     "amount": 11347.831,
     "ai_context": "\u2705 COPY \u2014 Timberwolves have won 4 of their last 5 games against the Spurs.\nIn their most recent matchup on January 17, 2026, the Spurs edged out the Timberwolves 126-123. (statmuse.com) The Timberwolves have a 49-33 record this season, while the Spurs are 62-20. (espn.com) The Timberwolves have won their last two games.",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution": {
+      "outcome": "Yes",
+      "checked_at": "2026-05-05T07:55:10.493138+00:00",
+      "insider_win": null,
+      "model_correct": null,
+      "pnl": null
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -32385,7 +32435,14 @@
     "market_slug": "nba-min-sas-2026-05-04",
     "amount": 1824.028,
     "ai_context": "\u2705 COPY \u2014 Spurs have a strong all-time record against the Timberwolves and are facing a weakened opponent.\nThe Spurs lead the all-time series 96-46. (statmuse.com) The Timberwolves are missing star player Anthony Edwards due to a knee injury and Donte DiVincenzo for the season with a torn Achilles. (axios.com)\nGiven the Spurs' historical advantage and the Timberwolves' current injuries, the trader's bet on the Spurs at 57% odds appears well-supported.",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution": {
+      "outcome": "Yes",
+      "checked_at": "2026-05-05T07:55:10.493201+00:00",
+      "insider_win": null,
+      "model_correct": null,
+      "pnl": null
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -32431,6 +32488,7 @@
     "market_slug": "atp-busta-wawrink-2026-05-05",
     "amount": 1999.999998,
     "ai_context": "\u2705 COPY \u2014 Carreno Busta has a recent win over Wawrinka and a strong record against lower-ranked opponents.\nHe defeated Wawrinka 7-5, 6-4 in their last encounter in July 2022. (tennisratio.com) In the past 52 weeks, Carreno Busta holds a 30-12 record against opponents ranked outside the top 100. (tennisratio.com)",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution_last_check": "2026-05-05T07:55:11.522334+00:00"
   }
 ]
