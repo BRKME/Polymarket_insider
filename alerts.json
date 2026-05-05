@@ -1,126 +1,5 @@
 [
   {
-    "market": "US x Iran ceasefire by March 31?",
-    "market_slug": "us-x-iran-ceasefire-by-march-31",
-    "event_slug": "us-x-iran-ceasefire-by-march-31",
-    "wallet": "0x88b298bba500c29627291ba78f1fcdba110bf7a2",
-    "analysis": {
-      "score": 80,
-      "flags": [
-        "New wallet (4d old)",
-        "Large bet ($2,323)",
-        "Pre-event latency: 8847m"
-      ],
-      "amount": 2323.037,
-      "odds": 0.2323037,
-      "raw_price": 0.2323037,
-      "outcome": "Yes",
-      "potential_pnl": 7676.962999999998,
-      "pnl_multiplier": 3.304709739879304,
-      "wallet_age_days": 4,
-      "total_activities": 100
-    },
-    "timestamp": "2026-03-24T20:36:05.020113",
-    "trade_hash": "0x86a6ed5d5c076f67803042d49eb6175a1155cf5e4130eaf5e09ab90926ff71ab",
-    "trade_timestamp": 1774384353,
-    "latency": {
-      "latency_seconds": 530847.0,
-      "latency_minutes": 8847.45,
-      "is_pre_event": true,
-      "severity": "CRITICAL",
-      "trade_time": "2026-03-24T20:32:33+00:00",
-      "event_time": "2026-03-31T00:00:00+00:00"
-    },
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Yes",
-      "side": "SELL",
-      "price": 0.2323037,
-      "effective_price": 0.2323037,
-      "size": 10000.0,
-      "amount": 2323.037,
-      "potential_pnl": 7676.962999999998,
-      "pnl_multiplier": 3.304709739879304,
-      "is_no": false,
-      "slug": "us-x-iran-ceasefire-by-march-31",
-      "eventSlug": "us-x-iran-ceasefire-by"
-    },
-    "irrationality": {
-      "irrationality_score": 65,
-      "flags": [
-        "Longshot (23%) in high bias category (geopolitics)",
-        "Category structurally prone to longshot bias",
-        "Large mispricing edge (+16.2%)"
-      ],
-      "category": "geopolitics",
-      "category_info": {
-        "strength": "high",
-        "typical_overpricing": 0.05,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.07046074,
-      "market_price": 0.2323037,
-      "edge": 0.16184296,
-      "edge_percent": 16.184296,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "rare",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "rare",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Mutual agreement on ceasefire terms",
-          "Reduction in military hostilities",
-          "International pressure or mediation"
-        ],
-        "weakest_link": "Mutual agreement on ceasefire terms"
-      },
-      "category": "geopolitics",
-      "narrative_drivers": [
-        "Desire for de-escalation in the region",
-        "Influence of international diplomatic efforts"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "CONFLICT",
-      "signal_emoji": "\u26a0\ufe0f",
-      "signal_strength": 80,
-      "interpretation": "Insider buying YES despite statistical overpricing",
-      "action_suggestion": "Requires manual analysis: insider may have real info OR is part of irrational crowd",
-      "insider_score": 80,
-      "insider_position": "YES",
-      "irrationality_score": 65,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.16184296,
-      "edge_percent": 16.184296
-    },
-    "financial_analyst": {
-      "signal_quality": 53.3,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 16.18,
-      "signal_strength": 80.0,
-      "insider_score": 80.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "resolution": {
-      "outcome": "No",
-      "checked_at": "2026-04-26T07:40:12.491784+00:00",
-      "insider_win": false,
-      "model_correct": true,
-      "pnl": -2323.04
-    }
-  },
-  {
     "type": "TOP_TRADER",
     "trade_hash": "0x283ffe65ea52b2ca697aa8876dedc2b57e0d4397dbdfa897558d6906ac1d04e6",
     "wallet": "0xd235973291b2b75ff4070e9c0b01728c520b0f29",
@@ -32512,6 +32391,52 @@
     "market_slug": "nba-min-sas-2026-05-04",
     "amount": 11347.831,
     "ai_context": "\u2705 COPY \u2014 Timberwolves have won 4 of their last 5 games against the Spurs.\nIn their most recent matchup on January 17, 2026, the Spurs edged out the Timberwolves 126-123. (statmuse.com) The Timberwolves have a 49-33 record this season, while the Spurs are 62-20. (espn.com) The Timberwolves have won their last two games.",
+    "ai_verdict": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x1ce9a614b686ac76da11a22fd701e89d5c3d26857280a9021ad6fc5921fb0e5f",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.515682004,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x6db568e61e5e3de7d87f831431b673f38ce2e279",
+      "side": "BUY",
+      "asset": "11814614911751245685595338429953809518037031788963281537257994211188574329710",
+      "conditionId": "0x434719e5e807306706d17205f2bc15e4901184084c4e8ea472127f47a365bbdf",
+      "size": 3196.6,
+      "price": 0.570615028467747,
+      "timestamp": 1777952334,
+      "title": "Timberwolves vs. Spurs",
+      "slug": "nba-min-sas-2026-05-04",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
+      "eventSlug": "nba-min-sas-2026-05-04",
+      "outcome": "Spurs",
+      "outcomeIndex": 1,
+      "name": "",
+      "pseudonym": "",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x1ce9a614b686ac76da11a22fd701e89d5c3d26857280a9021ad6fc5921fb0e5f",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Timberwolves vs. Spurs",
+    "market_slug": "nba-min-sas-2026-05-04",
+    "amount": 1824.028,
+    "ai_context": "\u2705 COPY \u2014 Spurs have a strong all-time record against the Timberwolves and are facing a weakened opponent.\nThe Spurs lead the all-time series 96-46. (statmuse.com) The Timberwolves are missing star player Anthony Edwards due to a knee injury and Donte DiVincenzo for the season with a torn Achilles. (axios.com)\nGiven the Spurs' historical advantage and the Timberwolves' current injuries, the trader's bet on the Spurs at 57% odds appears well-supported.",
     "ai_verdict": "COPY"
   }
 ]
