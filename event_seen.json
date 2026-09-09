@@ -109,7 +109,7 @@
 },
 "0x1e4ad3d340dbb9149ec6d2873bf6f519bddc1eb0f89665605fd90d226dd06b78": {
 "alerted_at": null,
-"last_edge": 0.2396,
+"last_edge": 0.3396,
 "resolved": false,
 "thesis_key": "russia x ukraine ceasefire agreement"
 },
@@ -401,6 +401,12 @@
 "resolved": false,
 "thesis_key": "strait of hormuz traffic returns to"
 },
+"0xa1092f590e543158e3f230aca48efd8c1c53198d68d96fcd9c6ef6a83937bb9d": {
+"alerted_at": null,
+"last_edge": 0.2904,
+"resolved": false,
+"thesis_key": "russia x ukraine ceasefire agreement"
+},
 "0xa295309d3894d3d05d9058ef78290ffd760fabb4c4d0d47a2a99a44759a4a2bd": {
 "alerted_at": "2026-07-14T01:19:32.197169+00:00",
 "last_edge": 0.1515,
@@ -552,8 +558,8 @@
 "thesis_key": "will norway be eliminated in the"
 },
 "0xe7a464eaf3aa5f378aeb08cef1d23ddb58f75b46aba414e8b66a2a451f168a7d": {
-"alerted_at": null,
-"last_edge": 0.2179,
+"alerted_at": "2026-09-09T01:55:18.995984+00:00",
+"last_edge": 0.3296,
 "resolved": false,
 "thesis_key": "us x iran diplomatic meeting"
 },
