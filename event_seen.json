@@ -239,6 +239,18 @@
 "resolved": false,
 "thesis_key": "us iran 60 day negotiation period"
 },
+"0x524ce344b80a160c237d91a33efdd8b82468b0dc0d33f60d500f8bf69b80b8bb": {
+"alerted_at": "2026-09-10T01:50:44.546733+00:00",
+"last_edge": 0.659,
+"resolved": false,
+"thesis_key": "israel x iran ceasefire continues through"
+},
+"0x58d5cc2bf06a3289b127049239aee051f3b941f219efebbca02d3f50f0eb2a64": {
+"alerted_at": "2026-09-10T01:50:44.546733+00:00",
+"last_edge": 0.4204,
+"resolved": false,
+"thesis_key": "will magdalena andersson be the next"
+},
 "0x5c19f205507ce03ff5f3be08a8090a5969ea6870cc07b902a4ca2e61dfe48fdd": {
 "alerted_at": "2026-06-24T02:03:05.854306+00:00",
 "last_edge": 0.185,
@@ -354,8 +366,8 @@
 "thesis_key": "will the republican party control the"
 },
 "0x876506d8b2bd7a0d3fa4fe18c024eee6e1dd81ee24c26795dadd6cfe4a7b5d0d": {
-"alerted_at": "2026-07-14T01:19:32.197169+00:00",
-"last_edge": 0.3229,
+"alerted_at": "2026-09-10T01:50:44.546733+00:00",
+"last_edge": 0.44,
 "resolved": false,
 "thesis_key": "will the fed increase interest rates"
 },
@@ -430,6 +442,12 @@
 "last_edge": 0.165,
 "resolved": false,
 "thesis_key": "will the democrats win the us"
+},
+"0xb3b0aebe0883b11310c60e6eec36db02e94956fa81e5a534c654733759f0e5b6": {
+"alerted_at": null,
+"last_edge": 0.2346,
+"resolved": false,
+"thesis_key": "russia x ukraine ceasefire agreement"
 },
 "0xb7f602753787aca77b7fa2f06a6fc999ed790ca9ebeafd2da6d138dda1568ff6": {
 "alerted_at": "2026-07-13T01:32:27.416124+00:00",
