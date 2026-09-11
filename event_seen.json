@@ -95,6 +95,12 @@
 "resolved": false,
 "thesis_key": "will paraguay be eliminated in the"
 },
+"0x19d2ff72e389d190c183e6b114817301d29eba651d67d75a38ee201a05188fd9": {
+"alerted_at": "2026-09-11T01:50:37.061069+00:00",
+"last_edge": 0.2804,
+"resolved": false,
+"thesis_key": "will peltola win the alaska senate"
+},
 "0x1a01bf78f56a507fcb666d564d8c8b91b0750679163ed6e96746102c9b7d285d": {
 "alerted_at": "2026-09-10T15:24:55.730843+00:00",
 "last_edge": 0.1836,
@@ -184,6 +190,12 @@
 "last_edge": 0.4046,
 "resolved": false,
 "thesis_key": "will the fed pause pause pause"
+},
+"0x39b718f6e0a66a3ae5e459e76c74a694b521eaff5f6015857d1d191f1fc03c61": {
+"alerted_at": "2026-09-11T01:50:37.061069+00:00",
+"last_edge": 0.3751,
+"resolved": false,
+"thesis_key": "will alexander zverev win the men"
 },
 "0x3de0f3d7d7efb40cde68e814d40a0b232832083653c8e78260eb999baa967de0": {
 "alerted_at": "2026-06-30T13:55:36.040227+00:00",
