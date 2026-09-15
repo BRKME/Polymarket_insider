@@ -240,8 +240,8 @@
 "thesis_key": "will donald trump announce that the"
 },
 "0x4d9ca2742a07651e2abee20648f041e73c97ef7c2bf048a2c2a202d2a856ced5": {
-"alerted_at": "2026-09-08T01:48:58.938001+00:00",
-"last_edge": 0.1604,
+"alerted_at": "2026-09-15T02:14:01.120523+00:00",
+"last_edge": 0.3606,
 "resolved": false,
 "thesis_key": "will bitcoin dip to 75 000"
 },
@@ -556,6 +556,12 @@
 "last_edge": 0.2925,
 "resolved": false,
 "thesis_key": "will the democratic party control the"
+},
+"0xda4fbe6eec3d6cc6f6d14785f25f86823514b0b4b37c63227af5b2670f2627f4": {
+"alerted_at": "2026-09-15T02:14:01.120523+00:00",
+"last_edge": 0.2043,
+"resolved": false,
+"thesis_key": "will linke win the most seats"
 },
 "0xda519921a7090298cbdc56ee838a403a5193c2b3f637aef3e154e52de7b5e79c": {
 "alerted_at": null,
