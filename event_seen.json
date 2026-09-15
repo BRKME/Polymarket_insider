@@ -395,6 +395,12 @@
 "resolved": false,
 "thesis_key": "will the fed increase interest rates"
 },
+"0x8a4196617dcb703e49d9bb36d3847bf6a75fd364dbd19f8d408ac944bf1a03d8": {
+"alerted_at": null,
+"last_edge": 0.093,
+"resolved": false,
+"thesis_key": "will the fed increase interest rates"
+},
 "0x8bf1c1536ecb1c08fe13c6b71e8ab1f58bf3461c4cb79f5f1679f869a06aef86": {
 "alerted_at": "2026-07-14T01:19:32.197169+00:00",
 "last_edge": 0.2079,
