@@ -353,6 +353,12 @@
 "resolved": false,
 "thesis_key": "will bitcoin dip to 55 000"
 },
+"0x7c724b5dc9c0d7932049feb52b645f69a4f43a201fe24f8d67d271566e00868d": {
+"alerted_at": "2026-09-16T02:05:59.951271+00:00",
+"last_edge": 0.3338,
+"resolved": false,
+"thesis_key": "will bitcoin dip to 72 500"
+},
 "0x7cbaf5b35048142abf76d7537b96272f1d40b71fcc3d7bb40ebdfe6382d269fc": {
 "alerted_at": "2026-07-01T14:08:06.904727+00:00",
 "last_edge": 0.2882,
@@ -397,7 +403,7 @@
 },
 "0x8a4196617dcb703e49d9bb36d3847bf6a75fd364dbd19f8d408ac944bf1a03d8": {
 "alerted_at": null,
-"last_edge": 0.093,
+"last_edge": 0.2479,
 "resolved": false,
 "thesis_key": "will the fed increase interest rates"
 },
@@ -588,8 +594,8 @@
 "thesis_key": "will luiz in cio lula da"
 },
 "0xdf9bf27ee5757c55b44b8b9826ddc9ec3a8809aa3278634c45edbb7fc8f1a3e3": {
-"alerted_at": null,
-"last_edge": 0.275,
+"alerted_at": "2026-09-16T02:05:59.951271+00:00",
+"last_edge": 0.441,
 "resolved": false,
 "thesis_key": "will there be no change in"
 },
