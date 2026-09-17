@@ -167,6 +167,12 @@
 "resolved": false,
 "thesis_key": "russia elections united russia wins every"
 },
+"0x2f7fd7124a7ff44d324a49cda1415371c7cc4ee111f60b288a3d6ad194319d15": {
+"alerted_at": null,
+"last_edge": 0.2249,
+"resolved": false,
+"thesis_key": "will nvidia be the largest company"
+},
 "0x30174f3f46398e37c96a07b45916e01eab9a8a854ecb624ac73a91a8490fd074": {
 "alerted_at": null,
 "last_edge": 0.3075,
@@ -570,8 +576,8 @@
 "thesis_key": "will the democratic party control the"
 },
 "0xda4fbe6eec3d6cc6f6d14785f25f86823514b0b4b37c63227af5b2670f2627f4": {
-"alerted_at": "2026-09-15T02:14:01.120523+00:00",
-"last_edge": 0.2043,
+"alerted_at": "2026-09-17T02:08:20.178417+00:00",
+"last_edge": 0.3306,
 "resolved": false,
 "thesis_key": "will linke win the most seats"
 },
