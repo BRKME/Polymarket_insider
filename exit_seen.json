@@ -34,5 +34,9 @@
  "0xd32ac3b2db228eb03d6385b5f0747b7013e0ff717a20e63c75fc74824b91d6b2": {
   "action": "TAKE_PARTIAL",
   "ts": "2026-09-13T03:48:24.963212+00:00"
+ },
+ "0xbc0070bd88b113d9beedbae5efd78df0e605ca029aff8ef470c881010c923a24": {
+  "action": "CUT",
+  "ts": "2026-09-17T21:15:59.060414+00:00"
  }
 }
