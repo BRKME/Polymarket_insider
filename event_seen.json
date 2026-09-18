@@ -329,6 +329,12 @@
 "resolved": false,
 "thesis_key": "spain leading at halftime"
 },
+"0x6c9bd12ca2dded7eb4c688a3200e94f143cc95984eb1952ab71f7ec31e07cf8c": {
+"alerted_at": "2026-09-18T01:55:47.783480+00:00",
+"last_edge": 0.176,
+"resolved": false,
+"thesis_key": "will afd win the most seats"
+},
 "0x6d7203b2161a636a6ad554a986400e29411aecfdb51f91416a0ef9f7b6685e3b": {
 "alerted_at": "2026-09-08T01:48:58.938001+00:00",
 "last_edge": 0.3646,
