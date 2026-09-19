@@ -341,6 +341,12 @@
 "resolved": false,
 "thesis_key": "will bitcoin dip to 70 000"
 },
+"0x6fd50b47f79642adc8f53a26a214273179e3e90f83fa09d0172ec74e9ca07651": {
+"alerted_at": "2026-09-19T02:01:32.778674+00:00",
+"last_edge": 0.199,
+"resolved": false,
+"thesis_key": "will democrats sweep the minnesota senate"
+},
 "0x723822eb2b143cee54c0bd7c1efba322b21f0051984c266df8879c394f1011c0": {
 "alerted_at": null,
 "last_edge": 0.2279,
@@ -538,6 +544,12 @@
 "last_edge": 0.5314,
 "resolved": false,
 "thesis_key": "will anthropic s valuation hit high"
+},
+"0xcd2640464754b9a894ffec98ac11554fdd507ea89ca01237eabb3a6de4a606e6": {
+"alerted_at": "2026-09-19T02:01:32.778674+00:00",
+"last_edge": 0.581,
+"resolved": false,
+"thesis_key": "will kimi antonelli be the f1"
 },
 "0xcee04ba47d02f6c64642369b34193c355f64de1b9ae425c71ea4efef1989d271": {
 "alerted_at": "2026-08-05T13:33:27.814132+00:00",
