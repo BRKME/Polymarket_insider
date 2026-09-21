@@ -47,12 +47,6 @@
 "resolved": false,
 "thesis_key": "will karen bass win the los"
 },
-"0x1239389645c8a73b170b78ef3a83d69b6cf1d2711d412829ea8836660b08fc93": {
-"alerted_at": "2026-08-23T00:35:46.339966+00:00",
-"last_edge": 0.3508,
-"resolved": false,
-"thesis_key": "will bitcoin reach 85 000"
-},
 "0x12dc2b61723b2a54fc1947a307389b5f32038e7a29a0e936ad1fe410b969d06a": {
 "alerted_at": "2026-08-02T01:29:39.608734+00:00",
 "last_edge": 0.3174,
@@ -580,12 +574,6 @@
 "last_edge": 0.2925,
 "resolved": false,
 "thesis_key": "will the democratic party control the"
-},
-"0xda4fbe6eec3d6cc6f6d14785f25f86823514b0b4b37c63227af5b2670f2627f4": {
-"alerted_at": "2026-09-17T02:08:20.178417+00:00",
-"last_edge": 0.3306,
-"resolved": false,
-"thesis_key": "will linke win the most seats"
 },
 "0xda519921a7090298cbdc56ee838a403a5193c2b3f637aef3e154e52de7b5e79c": {
 "alerted_at": null,
