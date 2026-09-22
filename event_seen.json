@@ -191,6 +191,12 @@
 "resolved": false,
 "thesis_key": "will the fed pause pause pause"
 },
+"0x3738ad9665480991affe3ba286cd035516e17d1f8b7703e05088ec19c70c21a4": {
+"alerted_at": null,
+"last_edge": 0.1086,
+"resolved": false,
+"thesis_key": "us x iran ceasefire continues through"
+},
 "0x39b718f6e0a66a3ae5e459e76c74a694b521eaff5f6015857d1d191f1fc03c61": {
 "alerted_at": "2026-09-11T01:50:37.061069+00:00",
 "last_edge": 0.3751,
@@ -311,11 +317,23 @@
 "resolved": false,
 "thesis_key": "spacex ipo closing cap above 2t"
 },
+"0x67f3f8d0a0ecdfc008c99650284a4674388a8c3029b0eb7ca0abd65dde8d996f": {
+"alerted_at": "2026-09-22T02:11:38.370457+00:00",
+"last_edge": 0.4347,
+"resolved": false,
+"thesis_key": "will nicol s maduro be the"
+},
 "0x684e5b72d4e407695397a79ed75ef37273c2655ca2548791a4153233d3744696": {
 "alerted_at": "2026-07-02T02:07:03.662846+00:00",
 "last_edge": 0.125,
 "resolved": false,
 "thesis_key": "will nvidia be the largest company"
+},
+"0x690fafd3b7bb8b4919ccf0f219b0014b65334411a1076162e76353e76d7f9bec": {
+"alerted_at": "2026-09-22T02:11:38.370457+00:00",
+"last_edge": 0.1514,
+"resolved": false,
+"thesis_key": "us x iran ceasefire continues through"
 },
 "0x6b965a02301510c05a7d843f6bb22888b4cd5c09553becf3be78a97c974484d3": {
 "alerted_at": "2026-07-01T14:08:06.904727+00:00",
@@ -436,6 +454,12 @@
 "last_edge": 0.44,
 "resolved": false,
 "thesis_key": "spacex ipo closing cap above 2"
+},
+"0x9639a6a92c4b2a434ee674c104c7f4660340663b91e418e2be1ee4377971aa32": {
+"alerted_at": "2026-09-22T02:11:38.370457+00:00",
+"last_edge": 0.2256,
+"resolved": false,
+"thesis_key": "will aleksandar vu i be the"
 },
 "0x9769f78cbc95a5ed11895e6064bac471d8fd8f930b260cf581b68d3f58630d27": {
 "alerted_at": null,
