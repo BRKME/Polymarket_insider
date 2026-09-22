@@ -473,6 +473,22 @@ _POLYGON_RPCS = [
 ]
 
 
+def _rpc_endpoints() -> List[str]:
+    """RPC для чтения баланса: свой ключевой endpoint первым, публичные — запас.
+
+    Публичные RPC блокируют IP датацентров, включая GitHub Actions, поэтому в
+    бою все три молчали и наличные показывались как «нет источника» (04.09.2026,
+    при \$123.49 на кошельке). Ключевой endpoint задаётся секретом POLYGON_RPC.
+    """
+    import os
+    own = (os.getenv("POLYGON_RPC") or "").strip()
+    out = [own] if own else []
+    for r in _POLYGON_RPCS:
+        if r not in out:
+            out.append(r)
+    return out
+
+
 def _erc20_balance(rpc: str, token: str, holder_padded: str) -> Optional[float]:
     import requests
     payload = {"jsonrpc": "2.0", "id": 1, "method": "eth_call",
@@ -497,7 +513,7 @@ def _fetch_cash_value() -> Optional[float]:
     try:
         from fill_matcher import PROXY_WALLET
         holder = PROXY_WALLET.lower().replace("0x", "").rjust(64, "0")
-        for rpc in _POLYGON_RPCS:
+        for rpc in _rpc_endpoints():
             total = 0.0
             got_any = False
             for token in _USDC_TOKENS.values():

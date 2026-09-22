@@ -43,4 +43,5 @@ jobs:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           POLYMARKET_PROXY_WALLET: ${{ secrets.POLYMARKET_PROXY_WALLET }}
+          POLYGON_RPC: ${{ secrets.POLYGON_RPC }}
         run: python daily_status.py
