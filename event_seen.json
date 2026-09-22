@@ -317,12 +317,6 @@
 "resolved": false,
 "thesis_key": "spacex ipo closing cap above 2t"
 },
-"0x67f3f8d0a0ecdfc008c99650284a4674388a8c3029b0eb7ca0abd65dde8d996f": {
-"alerted_at": "2026-09-22T02:11:38.370457+00:00",
-"last_edge": 0.4347,
-"resolved": false,
-"thesis_key": "will nicol s maduro be the"
-},
 "0x684e5b72d4e407695397a79ed75ef37273c2655ca2548791a4153233d3744696": {
 "alerted_at": "2026-07-02T02:07:03.662846+00:00",
 "last_edge": 0.125,
@@ -634,6 +628,12 @@
 "last_edge": 0.3296,
 "resolved": false,
 "thesis_key": "us x iran diplomatic meeting"
+},
+"0xe96dbaceb816e80063bec945a76ac915cba4341bdf1ef704f722bfc9054aad09": {
+"alerted_at": "2026-09-22T15:54:14.574553+00:00",
+"last_edge": 0.4298,
+"resolved": false,
+"thesis_key": "will anthropic have the highest ipo"
 },
 "0xed5a9e7831ee363d92cb102f2c21e2465b09196ef5beb7c8e23671851a1c3ca4": {
 "alerted_at": "2026-08-03T01:31:06.603552+00:00",
