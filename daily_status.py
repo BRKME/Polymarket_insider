@@ -152,6 +152,34 @@ def realized_block(resolved: List[dict], now=None,
     return "\n".join([head] + lines)
 
 
+def pending_payout_block(positions: List[dict]) -> Optional[str]:
+    """Выигранные рынки, выплата по которым ещё не забрана (redeemable=True).
+
+    Polymarket считает их в Portfolio — они стоят ~$1 за долю. Бот их отбрасывал
+    как «не открытые», из-за чего его сумма была меньше реальной, а картина
+    асимметричной: проигрыши показывались в «Реализовано», выигрыши исчезали
+    (расхождение 04.09.2026: бот $140 против ~$200 у оператора).
+    """
+    pend = []
+    for p in positions or []:
+        if p.get("redeemable") is not True:
+            continue
+        try:
+            v = float(p.get("currentValue") or 0)
+        except (TypeError, ValueError):
+            continue
+        if v > 0:
+            pend.append((v, str(p.get("title", ""))))
+    if not pend:
+        return None
+    total = sum(v for v, _ in pend)
+    lines = [f"\n🏆 К выплате (выиграно, не забрано): ${total:.0f} "
+             f"({len(pend)} поз.)"]
+    for v, t in sorted(pend, reverse=True)[:3]:
+        lines.append(f"  🟢 {smart_truncate(t, 42)}  ${v:.0f}")
+    return "\n".join(lines)
+
+
 def build_status_from_wallet(positions: List[dict], journal: List[dict],
                              cash_value: Optional[float] = None,
                              now=None) -> str:
@@ -167,6 +195,7 @@ def build_status_from_wallet(positions: List[dict], journal: List[dict],
     jmap = {r.get("condition_id"): r for r in journal}
 
     realized = realized_block(resolved_positions(positions, now=now), now=now)
+    pending = pending_payout_block(positions)
     positions = filter_open_positions(positions)
     n = len(positions)
     total_invested = total_current = total_pnl = 0.0
@@ -224,6 +253,8 @@ def build_status_from_wallet(positions: List[dict], journal: List[dict],
               f"{total_txt}")
 
     parts = [header]
+    if pending:
+        parts.append(pending)
     if realized:
         parts.append(realized)
     has_hint = any("→" in line for _, line in detail_lines)
@@ -493,13 +524,24 @@ def _fetch_positions() -> Optional[List[dict]]:
     try:
         import requests
         from fill_matcher import DATA_API, PROXY_WALLET
-        r = requests.get(f"{DATA_API}/positions",
-                         params={"user": PROXY_WALLET, "sizeThreshold": 1},
-                         timeout=20)
-        if r.status_code != 200:
-            return None
-        data = r.json()
-        return data if isinstance(data, list) else None
+        # /positions отдаёт 100 записей по умолчанию (max 500) и включает всю
+        # историю кошелька. Без пагинации хвост молча отрезается по мере роста
+        # истории — берём страницами до конца.
+        out: List[dict] = []
+        for page in range(10):
+            r = requests.get(f"{DATA_API}/positions",
+                             params={"user": PROXY_WALLET, "sizeThreshold": 1,
+                                     "limit": 500, "offset": page * 500},
+                             timeout=20)
+            if r.status_code != 200:
+                return out or None
+            batch = r.json()
+            if not isinstance(batch, list) or not batch:
+                break
+            out.extend(batch)
+            if len(batch) < 500:
+                break
+        return out or None
     except Exception:
         return None
 
