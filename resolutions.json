@@ -126,5 +126,9 @@
 "0x6c9bd12ca2dded7eb4c688a3200e94f143cc95984eb1952ab71f7ec31e07cf8c": {
 "outcome": "Yes",
 "resolved_at": "2026-09-21T11:33:57.184556+00:00"
+},
+"0x2f112a1cd954debe3438caac411ca4395cc53be0e1580a5802ab42618b94aff7": {
+"outcome": "Yes",
+"resolved_at": "2026-09-22T10:39:45.576636+00:00"
 }
 }
