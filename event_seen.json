@@ -192,8 +192,8 @@
 "thesis_key": "will the fed pause pause pause"
 },
 "0x3738ad9665480991affe3ba286cd035516e17d1f8b7703e05088ec19c70c21a4": {
-"alerted_at": null,
-"last_edge": 0.1086,
+"alerted_at": "2026-09-23T15:43:46.067982+00:00",
+"last_edge": 0.3538,
 "resolved": false,
 "thesis_key": "us x iran ceasefire continues through"
 },
@@ -328,6 +328,12 @@
 "last_edge": 0.1514,
 "resolved": false,
 "thesis_key": "us x iran ceasefire continues through"
+},
+"0x694595d0a008f10e4701285d071e4b08407495f6f8a6bd8cbdd7de522fa9b463": {
+"alerted_at": "2026-09-23T15:43:46.067982+00:00",
+"last_edge": 0.1691,
+"resolved": false,
+"thesis_key": "will nithya raman win the los"
 },
 "0x6b965a02301510c05a7d843f6bb22888b4cd5c09553becf3be78a97c974484d3": {
 "alerted_at": "2026-07-01T14:08:06.904727+00:00",
