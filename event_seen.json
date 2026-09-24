@@ -47,6 +47,12 @@
 "resolved": false,
 "thesis_key": "will karen bass win the los"
 },
+"0x12aa13b3da17ceae1b0a59b5d5b77121e91bb79b4bb0b52bf6543ed3f8d0953b": {
+"alerted_at": null,
+"last_edge": 0.0986,
+"resolved": false,
+"thesis_key": "will the fed increase interest rates"
+},
 "0x12dc2b61723b2a54fc1947a307389b5f32038e7a29a0e936ad1fe410b969d06a": {
 "alerted_at": "2026-08-02T01:29:39.608734+00:00",
 "last_edge": 0.3174,
