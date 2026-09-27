@@ -1,1 +1,26 @@
-[]
+[
+{
+"wallet": "0x361b16e3ddfe1d415d41008daac2631d94ab74fe",
+"name": "0x361b16e3ddfe1d415d",
+"eff": 0.319,
+"pnl": 1204408
+},
+{
+"wallet": "0x03e8a544e97eeff5753bc1e90d46e5ef22af1697",
+"name": "weflyhigh",
+"eff": 0.295,
+"pnl": 355841
+},
+{
+"wallet": "0xb9c7d35d1f04d08624fabcfd3b6cee2d3c9baade",
+"name": "taylorsversion",
+"eff": 0.282,
+"pnl": 224831
+},
+{
+"wallet": "0xa96274cc1b321afc8cbdc1ba07f7e2d471e6f7c8",
+"name": "Takon88",
+"eff": 0.267,
+"pnl": 243251
+}
+]
