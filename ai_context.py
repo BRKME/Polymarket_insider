@@ -388,6 +388,37 @@ def _build_estimator_prompt(question: str, description: str = None,
     return "\n".join(parts)
 
 
+# Журнал расхода: одна строка на каждый реальный вызов estimator'а. Без него
+# не видно, сколько стоит скан (а счёт xAI общий с другими проектами).
+USAGE_LOG = os.getenv("GROK_USAGE_LOG", "grok_usage.jsonl")
+
+# Предохранитель: когда xAI отвечает «кончились кредиты / лимит трат», все
+# следующие вызовы в этом запуске заведомо упадут так же — не долбим API.
+_BILLING_BLOCKED = False
+
+
+def _is_billing_block(status_code: int, body: str) -> bool:
+    if status_code not in (402, 403):
+        return False
+    low = (body or "").lower()
+    return "credits" in low or "spending limit" in low
+
+
+def _log_usage(use_search: bool, status_code: int, data: Optional[dict]) -> None:
+    try:
+        import json
+        row = {
+            "ts": datetime.utcnow().isoformat(timespec="seconds") + "Z",
+            "call": "estimator_search" if use_search else "estimator_screen",
+            "status": status_code,
+            "usage": (data or {}).get("usage"),
+        }
+        with open(USAGE_LOG, "a") as f:
+            f.write(json.dumps(row, ensure_ascii=False) + "\n")
+    except Exception as e:
+        print(f"  ⚠️ usage log failed: {e}")
+
+
 def estimate_probability(question: str, description: str = None,
                          end_date: str = None,
                          use_search: bool = True) -> Optional[dict]:
@@ -405,7 +436,8 @@ def estimate_probability(question: str, description: str = None,
     Returns {"prob": float 0..1, "conf": str, "why": str} or None on failure.
     Confidence is surfaced so the scanner can require 'medium'+ before trading.
     """
-    if not question or not XAI_API_KEY:
+    global _BILLING_BLOCKED
+    if not question or not XAI_API_KEY or _BILLING_BLOCKED:
         return None
 
     prompt = _build_estimator_prompt(question, description, end_date)
@@ -432,9 +464,14 @@ def estimate_probability(question: str, description: str = None,
         )
         if resp.status_code != 200:
             print(f"  ❌ estimator HTTP {resp.status_code}: {resp.text[:160]}")
+            if _is_billing_block(resp.status_code, resp.text):
+                _BILLING_BLOCKED = True
+                print("  ⛔ xAI: кредиты/лимит исчерпаны — остальные оценки "
+                      "в этом запуске пропускаем")
             return None
 
         data = resp.json()
+        _log_usage(use_search, resp.status_code, data)
         parts = []
         for block in data.get("output", []):
             bt = block.get("type")
