@@ -1,7 +1,7 @@
 {
  "__exposure__": {
-  "action": "elections",
-  "ts": "2026-10-01T23:44:48.416326+00:00"
+  "action": "elections,other",
+  "ts": "2026-10-02T12:04:24.836633+00:00"
  },
  "0xce3c54c3e773e8b3bf73e4c12af93205b21195d03b9c386e22f274b9acfc2c56": {
   "action": "CUT",
