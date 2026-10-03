@@ -505,7 +505,7 @@
 },
 "0x968a1a79e001d49fa3ee1429e3b95eb01797587740f86d4e6becf3ab1b275bfb": {
 "alerted_at": null,
-"last_edge": 0.0,
+"last_edge": 0.1776,
 "resolved": false,
 "thesis_key": "will the democrats win the ohio"
 },
@@ -592,6 +592,12 @@
 "last_edge": 0.0,
 "resolved": false,
 "thesis_key": "us x iran diplomatic meeting"
+},
+"0xb8b5349814450b8bba2ecdda2eeb9f48bd3c795bfb858bedf7a383712b877743": {
+"alerted_at": "2026-10-03T15:23:47.898132+00:00",
+"last_edge": 0.3778,
+"resolved": false,
+"thesis_key": "will the republicans win the kansas"
 },
 "0xb8e6d129a06d0ccb21d7b32eb529ea455eddba3cf29bfa097112202cbdf5bf21": {
 "alerted_at": null,
