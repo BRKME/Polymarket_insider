@@ -256,8 +256,14 @@ def _make_logging_estimator(markets: list):
     # Двухэтапная оценка: дешёвый скрин без поиска -> дорогой поиск ($5/1000)
     # только на рынки с сильным скрин-edge. Кэш стоит ПЕРЕД этим, так что
     # повторный скан слоумувинг-рынка не платит ни за один этап.
+    import yes_strategy as ys
+
+    def _yes_confirm(yes_price, cheap_prob):
+        return ys.yes_gate(yes_price) and cheap_prob > ys.GROK_YES_THRESHOLD
+
     two_stage = es.make_two_stage_estimator(
-        estimate_probability, yes_price_for=_yes_for, screen_edge_min=es.EDGE_MIN)
+        estimate_probability, yes_price_for=_yes_for, screen_edge_min=es.EDGE_MIN,
+        yes_confirm=_yes_confirm)
 
     cached_real = ai_cache.make_cached_estimator(
         two_stage, cache_store, cid_for=_cid_for, yes_for=_yes_for)

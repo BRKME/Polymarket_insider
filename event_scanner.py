@@ -417,7 +417,8 @@ def _thesis_key(question: str) -> str:
     return ' '.join(q.split()[:6])      # stable head
 
 
-def make_two_stage_estimator(underlying, yes_price_for, screen_edge_min=0.10):
+def make_two_stage_estimator(underlying, yes_price_for, screen_edge_min=0.10,
+                             yes_confirm=None):
     """Двухэтапная оценка для экономии на дорогом поиске Grok ($5/1000 вызовов).
 
     Этап 1: дешёвый вызов БЕЗ поиска (use_search=False) — только токены.
@@ -428,6 +429,9 @@ def make_two_stage_estimator(underlying, yes_price_for, screen_edge_min=0.10):
 
     underlying(question, desc, end, use_search=bool) -> est|None
     yes_price_for(question) -> текущая YES-цена рынка (для скрин-edge)
+    yes_confirm(yes_price, cheap_prob) -> bool — YES-кандидат (Grok согласен с
+        рынком в YES-зоне) тоже идёт на поиск: NO-разрыв у него ~0, и без этого
+        Grok судил выборы по памяти («кандидаты не определены», 04.10.2026).
     """
     def _estimator(question: str, description: str = None, end_date: str = None):
         def _call(use_search):
@@ -445,7 +449,8 @@ def make_two_stage_estimator(underlying, yes_price_for, screen_edge_min=0.10):
         if yes is None:
             return None
         screen_edge = float(yes) - float(cheap["prob"])
-        if screen_edge < screen_edge_min:
+        is_yes_candidate = bool(yes_confirm and yes_confirm(float(yes), float(cheap["prob"])))
+        if screen_edge < screen_edge_min and not is_yes_candidate:
             return cheap            # слабый edge — отдаём дешёвую оценку, поиск пропущен
         confirmed = _call(True)
         return confirmed or cheap
