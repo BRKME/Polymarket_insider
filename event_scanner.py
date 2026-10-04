@@ -489,7 +489,7 @@ def _horizon_score(edge: float, hours_to_resolve: Optional[float]) -> float:
 def scan_yes(markets: List[Dict], ai_estimate_fn: Callable[[str], Optional[dict]]) -> List[Candidate]:
     """YES-стратегия средней зоны (разворот после провала NO).
 
-    Ставим YES там, где рыночная цена YES в 50-70% И Grok согласен по
+    Ставим YES там, где рыночная цена YES в 50-65% И Grok согласен по
     направлению (склонён к YES). Плывём ПО рынку, не против. Отдельная выборка,
     не наследует метрики NO. Использует ту же посткалибровку оценки Grok.
     """

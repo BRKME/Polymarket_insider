@@ -36,6 +36,17 @@ def split_by_side(rows: list) -> Tuple[list, list]:
     return yes, no
 
 
+# Счётчик YES-выборки перезапущен 04.10.2026 (гейт по сырому Grok, поиск,
+# conf ≥ medium — политика §1). Резолвы до и после — разные выборки.
+YES_SAMPLE_SINCE = "2026-10-04"
+
+
+def since_restart(rows: list) -> list:
+    """Строки, алертнутые не раньше перезапуска счётчика YES-выборки."""
+    return [r for r in rows or []
+            if str(r.get("alerted_at") or "")[:10] >= YES_SAMPLE_SINCE]
+
+
 def side_stats(rows: list) -> dict:
     """WR и n по резолвнувшимся позициям одной стороны (won: True/False/None)."""
     resolved = [r for r in rows or [] if r.get("won") is not None]
@@ -113,7 +124,10 @@ def report() -> None:
     yes, no = split_by_side(rows)
     print(f"  YES-позиций: {len(yes)} · NO-позиций: {len(no)}\n")
 
-    for name, rs in (("YES (средняя зона 50-65%)", yes), ("NO (осн., алерты выключены)", no)):
+    for name, rs in ((f"YES с {YES_SAMPLE_SINCE} (текущая выборка — по ней вердикт)",
+                      since_restart(yes)),
+                     ("YES вся история (смешанные выборки, НЕ для вердикта)", yes),
+                     ("NO (осн., алерты выключены)", no)):
         st = side_stats(rs)
         print(f"=== {name} ===")
         if st["n"] == 0:

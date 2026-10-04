@@ -356,7 +356,8 @@ def _format_alert(c: es.Candidate) -> str:
         fire = "✅"
     url = _market_url(c)
 
-    # дата + заморозка
+    # дата + заморозка. endDate рынка — нижняя граница резолва, не дата выплаты:
+    # подсчёт голосов, второй тур (Джорджия), споры оракула отодвигают её.
     end_h = "?"
     lock = ""
     try:
@@ -421,6 +422,7 @@ def _format_alert(c: es.Candidate) -> str:
 
     # YES-ветка: новая стратегия средней зоны — своё действие и пометки
     if getattr(c, "side", "NO") == "YES":
+        import yes_strategy as _ys
         yes_cents = f"{c.market_yes_price*100:.0f}¢"
         # Показываем то, что сказал Grok (по этому числу и судится согласие),
         # а не константу корзины калибровки.
@@ -428,11 +430,12 @@ def _format_alert(c: es.Candidate) -> str:
         grok_shown = _raw if _raw is not None else c.ai_yes_estimate
         lines = [
             f"{fire} {c.question}",
-            f"Купить YES ~{yes_cents}{size_txt} · резолв {end_h}{lock}",
+            f"Купить YES ~{yes_cents}{size_txt} · резолв ≥{end_h}{lock}",
             "",
             f"Рынок YES: {c.market_yes_price*100:.0f}% · "
             f"Grok: {grok_shown*100:.0f}% ({c.ai_conf}) — согласие по YES",
-            "🧪 Новая стратегия средней зоны (50-70%) — ещё НЕ валидирована, "
+            f"🧪 Новая стратегия средней зоны ({_ys.YES_MIN*100:.0f}-"
+            f"{_ys.YES_MAX*100:.0f}%) — ещё НЕ валидирована, "
             "решай сам, копим выборку",
         ]
         if why:
@@ -449,7 +452,7 @@ def _format_alert(c: es.Candidate) -> str:
     cents = f"{c.no_price*100:.0f}¢"
     lines = [
         f"{fire} {c.question}",
-        f"Купить NO ~{cents}{size_txt} · резолв {end_h}{lock}",
+        f"Купить NO ~{cents}{size_txt} · резолв ≥{end_h}{lock}",
         "",
         f"Рынок верит в YES: {c.market_yes_price*100:.0f}% · "
         f"Grok: {c.ai_yes_estimate*100:.0f}% ({c.ai_conf}) → "
