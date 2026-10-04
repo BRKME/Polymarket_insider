@@ -317,6 +317,12 @@
 "resolved": false,
 "thesis_key": "will aryna sabalenka win the women"
 },
+"0x6114306f724135bd1db2f5f3169386decf18f618653c196ef0a6c1afd27f4c73": {
+"alerted_at": "2026-10-04T03:17:12.928718+00:00",
+"last_edge": 0.4178,
+"resolved": false,
+"thesis_key": "will fl vio bolsonaro finish in"
+},
 "0x61c2b9e70f7fdf3441fd1cfa2c8fa93308fefe3f5ecc2db87c393efab3a207a3": {
 "alerted_at": "2026-08-02T01:29:39.608734+00:00",
 "last_edge": 0.3508,
@@ -388,6 +394,18 @@
 "last_edge": 0.199,
 "resolved": false,
 "thesis_key": "will democrats sweep the minnesota senate"
+},
+"0x707eb5c6df23e32e0b770dd0ccd1245abb7fac0dcfd24d8b68dd99e5ca737180": {
+"alerted_at": "2026-10-04T03:17:12.928718+00:00",
+"last_edge": 0.0,
+"resolved": false,
+"thesis_key": "will the democrats win the nevada"
+},
+"0x71c05b735300b6087ff5588bcc7e83fecf009293d794f613c63c92ea8a16fb2b": {
+"alerted_at": "2026-10-04T03:17:12.928718+00:00",
+"last_edge": 0.0044,
+"resolved": false,
+"thesis_key": "will the republicans win the georgia"
 },
 "0x723822eb2b143cee54c0bd7c1efba322b21f0051984c266df8879c394f1011c0": {
 "alerted_at": null,
@@ -498,8 +516,8 @@
 "thesis_key": "will bitcoin reach 90 000 in"
 },
 "0x9639a6a92c4b2a434ee674c104c7f4660340663b91e418e2be1ee4377971aa32": {
-"alerted_at": "2026-09-22T02:11:38.370457+00:00",
-"last_edge": 0.2256,
+"alerted_at": "2026-10-04T03:17:12.928718+00:00",
+"last_edge": 0.3473,
 "resolved": false,
 "thesis_key": "will aleksandar vu i be the"
 },
@@ -630,8 +648,8 @@
 "thesis_key": "will anthropic s valuation hit high"
 },
 "0xcba20965509d04b5f3ae2c51a221747317aff9387c197ca6d5919e85e5a20ee9": {
-"alerted_at": "2026-10-03T02:43:25.317133+00:00",
-"last_edge": 0.095,
+"alerted_at": "2026-10-04T03:17:12.928718+00:00",
+"last_edge": 0.4278,
 "resolved": false,
 "thesis_key": "will renan santos finish in third"
 },
@@ -712,6 +730,12 @@
 "last_edge": 0.1525,
 "resolved": false,
 "thesis_key": "us x iran diplomatic meeting"
+},
+"0xf19d6b617a3c6382448444824b42ba172be2d88b8a1491f7dfc7be6327e510a1": {
+"alerted_at": "2026-10-04T03:17:12.928718+00:00",
+"last_edge": 0.3778,
+"resolved": false,
+"thesis_key": "will lula win the most votes"
 },
 "0xf35f7e818e58b63a996f909956b0ea1ad5c6517653cb4e67ce735e3666443920": {
 "alerted_at": "2026-08-02T01:29:39.608734+00:00",
