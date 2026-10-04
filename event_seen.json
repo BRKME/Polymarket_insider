@@ -479,12 +479,6 @@
 "resolved": false,
 "thesis_key": "will the fed increase interest rates"
 },
-"0x88b2827dd9bb9b3ebd4f229561a7606bd2bbdedbf3dfbb9c563e1e7dd2673747": {
-"alerted_at": "2026-10-02T03:03:09.327027+00:00",
-"last_edge": 0.3016,
-"resolved": false,
-"thesis_key": "variational fdv above 1b one day"
-},
 "0x8a4196617dcb703e49d9bb36d3847bf6a75fd364dbd19f8d408ac944bf1a03d8": {
 "alerted_at": null,
 "last_edge": 0.2479,
@@ -568,12 +562,6 @@
 "last_edge": 0.1515,
 "resolved": false,
 "thesis_key": "will argentina be eliminated in the"
-},
-"0xa34edb6c898232378a9cc08744842df2cd89d278ba45b012bed3ac10c7241c4d": {
-"alerted_at": "2026-10-02T03:03:09.327027+00:00",
-"last_edge": 0.177,
-"resolved": false,
-"thesis_key": "will lamine yamal win the ballon"
 },
 "0xa3b36b2d6104d34af4e6c6215fc818e43352e78a748fbfb0b85e3a35f71dec9a": {
 "alerted_at": null,
