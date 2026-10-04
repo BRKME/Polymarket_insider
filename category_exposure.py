@@ -45,6 +45,7 @@ _CATEGORIES = [
     ("elections", [
         "election", "president", "presidential", "prime minister", "senate",
         "parliament", "governor", "mayor", "primary", "nominee", "impeach",
+        "house seat", "house race", "midterm", "midterms", "nomination",
     ]),
     ("companies", [
         "ipo", "market cap", "acquisition", "merger", "stock", "earnings",

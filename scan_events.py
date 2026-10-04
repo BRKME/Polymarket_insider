@@ -382,11 +382,22 @@ def _format_alert(c: es.Candidate) -> str:
         import category_exposure as cx
         from config import BANKROLL, CATEGORY_EXPOSURE_CAP
         cat = cx.classify(c.question, slug=getattr(c, "event_slug", None))
-        cur = cx.exposure_by_category(_load_journal_rows()).get(cat, 0.0)
+        exp = cx.exposure_by_category(_load_journal_rows())
+        cur = exp.get(cat, 0.0)
         pct = cur / BANKROLL * 100 if BANKROLL > 0 else 0
-        warn = " ⚠️ЛИМИТ" if BANKROLL > 0 and \
-            (cur / BANKROLL) > CATEGORY_EXPOSURE_CAP else ""
+        over_cap = BANKROLL > 0 and (cur / BANKROLL) > CATEGORY_EXPOSURE_CAP
+        warn = " ⚠️ЛИМИТ" if over_cap else ""
         cat_line = f" · в {cat} уже открыто ${cur:.0f} ({pct:.0f}% банка){warn}"
+        # Лимит — правило оператора, код его не навязывает (алерт уходит), но и
+        # не советует нарушить: «⚠️ЛИМИТ» рядом с «размер ~$15» — противоречие.
+        if over_cap:
+            size_txt = " · ⚠️ категория над лимитом — не докупать"
+        # Подтверждённых ставок больше банка — либо BANKROLL устарел, либо банк
+        # перегружен; в обоих случаях проценты выше врут, оператор должен знать.
+        total = sum(exp.values())
+        if BANKROLL > 0 and total > BANKROLL:
+            cat_line += (f"\n⚠️ всего открыто ${total:.0f} > банк ${BANKROLL:.0f}"
+                         f" — проверь BANKROLL в config.py")
     except Exception:
         pass
 
