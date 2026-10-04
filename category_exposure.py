@@ -32,6 +32,8 @@ _CATEGORIES = [
         "msi", "lck", "worlds 2026", "esports",
         "round of 16", "round of 32", "quarterfinal", "semifinal",
         " fc ", "both halves", "leading at",
+        "laliga", "championship series", "world series", "stanley cup",
+        "ballon d'or", "nba finals",
     ]),
     ("geopolitics", [
         "war", "ceasefire", "peace deal", "invade", "invasion", "missile",

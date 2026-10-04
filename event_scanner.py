@@ -119,6 +119,15 @@ def _is_sport_or_hft(question: str) -> bool:
         return True
     if any(m in q for m in HFT_SUBSTR_MARKERS):
         return True
+    # Классификатор экспозиции знает спорт шире (halftime, World Cup, LALIGA,
+    # Ballon d'Or...). Раньше списки жили раздельно, и спорт, который экспозиция
+    # видела как sports, сканер пропускал в ставки (04.10.2026).
+    try:
+        import category_exposure as cx
+        if cx.classify(question) == "sports":
+            return True
+    except Exception:
+        pass
     return False
 
 
