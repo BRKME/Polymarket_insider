@@ -77,3 +77,17 @@ def test_alert_shows_raw_grok(monkeypatch):
     text = se._format_alert(out[0])
     assert "Grok: 75%" in text
     assert "Grok: 78%" not in text      # 0.7826 — среднее корзины 0.6-0.8
+
+
+# ── Уверенность (04.10.2026) ─────────────────────────────────────────────────
+# NO-ветка требует conf >= medium (MIN_CONFIDENCE), YES-ветка пропускала low:
+# оба алерта 04.10 (Georgia, Nevada) — low, всего таких 21 из 82.
+
+def test_low_confidence_rejected(monkeypatch):
+    assert _scan(monkeypatch, "Will the Republicans win the Iowa Senate race?",
+                 0.58, 0.75, conf="low") == []
+
+
+def test_medium_confidence_passes(monkeypatch):
+    assert len(_scan(monkeypatch, "Will the Republicans win the Iowa Senate race?",
+                     0.58, 0.75, conf="medium")) == 1

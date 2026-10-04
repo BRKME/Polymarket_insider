@@ -517,6 +517,10 @@ def scan_yes(markets: List[Dict], ai_estimate_fn: Callable[[str], Optional[dict]
             est = ai_estimate_fn(q)
         if not est or est.get("prob") is None:
             continue
+        # Тот же порог уверенности, что в NO-ветке: low-оценки слишком шумные
+        # для ставки (до 04.10.2026 YES-ветка его не проверяла).
+        if _CONF_RANK.get(str(est.get("conf", "low")), 0) < _CONF_RANK[MIN_CONFIDENCE]:
+            continue
         grok_yes_raw = float(est["prob"])
         try:
             import calibration_map as cm
