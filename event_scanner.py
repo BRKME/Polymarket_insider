@@ -104,6 +104,8 @@ class Candidate:
                                 # постфактум был фактическим, а не по флагу
     side: str = "NO"            # сторона ставки: "NO" (осн.) или "YES" (новая
                                 # стратегия средней зоны, валидируется отдельно)
+    ai_yes_raw: Optional[float] = None  # сырая оценка Grok ДО калибровки — по ней
+                                # YES-гейт судит о согласии (см. scan_yes)
 
     def to_alert(self) -> Dict:
         return asdict(self)
@@ -516,7 +518,13 @@ def scan_yes(markets: List[Dict], ai_estimate_fn: Callable[[str], Optional[dict]
             grok_yes = cm.calibrate(grok_yes_raw, cm.load_table())
         except Exception:
             grok_yes = grok_yes_raw
-        edge = ys.yes_edge(yes_price, grok_yes)
+        # Согласие по направлению — мнение САМОГО Grok, поэтому гейт и edge
+        # считаются по сырой оценке. Калибровка заменяет число средним корзины,
+        # а таблица немонотонна (сырые 0.0-0.4 → 0.85-0.90): по ней Grok «против»
+        # выдавался за «согласие по YES» (Maine: 4% → 69%, 12 из 82 алертов до
+        # 04.10.2026). Откалиброванное число остаётся в ai_yes_estimate — для
+        # Brier и сопоставимости с прежними строками журнала.
+        edge = ys.yes_edge(yes_price, grok_yes_raw)
         if edge is None:
             continue
         seen_thesis[k] = True
@@ -526,6 +534,7 @@ def scan_yes(markets: List[Dict], ai_estimate_fn: Callable[[str], Optional[dict]
             market_yes_price=yes_price,
             no_price=no_price,
             ai_yes_estimate=round(grok_yes, 4),
+            ai_yes_raw=round(grok_yes_raw, 4),
             edge=round(edge, 4),
             liquidity=liq,
             end_date=end_date,

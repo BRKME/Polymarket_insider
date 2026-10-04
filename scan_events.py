@@ -398,12 +398,16 @@ def _format_alert(c: es.Candidate) -> str:
     # YES-ветка: новая стратегия средней зоны — своё действие и пометки
     if getattr(c, "side", "NO") == "YES":
         yes_cents = f"{c.market_yes_price*100:.0f}¢"
+        # Показываем то, что сказал Grok (по этому числу и судится согласие),
+        # а не константу корзины калибровки.
+        _raw = getattr(c, "ai_yes_raw", None)
+        grok_shown = _raw if _raw is not None else c.ai_yes_estimate
         lines = [
             f"{fire} {c.question}",
             f"Купить YES ~{yes_cents}{size_txt} · резолв {end_h}{lock}",
             "",
             f"Рынок YES: {c.market_yes_price*100:.0f}% · "
-            f"Grok: {c.ai_yes_estimate*100:.0f}% ({c.ai_conf}) — согласие по YES",
+            f"Grok: {grok_shown*100:.0f}% ({c.ai_conf}) — согласие по YES",
             "🧪 Новая стратегия средней зоны (50-70%) — ещё НЕ валидирована, "
             "решай сам, копим выборку",
         ]
