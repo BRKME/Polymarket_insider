@@ -197,6 +197,8 @@ def build_kpi_block(journal: List[dict], calib: List[dict],
              and float(r["horizon_days"]) <= SHORT_HORIZON_DAYS
              and r.get("market_yes_price") is not None
              and r.get("ai_yes_estimate") is not None]
+    import calibration_map as _cm
+    short = _cm.first_per_market(short)   # n = рынки, а не переоценки
     resolved = []
     for r in short:
         won = resolve_fn(r.get("condition_id", ""))

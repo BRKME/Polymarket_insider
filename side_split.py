@@ -21,8 +21,14 @@ MIN_VERDICT_N = 30          # те же ворота, что были у NO
 
 def split_by_side(rows: list) -> Tuple[list, list]:
     """Делит записи на YES- и NO-позиции. Отсутствие поля = NO (исторически)."""
+    import calibration_map as cm
     yes, no = [], []
-    for r in rows or []:
+    rows = rows or []
+    # re_alert — тот же рынок: одна позиция на condition_id; строки без id
+    # (старые/ручные) не схлопываем — склеивать их не по чему
+    rows = cm.first_per_market(rows) + [r for r in rows
+                                        if not r.get("condition_id")]
+    for r in rows:
         if str(r.get("side", "NO")).upper() == "YES":
             yes.append(r)
         else:
@@ -107,7 +113,7 @@ def report() -> None:
     yes, no = split_by_side(rows)
     print(f"  YES-позиций: {len(yes)} · NO-позиций: {len(no)}\n")
 
-    for name, rs in (("YES (средняя зона 50-70%)", yes), ("NO (осн., алерты выключены)", no)):
+    for name, rs in (("YES (средняя зона 50-65%)", yes), ("NO (осн., алерты выключены)", no)):
         st = side_stats(rs)
         print(f"=== {name} ===")
         if st["n"] == 0:

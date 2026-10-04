@@ -127,6 +127,10 @@ def brier_report() -> None:
         print("  No calibration journal yet — run scan_events to start logging.")
         return
 
+    import calibration_map as cm
+    rows = cm.first_per_market(
+        [r for r in rows if r.get("market_yes_price") is not None
+         and r.get("ai_yes_estimate") is not None])   # n = рынки, а не переоценки
     pairs = []   # (market_yes, ai_yes, actual_yes, horizon_days)
     for r in rows:
         cid = r.get("condition_id", "")

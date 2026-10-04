@@ -157,18 +157,15 @@ def calibration_pairs(calib_rows: List[dict],
     Только кэш, без сетевых запросов: полный живой прогон калибровочного
     журнала остаётся за еженедельным отчётом, здесь — бесплатный инкремент.
     """
+    import calibration_map as cm
     pairs = []
-    seen = set()
-    for r in calib_rows:
+    usable = [r for r in calib_rows
+              if r.get("ai_yes_estimate") is not None
+              and r.get("market_yes_price") is not None]
+    for r in cm.first_per_market(usable):     # одна точка на рынок
         cid = r.get("condition_id") or ""
         ai = r.get("ai_yes_estimate")
         mkt = r.get("market_yes_price")
-        if not cid or ai is None or mkt is None:
-            continue
-        key = (cid, r.get("estimated_at"))
-        if key in seen:
-            continue
-        seen.add(key)
         rec = cache._data.get(cid)
         if not rec:
             continue

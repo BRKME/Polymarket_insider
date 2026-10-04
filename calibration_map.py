@@ -31,6 +31,27 @@ def _bucket_key(p: float) -> str:
     return "0.8-1.0"
 
 
+def first_per_market(rows: list) -> list:
+    """Одна строка на рынок (condition_id) — самая ранняя по времени.
+
+    Калибровочный журнал пишет строку на каждый вызов Grok, а рынок
+    переоценивается при каждом сбросе кэша; журнал ставок несёт re_alert-
+    повторы. Без схлопывания один рынок давал до 42 точек из 139 в корзине —
+    раздутый знаменатель. Берём самую раннюю: она не зависит от того, сколько
+    раз рынок попал в скан до резолва. Строки без condition_id отбрасываются.
+    """
+    first: dict = {}
+    for r in rows or []:
+        cid = r.get("condition_id") or ""
+        if not cid:
+            continue
+        ts = str(r.get("estimated_at") or r.get("alerted_at") or "")
+        cur = first.get(cid)
+        if cur is None or ts < cur[0]:
+            first[cid] = (ts, r)
+    return [r for _, r in first.values()]
+
+
 def build_calibration_table(resolved: list) -> dict:
     """Из списка (market_yes, ai_yes, actual_yes) строит таблицу корзин:
     {bucket: {actual: средняя реальная частота YES, n: число точек}}."""
