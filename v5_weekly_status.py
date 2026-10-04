@@ -90,10 +90,10 @@ def build_status(journal: List[dict], calib: List[dict],
     exp_line = ""
     try:
         import category_exposure as cx
-        from config import BANKROLL
         exp = cx.exposure_by_category(onchain_rows)
         if exp:
-            exp_line = cx.format_exposure(exp, bankroll=BANKROLL)
+            exp_line = cx.format_exposure(
+                exp, counts=cx.exposure_counts(onchain_rows))
     except Exception:
         pass
 

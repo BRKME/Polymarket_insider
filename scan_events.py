@@ -371,47 +371,29 @@ def _format_alert(c: es.Candidate) -> str:
     except Exception:
         pass
 
-    # размер
+    # ставка: фиксированная (решение оператора 04.10.2026 — $30 на всё)
     size_txt = ""
     try:
-        from config import STAKE_MIN, STAKE_MAX
-        edge_factor = max(0.0, min(1.0, (c.edge - es.EDGE_MIN) / 0.25))
-        liq_ok = c.liquidity >= 3 * es.MIN_LIQUIDITY
-        size = STAKE_MIN + (STAKE_MAX - STAKE_MIN) * edge_factor * (1.0 if liq_ok else 0.5)
-        size = round(size / 5) * 5
+        from config import OPERATOR_STAKE
+        size_txt = f" · ставка ${OPERATOR_STAKE:.0f}"
         if getattr(c, "side", "NO") == "YES":
-            # YES: четверть Келли от банка (политика §3). Формула выше даёт
-            # YES всегда STAKE_MIN=$15 — edge YES не дотягивает до EDGE_MIN.
             import yes_strategy as ys
-            from config import BANKROLL
-            size = ys.yes_kelly_stake(c.market_yes_price, BANKROLL)
-        size_txt = (f" · размер ~${size:.0f}" if size > 0
-                    else " · размер 0 — дороже безубытка")
+            if ys.above_breakeven(c.market_yes_price):
+                size_txt += (f" · ⚠️ дороже безубытка "
+                             f"({ys.YES_ASSUMED_WR*100:.0f}¢ при WR "
+                             f"{ys.YES_ASSUMED_WR*100:.0f}%)")
     except Exception:
         pass
 
-    # экспозиция категории
+    # экспозиция категории — доллары и число ставок (без банка и капа)
     cat_line = ""
     try:
         import category_exposure as cx
-        from config import BANKROLL, CATEGORY_EXPOSURE_CAP
         cat = cx.classify(c.question, slug=getattr(c, "event_slug", None))
-        exp = cx.exposure_by_category(_load_journal_rows())
-        cur = exp.get(cat, 0.0)
-        pct = cur / BANKROLL * 100 if BANKROLL > 0 else 0
-        over_cap = BANKROLL > 0 and (cur / BANKROLL) > CATEGORY_EXPOSURE_CAP
-        warn = " ⚠️ЛИМИТ" if over_cap else ""
-        cat_line = f" · в {cat} уже открыто ${cur:.0f} ({pct:.0f}% банка){warn}"
-        # Лимит — правило оператора, код его не навязывает (алерт уходит), но и
-        # не советует нарушить: «⚠️ЛИМИТ» рядом с «размер ~$15» — противоречие.
-        if over_cap:
-            size_txt = " · ⚠️ категория над лимитом — не докупать"
-        # Подтверждённых ставок больше банка — либо BANKROLL устарел, либо банк
-        # перегружен; в обоих случаях проценты выше врут, оператор должен знать.
-        total = sum(exp.values())
-        if BANKROLL > 0 and total > BANKROLL:
-            cat_line += (f"\n⚠️ всего открыто ${total:.0f} > банк ${BANKROLL:.0f}"
-                         f" — проверь BANKROLL в config.py")
+        rows = _load_journal_rows()
+        cur = cx.exposure_by_category(rows).get(cat, 0.0)
+        n = cx.exposure_counts(rows).get(cat, 0)
+        cat_line = f" · в {cat} уже открыто ${cur:.0f} ({n} ставок)"
     except Exception:
         pass
 

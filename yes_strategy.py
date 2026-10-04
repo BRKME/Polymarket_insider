@@ -58,26 +58,16 @@ def yes_edge(market_yes: float, grok_yes: float) -> Optional[float]:
     return max(0.0, grok_yes - market_yes)
 
 
-# Размер ставки — четверть Келли (политика §3). WR 62% — единственная измеренная
-# оценка (n=13, широкая зона, до 02.08); при новом вердикте менять здесь.
+# Безубыточность. Ставка фиксированная ($30, решение 04.10.2026), поэтому
+# Келли не считаем, но предупреждаем: при WR YES_ASSUMED_WR вход дороже неё
+# имеет отрицательное матожидание. WR 0.62 — единственная измеренная оценка
+# (n=13, широкая зона, до 02.08); при новом вердикте менять здесь.
 YES_ASSUMED_WR = 0.62
-KELLY_FRACTION = 0.25
 
 
-def yes_kelly_stake(price: Optional[float], bankroll: float) -> int:
-    """Четверть Келли для YES по цене price при WR YES_ASSUMED_WR, в целых $.
-
-    f* = (p − price) / (1 − price). Округление вниз — при неуверенной WR
-    ошибка в сторону меньшей ставки дешевле. 0 — ставка дороже безубытка.
-    """
+def above_breakeven(price: Optional[float]) -> bool:
+    """Цена YES дороже безубыточной при WR YES_ASSUMED_WR."""
     try:
-        price = float(price)
-        bankroll = float(bankroll)
+        return float(price) > YES_ASSUMED_WR
     except (TypeError, ValueError):
-        return 0
-    if not (0.0 < price < 1.0) or bankroll <= 0:
-        return 0
-    f = (YES_ASSUMED_WR - price) / (1.0 - price)
-    if f <= 0:
-        return 0
-    return int(KELLY_FRACTION * f * bankroll)
+        return False

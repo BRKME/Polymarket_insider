@@ -16,7 +16,7 @@ from __future__ import annotations
 import re
 from typing import Dict, List, Optional
 
-from config import STAKE_MIN, STAKE_MAX, BANKROLL, CATEGORY_EXPOSURE_CAP
+from config import STAKE_MIN, STAKE_MAX
 
 # Order matters: first match wins. Keep markers lowercase.
 # sports идёт ПЕРВОЙ: «Russia eliminated in the World Cup» должен попадать
@@ -111,16 +111,19 @@ def exposure_by_category(rows: List[dict]) -> Dict[str, float]:
         stake = _actual_stake(r)
         if stake is None:
             continue    # кандидат сканера без ончейн-филла — не деньги в риске
-        stored = r.get("category")
-        if stored and stored != "other":
-            cat = stored
-        else:
-            # 'other' в журнале — наследие до фикса категорий: не верим,
-            # переклассифицируем по слагу и вопросу.
-            cat = classify(r.get("question", ""),
-                           slug=r.get("event_slug") or r.get("slug"))
+        cat = _category_of(r)
         out[cat] = out.get(cat, 0.0) + stake
     return out
+
+
+def _category_of(r: dict) -> str:
+    stored = r.get("category")
+    if stored and stored != "other":
+        return stored
+    # 'other' в журнале — наследие до фикса категорий: не верим,
+    # переклассифицируем по слагу и вопросу.
+    return classify(r.get("question", ""),
+                    slug=r.get("event_slug") or r.get("slug"))
 
 
 def _actual_stake(row: dict) -> Optional[float]:
@@ -138,26 +141,29 @@ def _actual_stake(row: dict) -> Optional[float]:
         return None
 
 
-def over_cap(exposure: Dict[str, float], bankroll: float = BANKROLL,
-             cap: float = CATEGORY_EXPOSURE_CAP) -> Dict[str, float]:
-    """Categories whose exposure exceeds cap*bankroll -> {cat: fraction}."""
-    if bankroll <= 0:
-        return {}
-    warns = {}
-    for cat, usd in exposure.items():
-        frac = usd / bankroll
-        if frac > cap:
-            warns[cat] = round(frac, 3)
-    return warns
+def exposure_counts(rows: List[dict]) -> Dict[str, int]:
+    """Число открытых подтверждённых ставок по категориям (как exposure_by_category)."""
+    out: Dict[str, int] = {}
+    for r in rows or []:
+        if str(r.get("status", "open")).lower() != "open":
+            continue
+        if _actual_stake(r) is None:
+            continue
+        cat = _category_of(r)
+        out[cat] = out.get(cat, 0) + 1
+    return out
 
 
 def format_exposure(exposure: Dict[str, float],
-                    bankroll: float = BANKROLL) -> str:
-    """One human line: 'geopolitics $40 (4%) · crypto $25 (2%)'."""
+                    counts: Optional[Dict[str, int]] = None) -> str:
+    """Одна строка: 'elections $180 (6) · crypto $30 (1)' — доллары и число ставок.
+
+    Без процентов от банка: банк убран 04.10.2026 (ставка фиксированная)."""
     if not exposure:
         return "экспозиция: нет открытых позиций"
+    counts = counts or {}
     parts = []
     for cat, usd in sorted(exposure.items(), key=lambda kv: -kv[1]):
-        pct = (usd / bankroll * 100) if bankroll > 0 else 0
-        parts.append(f"{cat} ${usd:.0f} ({pct:.0f}%)")
+        n = counts.get(cat)
+        parts.append(f"{cat} ${usd:.0f}" + (f" ({n})" if n else ""))
     return "экспозиция: " + " · ".join(parts)

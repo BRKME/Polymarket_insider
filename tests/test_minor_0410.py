@@ -12,7 +12,6 @@ import yes_strategy as ys
 
 
 def _yes(monkeypatch):
-    monkeypatch.setattr(config, "BANKROLL", 200.0)
     monkeypatch.setattr(se, "_load_journal_rows", lambda: [])
     return es.Candidate(question="Will the Republicans win the Georgia governor race?",
                         condition_id="0xG", market_yes_price=0.52, no_price=0.48,

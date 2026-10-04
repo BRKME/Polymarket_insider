@@ -348,28 +348,17 @@ def run() -> None:
     print(f"[{datetime.now(timezone.utc).isoformat()}] mark-to-market: "
           f"{open_n} open positions")
 
-    # Category exposure visibility (the limit is the operator's rule; we count).
-    exposure_msg = None
-    exposure_warn_cats: list = []
+    # Экспозиция по категориям — только видимость (доллары и число ставок).
+    # Кап в % банка убран 04.10.2026 вместе с банком: ставка фиксированная.
     try:
         import category_exposure as cx
-        from config import BANKROLL
-        exp = cx.exposure_by_category(rows)
-        line = cx.format_exposure(exp, bankroll=BANKROLL)
-        print("  " + line)
-        warns = cx.over_cap(exp)
-        if warns:
-            exposure_warn_cats = sorted(warns)
-            warn_txt = ", ".join(f"{cat} {frac*100:.0f}%" for cat, frac in warns.items())
-            exposure_msg = (f"⚠️ Экспозиция выше капа по категориям: {warn_txt} "
-                            f"(кап 30% банка). Новые ставки в этих категориях — "
-                            f"только сознательно.\n{line}")
-            print("  ⚠️ over cap: " + warn_txt)
+        print("  " + cx.format_exposure(cx.exposure_by_category(rows),
+                                        counts=cx.exposure_counts(rows)))
     except Exception as e:
         print(f"  exposure calc failed: {e}")
 
     signals = scan_open_positions(rows)
-    if not signals and not exposure_msg:
+    if not signals:
         print("  no exit signals — all open positions still maturing.")
         return
 
@@ -397,16 +386,6 @@ def run() -> None:
     import exit_dedup
     seen = exit_dedup.load_seen()
     now_dt = _dt.now(_tz.utc)
-
-    # Over-cap warning: раз в сутки или при ИЗМЕНЕНИИ набора категорий над
-    # капом (с реальным банком $200 кап срабатывает подолгу — каждые 2ч
-    # повторять одно и то же предупреждение стало бы шумом).
-    if exposure_msg:
-        sig = ",".join(sorted(exposure_warn_cats)) or "over_cap"
-        if exit_dedup.should_notify(seen, "__exposure__", sig, now_dt):
-            _tg(exposure_msg)
-        else:
-            print("  (dedup) exposure warning уже слали")
 
     # Дедуп: тот же сигнал по той же позиции — не чаще раза в сутки,
     # эскалация действия шлётся сразу (баг 15.07: дубли каждый 2ч-крон).

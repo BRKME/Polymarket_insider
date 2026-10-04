@@ -69,21 +69,12 @@ class TestExposure:
         assert exp["geopolitics"] == 40.0           # closed 70 not counted
         assert exp["crypto"] == 30.0                # без филла — не в риске
 
-    def test_warnings_over_cap(self):
-        # bankroll 100, cap 30% -> geopolitics 40 (40%) must warn
-        exp = {"geopolitics": 40.0, "crypto": 10.0}
-        warns = ce.over_cap(exp, bankroll=100.0, cap=0.30)
-        assert "geopolitics" in warns
-        assert "crypto" not in warns
-
-    def test_no_warnings_under_cap(self):
-        exp = {"geopolitics": 20.0}
-        assert ce.over_cap(exp, bankroll=100.0, cap=0.30) == {}
+    # Кап в % банка убран 04.10.2026 (ставка фиксированная) — см. test_flat_stake.
 
 
 class TestFormatLine:
     def test_summary_line_mentions_each_category(self):
         exp = {"geopolitics": 40.0, "crypto": 25.0}
-        line = ce.format_exposure(exp, bankroll=1000.0)
+        line = ce.format_exposure(exp)
         assert "geopolitics" in line and "crypto" in line
         assert "$40" in line and "$25" in line

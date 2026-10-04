@@ -61,7 +61,7 @@ class TestCompactAlertV2:
     def test_action_line_with_verb_and_cents(self):
         msg = se._format_alert(_candidate())
         assert "Купить NO ~36¢" in msg
-        assert "размер ~$" in msg
+        assert "ставка $30" in msg      # фиксированная с 04.10.2026
 
     def test_single_probability_frame(self):
         msg = se._format_alert(_candidate())
