@@ -378,7 +378,14 @@ def _format_alert(c: es.Candidate) -> str:
         liq_ok = c.liquidity >= 3 * es.MIN_LIQUIDITY
         size = STAKE_MIN + (STAKE_MAX - STAKE_MIN) * edge_factor * (1.0 if liq_ok else 0.5)
         size = round(size / 5) * 5
-        size_txt = f" · размер ~${size:.0f}"
+        if getattr(c, "side", "NO") == "YES":
+            # YES: четверть Келли от банка (политика §3). Формула выше даёт
+            # YES всегда STAKE_MIN=$15 — edge YES не дотягивает до EDGE_MIN.
+            import yes_strategy as ys
+            from config import BANKROLL
+            size = ys.yes_kelly_stake(c.market_yes_price, BANKROLL)
+        size_txt = (f" · размер ~${size:.0f}" if size > 0
+                    else " · размер 0 — дороже безубытка")
     except Exception:
         pass
 

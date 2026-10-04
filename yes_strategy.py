@@ -56,3 +56,28 @@ def yes_edge(market_yes: float, grok_yes: float) -> Optional[float]:
     # Даже при согласии-по-направлению без превосходства edge=0 — сигнал есть,
     # но слабый; сортировка потом поднимет те, где Grok заметно выше.
     return max(0.0, grok_yes - market_yes)
+
+
+# Размер ставки — четверть Келли (политика §3). WR 62% — единственная измеренная
+# оценка (n=13, широкая зона, до 02.08); при новом вердикте менять здесь.
+YES_ASSUMED_WR = 0.62
+KELLY_FRACTION = 0.25
+
+
+def yes_kelly_stake(price: Optional[float], bankroll: float) -> int:
+    """Четверть Келли для YES по цене price при WR YES_ASSUMED_WR, в целых $.
+
+    f* = (p − price) / (1 − price). Округление вниз — при неуверенной WR
+    ошибка в сторону меньшей ставки дешевле. 0 — ставка дороже безубытка.
+    """
+    try:
+        price = float(price)
+        bankroll = float(bankroll)
+    except (TypeError, ValueError):
+        return 0
+    if not (0.0 < price < 1.0) or bankroll <= 0:
+        return 0
+    f = (YES_ASSUMED_WR - price) / (1.0 - price)
+    if f <= 0:
+        return 0
+    return int(KELLY_FRACTION * f * bankroll)
