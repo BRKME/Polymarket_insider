@@ -247,8 +247,14 @@ def _is_open(row: dict) -> bool:
 def scan_open_positions(
     rows: List[dict],
     fetch_fn: Callable[[str], Optional[Dict]] = _default_fetch,
+    calib_rows: Optional[List[dict]] = None,
 ) -> List[dict]:
-    """Re-mark every open position; return those that warrant an exit signal."""
+    """Re-mark every open position; return those that warrant an exit signal.
+
+    calib_rows (calibration_journal) — для поиска позиций по «перевёрнутым»
+    YES-алертам (grok_flip): по ним CLOSE_FLIP независимо от цены."""
+    import grok_flip
+    flip_idx = grok_flip.index_calibration(calib_rows) if calib_rows else {}
     signals = []
     for row in rows:
         if not _is_open(row):
@@ -272,6 +278,12 @@ def scan_open_positions(
             if entry is None:
                 continue
             action = decide_exit_yes(entry, parsed)
+            grok_raw = None
+            if flip_idx and grok_flip.is_flipped(row, flip_idx):
+                # Алерт ушёл, хотя Grok был против (баг калибровки до 04.10) —
+                # оператор решил такие позиции закрыть. Важнее ценовых сигналов.
+                action = "CLOSE_FLIP"
+                grok_raw = grok_flip.raw_at_alert(row, flip_idx)
             if action:
                 stake = position_stake(row)
                 pnl = position_pnl_yes(entry, parsed, stake)
@@ -284,6 +296,8 @@ def scan_open_positions(
                     "stake": stake,
                     "action": action,
                     "current_edge": None,
+                    "grok_raw": grok_raw,
+                    "grok_shown": row.get("ai_yes_estimate"),
                     **pnl,
                 })
             continue
@@ -325,6 +339,7 @@ def _format_signal(s: dict) -> str:
         "CLOSE_FULL": "🟢 ЗАКРЫВАЙ ПОЛНОСТЬЮ",
         "TAKE_PARTIAL": "🟡 ЗАБЕРИ ЧАСТЬ",
         "CUT": "🔴 РЕЖЬ (edge развернулся)",
+        "CLOSE_FLIP": "🔴 ЗАКРОЙ — ставка по ошибочному алерту",
     }.get(s["action"], s["action"])
     # CUT в плюсе — не «цена против нас», а конвергенция: рынок сошёлся к
     # AI-оценке, остаток edge исчерпан. Действие то же (выход по правилу),
@@ -332,9 +347,16 @@ def _format_signal(s: dict) -> str:
     # 15.07: NO 42→68¢, +61%, а сигнал кричал «РЕЖЬ»).
     if s["action"] == "CUT" and s.get("ret_pct", 0) > 0:
         label = "🟡 EDGE ИСЧЕРПАН (рынок сошёлся — фиксируй по правилу)"
+    why = ""
+    if s["action"] == "CLOSE_FLIP" and s.get("grok_raw") is not None:
+        shown = s.get("grok_shown")
+        shown_txt = f" · в алерте было {float(shown)*100:.0f}%" if shown is not None else ""
+        why = (f"Grok на самом деле: {float(s['grok_raw'])*100:.0f}%{shown_txt} "
+               f"(баг калибровки, исправлен 04.10)\n")
     return (
         f"{label}\n{s['question']}\n"
         f"—————————————————————\n"
+        f"{why}"
         f"Вход {'YES' if str(s.get('side','NO')).upper()=='YES' else 'NO'} "
         f"{s['entry_no']*100:.0f}% → сейчас {s['current_no']*100:.0f}% "
         f"({s['ret_pct']:+.0f}%)\n"
@@ -357,7 +379,19 @@ def run() -> None:
     except Exception as e:
         print(f"  exposure calc failed: {e}")
 
-    signals = scan_open_positions(rows)
+    calib_rows = []
+    try:
+        calib_path = Path("calibration_journal.jsonl")
+        if calib_path.exists():
+            for line in calib_path.read_text().splitlines():
+                if line.strip():
+                    try:
+                        calib_rows.append(json.loads(line))
+                    except Exception:
+                        continue
+    except Exception as e:  # noqa: BLE001 — без журнала просто нет CLOSE_FLIP
+        print(f"  calibration journal unreadable: {e}")
+    signals = scan_open_positions(rows, calib_rows=calib_rows)
     if not signals:
         print("  no exit signals — all open positions still maturing.")
         return
