@@ -331,6 +331,24 @@ def _make_logging_estimator(markets: list):
     return _estimator
 
 
+def _count_failures(inner, stats: dict):
+    """Обёртка-счётчик вызовов/отказов estimator'а.
+
+    Переносит _cache_store с внутренней обёртки: run() сохраняет кэш оценок
+    по этому атрибуту. Без него кэш молча не сохранялся, и каждый запуск
+    заново платил Grok за те же рынки.
+    """
+    def _counted(q, description=None, end_date=None):
+        stats["calls"] += 1
+        r = inner(q, description, end_date)
+        if not r or r.get("prob") is None:
+            stats["fails"] += 1
+        return r
+    if hasattr(inner, "_cache_store"):
+        _counted._cache_store = inner._cache_store
+    return _counted
+
+
 def _market_url(c: es.Candidate) -> str:
     # /event/<eventSlug> is the only slug the site reliably resolves. The market
     # slug carries a numeric id tail that 404s and can't be safely trimmed
@@ -710,13 +728,7 @@ def run() -> None:
     # Счётчик отказов: если ВСЕ оценки провалились (типично при балансе xAI $0),
     # сканер не должен молчать — иначе «нет кандидатов» неотличимо от «API мёртв».
     _est_stats = {"calls": 0, "fails": 0}
-    _inner = logging_estimator
-    def logging_estimator(q, description=None, end_date=None):  # noqa: F811
-        _est_stats["calls"] += 1
-        r = _inner(q, description, end_date)
-        if not r or r.get("prob") is None:
-            _est_stats["fails"] += 1
-        return r
+    logging_estimator = _count_failures(logging_estimator, _est_stats)
     candidates = es.scan(gated, logging_estimator)
     print(f"  {len(candidates)} candidates after AI mispricing check")
 
