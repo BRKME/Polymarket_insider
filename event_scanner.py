@@ -493,6 +493,19 @@ def _horizon_score(edge: float, hours_to_resolve: Optional[float]) -> float:
     return edge * recency
 
 
+_MARKET_ODDS_RE = re.compile(
+    r"polymarket|kalshi|predictit|manifold|betfair|"
+    r"букмекер|коэффициент|рынк\w* предсказ|рынк\w* (?:оценива|дают|закладыва)|"
+    r"betting odds|bookmaker|prediction market|market odds|markets? (?:price|give)",
+    re.IGNORECASE)
+
+
+def mentions_market_odds(text: str) -> bool:
+    """Довод Grok опирается на котировку рынка/букмекера — значит это не
+    независимая оценка (первый боевой скан 05.10: «Polymarket даёт ~60%»)."""
+    return bool(text) and bool(_MARKET_ODDS_RE.search(text))
+
+
 def scan_yes(markets: List[Dict], ai_estimate_fn: Callable[[str], Optional[dict]]) -> List[Candidate]:
     """YES-стратегия средней зоны (разворот после провала NO).
 
@@ -537,6 +550,10 @@ def scan_yes(markets: List[Dict], ai_estimate_fn: Callable[[str], Optional[dict]
         # пишет «свежие опросы», которых не видел (Бразилия 04.10.2026: Flávio,
         # Lula, Renan Santos — 85-100% и −$60). Нет флага = не искал.
         if est.get("searched") is not True:
+            continue
+        # Оценка, опирающаяся на котировку рынка, — эхо цены, а не согласие
+        # Grok: с поиском он находит odds самого рынка (Variational, 05.10).
+        if mentions_market_odds(str(est.get("why", ""))):
             continue
         # Тот же порог уверенности, что в NO-ветке: low-оценки слишком шумные
         # для ставки (до 04.10.2026 YES-ветка его не проверяла).

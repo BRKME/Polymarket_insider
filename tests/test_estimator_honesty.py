@@ -137,3 +137,31 @@ def test_calibration_log_records_searched(monkeypatch):
     est = se._make_logging_estimator([m])(m["question"], m["description"], m["endDate"])
     assert est["searched"] is True               # YES-кандидат ушёл на поиск
     assert logged and logged[-1]["searched"] is True
+
+
+# ── якорь на котировку рынка (первый боевой скан 05.10, Variational) ────────
+# С поиском Grok находит котировку самого рынка: «Polymarket даёт ~60% на
+# >$1B…». Тогда «Grok согласен с рынком» = «рынок согласен сам с собой».
+
+def test_system_prompt_forbids_market_odds():
+    low = ac.ESTIMATOR_SYSTEM.lower()
+    assert "polymarket" in low and "kalshi" in low
+
+
+def test_detects_market_odds_in_reasoning():
+    m = es.mentions_market_odds
+    assert m("Polymarket даёт ~60% на >$1B при медиане 1.3-1.5B")
+    assert m("Kalshi prices it at 58%")
+    assert m("рынки предсказаний оценивают в 60%")
+    assert m("букмекеры дают коэффициент 1.6")
+    assert not m("Округ глубоко красный, рейтинги Likely R")
+    assert not m("")
+
+
+def test_scan_yes_rejects_anchored_estimate(monkeypatch):
+    import calibration_map as cm
+    monkeypatch.setattr(cm, "load_table", lambda: {})
+    est = lambda q, d=None, e=None: {
+        "prob": 0.65, "conf": "medium", "searched": True,
+        "why": "Polymarket даёт ~60% на >$1B при сильных метриках"}
+    assert es.scan_yes([_market()], est) == []
