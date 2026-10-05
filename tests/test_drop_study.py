@@ -69,3 +69,39 @@ def test_outcome_from_final_prices():
     assert ds.final_outcome({"outcomes": '["Yes","No"]', "outcomePrices": '["0","1"]'}) == 0
     assert ds.final_outcome({"outcomes": '["Yes","No"]', "outcomePrices": '["0.5","0.5"]'}) is None
     assert ds.final_outcome({"outcomes": '["A","B"]', "outcomePrices": '["1","0"]'}) is None
+
+
+# ── первый прогон в Actions (05.10): 99 рынков, 0 историй ────────────────────
+
+def test_end_ts_uses_earliest_of_closed_and_end():
+    # рынок, закрытый досрочно: endDate в будущем, closedTime — реальный конец
+    m = {"endDate": "2027-05-30T23:59:00Z", "closedTime": "2026-09-01 12:00:00+00"}
+    from datetime import datetime, timezone
+    assert ds._end_ts(m) == int(datetime(2026, 9, 1, 12, tzinfo=timezone.utc).timestamp())
+
+
+def test_end_ts_plain_end_date():
+    from datetime import datetime, timezone
+    assert ds._end_ts({"endDate": "2026-09-01T12:00:00Z"}) == \
+        int(datetime(2026, 9, 1, 12, tzinfo=timezone.utc).timestamp())
+
+
+def test_pagination_does_not_stop_on_page_cap(monkeypatch):
+    # Gamma отдаёт максимум 100 за запрос — нельзя считать <500 концом списка
+    pages = {0: [_mkt(i) for i in range(100)], 100: [_mkt(i) for i in range(100, 150)],
+             150: []}
+    calls = []
+
+    def fake_get(url, params, tries=3):
+        calls.append(params["offset"])
+        return pages.get(params["offset"], [])
+    monkeypatch.setattr(ds, "_get", fake_get)
+    out = ds.fetch_closed_markets(1000, 0, now_ts=2_000_000_000)
+    assert len(out) == 150
+    assert calls[:2] == [0, 100]
+
+
+def _mkt(i):
+    return {"question": f"q{i}", "outcomes": '["Yes","No"]', "outcomePrices": '["1","0"]',
+            "clobTokenIds": '["a","b"]', "volumeNum": 50_000,
+            "endDate": "2026-09-01T00:00:00Z"}

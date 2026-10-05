@@ -131,11 +131,26 @@ def _get(url, params, tries=3):
     return None
 
 
-def fetch_closed_markets(max_markets: int, min_volume: float) -> List[dict]:
+PAGE = 100   # Gamma отдаёт не больше 100 за запрос (прогон 05.10 встал на 99)
+
+
+def fetch_closed_markets(max_markets: int, min_volume: float,
+                         now_ts: Optional[int] = None,
+                         lookback_days: int = 365) -> List[dict]:
+    """Закрытые бинарные рынки, закончившиеся за последние lookback_days.
+
+    Сортировка по endDate без верхней границы ставила первыми рынки, закрытые
+    досрочно, но с endDate в 2027 — окно истории уезжало в будущее (05.10:
+    0 историй из 99). Поэтому end_date_max=сейчас, а конец рынка — _end_ts.
+    """
+    now_ts = now_ts or int(time.time())
+    iso = lambda ts: datetime.fromtimestamp(ts, timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     out, offset = [], 0
-    while len(out) < max_markets:
-        page = _get(GAMMA, {"closed": "true", "limit": 500, "offset": offset,
+    while len(out) < max_markets and offset <= 100_000:
+        page = _get(GAMMA, {"closed": "true", "limit": PAGE, "offset": offset,
                             "order": "endDate", "ascending": "false",
+                            "end_date_max": iso(now_ts),
+                            "end_date_min": iso(now_ts - lookback_days * 86400),
                             "volume_num_min": min_volume})
         if not page:
             break
@@ -147,10 +162,11 @@ def fetch_closed_markets(max_markets: int, min_volume: float) -> List[dict]:
                 continue
             if final_outcome(m) is None or not m.get("clobTokenIds"):
                 continue
+            end = _end_ts(m)
+            if end is None or end > now_ts:
+                continue
             out.append(m)
-        offset += 500
-        if len(page) < 500 or offset > 50_000:
-            break
+        offset += len(page)
     return out[:max_markets]
 
 
@@ -165,19 +181,48 @@ def _yes_token(m: dict) -> Optional[str]:
         return None
 
 
+def _parse_ts(v) -> Optional[int]:
+    if not v:
+        return None
+    s = str(v).strip().replace(" ", "T").replace("Z", "+00:00")
+    if len(s) >= 3 and s[-3] in "+-" and s[-2:].isdigit():   # '+00' -> '+00:00'
+        s = s + ":00"
+    try:
+        dt = datetime.fromisoformat(s)
+    except ValueError:
+        return None
+    if dt.tzinfo is None:
+        dt = dt.replace(tzinfo=timezone.utc)
+    return int(dt.timestamp())
+
+
 def _end_ts(m: dict) -> Optional[int]:
-    for k in ("closedTime", "endDate"):
-        v = m.get(k)
-        if not v:
-            continue
-        try:
-            s = str(v).replace("Z", "+00:00").replace(" ", "T")
-            if len(s) > 6 and s[-3] != ":" and ("+" in s[-6:]):
-                s = s[:-2] + ":" + s[-2:]
-            return int(datetime.fromisoformat(s).timestamp())
-        except Exception:
-            continue
-    return None
+    """Фактический конец торговли: раннее из closedTime и endDate (досрочно
+    закрытый рынок живёт по closedTime, endDate у него может быть в 2027)."""
+    ts = [t for t in (_parse_ts(m.get("closedTime")), _parse_ts(m.get("endDate")))
+          if t is not None]
+    return min(ts) if ts else None
+
+
+def fetch_history(token: str, end: int) -> List[dict]:
+    """Часовая история цены YES за 5 суток до конца. Несколько вариантов
+    запроса: CLOB по-разному отвечает для закрытых рынков."""
+    for params in ({"market": token, "startTs": end - 5 * 86400, "endTs": end,
+                    "fidelity": 60},
+                   {"market": token, "interval": "max", "fidelity": 60},
+                   {"market": token, "interval": "1w", "fidelity": 60}):
+        h = _get(CLOB_HISTORY, params)
+        hist = (h or {}).get("history") or []
+        if hist:
+            _DIAG["ok_" + ("range" if "startTs" in params else params["interval"])] += 1
+            return hist
+    _DIAG["empty"] += 1
+    if _DIAG["empty"] <= 3:
+        print(f"  [diag] empty history token={token[:12]}… end={end} resp={str(h)[:200]}")
+    return []
+
+
+_DIAG: Dict[str, int] = {"ok_range": 0, "ok_max": 0, "ok_1w": 0, "empty": 0}
 
 
 def run(max_markets: int, min_volume: float) -> dict:
@@ -190,9 +235,7 @@ def run(max_markets: int, min_volume: float) -> dict:
         tok, end = _yes_token(m), _end_ts(m)
         if not tok or not end:
             continue
-        h = _get(CLOB_HISTORY, {"market": tok, "startTs": end - 5 * 86400,
-                                "endTs": end, "fidelity": 60})
-        hist = (h or {}).get("history") or []
+        hist = fetch_history(tok, end)
         if not hist:
             continue
         n_hist += 1
@@ -219,6 +262,7 @@ def run(max_markets: int, min_volume: float) -> dict:
         "params": {"zone": ZONE, "window_h": WINDOW_H, "move_pp": MOVE_PP,
                    "min_volume": min_volume},
         "markets": len(markets), "with_history": n_hist, "observations": len(obs),
+        "history_diag": dict(_DIAG),
         "all": block(obs),
         "non_sport": block([o for o in obs if not o["sport"]]),
         "sport": block([o for o in obs if o["sport"]]),
@@ -230,7 +274,7 @@ def run(max_markets: int, min_volume: float) -> dict:
 
 def _print(report: dict) -> None:
     print(f"\nmarkets={report['markets']} with_history={report['with_history']} "
-          f"observations={report['observations']}")
+          f"observations={report['observations']} diag={report.get('history_diag')}")
     for name in ("all", "non_sport", "sport", "elections"):
         print(f"\n=== {name} ===")
         b = report[name]
