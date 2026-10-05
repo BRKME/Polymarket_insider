@@ -100,3 +100,35 @@ def test_related_line_in_alert(monkeypatch):
     _no_journal(monkeypatch)
     msg = se._format_alert(_c(), related_line="🔗 связано: ещё 2 алерта")
     assert "🔗 связано: ещё 2 алерта" in msg
+
+
+# ── вчерашняя цена — из истории CLOB, а не из калибровочного журнала ─────────
+# После починки кэша (de39e38, 05.10) Grok не вызывается до 7 дней, пока цена
+# не сдвинется на 5пп, — калибровочный журнал перестал быть ежедневной лентой
+# цен, и метка падения молча пропадала бы.
+
+def test_price_ago_from_clob_history():
+    now_ts = int(NOW.timestamp())
+    hist = {"history": [{"t": now_ts - 30 * 3600, "p": 0.75},
+                        {"t": now_ts - 24 * 3600, "p": 0.745},
+                        {"t": now_ts - 2 * 3600, "p": 0.58}]}
+    calls = []
+
+    def fake_get(url, params):
+        calls.append(params)
+        return hist
+    assert se._price_ago_clob("tok", NOW, get_fn=fake_get) == 0.745
+    assert calls and calls[0]["market"] == "tok"
+
+
+def test_price_ago_clob_failure_is_none():
+    assert se._price_ago_clob("tok", NOW, get_fn=lambda u, p: None) is None
+    assert se._price_ago_clob("", NOW, get_fn=lambda u, p: {"history": []}) is None
+
+
+def test_yes_token_from_market():
+    m = {"outcomes": '["Yes","No"]', "clobTokenIds": '["111","222"]'}
+    assert se._yes_token(m) == "111"
+    m = {"outcomes": '["No","Yes"]', "clobTokenIds": '["111","222"]'}
+    assert se._yes_token(m) == "222"
+    assert se._yes_token({}) is None

@@ -385,6 +385,49 @@ def _price_ago(cid: str, calib_rows: list, now: datetime,
     return best[1] if best else None
 
 
+CLOB_HISTORY = "https://clob.polymarket.com/prices-history"
+
+
+def _yes_token(m: dict) -> Optional[str]:
+    """Токен YES из clobTokenIds (порядок совпадает с outcomes)."""
+    try:
+        toks = m["clobTokenIds"]
+        toks = json.loads(toks) if isinstance(toks, str) else toks
+        outs = m["outcomes"]
+        outs = json.loads(outs) if isinstance(outs, str) else outs
+        return toks[[str(o).strip().lower() for o in outs].index("yes")]
+    except Exception:
+        return None
+
+
+def _clob_get(url: str, params: dict):
+    try:
+        r = requests.get(url, params=params, timeout=15)
+        return r.json() if r.status_code == 200 else None
+    except Exception:
+        return None
+
+
+def _price_ago_clob(token: Optional[str], now: datetime, get_fn=None,
+                    lo_h: float = 18, hi_h: float = 36) -> Optional[float]:
+    """Цена YES ~сутки назад из истории CLOB — основной источник.
+
+    Калибровочный журнал пишет цену только при реальном вызове Grok, а после
+    починки кэша (de39e38, 05.10) вызова нет до 7 дней, пока цена не сдвинется
+    на 5пп: журнал перестал быть ежедневной лентой цен."""
+    if not token:
+        return None
+    get_fn = get_fn or _clob_get
+    now_ts = int(now.timestamp())
+    h = get_fn(CLOB_HISTORY, {"market": token, "startTs": now_ts - int(hi_h * 3600),
+                              "endTs": now_ts - int(lo_h * 3600), "fidelity": 60})
+    pts = sorted((int(x["t"]), float(x["p"])) for x in (h or {}).get("history") or []
+                 if x.get("t") is not None and x.get("p") is not None)
+    pts = [(t, p) for t, p in pts
+           if now_ts - hi_h * 3600 <= t <= now_ts - lo_h * 3600]
+    return pts[-1][1] if pts else None
+
+
 def _drop_line(c: es.Candidate) -> str:
     """Метка: цена YES резко упала за сутки, а событие вот-вот. Бразилия 04.10:
     Flávio 74→57¢, Lula 73→61¢ за ночь перед голосованием — рынок узнал новое,
@@ -765,9 +808,13 @@ def run() -> None:
     try:
         _calib_rows = _load_jsonl_rows(CALIB)
         _now_dt = datetime.now(timezone.utc)
+        _by_cid = {m.get("conditionId"): m for m in gated if m.get("conditionId")}
         for c in candidates:
             if getattr(c, "side", "NO") == "YES":
-                c.price_24h_ago = _price_ago(c.condition_id, _calib_rows, _now_dt)
+                # основной источник — история CLOB; журнал калибровки — запас
+                c.price_24h_ago = (
+                    _price_ago_clob(_yes_token(_by_cid.get(c.condition_id, {})), _now_dt)
+                    or _price_ago(c.condition_id, _calib_rows, _now_dt))
     except Exception as e:
         print(f"  price-24h lookup failed: {e}")
 
