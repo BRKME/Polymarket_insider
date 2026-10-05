@@ -59,6 +59,12 @@
 "resolved": false,
 "thesis_key": "will harry kane win the ballon"
 },
+"0x15459ef555545e26a1abe7c5ebf752a9eca7ca6a06afd957b7c2b9c243fb1962": {
+"alerted_at": "2026-10-05T02:50:54.574255+00:00",
+"last_edge": 0.1776,
+"resolved": false,
+"thesis_key": "will bitcoin dip to 82 500"
+},
 "0x15d2e66dcf1d63c5695d6d0e9e2f8e06dd246d00fd5dfc254f2b22baa33bfa1b": {
 "alerted_at": "2026-07-09T01:49:18.573897+00:00",
 "last_edge": 0.3638,
@@ -431,6 +437,12 @@
 "resolved": false,
 "thesis_key": "will bitcoin dip to 55 000"
 },
+"0x7a4fd44956a282a1249e2191865f555976e37dd82f48bc783ec04a58a8d0450a": {
+"alerted_at": "2026-10-05T02:50:54.574255+00:00",
+"last_edge": 0.0,
+"resolved": false,
+"thesis_key": "saudi oil pipeline east west restarts"
+},
 "0x7c724b5dc9c0d7932049feb52b645f69a4f43a201fe24f8d67d271566e00868d": {
 "alerted_at": "2026-09-16T02:05:59.951271+00:00",
 "last_edge": 0.3338,
@@ -480,8 +492,8 @@
 "thesis_key": "will the fed increase interest rates"
 },
 "0x88b2827dd9bb9b3ebd4f229561a7606bd2bbdedbf3dfbb9c563e1e7dd2673747": {
-"alerted_at": "2026-10-02T03:03:09.327027+00:00",
-"last_edge": 0.3016,
+"alerted_at": "2026-10-05T02:50:54.574255+00:00",
+"last_edge": 0.1776,
 "resolved": false,
 "thesis_key": "variational fdv above 1b one day"
 },
@@ -569,12 +581,6 @@
 "resolved": false,
 "thesis_key": "will argentina be eliminated in the"
 },
-"0xa34edb6c898232378a9cc08744842df2cd89d278ba45b012bed3ac10c7241c4d": {
-"alerted_at": "2026-10-02T03:03:09.327027+00:00",
-"last_edge": 0.177,
-"resolved": false,
-"thesis_key": "will lamine yamal win the ballon"
-},
 "0xa3b36b2d6104d34af4e6c6215fc818e43352e78a748fbfb0b85e3a35f71dec9a": {
 "alerted_at": null,
 "last_edge": 0.2079,
@@ -640,6 +646,12 @@
 "last_edge": 0.595,
 "resolved": false,
 "thesis_key": "starmer out"
+},
+"0xc3d5708780de5528998aeb53ca90e7ade64804f9f2386392a681435d5c42b44d": {
+"alerted_at": null,
+"last_edge": 0.3056,
+"resolved": false,
+"thesis_key": "israel x iran ceasefire continues through"
 },
 "0xc68fea7daba83292fdd7bb704f26d38c4f678cbc2ff69c4175d47c55e74b4321": {
 "alerted_at": "2026-08-26T00:35:07.749082+00:00",
@@ -724,6 +736,12 @@
 "last_edge": 0.3296,
 "resolved": false,
 "thesis_key": "us x iran diplomatic meeting"
+},
+"0xebf16ea750f6d8e45d43d0cfb6a7a6437ff64375acb4022542e14b6798f51132": {
+"alerted_at": "2026-10-05T02:50:54.574255+00:00",
+"last_edge": 0.1476,
+"resolved": false,
+"thesis_key": "will ethereum reach 2 900 in"
 },
 "0xed5a9e7831ee363d92cb102f2c21e2465b09196ef5beb7c8e23671851a1c3ca4": {
 "alerted_at": "2026-08-03T01:31:06.603552+00:00",
