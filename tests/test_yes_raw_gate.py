@@ -42,7 +42,8 @@ def _market(question, yes_price):
 
 def _scan(monkeypatch, question, yes_price, raw_prob, conf="medium"):
     monkeypatch.setattr(cm, "load_table", lambda: _TABLE)
-    est = lambda q, d=None, e=None: {"prob": raw_prob, "conf": conf, "why": "x"}
+    est = lambda q, d=None, e=None: {"prob": raw_prob, "conf": conf, "why": "x",
+                                     "searched": True}
     return es.scan_yes([_market(question, yes_price)], est)
 
 

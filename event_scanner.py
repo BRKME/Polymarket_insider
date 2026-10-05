@@ -104,6 +104,8 @@ class Candidate:
                                 # постфактум был фактическим, а не по флагу
     side: str = "NO"            # сторона ставки: "NO" (осн.) или "YES" (новая
                                 # стратегия средней зоны, валидируется отдельно)
+    price_24h_ago: Optional[float] = None  # цена YES ~сутки назад (из калибровочного
+                                # журнала) — метка резкого падения перед событием
     ai_yes_raw: Optional[float] = None  # сырая оценка Grok ДО калибровки — по ней
                                 # YES-гейт судит о согласии (см. scan_yes)
 
@@ -454,6 +456,9 @@ def make_two_stage_estimator(underlying, yes_price_for, screen_edge_min=0.10,
         cheap = _call(False)
         if not cheap or cheap.get("prob") is None:
             return None
+        # searched: дошла ли до результата оценка С поиском. YES-алерт требует
+        # True — оценку из памяти модели в ставку не пускаем (Бразилия 04.10).
+        cheap = dict(cheap, searched=False)
         yes = yes_price_for(question)
         if yes is None:
             return None
@@ -462,7 +467,9 @@ def make_two_stage_estimator(underlying, yes_price_for, screen_edge_min=0.10,
         if screen_edge < screen_edge_min and not is_yes_candidate:
             return cheap            # слабый edge — отдаём дешёвую оценку, поиск пропущен
         confirmed = _call(True)
-        return confirmed or cheap
+        if confirmed and confirmed.get("prob") is not None:
+            return dict(confirmed, searched=True)
+        return cheap
     return _estimator
 
 
@@ -525,6 +532,11 @@ def scan_yes(markets: List[Dict], ai_estimate_fn: Callable[[str], Optional[dict]
         except TypeError:
             est = ai_estimate_fn(q)
         if not est or est.get("prob") is None:
+            continue
+        # Только оценка, проверенная поиском. Без поиска Grok судит по памяти и
+        # пишет «свежие опросы», которых не видел (Бразилия 04.10.2026: Flávio,
+        # Lula, Renan Santos — 85-100% и −$60). Нет флага = не искал.
+        if est.get("searched") is not True:
             continue
         # Тот же порог уверенности, что в NO-ветке: low-оценки слишком шумные
         # для ставки (до 04.10.2026 YES-ветка его не проверяла).

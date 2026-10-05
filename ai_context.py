@@ -322,20 +322,23 @@ ESTIMATOR_SYSTEM = """Ты независимый прогнозист-анал�
 вероятность исхода YES в процентах (0-100).
 
 КАК РАССУЖДАТЬ (обязательный порядок):
-1. Найди свежие факты через web_search/x_search. Не выдумывай.
+1. Если тебе доступен поиск (web_search/x_search) — найди свежие факты. Если
+   поиска нет (это сказано в запросе) — опирайся только на то, что знаешь, и
+   НЕ утверждай «свежие/последние опросы»: ты их не видел. Не выдумывай.
 2. Выпиши факты ЗА исход YES и факты ПРОТИВ. Кратко.
 3. Только потом назови число — оно должно быть СЛЕДСТВИЕМ фактов.
 
 ГЛАВНОЕ ПРАВИЛО КАЛИБРОВКИ:
-Твоя оценка обязана соответствовать твоим же фактам.
-- Если факты ясно указывают, что событие ПРОИЗОЙДЁТ (кандидат уверенно
-  лидирует, дедлайн близко и всё идёт к да, тренд сильный) — ставь ВЫСОКУЮ
-  вероятность (80-95%). НЕ занижай искусственно.
-- Если факты указывают, что НЕ произойдёт — ставь НИЗКУЮ (5-20%).
-- Среднюю зону (40-60%) используй ТОЛЬКО при реальной неопределённости, когда
-  факты противоречивы или их мало.
-ЗАПРЕЩЕНО давать число, противоречащее собственным фактам. Если все твои факты
-за YES, а ты ставишь 68% — это ошибка. Перепроверь и исправь.
+Твоя оценка обязана соответствовать твоим же фактам, и её сила — силе фактов.
+- Опросы — не факт исхода. Рынок по событию, которое происходит сегодня или
+  в ближайшие дни, уже учёл все опросы: лидерство в опросах не даёт права на
+  90%+. Опросы ошибаются на несколько пунктов, порядок близких кандидатов
+  (2-е/3-е место) меняется регулярно.
+- Выше 85% или ниже 15% ставь ТОЛЬКО при фактах, делающих исход почти
+  неизбежным: официальные результаты, подписанное решение, исход уже наступил.
+- Если факты противоречивы, их мало или они только из опросов — держись
+  ближе к середине и ставь CONF: low или medium.
+ЗАПРЕЩЕНО давать число, противоречащее собственным фактам.
 
 База vs факты: начни с базовой ставки для класса события, но двигай оценку под
 свежие конкретные факты В ПОЛНУЮ СИЛУ. Конкретные данные (опросы, результаты
@@ -354,7 +357,8 @@ WHY: <1-2 коротких факта — главное обоснование>
 
 
 def _build_estimator_prompt(question: str, description: str = None,
-                            end_date: str = None) -> str:
+                            end_date: str = None, today: str = None,
+                            use_search: bool = True) -> str:
     """Assemble the estimator user-prompt, injecting resolution context.
 
     The question title alone hides the traps: grouped/linked markets, exact
@@ -362,7 +366,12 @@ def _build_estimator_prompt(question: str, description: str = None,
     Feeding them in lets Grok judge "P(YES) BY the resolution date UNDER these
     rules" instead of guessing from a headline.
     """
-    parts = [f"Вопрос рынка: «{question}»"]
+    # Сегодняшняя дата: без неё модель не знает, что голосование уже идёт, и
+    # судит по своей старой памяти (Бразилия 04.10.2026).
+    if not today:
+        from datetime import datetime as _dt, timezone as _tz
+        today = _dt.now(_tz.utc).strftime("%Y-%m-%d")
+    parts = [f"Сегодня: {today}.", f"Вопрос рынка: «{question}»"]
     if description and str(description).strip():
         desc = str(description).strip()
         if len(desc) > 2500:        # правила бывают длинными и критичными
@@ -382,9 +391,18 @@ def _build_estimator_prompt(question: str, description: str = None,
     if end_date and str(end_date).strip():
         parts.append(f"\nДата резолва: {str(end_date)[:10]}. Оцени вероятность "
                      f"YES именно К ЭТОЙ ДАТЕ и по правилам выше.")
-    parts.append("\nСначала найди свежие факты, потом дай число. "
-                 "WHY пиши по-русски, одной фразой, без маркеров списка. "
-                 "Ответ строго в требуемом формате.")
+    if use_search:
+        parts.append("\nСначала найди свежие факты поиском, потом дай число. "
+                     "WHY пиши по-русски, одной фразой, без маркеров списка. "
+                     "Ответ строго в требуемом формате.")
+    else:
+        # Дешёвый скрин без инструментов. Раньше он получал ту же просьбу «найди
+        # свежие факты» — и генерировал «свежие опросы», которых не видел.
+        parts.append("\n⚠️ ПОИСКА НЕТ: у тебя нет доступа к web_search/x_search. "
+                     "Оценивай по тому, что знаешь, не ссылайся на «свежие» или "
+                     "«последние» данные, CONF не выше medium. WHY пиши "
+                     "по-русски, одной фразой, без маркеров списка. Ответ строго "
+                     "в требуемом формате.")
     return "\n".join(parts)
 
 
@@ -440,7 +458,8 @@ def estimate_probability(question: str, description: str = None,
     if not question or not XAI_API_KEY or _BILLING_BLOCKED:
         return None
 
-    prompt = _build_estimator_prompt(question, description, end_date)
+    prompt = _build_estimator_prompt(question, description, end_date,
+                                     use_search=use_search)
 
     try:
         import requests as req
@@ -484,10 +503,18 @@ def estimate_probability(question: str, description: str = None,
         text = "\n".join(parts).strip() or data.get("output_text", "")
         if not text:
             return None
-        return _parse_probability(text)
+        return _cap_conf_without_search(_parse_probability(text), use_search)
     except Exception as e:
         print(f"  ❌ estimator error: {e}")
         return None
+
+
+def _cap_conf_without_search(est: Optional[dict], use_search: bool) -> Optional[dict]:
+    """Без поиска уверенность не выше medium: оценка из памяти модели не может
+    быть high, что бы модель ни написала."""
+    if est and not use_search and est.get("conf") == "high":
+        est = dict(est, conf="medium")
+    return est
 
 
 def _parse_probability(text: str) -> Optional[dict]:

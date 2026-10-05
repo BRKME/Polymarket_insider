@@ -58,7 +58,9 @@ def make_cached_estimator(
         if entry and cur_yes is not None and is_valid(entry, now, cur_yes):
             # return just the estimate fields the scanner expects
             return {"prob": entry["prob"], "conf": entry.get("conf", "low"),
-                    "why": entry.get("why", "")}
+                    "why": entry.get("why", ""),
+                    # старые записи кэша без флага — считаем «без поиска»
+                    "searched": bool(entry.get("searched", False))}
         # miss -> call underlying (with whatever signature it supports)
         try:
             est = underlying(question, description, end_date)
@@ -69,6 +71,7 @@ def make_cached_estimator(
                 "prob": est.get("prob"),
                 "conf": est.get("conf", "low"),
                 "why": est.get("why", ""),
+                "searched": bool(est.get("searched", False)),
                 "yes_price": cur_yes,
                 "cached_at_epoch": now,
             }

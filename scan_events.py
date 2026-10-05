@@ -15,8 +15,9 @@ Run:  python scan_events.py
 from __future__ import annotations
 import json
 import os
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
+from typing import Optional
 
 import requests
 
@@ -160,10 +161,14 @@ def _prune_seen(seen: dict, resolved_cids: set) -> dict:
 
 def _load_journal_rows() -> list:
     """Read journal rows (for prune-by-resolved). Empty if no journal yet."""
-    if not JOURNAL.exists():
+    return _load_jsonl_rows(JOURNAL)
+
+
+def _load_jsonl_rows(path: Path) -> list:
+    if not path.exists():
         return []
     rows = []
-    for line in JOURNAL.read_text().splitlines():
+    for line in path.read_text().splitlines():
         line = line.strip()
         if line:
             try:
@@ -303,6 +308,8 @@ def _make_logging_estimator(markets: list):
                 "no_price": no_price,
                 "ai_yes_estimate": ai_yes,       # Grok's P(YES) — what we score
                 "ai_conf": est.get("conf") if est else None,
+                # с поиском или из памяти — чтобы на чекпойнте сравнить Brier
+                "searched": est.get("searched") if est else None,
                 "edge": edge,
                 "liquidity": round(float(m.get("liquidity", 0) or 0), 2),
                 "end_date": str(m.get("endDate", "")),
@@ -339,7 +346,87 @@ LONG_LOCK_DAYS = 120   # дольше — флаг «длинная заморо
 LONG_WINDOW_WARN_DAYS = 90   # дольше — предупреждение о риске окна для NO-ставки
 
 
-def _format_alert(c: es.Candidate) -> str:
+DROP_ALERT_PP = 0.10        # падение цены YES за сутки, после которого — метка
+DROP_ALERT_HORIZON_H = 72   # ...если до события не больше трёх суток
+
+
+def _price_ago(cid: str, calib_rows: list, now: datetime,
+               lo_h: float = 18, hi_h: float = 36) -> Optional[float]:
+    """Цена YES рынка примерно сутки назад — из калибровочного журнала (он
+    пишет market_yes_price на каждую оценку). Берём последнюю запись в окне
+    [now−hi_h, now−lo_h]; сканы идут ~2 раза в сутки, окно их ловит."""
+    lo = (now - timedelta(hours=hi_h)).isoformat()
+    hi = (now - timedelta(hours=lo_h)).isoformat()
+    best = None
+    for r in calib_rows or []:
+        if r.get("condition_id") != cid or r.get("market_yes_price") is None:
+            continue
+        ts = str(r.get("estimated_at") or "")
+        if lo <= ts <= hi and (best is None or ts >= best[0]):
+            best = (ts, float(r["market_yes_price"]))
+    return best[1] if best else None
+
+
+def _drop_line(c: es.Candidate) -> str:
+    """Метка: цена YES резко упала за сутки, а событие вот-вот. Бразилия 04.10:
+    Flávio 74→57¢, Lula 73→61¢ за ночь перед голосованием — рынок узнал новое,
+    а зона 50-65% подала это как недооценку. Данных мало (5 случаев, 2 из них
+    выиграли) — поэтому метка, а не запрет."""
+    ago = getattr(c, "price_24h_ago", None)
+    if ago is None:
+        return ""
+    drop = float(ago) - float(c.market_yes_price)
+    hrs = es._hours_to_resolve({"endDate": c.end_date})
+    if drop < DROP_ALERT_PP or hrs is None or hrs > DROP_ALERT_HORIZON_H:
+        return ""
+    return (f"⚠️ Цена упала на {drop*100:.0f}пп за сутки ({ago*100:.0f}→"
+            f"{c.market_yes_price*100:.0f}¢), а до события ≤3д — рынок, вероятно, "
+            f"знает новое. Не «дёшево», а «что-то случилось»")
+
+
+def _event_key(slug: Optional[str]) -> str:
+    """Ключ события: первые три слова event_slug. Связывает исходы одного
+    события на разных рынках (brazil-presidential-election-first-round-
+    winner / -2nd-place / -3rd-place), но не разные штаты/гонки."""
+    parts = [p for p in str(slug or "").lower().split("-") if p]
+    return "-".join(parts[:3]) if len(parts) >= 3 else ""
+
+
+def _related_line(c: es.Candidate, batch: list, open_rows: list) -> str:
+    """Связанные исходы: другие алерты этого прогона и открытые позиции на то
+    же событие. Бразилия 04.10: Lula 1-й, Flávio 2-й, Renan 3-й — одна ставка
+    «порядок из опросов сохранится», пришедшая тремя сигналами."""
+    key = _event_key(getattr(c, "event_slug", ""))
+    if not key:
+        return ""
+    n_batch = sum(1 for o in batch or []
+                  if o is not c and o.condition_id != c.condition_id
+                  and _event_key(getattr(o, "event_slug", "")) == key)
+    n_open = sum(1 for r in open_rows or []
+                 if str(r.get("status", "open")).lower() == "open"
+                 and float(r.get("stake_actual") or 0) > 0
+                 and r.get("condition_id") != c.condition_id
+                 and _event_key(r.get("event_slug") or r.get("slug")) == key)
+    if not n_batch and not n_open:
+        return ""
+    bits = []
+    if n_batch:
+        bits.append(f"ещё {n_batch} {_plural(n_batch, 'алерт', 'алерта', 'алертов')} сейчас")
+    if n_open:
+        bits.append(f"{n_open} {_plural(n_open, 'открытая позиция', 'открытые позиции', 'открытых позиций')}")
+    return ("🔗 Связано: " + " и ".join(bits) + " на то же событие — исходы "
+            "зависят друг от друга, это одна ставка, а не несколько")
+
+
+def _plural(n: int, one: str, few: str, many: str) -> str:
+    if n % 10 == 1 and n % 100 != 11:
+        return one
+    if 2 <= n % 10 <= 4 and not 12 <= n % 100 <= 14:
+        return few
+    return many
+
+
+def _format_alert(c: es.Candidate, related_line: str = "") -> str:
     """v2 (UX-фидбек оператора): за 10 секунд должно быть ясно ЧТО делать.
 
     Строка 1: вопрос. Строка 2: действие глаголом — «Купить NO ~38¢», размер,
@@ -350,7 +437,9 @@ def _format_alert(c: es.Candidate) -> str:
     """
     if c.suspicious:
         fire = "⚠️"
-    elif c.edge >= 0.25:
+    elif c.edge >= 0.25 and getattr(c, "side", "NO") != "YES":
+        # у YES разрыв Grok−рынок силы сигнала не означает (политика §2):
+        # Бразилия 04.10 — три 🔥 с разрывом 27-43пп, все проиграли
         fire = "🔥"
     else:
         fire = "✅"
@@ -424,6 +513,11 @@ def _format_alert(c: es.Candidate) -> str:
             lines.append(f"Почему: {why}")
         if c.suspicious:
             lines.append("⚠️ Похоже на связанный/групповой рынок — читай правила")
+        drop = _drop_line(c)
+        if drop:
+            lines.append(drop)
+        if related_line:
+            lines.append(related_line)
         lines.append(f"Ликв. {liq_k}{cat_line}")
         lines.append("")
         lines.append("Чек: свежая цена · правила резолва · лимит категории")
@@ -654,8 +748,20 @@ def run() -> None:
         except Exception as e:
             print(f"  no-credit alert failed: {e}")
 
+    # Цена ~сутки назад — для метки резкого падения перед событием (и в журнал,
+    # чтобы проверить метку на данных).
+    try:
+        _calib_rows = _load_jsonl_rows(CALIB)
+        _now_dt = datetime.now(timezone.utc)
+        for c in candidates:
+            if getattr(c, "side", "NO") == "YES":
+                c.price_24h_ago = _price_ago(c.condition_id, _calib_rows, _now_dt)
+    except Exception as e:
+        print(f"  price-24h lookup failed: {e}")
+
     sent = 0
     suppressed = 0
+    outgoing = []
     now = datetime.now(timezone.utc).isoformat()
     for c in candidates:
         cid = c.condition_id
@@ -682,13 +788,24 @@ def run() -> None:
         # по-прежнему журналируем — выборка копится бесплатно, но не зовём
         # оператора в ставку, которая измеренно не имеет edge.
         if should_alert_side(getattr(c, "side", "NO")):
-            if _send(_format_alert(c)):
-                sent += 1
+            outgoing.append(c)      # шлём после цикла — нужен весь пакет для связей
         else:
             suppressed += 1
         _append_journal(c, re_alert=is_re_alert)
         seen[cid] = {"last_edge": c.edge, "alerted_at": now, "resolved": False,
                      "thesis_key": thesis}
+
+    try:
+        _open_rows = _load_journal_rows()
+    except Exception:
+        _open_rows = []
+    for c in outgoing:
+        try:
+            rel = _related_line(c, outgoing, _open_rows)
+        except Exception:
+            rel = ""
+        if _send(_format_alert(c, related_line=rel)):
+            sent += 1
 
     _save_seen(seen)
     # Persist the AI estimate cache for the next run.
