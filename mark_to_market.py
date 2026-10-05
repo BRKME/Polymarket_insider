@@ -248,6 +248,7 @@ def scan_open_positions(
     rows: List[dict],
     fetch_fn: Callable[[str], Optional[Dict]] = _default_fetch,
     calib_rows: Optional[List[dict]] = None,
+    manual: Optional[Dict[str, dict]] = None,
 ) -> List[dict]:
     """Re-mark every open position; return those that warrant an exit signal.
 
@@ -279,7 +280,8 @@ def scan_open_positions(
                 continue
             action = decide_exit_yes(entry, parsed)
             grok_raw = None
-            if flip_idx and grok_flip.is_flipped(row, flip_idx):
+            if (flip_idx and grok_flip.is_flipped(row, flip_idx)
+                    and cid not in (manual or {})):   # ручная — решение принято
                 # Алерт ушёл, хотя Grok был против (баг калибровки до 04.10) —
                 # оператор решил такие позиции закрыть. Важнее ценовых сигналов.
                 action = "CLOSE_FLIP"
@@ -339,7 +341,7 @@ def _format_signal(s: dict) -> str:
         "CLOSE_FULL": "🟢 ЗАКРЫВАЙ ПОЛНОСТЬЮ",
         "TAKE_PARTIAL": "🟡 ЗАБЕРИ ЧАСТЬ",
         "CUT": "🔴 РЕЖЬ (edge развернулся)",
-        "CLOSE_FLIP": "🔴 ЗАКРОЙ — ставка по ошибочному алерту",
+        "CLOSE_FLIP": "🟠 НЕ СИГНАЛ СИСТЕМЫ — алерт был ошибочным",
     }.get(s["action"], s["action"])
     # CUT в плюсе — не «цена против нас», а конвергенция: рынок сошёлся к
     # AI-оценке, остаток edge исчерпан. Действие то же (выход по правилу),
@@ -352,7 +354,10 @@ def _format_signal(s: dict) -> str:
         shown = s.get("grok_shown")
         shown_txt = f" · в алерте было {float(shown)*100:.0f}%" if shown is not None else ""
         why = (f"Grok на самом деле: {float(s['grok_raw'])*100:.0f}%{shown_txt} "
-               f"(баг калибровки, исправлен 04.10)\n")
+               f"(баг калибровки, исправлен 04.10)\n"
+               f"Преимущества нет ни в одну сторону: держать или продать — решай "
+               f"по текущей цене. Сообщение разовое; оставленную позицию можно "
+               f"пометить ручной (manual_positions.json)\n")
     return (
         f"{label}\n{s['question']}\n"
         f"—————————————————————\n"
@@ -362,6 +367,19 @@ def _format_signal(s: dict) -> str:
         f"({s['ret_pct']:+.0f}%)\n"
         f"Ставка ${s['stake']:.0f} · нереализ. P&L ${s['unrealised']:+.2f}"
     )
+
+
+def _should_send(seen: dict, cid: str, action: str, now) -> bool:
+    """CLOSE_FLIP — разово: это не изменение рынка, а сведение о прошлом
+    алерте, повтор каждые сутки — шум (решение оператора 05.10.2026).
+    Остальные действия — по exit_dedup (суточный повтор, эскалация сразу)."""
+    import exit_dedup
+    if action == "CLOSE_FLIP":
+        if (seen.get(cid) or {}).get("action") == "CLOSE_FLIP":
+            return False
+        seen[cid] = {"action": action, "ts": now.isoformat()}
+        return True
+    return exit_dedup.should_notify(seen, cid, action, now)
 
 
 def run() -> None:
@@ -391,7 +409,9 @@ def run() -> None:
                         continue
     except Exception as e:  # noqa: BLE001 — без журнала просто нет CLOSE_FLIP
         print(f"  calibration journal unreadable: {e}")
-    signals = scan_open_positions(rows, calib_rows=calib_rows)
+    import manual_positions
+    signals = scan_open_positions(rows, calib_rows=calib_rows,
+                                  manual=manual_positions.load())
     if not signals:
         print("  no exit signals — all open positions still maturing.")
         return
@@ -425,7 +445,7 @@ def run() -> None:
     # эскалация действия шлётся сразу (баг 15.07: дубли каждый 2ч-крон).
     emitted = 0
     for s in signals:
-        if not exit_dedup.should_notify(seen, s["condition_id"],
+        if not _should_send(seen, s["condition_id"],
                                         s["action"], now_dt):
             print(f"  (dedup) {s['question'][:40]} — {s['action']} уже слали")
             continue

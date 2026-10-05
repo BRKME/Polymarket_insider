@@ -23,7 +23,10 @@ def split_by_side(rows: list) -> Tuple[list, list]:
     """Делит записи на YES- и NO-позиции. Отсутствие поля = NO (исторически)."""
     import calibration_map as cm
     yes, no = [], []
-    rows = rows or []
+    import manual_positions
+    _manual = manual_positions.load()
+    # ручные позиции оператора — не сигналы системы, в статистику не входят
+    rows = [r for r in rows or [] if not manual_positions.is_manual(r, _manual)]
     # re_alert — тот же рынок: одна позиция на condition_id; строки без id
     # (старые/ручные) не схлопываем — склеивать их не по чему
     rows = cm.first_per_market(rows) + [r for r in rows

@@ -61,7 +61,7 @@ def test_mtm_emits_close_flip_even_without_price_trigger():
     assert s["action"] == "CLOSE_FLIP"
     assert s["grok_raw"] == 0.04
     text = mtm._format_signal(s)
-    assert "ЗАКРОЙ" in text
+    assert "НЕ СИГНАЛ СИСТЕМЫ" in text    # формулировка смягчена 05.10
     assert "4%" in text and "69%" in text
 
 

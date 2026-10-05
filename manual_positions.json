@@ -1,0 +1,5 @@
+{
+ "0x34918035a590555ba1fb1d6a019d766ab6e557d63e7f3140b63b4550eee7f417": {"question": "Will the Democrats win the Texas Senate race in 2026?", "reason": "grok_flip_kept", "since": "2026-10-05"},
+ "0x66bbf6d55e0296278858b3147689f3df9259374f158f9f028b608baa322a639c": {"question": "Will the Democrats win the Maine Senate race in 2026?", "reason": "grok_flip_kept", "since": "2026-10-05"},
+ "0x707eb5c6df23e32e0b770dd0ccd1245abb7fac0dcfd24d8b68dd99e5ca737180": {"question": "Will the Democrats win the Nevada governor race in 2026?", "reason": "grok_flip_kept", "since": "2026-10-05"}
+}
