@@ -198,8 +198,8 @@
 "thesis_key": "will nvidia be the largest company"
 },
 "0x34918035a590555ba1fb1d6a019d766ab6e557d63e7f3140b63b4550eee7f417": {
-"alerted_at": "2026-10-01T02:55:17.909932+00:00",
-"last_edge": 0.0,
+"alerted_at": "2026-10-05T20:05:01.597579+00:00",
+"last_edge": 0.1606,
 "resolved": false,
 "thesis_key": "will the democrats win the texas"
 },
@@ -323,12 +323,6 @@
 "resolved": false,
 "thesis_key": "will aryna sabalenka win the women"
 },
-"0x6114306f724135bd1db2f5f3169386decf18f618653c196ef0a6c1afd27f4c73": {
-"alerted_at": "2026-10-04T03:17:12.928718+00:00",
-"last_edge": 0.4178,
-"resolved": false,
-"thesis_key": "will fl vio bolsonaro finish in"
-},
 "0x61c2b9e70f7fdf3441fd1cfa2c8fa93308fefe3f5ecc2db87c393efab3a207a3": {
 "alerted_at": "2026-08-02T01:29:39.608734+00:00",
 "last_edge": 0.3508,
@@ -352,6 +346,12 @@
 "last_edge": 0.445,
 "resolved": false,
 "thesis_key": "spacex ipo closing cap above 2t"
+},
+"0x6664de877892786b699c552ef88f25ff6e4828f9a847e4f40e4d6d9cd30b1485": {
+"alerted_at": "2026-10-05T20:05:01.597579+00:00",
+"last_edge": 0.2234,
+"resolved": false,
+"thesis_key": "will the republicans win the vermont"
 },
 "0x66bbf6d55e0296278858b3147689f3df9259374f158f9f028b608baa322a639c": {
 "alerted_at": "2026-10-02T03:03:09.327027+00:00",
@@ -492,8 +492,8 @@
 "thesis_key": "will the fed increase interest rates"
 },
 "0x88b2827dd9bb9b3ebd4f229561a7606bd2bbdedbf3dfbb9c563e1e7dd2673747": {
-"alerted_at": "2026-10-05T02:50:54.574255+00:00",
-"last_edge": 0.1776,
+"alerted_at": "2026-10-05T20:05:01.597579+00:00",
+"last_edge": 0.045,
 "resolved": false,
 "thesis_key": "variational fdv above 1b one day"
 },
@@ -508,6 +508,12 @@
 "last_edge": 0.2079,
 "resolved": false,
 "thesis_key": "will there be no change in"
+},
+"0x8db33416a2d1ebde7438c80129e898f89a5deb3852ca64b37c4bf46513204409": {
+"alerted_at": null,
+"last_edge": 0.2958,
+"resolved": false,
+"thesis_key": "us announces end of iranian blockade"
 },
 "0x8e1e5c26dec73aee98230dc0ef93a294142587ca24190c4728d4b7ff831a22e0": {
 "alerted_at": "2026-08-03T14:13:29.715249+00:00",
@@ -593,6 +599,12 @@
 "resolved": false,
 "thesis_key": "us iran nuclear deal"
 },
+"0xa9cd0c9ef05fd4d9654ee8d960a84c4d6b68761137484289c89400742b1c98d5": {
+"alerted_at": "2026-10-05T20:05:01.597579+00:00",
+"last_edge": 0.195,
+"resolved": false,
+"thesis_key": "will the republican party win the"
+},
 "0xb106a3c9d1c59ed8117493dae6459a3ff79369a8f7cddaf62f4a05828b89195e": {
 "alerted_at": "2026-06-23T14:20:48.821504+00:00",
 "last_edge": 0.165,
@@ -647,6 +659,12 @@
 "resolved": false,
 "thesis_key": "starmer out"
 },
+"0xbf7a9da08326512f76129d4accf9f7d852dbf1cb7dd2c512479ff40c872f5659": {
+"alerted_at": "2026-10-05T20:05:01.597579+00:00",
+"last_edge": 0.1934,
+"resolved": false,
+"thesis_key": "will chiang wan an win the"
+},
 "0xc3d5708780de5528998aeb53ca90e7ade64804f9f2386392a681435d5c42b44d": {
 "alerted_at": null,
 "last_edge": 0.3056,
@@ -658,12 +676,6 @@
 "last_edge": 0.5314,
 "resolved": false,
 "thesis_key": "will anthropic s valuation hit high"
-},
-"0xcba20965509d04b5f3ae2c51a221747317aff9387c197ca6d5919e85e5a20ee9": {
-"alerted_at": "2026-10-04T03:17:12.928718+00:00",
-"last_edge": 0.4278,
-"resolved": false,
-"thesis_key": "will renan santos finish in third"
 },
 "0xcee04ba47d02f6c64642369b34193c355f64de1b9ae425c71ea4efef1989d271": {
 "alerted_at": "2026-08-05T13:33:27.814132+00:00",
