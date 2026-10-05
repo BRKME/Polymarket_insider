@@ -105,3 +105,30 @@ def _mkt(i):
     return {"question": f"q{i}", "outcomes": '["Yes","No"]', "outcomePrices": '["1","0"]',
             "clobTokenIds": '["a","b"]', "volumeNum": 50_000,
             "endDate": "2026-09-01T00:00:00Z"}
+
+
+# ── прогон 05.10 23:29: 326 рынков из 4000 — Gamma перестаёт отдавать страницы
+# глубоко в одном запросе. Выборка идёт недельными окнами.
+
+def test_fetch_walks_weekly_windows(monkeypatch):
+    windows = []
+
+    def fake_get(url, params, tries=3):
+        if params["offset"] == 0:
+            windows.append((params["end_date_min"], params["end_date_max"]))
+            w = len(windows)
+            return [dict(_mkt(w * 1000 + i), conditionId=f"c{w}-{i}") for i in range(3)]
+        return []
+    monkeypatch.setattr(ds, "_get", fake_get)
+    out = ds.fetch_closed_markets(10_000, 0, now_ts=1_800_000_000, lookback_days=28)
+    assert len(windows) == 4                      # 28 дней = 4 недели
+    assert len(out) == 12                         # по 3 рынка из каждого окна
+    assert windows[0][1] > windows[1][1]          # от свежих к старым
+    assert windows[0][0] == windows[1][1]         # окна стыкуются без дыр
+
+
+def test_fetch_dedups_across_windows(monkeypatch):
+    def fake_get(url, params, tries=3):
+        return [dict(_mkt(1), conditionId="same")] if params["offset"] == 0 else []
+    monkeypatch.setattr(ds, "_get", fake_get)
+    assert len(ds.fetch_closed_markets(100, 0, now_ts=1_800_000_000, lookback_days=21)) == 1

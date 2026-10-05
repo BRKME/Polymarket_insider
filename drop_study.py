@@ -134,39 +134,55 @@ def _get(url, params, tries=3):
 PAGE = 100   # Gamma отдаёт не больше 100 за запрос (прогон 05.10 встал на 99)
 
 
+WINDOW_DAYS = 7
+MAX_PAGES_PER_WINDOW = 20
+
+
 def fetch_closed_markets(max_markets: int, min_volume: float,
                          now_ts: Optional[int] = None,
                          lookback_days: int = 365) -> List[dict]:
     """Закрытые бинарные рынки, закончившиеся за последние lookback_days.
 
-    Сортировка по endDate без верхней границы ставила первыми рынки, закрытые
-    досрочно, но с endDate в 2027 — окно истории уезжало в будущее (05.10:
-    0 историй из 99). Поэтому end_date_max=сейчас, а конец рынка — _end_ts.
+    Недельными окнами по endDate, от свежих к старым: в одном длинном запросе
+    Gamma перестаёт отдавать страницы после нескольких сотен (05.10: 326
+    рынков из 4000). end_date_max ≤ сейчас: досрочно закрытые рынки с endDate
+    в 2027 иначе уводят окно истории в будущее (05.10: 0 историй из 99).
     """
     now_ts = now_ts or int(time.time())
     iso = lambda ts: datetime.fromtimestamp(ts, timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
-    out, offset = [], 0
-    while len(out) < max_markets and offset <= 100_000:
-        page = _get(GAMMA, {"closed": "true", "limit": PAGE, "offset": offset,
-                            "order": "endDate", "ascending": "false",
-                            "end_date_max": iso(now_ts),
-                            "end_date_min": iso(now_ts - lookback_days * 86400),
-                            "volume_num_min": min_volume})
-        if not page:
-            break
-        for m in page:
-            try:
-                if float(m.get("volumeNum") or m.get("volume") or 0) < min_volume:
+    out, seen = [], set()
+    hi = now_ts
+    lo_limit = now_ts - lookback_days * 86400
+    while hi > lo_limit and len(out) < max_markets:
+        lo = max(lo_limit, hi - WINDOW_DAYS * 86400)
+        offset, pages = 0, 0
+        while pages < MAX_PAGES_PER_WINDOW and len(out) < max_markets:
+            page = _get(GAMMA, {"closed": "true", "limit": PAGE, "offset": offset,
+                                "order": "endDate", "ascending": "false",
+                                "end_date_max": iso(hi), "end_date_min": iso(lo),
+                                "volume_num_min": min_volume})
+            if not page:
+                break
+            pages += 1
+            for m in page:
+                key = m.get("conditionId") or m.get("question")
+                if key in seen:
                     continue
-            except (TypeError, ValueError):
-                continue
-            if final_outcome(m) is None or not m.get("clobTokenIds"):
-                continue
-            end = _end_ts(m)
-            if end is None or end > now_ts:
-                continue
-            out.append(m)
-        offset += len(page)
+                try:
+                    if float(m.get("volumeNum") or m.get("volume") or 0) < min_volume:
+                        continue
+                except (TypeError, ValueError):
+                    continue
+                if final_outcome(m) is None or not m.get("clobTokenIds"):
+                    continue
+                end = _end_ts(m)
+                if end is None or end > now_ts:
+                    continue
+                seen.add(key)
+                out.append(m)
+            offset += len(page)
+        _DIAG["windows"] = _DIAG.get("windows", 0) + 1
+        hi = lo
     return out[:max_markets]
 
 
