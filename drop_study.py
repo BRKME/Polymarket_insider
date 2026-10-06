@@ -38,6 +38,13 @@ OUT = Path("research/drop_study.json")
 
 # ── чистая логика ────────────────────────────────────────────────────────────
 
+def is_junk_market(question: str) -> bool:
+    """Рынки-заглушки, которые искажают статистику: «Completed Match: X vs Y»
+    (YES = матч доигран, почти всегда; цена ~50¢ — пустой стакан). 06.10 они
+    дали ложный «теннис +48.6пп» и завысили группу «стояла»."""
+    return "completed match" in str(question or "").lower()
+
+
 def classify(history: List[dict], end_ts: int) -> Optional[dict]:
     """Первая точка в окне [end−72ч, end−2ч] с ценой в зоне и ценой ~сутки
     назад -> {move: drop|flat|rise, price, delta, hours_before}."""
@@ -325,7 +332,7 @@ def run(max_markets: int, min_volume: float) -> dict:
         if not hist:
             continue
         n_hist += 1
-        o = classify(hist, end)
+        o = classify(hist, end) if not is_junk_market(m.get("question", "")) else None
         if o:
             q = m.get("question", "")
             o.update({"yes": final_outcome(m), "question": q[:120],

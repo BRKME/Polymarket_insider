@@ -132,3 +132,14 @@ def test_fetch_dedups_across_windows(monkeypatch):
         return [dict(_mkt(1), conditionId="same")] if params["offset"] == 0 else []
     monkeypatch.setattr(ds, "_get", fake_get)
     assert len(ds.fetch_closed_markets(100, 0, now_ts=1_800_000_000, lookback_days=21)) == 1
+
+
+# ── мусорные рынки «Completed Match» (06.10) ─────────────────────────────────
+# «Adana: Completed Match: X vs Y» — резолв YES, если матч доигран (почти
+# всегда), цена ~50¢ — заглушка пустого стакана. 86 таких рынков дали ложный
+# «теннис +48.6пп» и завысили группу «стояла».
+
+def test_completed_match_markets_excluded():
+    assert ds.is_junk_market("Adana: Completed Match: Polina Iatcenko vs Erika Andreeva")
+    assert not ds.is_junk_market("Sinner vs. Alcaraz")
+    assert not ds.is_junk_market("Will the Democrats win the Nevada governor race?")
