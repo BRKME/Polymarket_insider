@@ -429,10 +429,14 @@ def _price_ago_clob(token: Optional[str], now: datetime, get_fn=None,
 
 
 def _drop_line(c: es.Candidate) -> str:
-    """Метка: цена YES резко упала за сутки, а событие вот-вот. Бразилия 04.10:
-    Flávio 74→57¢, Lula 73→61¢ за ночь перед голосованием — рынок узнал новое,
-    а зона 50-65% подала это как недооценку. Данных мало (5 случаев, 2 из них
-    выиграли) — поэтому метка, а не запрет."""
+    """Метка: цена YES упала ≥10пп за сутки, а событие ≤3д.
+
+    Исследование 06.10.2026 (drop_study, 10 000 закрытых рынков Polymarket):
+    упавшие в зону 50-65% перед событием — n=155, YES 66.5% при цене 57.7¢
+    (+8.8пп); стоявшие — n=882, +5.1пп; разница +3.6пп (95% CI −4.6..+11.6).
+    Тезис «падение = рынок знает новое» не подтвердился → запрета нет, метка
+    сообщает факт и цифры. Выборы — исключение (n=16, −15.6пп, CI через 0),
+    поэтому для них отдельная оговорка."""
     ago = getattr(c, "price_24h_ago", None)
     if ago is None:
         return ""
@@ -440,9 +444,17 @@ def _drop_line(c: es.Candidate) -> str:
     hrs = es._hours_to_resolve({"endDate": c.end_date})
     if drop < DROP_ALERT_PP or hrs is None or hrs > DROP_ALERT_HORIZON_H:
         return ""
-    return (f"⚠️ Цена упала на {drop*100:.0f}пп за сутки ({ago*100:.0f}→"
-            f"{c.market_yes_price*100:.0f}¢), а до события ≤3д — рынок, вероятно, "
-            f"знает новое. Не «дёшево», а «что-то случилось»")
+    line = (f"📉 Цена упала на {drop*100:.0f}пп за сутки ({ago*100:.0f}→"
+            f"{c.market_yes_price*100:.0f}¢) перед событием. По 155 таким рынкам "
+            f"YES в среднем выигрывал чаще цены (+9пп) — это не запрет")
+    try:
+        import category_exposure as cx
+        if cx.classify(c.question, slug=getattr(c, "event_slug", None)) == "elections":
+            line += ("\n⚠️ Но на выборах наоборот: 16 таких рынков, YES реже цены "
+                     "(−16пп) — данных мало, осторожно")
+    except Exception:
+        pass
+    return line
 
 
 def _event_key(slug: Optional[str]) -> str:

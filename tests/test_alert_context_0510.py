@@ -132,3 +132,24 @@ def test_yes_token_from_market():
     m = {"outcomes": '["No","Yes"]', "clobTokenIds": '["111","222"]'}
     assert se._yes_token(m) == "222"
     assert se._yes_token({}) is None
+
+
+# ── итог исследования 06.10 (10 000 рынков) ─────────────────────────────────
+# Падение ≥10пп в зону перед событием: n=155, YES 66.5% при цене 57.7¢ (+8.8пп);
+# «стояла» n=882 +5.1пп; разница +3.6пп (CI −4.6..+11.6). Тезис «рынок знает
+# новое» не подтвердился — запрета нет, метка говорит факт с цифрами.
+# Исключение — выборы: n=16, YES 43.8% при 59.4¢ (−15.6пп, CI пересекает 0).
+
+def test_drop_label_states_research_not_claim(monkeypatch):
+    _no_journal(monkeypatch)
+    msg = se._format_alert(_c(price=0.575, ago=0.745, days=1.0))
+    assert "знает новое" not in msg
+    assert "155" in msg                       # опора на исследование
+
+
+def test_drop_label_election_caution(monkeypatch):
+    _no_journal(monkeypatch)
+    msg = se._format_alert(_c(q="Will the Democrats win the Nevada governor race?",
+                              slug="nevada-governor-winner-2026",
+                              price=0.575, ago=0.745, days=1.0))
+    assert "выбор" in msg.lower() and "16" in msg
