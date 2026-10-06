@@ -113,6 +113,71 @@ def bootstrap_diff(a: List[dict], b: List[dict], iters: int = 2000,
             "hi": diffs[int(0.975 * iters)]}
 
 
+# ── разбивка по видам спорта и типам рынков (06.10.2026) ────────────────────
+# Вопрос оператора: какие виды спорта включать — только «ограниченные» рынки,
+# без киберспорта; где итог предсказуемее. Порядок важен: первый совпавший.
+import re as _re
+
+_SPORT_RULES = [
+    ("esports", ("lol-", "cs2-", "dota", "val-"),
+     r"\b(lck|lpl|msi|worlds|esports|valorant|dota|counter-strike|cs2|league of legends)\b"),
+    ("nfl", ("nfl-",), r"\b(nfl|super bowl)\b"),
+    ("nba", ("nba-",), r"\b(nba|nba finals)\b"),
+    ("mlb", ("mlb-",), r"\b(mlb|world series)\b"),
+    ("nhl", ("nhl-",), r"\b(nhl|stanley cup)\b"),
+    ("college", ("cbb-", "cfb-", "ncaa"), r"\b(ncaa|march madness|college football)\b"),
+    ("tennis", ("atp-", "wta-"),
+     r"\b(atp|wta|wimbledon|us open|roland garros|french open|australian open|grand slam)\b"),
+    ("mma", ("ufc-", "box-"), r"\b(ufc|boxing|knockout|heavyweight)\b"),
+    ("motorsport", ("f1-", "nascar-", "motogp-"), r"\b(f1|formula 1|grand prix|nascar|motogp|drivers' champion|constructors' champion)\b"),
+    ("golf", ("pga-", "golf-"), r"\b(pga|masters|open championship|ryder cup|golf|lpga)\b"),
+    ("cricket", ("ipl-", "cricket-"), r"\b(ipl|cricket|t20|test match|odi)\b"),
+    ("soccer", ("epl-", "ucl-", "uel-", "laliga-", "seriea-", "bundesliga-", "ligue1-",
+                "mls-", "fifwc-", "uecl-"),
+     r"\b(fc|premier league|champions league|la ?liga|serie a|bundesliga|ligue 1|mls|"
+     r"world cup|halftime|both halves|leading at|ballon d'or|uefa|copa)\b"),
+]
+
+
+def sport_kind(question: str, slug: str = "") -> Optional[str]:
+    """Вид спорта по слагу события (надёжнее) или тексту; None — не спорт."""
+    sl = str(slug or "").lower()
+    q = str(question or "").lower()
+    for kind, prefixes, rx in _SPORT_RULES:
+        if sl.startswith(prefixes) or _re.search(rx, q):
+            return kind
+    if " vs. " in q or " vs " in q:
+        return "other_sport"
+    return None
+
+
+def market_kind(question: str, slug: str = "") -> str:
+    """Тип рынка: match (матч один на один), spread_total (фора/тотал),
+    period (тайм/период/«ведёт в перерыве»), outright (кто выиграет из многих:
+    турнир, гонка, сезон, «вылетит в…»)."""
+    q = str(question or "").lower()
+    if _re.search(r"o/u|over/under|spread|\(-?\+?\d+\.5\)|[-+]\d+\.5|total", q):
+        return "spread_total"
+    if _re.search(r"halftime|half|leading at|period|quarter|inning|set \d|1st|first", q):
+        return "period"
+    if " vs. " in q or " vs " in q:
+        return "match"
+    return "outright"
+
+
+def edge_ci(group: List[dict], iters: int = 2000, seed: int = 11) -> Optional[dict]:
+    """YES − цена по группе с 95% бутстреп-интервалом."""
+    if len(group) < 10:
+        return None
+    rnd = random.Random(seed)
+
+    def edge(g):
+        return sum(o["yes"] - o["price"] for o in g) / len(g)
+    boots = sorted(edge([rnd.choice(group) for _ in group]) for _ in range(iters))
+    return {"n": len(group), "edge": edge(group),
+            "lo": boots[int(0.025 * iters)], "hi": boots[int(0.975 * iters)]}
+
+
 # ── сеть (только в Actions) ──────────────────────────────────────────────────
 
 def _get(url, params, tries=3):
@@ -241,6 +306,11 @@ def fetch_history(token: str, end: int) -> List[dict]:
 _DIAG: Dict[str, int] = {"ok_range": 0, "ok_max": 0, "ok_1w": 0, "empty": 0}
 
 
+def _slug_of(m: dict) -> str:
+    ev = (m.get("events") or [{}])[0] if m.get("events") else {}
+    return str(ev.get("slug") or m.get("slug") or "")
+
+
 def run(max_markets: int, min_volume: float) -> dict:
     import event_scanner as es
     import category_exposure as cx
@@ -262,6 +332,8 @@ def run(max_markets: int, min_volume: float) -> dict:
                       "category": cx.classify(q, slug=(m.get("events") or [{}])[0].get("slug")
                                               if m.get("events") else None),
                       "sport": es._is_sport_or_hft(q),
+                      "sport_kind": sport_kind(q, _slug_of(m)),
+                      "market_kind": market_kind(q, _slug_of(m)),
                       "end": datetime.fromtimestamp(end, timezone.utc).date().isoformat()})
             obs.append(o)
         if i % 200 == 0:
@@ -283,7 +355,13 @@ def run(max_markets: int, min_volume: float) -> dict:
         "non_sport": block([o for o in obs if not o["sport"]]),
         "sport": block([o for o in obs if o["sport"]]),
         "elections": block([o for o in obs if o["category"] == "elections"]),
-        "drops": [o for o in obs if o["move"] == "drop"][:200],
+        "by_sport": {k: edge_ci([o for o in obs if o.get("sport_kind") == k])
+                     for k in sorted({o.get("sport_kind") or "-" for o in obs})},
+        "by_sport_market": {f"{k}/{t}": edge_ci([o for o in obs if o.get("sport_kind") == k
+                                                 and o.get("market_kind") == t])
+                            for k in sorted({o.get("sport_kind") for o in obs if o.get("sport_kind")})
+                            for t in ("match", "spread_total", "period", "outright")},
+        "obs": obs,
     }
     return report
 
@@ -307,6 +385,17 @@ def _print(report: dict) -> None:
             print(f"  drop−flat edge: {d['diff']:+.3f} (95% CI {d['lo']:+.3f}..{d['hi']:+.3f})")
 
 
+def _print_kinds(report: dict) -> None:
+    for title, key in (("by sport (zone 50-65, ≤72h)", "by_sport"),
+                       ("by sport / market kind", "by_sport_market")):
+        print(f"\n=== {title} ===")
+        for k, v in sorted((report.get(key) or {}).items(),
+                           key=lambda kv: -(kv[1] or {}).get("n", 0)):
+            if v:
+                print(f"  {k:28s} n={v['n']:4d} YES−price={v['edge']:+.3f} "
+                      f"(95% CI {v['lo']:+.3f}..{v['hi']:+.3f})")
+
+
 if __name__ == "__main__":
     ap = argparse.ArgumentParser()
     ap.add_argument("--max-markets", type=int, default=4000)
@@ -316,3 +405,4 @@ if __name__ == "__main__":
     OUT.parent.mkdir(exist_ok=True)
     OUT.write_text(json.dumps(rep, ensure_ascii=False, indent=1))
     _print(rep)
+    _print_kinds(rep)
