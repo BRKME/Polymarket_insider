@@ -113,12 +113,6 @@
 "resolved": false,
 "thesis_key": "will fl vio bolsonaro win the"
 },
-"0x1c4c6a698f0591ddf0c96e1beb56f8c75112ef849331bf3b0388f14830a7421d": {
-"alerted_at": "2026-08-12T00:57:45.750884+00:00",
-"last_edge": 0.0025,
-"resolved": false,
-"thesis_key": "israel x iran ceasefire continues through"
-},
 "0x1d659678cf359d8ae3d8fae2bd0c889d3bcffdac6b4620aef61342ea8a4a5f66": {
 "alerted_at": "2026-07-16T01:24:17.002925+00:00",
 "last_edge": 0.2754,
@@ -490,12 +484,6 @@
 "last_edge": 0.44,
 "resolved": false,
 "thesis_key": "will the fed increase interest rates"
-},
-"0x88b2827dd9bb9b3ebd4f229561a7606bd2bbdedbf3dfbb9c563e1e7dd2673747": {
-"alerted_at": "2026-10-05T20:05:01.597579+00:00",
-"last_edge": 0.045,
-"resolved": false,
-"thesis_key": "variational fdv above 1b one day"
 },
 "0x8a4196617dcb703e49d9bb36d3847bf6a75fd364dbd19f8d408ac944bf1a03d8": {
 "alerted_at": null,
