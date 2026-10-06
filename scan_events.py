@@ -487,6 +487,22 @@ def _plural(n: int, one: str, few: str, many: str) -> str:
     return many
 
 
+def _ai_outage_message(stats: dict, billing_blocked: bool) -> Optional[str]:
+    """Текст тревоги об отказе Grok или None, если всё в порядке."""
+    calls, fails = int(stats.get("calls", 0)), int(stats.get("fails", 0))
+    if billing_blocked:
+        return ("⚠️ Polymarket-сканер: xAI отказал — исчерпаны кредиты или "
+                "достигнут месячный лимит трат (ответ 403). Новые рынки Grok не "
+                f"оценивает (провалено {fails} из {calls}, остальное — из кэша). "
+                "Пополни баланс или подними лимит в console.x.ai. Это не «нет "
+                "сигналов» — это отказ API.")
+    if calls >= 3 and fails == calls:
+        return ("⚠️ Polymarket-сканер: Grok недоступен — все "
+                f"{calls} оценок не прошли. Вероятно, кончились кредиты xAI. "
+                "Оценка рынков не работает. Это не «нет сигналов» — это отказ API.")
+    return None
+
+
 def _format_alert(c: es.Candidate, related_line: str = "") -> str:
     """v2 (UX-фидбек оператора): за 10 секунд должно быть ясно ЧТО делать.
 
@@ -784,22 +800,24 @@ def run() -> None:
     except Exception as e:
         print(f"  scan_yes failed: {e}")
 
-    # Алерт при полном отказе AI (нет кредитов / API down): честно сообщить,
-    # а не выдать тишину за «нет интересных рынков».
-    if _est_stats["calls"] >= 3 and _est_stats["fails"] == _est_stats["calls"]:
+    # Отказ AI (нет кредитов / лимит трат / API down) — честно сообщить, а не
+    # выдать тишину за «нет интересных рынков». Биллинг-блок — всегда: после
+    # починки кэша часть оценок идёт из кэша, и «провалились все» не наступает
+    # (ночь на 06.10: 403 по лимиту, тревога промолчала).
+    try:
+        import ai_context as _ac
+        _blocked = bool(getattr(_ac, "_BILLING_BLOCKED", False))
+    except Exception:
+        _blocked = False
+    _outage = _ai_outage_message(_est_stats, billing_blocked=_blocked)
+    if _outage:
         try:
             import requests as _req
             from config import TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID
             if TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID:
                 _req.post(
                     f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage",
-                    json={"chat_id": TELEGRAM_CHAT_ID,
-                          "text": ("⚠️ Polymarket-сканер: Grok недоступен — все "
-                                   f"{_est_stats['calls']} оценок не прошли. Вероятно, "
-                                   "кончились кредиты xAI (баланс $0). Оценка рынков не "
-                                   "работает, пока не пополнишь. Это не «нет сигналов» — "
-                                   "это отказ API.")},
-                    timeout=10)
+                    json={"chat_id": TELEGRAM_CHAT_ID, "text": _outage}, timeout=10)
         except Exception as e:
             print(f"  no-credit alert failed: {e}")
 
