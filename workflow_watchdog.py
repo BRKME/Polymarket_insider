@@ -40,6 +40,26 @@ def find_failures(runs: list) -> list:
     return out
 
 
+def currently_failing(runs: list) -> list:
+    """Красные прогоны только тех воркфлоу, чей ПОСЛЕДНИЙ завершённый прогон
+    красный. Починившийся воркфлоу (после красного был зелёный) — молчим.
+
+    Ложная тревога 06.10.2026: вечером 05.10 GitHub снимал задачи из очереди,
+    не выдав машину (conclusion=failure); к утру те же воркфлоу были зелёными,
+    но сторож видел «красное за сутки» и звал чинить уже работающее."""
+    by_name: dict = {}
+    for r in runs or []:
+        if r.get("name") in IGNORE or r.get("conclusion") is None:
+            continue
+        by_name.setdefault(r.get("name"), []).append(r)
+    out = []
+    for name, rs in by_name.items():
+        rs.sort(key=lambda r: str(r.get("created_at") or ""))
+        if rs[-1].get("conclusion") == "failure":
+            out.extend(r for r in rs if r.get("conclusion") == "failure")
+    return out
+
+
 def build_report(failures: list) -> Optional[str]:
     """Сообщение о красных воркфлоу. None, если чинить нечего (молчим)."""
     if not failures:
@@ -104,7 +124,7 @@ def _send(msg: str) -> None:
 def main() -> None:
     runs = _fetch_runs()
     print(f"сторож: прогонов за {WINDOW_HOURS}ч — {len(runs)}")
-    failures = find_failures(runs)
+    failures = currently_failing(runs)
     report = build_report(failures)
     if report is None:
         print("  всё зелено — молчим")
