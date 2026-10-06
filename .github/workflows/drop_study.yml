@@ -14,7 +14,7 @@ on:
         default: "20000"
 
 permissions:
-  contents: read
+  contents: write          # сырые наблюдения коммитятся в research/ (артефакт недоступен из сессий разработки)
 
 jobs:
   study:
@@ -32,3 +32,13 @@ jobs:
         with:
           name: drop-study
           path: research/drop_study.json
+      - name: Commit raw observations
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add research/drop_study.json
+          git diff --staged --quiet || git commit -m "research: drop_study raw observations [skip ci]"
+          for i in 1 2 3; do
+            git pull --rebase origin main && git push && break
+            echo "push attempt $i failed, retrying..."; sleep 5
+          done

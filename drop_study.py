@@ -394,6 +394,15 @@ def _print_kinds(report: dict) -> None:
             if v:
                 print(f"  {k:28s} n={v['n']:4d} YES−price={v['edge']:+.3f} "
                       f"(95% CI {v['lo']:+.3f}..{v['hi']:+.3f})")
+    # Примеры рынков по спортивным группам — проверка глазами, что группа
+    # не артефакт (прогон 06.10: tennis/match n=57, +48.6пп, CI ±0.5пп).
+    obs = report.get("obs") or []
+    for k in sorted({o.get("sport_kind") for o in obs if o.get("sport_kind")}):
+        g = [o for o in obs if o.get("sport_kind") == k]
+        print(f"\n--- samples: {k} (n={len(g)}) ---")
+        for o in g[:12]:
+            print(f"  yes={o['yes']} p={o['price']:.3f} {o.get('market_kind')} "
+                  f"{o.get('end')} {o.get('question','')[:90]}")
 
 
 if __name__ == "__main__":
