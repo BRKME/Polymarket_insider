@@ -23,12 +23,6 @@
 "resolved": false,
 "thesis_key": "fed rate hike"
 },
-"0x07d6d1ac69e705071cfaa10ab950f8231dc3de7cb03638cbabb7fbf481806797": {
-"alerted_at": "2026-08-06T13:31:40.749710+00:00",
-"last_edge": 0.3529,
-"resolved": false,
-"thesis_key": "will los angeles dodgers win the"
-},
 "0x087713ab2905e789c42c3fafdf747512f8d7883b7fab1ac554b703310c09d869": {
 "alerted_at": null,
 "last_edge": 0.395,
