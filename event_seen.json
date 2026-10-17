@@ -155,6 +155,12 @@
 "resolved": false,
 "thesis_key": "will donavan mckinney be the democratic"
 },
+"0x2eb5c61cd550a8f57968d83d60c00bfda48542bb9204efa4639cd959345a76d6": {
+"alerted_at": "2026-10-17T14:41:50.801642+00:00",
+"last_edge": 0.0,
+"resolved": false,
+"thesis_key": "will oil be at least 80"
+},
 "0x2f112a1cd954debe3438caac411ca4395cc53be0e1580a5802ab42618b94aff7": {
 "alerted_at": "2026-08-14T00:57:17.501754+00:00",
 "last_edge": 0.3892,
@@ -310,6 +316,12 @@
 "last_edge": 0.1804,
 "resolved": false,
 "thesis_key": "will aryna sabalenka win the women"
+},
+"0x5f5e121333f1a684aeeee44941b753473795e334342eecaff975879ea58e5ec9": {
+"alerted_at": "2026-10-17T14:41:50.801642+00:00",
+"last_edge": 0.0,
+"resolved": false,
+"thesis_key": "will oil be at least 85"
 },
 "0x61c2b9e70f7fdf3441fd1cfa2c8fa93308fefe3f5ecc2db87c393efab3a207a3": {
 "alerted_at": "2026-08-02T01:29:39.608734+00:00",
@@ -539,6 +551,12 @@
 "resolved": false,
 "thesis_key": "will strait of hormuz traffic not"
 },
+"0x9d54f82ccce95184f18f3a46dcbab3ce637fbb92a604a15ff74cefdf0b1eb38e": {
+"alerted_at": "2026-10-17T14:41:50.801642+00:00",
+"last_edge": 0.1554,
+"resolved": false,
+"thesis_key": "will the democratic party win the"
+},
 "0xa055e1cf533c2fcb1f1c89c20c41c8aa25526dcf27c3ff6be69c230fd8898282": {
 "alerted_at": null,
 "last_edge": 0.0,
@@ -688,6 +706,12 @@
 "last_edge": 0.2925,
 "resolved": false,
 "thesis_key": "will the democratic party control the"
+},
+"0xd88213e25cb330a0afe25f4f440bb71238d9aa66b4c66d816539d07516951c7c": {
+"alerted_at": "2026-10-17T14:41:50.801642+00:00",
+"last_edge": 0.0,
+"resolved": false,
+"thesis_key": "will there be no hormuz agreement"
 },
 "0xda519921a7090298cbdc56ee838a403a5193c2b3f637aef3e154e52de7b5e79c": {
 "alerted_at": null,
