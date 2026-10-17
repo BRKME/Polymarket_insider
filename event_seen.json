@@ -497,12 +497,6 @@
 "resolved": false,
 "thesis_key": "us announces end of iranian blockade"
 },
-"0x8e1e5c26dec73aee98230dc0ef93a294142587ca24190c4728d4b7ff831a22e0": {
-"alerted_at": "2026-08-03T14:13:29.715249+00:00",
-"last_edge": 0.2379,
-"resolved": false,
-"thesis_key": "russia ukraine peace talks"
-},
 "0x93f2e17cfd239c4667eb3d41ff04e2cd1ae6f3f663210cbc42ec1296ff880805": {
 "alerted_at": null,
 "last_edge": 0.44,
