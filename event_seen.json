@@ -233,6 +233,12 @@
 "resolved": false,
 "thesis_key": "us strike"
 },
+"0x44c315e3dd57007aaed17213010288ad8b5507123b38e0496fd90fcceb3537f8": {
+"alerted_at": null,
+"last_edge": 0.0,
+"resolved": false,
+"thesis_key": "will the republican party win the"
+},
 "0x46ca741da4abd7ffa993f59ac65bfe83de43ae027accac71d263a493e44064e7": {
 "alerted_at": "2026-08-02T01:29:39.608734+00:00",
 "last_edge": 0.3075,
