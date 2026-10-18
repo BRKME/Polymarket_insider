@@ -1,20 +1,14 @@
 [
 {
-"wallet": "0x2cff41636fe21fad120fed603d54d4fdd96259db",
-"name": "ThisAgain",
-"eff": 0.71,
-"pnl": 205478
+"wallet": "0x983eedfbd75803602e4a6e6ea9aab6dc6b9c6748",
+"name": "3edmond.dantes",
+"eff": 0.391,
+"pnl": 501647
 },
 {
-"wallet": "0xe5b70fd855af9258d9463992e4f1ed7987905ee3",
-"name": "alwaysfade",
-"eff": 0.321,
-"pnl": 327804
-},
-{
-"wallet": "0x2dfa4e79eca44b7c774f40a45535adbc368a6f60",
-"name": "BillyGating",
-"eff": 0.315,
-"pnl": 589005
+"wallet": "0xce937f66d91dc6fd78e2b0e405f703a7d208ab2c",
+"name": "jonjones1993",
+"eff": 0.267,
+"pnl": 290752
 }
 ]
