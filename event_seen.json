@@ -89,6 +89,12 @@
 "resolved": false,
 "thesis_key": "will j d vance win the"
 },
+"0x192ddbbaa122191c951a73b780c808ef51190cc74d6400fae21e74685c60bdae": {
+"alerted_at": null,
+"last_edge": 0.0,
+"resolved": false,
+"thesis_key": "will the democratic party win the"
+},
 "0x19b50e58b8352eb7ba6a8face1e29214d1cbca29bf49d325189e089d0ac52072": {
 "alerted_at": "2026-07-01T02:14:53.770332+00:00",
 "last_edge": 0.72,
