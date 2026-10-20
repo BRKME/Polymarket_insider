@@ -611,6 +611,12 @@
 "resolved": false,
 "thesis_key": "will the republican party win the"
 },
+"0xae554f30b7ba3de62193b969264d817329c44111cbb0364042a091e229b24d66": {
+"alerted_at": null,
+"last_edge": 0.1568,
+"resolved": false,
+"thesis_key": "russia x ukraine ceasefire agreement"
+},
 "0xb106a3c9d1c59ed8117493dae6459a3ff79369a8f7cddaf62f4a05828b89195e": {
 "alerted_at": "2026-06-23T14:20:48.821504+00:00",
 "last_edge": 0.165,
