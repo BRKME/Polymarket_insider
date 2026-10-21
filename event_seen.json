@@ -581,6 +581,12 @@
 "resolved": false,
 "thesis_key": "strait of hormuz traffic returns to"
 },
+"0xa0c4607a7d7c5ffe77cae5ffe47ccdc2207c8faceaaa225cf5a7de4ec93e543a": {
+"alerted_at": "2026-10-21T02:16:50.625542+00:00",
+"last_edge": 0.1994,
+"resolved": false,
+"thesis_key": "will flavio bolsonaro win the most"
+},
 "0xa1092f590e543158e3f230aca48efd8c1c53198d68d96fcd9c6ef6a83937bb9d": {
 "alerted_at": null,
 "last_edge": 0.2904,
@@ -790,6 +796,12 @@
 "last_edge": 0.3778,
 "resolved": false,
 "thesis_key": "will lula win the most votes"
+},
+"0xf207d480dde3add509a4b1a355d4f3b06195f917de37ff94f7814d9277df0cdd": {
+"alerted_at": null,
+"last_edge": 0.0,
+"resolved": false,
+"thesis_key": "will the republican party win the"
 },
 "0xf35f7e818e58b63a996f909956b0ea1ad5c6517653cb4e67ce735e3666443920": {
 "alerted_at": "2026-08-02T01:29:39.608734+00:00",
