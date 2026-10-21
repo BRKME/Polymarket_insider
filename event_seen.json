@@ -17,6 +17,12 @@
 "resolved": false,
 "thesis_key": "will donald trump announce that the"
 },
+"0x0552200445ecb1d63dfc354bb383842b7138360378664203a0d0552391895f8c": {
+"alerted_at": null,
+"last_edge": 0.055,
+"resolved": false,
+"thesis_key": "will the republican party win the"
+},
 "0x059db22dae2d735516017d47d1def0ea43e5d7221259c3aaa60c090d32566d4e": {
 "alerted_at": "2026-08-02T01:29:39.608734+00:00",
 "last_edge": 0.1979,
@@ -502,6 +508,12 @@
 "last_edge": 0.44,
 "resolved": false,
 "thesis_key": "will the fed increase interest rates"
+},
+"0x88b2827dd9bb9b3ebd4f229561a7606bd2bbdedbf3dfbb9c563e1e7dd2673747": {
+"alerted_at": "2026-10-21T16:15:54.780514+00:00",
+"last_edge": 0.065,
+"resolved": false,
+"thesis_key": "variational fdv above 1b one day"
 },
 "0x8a4196617dcb703e49d9bb36d3847bf6a75fd364dbd19f8d408ac944bf1a03d8": {
 "alerted_at": null,
