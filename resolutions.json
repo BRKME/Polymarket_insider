@@ -166,5 +166,21 @@
 "0xf19d6b617a3c6382448444824b42ba172be2d88b8a1491f7dfc7be6327e510a1": {
 "outcome": "No",
 "resolved_at": "2026-10-05T13:08:53.350261+00:00"
+},
+"0xdf8e2dc5860027decbe6164555c3c1c9645c3bd33e16b9dc57ca87125047d4a8": {
+"outcome": "Yes",
+"resolved_at": "2026-10-26T11:57:34.578260+00:00"
+},
+"0x1a01bf78f56a507fcb666d564d8c8b91b0750679163ed6e96746102c9b7d285d": {
+"outcome": "No",
+"resolved_at": "2026-10-26T11:57:36.215362+00:00"
+},
+"0x9639a6a92c4b2a434ee674c104c7f4660340663b91e418e2be1ee4377971aa32": {
+"outcome": "No",
+"resolved_at": "2026-10-26T11:57:36.555398+00:00"
+},
+"0xa0c4607a7d7c5ffe77cae5ffe47ccdc2207c8faceaaa225cf5a7de4ec93e543a": {
+"outcome": "No",
+"resolved_at": "2026-10-26T11:57:37.843842+00:00"
 }
 }
