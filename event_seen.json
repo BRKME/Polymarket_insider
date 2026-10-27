@@ -53,12 +53,6 @@
 "resolved": false,
 "thesis_key": "will the fed increase interest rates"
 },
-"0x12dc2b61723b2a54fc1947a307389b5f32038e7a29a0e936ad1fe410b969d06a": {
-"alerted_at": "2026-08-02T01:29:39.608734+00:00",
-"last_edge": 0.3174,
-"resolved": false,
-"thesis_key": "will harry kane win the ballon"
-},
 "0x15459ef555545e26a1abe7c5ebf752a9eca7ca6a06afd957b7c2b9c243fb1962": {
 "alerted_at": "2026-10-05T02:50:54.574255+00:00",
 "last_edge": 0.1776,
