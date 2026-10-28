@@ -100,3 +100,51 @@ def test_scanner_wires_yes_confirm(monkeypatch):
     assert captured["yes_confirm"](0.54, 0.56) is True
     assert captured["yes_confirm"](0.54, 0.45) is False
     assert captured["yes_confirm"](0.80, 0.90) is False   # вне YES-зоны
+
+
+# ── поиск только там, где результат может стать алертом (28.10.2026) ────────
+# 46 из 79 поисков после починки кэша шли по NO-направлению, хотя NO-алерты
+# выключены с 02.08 — ~5¢ за вызов в журнал, который никто не читает в бою.
+
+def test_no_direction_search_skipped_when_no_alerts_off(monkeypatch):
+    import scan_events as se
+    captured = {}
+    real = se.es.make_two_stage_estimator
+
+    def spy(*a, **kw):
+        captured.update(kw)
+        return real(*a, **kw)
+    monkeypatch.setattr(se.es, "make_two_stage_estimator", spy)
+    monkeypatch.setattr(se, "_load_ai_cache", lambda: {})
+    monkeypatch.setattr(se, "NO_STRATEGY_ALERTS", False)
+    se._make_logging_estimator([])
+    assert captured["screen_edge_min"] == float("inf")
+
+
+def test_no_direction_search_kept_when_no_alerts_on(monkeypatch):
+    import scan_events as se
+    captured = {}
+    real = se.es.make_two_stage_estimator
+
+    def spy(*a, **kw):
+        captured.update(kw)
+        return real(*a, **kw)
+    monkeypatch.setattr(se.es, "make_two_stage_estimator", spy)
+    monkeypatch.setattr(se, "_load_ai_cache", lambda: {})
+    monkeypatch.setattr(se, "NO_STRATEGY_ALERTS", True)
+    se._make_logging_estimator([])
+    assert captured["screen_edge_min"] == se.es.EDGE_MIN
+
+
+def test_strong_no_edge_not_searched_but_yes_candidate_is():
+    calls = []
+
+    def est(q, d=None, e=None, use_search=True):
+        calls.append((q, use_search))
+        return {"prob": 0.20 if q == "no" else 0.60, "conf": "medium", "why": "x"}
+    fn = make_two_stage_estimator(
+        est, yes_price_for=lambda q: 0.70 if q == "no" else 0.56,
+        screen_edge_min=float("inf"), yes_confirm=_yes_confirm)
+    assert fn("no")["searched"] is False          # NO-разрыв 0.50 — без поиска
+    assert fn("yes")["searched"] is True          # YES-кандидат — с поиском
+    assert ("no", True) not in calls

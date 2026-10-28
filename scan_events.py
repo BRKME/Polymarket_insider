@@ -267,7 +267,12 @@ def _make_logging_estimator(markets: list):
         return ys.yes_gate(yes_price) and cheap_prob > ys.GROK_YES_THRESHOLD
 
     two_stage = es.make_two_stage_estimator(
-        estimate_probability, yes_price_for=_yes_for, screen_edge_min=es.EDGE_MIN,
+        estimate_probability, yes_price_for=_yes_for,
+        # Поиск по NO-разрыву — только если NO-алерты включены. С 02.08 они
+        # выключены, а 46 из 79 поисков (~5¢ каждый, 91% расхода Grok — поиск)
+        # шли именно туда: в журнал, который в бою никто не читает (28.10.2026).
+        # NO-кандидаты по-прежнему журналируются — с дешёвой оценкой (searched=False).
+        screen_edge_min=es.EDGE_MIN if NO_STRATEGY_ALERTS else float("inf"),
         yes_confirm=_yes_confirm)
 
     cached_real = ai_cache.make_cached_estimator(
