@@ -417,6 +417,9 @@ USAGE_LOG = os.getenv("GROK_USAGE_LOG", "grok_usage.jsonl")
 # Предохранитель: когда xAI отвечает «кончились кредиты / лимит трат», все
 # следующие вызовы в этом запуске заведомо упадут так же — не долбим API.
 _BILLING_BLOCKED = False
+# Сколько вызовов в этом запуске реально прошли (HTTP 200). Ответ из кэша сюда
+# не входит: по нему нельзя судить, что xAI снова работает.
+_API_OK = 0
 
 
 def _is_billing_block(status_code: int, body: str) -> bool:
@@ -458,7 +461,7 @@ def estimate_probability(question: str, description: str = None,
     Returns {"prob": float 0..1, "conf": str, "why": str} or None on failure.
     Confidence is surfaced so the scanner can require 'medium'+ before trading.
     """
-    global _BILLING_BLOCKED
+    global _BILLING_BLOCKED, _API_OK
     if not question or not XAI_API_KEY or _BILLING_BLOCKED:
         return None
 
@@ -494,6 +497,7 @@ def estimate_probability(question: str, description: str = None,
             return None
 
         data = resp.json()
+        _API_OK += 1
         _log_usage(use_search, resp.status_code, data)
         parts = []
         for block in data.get("output", []):

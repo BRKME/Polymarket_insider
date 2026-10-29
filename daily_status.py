@@ -562,6 +562,18 @@ def _fetch_positions() -> Optional[List[dict]]:
         return None
 
 
+def _ai_status_line(state: dict) -> str:
+    """Строка об отказе Grok для дневного статуса (или "").
+
+    С 29.10.2026 сканер шлёт тревогу xAI только при начале отказа и при
+    восстановлении; пока отказ длится, напоминание — здесь, раз в день."""
+    since = (state or {}).get("blocked_since")
+    if not since:
+        return ""
+    day = since[8:10] + "." + since[5:7]
+    return f"⚠️ Grok не работает с {day} (отказ xAI) — новых алертов нет"
+
+
 def main() -> None:
     import json
     from pathlib import Path
@@ -594,6 +606,13 @@ def main() -> None:
         msg = build_daily_status(journal, price_fn,
                                  portfolio_value=_fetch_portfolio_value(),
                                  cash_value=cash_value)
+    try:
+        ai_path = Path("ai_status.json")
+        line = _ai_status_line(json.loads(ai_path.read_text())) if ai_path.exists() else ""
+    except Exception:
+        line = ""
+    if line:
+        msg = line + "\n\n" + msg
     print(msg)
     try:
         import requests

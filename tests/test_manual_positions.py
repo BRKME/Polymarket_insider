@@ -67,9 +67,9 @@ def test_flip_signal_sent_once():
     t0 = datetime(2026, 10, 5, 19, tzinfo=timezone.utc)
     assert mtm._should_send(seen, "m", "CLOSE_FLIP", t0) is True
     assert mtm._should_send(seen, "m", "CLOSE_FLIP", t0 + timedelta(days=3)) is False
-    # обычные сигналы — по-прежнему с суточным повтором
+    # с 29.10.2026 обычные сигналы тоже разовые (tests/test_quiet_channel.py)
     assert mtm._should_send(seen, "x", "TAKE_PARTIAL", t0) is True
-    assert mtm._should_send(seen, "x", "TAKE_PARTIAL", t0 + timedelta(days=2)) is True
+    assert mtm._should_send(seen, "x", "TAKE_PARTIAL", t0 + timedelta(days=2)) is False
 
 
 def test_flip_wording_not_imperative():

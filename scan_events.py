@@ -520,6 +520,36 @@ def _ai_outage_message(stats: dict, billing_blocked: bool) -> Optional[str]:
     return None
 
 
+AI_STATUS_FILE = Path("ai_status.json")
+
+
+def _outage_transition(state: dict, blocked: bool, ok_calls: int, now,
+                       start_msg: Optional[str] = None):
+    """Тревога об отказе Grok — только на ПЕРЕХОДАХ: начало и восстановление.
+
+    До 29.10.2026 «xAI отказал» уходил с каждым сканом (2 раза в день) весь
+    срок отказа. Теперь: одно сообщение при начале, одно при восстановлении;
+    пока отказ длится, строка о нём — в дневном статусе (daily_status).
+    ok_calls — реальные успешные вызовы API в этом скане (кэш не в счёт):
+    без них о восстановлении не судим. Возвращает (сообщение|None, состояние).
+    """
+    state = dict(state or {})
+    since = state.get("blocked_since")
+    if blocked:
+        if since:
+            return None, state
+        state["blocked_since"] = now.isoformat()
+        return (start_msg or "⚠️ Polymarket-сканер: xAI отказал — Grok не оценивает "
+                "рынки, новых алертов не будет. Напоминание — в дневном статусе; "
+                "о восстановлении сообщу отдельно."), state
+    if since and ok_calls > 0:
+        state.pop("blocked_since", None)
+        day = since[8:10] + "." + since[5:7]
+        return (f"✅ Grok снова работает (отказ с {day}) — сканер оценивает "
+                "рынки, алерты возобновлены."), state
+    return None, state
+
+
 def _format_alert(c: es.Candidate, related_line: str = "") -> str:
     """v2 (UX-фидбек оператора): за 10 секунд должно быть ясно ЧТО делать.
 
@@ -824,19 +854,35 @@ def run() -> None:
     try:
         import ai_context as _ac
         _blocked = bool(getattr(_ac, "_BILLING_BLOCKED", False))
+        _ok = int(getattr(_ac, "_API_OK", 0))
     except Exception:
-        _blocked = False
+        _blocked, _ok = False, 0
     _outage = _ai_outage_message(_est_stats, billing_blocked=_blocked)
     if _outage:
+        _outage += "\nПовторять не буду: пока отказ длится — строка в дневном статусе."
+    try:
+        _ai_state = json.loads(AI_STATUS_FILE.read_text()) if AI_STATUS_FILE.exists() else {}
+    except Exception:
+        _ai_state = {}
+    _msg, _ai_state = _outage_transition(_ai_state, blocked=bool(_outage),
+                                         ok_calls=_ok, now=datetime.now(timezone.utc),
+                                         start_msg=_outage)
+    try:
+        AI_STATUS_FILE.write_text(json.dumps(_ai_state, ensure_ascii=False))
+    except Exception as e:
+        print(f"  ai_status save failed: {e}")
+    if _msg:
         try:
             import requests as _req
             from config import TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID
             if TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID:
                 _req.post(
                     f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage",
-                    json={"chat_id": TELEGRAM_CHAT_ID, "text": _outage}, timeout=10)
+                    json={"chat_id": TELEGRAM_CHAT_ID, "text": _msg}, timeout=10)
         except Exception as e:
-            print(f"  no-credit alert failed: {e}")
+            print(f"  ai outage alert failed: {e}")
+    elif _outage:
+        print("  (xAI всё ещё отказывает — тревога уже отправлена, не повторяю)")
 
     # Цена ~сутки назад — для метки резкого падения перед событием (и в журнал,
     # чтобы проверить метку на данных).

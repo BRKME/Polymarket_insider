@@ -145,6 +145,9 @@ def _load_journal() -> List[dict]:
 # их пропускал, т.к. NO-правила при применении к YES дают обратный смысл.
 # Для YES прибыль растёт, когда цена ИДЁТ ВВЕРХ (вход 57.8c → сейчас 73.7c).
 YES_CUT_DRAWDOWN = 0.30       # просадка от входа, при которой тезис считаем сломанным
+# Ниже этой цены YES спасать нечего: «🔴 РЕЖЬ» по позиции за 2¢ вернёт ~$1
+# (Vučić, 29.10.2026). Вместо этого — разовое «обнулилась», без призыва к действию.
+YES_LOST_PRICE = 0.05
 
 
 def decide_exit_yes(entry: float, current: float) -> Optional[str]:
@@ -279,6 +282,8 @@ def scan_open_positions(
             if entry is None:
                 continue
             action = decide_exit_yes(entry, parsed)
+            if action == "CUT" and parsed < YES_LOST_PRICE:
+                action = "LOST"
             grok_raw = None
             if (flip_idx and grok_flip.is_flipped(row, flip_idx)
                     and cid not in (manual or {})):   # ручная — решение принято
@@ -342,6 +347,7 @@ def _format_signal(s: dict) -> str:
         "TAKE_PARTIAL": "🟡 ЗАБЕРИ ЧАСТЬ",
         "CUT": "🔴 РЕЖЬ (edge развернулся)",
         "CLOSE_FLIP": "🟠 НЕ СИГНАЛ СИСТЕМЫ — алерт был ошибочным",
+        "LOST": "⚫ ПОЗИЦИЯ ПОЧТИ ОБНУЛИЛАСЬ",
     }.get(s["action"], s["action"])
     # CUT в плюсе — не «цена против нас», а конвергенция: рынок сошёлся к
     # AI-оценке, остаток edge исчерпан. Действие то же (выход по правилу),
@@ -358,6 +364,9 @@ def _format_signal(s: dict) -> str:
                f"Преимущества нет ни в одну сторону: держать или продать — решай "
                f"по текущей цене. Сообщение разовое; оставленную позицию можно "
                f"пометить ручной (manual_positions.json)\n")
+    if s["action"] == "LOST":
+        why = (f"Ставка практически обнулилась: продажа вернёт ~${s.get('value', 0):.2f}. "
+               f"Делать ничего не нужно, сообщение разовое\n")
     return (
         f"{label}\n{s['question']}\n"
         f"—————————————————————\n"
@@ -370,16 +379,20 @@ def _format_signal(s: dict) -> str:
 
 
 def _should_send(seen: dict, cid: str, action: str, now) -> bool:
-    """CLOSE_FLIP — разово: это не изменение рынка, а сведение о прошлом
-    алерте, повтор каждые сутки — шум (решение оператора 05.10.2026).
-    Остальные действия — по exit_dedup (суточный повтор, эскалация сразу)."""
-    import exit_dedup
-    if action == "CLOSE_FLIP":
-        if (seen.get(cid) or {}).get("action") == "CLOSE_FLIP":
-            return False
-        seen[cid] = {"action": action, "ts": now.isoformat()}
-        return True
-    return exit_dedup.should_notify(seen, cid, action, now)
+    """Каждое действие по позиции — ОДИН раз за её жизнь.
+
+    До 29.10.2026 тот же сигнал повторялся раз в сутки, пока позицию держат,
+    и ещё раз дублировался в «Требуют решения» дневного статуса — оператор:
+    «за полдня — как будто спам». Канал реального времени сообщает только
+    новое; напоминание о висящих решениях живёт в дневном статусе.
+    Новое действие (эскалация TAKE_PARTIAL → CLOSE_FULL) шлётся сразу."""
+    prev = seen.get(cid) or {}
+    sent = list(prev.get("sent") or ([prev["action"]] if prev.get("action") else []))
+    if action in sent:
+        return False
+    sent.append(action)
+    seen[cid] = {"action": action, "ts": now.isoformat(), "sent": sent}
+    return True
 
 
 def run() -> None:
@@ -441,8 +454,7 @@ def run() -> None:
     seen = exit_dedup.load_seen()
     now_dt = _dt.now(_tz.utc)
 
-    # Дедуп: тот же сигнал по той же позиции — не чаще раза в сутки,
-    # эскалация действия шлётся сразу (баг 15.07: дубли каждый 2ч-крон).
+    # Дедуп: каждое действие по позиции — один раз (29.10.2026, см. _should_send).
     emitted = 0
     for s in signals:
         if not _should_send(seen, s["condition_id"],
