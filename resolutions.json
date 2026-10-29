@@ -182,5 +182,13 @@
 "0xa0c4607a7d7c5ffe77cae5ffe47ccdc2207c8faceaaa225cf5a7de4ec93e543a": {
 "outcome": "No",
 "resolved_at": "2026-10-26T11:57:37.843842+00:00"
+},
+"0x372ab700cf01a9411d79dbfe13bf952c29f3be870d498313510f6c2aec360b13": {
+"outcome": "No",
+"resolved_at": "2026-10-29T12:00:55.479327+00:00"
+},
+"0xdf9bf27ee5757c55b44b8b9826ddc9ec3a8809aa3278634c45edbb7fc8f1a3e3": {
+"outcome": "Yes",
+"resolved_at": "2026-10-29T12:00:57.150171+00:00"
 }
 }
