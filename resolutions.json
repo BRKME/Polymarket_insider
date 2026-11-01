@@ -190,5 +190,29 @@
 "0xdf9bf27ee5757c55b44b8b9826ddc9ec3a8809aa3278634c45edbb7fc8f1a3e3": {
 "outcome": "Yes",
 "resolved_at": "2026-10-29T12:00:57.150171+00:00"
+},
+"0xcee04ba47d02f6c64642369b34193c355f64de1b9ae425c71ea4efef1989d271": {
+"outcome": "No",
+"resolved_at": "2026-11-01T12:24:02.885552+00:00"
+},
+"0x3738ad9665480991affe3ba286cd035516e17d1f8b7703e05088ec19c70c21a4": {
+"outcome": "Yes",
+"resolved_at": "2026-11-01T12:24:03.570515+00:00"
+},
+"0x94f623a9c9ac7e0caca65b1ab664e8158ebb8ec0c826b023ba98518967910755": {
+"outcome": "No",
+"resolved_at": "2026-11-01T12:24:04.891960+00:00"
+},
+"0x6cdca3f2bdbb59e8d575c713b598b4d8e40fee6358a074304cb4a6d133dcece9": {
+"outcome": "Yes",
+"resolved_at": "2026-11-01T12:24:06.214567+00:00"
+},
+"0x15459ef555545e26a1abe7c5ebf752a9eca7ca6a06afd957b7c2b9c243fb1962": {
+"outcome": "Yes",
+"resolved_at": "2026-11-01T12:24:07.526148+00:00"
+},
+"0x7a4fd44956a282a1249e2191865f555976e37dd82f48bc783ec04a58a8d0450a": {
+"outcome": "Yes",
+"resolved_at": "2026-11-01T12:24:08.835088+00:00"
 }
 }
