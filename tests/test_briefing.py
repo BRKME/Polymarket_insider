@@ -1,12 +1,15 @@
-"""Брифинг для решений оператора и бумажная YES-стратегия (решение 04.11.2026).
+"""Брифинг для решений оператора (04.11.2026): очередь рынков + разбор с Claude.
 
-Аудит 04.11: YES-алерты, удержанные до резолва, — 40 рынков, 60% при цене
-59¢ (+1пп, в пределах шума ±8пп); реальные деньги по сигналам бота −20%.
-Весь плюс кошелька — собственные ставки оператора на выборы и геополитику.
-Решение оператора: бот перестаёт звать в ставку и помогает решать —
-находит рынки этих категорий и приносит сводку; YES-стратегия пишется в
-журнал «на бумаге».
+Аудит 04.11: YES-сигналы бота за 40 рынков не обогнали рынок (+1пп, шум
+±8пп), реальные деньги по ним −20%; плюс кошелька — собственные ставки
+оператора на выборы и геополитику. Решение оператора: бот не зовёт в ставку.
+Grok выключен — политика живёт неделями, а не часами: раз в день оператор
+запускает разбор в сессии Claude (.claude/skills/daily-brief). Бот готовит
+очередь рынков (briefing.py queue), Claude ищет факты и пишет оценку в журнал
+(briefing.py log), журнал потом сверяется с резолвами (briefing.py score) —
+чтобы знать, обгоняет ли разбор рынок, а не верить на слово.
 """
+import json
 import os
 import sys
 from datetime import datetime, timedelta, timezone
@@ -20,19 +23,34 @@ NOW = datetime(2026, 11, 4, 12, tzinfo=timezone.utc)
 
 
 def _m(q="Will Puma Shen win the next Taipei Mayor election?", yes=0.31, days=25,
-       liq=140_000, cid="0xA", ev="taipei-mayor-election-winner-2026"):
+       liq=140_000, cid="0xA", ev="taipei-mayor-election-winner-2026", title=None):
     end = (NOW + timedelta(days=days)).isoformat().replace("+00:00", "Z")
-    return {"question": q, "conditionId": cid, "outcomes": '["Yes","No"]',
-            "outcomePrices": f'["{yes}","{1-yes:.3f}"]', "liquidity": str(liq),
-            "endDate": end, "events": [{"slug": ev}], "description": "Rules.",
-            "clobTokenIds": '["1","2"]'}
+    m = {"question": q, "conditionId": cid, "outcomes": '["Yes","No"]',
+         "outcomePrices": f'["{yes}","{1-yes:.3f}"]', "liquidity": str(liq),
+         "endDate": end, "events": [{"slug": ev}], "description": "Rules text.",
+         "clobTokenIds": '["1","2"]'}
+    if title:
+        m["groupItemTitle"] = title
+    return m
 
 
-# ── бумажная YES-стратегия ──────────────────────────────────────────────────
+# ── Grok выключен, сигналов нет ─────────────────────────────────────────────
 
-def test_yes_alerts_are_paper():
+def test_grok_disabled_and_alerts_paper():
+    assert se.GROK_ENABLED is False
     assert se.should_alert_side("YES") is False
     assert se.should_alert_side("NO") is False
+
+
+def test_scan_makes_no_grok_calls(monkeypatch):
+    calls, sent = [], []
+    monkeypatch.setattr(se.collector, "get_active_markets", lambda limit=0: [_m()])
+    monkeypatch.setattr(se, "estimate_probability",
+                        lambda *a, **k: calls.append(a) or {"prob": 0.9})
+    monkeypatch.setattr(se, "_send", lambda t: sent.append(t) or True)
+    monkeypatch.setattr(se, "_save_seen", lambda s: None)
+    se.run()
+    assert calls == [] and sent == []
 
 
 # ── отбор рынков ────────────────────────────────────────────────────────────
@@ -51,7 +69,7 @@ def test_skips_out_of_window_and_extremes():
     assert br.select_markets(ms, {}, NOW, limit=5) == []
 
 
-def test_one_brief_per_event_most_liquid():
+def test_one_entry_per_event_most_liquid():
     ms = [_m(cid="shen", yes=0.31, liq=140_000),
           _m(q="Will Chiang Wan-an win the next Taipei Mayor election?", cid="chiang",
              yes=0.68, liq=103_000)]
@@ -59,12 +77,12 @@ def test_one_brief_per_event_most_liquid():
     assert [m["conditionId"] for m in got] == ["shen"]
 
 
-def test_limit_per_scan():
+def test_limit():
     ms = [_m(cid=f"c{i}", ev=f"e{i}", days=5 + i) for i in range(5)]
     assert len(br.select_markets(ms, {}, NOW, limit=2)) == 2
 
 
-def test_brief_once_unless_big_move():
+def test_analysed_once_unless_big_move():
     seen = {"0xA": {"price": 0.31, "ts": (NOW - timedelta(days=4)).isoformat(),
                     "event": "taipei-mayor-election-winner-2026"}}
     assert br.select_markets([_m(yes=0.35)], seen, NOW, limit=5) == []
@@ -73,76 +91,76 @@ def test_brief_once_unless_big_move():
     assert br.select_markets([_m(yes=0.48)], fresh, NOW, limit=5) == []      # рано
 
 
-def test_event_already_briefed_via_other_outcome():
+def test_event_already_analysed_via_other_outcome():
     seen = {"chiang": {"price": 0.68, "ts": (NOW - timedelta(days=1)).isoformat(),
                        "event": "taipei-mayor-election-winner-2026"}}
     assert br.select_markets([_m(cid="shen")], seen, NOW, limit=5) == []
 
 
-# ── ответ Grok и текст ──────────────────────────────────────────────────────
+# ── очередь ─────────────────────────────────────────────────────────────────
 
-GROK = """FACTS:
-- 01.11: опрос TVBS — Chiang 48%, Shen 41%
-- 03.11: Shen получил поддержку DPP-лидеров
-DECIDES: победитель официального подсчёта ЦИК 29.11
-NEXT: 15.11 теледебаты; 29.11 голосование
-RISKS: явка молодёжи; скандал вокруг Chiang
-PROB: 33
-CONF: medium
-"""
-
-
-def test_parse_brief():
-    b = br.parse_brief(GROK)
-    assert len(b["facts"]) == 2 and b["facts"][0].startswith("01.11")
-    assert "ЦИК" in b["decides"] and "дебаты" in b["next"]
-    assert b["prob"] == 0.33 and b["conf"] == "medium"
+def test_queue_entry_has_what_analysis_needs():
+    ms = [_m(title="Puma Shen"),
+          _m(q="Will Chiang Wan-an win the next Taipei Mayor election?", cid="chiang",
+             yes=0.68, liq=103_000, title="Chiang Wan-an")]
+    q = br.build_queue(ms, {}, NOW, price_ago_fn=lambda m, h: 0.24, limit=5)
+    assert len(q) == 1
+    e = q[0]
+    assert e["condition_id"] == "0xA" and e["category"] == "elections"
+    assert e["yes"] == 0.31 and e["yes_7d_ago"] == 0.24 and e["days_left"] == 25
+    assert e["others"] == [["Chiang Wan-an", 0.68]]
+    assert e["rules"] == "Rules text."
+    assert e["url"].endswith("/event/taipei-mayor-election-winner-2026")
 
 
-def test_parse_brief_garbage_is_none():
-    assert br.parse_brief("") is None
-    assert br.parse_brief("no structure at all") is None
+def test_queue_markdown():
+    e = br.build_queue([_m()], {}, NOW, price_ago_fn=lambda m, h: 0.24, limit=5)[0]
+    md = br.queue_markdown([e])
+    assert "Puma Shen" in md and "31¢" in md and "▲7пп за 7д" in md and "0xA" in md
 
 
-def test_format_brief_is_not_a_signal():
-    m = _m()
-    others = [("Chiang Wan-an", 0.68)]
-    msg = br.format_brief(m, br.parse_brief(GROK), price_7d=0.24, now=NOW, others=others)
-    assert msg.startswith("📋")
-    assert "31¢" in msg and "▲7пп за 7д" in msg
-    assert "опрос TVBS" in msg and "29.11 голосование" in msg
-    assert "Chiang Wan-an 68¢" in msg
-    assert "33%" in msg and "не обгонял" in msg          # оценка Grok — со справкой
-    assert "Купить" not in msg and "ставка $" not in msg
-    assert "решение за тобой" in msg.lower()
+# ── журнал оценок и проверка ────────────────────────────────────────────────
+
+def test_log_entry_and_seen(tmp_path):
+    path = tmp_path / "brief_log.jsonl"
+    br.append_log(path, {"condition_id": "0xA", "event": "taipei", "question": "Q",
+                         "market_yes": 0.31, "my_yes": 0.4, "conf": "medium",
+                         "end_date": "2026-11-29", "ts": NOW.isoformat()})
+    rows = br.load_log(path)
+    assert rows[0]["my_yes"] == 0.4
+    seen = br.seen_from_log(rows)
+    assert seen["0xA"]["price"] == 0.31 and seen["0xA"]["event"] == "taipei"
 
 
-def test_format_brief_without_history():
-    msg = br.format_brief(_m(), br.parse_brief(GROK), price_7d=None, now=NOW)
-    assert "за 7д" not in msg
+def test_log_rejects_bad_probability(tmp_path):
+    import pytest
+    with pytest.raises(ValueError):
+        br.append_log(tmp_path / "l.jsonl", {"condition_id": "x", "market_yes": 0.3,
+                                            "my_yes": 40, "ts": NOW.isoformat()})
 
 
-# ── прогон ──────────────────────────────────────────────────────────────────
-
-def test_run_sends_and_records():
-    sent, seen = [], {}
-    n = br.run_briefs([_m()], seen, NOW, send_fn=lambda t: sent.append(t) or True,
-                      brief_fn=lambda q, d, e: br.parse_brief(GROK),
-                      price_ago_fn=lambda m, h: 0.24)
-    assert n == 1 and len(sent) == 1
-    assert seen["0xA"]["price"] == 0.31 and seen["0xA"]["event"].startswith("taipei")
-
-
-def test_run_skips_when_grok_fails():
-    sent, seen = [], {}
-    n = br.run_briefs([_m()], seen, NOW, send_fn=lambda t: sent.append(t) or True,
-                      brief_fn=lambda q, d, e: None, price_ago_fn=lambda m, h: None)
-    assert n == 0 and sent == [] and seen == {}            # попробуем в следующий скан
+def test_score_against_market():
+    rows = [{"condition_id": "a", "market_yes": 0.6, "my_yes": 0.8, "ts": "1"},
+            {"condition_id": "b", "market_yes": 0.3, "my_yes": 0.1, "ts": "1"},
+            {"condition_id": "c", "market_yes": 0.5, "my_yes": 0.5, "ts": "1"}]
+    out = {"a": 1, "b": 0, "c": None}                  # c ещё не зарезолвлен
+    s = br.score(rows, outcome_fn=lambda cid: out[cid])
+    assert s["n"] == 2
+    assert abs(s["brier_mine"] - ((0.2 ** 2 + 0.1 ** 2) / 2)) < 1e-9
+    assert abs(s["brier_market"] - ((0.4 ** 2 + 0.3 ** 2) / 2)) < 1e-9
 
 
-def test_brief_prompt_forbids_market_odds():
-    import ai_context as ac
-    low = ac.BRIEF_SYSTEM.lower()
-    assert "polymarket" in low and "kalshi" in low
-    p = ac._build_brief_prompt("Q?", "Rules", "2026-11-29", today="2026-11-04")
-    assert "Сегодня: 2026-11-04" in p and "Rules" in p
+def test_score_uses_first_estimate_per_market():
+    rows = [{"condition_id": "a", "market_yes": 0.6, "my_yes": 0.8, "ts": "1"},
+            {"condition_id": "a", "market_yes": 0.9, "my_yes": 0.95, "ts": "2"}]
+    s = br.score(rows, outcome_fn=lambda cid: 1)
+    assert s["n"] == 1 and abs(s["brier_market"] - 0.16) < 1e-9
+
+
+def test_skill_instructions_exist():
+    root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    text = open(os.path.join(root, ".claude/skills/daily-brief/SKILL.md"),
+                encoding="utf-8").read()
+    for must in ("briefing.py queue", "briefing.py log", "briefing.py score",
+                 "Polymarket", "Kalshi", "не сигнал"):
+        assert must in text, must

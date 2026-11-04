@@ -476,8 +476,8 @@ def _call_grok(system: str, prompt: str, use_search: bool,
                call: Optional[str] = None) -> Optional[str]:
     """Один запрос к xAI Responses API → текст ответа или None.
 
-    Общий для оценщика и брифинга: предохранитель биллинга, счётчик успешных
-    вызовов и лог расхода — в одном месте."""
+    Предохранитель биллинга, счётчик успешных вызовов и лог расхода — в
+    одном месте."""
     global _BILLING_BLOCKED, _API_OK
     if not XAI_API_KEY or _BILLING_BLOCKED:
         return None
@@ -525,52 +525,6 @@ def _call_grok(system: str, prompt: str, use_search: bool,
     except Exception as e:
         print(f"  ❌ estimator error: {e}")
         return None
-
-
-BRIEF_SYSTEM = """Ты аналитик-исследователь. Оператор сам решает, ставить ли
-на рынок прогнозов; твоя задача — дать ему ФАКТЫ для решения, а не совет.
-
-Найди поиском (web_search/x_search) свежие факты по вопросу рынка:
-результаты, официальные заявления, опросы с датой и источником, графики
-событий. Каждый факт — с датой. Не выдумывай: если фактов мало, так и скажи.
-
-ЗАПРЕЩЕНО приводить котировки рынков предсказаний и ставок (Polymarket,
-Kalshi, PredictIt, Manifold, букмекеры, «рынки оценивают в N%»): цену рынка
-оператор видит сам, пересказ её вместо фактов делает сводку бесполезной.
-Не советуй покупать или продавать.
-
-ФОРМАТ ОТВЕТА (строго, по-русски):
-FACTS:
-- <дата: факт, источник>  (3-5 строк, самые важные и свежие)
-DECIDES: <что именно по правилам резолва решит исход, одной фразой>
-NEXT: <ближайшие даты и события до резолва>
-RISKS: <что может опрокинуть ожидаемый исход>
-PROB: <твоя оценка P(YES), 0-100>
-CONF: <low|medium|high>
-"""
-
-
-def _build_brief_prompt(question: str, description: str = None,
-                        end_date: str = None, today: str = None) -> str:
-    if not today:
-        from datetime import datetime as _dt, timezone as _tz
-        today = _dt.now(_tz.utc).strftime("%Y-%m-%d")
-    parts = [f"Сегодня: {today}.", f"Вопрос рынка: «{question}»"]
-    if description and str(description).strip():
-        parts.append(f"\nПРАВИЛА РЕЗОЛВА:\n{str(description).strip()[:2500]}")
-    if end_date and str(end_date).strip():
-        parts.append(f"\nДата резолва: {str(end_date)[:10]}.")
-    parts.append("\nНайди свежие факты поиском. Ответ строго в требуемом формате.")
-    return "\n".join(parts)
-
-
-def research_brief(question: str, description: str = None,
-                   end_date: str = None) -> Optional[str]:
-    """Сводка фактов для брифинга оператора (briefing.py) — один вызов с поиском."""
-    if not question:
-        return None
-    return _call_grok(BRIEF_SYSTEM, _build_brief_prompt(question, description, end_date),
-                      use_search=True, call="brief_search")
 
 
 def _cap_conf_without_search(est: Optional[dict], use_search: bool) -> Optional[dict]:

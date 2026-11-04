@@ -703,6 +703,13 @@ NO_STRATEGY_ALERTS = False
 # оператором. Вернуть: только по данным, политика §0.5.
 YES_STRATEGY_ALERTS = False
 
+# Grok выключен 04.11.2026 (решение оператора). Сигналов нет ни по одной
+# стороне, а разбор выборов и геополитики идёт раз в день в сессии Claude
+# (briefing.py, .claude/skills/daily-brief): политика решается неделями,
+# минутная реакция ИИ не нужна, платить $12/мес за неё незачем. Сканер только
+# получает рынки — бумажная выборка YES с 04.10 на этом остановлена.
+GROK_ENABLED = False
+
 
 def should_alert_side(side) -> bool:
     """Слать ли алерт по этой стороне. Обе стороны — на бумаге (02.08 / 04.11)."""
@@ -759,6 +766,11 @@ def run() -> None:
 
     markets = collector.get_active_markets(limit=MARKET_FETCH_LIMIT)
     print(f"  fetched {len(markets)} active markets")
+    if not GROK_ENABLED:
+        _save_seen(seen)
+        print("  Grok выключен (04.11.2026) — оценок и алертов нет; "
+              "рынки на разбор: python3 briefing.py queue")
+        return
 
     # Show the raw field shapes of the first market once — lets us spot when
     # live Gamma returns prices/liquidity in a different format than expected.
@@ -956,22 +968,6 @@ def run() -> None:
             sent += 1
 
     _save_seen(seen)
-
-    # Брифинг для решений оператора (04.11.2026) — по всем полученным рынкам,
-    # не по воротам NO-зоны: у брифинга свой отбор (briefing.select_markets).
-    try:
-        import ai_context as _ac
-        import briefing
-        _bseen = briefing.load_seen()
-        _nb = briefing.run_briefs(
-            markets, _bseen, datetime.now(timezone.utc), send_fn=_send,
-            brief_fn=lambda q, d, e: briefing.parse_brief(_ac.research_brief(q, d, e)),
-            price_ago_fn=lambda m, h: _price_ago_clob(
-                _yes_token(m), datetime.now(timezone.utc), lo_h=h - 12, hi_h=h + 12))
-        briefing.save_seen(_bseen)
-        print(f"  {_nb} briefing(s) sent")
-    except Exception as e:
-        print(f"  briefing failed: {e}")
 
     # Persist the AI estimate cache for the next run.
     if hasattr(logging_estimator, "_cache_store"):

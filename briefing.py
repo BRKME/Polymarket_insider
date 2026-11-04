@@ -1,34 +1,41 @@
 """Брифинг для решений оператора: выборы и геополитика.
 
-Решение 04.11.2026 (аудит, политика §0.5): сигналы бота за 40 рынков не
+Решение 04.11.2026 (аудит, политика §0.5, §2): сигналы бота за 40 рынков не
 обогнали рынок (+1пп, шум ±8пп), реальные деньги по ним −20%; весь плюс
-кошелька — собственные ставки оператора на выборы и геополитику. Поэтому бот
-больше не зовёт в ставку, а находит рынки этих категорий и приносит сводку
-фактов. Купить или нет — решает оператор.
+кошелька — собственные ставки оператора на выборы и геополитику. Бот больше
+не зовёт в ставку. Grok выключен: политика решается неделями, а не часами, —
+раз в день оператор запускает разбор в сессии Claude по инструкции
+.claude/skills/daily-brief/SKILL.md.
 
-Что попадает в брифинг: выборы/геополитика, YES 10-90¢, резолв через 1-60
-дней, ликвидность ≥ $25k. Одно сообщение на событие (у многоисходных событий —
-самый ликвидный исход, остальные строкой), не больше BRIEFS_PER_SCAN за скан.
-Повтор — только если цена ушла на ≥15пп и прошло ≥3 дней.
+    python3 briefing.py queue [--limit N]   рынки на разбор (без ИИ)
+    python3 briefing.py log --cid ... --my-yes 0.4 --conf medium --note "..."
+    python3 briefing.py score              оценки разбора против рынка
+
+Отбор: выборы/геополитика, YES 10-90¢, резолв через 1-60 дней, ликвидность
+≥ $25k; одна строка на событие (самый ликвидный исход, остальные — списком).
+Разобранный рынок возвращается в очередь, только если цена ушла на ≥15пп и
+прошло ≥3 дней. Журнал оценок research/brief_log.jsonl сверяется с резолвами:
+без этого «разбор помогает» — вера, а не факт.
 """
 from __future__ import annotations
 
+import argparse
 import json
-import re
+import sys
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
-from typing import Callable, List, Optional, Tuple
+from typing import Callable, Dict, List, Optional
 
 import category_exposure as cx
 
-SEEN_FILE = Path("brief_seen.json")
+LOG_FILE = Path("research/brief_log.jsonl")
 
 BRIEF_CATEGORIES = {"elections", "geopolitics"}
 BRIEF_CATEGORY_RU = {"elections": "выборы", "geopolitics": "геополитика"}
 YES_MIN, YES_MAX = 0.10, 0.90
 DAYS_MIN, DAYS_MAX = 1, 60
 MIN_LIQUIDITY = 25_000
-BRIEFS_PER_SCAN = 2          # поиск Grok ~5¢ за вызов: 2 скана в день → ≤$6/мес
+QUEUE_LIMIT = 8
 REBRIEF_MOVE = 0.15
 REBRIEF_MIN_DAYS = 3
 
@@ -69,6 +76,13 @@ def category(m: dict) -> str:
     return cx.classify(m.get("question", ""), event_slug(m))
 
 
+def _liq(m: dict) -> float:
+    try:
+        return float(m.get("liquidity") or 0)
+    except (TypeError, ValueError):
+        return 0.0
+
+
 def _eligible(m: dict, now: datetime) -> bool:
     if category(m) not in BRIEF_CATEGORIES:
         return False
@@ -76,15 +90,11 @@ def _eligible(m: dict, now: datetime) -> bool:
     if y is None or end is None or not YES_MIN <= y <= YES_MAX:
         return False
     days = (end - now).total_seconds() / 86400
-    try:
-        liq = float(m.get("liquidity") or 0)
-    except (TypeError, ValueError):
-        liq = 0
-    return DAYS_MIN <= days <= DAYS_MAX and liq >= MIN_LIQUIDITY
+    return DAYS_MIN <= days <= DAYS_MAX and _liq(m) >= MIN_LIQUIDITY
 
 
 def _due(cid: str, ev: str, price: float, seen: dict, now: datetime) -> bool:
-    """Брифинг ещё не отправлялся — или цена сильно ушла с прошлого раза."""
+    """Рынок ещё не разбирался — или цена сильно ушла с прошлого разбора."""
     prev = seen.get(cid)
     if prev is None:
         # событие уже разобрано через другой исход — не дублировать
@@ -98,89 +108,23 @@ def _due(cid: str, ev: str, price: float, seen: dict, now: datetime) -> bool:
 
 
 def select_markets(markets: List[dict], seen: dict, now: datetime,
-                   limit: int = BRIEFS_PER_SCAN) -> List[dict]:
+                   limit: int = QUEUE_LIMIT) -> List[dict]:
     by_event: dict = {}
     for m in markets:
         if not _eligible(m, now):
             continue
         ev = event_slug(m)
-        best = by_event.get(ev)
-        if best is None or float(m.get("liquidity") or 0) > float(best.get("liquidity") or 0):
+        if ev not in by_event or _liq(m) > _liq(by_event[ev]):
             by_event[ev] = m
     picked = [m for ev, m in by_event.items()
               if _due(m.get("conditionId", ""), ev, yes_price(m), seen, now)]
-    picked.sort(key=lambda m: (_end(m), -float(m.get("liquidity") or 0)))
+    picked.sort(key=lambda m: (_end(m), -_liq(m)))
     return picked[:limit]
 
 
-# ── ответ Grok ──────────────────────────────────────────────────────────────
+# ── очередь ─────────────────────────────────────────────────────────────────
 
-def _field(text: str, name: str) -> str:
-    m = re.search(rf"^{name}:\s*(.*?)(?=^[A-Z_]+:|\Z)", text, re.M | re.S)
-    return m.group(1).strip() if m else ""
-
-
-def parse_brief(text: Optional[str]) -> Optional[dict]:
-    if not text or "FACTS:" not in text:
-        return None
-    facts = [re.sub(r"^[-•*\s]+", "", l).strip()
-             for l in _field(text, "FACTS").splitlines()]
-    facts = [f for f in facts if f][:5]
-    if not facts:
-        return None
-    prob = None
-    pm = re.search(r"^PROB:\s*([0-9]{1,3}(?:\.[0-9]+)?)", text, re.M)
-    if pm:
-        prob = max(0.0, min(1.0, float(pm.group(1)) / 100.0))
-    cm = re.search(r"^CONF:\s*(low|medium|high)", text, re.M | re.I)
-    return {"facts": facts, "decides": _field(text, "DECIDES"),
-            "next": _field(text, "NEXT"), "risks": _field(text, "RISKS"),
-            "prob": prob, "conf": cm.group(1).lower() if cm else "low"}
-
-
-# ── текст ───────────────────────────────────────────────────────────────────
-
-def _cents(p: float) -> str:
-    return f"{p * 100:.0f}¢"
-
-
-def format_brief(m: dict, brief: dict, price_7d: Optional[float], now: datetime,
-                 others: Optional[List[Tuple[str, float]]] = None) -> str:
-    y = yes_price(m)
-    end = _end(m)
-    days = max(0, int((end - now).total_seconds() // 86400)) if end else None
-    cat = BRIEF_CATEGORY_RU.get(category(m), category(m))
-    mkt = [f"YES {_cents(y)}"]
-    if price_7d is not None:
-        d = round((y - price_7d) * 100)
-        if d:
-            mkt.append(f"{'▲' if d > 0 else '▼'}{abs(d)}пп за 7д")
-        else:
-            mkt.append("за 7д без изменений")
-    if end:
-        mkt.append(f"резолв {end:%d.%m} (через {days} дн.)")
-    lines = [f"📋 Брифинг · {cat}", m.get("question", ""), "Рынок: " + " · ".join(mkt)]
-    if others:
-        lines.append("Другие исходы: " + ", ".join(f"{n} {_cents(p)}" for n, p in others))
-    lines.append("—————————————————————")
-    lines.append(f"Что известно (поиск Grok, {now:%d.%m}):")
-    lines += [f"• {f}" for f in brief["facts"]]
-    for label, key in (("Что решит исход", "decides"), ("Ближайшее", "next"),
-                       ("Риски", "risks")):
-        if brief.get(key):
-            lines.append(f"{label}: {brief[key]}")
-    lines.append("—————————————————————")
-    if brief.get("prob") is not None:
-        lines.append(f"Grok: {brief['prob'] * 100:.0f}% ({brief['conf']}) — справочно: на 40 "
-                     "прошлых рынках его оценка рынок не обгонял")
-    lines.append("Это не сигнал — решение за тобой.")
-    slug = event_slug(m)
-    if slug and not slug.startswith("0x"):
-        lines.append(f"https://polymarket.com/event/{slug}")
-    return "\n".join(lines)
-
-
-def _others(chosen: dict, markets: List[dict]) -> List[Tuple[str, float]]:
+def _others(chosen: dict, markets: List[dict]) -> List[list]:
     ev, out = event_slug(chosen), []
     for m in markets:
         if m is chosen or event_slug(m) != ev:
@@ -188,42 +132,178 @@ def _others(chosen: dict, markets: List[dict]) -> List[Tuple[str, float]]:
         y = yes_price(m)
         if y is None or y < 0.02:
             continue
-        name = str(m.get("groupItemTitle") or m.get("question") or "")[:40]
-        out.append((name, y))
-    return sorted(out, key=lambda x: -x[1])[:3]
+        out.append([str(m.get("groupItemTitle") or m.get("question") or "")[:40], y])
+    return sorted(out, key=lambda x: -x[1])[:5]
 
 
-# ── прогон ──────────────────────────────────────────────────────────────────
-
-def load_seen() -> dict:
-    try:
-        return json.loads(SEEN_FILE.read_text())
-    except (OSError, ValueError):
-        return {}
-
-
-def save_seen(seen: dict) -> None:
-    SEEN_FILE.write_text(json.dumps(seen, ensure_ascii=False, indent=0))
-
-
-def run_briefs(markets: List[dict], seen: dict, now: datetime,
-               send_fn: Callable[[str], bool],
-               brief_fn: Callable[[str, str, str], Optional[dict]],
-               price_ago_fn: Callable[[dict, int], Optional[float]],
-               limit: int = BRIEFS_PER_SCAN) -> int:
-    """Отправить брифинги по отобранным рынкам. Возвращает число отправленных.
-
-    Без ответа Grok брифинг не шлётся и не отмечается — следующий скан
-    попробует снова (сводка без фактов бесполезна)."""
-    sent = 0
+def build_queue(markets: List[dict], seen: dict, now: datetime,
+                price_ago_fn: Callable[[dict, int], Optional[float]],
+                limit: int = QUEUE_LIMIT) -> List[dict]:
+    out = []
     for m in select_markets(markets, seen, now, limit=limit):
-        brief = brief_fn(m.get("question", ""), m.get("description", ""),
-                         m.get("endDate", ""))
-        if not brief:
+        end = _end(m)
+        slug = event_slug(m)
+        out.append({
+            "condition_id": m.get("conditionId", ""),
+            "event": slug,
+            "category": category(m),
+            "question": m.get("question", ""),
+            "yes": yes_price(m),
+            "yes_7d_ago": price_ago_fn(m, 168),
+            "end_date": end.date().isoformat() if end else None,
+            "days_left": int((end - now).total_seconds() // 86400) if end else None,
+            "liquidity": round(_liq(m)),
+            "others": _others(m, markets),
+            "rules": str(m.get("description") or "").strip(),
+            "url": f"https://polymarket.com/event/{slug}" if slug and not slug.startswith("0x") else "",
+        })
+    return out
+
+
+def _cents(p: float) -> str:
+    return f"{p * 100:.0f}¢"
+
+
+def queue_markdown(queue: List[dict]) -> str:
+    if not queue:
+        return "Очередь пуста: новых рынков по выборам и геополитике нет."
+    lines = []
+    for i, e in enumerate(queue, 1):
+        mv = ""
+        if e.get("yes_7d_ago") is not None:
+            d = round((e["yes"] - e["yes_7d_ago"]) * 100)
+            mv = f" · {'▲' if d > 0 else '▼' if d < 0 else '='}{abs(d)}пп за 7д"
+        lines.append(f"## {i}. {e['question']}")
+        lines.append(f"{BRIEF_CATEGORY_RU.get(e['category'], e['category'])} · YES "
+                     f"{_cents(e['yes'])}{mv} · резолв {e['end_date']} "
+                     f"(через {e['days_left']} дн.) · ликвидность ${e['liquidity']:,}")
+        if e.get("others"):
+            lines.append("Другие исходы: " + ", ".join(f"{n} {_cents(p)}" for n, p in e["others"]))
+        lines.append(f"cid: `{e['condition_id']}` · {e['url']}")
+        rules = e.get("rules") or ""
+        lines.append("Правила: " + (rules[:1200] + ("…" if len(rules) > 1200 else "")))
+        lines.append("")
+    return "\n".join(lines)
+
+
+# ── журнал оценок ───────────────────────────────────────────────────────────
+
+def load_log(path: Path = LOG_FILE) -> List[dict]:
+    try:
+        return [json.loads(l) for l in Path(path).read_text().splitlines() if l.strip()]
+    except OSError:
+        return []
+
+
+def append_log(path: Path, row: dict) -> None:
+    for k in ("market_yes", "my_yes"):
+        v = row.get(k)
+        if v is None or not 0.0 <= float(v) <= 1.0:
+            raise ValueError(f"{k} должен быть долей 0..1, получено {v!r}")
+    Path(path).parent.mkdir(parents=True, exist_ok=True)
+    with open(path, "a", encoding="utf-8") as f:
+        f.write(json.dumps(row, ensure_ascii=False) + "\n")
+
+
+def seen_from_log(rows: List[dict]) -> Dict[str, dict]:
+    seen: Dict[str, dict] = {}
+    for r in rows:                     # последняя запись по рынку — актуальная
+        seen[r["condition_id"]] = {"price": r.get("market_yes"), "ts": r.get("ts"),
+                                   "event": r.get("event", "")}
+    return seen
+
+
+def score(rows: List[dict], outcome_fn: Callable[[str], Optional[int]]) -> dict:
+    """Brier разбора против рынка на зарезолвленных рынках.
+
+    Одна точка на рынок — ПЕРВАЯ оценка (повторный разбор того же рынка —
+    не новое наблюдение: урок псевдорепликации, политика §4)."""
+    first: Dict[str, dict] = {}
+    for r in sorted(rows, key=lambda r: str(r.get("ts"))):
+        first.setdefault(r["condition_id"], r)
+    pairs = []
+    for cid, r in first.items():
+        y = outcome_fn(cid)
+        if y is None:
             continue
-        msg = format_brief(m, brief, price_ago_fn(m, 168), now, _others(m, markets))
-        if send_fn(msg):
-            sent += 1
-            seen[m.get("conditionId", "")] = {"price": yes_price(m), "ts": now.isoformat(),
-                                              "event": event_slug(m)}
-    return sent
+        pairs.append((float(r["my_yes"]), float(r["market_yes"]), int(y)))
+    n = len(pairs)
+    if not n:
+        return {"n": 0, "pending": len(first)}
+    return {"n": n, "pending": len(first) - n,
+            "brier_mine": sum((m - y) ** 2 for m, _, y in pairs) / n,
+            "brier_market": sum((p - y) ** 2 for _, p, y in pairs) / n}
+
+
+def _outcome(cid: str) -> Optional[int]:
+    import journal_resolver as jr
+    m = jr._default_fetch(cid)
+    res = jr._binary_outcome(m) if m else None
+    return {"Yes": 1, "No": 0}.get(res)
+
+
+# ── CLI ─────────────────────────────────────────────────────────────────────
+
+def _live_markets() -> List[dict]:
+    import collector
+    return collector.get_active_markets(limit=1000)
+
+
+def _price_ago(m: dict, hours: int) -> Optional[float]:
+    import scan_events as se
+    return se._price_ago_clob(se._yes_token(m), datetime.now(timezone.utc),
+                              lo_h=hours - 12, hi_h=hours + 12)
+
+
+def main(argv=None) -> int:
+    ap = argparse.ArgumentParser(description=__doc__.splitlines()[0])
+    sub = ap.add_subparsers(dest="cmd", required=True)
+    q = sub.add_parser("queue")
+    q.add_argument("--limit", type=int, default=QUEUE_LIMIT)
+    q.add_argument("--json", action="store_true")
+    lg = sub.add_parser("log")
+    lg.add_argument("--cid", required=True)
+    lg.add_argument("--my-yes", type=float, required=True, help="доля 0..1")
+    lg.add_argument("--conf", choices=["low", "medium", "high"], required=True)
+    lg.add_argument("--note", default="")
+    sub.add_parser("score")
+    a = ap.parse_args(argv)
+    now = datetime.now(timezone.utc)
+
+    if a.cmd == "queue":
+        queue = build_queue(_live_markets(), seen_from_log(load_log()), now,
+                            price_ago_fn=_price_ago, limit=a.limit)
+        print(json.dumps(queue, ensure_ascii=False, indent=1) if a.json
+              else queue_markdown(queue))
+        return 0
+
+    if a.cmd == "log":
+        m = next((x for x in _live_markets() if x.get("conditionId") == a.cid), None)
+        if m is None:
+            import journal_resolver as jr
+            m = jr._default_fetch(a.cid)
+        if not m or yes_price(m) is None:
+            print(f"рынок {a.cid} не найден — оценка не записана", file=sys.stderr)
+            return 1
+        end = _end(m)
+        append_log(LOG_FILE, {
+            "ts": now.isoformat(), "condition_id": a.cid, "event": event_slug(m),
+            "question": m.get("question", ""), "category": category(m),
+            "market_yes": yes_price(m), "my_yes": a.my_yes, "conf": a.conf,
+            "end_date": end.date().isoformat() if end else None, "note": a.note})
+        print(f"записано: {m.get('question', '')[:60]} · рынок {yes_price(m):.2f} · "
+              f"разбор {a.my_yes:.2f} ({a.conf})")
+        return 0
+
+    s = score(load_log(), _outcome)
+    if not s["n"]:
+        print(f"Зарезолвленных разборов пока нет (ждут резолва: {s['pending']}).")
+    else:
+        print(f"Разборов зарезолвлено: {s['n']} (ждут: {s['pending']})\n"
+              f"Brier разбора {s['brier_mine']:.3f} · рынка {s['brier_market']:.3f} "
+              f"(меньше — лучше; при n<30 разница — шум)")
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

@@ -576,7 +576,7 @@ def _ai_status_line(state: dict) -> str:
     if not since:
         return ""
     day = since[8:10] + "." + since[5:7]
-    return f"⚠️ Grok не работает с {day} (отказ xAI) — брифингов и бумажных оценок нет"
+    return f"⚠️ Grok не работает с {day} (отказ xAI) — новых алертов нет"
 
 
 def main() -> None:
