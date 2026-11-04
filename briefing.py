@@ -245,8 +245,12 @@ def _outcome(cid: str) -> Optional[int]:
 # ── CLI ─────────────────────────────────────────────────────────────────────
 
 def _live_markets() -> List[dict]:
+    """Рынки Gamma. Болтовня коллектора — в stderr: иначе `queue --json`
+    начинался со строки лога и не парсился (первый разбор 04.11)."""
+    import contextlib
     import collector
-    return collector.get_active_markets(limit=1000)
+    with contextlib.redirect_stdout(sys.stderr):
+        return collector.get_active_markets(limit=1000)
 
 
 def _price_ago(m: dict, hours: int) -> Optional[float]:

@@ -118,7 +118,9 @@ OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
 # Validation (skip in CI environments)
 if not os.getenv("CI") and not all([TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID, OPENAI_API_KEY]):
-    print("⚠️  WARNING: Missing required environment variables!")
-    print(f"  TELEGRAM_BOT_TOKEN: {'✓' if TELEGRAM_BOT_TOKEN else '✗'}")
-    print(f"  TELEGRAM_CHAT_ID: {'✓' if TELEGRAM_CHAT_ID else '✗'}")
-    print(f"  OPENAI_API_KEY: {'✓' if OPENAI_API_KEY else '✗'}")
+    # в stderr: stdout скриптов бывает машинным (briefing.py queue --json)
+    import sys as _sys
+    print("⚠️  WARNING: Missing required environment variables!", file=_sys.stderr)
+    print(f"  TELEGRAM_BOT_TOKEN: {'✓' if TELEGRAM_BOT_TOKEN else '✗'}", file=_sys.stderr)
+    print(f"  TELEGRAM_CHAT_ID: {'✓' if TELEGRAM_CHAT_ID else '✗'}", file=_sys.stderr)
+    print(f"  OPENAI_API_KEY: {'✓' if OPENAI_API_KEY else '✗'}", file=_sys.stderr)

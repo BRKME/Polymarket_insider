@@ -164,3 +164,16 @@ def test_skill_instructions_exist():
     for must in ("briefing.py queue", "briefing.py log", "briefing.py score",
                  "Polymarket", "Kalshi", "не сигнал"):
         assert must in text, must
+
+
+def test_queue_json_is_pure_json(monkeypatch, capsys):
+    import collector
+
+    def chatty(limit=0):
+        print("[2026-11-04] ✓ Fetched 1 markets")
+        return [_m()]
+    monkeypatch.setattr(collector, "get_active_markets", chatty)
+    monkeypatch.setattr(br, "_price_ago", lambda m, h: None)
+    monkeypatch.setattr(br, "load_log", lambda path=None: [])
+    assert br.main(["queue", "--json"]) == 0
+    json.loads(capsys.readouterr().out)
