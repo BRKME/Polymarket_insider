@@ -186,23 +186,30 @@ def test_queue_json_is_pure_json(monkeypatch, capsys):
 
 def test_verdict_fair_market_is_white():
     v = br.verdict(0.10, 0.12, "low")
-    assert v.startswith("⚪") and "пропустить" in v.lower()
+    assert v.startswith("⚪ ПРОПУСТИТЬ")
 
 
 def test_verdict_weak_skew_to_no():
     v = br.verdict(0.08, 0.14, "low")                 # Россия–Украина 04.11
-    assert v.startswith("🟡") and "NO" in v and "86¢" in v and "+7%" in v
+    assert v.startswith("🟡 НАБЛЮДАТЬ") and "NO" in v and "86¢" in v and "+7%" in v
 
 
 def test_verdict_low_conf_never_green():
-    assert br.verdict(0.40, 0.20, "low").startswith("🟡")
+    assert br.verdict(0.40, 0.20, "low").startswith("🟡 НАБЛЮДАТЬ")
 
 
 def test_verdict_strong_skew_to_yes():
     v = br.verdict(0.45, 0.32, "medium")
-    assert v.startswith("🟢") and "YES" in v and "32¢" in v and "+41%" in v
+    assert v.startswith("🟢 ПРИСМОТРЕТЬСЯ") and "YES" in v and "32¢" in v and "+41%" in v
 
 
 def test_verdict_strong_skew_to_no_high_conf():
     v = br.verdict(0.20, 0.42, "high")
-    assert v.startswith("🟢") and "NO" in v and "58¢" in v
+    assert v.startswith("🟢 ПРИСМОТРЕТЬСЯ") and "NO" in v and "58¢" in v
+
+
+def test_verdict_word_first_and_short():
+    # оператор 04.11: «в начале сообщения нужен вердикт — например, Наблюдать»
+    v = br.verdict(0.08, 0.14, "low")
+    assert v.split(" · ")[0] == "🟡 НАБЛЮДАТЬ"
+    assert len(v) < 90
