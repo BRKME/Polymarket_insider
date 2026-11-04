@@ -382,18 +382,24 @@ def build_daily_status(journal: List[dict],
 
     for r in rows:
         cid = r.get("condition_id", "")
-        entry = mtm.entry_no_price(r)
+        # Сторона позиции: price_fn отдаёт цену NO; для YES-строки цена — 1−NO.
+        # Без этого 04.11 статус показал «Vučić YES 52¢→97¢ +86%» по позиции,
+        # где YES стоил ~3¢ (вход YES против текущей цены NO).
+        is_yes = str(r.get("side", "NO")).upper() == "YES"
+        entry = mtm._entry_yes_price(r) if is_yes else mtm.entry_no_price(r)
         stake = mtm.position_stake(r)
         if entry is None or entry <= 0:
             continue
         current = price_fn(cid)
         if current is None or current <= 0:
             continue                       # цена недоступна — пропускаем тихо
+        if is_yes:
+            current = round(1.0 - current, 4)
         if not is_plausible_price(entry, current):
             skipped_garbage += 1           # мусорная цена API — не считаем
             continue
         priced += 1
-        pnl = mtm.position_pnl(entry, current, stake)
+        pnl = (mtm.position_pnl_yes if is_yes else mtm.position_pnl)(entry, current, stake)
         total_unreal += pnl["unrealised"]
         total_stake += stake
         if pnl["unrealised"] >= 0:
