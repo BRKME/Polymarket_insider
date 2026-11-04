@@ -52,6 +52,11 @@ def is_plausible_price(entry: float, current: float) -> bool:
     return ret_pct > GARBAGE_DROP_PCT
 
 
+def _is_closed(p: dict) -> bool:
+    """v2 status=CLOSED: позиция продана или выплачена, P&L уже реализован."""
+    return str(p.get("status") or "").upper() == "CLOSED"
+
+
 def filter_open_positions(positions: List[dict]) -> List[dict]:
     """Только РЕАЛЬНО открытые позиции. /positions отдаёт всю историю кошелька,
     включая зарезолвленные (currentValue≈0 → фантомные −100%) и пыль. Открытая
@@ -64,8 +69,8 @@ def filter_open_positions(positions: List[dict]) -> List[dict]:
             cur_val = float(p.get("currentValue") or 0)
         except (TypeError, ValueError):
             continue
-        if size <= 0:
-            continue                      # пыль/закрытая
+        if size <= 0 or _is_closed(p):
+            continue                      # пыль/закрытая (v2 CLOSED — пыль ~0.006)
         if p.get("redeemable") is True:
             continue                      # зарезолвлена — к выплате, не открыта
         if cur_val <= 0:
@@ -86,6 +91,9 @@ def resolved_positions(positions: List[dict], now=None) -> List[dict]:
     now = now or datetime.now(timezone.utc)
     out = []
     for p in positions:
+        if _is_closed(p):
+            out.append(p)                 # продана/выплачена — P&L реализован
+            continue
         try:
             size = float(p.get("size") or 0)
             cur_val = float(p.get("currentValue") or 0)
@@ -124,8 +132,13 @@ def realized_block(resolved: List[dict], now=None,
     recent = []
     for p in resolved:
         try:
-            end = datetime.fromisoformat(
-                str(p.get("endDate")).replace("Z", "+00:00"))
+            if _is_closed(p):
+                # продана до конца рынка (Vance — рынок до 2028): считаем по
+                # моменту выхода, а не по endDate
+                end = datetime.fromtimestamp(int(p.get("last_event_at")), timezone.utc)
+            else:
+                end = datetime.fromisoformat(
+                    str(p.get("endDate")).replace("Z", "+00:00"))
         except (ValueError, TypeError):
             continue
         # Polymarket отдаёт endDate и с 'Z' (aware), и без (naive). Смесь роняла
@@ -141,8 +154,11 @@ def realized_block(resolved: List[dict], now=None,
     lines = []
     for end, p in sorted(recent, key=lambda x: x[0], reverse=True):
         invested = float(p.get("initialValue") or 0)
-        pnl = float(p.get("cashPnl") if p.get("cashPnl") is not None
-                    else -invested)
+        if _is_closed(p):
+            pnl = float(p.get("realized_pnl") or 0)
+        else:
+            pnl = float(p.get("cashPnl") if p.get("cashPnl") is not None
+                        else -invested)
         total += pnl
         marker = "🟢" if pnl >= 0 else "🔴"
         q = smart_truncate(p.get("title") or "", 44)
@@ -162,8 +178,8 @@ def pending_payout_block(positions: List[dict]) -> Optional[str]:
     """
     pend = []
     for p in positions or []:
-        if p.get("redeemable") is not True:
-            continue
+        if p.get("redeemable") is not True or _is_closed(p):
+            continue                      # CLOSED-остатки 0.009 доли — не выплата
         try:
             v = float(p.get("currentValue") or 0)
         except (TypeError, ValueError):
@@ -266,7 +282,8 @@ def build_status_from_wallet(positions: List[dict], journal: List[dict],
         if len(ranked) > 12:
             parts.append(f"…и ещё {len(ranked) - 12} (показаны крупнейшие движения)")
     else:
-        parts.append("\nЗаметных движений нет — позиции зреют.")
+        parts.append("\nОткрытых позиций нет." if not positions
+                     else "\nЗаметных движений нет — позиции зреют.")
     if has_hint:
         parts.append("\n<i>Позиции не бинарны: их можно продать (зафиксировать) "
                      "или докупить при движении цены, не дожидаясь резолва.</i>")
@@ -438,26 +455,20 @@ def build_daily_status(journal: List[dict],
 
 
 def _fetch_portfolio_value() -> Optional[float]:
-    """Стоимость позиций через Polymarket Data API /value (fail-safe).
+    """Стоимость позиций через Polymarket Data API /v2/value (fail-safe).
 
     Это Portfolio (только позиции), НЕ весь кошелёк — наличные USDC отдельно
     (см. _fetch_cash_value). None при недоступности.
     """
     try:
-        import requests
-        from fill_matcher import DATA_API, PROXY_WALLET
-        r = requests.get(f"{DATA_API}/value",
-                         params={"user": PROXY_WALLET}, timeout=15)
-        if r.status_code != 200:
+        import data_api
+        from fill_matcher import PROXY_WALLET
+        data = data_api.fetch("value", {"user": PROXY_WALLET}, timeout=15)
+        if not data:
             return None
-        data = r.json()
-        if isinstance(data, list):
-            return sum(float(x.get("value", 0)) for x in data) or None
-        if isinstance(data, dict):
-            return float(data.get("value", 0)) or None
+        return float(data.get("value", 0)) or None
     except Exception:
         return None
-    return None
 
 
 # На Polygon ДВА USDC: нативный (Polymarket использует его) и bridged USDC.e.
@@ -532,34 +543,28 @@ def _fetch_cash_value() -> Optional[float]:
 
 
 def _fetch_positions() -> Optional[List[dict]]:
-    """Все реальные позиции кошелька через Polymarket Data API /positions.
+    """Все реальные позиции кошелька через Polymarket Data API v2.
 
     Источник истины — кошелёк, не журнал алертов. None при недоступности
-    (тогда main деградирует на старый журнал-путь).
+    (тогда main деградирует на старый журнал-путь — и говорит об этом вслух,
+    см. _api_down_line).
     """
     try:
-        import requests
-        from fill_matcher import DATA_API, PROXY_WALLET
-        # /positions отдаёт 100 записей по умолчанию (max 500) и включает всю
-        # историю кошелька. Без пагинации хвост молча отрезается по мере роста
-        # истории — берём страницами до конца.
-        out: List[dict] = []
-        for page in range(10):
-            r = requests.get(f"{DATA_API}/positions",
-                             params={"user": PROXY_WALLET, "sizeThreshold": 1,
-                                     "limit": 500, "offset": page * 500},
-                             timeout=20)
-            if r.status_code != 200:
-                return out or None
-            batch = r.json()
-            if not isinstance(batch, list) or not batch:
-                break
-            out.extend(batch)
-            if len(batch) < 500:
-                break
-        return out or None
+        import data_api
+        from fill_matcher import PROXY_WALLET
+        return data_api.wallet_positions(PROXY_WALLET, include_closed=True)
     except Exception:
         return None
+
+
+def _api_down_line(error: Optional[str]) -> str:
+    """Строка в начало статуса, когда API кошелька недоступен.
+
+    С 02.11.2026 (выключение Data API v1) статус молча строился по журналу —
+    оператор не мог отличить «позиций нет» от «кошелёк не читается»."""
+    import html
+    return ("⚠️ Кошелёк Polymarket не читается (Data API: "
+            f"{html.escape((error or 'нет ответа')[:80])}) — статус по журналу, может врать")
 
 
 def _ai_status_line(state: dict) -> str:
@@ -598,6 +603,7 @@ def main() -> None:
         msg = build_status_from_wallet(positions, journal, cash_value=cash_value)
     else:
         # фолбэк: /positions недоступен — старый журнал-путь (только ончейн)
+        import data_api
         def price_fn(cid: str) -> Optional[float]:
             try:
                 return mtm.current_no_price(cid, mtm._default_fetch)
@@ -606,6 +612,7 @@ def main() -> None:
         msg = build_daily_status(journal, price_fn,
                                  portfolio_value=_fetch_portfolio_value(),
                                  cash_value=cash_value)
+        msg = _api_down_line(data_api.LAST_ERROR) + "\n\n" + msg
     try:
         ai_path = Path("ai_status.json")
         line = _ai_status_line(json.loads(ai_path.read_text())) if ai_path.exists() else ""

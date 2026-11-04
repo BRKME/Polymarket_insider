@@ -19,7 +19,7 @@ try:
 except Exception:
     requests = None
 
-LEADERBOARD_URL = "https://data-api.polymarket.com/v1/leaderboard"
+LEADERBOARD_URL = "https://data-api.polymarket.com/v2/leaderboard"   # v1 выключен 02.11.2026; вызовы идут через data_api
 
 # Единый источник правды порога — trusted_whales.MIN_EFF (иначе диагностика
 # скаута и живой список разъезжаются и печатают разных «качественных» китов).
@@ -28,18 +28,14 @@ TOP_N = 50                    # смотрим топ-50 каждого окна
 
 
 def _fetch_leaderboard(period: str) -> list:
-    """Спортивный лидерборд за период (WEEK/MONTH), сортировка по PNL."""
-    try:
-        r = requests.get(LEADERBOARD_URL, params={
-            "category": "SPORTS", "timePeriod": period,
-            "orderBy": "PNL", "limit": 50}, timeout=25)
-        if r.status_code != 200:
-            print(f"  {period}: HTTP {r.status_code}")
-            return []
-        return r.json() or []
-    except Exception as e:
-        print(f"  {period}: ошибка {e}")
-        return []
+    """Спортивный лидерборд за период (WEEK/MONTH), сортировка по PNL (Data API v2)."""
+    import data_api
+    rows = data_api.fetch("leaderboard", {"category": "SPORTS", "timePeriod": period,
+                                          "orderBy": "PNL", "limit": 50},
+                          max_rows=50, timeout=25)
+    if rows is None:
+        print(f"  {period}: {data_api.LAST_ERROR}")
+    return rows or []
 
 
 def scout() -> None:

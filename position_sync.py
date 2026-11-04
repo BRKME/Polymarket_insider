@@ -42,9 +42,15 @@ def detect_sold(rows: List[dict], wallet_positions: List[dict]) -> List[dict]:
         live = filter_open_positions(wallet_positions)
     except Exception:
         live = wallet_positions
-    if not live:
-        return []                      # та же защита после фильтрации
     live_cids = {str(p.get("conditionId", "")) for p in live}
+    # v2 status=CLOSED — прямое свидетельство продажи. По нему закрываем даже
+    # при пустом live: оператор закрыл всё (04.11.2026), и защита «пустой
+    # портфель — не повод» держала 18 проданных позиций открытыми в журнале.
+    closed_cids = {str(p.get("conditionId", "")) for p in wallet_positions
+                   if str(p.get("status") or "").upper() == "CLOSED"} - live_cids
+    if not live:
+        return [r for r in rows if _is_tracked_position(r)
+                and str(r.get("condition_id", "")) in closed_cids]
     return [r for r in rows
             if _is_tracked_position(r)
             and str(r.get("condition_id", "")) not in live_cids]

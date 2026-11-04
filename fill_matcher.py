@@ -142,6 +142,7 @@ def apply_fills(rows: List[Dict],
 # ── network ──────────────────────────────────────────────────────────────────
 
 _ACTIVITY_CACHE: Optional[List[Dict]] = None
+API_FAILED = False
 
 
 def _fetch_all_activity() -> List[Dict]:
@@ -155,22 +156,15 @@ def _fetch_all_activity() -> List[Dict]:
     global _ACTIVITY_CACHE
     if _ACTIVITY_CACHE is not None:
         return _ACTIVITY_CACHE
-    import requests
-    out: List[Dict] = []
-    offset = 0
-    while True:
-        params = {"user": PROXY_WALLET, "limit": 500, "offset": offset}
-        r = requests.get(f"{DATA_API}/activity", params=params, timeout=20)
-        if r.status_code != 200:
-            print(f"  ⚠️ Data API HTTP {r.status_code} on /activity")
-            break
-        batch = r.json()
-        if not isinstance(batch, list) or not batch:
-            break
-        out.extend(batch)
-        if len(batch) < 500 or offset >= 2000:
-            break
-        offset += 500
+    import data_api
+    global API_FAILED
+    rows = data_api.fetch("activity", {"user": PROXY_WALLET}, max_rows=5000)
+    if rows is None:
+        # v1 выключили 02.11.2026 — и это две недели было лишь строкой в логе.
+        # Теперь прогон краснеет, и workflow_watchdog сообщает в канал.
+        API_FAILED = True
+        print(f"  ⚠️ Data API: {data_api.LAST_ERROR}")
+    out: List[Dict] = rows or []
     _ACTIVITY_CACHE = out
     print(f"  activity rows fetched: {len(out)}")
     return out
@@ -240,3 +234,5 @@ def run() -> None:
 
 if __name__ == "__main__":
     run()
+    if API_FAILED:
+        raise SystemExit("Data API недоступен — входы не сверены")

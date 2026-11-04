@@ -235,28 +235,27 @@ def get_recent_trades_paginated(markets: List[Dict]) -> List[Dict]:
     
     all_trades = []
     page = 0
+    cursor = None   # Data API v2 — курсор вместо offset
     
     # Create market lookup for smart filtering
     market_lookup = {m['conditionId']: m for m in markets if 'conditionId' in m}
     
     while page < MAX_PAGES:
-        print(f"[{datetime.now()}] Fetching page {page + 1}/{MAX_PAGES} (offset={page * TRADES_LIMIT})...")
+        print(f"[{datetime.now()}] Fetching page {page + 1}/{MAX_PAGES}...")
         
-        url = f"{DATA_API_URL}/trades"
+        import data_api
         params = {
             "limit": TRADES_LIMIT,
-            "offset": page * TRADES_LIMIT,
             "sortBy": "TIMESTAMP",
             "sortDirection": "DESC"
         }
-        
-        response = make_request_with_retry(url, params)
-        if not response:
-            print(f"  ❌ Failed to fetch page {page + 1}, stopping pagination")
+        got = data_api.fetch_page("trades", params, cursor)
+        if got is None:
+            print(f"  ❌ Failed to fetch page {page + 1}: {data_api.LAST_ERROR}")
             break
         
         try:
-            trades = response.json()
+            trades, cursor = got
             
             if not trades:
                 print(f"  ℹ️  No more trades available")
@@ -322,7 +321,7 @@ def get_recent_trades_paginated(markets: List[Dict]) -> List[Dict]:
                 break
             
             # Early exit if no trades returned
-            if len(trades) < TRADES_LIMIT:
+            if not cursor or len(trades) < TRADES_LIMIT:
                 print(f"  Got fewer than {TRADES_LIMIT} trades, no more data available")
                 break
             
@@ -345,39 +344,38 @@ def get_recent_trades_paginated(markets: List[Dict]) -> List[Dict]:
     
     return all_trades
 
-def get_wallet_activity(address: str) -> Dict:
-    """Get wallet activity history for analysis"""
-    url = f"{DATA_API_URL}/activity"
+def get_wallet_activity(address: str, recent: bool = False) -> Dict:
+    """Get wallet activity history for analysis.
+
+    recent=False — самые РАННИЕ 100 записей (возраст кошелька, детектор
+    новичков); recent=True — самые свежие (copy_monitor ищет новые покупки:
+    со старым ASC у кита с >100 сделок он видел только историю годовой давности).
+    """
+    import data_api
     params = {
         "user": address,
         "sortBy": "TIMESTAMP",
-        "sortDirection": "ASC",
+        "sortDirection": "DESC" if recent else "ASC",
         "limit": 100
     }
     
     try:
         time.sleep(REQUEST_DELAY)
-        response = make_request_with_retry(url, params)
+        activities = data_api.fetch("activity", params, max_rows=100)
         
-        if response:
-            activities = response.json()
-            
-            if not activities:
-                return {"activities": [], "first_activity_timestamp": None, "total_count": 0}
-            
-            first_timestamp = activities[0].get("timestamp")
-            
-            return {
-                "activities": activities,
-                "first_activity_timestamp": first_timestamp,
-                "total_count": len(activities)
-            }
+        if not activities:
+            return {"activities": [], "first_activity_timestamp": None, "total_count": 0}
         
-        return {"activities": [], "first_activity_timestamp": None, "total_count": 0}
+        return {
+            "activities": activities,
+            "first_activity_timestamp": activities[0].get("timestamp") if not recent else None,
+            "total_count": len(activities)
+        }
         
     except Exception as e:
         print(f"  ❌ Error fetching wallet activity: {e}")
         return {"activities": [], "first_activity_timestamp": None, "total_count": 0}
+
 
 def get_market_by_condition_id(condition_id: str, markets: List[Dict]) -> Optional[Dict]:
     """Find market by condition ID"""

@@ -200,7 +200,7 @@ def run() -> None:
         if not wallet:
             continue
         try:
-            data = collector.get_wallet_activity(wallet)
+            data = collector.get_wallet_activity(wallet, recent=True)
         except Exception as e:
             print(f"  {name}: activity error {e}")
             continue

@@ -64,26 +64,14 @@ def _title_is_sport(title: str) -> bool:
 
 
 def _fetch_recent_trades() -> list:
-    """Недавние сделки из data-api (постранично)."""
-    out = []
-    for page in range(PAGES):
-        try:
-            r = requests.get(f"{DATA_API_URL}/trades",
-                             params={"limit": LIMIT, "offset": page * LIMIT,
-                                     "sortBy": "TIMESTAMP",
-                                     "sortDirection": "DESC"}, timeout=25)
-            if r.status_code != 200:
-                break
-            batch = r.json()
-            if not batch:
-                break
-            out.extend(batch)
-            if len(batch) < LIMIT:
-                break
-        except Exception as e:
-            print(f"  fetch error page {page}: {e}")
-            break
-    return out
+    """Недавние сделки из Data API v2 (курсором, до PAGES·LIMIT строк)."""
+    import data_api
+    rows = data_api.fetch("trades", {"limit": LIMIT, "sortBy": "TIMESTAMP",
+                                     "sortDirection": "DESC"},
+                          max_rows=PAGES * LIMIT, timeout=25)
+    if rows is None:
+        print(f"  fetch error: {data_api.LAST_ERROR}")
+    return rows or []
 
 
 def _market_category(condition_id: str, cache: dict) -> str:
