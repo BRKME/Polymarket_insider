@@ -1,0 +1,41 @@
+name: Brief send
+
+# Ежедневный брифинг (04.11.2026): запланированная сессия Claude пишет
+# research/briefs/ГГГГ-ММ-ДД.md и пушит в main — этот воркфлоу шлёт файл в
+# Telegram. Токен бота только здесь, в секретах; в сессию он не передаётся.
+# Коммит брифинга НЕ должен нести [skip ci] — иначе воркфлоу не запустится.
+on:
+  push:
+    branches: [main]
+    paths: ['research/briefs/**.md']
+  workflow_dispatch:
+    inputs:
+      file:
+        description: 'research/briefs/ГГГГ-ММ-ДД.md — переотправить'
+        required: true
+
+jobs:
+  send:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install requests
+      - name: Send brief
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          BEFORE: ${{ github.event.before }}
+          INPUT_FILE: ${{ inputs.file }}
+        run: |
+          if [ -n "$INPUT_FILE" ]; then
+            files="$INPUT_FILE"
+          else
+            files=$(git diff --name-only --diff-filter=AM "$BEFORE" "$GITHUB_SHA" -- research/briefs/)
+          fi
+          echo "files: $files"
+          python3 brief_send.py $files
