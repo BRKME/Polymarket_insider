@@ -696,11 +696,19 @@ def _format_alert(c: es.Candidate, related_line: str = "") -> str:
 NO_STRATEGY_ALERTS = False
 
 
+# YES — тоже «на бумаге» с 04.11.2026. Аудит: удержанные до резолва YES-алерты
+# дали 60% при цене 59¢ на 40 рынках (+1пп, шум ±8пп), реальные деньги по
+# сигналам −20%. Кандидаты по-прежнему журналируются (выборка копится), в канал
+# вместо них идёт брифинг по выборам и геополитике (briefing.py) — решение за
+# оператором. Вернуть: только по данным, политика §0.5.
+YES_STRATEGY_ALERTS = False
+
+
 def should_alert_side(side) -> bool:
-    """Слать ли алерт по этой стороне. NO выключен вердиктом, YES — жив."""
+    """Слать ли алерт по этой стороне. Обе стороны — на бумаге (02.08 / 04.11)."""
     s = str(side or "NO").upper()
     if s == "YES":
-        return True
+        return YES_STRATEGY_ALERTS
     return NO_STRATEGY_ALERTS
 
 
@@ -948,6 +956,23 @@ def run() -> None:
             sent += 1
 
     _save_seen(seen)
+
+    # Брифинг для решений оператора (04.11.2026) — по всем полученным рынкам,
+    # не по воротам NO-зоны: у брифинга свой отбор (briefing.select_markets).
+    try:
+        import ai_context as _ac
+        import briefing
+        _bseen = briefing.load_seen()
+        _nb = briefing.run_briefs(
+            markets, _bseen, datetime.now(timezone.utc), send_fn=_send,
+            brief_fn=lambda q, d, e: briefing.parse_brief(_ac.research_brief(q, d, e)),
+            price_ago_fn=lambda m, h: _price_ago_clob(
+                _yes_token(m), datetime.now(timezone.utc), lo_h=h - 12, hi_h=h + 12))
+        briefing.save_seen(_bseen)
+        print(f"  {_nb} briefing(s) sent")
+    except Exception as e:
+        print(f"  briefing failed: {e}")
+
     # Persist the AI estimate cache for the next run.
     if hasattr(logging_estimator, "_cache_store"):
         _save_ai_cache(logging_estimator._cache_store)

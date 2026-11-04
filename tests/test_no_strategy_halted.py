@@ -12,8 +12,9 @@ def test_no_alerts_disabled():
     assert should_alert_side("NO") is False
 
 
-def test_yes_alerts_still_on():
-    assert should_alert_side("YES") is True
+def test_yes_alerts_paper_since_0411():
+    # 04.11.2026: YES тоже на бумаге — вместо него брифинг (tests/test_briefing.py)
+    assert should_alert_side("YES") is False
 
 
 def test_default_side_treated_as_no():
