@@ -186,6 +186,35 @@ def queue_markdown(queue: List[dict]) -> str:
     return "\n".join(lines)
 
 
+# ── светофор ────────────────────────────────────────────────────────────────
+
+FAIR_PP = 5        # расхождение меньше — рынок оценён справедливо
+STRONG_PP = 10     # не меньше (и conf ≥ medium) — сильный перекос
+
+
+def verdict(my_yes: float, market_yes: float, conf: str) -> str:
+    """Строка-итог по рынку (запрос оператора 04.11: «не понятна рекомендация»).
+
+    Цвет — стоит ли тратить внимание: ⚪ пропустить, 🟡 слабый перекос
+    (наблюдать), 🟢 сильный (присмотреться). Текст — сторона, её цена и
+    выгода на вложенный доллар, ЕСЛИ оценка верна. Зелёный — только при
+    conf medium/high: low значит «фактов мало», звать громко по такому нельзя.
+    """
+    gap = round((my_yes - market_yes) * 100)
+    if abs(gap) < FAIR_PP:
+        return f"⚪ Рынок оценён справедливо (разбор {my_yes * 100:.0f}%) — пропустить"
+    if gap > 0:
+        side, price, mine = "YES", market_yes, my_yes
+    else:
+        side, price, mine = "NO", 1 - market_yes, 1 - my_yes
+    ev = round((mine / price - 1) * 100)
+    strong = abs(gap) >= STRONG_PP and conf in ("medium", "high")
+    head = "🟢 Сильный перекос" if strong else "🟡 Слабый перекос"
+    tail = "присмотреться" if strong else "только наблюдать"
+    return (f"{head} к {side}: {side} по {price * 100:.0f}¢, разбор {abs(gap)}пп в его "
+            f"пользу; если оценка верна — {ev:+d}% на вложенный доллар — {tail}")
+
+
 # ── журнал оценок ───────────────────────────────────────────────────────────
 
 def load_log(path: Path = LOG_FILE) -> List[dict]:
@@ -297,6 +326,7 @@ def main(argv=None) -> int:
             "end_date": end.date().isoformat() if end else None, "note": a.note})
         print(f"записано: {m.get('question', '')[:60]} · рынок {yes_price(m):.2f} · "
               f"разбор {a.my_yes:.2f} ({a.conf})")
+        print("🚦 " + verdict(a.my_yes, yes_price(m), a.conf))
         return 0
 
     s = score(load_log(), _outcome)

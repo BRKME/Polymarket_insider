@@ -177,3 +177,32 @@ def test_queue_json_is_pure_json(monkeypatch, capsys):
     monkeypatch.setattr(br, "load_log", lambda path=None: [])
     assert br.main(["queue", "--json"]) == 0
     json.loads(capsys.readouterr().out)
+
+
+# ── светофор (запрос оператора 04.11: «не понятна рекомендация») ────────────
+# Цвет — сила перекоса (стоит ли тратить внимание), текст — сторона и выгода,
+# если оценка верна. Зелёный только при уверенности не ниже medium: low —
+# это «мало фактов», громко звать по такому нельзя.
+
+def test_verdict_fair_market_is_white():
+    v = br.verdict(0.10, 0.12, "low")
+    assert v.startswith("⚪") and "пропустить" in v.lower()
+
+
+def test_verdict_weak_skew_to_no():
+    v = br.verdict(0.08, 0.14, "low")                 # Россия–Украина 04.11
+    assert v.startswith("🟡") and "NO" in v and "86¢" in v and "+7%" in v
+
+
+def test_verdict_low_conf_never_green():
+    assert br.verdict(0.40, 0.20, "low").startswith("🟡")
+
+
+def test_verdict_strong_skew_to_yes():
+    v = br.verdict(0.45, 0.32, "medium")
+    assert v.startswith("🟢") and "YES" in v and "32¢" in v and "+41%" in v
+
+
+def test_verdict_strong_skew_to_no_high_conf():
+    v = br.verdict(0.20, 0.42, "high")
+    assert v.startswith("🟢") and "NO" in v and "58¢" in v
