@@ -197,12 +197,15 @@ def verdict(my_yes: float, market_yes: float, conf: str) -> str:
 
     Первым словом — вердикт (оператор: «в начале нужен вердикт»):
     ⚪ ПРОПУСТИТЬ, 🟡 НАБЛЮДАТЬ (слабый перекос), 🟢 ПРИСМОТРЕТЬСЯ (сильный).
-    Дальше — сторона, её цена и выгода на вложенный доллар, ЕСЛИ оценка верна. Зелёный — только при
+    Дальше — вероятности в процентах (оператор 05.11: «вероятности в %, а не
+    55 центов»), сторона перекоса и выгода на вложенный доллар, ЕСЛИ оценка
+    верна. Зелёный — только при
     conf medium/high: low значит «фактов мало», звать громко по такому нельзя.
     """
     gap = round((my_yes - market_yes) * 100)
+    probs = f"рынок {market_yes * 100:.0f}% · разбор {my_yes * 100:.0f}%"
     if abs(gap) < FAIR_PP:
-        return f"⚪ ПРОПУСТИТЬ · рынок справедлив (разбор {my_yes * 100:.0f}%)"
+        return f"⚪ ПРОПУСТИТЬ · {probs}"
     if gap > 0:
         side, price, mine = "YES", market_yes, my_yes
     else:
@@ -210,8 +213,7 @@ def verdict(my_yes: float, market_yes: float, conf: str) -> str:
     ev = round((mine / price - 1) * 100)
     strong = abs(gap) >= STRONG_PP and conf in ("medium", "high")
     word = "🟢 ПРИСМОТРЕТЬСЯ" if strong else "🟡 НАБЛЮДАТЬ"
-    return (f"{word} · к {side} по {price * 100:.0f}¢ · перекос {abs(gap)}пп · "
-            f"если оценка верна {ev:+d}%")
+    return f"{word} · {probs} · перекос к {side} · если разбор прав {ev:+d}%"
 
 
 # ── журнал оценок ───────────────────────────────────────────────────────────
