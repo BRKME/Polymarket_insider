@@ -33,3 +33,18 @@ def test_yes_position_gain_counted_correctly():
 def test_no_position_unchanged():
     msg = ds.build_daily_status([_row("NO", 0.52)], price_fn=lambda cid: 0.97)
     assert "в плюсе 1" in msg
+
+
+# ── «Реализовано за 7д» — коротко (05.11: 18 строк в статусе, нечитаемо) ────
+
+def test_realized_block_top3_and_rest():
+    from datetime import datetime, timezone
+    now = datetime(2026, 11, 5, 12, tzinfo=timezone.utc)
+    pos = [{"status": "CLOSED", "title": f"Market {i}", "realized_pnl": pnl,
+            "last_event_at": int(now.timestamp()) - 3600}
+           for i, pnl in enumerate([-54, 21, 19, 2, -3, 7, -4, 16])]
+    block = ds.realized_block(pos, now=now)
+    assert "$+4" in block and "(8 позиц." in block
+    lines = [l for l in block.splitlines() if l.startswith(("🟢", "🔴"))]
+    assert len(lines) == 3 and "Market 0" in lines[0]          # крупнейшие по модулю
+    assert "ещё 5" in block

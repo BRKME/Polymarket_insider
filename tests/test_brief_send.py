@@ -64,3 +64,16 @@ def test_skill_writes_brief_file():
     text = open(os.path.join(root, ".claude/skills/daily-brief/SKILL.md"),
                 encoding="utf-8").read()
     assert "research/briefs/" in text and "[skip ci]" in text
+
+
+def test_notes_never_sent():
+    # 05.11: полный разбор — в research/brief_notes/, в канал только короткий файл
+    assert bs.brief_files(["research/brief_notes/2026-11-05.md",
+                           "research/briefs/2026-11-05.md"]) == ["research/briefs/2026-11-05.md"]
+
+
+def test_skill_compact_format():
+    root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    text = open(os.path.join(root, ".claude/skills/daily-brief/SKILL.md"),
+                encoding="utf-8").read()
+    assert "research/brief_notes/" in text and "Почему:" in text

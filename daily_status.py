@@ -120,6 +120,9 @@ def resolved_positions(positions: List[dict], now=None) -> List[dict]:
     return out
 
 
+REALIZED_SHOW = 3
+
+
 def realized_block(resolved: List[dict], now=None,
                    window_days: int = 7) -> Optional[str]:
     """Блок «Реализовано»: итог завершившихся за окно + строки по позициям.
@@ -151,8 +154,8 @@ def realized_block(resolved: List[dict], now=None,
     if not recent:
         return None
     total = 0.0
-    lines = []
-    for end, p in sorted(recent, key=lambda x: x[0], reverse=True):
+    rows = []
+    for end, p in recent:
         invested = float(p.get("initialValue") or 0)
         if _is_closed(p):
             pnl = float(p.get("realized_pnl") or 0)
@@ -160,9 +163,17 @@ def realized_block(resolved: List[dict], now=None,
             pnl = float(p.get("cashPnl") if p.get("cashPnl") is not None
                         else -invested)
         total += pnl
+        rows.append((pnl, p))
+    # Только 3 крупнейших по модулю: 05.11 блок был в 18 строк — нечитаемо.
+    rows.sort(key=lambda x: abs(x[0]), reverse=True)
+    lines = []
+    for pnl, p in rows[:REALIZED_SHOW]:
         marker = "🟢" if pnl >= 0 else "🔴"
         q = smart_truncate(p.get("title") or "", 44)
         lines.append(f"{marker} {q}  ${pnl:+.0f}")
+    if len(rows) > REALIZED_SHOW:
+        rest = rows[REALIZED_SHOW:]
+        lines.append(f"…и ещё {len(rest)}: ${sum(x[0] for x in rest):+.0f}")
     head = (f"\n🏁 Реализовано за {window_days}д: ${total:+.0f} "
             f"({len(recent)} позиц.)")
     return "\n".join([head] + lines)
