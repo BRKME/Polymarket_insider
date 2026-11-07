@@ -180,8 +180,8 @@ def test_queue_json_is_pure_json(monkeypatch, capsys):
 
 
 # ── светофор (запрос оператора 04.11: «не понятна рекомендация») ────────────
-# Цвет — сила перекоса (стоит ли тратить внимание), текст — сторона и выгода,
-# если оценка верна. Зелёный только при уверенности не ниже medium: low —
+# Цвет — сила перекоса (стоит ли тратить внимание), текст — какая сторона
+# дешевле и сколько она стоит по разбору (оператор 07.11). Зелёный только при уверенности не ниже medium: low —
 # это «мало фактов», громко звать по такому нельзя.
 
 def test_verdict_fair_market_is_white():
@@ -191,7 +191,7 @@ def test_verdict_fair_market_is_white():
 
 def test_verdict_weak_skew_to_no():
     v = br.verdict(0.08, 0.14, "low")                 # Россия–Украина 04.11
-    assert v.startswith("🟡 НАБЛЮДАТЬ") and "к NO" in v and "+7%" in v
+    assert v.startswith("🟡 НАБЛЮДАТЬ") and "NO стоит 86¢, по разбору 92¢" in v
 
 
 def test_verdict_low_conf_never_green():
@@ -200,12 +200,12 @@ def test_verdict_low_conf_never_green():
 
 def test_verdict_strong_skew_to_yes():
     v = br.verdict(0.45, 0.32, "medium")
-    assert v.startswith("🟢 ПРИСМОТРЕТЬСЯ") and "к YES" in v and "+41%" in v
+    assert v.startswith("🟢 ПРИСМОТРЕТЬСЯ") and "YES стоит 32¢, по разбору 45¢" in v
 
 
 def test_verdict_strong_skew_to_no_high_conf():
     v = br.verdict(0.20, 0.42, "high")
-    assert v.startswith("🟢 ПРИСМОТРЕТЬСЯ") and "к NO" in v
+    assert v.startswith("🟢 ПРИСМОТРЕТЬСЯ") and "NO стоит 58¢" in v
 
 
 def test_verdict_word_first_and_short():
@@ -215,9 +215,10 @@ def test_verdict_word_first_and_short():
     assert len(v) < 90
 
 
-def test_verdict_shows_probabilities_not_cents():
-    # оператор 05.11: «желательно видеть вероятности в %, а не 55 центов»
+def test_verdict_probabilities_in_percent_prices_in_cents():
+    # оператор 05.11: вероятности — в %; 07.11: цена стороны — в ¢, как в интерфейсе
     v = br.verdict(0.58, 0.55, "low")
     assert "рынок 55%" in v and "разбор 58%" in v and "¢" not in v
     v = br.verdict(0.08, 0.15, "low")
-    assert "рынок 15%" in v and "разбор 8%" in v and "¢" not in v
+    assert "рынок 15%" in v and "разбор 8%" in v
+    assert "NO стоит 85¢, по разбору 92¢" in v
