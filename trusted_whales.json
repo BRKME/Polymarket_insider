@@ -1,8 +1,14 @@
 [
 {
-"wallet": "0xb0e74df9430a089aa102e2207af5fde1967439d2",
-"name": "0xb0e74DF9430A089Aa1",
-"eff": 63.269,
-"pnl": 435362
+"wallet": "0xfa5f246bb1dbfe039dc7f4d3eede0d9808a86bfe",
+"name": "CryptoScam",
+"eff": 0.468,
+"pnl": 259450
+},
+{
+"wallet": "0x38891af2ad2f103ab8dc896c0243d2646deffe34",
+"name": "pikachu2508",
+"eff": 0.461,
+"pnl": 424974
 }
 ]
