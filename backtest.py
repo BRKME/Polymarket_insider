@@ -328,55 +328,43 @@ def classify_category(q: str) -> str:
 
 
 def fetch_trades_for_market(condition_id: str, min_amount: float = 1000) -> List[Dict]:
-    url = f"{DATA_API_URL}/trades"
+    # Data API v2 через data_api (v1 выключен 02.11.2026): курсор вместо offset,
+    # порядок восстанавливаем сортировкой на клиенте.
+    import data_api
     trades = []
-    
-    for offset in range(0, 5000, 500):
-        try:
-            time.sleep(REQUEST_DELAY)
-            r = requests.get(url, params={
-                "conditionId": condition_id, "limit": 500, "offset": offset,
-                "sortBy": "TIMESTAMP", "sortDirection": "ASC"
-            }, timeout=30)
-            
-            if r.status_code != 200:
-                print(f"[TRADES] Error {r.status_code} for {condition_id[:12]}...")
-                break
-            
-            batch = r.json()
-            if not batch:
-                break
-            
-            for t in batch:
-                size = float(t.get('size', 0))
-                price = float(t.get('price', 0))
-                outcome = t.get('outcome', 'Yes')
-                amount = size * (1 - price) if outcome.lower() == 'no' else size * price
-                
-                # Get timestamp - might be in milliseconds
-                ts = t.get('timestamp', 0)
-                # If timestamp is in milliseconds (13 digits), convert to seconds
-                if ts > 10000000000:
-                    ts = ts // 1000
-                
-                if amount >= min_amount:
-                    trades.append({
-                        'trade_hash': t.get('transactionHash', ''),
-                        'wallet': t.get('proxyWallet', ''),
-                        'condition_id': condition_id,
-                        'timestamp': ts,
-                        'outcome': outcome,
-                        'price': price,
-                        'size': size,
-                        'amount': amount
-                    })
-            
-            if len(batch) < 500:
-                break
-        except Exception as e:
-            print(f"[TRADES] Exception for {condition_id[:12]}...: {e}")
-            break
-    
+    time.sleep(REQUEST_DELAY)
+    batch = data_api.fetch("trades", {"conditionId": condition_id, "limit": 500},
+                           max_rows=5000, timeout=30)
+    if batch is None:
+        print(f"[TRADES] {data_api.LAST_ERROR} for {condition_id[:12]}...")
+        return trades
+    try:
+        for t in sorted(batch, key=lambda t: t.get('timestamp', 0)):
+            size = float(t.get('size', 0))
+            price = float(t.get('price', 0))
+            outcome = t.get('outcome', 'Yes')
+            amount = size * (1 - price) if outcome.lower() == 'no' else size * price
+
+            # Get timestamp - might be in milliseconds
+            ts = t.get('timestamp', 0)
+            # If timestamp is in milliseconds (13 digits), convert to seconds
+            if ts > 10000000000:
+                ts = ts // 1000
+
+            if amount >= min_amount:
+                trades.append({
+                    'trade_hash': t.get('transactionHash', ''),
+                    'wallet': t.get('proxyWallet', ''),
+                    'condition_id': condition_id,
+                    'timestamp': ts,
+                    'outcome': outcome,
+                    'price': price,
+                    'size': size,
+                    'amount': amount
+                })
+    except Exception as e:
+        print(f"[TRADES] Exception for {condition_id[:12]}...: {e}")
+
     return trades
 
 

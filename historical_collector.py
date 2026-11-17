@@ -322,27 +322,30 @@ def fetch_recently_resolved(limit: int = 200) -> List[Dict]:
     return result
 
 
+API_ERRORS = 0      # отказы Data API за прогон
+API_OK = [0]        # успешные ответы за прогон
+
+
 def fetch_recent_trades(condition_id: str, minutes_back: int = COLLECTION_WINDOW_MINUTES) -> List[Dict]:
-    """Fetch recent trades for a market."""
-    url = f"{DATA_API_URL}/trades"
-    
+    """Fetch recent trades for a market (Data API v2 через data_api).
+
+    v1 выключен 02.11.2026: до 17.11 сборщик каждые 10 минут получал пустоту
+    и оставался зелёным. Отказ API теперь считается (API_ERRORS) — collect
+    завершится с ошибкой, если не ответил ни один рынок."""
+    global API_ERRORS
+    import data_api
     cutoff_ts = int((datetime.now(timezone.utc) - timedelta(minutes=minutes_back)).timestamp())
     
     trades = []
     
     try:
         time.sleep(REQUEST_DELAY)
-        response = requests.get(url, params={
-            "conditionId": condition_id,
-            "limit": 500,
-            "sortBy": "TIMESTAMP",
-            "sortDirection": "DESC"
-        }, timeout=30)
-        
-        if response.status_code != 200:
+        batch = data_api.fetch("trades", {"conditionId": condition_id, "limit": 500,
+                                          "start": cutoff_ts}, max_rows=500, timeout=30)
+        if batch is None:
+            API_ERRORS += 1
             return []
-        
-        batch = response.json()
+        API_OK[0] += 1
         
         for t in batch:
             # Parse timestamp (might be milliseconds)
@@ -997,6 +1000,9 @@ if __name__ == "__main__":
     
     if cmd == "collect":
         run_collection()
+        if API_ERRORS and not API_OK[0]:
+            # ни один запрос сделок не прошёл — это отказ API, а не «тихий рынок»
+            sys.exit(f"Data API недоступен: {API_ERRORS} отказов, 0 ответов")
     elif cmd == "stats":
         show_stats()
     elif cmd == "export":

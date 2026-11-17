@@ -266,11 +266,29 @@ def score(rows: List[dict], outcome_fn: Callable[[str], Optional[int]]) -> dict:
             "brier_market": sum((p - y) ** 2 for _, p, y in pairs) / n}
 
 
+def outcome_of(market: Optional[dict], now: datetime) -> Optional[int]:
+    """Исход рынка (1/0) — только если он действительно решён.
+
+    determine_resolution трекера считает решённым любой рынок с ценой ≥99%,
+    даже открытый. Для разбора это рано: «… by December 31», упавший до 1% в
+    ноябре, попал бы в score до срока (аудит 16.11). Засчитываем, если рынок
+    закрыт, либо срок прошёл и цена решающая (оракул ещё не закрыл — НЗ 08.11).
+    """
+    if not market:
+        return None
+    import journal_resolver as jr
+    res = {"Yes": 1, "No": 0}.get(jr._binary_outcome(market))
+    if res is None:
+        return None
+    if market.get("closed") is True:
+        return res
+    end = _end(market)
+    return res if end is not None and end <= now else None
+
+
 def _outcome(cid: str) -> Optional[int]:
     import journal_resolver as jr
-    m = jr._default_fetch(cid)
-    res = jr._binary_outcome(m) if m else None
-    return {"Yes": 1, "No": 0}.get(res)
+    return outcome_of(jr._default_fetch(cid), datetime.now(timezone.utc))
 
 
 # ── CLI ─────────────────────────────────────────────────────────────────────

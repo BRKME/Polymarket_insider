@@ -1,0 +1,27 @@
+name: Brief watch
+
+# Сторож брифинга (16.11.2026): разбор делает сессия Claude вне Actions, и её
+# сбой (лимит, нет права пуша) не виден workflow_watchdog. Через ~1.5 часа
+# после расписания (09:39 МСК) проверяем, что файл брифинга за сегодня есть.
+on:
+  schedule:
+    - cron: '10 8 * * *'     # 11:10 МСК
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install requests
+      - name: Check today's brief
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python3 brief_watch.py
