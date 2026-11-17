@@ -46,6 +46,8 @@ def test_second_brief_of_day_counts(tmp_path):
 def test_brief_watch_scheduled_after_brief():
     yml = open(os.path.join(ROOT, ".github/workflows/brief_watch.yml"), encoding="utf-8").read()
     assert "brief_watch.py" in yml and "cron" in yml
+    # 17.11: брифинг три раза в неделю — сторож проверяет те же дни
+    assert "'10 8 * * 1,3,5'" in yml
 
 
 # ── 2. резолв только после закрытия или срока ───────────────────────────────
