@@ -108,3 +108,67 @@ def test_historical_api_failure_counted(monkeypatch):
     before = hc.API_ERRORS
     assert hc.fetch_recent_trades("0xc") == []
     assert hc.API_ERRORS == before + 1
+
+
+# ── 4. сборщик истории: окно и резолв (проверка 17.11 после аудита) ─────────
+# После перевода на v2 прогон был зелёным, но «+0 trades» на 125 рынках:
+# окно 15 минут при фактическом запуске раз в ~8 часов (GitHub душит cron
+# */10). И за всё время 0 резолвов из 193: поиск по `conditionId` Gamma
+# игнорирует и отдаёт 20 случайных рынков — сборщик брал первый, чужой.
+
+import sqlite3  # noqa: E402
+
+
+def _log_db(tmp_path, run_at):
+    db = tmp_path / "h.db"
+    conn = sqlite3.connect(db)
+    conn.execute("CREATE TABLE collection_log (id INTEGER PRIMARY KEY, run_at TEXT, "
+                 "markets_checked INTEGER, new_trades INTEGER, new_markets INTEGER, "
+                 "resolutions_found INTEGER, duration_seconds REAL)")
+    if run_at:
+        conn.execute("INSERT INTO collection_log (run_at) VALUES (?)", (run_at,))
+    conn.commit()
+    return conn
+
+
+def test_window_covers_gap_since_last_run(tmp_path):
+    import historical_collector as hc
+    now = datetime(2026, 11, 17, 9, 54, tzinfo=timezone.utc)
+    conn = _log_db(tmp_path, "2026-11-17T01:55:16+00:00")
+    w = hc.collection_window_minutes(conn, now)
+    assert 8 * 60 <= w <= 8 * 60 + 15                 # ~8ч разрыв + запас
+
+
+def test_window_capped_and_has_floor(tmp_path):
+    import historical_collector as hc
+    now = datetime(2026, 11, 17, 9, 54, tzinfo=timezone.utc)
+    assert hc.collection_window_minutes(_log_db(tmp_path, None), now) == hc.COLLECTION_WINDOW_MINUTES
+    db2 = tmp_path / "x"; db2.mkdir()
+    old = _log_db(db2, "2026-11-01T00:00:00+00:00")
+    assert hc.collection_window_minutes(old, now) == hc.MAX_WINDOW_MINUTES
+
+
+def test_resolution_lookup_rejects_foreign_market(monkeypatch):
+    import historical_collector as hc
+    import resolution_tracker as rt
+    monkeypatch.setattr(hc.requests, "get", lambda *a, **k: (_ for _ in ()).throw(OSError("offline")))
+    monkeypatch.setattr(rt, "fetch_market_by_condition_id",
+                        lambda cid: {"conditionId": "0xOTHER", "closed": True})
+    assert hc.lookup_market("0xmine", slug="") is None
+
+
+def test_resolution_lookup_accepts_own_market(monkeypatch):
+    import historical_collector as hc
+    import resolution_tracker as rt
+    monkeypatch.setattr(hc.requests, "get", lambda *a, **k: (_ for _ in ()).throw(OSError("offline")))
+    monkeypatch.setattr(rt, "fetch_market_by_condition_id",
+                        lambda cid: {"conditionId": cid, "closed": True})
+    assert hc.lookup_market("0xmine", slug="")["conditionId"] == "0xmine"
+
+
+def test_resolution_does_not_require_resolution_source():
+    import historical_collector as hc
+    m = {"closed": True, "resolutionSource": "", "outcomes": '["Yes","No"]',
+         "outcomePrices": '["0","1"]'}
+    assert hc.winning_outcome(m) == "No"
+    assert hc.winning_outcome(dict(m, closed=False)) is None

@@ -30,7 +30,8 @@ from config import GAMMA_API_URL, DATA_API_URL, REQUEST_DELAY
 
 DB_PATH = Path("historical_data.db")
 MIN_TRADE_AMOUNT = 1000  # $1000 minimum
-COLLECTION_WINDOW_MINUTES = 15  # Look back 15 minutes each run
+COLLECTION_WINDOW_MINUTES = 15  # минимальное окно (и окно первого прогона)
+MAX_WINDOW_MINUTES = 24 * 60    # не дальше суток назад
 
 
 # ══════════════════════════════════════════════════════════════════
@@ -406,6 +407,82 @@ def classify_category(q: str) -> str:
 # MAIN COLLECTION
 # ══════════════════════════════════════════════════════════════════
 
+def collection_window_minutes(conn, now: datetime) -> int:
+    """Окно сбора сделок: от прошлого прогона до сейчас (+5 мин запаса).
+
+    cron */10 GitHub фактически запускает раз в ~8 часов: с окном 15 минут
+    сборщик видел четверть часа из восьми и писал «+0 trades» (проверка
+    17.11). Пол — COLLECTION_WINDOW_MINUTES, потолок — сутки."""
+    try:
+        row = conn.execute("SELECT run_at FROM collection_log ORDER BY id DESC LIMIT 1").fetchone()
+        last = datetime.fromisoformat(row[0]) if row and row[0] else None
+    except Exception:
+        last = None
+    if last is None:
+        return COLLECTION_WINDOW_MINUTES
+    if last.tzinfo is None:
+        last = last.replace(tzinfo=timezone.utc)
+    gap = int((now - last).total_seconds() // 60) + 5
+    return max(COLLECTION_WINDOW_MINUTES, min(MAX_WINDOW_MINUTES, gap))
+
+
+def lookup_market(condition_id: str, slug: str = "") -> Optional[Dict]:
+    """Рынок Gamma по conditionId — только СВОЙ.
+
+    Параметр `conditionId` Gamma игнорирует и отдаёт 20 случайных рынков;
+    сборщик брал первый — чужой открытый рынок, и за всё время не
+    зарезолвил ни одного из 193 (проверка 17.11). Ищем через
+    resolution_tracker (condition_ids, как резолвер журнала) и сверяем ID."""
+    import resolution_tracker as rt
+    candidates = []
+    try:
+        candidates.append(rt.fetch_market_by_condition_id(condition_id))
+    except Exception:
+        pass
+    # Gamma по умолчанию прячет ЗАКРЫТЫЕ рынки — а резолву нужны именно они
+    try:
+        r = requests.get(f"{GAMMA_API_URL}/markets",
+                         params={"condition_ids": condition_id, "closed": "true", "limit": 1},
+                         timeout=15)
+        data = r.json() if r.status_code == 200 else None
+        candidates.append(data[0] if isinstance(data, list) and data else None)
+    except Exception:
+        pass
+    if slug:
+        try:
+            r = requests.get(f"{GAMMA_API_URL}/markets", params={"slug": slug}, timeout=15)
+            data = r.json() if r.status_code == 200 else None
+            candidates.append(data[0] if isinstance(data, list) and data else data)
+        except Exception:
+            pass
+    for m in candidates:
+        if m and str(m.get("conditionId") or "").lower() == condition_id.lower():
+            return m
+    return None
+
+
+def winning_outcome(market: Dict) -> Optional[str]:
+    """Победивший исход закрытого рынка (цена ≥0.95, иначе >0.9) или None.
+
+    resolutionSource больше не требуется: у многих рынков поле пустое, а
+    исход однозначно виден по закрытию и цене (так же резолвит журнал)."""
+    if not market or not market.get("closed"):
+        return None
+    outcomes, prices = market.get("outcomes", []), market.get("outcomePrices", [])
+    try:
+        outcomes = json.loads(outcomes) if isinstance(outcomes, str) else outcomes
+        prices = [float(p) for p in (json.loads(prices) if isinstance(prices, str) else prices)]
+    except (ValueError, TypeError):
+        return None
+    if not prices or len(prices) > len(outcomes):
+        return None
+    for i, p in enumerate(prices):
+        if p >= 0.95:
+            return outcomes[i]
+    best = max(range(len(prices)), key=lambda i: prices[i])
+    return outcomes[best] if prices[best] > 0.9 else None
+
+
 def run_collection():
     """Run one collection cycle."""
     start_time = time.time()
@@ -423,8 +500,9 @@ def run_collection():
         'resolutions_found': 0
     }
     
+    window = collection_window_minutes(conn, datetime.now(timezone.utc))
     print(f"\n{'═'*60}")
-    print(f"HISTORICAL DATA COLLECTION — {now[:19]}")
+    print(f"HISTORICAL DATA COLLECTION — {now[:19]} (окно сделок {window} мин)")
     print('═'*60)
     
     # 1. Fetch active markets + markets closing soon
@@ -476,7 +554,7 @@ def run_collection():
                      (now, m.get('slug', ''), m['condition_id']))
         
         # Fetch trades for this market
-        trades = fetch_recent_trades(m['condition_id'])
+        trades = fetch_recent_trades(m['condition_id'], minutes_back=window)
         
         for t in trades:
             try:
@@ -652,25 +730,7 @@ def run_collection():
         
         try:
             time.sleep(REQUEST_DELAY * 0.3)
-            market = None
-            
-            # Try slug first
-            if slug:
-                url = f"{GAMMA_API_URL}/markets"
-                response = requests.get(url, params={"slug": slug}, timeout=15)
-                if response.status_code == 200:
-                    data = response.json()
-                    if data:
-                        market = data[0] if isinstance(data, list) else data
-            
-            # Fallback to condition_id
-            if not market:
-                url = f"{GAMMA_API_URL}/markets"
-                response = requests.get(url, params={"conditionId": condition_id}, timeout=15)
-                if response.status_code == 200:
-                    data = response.json()
-                    if data:
-                        market = data[0] if isinstance(data, list) else data
+            market = lookup_market(condition_id, slug or "")
             
             if not market:
                 api_errors += 1
@@ -678,57 +738,14 @@ def run_collection():
                     print(f"      [API ERROR] No data for slug={slug}, cid={condition_id[:20]}...")
                 continue
             
-            # Debug: show first successful lookup
-            if checked == 1:
-                print(f"      [DEBUG] First lookup success: closed={market.get('closed')}, resolutionSource={bool(market.get('resolutionSource'))}")
-            
             # Debug: show first few markets
             if checked <= 3:
-                print(f"      [DEBUG] Market {checked}: closed={market.get('closed')}, resolutionSource={market.get('resolutionSource')}, q={question[:40]}...")
+                print(f"      [DEBUG] Market {checked}: closed={market.get('closed')}, q={question[:40]}...")
             
-            # Check if resolved
             if not market.get('closed'):
                 not_closed += 1
                 continue
-            if not market.get('resolutionSource'):
-                no_resolution_source += 1
-                continue
-            
-            # Parse outcomes
-            outcomes = market.get('outcomes', [])
-            if isinstance(outcomes, str):
-                try:
-                    outcomes = json.loads(outcomes)
-                except:
-                    continue
-            
-            outcome_prices = market.get('outcomePrices', [])
-            if isinstance(outcome_prices, str):
-                try:
-                    outcome_prices = json.loads(outcome_prices)
-                except:
-                    continue
-            
-            # Find winner
-            winning = None
-            for i, p in enumerate(outcome_prices):
-                try:
-                    if float(p) >= 0.95 and i < len(outcomes):
-                        winning = outcomes[i]
-                        break
-                except:
-                    pass
-            
-            # Fallback: highest price > 0.9
-            if not winning and outcome_prices and outcomes:
-                try:
-                    prices = [float(p) for p in outcome_prices]
-                    max_idx = max(range(len(prices)), key=lambda i: prices[i])
-                    if prices[max_idx] > 0.9:
-                        winning = outcomes[max_idx]
-                except:
-                    pass
-            
+            winning = winning_outcome(market)
             if not winning:
                 no_winner += 1
                 continue
