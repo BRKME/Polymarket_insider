@@ -10,6 +10,7 @@
     python3 briefing.py queue [--limit N]   рынки на разбор (без ИИ)
     python3 briefing.py log --cid ... --my-yes 0.4 --conf medium --note "..."
     python3 briefing.py score              оценки разбора против рынка
+    python3 briefing.py prune              удалить брифинги и заметки старше 90 дней
 
 Отбор: выборы/геополитика, YES 10-90¢, резолв через 1-60 дней, ликвидность
 ≥ $25k; одна строка на событие (самый ликвидный исход, остальные — списком).
@@ -291,6 +292,36 @@ def _outcome(cid: str) -> Optional[int]:
     return outcome_of(jr._default_fetch(cid), datetime.now(timezone.utc))
 
 
+# ── хранение ────────────────────────────────────────────────────────────────
+
+PRUNE_DIRS = ["research/briefs", "research/brief_notes"]
+KEEP_DAYS = 90
+
+
+def prune(dirs: List[str], now: datetime, keep_days: int = KEEP_DAYS) -> List[str]:
+    """Удалить файлы брифингов и заметок старше keep_days (по дате в имени).
+
+    Оператор 17.11: «сохраняй данные в GitHub, только удаляй через 90 дней».
+    Журнал оценок research/brief_log.jsonl НЕ трогается: это табло разбора,
+    по нему считается score и ворота n ≥ 30."""
+    cutoff = (now - timedelta(days=keep_days)).date()
+    removed = []
+    for d in dirs:
+        try:
+            names = sorted(Path(d).iterdir())
+        except OSError:
+            continue
+        for f in names:
+            try:
+                day = datetime.strptime(f.name[:10], "%Y-%m-%d").date()
+            except ValueError:
+                continue                      # не датированный файл — не наш
+            if f.suffix == ".md" and day < cutoff:
+                f.unlink()
+                removed.append(str(f))
+    return removed
+
+
 # ── CLI ─────────────────────────────────────────────────────────────────────
 
 def _live_markets() -> List[dict]:
@@ -320,6 +351,7 @@ def main(argv=None) -> int:
     lg.add_argument("--conf", choices=["low", "medium", "high"], required=True)
     lg.add_argument("--note", default="")
     sub.add_parser("score")
+    sub.add_parser("prune")
     a = ap.parse_args(argv)
     now = datetime.now(timezone.utc)
 
@@ -347,6 +379,11 @@ def main(argv=None) -> int:
         print(f"записано: {m.get('question', '')[:60]} · рынок {yes_price(m):.2f} · "
               f"разбор {a.my_yes:.2f} ({a.conf})")
         print("🚦 " + verdict(a.my_yes, yes_price(m), a.conf))
+        return 0
+
+    if a.cmd == "prune":
+        removed = prune(PRUNE_DIRS, now)
+        print(f"удалено файлов старше {KEEP_DAYS} дней: {len(removed)}")
         return 0
 
     s = score(load_log(), _outcome)

@@ -38,6 +38,19 @@ jobs:
               echo "retry $i"; sleep 5; git pull --rebase origin main || true
             done
           fi
+      - name: Prune briefs older than 90 days
+        run: |
+          python briefing.py prune
+          git add -A research/briefs research/brief_notes 2>/dev/null || true
+          if git diff --staged --quiet; then
+            echo "Nothing to prune"
+          else
+            git commit -m "chore(brief): удалены брифинги старше 90 дней [skip ci]"
+            for i in 1 2 3; do
+              git push && break
+              echo "retry $i"; sleep 5; git pull --rebase origin main || true
+            done
+          fi
       - name: Daily status
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}

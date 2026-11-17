@@ -222,3 +222,30 @@ def test_verdict_probabilities_in_percent_prices_in_cents():
     v = br.verdict(0.08, 0.15, "low")
     assert "рынок 15%" in v and "разбор 8%" in v
     assert "NO стоит 85¢, по разбору 92¢" in v
+
+
+# ── хранение 90 дней (оператор 17.11: «сохраняй в GitHub, удаляй через 90 дней») ──
+
+def test_prune_removes_only_old_dated_files(tmp_path):
+    b = tmp_path / "briefs"; n = tmp_path / "brief_notes"
+    b.mkdir(); n.mkdir()
+    for d in (b, n):
+        (d / "2026-08-01.md").write_text("old")
+        (d / "2026-11-10.md").write_text("fresh")
+    (b / "2026-08-01-2.md").write_text("old second")
+    (b / "README.md").write_text("keep")
+    removed = br.prune([str(b), str(n)], now=NOW, keep_days=90)
+    assert sorted(os.path.basename(p) for p in removed) == [
+        "2026-08-01-2.md", "2026-08-01.md", "2026-08-01.md"]
+    assert (b / "2026-11-10.md").exists() and (b / "README.md").exists()
+
+
+def test_prune_keeps_exactly_90_days(tmp_path):
+    d = tmp_path / "briefs"; d.mkdir()
+    (d / "2026-08-06.md").write_text("x")        # ровно 90 дней до 04.11
+    assert br.prune([str(d)], now=NOW, keep_days=90) == []
+
+
+def test_log_is_never_pruned():
+    # журнал оценок — табло разбора: без него score теряет историю и n≥30
+    assert "brief_log" not in " ".join(br.PRUNE_DIRS)
