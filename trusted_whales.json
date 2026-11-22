@@ -1,14 +1,14 @@
 [
 {
-"wallet": "0x45185b026c729f2caf1b01f6230db5d22e81db24",
-"name": "VirIntrepidus",
-"eff": 0.31,
-"pnl": 472955
+"wallet": "0xfed8ff0b541ce9a66d632aedebe81bdd1b2c4388",
+"name": "JudgeLance",
+"eff": 0.45,
+"pnl": 398526
 },
 {
-"wallet": "0xfd22b8843ae03a33a8a4c5e39ef1e5ff33ebad91",
-"name": "AML",
-"eff": 0.277,
-"pnl": 359335
+"wallet": "0x018d6c652ca2f1d428a1186faafcf03b537eac8a",
+"name": "GetsOnBase",
+"eff": 0.361,
+"pnl": 545282
 }
 ]
